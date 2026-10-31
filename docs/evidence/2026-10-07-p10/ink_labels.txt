@@ -1,0 +1,2 @@
+C1_l3_120x600 badge2_label: font=6.0 PIL width=72.0 ink width=72 ink x[19,91] y[65,70] label box x[0.0,110.2] y[63.9,72.3] plate x[0.0,110.2] y[60.0,76.2] ink inside label box x: True; inside plate y: True
+C3b_extreme_60x1000 cta_label: font=6.0 PIL width=31.0 ink width=30 ink x[2,32] y[2,9] label box x[1.1,53.6] y[1.1,12.0] plate x[0.0,54.7] y[0.0,13.1] ink inside label box x: True; inside plate y: True

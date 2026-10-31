@@ -1,0 +1,11 @@
+test_all_public_text_is_unclipped (tests_python.test_legal_line_fit.LegalLineFit.test_all_public_text_is_unclipped) ... ok
+test_clip_probe_rejects_same_copy_off_canvas (tests_python.test_legal_line_fit.LegalLineFit.test_clip_probe_rejects_same_copy_off_canvas) ... ok
+test_public_legal_copy_is_fully_visible (tests_python.test_legal_line_fit.LegalLineFit.test_public_legal_copy_is_fully_visible) ... ok
+test_same_copy_with_ample_width_is_clean_positive_control (tests_python.test_legal_line_fit.LegalLineFit.test_same_copy_with_ample_width_is_clean_positive_control) ... ok
+test_source_and_protected_fields_are_preserved (tests_python.test_legal_line_fit.LegalLineFit.test_source_and_protected_fields_are_preserved) ... ok
+test_wrap_transition_has_capacity_for_actual_lines (tests_python.test_legal_line_fit.LegalLineFit.test_wrap_transition_has_capacity_for_actual_lines) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 21.912s
+
+OK

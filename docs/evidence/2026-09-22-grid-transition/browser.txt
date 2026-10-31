@@ -1,0 +1,38 @@
+
+> reflow-studio@0.1.0 preverify:browser
+> npm run font-parity
+
+
+> reflow-studio@0.1.0 font-parity
+> tsx scripts/font-parity.ts
+
+Wrote 150 probes to reports/font-parity/native-metrics.json
+
+> reflow-studio@0.1.0 verify:browser
+> playwright test
+
+[WebServer]
+[WebServer] > reflow-studio@0.1.0 dev
+[WebServer] > vite --host 127.0.0.1 --port 4173 --strictPort
+[WebServer]
+[WebServer] (node:19367) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer]
+[WebServer]   VITE v8.3.0  ready in 120 ms
+[WebServer]
+[WebServer]   ➜  Local:   http://127.0.0.1:4173/
+
+Running 1 test using 1 worker
+
+(node:19368) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 1:21:05 PM [vite] (client) page reload reports/ci/browser-results/.playwright-artifacts-0/traces/resources/1faac0b142fe5a3deb5ba971f3cfd1b9c51742c4.html
+[WebServer] 1:21:05 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 1:21:05 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+[WebServer] 1:21:05 PM [vite] (client) page reload reports/ci/browser-results/.playwright-artifacts-0/traces/resources/1faac0b142fe5a3deb5ba971f3cfd1b9c51742c4.html
+  ✓  1 tests/browser/acceptance.spec.ts:5:1 › real browser acceptance report is complete and all checks pass (2.9s)
+
+  1 passed (6.0s)

@@ -1,0 +1,16 @@
+test_every_text_draws_at_or_above_floor (tests_python.test_extreme_composition.FloorAccounting.test_every_text_draws_at_or_above_floor) ... ok
+test_grouped_plate_and_label_keep_valid_overlap (tests_python.test_extreme_composition.FloorAccounting.test_grouped_plate_and_label_keep_valid_overlap) ... ok
+test_nearby_sizes_stay_at_or_above_floor (tests_python.test_extreme_composition.FloorAccounting.test_nearby_sizes_stay_at_or_above_floor) ... ok
+test_only_font_size_of_the_sliver_labels_changes_geometry_group_rotation_paint_preserved (tests_python.test_extreme_composition.FloorAccounting.test_only_font_size_of_the_sliver_labels_changes_geometry_group_rotation_paint_preserved) ... ok
+test_rotated_ribbon_label_draws_at_or_above_floor (tests_python.test_extreme_composition.FloorAccounting.test_rotated_ribbon_label_draws_at_or_above_floor) ... ok
+test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink (tests_python.test_extreme_composition.RenderedFloor.test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink) ... ok
+test_small_legal_copy_renders_at_floor (tests_python.test_extreme_composition.RenderedFloor.test_small_legal_copy_renders_at_floor) ... ok
+test_floor_exactly_and_above_untouched (tests_python.test_extreme_composition.SliverControls.test_floor_exactly_and_above_untouched) ... ok
+test_outside_epsilon_and_genuine_sub_floor_values_follow_the_fit_gate_only (tests_python.test_extreme_composition.SliverControls.test_outside_epsilon_and_genuine_sub_floor_values_follow_the_fit_gate_only) ... ok
+test_sliver_value_in_fitting_box_is_raised_to_exactly_floor (tests_python.test_extreme_composition.SliverControls.test_sliver_value_in_fitting_box_is_raised_to_exactly_floor) ... ok
+test_sliver_value_in_too_narrow_box_is_not_raised_and_stays_reported (tests_python.test_extreme_composition.SliverControls.test_sliver_value_in_too_narrow_box_is_not_raised_and_stays_reported) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 10.736s
+
+OK

@@ -1,0 +1,125 @@
+{
+  "retrieved_at_utc": "2026-09-27T00:03:49.013697+00:00",
+  "repository": "https://github.com/jhaaj08/chameleon",
+  "commit": "a44a06046b0413f0785e7203955c3822e0acbc32",
+  "provenance": "Linked from official PDF Space, [Final] Chameleon_Challenge_v1.5.pdf page 8",
+  "schema_status": "CHAMELEON Design Document (v0.9 \u2014 provisional, pending Peter's sign-off)",
+  "document_properties": [
+    "canvas",
+    "elements"
+  ],
+  "canvas_properties": [
+    "width",
+    "height"
+  ],
+  "element_properties": [
+    "id",
+    "type",
+    "x",
+    "y",
+    "width",
+    "height",
+    "rotation",
+    "opacity",
+    "z_index",
+    "group_id",
+    "content",
+    "font_family",
+    "font_size",
+    "font_weight",
+    "font_style",
+    "color",
+    "text_align",
+    "line_height",
+    "letter_spacing",
+    "max_lines",
+    "style_runs",
+    "asset_id",
+    "fit",
+    "shape_type",
+    "fill_color",
+    "stroke_color",
+    "stroke_width",
+    "corner_radius"
+  ],
+  "style_run_properties": [
+    "start",
+    "end",
+    "color",
+    "font_weight",
+    "font_style"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "git_blob_sha": "267fa0cbc3f26a4a907cd9dc1399dee6a9361aa8",
+      "sha256": "b68279d46c1b5c8a7d1bac9b3b34b28e0699d0b551707b02947262a201cb1ba0",
+      "bytes": 3928,
+      "url": "https://github.com/jhaaj08/chameleon/blob/a44a06046b0413f0785e7203955c3822e0acbc32/README.md"
+    },
+    {
+      "path": "RULES.md",
+      "git_blob_sha": "3ed50dfd5e3faefa4bdc23c6ea5009f66c75e5b7",
+      "sha256": "91d845b8051158e6ac12934e7e6cdfa36ebb2ce0d3a7f22bc8586b454f0bf2ef",
+      "bytes": 4779,
+      "url": "https://github.com/jhaaj08/chameleon/blob/a44a06046b0413f0785e7203955c3822e0acbc32/RULES.md"
+    },
+    {
+      "path": "FAQ.md",
+      "git_blob_sha": "d64c728a3ec7bce60e00842319fd819b436d9d82",
+      "sha256": "4bc337045527ce8ad7b0047acf1a4d0e439205dbd43c2e80938f714f6359eb71",
+      "bytes": 7192,
+      "url": "https://github.com/jhaaj08/chameleon/blob/a44a06046b0413f0785e7203955c3822e0acbc32/FAQ.md"
+    },
+    {
+      "path": "chameleon_design_schema_v0.9.json",
+      "git_blob_sha": "5c45ec62f9035238c7b2173bf97d72cdf5c591a1",
+      "sha256": "14d97d48c4f00357f7f27d2e8000ef9cc8778cac7cd5a621ed7e1261f949820d",
+      "bytes": 5541,
+      "url": "https://github.com/jhaaj08/chameleon/blob/a44a06046b0413f0785e7203955c3822e0acbc32/chameleon_design_schema_v0.9.json"
+    },
+    {
+      "path": "requirements.txt",
+      "git_blob_sha": "17dab1410b2eb1c97f427853c50cd72fade71c76",
+      "sha256": "1d93332dff9867a1fd50e661735bb569e2e4a0337d98a4f9ae66328f17a7ac5c",
+      "bytes": 64,
+      "url": "https://github.com/jhaaj08/chameleon/blob/a44a06046b0413f0785e7203955c3822e0acbc32/requirements.txt"
+    },
+    {
+      "path": "Dockerfile",
+      "git_blob_sha": "c395a1b41a752565c713e0b270591a9d87d2f941",
+      "sha256": "ec9d98805c153bbb567defcf61c30dc579cc39bc1d7273ccc4355e485fc52b20",
+      "bytes": 1189,
+      "url": "https://github.com/jhaaj08/chameleon/blob/a44a06046b0413f0785e7203955c3822e0acbc32/Dockerfile"
+    },
+    {
+      "path": "engine/main.py",
+      "git_blob_sha": "f9081cedde7d353835ff7015a8da86e309fd1dac",
+      "sha256": "cb7d3518ba4ff5bfe07b5f8971aa9d34592dd51d77a1ae45cd2a140dbe72191d",
+      "bytes": 5485,
+      "url": "https://github.com/jhaaj08/chameleon/blob/a44a06046b0413f0785e7203955c3822e0acbc32/engine/main.py"
+    },
+    {
+      "path": "renderer/converter/convert.py",
+      "git_blob_sha": "c2cfb56dd8a906072a6ba47cda9b689ecfe842f5",
+      "sha256": "2d4f68984f1cdfe41a068d477270aedfd07f9d35a22ef61a1399ebd4774d0cde",
+      "bytes": 10464,
+      "url": "https://github.com/jhaaj08/chameleon/blob/a44a06046b0413f0785e7203955c3822e0acbc32/renderer/converter/convert.py"
+    },
+    {
+      "path": "renderer/converter/brand_fonts.py",
+      "git_blob_sha": "0e66dfc680106a9c47bf27b7020f7af6cb1680d6",
+      "sha256": "c4f58d99767c7a770d731080c6bccc16334dc1058ac959747b6d0d3867c9d0a5",
+      "bytes": 2710,
+      "url": "https://github.com/jhaaj08/chameleon/blob/a44a06046b0413f0785e7203955c3822e0acbc32/renderer/converter/brand_fonts.py"
+    },
+    {
+      "path": "brand_kit/README.md",
+      "git_blob_sha": "1a6bb62a5144fb8d8778083bc49966a51d6287e5",
+      "sha256": "3ceaa09f5da84719c66d682a29a56d225f969fd2edc4b38c0a9147fb3855ecf2",
+      "bytes": 1999,
+      "url": "https://github.com/jhaaj08/chameleon/blob/a44a06046b0413f0785e7203955c3822e0acbc32/brand_kit/README.md"
+    }
+  ],
+  "validation_scope": "Read-only source inspection; no dependency installation or renderer/host execution."
+}

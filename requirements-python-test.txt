@@ -1,0 +1,4 @@
+# Submission pins plus synthetic TTF generation for renderer/metric regression controls.
+-r requirements-python-submission.txt
+-c constraints-python-submission.txt
+fonttools==4.66.1

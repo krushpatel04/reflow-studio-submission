@@ -1,0 +1,101 @@
+name: Python submission qualification
+run-name: Python submission / ${{ github.event_name }}
+
+# OF-01. pull_request is the first trigger: a brand-new workflow cannot be dispatched until it is on main.
+# Slice 1 records hosted Docker capability only; it is not image proof.
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - .github/workflows/python-submission.yml
+      - scripts/qualify_python_submission.py
+      - scripts/offline_submission_smoke.py
+      - tests_python/test_qualification.py
+      - tests_python/test_offline_smoke.py
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: python-submission-${{ github.ref }}-${{ github.event_name }}
+  cancel-in-progress: true
+
+jobs:
+  capability:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # moving v6 tag, same pin as ci.yml
+        with:
+          python-version: '3.11'
+      - name: Host-only qualification tests
+        timeout-minutes: 3
+        run: python -m unittest tests_python.test_qualification tests_python.test_offline_smoke -v
+      - name: Record hosted Docker capability
+        timeout-minutes: 3
+        run: python scripts/qualify_python_submission.py capability --runtime docker --out reports/of-01
+      - name: Print capability evidence (artifact storage quota fallback)
+        if: always()
+        run: |
+          test -d reports/of-01 || exit 0
+          echo '-----BEGIN CAPABILITY-----'
+          for f in reports/of-01/*.json; do echo "== $f"; cat "$f"; done
+          echo '-----END CAPABILITY-----'
+      - name: Retain capability evidence, including failures
+        if: always()
+        continue-on-error: true  # quota fallback: the evidence is in the log above; the upload must not block the image job
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
+        with:
+          name: python-submission-capability-${{ github.run_id }}-${{ github.run_attempt }}
+          path: reports/of-01/
+          if-no-files-found: warn
+          retention-days: 14
+
+  image:
+    # Builds Dockerfile.python-submission at this exact SHA on the hosted runner and runs smoke + four controls.
+    # Qualifies this SHA only; the final integrated SHA must be re-run.
+    needs: capability
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    env:
+      CHAMELEON_UPSTREAM: ${{ github.workspace }}/.cache/chameleon
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # moving v6 tag, same pin as ci.yml
+        with:
+          python-version: '3.11'
+      - name: Fetch pinned starter (read-only input, never committed)
+        timeout-minutes: 3
+        run: |
+          git clone https://github.com/jhaaj08/chameleon.git "$CHAMELEON_UPSTREAM"
+          git -C "$CHAMELEON_UPSTREAM" checkout --detach a44a06046b0413f0785e7203955c3822e0acbc32
+          test "$(git -C "$CHAMELEON_UPSTREAM" rev-parse HEAD)" = a44a06046b0413f0785e7203955c3822e0acbc32
+      - name: Qualify the image at this SHA (build, smoke, controls, fingerprint)
+        timeout-minutes: 30
+        run: python scripts/qualify_python_submission.py image --runtime docker --upstream "$CHAMELEON_UPSTREAM" --out reports/of-01/image
+      - name: Print image qualification evidence (artifact storage quota fallback)
+        if: always()
+        run: |
+          test -d reports/of-01/image || exit 0
+          echo '-----BEGIN QUALIFICATION-----'
+          cat reports/of-01/image/qualification.json 2>/dev/null || echo 'qualification.json missing'
+          echo '-----END QUALIFICATION-----'
+          echo '-----BEGIN EVIDENCE TAR-----'
+          tar -czf - -C reports/of-01/image . | base64 -w 76
+          echo
+          echo '-----END EVIDENCE TAR-----'
+      - name: Retain image qualification evidence, including failures
+        if: always()
+        continue-on-error: true  # quota fallback: the evidence is in the log above
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
+        with:
+          name: python-submission-image-${{ github.run_id }}-${{ github.run_attempt }}
+          path: reports/of-01/image/
+          if-no-files-found: warn
+          retention-days: 14

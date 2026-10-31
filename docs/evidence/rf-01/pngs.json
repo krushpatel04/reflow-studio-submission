@@ -1,0 +1,138 @@
+{
+ "_probe_overflow": {
+  "narrow_60": {
+   "overflow": true,
+   "overflow_px": 1346
+  },
+  "wide_360": {
+   "overflow": false,
+   "overflow_px": 0
+  }
+ },
+ "clip_control_real.png": {
+  "bbox": [
+   23,
+   33,
+   238,
+   62
+  ],
+  "ink_px": 2240,
+  "sha256": "2a5bd79e0e07a4e68e162415a0793f2f474d64ec67e1bdf3fa9e286f4383a5d3",
+  "size": [
+   400,
+   200
+  ]
+ },
+ "clip_failure_padded.png": {
+  "bbox": [
+   83,
+   233,
+   298,
+   262
+  ],
+  "ink_px": 2240,
+  "sha256": "c6aaf74e4eaf0e8f306f42df5f64ca8ada148735ce7c8286259519535f1bfc95",
+  "size": [
+   800,
+   600
+  ]
+ },
+ "clip_failure_real.png": {
+  "bbox": [
+   0,
+   33,
+   98,
+   62
+  ],
+  "ink_px": 1069,
+  "sha256": "9942ac79d7dce7d7a2574f2ad3c3ddede388a6c46d863b494088f15241712328",
+  "size": [
+   400,
+   200
+  ]
+ },
+ "overflow_control_boxed.png": {
+  "bbox": [
+   20,
+   20,
+   181,
+   421
+  ],
+  "ink_px": 5426,
+  "sha256": "abfb05720cd097c641e715e4a54d20e2a4407d623cd347fe274fa691ab4f41a0",
+  "size": [
+   400,
+   500
+  ]
+ },
+ "overflow_failure_boxed.png": {
+  "bbox": [
+   20,
+   20,
+   181,
+   139
+  ],
+  "ink_px": 3921,
+  "sha256": "00ae41e62162c4dd9c703e3c674b33ad0f5238098df9cc795271fbce8f2c9431",
+  "size": [
+   400,
+   500
+  ]
+ },
+ "overflow_text.png": {
+  "bbox": [
+   21,
+   27,
+   172,
+   139
+  ],
+  "ink_px": 3214,
+  "sha256": "2b2e1566acd38f1dcd6efe36a449b3f4b8aaab220e88353994b8ccc3499b8bdd",
+  "size": [
+   400,
+   500
+  ]
+ },
+ "wrap_fail_narrow_box.png": {
+  "bbox": [
+   21,
+   25,
+   238,
+   52
+  ],
+  "ink_px": 1848,
+  "sha256": "0f1c6bc102eda1d39fc476294088b717eaee3b3e91e0bd88183a0a3e66c7b345",
+  "size": [
+   400,
+   120
+  ]
+ },
+ "wrap_fail_narrow_boxed.png": {
+  "bbox": [
+   20,
+   20,
+   238,
+   61
+  ],
+  "ink_px": 2223,
+  "sha256": "8e63c025ad2ed6273408a20249ced31dd5453859612972fde083a61a5c6cc9e8",
+  "size": [
+   400,
+   120
+  ]
+ },
+ "wrap_valid_wide_box.png": {
+  "bbox": [
+   21,
+   25,
+   238,
+   52
+  ],
+  "ink_px": 1848,
+  "sha256": "0f1c6bc102eda1d39fc476294088b717eaee3b3e91e0bd88183a0a3e66c7b345",
+  "size": [
+   400,
+   120
+  ]
+ }
+}

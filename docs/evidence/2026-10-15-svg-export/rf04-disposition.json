@@ -1,0 +1,183 @@
+{
+  "track": "export-29",
+  "checked_source": "8ac29a0103bdb8c092c59ab88160a5a58952181a",
+  "identity_source": "docs/evidence/astra-quality-judge-2026-10-11/pair-audit-receipt.json",
+  "identity_source_sha256": "01a3963ad8f55ca8a01dfa1071a1e2654538437942a7b2e477914cebc5713d5d",
+  "expected_tasks": 21,
+  "execution_complete": false,
+  "inputs_available_in_this_worktree": "not established",
+  "executor": "scripts/quality/dev_report.py is preflight only; ready execution path not established",
+  "rows": [
+    {
+      "version": "development-v3",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "task_id": "lica-4WR6DyGuWK7GRAxLeJjl-1080x1080",
+      "task_sha256": "7a5bb1f4d748d0a7c58374d10ce43969c771ffc4712d1a933bcf612b4f8c0307",
+      "status": "deferred_no_verified_current_executor_and_input_binding",
+      "judgment": null
+    },
+    {
+      "version": "development-v3",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "task_id": "lica-4WR6DyGuWK7GRAxLeJjl-1080x1920",
+      "task_sha256": "ba35cd4cea7328c5a798af8e18f63b5e367b82581d3704db0311ab4be6c2df0a",
+      "status": "deferred_no_verified_current_executor_and_input_binding",
+      "judgment": null
+    },
+    {
+      "version": "development-v3",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "task_id": "lica-4WR6DyGuWK7GRAxLeJjl-1920x1080",
+      "task_sha256": "5ee159c9eb903abef691c823764552bd8afbea45913cf66c14c594ffe328e2f5",
+      "status": "deferred_no_verified_current_executor_and_input_binding",
+      "judgment": null
+    },
+    {
+      "version": "development-v3",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "task_id": "lica-4WR6DyGuWK7GRAxLeJjl-1080x1350",
+      "task_sha256": "2b87abaf6db28d8f6b0e4507fee4c1367cc7883814b6bd0322bc26d1c7d56233",
+      "status": "deferred_no_verified_current_executor_and_input_binding",
+      "judgment": null
+    },
+    {
+      "version": "development-v3",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "task_id": "lica-4WR6DyGuWK7GRAxLeJjl-1500x500",
+      "task_sha256": "d12d49ebea5db8ae56ca84787b2783f8dba41489227c920ffb3c6dc679bf6c2d",
+      "status": "deferred_no_verified_current_executor_and_input_binding",
+      "judgment": null
+    },
+    {
+      "version": "development-v3",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "task_id": "lica-4WR6DyGuWK7GRAxLeJjl-728x90",
+      "task_sha256": "a1acf71a980db0fc7e0fdb92690c681925a80212a8fed6cd755f668fecde2f96",
+      "status": "deferred_no_verified_current_executor_and_input_binding",
+      "judgment": null
+    },
+    {
+      "version": "development-v3",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "task_id": "lica-4WR6DyGuWK7GRAxLeJjl-160x600",
+      "task_sha256": "1832d76dce893f621eee3796a2bd36412835cd6119907e98b330034b34243dd7",
+      "status": "deferred_no_verified_current_executor_and_input_binding",
+      "judgment": null
+    },
+    {
+      "version": "development-v4-revision-2",
+      "source": "6lTuObn2CUHywDvwyuY5",
+      "task_id": "lica-6lTuObn2CUHywDvwyuY5-1080x1080",
+      "task_sha256": "7351f5c2c20cd9da302607493aa10866d0245dbbf3950bbdf38e4297e7a3cc50",
+      "status": "deferred_no_verified_current_executor_and_input_binding",
+      "judgment": null
+    },
+    {
+      "version": "development-v4-revision-2",
+      "source": "6lTuObn2CUHywDvwyuY5",
+      "task_id": "lica-6lTuObn2CUHywDvwyuY5-1080x1920",
+      "task_sha256": "c88cd2c7bb68ba1fb30184a17b5fe79754173760c54323e637cd9d1abea61966",
+      "status": "deferred_no_verified_current_executor_and_input_binding",
+      "judgment": null
+    },
+    {
+      "version": "development-v4-revision-2",
+      "source": "6lTuObn2CUHywDvwyuY5",
+      "task_id": "lica-6lTuObn2CUHywDvwyuY5-1920x1080",
+      "task_sha256": "759512468b7000a3d2636f63c3f0c8b0e368b9a73224b7f68f6f47e95d58d364",
+      "status": "deferred_no_verified_current_executor_and_input_binding",
+      "judgment": null
+    },
+    {
+      "version": "development-v4-revision-2",
+      "source": "6lTuObn2CUHywDvwyuY5",
+      "task_id": "lica-6lTuObn2CUHywDvwyuY5-1080x1350",
+      "task_sha256": "59e16d7ddc2420e8c091592308877ef61b2f41b320b13aa5467f10054dd22e97",
+      "status": "deferred_no_verified_current_executor_and_input_binding",
+      "judgment": null
+    },
+    {
+      "version": "development-v4-revision-2",
+      "source": "6lTuObn2CUHywDvwyuY5",
+      "task_id": "lica-6lTuObn2CUHywDvwyuY5-1500x500",
+      "task_sha256": "3ef1abf5ffc03a8299adea95e08251eed41b06fa62827e92750f197d87883516",
+      "status": "deferred_no_verified_current_executor_and_input_binding",
+      "judgment": null
+    },
+    {
+      "version": "development-v4-revision-2",
+      "source": "6lTuObn2CUHywDvwyuY5",
+      "task_id": "lica-6lTuObn2CUHywDvwyuY5-728x90",
+      "task_sha256": "4be488df97a795058a759fe3dd16baf78c542bf9370d25aaae3cf11aa2574c73",
+      "status": "deferred_no_verified_current_executor_and_input_binding",
+      "judgment": null
+    },
+    {
+      "version": "development-v4-revision-2",
+      "source": "6lTuObn2CUHywDvwyuY5",
+      "task_id": "lica-6lTuObn2CUHywDvwyuY5-160x600",
+      "task_sha256": "eecde9077184492805bc59934a6dea1ce3cb18c786139a81b8394833f6ca7df4",
+      "status": "deferred_no_verified_current_executor_and_input_binding",
+      "judgment": null
+    },
+    {
+      "version": "development-v4-revision-2",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "task_id": "lica-58KCTYpSufDKLTfdYrbJ-1080x1080",
+      "task_sha256": "af343f566ec975232df10c55f23708978177c85d20325678a483075d3a6a7a96",
+      "status": "deferred_no_verified_current_executor_and_input_binding",
+      "judgment": null
+    },
+    {
+      "version": "development-v4-revision-2",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "task_id": "lica-58KCTYpSufDKLTfdYrbJ-1080x1920",
+      "task_sha256": "c1d2c4707b0914793d2bc2906e27cef0adfed3a6cbd340348101848bbb283d3c",
+      "status": "deferred_no_verified_current_executor_and_input_binding",
+      "judgment": null
+    },
+    {
+      "version": "development-v4-revision-2",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "task_id": "lica-58KCTYpSufDKLTfdYrbJ-1920x1080",
+      "task_sha256": "d906fb65c92edc0bd6539d601a40db45f7eeda9fe5867c5ea721f5f4a6ed1996",
+      "status": "deferred_no_verified_current_executor_and_input_binding",
+      "judgment": null
+    },
+    {
+      "version": "development-v4-revision-2",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "task_id": "lica-58KCTYpSufDKLTfdYrbJ-1080x1350",
+      "task_sha256": "1ae99a902fd78d1986ed2783e137aa07433af5385fcbfdc144d540c1b5b02026",
+      "status": "deferred_no_verified_current_executor_and_input_binding",
+      "judgment": null
+    },
+    {
+      "version": "development-v4-revision-2",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "task_id": "lica-58KCTYpSufDKLTfdYrbJ-1500x500",
+      "task_sha256": "076fe4ebc9457ffdb751f2c217ab7130b871eed2827c38ad0f7c49ea78b55a36",
+      "status": "deferred_no_verified_current_executor_and_input_binding",
+      "judgment": null
+    },
+    {
+      "version": "development-v4-revision-2",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "task_id": "lica-58KCTYpSufDKLTfdYrbJ-728x90",
+      "task_sha256": "fd4b7959cb44003e792c1ea318a82cf35cad7ce4badf08516734f6065debdf92",
+      "status": "deferred_no_verified_current_executor_and_input_binding",
+      "judgment": null
+    },
+    {
+      "version": "development-v4-revision-2",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "task_id": "lica-58KCTYpSufDKLTfdYrbJ-160x600",
+      "task_sha256": "c8722532a062c8b337c06be658ba511db8f400c3cbc450e49d7f6841e4f9dd25",
+      "status": "deferred_no_verified_current_executor_and_input_binding",
+      "judgment": null
+    }
+  ],
+  "historical_conversion_acceptance": "preserved; not resize quality",
+  "human_judgments": 0,
+  "next_owner_action": "RF04 producer supplies accepted input bindings and existing genuine executor, with all 21 outcomes retained"
+}

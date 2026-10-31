@@ -1,0 +1,55 @@
+✔ after-dark: nearby width/height sweep retains composition (23.9795ms)
+✔ long-headline: nearby width/height sweep retains composition (13.719708ms)
+✔ dense-program: nearby width/height sweep retains composition (17.527375ms)
+✔ grouped-details: nearby width/height sweep retains composition (8.173416ms)
+✔ intentional-overlap: nearby width/height sweep retains composition (7.576208ms)
+✔ layered-art: nearby width/height sweep retains composition (3.00575ms)
+✔ product-pairs: nearby width/height sweep retains composition (43.341291ms)
+✔ quiet-brand: nearby width/height sweep retains composition (4.818708ms)
+✔ edge-subject: nearby width/height sweep retains composition (3.636875ms)
+✔ type-pairing: nearby width/height sweep retains composition (4.691459ms)
+✔ large format change can trade composition for materially better reading size (1.263708ms)
+✔ wide gallery becomes readable at a tall aspect ratio instead of retaining a tiny letterboxed caption (24.847042ms)
+✔ scale, metadata and ID changes do not change a nearby composition decision (1.046833ms)
+✔ text-free design preserves its composition instead of maximizing coverage (0.88525ms)
+✔ source-aware ranking prefers established relations over unnecessary font enlargement (0.515166ms)
+✔ hard preservation errors outrank a composition-perfect candidate (0.639042ms)
+✔ uniform scaling and letterboxing introduce no source-relation loss at any supported ratio (2.837166ms)
+✔ additional readable or empty text cannot hide an unreadable caption (0.102167ms)
+✔ candidate order does not change a source-aware selection (2.312083ms)
+✖ a one-pixel move past square does not discard a healthy four-product row (108.624ms)
+✔ four-product row still yields to a larger-photo story and a source-like wide format (93.123ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 20
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 989.015458
+
+✖ failing tests:
+
+test at tests/stability.test.ts:137:1
+✖ a one-pixel move past square does not discard a healthy four-product row (108.624ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+
+  + 'group-grid-3'
+  - 'group-grid-4'
+                ^
+
+      at TestContext.<anonymous> (/Users/ojeda/Documents/ChatGPT/Reflow/tests/stability.test.ts:142:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'group-grid-3',
+    expected: 'group-grid-4',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

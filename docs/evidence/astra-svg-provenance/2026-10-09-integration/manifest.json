@@ -1,0 +1,69 @@
+{
+  "base": "8d88e386e976dfac4594e182eaa8968093e03913",
+  "current_origin_main": "8d88e386e976dfac4594e182eaa8968093e03913",
+  "current_main_resources_sha256": "249512a660d1816db1505b69f7890231d82299122b0654f2f743e24e9e214663",
+  "current_main_resources_matches_tested_baseline": true,
+  "branch": "jo/svg-resource-associations",
+  "prior_proposal_sha256": "4fc5a7bd68313d86d2ba13a63aa8d777a952707fe14477be214f47d2698ef004",
+  "targeted_change": "capture required chromium_version before publication; add one test-first regression",
+  "tests": {
+    "baseline_tests": 19,
+    "baseline_semantic_failures": 10,
+    "baseline_errors": 0,
+    "review_regression_red": 1,
+    "final_green": 20,
+    "existing_lightweight_compatibility_green": 5
+  },
+  "files": [
+    {
+      "path": "scripts/lica_official/resources.py",
+      "bytes": 8298,
+      "sha256": "18f32600524d44b3c2edb3dbb8d3b6e37c8dde69d5dfab728bacff5e0562a815"
+    },
+    {
+      "path": "tests_python/test_svg_derivative_provenance.py",
+      "bytes": 11690,
+      "sha256": "195f6ff4d97d3a9ca7f4590b587424801eecc7aa95e827b4056ac0a63201a785"
+    },
+    {
+      "path": "docs/plans/astra-svg-integration-2026-10-09.md",
+      "bytes": 5809,
+      "sha256": "9f5397f383c51bd467410672565b01c412bbd2da0520ebbe113c107d80621634"
+    },
+    {
+      "path": "reports/astra-svg-provenance/integration.diff",
+      "bytes": 16318,
+      "sha256": "829710a0ff8a0c1dd0233b3b94e333a6b86b580a015e2e7b930fe3190684b5ab"
+    },
+    {
+      "path": "docs/evidence/astra-svg-provenance/2026-10-09-integration/atomicity-red.log",
+      "bytes": 1026,
+      "sha256": "510aff7da1522c96d74d77a4781228f5b85b15b6e101f7ffc4ae82f1f49cf992"
+    },
+    {
+      "path": "docs/evidence/astra-svg-provenance/2026-10-09-integration/integration-compatibility.log",
+      "bytes": 814,
+      "sha256": "61d8e2d26013efb82c80ac00ad57c76768ee104740a0a694a996b401144a3689"
+    },
+    {
+      "path": "docs/evidence/astra-svg-provenance/2026-10-09-integration/integration-green-final.log",
+      "bytes": 3627,
+      "sha256": "e8751e8595a3400fe0fb095d0c858e71f9a4428f8d4af87eb1cb82ddcfe930c9"
+    },
+    {
+      "path": "docs/evidence/astra-svg-provenance/2026-10-09-integration/integration-green.log",
+      "bytes": 3414,
+      "sha256": "7c15a9fcfd8ef31fa007e227102cf6a74a6a45085a9b056976aa1ad21b3bb433"
+    },
+    {
+      "path": "docs/evidence/astra-svg-provenance/2026-10-09-integration/integration-red.log",
+      "bytes": 11274,
+      "sha256": "da84c6ecf67077e03ff7f52dd581018d6997c2f9cb0110c906a040c7ce2a0725"
+    },
+    {
+      "path": "docs/evidence/astra-svg-provenance/2026-10-09-integration/README.md",
+      "bytes": 6908,
+      "sha256": "43d495edb5f0a358e96cd98c2c33ec33b3ef75bff64298d3ac6b78113ddbf3fd"
+    }
+  ]
+}

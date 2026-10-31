@@ -1,0 +1,18 @@
+# R4: case ledger, P4 vs P5 vs corrected (P5b) on the genuine renderer
+
+Branch jo/reflow-milestone-python-r4-case-ledger, base main d48a548. Evidence/docs only; no engine edits. A defect found is recorded, not fixed.
+Public samples are development evidence, not qualification. Claims are bounded to the measured geometry and pixels below; no layout-quality or score claim.
+1. Variants (engine code only, same fonts/assets/renderer): P4 = 4c86006 (resize.py), P5 = 79b18b3 (detaches groups, blocked), P5b = d48a548 (main).
+2. Public cases: L1 1080x1080->1080x1350, L2 1080x1080->1600x400, L3 1080x1350->728x90 (upstream a44a060 input/).
+3. Synthetic cases (built in the driver, stdlib JSON): S1 group plate+label on a narrow 120x600 target; S2 rotated group (-12 deg) on 728x90; S3 extreme 1200x1200->1000x60 with ungrouped texts; S4 extreme tall 1000x1000->60x1000.
+4. Run: each variant is `git archive`d to a temp dir and run through its own tests_python/run_official_samples.sh pipeline for L1-L3, and through a driver that calls the same upstream renderer path for S1-S4. Proof per run: 3 (or N) REAL, 0 FALLBACK.
+5. Outputs per case and variant: output JSON, rendered PNG, sha256 of both, exit code, stderr/warnings. Failures are kept verbatim under docs/evidence/2026-10-06-r4/ (failed/ subdir), never dropped.
+6. Per-text ledger columns: id, group, rotation, px, Pillow-predicted line count and width (brand_kit TTF), RENDERED ink bounds measured from the PNG inside the element's rotated box (rows/cols whose pixels differ from local background), ratio rendered/predicted width.
+7. Geometry facts per case (measured, no quality claim): min font px, texts below 6px, labels inside plate (yes/no), rotated aabb inside canvas, text/text overlap, ink touching the canvas border.
+8. Pass criteria (bounded): variant runs exit 0 with REAL renderer; ids/fields preserved (cmp with the test-suite invariants); P5b groups contained and rotated boxes in canvas on S1/S2; ledger ratio reported as measured, no tolerance claim. P5 is expected to show group detachment; that is recorded as a result, not a failure of R4.
+9. Visuals: ALL PNGs kept (public and synthetic, every variant, incl. failures); before/after pairs listed in ledger.md. I report measured numbers and what I looked at; Reviewer judges group association, clipping, overflow.
+10. Ink-bound (approximate): inside the element's box (rotated aabb), background = per-pixel median colour of the box border ring (2px outside the box, clipped to canvas); ink = pixels with RGB distance > 40 from it. Plate/image/gradient bg: ring median is a single colour, so gradients and images make the bound LOOSE; text-on-plate uses the plate's own ring-inside colour. Text/text or plate overlap (other element box intersecting the ring or box): ratio = UNRELIABLE. Rotated ink (S2, -12 deg): the axis-aligned bound is loose; report it as upper bound, ratio UNRELIABLE unless the ink is de-rotated about the box centre first (then reported as such). Ambiguous = UNRELIABLE, never forced to a number.
+11. Group metric from rendered pixels: label ink bound inside plate ink bound (yes/no) and plate/label rotation estimated from the ink principal axis (deg), compared with the JSON rotation. Reported as measured; not a pass/fail claim beyond the criteria in 8.
+12. Provenance per variant: sha256 of engine files, brand_kit fonts, input assets, renderer (cr_renderer module and converter) recorded in provenance.txt; all three variants must show identical fonts/assets/renderer hashes.
+13. Limits: single machine, one font set; Pillow metrics approximate the renderer; ink bounds approximate (thin glyphs, overlapping artwork); no layout-quality or score claim.
+

@@ -1,0 +1,76 @@
+{
+ "schemaVersion": "reflow.corpus-splits.v1",
+ "targetsSha256": "9d4bf17d204b5327fd0eab9ab0cf4ae7bb255384ac706befa0a2056c2b1bc453",
+ "importConfig": {
+  "seed": 20260922,
+  "maxLayouts": 30,
+  "maxTemplates": 10,
+  "perTemplate": 4,
+  "minTextOverImage": 3,
+  "categoryShare": 0.3333333333333333
+ },
+ "importConfigSha256": "583feec17ba60583590020a0eab292e2e9e7cc2f2c0ad7c679bf8c8e2ac1414b",
+ "families": [
+  {
+   "id": "lica-69a274dd-7f45-4883-8965-f27390a27179",
+   "split": "development",
+   "templateId": "lica:69a274dd-7f45-4883-8965-f27390a27179",
+   "exposure": "seen"
+  },
+  {
+   "id": "lica-203e4c31-a5c4-463c-83fc-9b511c6e07a7",
+   "split": "development",
+   "templateId": "lica:203e4c31-a5c4-463c-83fc-9b511c6e07a7",
+   "exposure": "seen"
+  },
+  {
+   "id": "lica-821bd959-68c9-4a92-8ac3-2eb77d968a1e",
+   "split": "validation",
+   "templateId": "lica:821bd959-68c9-4a92-8ac3-2eb77d968a1e",
+   "exposure": "seen"
+  },
+  {
+   "id": "lica-af4e202d-aa8d-a10c-a721-a0b77deda08c",
+   "split": "development",
+   "templateId": "lica:af4e202d-aa8d-a10c-a721-a0b77deda08c",
+   "exposure": "seen"
+  },
+  {
+   "id": "lica-920c5b53-8e0d-431a-bc2a-afd5f36f5a6c",
+   "split": "development",
+   "templateId": "lica:920c5b53-8e0d-431a-bc2a-afd5f36f5a6c",
+   "exposure": "seen"
+  },
+  {
+   "id": "lica-2e4cd7af-488c-4483-b3d4-9d305ccef400",
+   "split": "validation",
+   "templateId": "lica:2e4cd7af-488c-4483-b3d4-9d305ccef400",
+   "exposure": "seen"
+  },
+  {
+   "id": "lica-00efc51e-f6b6-411b-a0cd-3227703b1129",
+   "split": "development",
+   "templateId": "lica:00efc51e-f6b6-411b-a0cd-3227703b1129",
+   "exposure": "seen"
+  },
+  {
+   "id": "lica-a902e896-7baa-4f3e-b5ab-aba3173990e7",
+   "split": "development",
+   "templateId": "lica:a902e896-7baa-4f3e-b5ab-aba3173990e7",
+   "exposure": "seen"
+  },
+  {
+   "id": "lica-a0a00d69-8655-4fb5-8a02-8027c3d5bd7e",
+   "split": "development",
+   "templateId": "lica:a0a00d69-8655-4fb5-8a02-8027c3d5bd7e",
+   "exposure": "seen"
+  },
+  {
+   "id": "lica-14d370ee-8144-48d7-beff-3376a627bc13",
+   "split": "validation",
+   "templateId": "lica:14d370ee-8144-48d7-beff-3376a627bc13",
+   "exposure": "seen"
+  }
+ ],
+ "migrations": []
+}

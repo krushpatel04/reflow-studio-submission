@@ -1,0 +1,368 @@
+{
+ "schemaVersion": "reflow.design.v0",
+ "id": "lica-1ibPxEGwrCdKqRYTMH0V",
+ "name": "LICA Education 1ibPxEGwrCdKqRYTMH0V",
+ "description": "Converted from LICA layout 1ibPxEGwrCdKqRYTMH0V (template a0a00d69-8655-4fb5-8a02-8027c3d5bd7e).",
+ "provenance": "LICA dataset (LICA WORLD), CC BY 4.0, https://github.com/purvanshi/lica-dataset; converted and modified for Reflow evaluation",
+ "width": 816,
+ "height": 1056,
+ "background": "#fcfcfc",
+ "groups": [],
+ "elements": [
+  {
+   "id": "group-0",
+   "type": "rect",
+   "role": "decoration",
+   "x": 109.333,
+   "y": 511.122,
+   "width": 290.544461494,
+   "height": 93.388288,
+   "color": "#fcfcfc"
+  },
+  {
+   "id": "image-1",
+   "type": "image",
+   "role": "content",
+   "x": 109.333,
+   "y": 511.122,
+   "width": 290.544,
+   "height": 93.3883,
+   "assetId": "a8a8b56a-ab77-4584-ac2f-a2bbdb8b2c71.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "group-2",
+   "type": "rect",
+   "role": "decoration",
+   "x": 109.333,
+   "y": 249.532,
+   "width": 290.54458272,
+   "height": 268.61568,
+   "color": "#2c7dc2"
+  },
+  {
+   "id": "image-3",
+   "type": "image",
+   "role": "content",
+   "x": 109.333,
+   "y": 249.532,
+   "width": 290.544,
+   "height": 268.615,
+   "assetId": "d4e180be-d0c9-4b48-a76a-cae90bf527b2.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "group-4",
+   "type": "rect",
+   "role": "decoration",
+   "x": 416.122,
+   "y": 511.122,
+   "width": 290.544461494,
+   "height": 93.388288,
+   "color": "#fcfcfc"
+  },
+  {
+   "id": "image-5",
+   "type": "image",
+   "role": "content",
+   "x": 416.122,
+   "y": 511.122,
+   "width": 290.544,
+   "height": 93.3883,
+   "assetId": "1a2187ea-d710-4203-9628-df0a8dfc9301.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "group-6",
+   "type": "rect",
+   "role": "decoration",
+   "x": 416.122,
+   "y": 249.532,
+   "width": 290.54458272,
+   "height": 268.61568,
+   "color": "#2c7dc2"
+  },
+  {
+   "id": "image-7",
+   "type": "image",
+   "role": "content",
+   "x": 416.122,
+   "y": 249.532,
+   "width": 290.544,
+   "height": 268.615,
+   "assetId": "4c0c3dca-ca82-4c75-a933-dc949dbe4990.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "group-8",
+   "type": "rect",
+   "role": "decoration",
+   "x": 109.333,
+   "y": 887.945,
+   "width": 290.544461494,
+   "height": 93.388288,
+   "color": "#fcfcfc"
+  },
+  {
+   "id": "image-9",
+   "type": "image",
+   "role": "content",
+   "x": 109.333,
+   "y": 887.945,
+   "width": 290.544,
+   "height": 93.3883,
+   "assetId": "f5677517-bc8a-454e-8fea-9a612299e57e.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "group-10",
+   "type": "rect",
+   "role": "decoration",
+   "x": 109.333,
+   "y": 626.355,
+   "width": 290.54458272,
+   "height": 268.61568,
+   "color": "#fcfcfc"
+  },
+  {
+   "id": "image-11",
+   "type": "image",
+   "role": "content",
+   "x": 109.333,
+   "y": 626.355,
+   "width": 290.544,
+   "height": 268.615,
+   "assetId": "faa17633-a795-4310-b416-10440c264a71.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "group-12",
+   "type": "rect",
+   "role": "decoration",
+   "x": 416.122,
+   "y": 887.945,
+   "width": 290.544461494,
+   "height": 93.388288,
+   "color": "#fcfcfc"
+  },
+  {
+   "id": "image-13",
+   "type": "image",
+   "role": "content",
+   "x": 416.122,
+   "y": 887.945,
+   "width": 290.544,
+   "height": 93.3883,
+   "assetId": "c4517fb5-b109-4440-a279-a111807c2ff9.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "group-14",
+   "type": "rect",
+   "role": "decoration",
+   "x": 416.122,
+   "y": 626.355,
+   "width": 290.54458272,
+   "height": 268.61568,
+   "color": "#fcfcfc"
+  },
+  {
+   "id": "image-15",
+   "type": "image",
+   "role": "content",
+   "x": 416.122,
+   "y": 626.355,
+   "width": 290.544,
+   "height": 268.615,
+   "assetId": "dac1afff-9182-4df8-8fdb-fb2859971b5b.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-16",
+   "type": "image",
+   "role": "content",
+   "x": 279.756,
+   "y": 165.175,
+   "width": 256.488,
+   "height": 53.8626,
+   "assetId": "7c960dfc-35b6-4e28-a412-3783b75dfe04.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "text-17",
+   "type": "text",
+   "role": "content",
+   "x": 132.192,
+   "y": 531.518003,
+   "width": 244.828,
+   "height": 54.0362,
+   "text": "URAN",
+   "fontFamily": "Fredoka",
+   "fontWeight": 400,
+   "fontSize": 45,
+   "lineHeight": 1.1706999111111112,
+   "color": "#010101",
+   "align": "center"
+  },
+  {
+   "id": "text-18",
+   "type": "text",
+   "role": "content",
+   "x": 111.233,
+   "y": 76.02669,
+   "width": 595.433,
+   "height": 75.9366,
+   "text": "Solar System",
+   "fontFamily": "Fredoka",
+   "fontWeight": 400,
+   "fontSize": 63,
+   "lineHeight": 1.1647269523809523,
+   "color": "#010101",
+   "align": "center"
+  },
+  {
+   "id": "text-19",
+   "type": "text",
+   "role": "content",
+   "x": 433.33,
+   "y": 531.518003,
+   "width": 256.129,
+   "height": 54.0362,
+   "text": "NEPTUN",
+   "fontFamily": "Fredoka",
+   "fontWeight": 400,
+   "fontSize": 45,
+   "lineHeight": 1.1706999111111112,
+   "color": "#010101",
+   "align": "center"
+  },
+  {
+   "id": "image-20",
+   "type": "image",
+   "role": "content",
+   "x": 152.749,
+   "y": 281.983,
+   "width": 203.712,
+   "height": 203.712,
+   "assetId": "b3ec0981-c145-4b77-a360-516cb3ec0812.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-21",
+   "type": "image",
+   "role": "content",
+   "x": 459.995,
+   "y": 282.441,
+   "width": 202.798,
+   "height": 202.798,
+   "assetId": "ba14cc7c-bbd8-47ba-ac4a-6175b64cb52c.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-22",
+   "type": "image",
+   "role": "content",
+   "x": 152.749,
+   "y": 658.806,
+   "width": 203.712,
+   "height": 203.712,
+   "assetId": "ee9ff7f2-ca1f-4152-b445-113e3de7cf4f.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-23",
+   "type": "image",
+   "role": "content",
+   "x": 459.538,
+   "y": 658.806,
+   "width": 203.712,
+   "height": 203.712,
+   "assetId": "c7beaf01-0eec-43ae-a726-bbd78fa58c3e.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "text-24",
+   "type": "text",
+   "role": "content",
+   "x": 132.192,
+   "y": 908.341003,
+   "width": 244.828,
+   "height": 54.0362,
+   "text": "SUN",
+   "fontFamily": "Fredoka",
+   "fontWeight": 400,
+   "fontSize": 45,
+   "lineHeight": 1.1706999111111112,
+   "color": "#010101",
+   "align": "center"
+  },
+  {
+   "id": "text-25",
+   "type": "text",
+   "role": "content",
+   "x": 433.33,
+   "y": 908.341003,
+   "width": 256.129,
+   "height": 54.0362,
+   "text": "MERCUR",
+   "fontFamily": "Fredoka",
+   "fontWeight": 400,
+   "fontSize": 45,
+   "lineHeight": 1.1706999111111112,
+   "color": "#010101",
+   "align": "center"
+  }
+ ]
+}

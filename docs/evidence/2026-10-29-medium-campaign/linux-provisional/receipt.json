@@ -1,0 +1,109 @@
+{
+  "platform": "Linux-7.0.12-linuxkit-x86_64-with-glibc2.41",
+  "composition_sha256": "321325d2b14715b3b99c3dfb2826fa02dc067386312c49ef390e4014934a417f",
+  "production_image_changed_via_readonly_source_mount": true,
+  "cases": [
+    {
+      "target": [
+        300,
+        250
+      ],
+      "font_sizes": {
+        "headline": 13.0,
+        "subhead": 9.0,
+        "badge1_label": 9.0,
+        "badge2_label": 9.0,
+        "badge3_label": 9.0,
+        "cta_label": 9.0,
+        "ribbon_label": 9.0,
+        "legal_text": 9.0
+      },
+      "warnings": [
+        "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+      ],
+      "png_sha256": "59382c41f6c41663d71de4974c4971193d05a5001711a35627d6503d878f5ee2"
+    },
+    {
+      "target": [
+        301,
+        251
+      ],
+      "font_sizes": {
+        "headline": 13.0,
+        "subhead": 9.0,
+        "badge1_label": 9.0,
+        "badge2_label": 9.0,
+        "badge3_label": 9.0,
+        "cta_label": 9.0,
+        "ribbon_label": 9.0,
+        "legal_text": 9.0
+      },
+      "warnings": [
+        "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+      ],
+      "png_sha256": "fb009659ab73de716ada85064835c920a6519ad5e759be3efd0d9bdaa7c80e80"
+    },
+    {
+      "target": [
+        320,
+        250
+      ],
+      "font_sizes": {
+        "headline": 14.0,
+        "subhead": 9.0,
+        "badge1_label": 9.0,
+        "badge2_label": 9.0,
+        "badge3_label": 9.0,
+        "cta_label": 9.0,
+        "ribbon_label": 9.0,
+        "legal_text": 9.0
+      },
+      "warnings": [
+        "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+      ],
+      "png_sha256": "dfbc6615ade3dd8f5684924d4506d307ce750cede4e95fb5f26b348d56def5f7"
+    },
+    {
+      "target": [
+        250,
+        300
+      ],
+      "font_sizes": {
+        "headline": 10.0,
+        "subhead": 9.0,
+        "badge1_label": 9.0,
+        "badge2_label": 9.0,
+        "badge3_label": 9.0,
+        "cta_label": 9.0,
+        "ribbon_label": 9.0,
+        "legal_text": 9.0
+      },
+      "warnings": [
+        "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+      ],
+      "png_sha256": "78e364f78e3a6acb0e58e8ab0c5d5c99be0929859b6050f9edcba2456056f354"
+    },
+    {
+      "target": [
+        600,
+        500
+      ],
+      "font_sizes": {
+        "headline": 30.0,
+        "subhead": 20.0,
+        "badge1_label": 20.0,
+        "badge2_label": 20.0,
+        "badge3_label": 20.0,
+        "cta_label": 20.0,
+        "ribbon_label": 20.0,
+        "legal_text": 15.0
+      },
+      "warnings": [
+        "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+      ],
+      "png_sha256": "f5c40736e30c651d4bb9e7711e41a5d8917c80661ce8a2af7b1af198713c6ce7"
+    }
+  ],
+  "base_image_id": "sha256:02566da9f936e41f4cfc55a5a01d9b0010b1a2019cf3c7fcacd31c1a8b0bde62",
+  "qualification": "Provisional offline real-renderer run with only composition.py mounted read-only over prior production image; requires clean rebuild and qualification."
+}

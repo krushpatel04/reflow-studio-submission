@@ -1,0 +1,50 @@
+{
+  "canvas": {
+    "width": 150,
+    "height": 100
+  },
+  "elements": [
+    {
+      "id": "bg",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "x": 0,
+      "y": 0,
+      "width": 150,
+      "height": 100,
+      "fill_color": "rgba(255,255,255,1)"
+    },
+    {
+      "id": "card",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "x": 25.0,
+      "y": 0.0,
+      "width": 25.0,
+      "height": 25.0,
+      "fill_color": "rgba(200,50,50,1)"
+    },
+    {
+      "id": "dot",
+      "type": "shape",
+      "shape_type": "ellipse",
+      "x": 58.33333333333333,
+      "y": 0.0,
+      "width": 25.0,
+      "height": 25.0,
+      "fill_color": "rgba(50,50,200,1)"
+    },
+    {
+      "id": "h",
+      "type": "text",
+      "x": 0.0,
+      "y": 0.0,
+      "width": 140.0,
+      "height": 76.52750400000001,
+      "content": "Headline here",
+      "font_family": "Solstice Sans",
+      "font_size": 31.886460000000003,
+      "color": "rgba(0,0,0,1)"
+    }
+  ]
+}

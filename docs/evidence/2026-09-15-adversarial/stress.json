@@ -1,0 +1,34 @@
+[
+  {
+    "elements": 1,
+    "charactersPerElement": 1050,
+    "elapsedMs": 306.28637500000013,
+    "selected": "stack",
+    "errors": 0,
+    "warnings": 1
+  },
+  {
+    "elements": 10,
+    "charactersPerElement": 1050,
+    "elapsedMs": 2847.1941669999997,
+    "selected": "stack",
+    "errors": 0,
+    "warnings": 10
+  },
+  {
+    "elements": 40,
+    "charactersPerElement": 1050,
+    "elapsedMs": 11789.641208000001,
+    "selected": "stack",
+    "errors": 0,
+    "warnings": 40
+  },
+  {
+    "elements": 100,
+    "charactersPerElement": 1050,
+    "elapsedMs": 28089.797208,
+    "selected": "stack",
+    "errors": 0,
+    "warnings": 100
+  }
+]

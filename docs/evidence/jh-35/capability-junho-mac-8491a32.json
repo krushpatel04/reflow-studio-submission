@@ -1,0 +1,19 @@
+{
+  "runtime": "docker",
+  "runtime_ok": true,
+  "machine": "arm64",
+  "system": "macOS-15.6.1-arm64-arm-64bit",
+  "python": "3.11.17",
+  "github_sha": null,
+  "runner_os": null,
+  "steps": {
+    "version": {
+      "code": 0,
+      "timed_out": false
+    },
+    "info": {
+      "code": 0,
+      "timed_out": false
+    }
+  }
+}

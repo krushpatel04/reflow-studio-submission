@@ -1,0 +1,25 @@
+✔ checker rejects a missing or malformed split lock and accepts a valid one (8.87025ms)
+✔ checker finds split drift in the persisted lock (1.682541ms)
+✔ serialized restart preserves reviewed additions, omitted families and reordered inputs (4.593542ms)
+✔ serialized synthetic exposure migration retains retirement and rejects falsified prior exposure (2.75975ms)
+✔ freezes existing families as seen and retains exact development and validation splits (2.136208ms)
+✔ a known family keeps its split when a new family is approved and input order changes (0.698875ms)
+✔ removing a family from the batch keeps its assignment for a later return (0.119959ms)
+✔ changed split, template identity and target list fail checking (0.204458ms)
+✔ changed import settings and duplicate templates cannot be silently approved (0.420708ms)
+✔ reviewed config version allows bounded growth and detects tampered history (0.351917ms)
+✔ a seen family cannot be presented as sealed test evidence (0.113083ms)
+✔ a LICA family cannot be assigned to test even if someone marks it sealed (0.177709ms)
+✔ moving an exposed holdout retires its old identity and records the migration (0.332583ms)
+✔ migration rejects missing rationale, reused IDs and moves into sealed test (0.22825ms)
+✔ a duplicate template without a valid retirement record is rejected (0.12525ms)
+✔ an importer rerun cannot silently drop or replace existing corpus evidence (0.258917ms)
+✔ shared template markers allow same-family derivatives but reject separate family identities (0.192ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 254.826625

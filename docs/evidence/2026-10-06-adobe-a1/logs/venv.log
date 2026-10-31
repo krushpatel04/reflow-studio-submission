@@ -1,0 +1,6 @@
+INFO Fetching requested Python...
+Downloading cpython-3.11.16-linux-x86_64-gnu (download) (29.4MiB)
+ Downloaded cpython-3.11.16-linux-x86_64-gnu (download)
+Using CPython 3.11.16
+Creating virtual environment at: chameleon-venv311
+Activate with: source chameleon-venv311/bin/activate

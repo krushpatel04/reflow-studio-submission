@@ -1,0 +1,2564 @@
+{
+  "generatedAt": "2026-09-16T02:48:07.777Z",
+  "node": "v24.20.0",
+  "cpu": "Apple M1",
+  "method": "Fixed 0.35\u20132.5 axis scales in 0.05 steps plus nearby \u00b11/2/8px and every integer in observed current-strategy transition brackets; identity/uniform are one layout family. Previous uses unchanged candidates with the pre-change comparator. Ablation removes only the weighted composition penalty, retaining the new deficit and deterministic tie break. Timings include generation/evaluation/current ranking, excluding report generation, font loading and rendering. Additional authored families were promoted to development regressions after a visual failure; no independent held-out quality evidence. Crop risk is frame-aspect change, not measured pixel/subject loss.",
+  "sourceChecks": [
+    {
+      "source": "after-dark",
+      "metrics": {
+        "errors": 0,
+        "warnings": 0,
+        "minReadingSize": 9,
+        "contentCoverage": 0.7021893004115226,
+        "findings": []
+      }
+    },
+    {
+      "source": "long-headline",
+      "metrics": {
+        "errors": 0,
+        "warnings": 0,
+        "minReadingSize": 11.6,
+        "contentCoverage": 0.6112453703703704,
+        "findings": []
+      }
+    },
+    {
+      "source": "dense-program",
+      "metrics": {
+        "errors": 0,
+        "warnings": 0,
+        "minReadingSize": 10,
+        "contentCoverage": 0.5074156378600823,
+        "findings": []
+      }
+    },
+    {
+      "source": "grouped-details",
+      "metrics": {
+        "errors": 0,
+        "warnings": 0,
+        "minReadingSize": 12.8,
+        "contentCoverage": 0.5423611111111111,
+        "findings": []
+      }
+    },
+    {
+      "source": "intentional-overlap",
+      "metrics": {
+        "errors": 0,
+        "warnings": 0,
+        "minReadingSize": 10,
+        "contentCoverage": 0.9756584362139917,
+        "findings": []
+      }
+    },
+    {
+      "source": "layered-art",
+      "metrics": {
+        "errors": 0,
+        "warnings": 0,
+        "minReadingSize": 10,
+        "contentCoverage": 0.44871399176954735,
+        "findings": []
+      }
+    },
+    {
+      "source": "product-pairs",
+      "metrics": {
+        "errors": 0,
+        "warnings": 0,
+        "minReadingSize": 9,
+        "contentCoverage": 0.635352366255144,
+        "findings": []
+      }
+    },
+    {
+      "source": "quiet-brand",
+      "metrics": {
+        "errors": 0,
+        "warnings": 0,
+        "minReadingSize": 9,
+        "contentCoverage": 0.33953360768175583,
+        "findings": []
+      }
+    },
+    {
+      "source": "edge-subject",
+      "metrics": {
+        "errors": 0,
+        "warnings": 0,
+        "minReadingSize": 10.333333333333334,
+        "contentCoverage": 0.7634773662551441,
+        "findings": []
+      }
+    },
+    {
+      "source": "type-pairing",
+      "metrics": {
+        "errors": 0,
+        "warnings": 0,
+        "minReadingSize": 9.333333333333334,
+        "contentCoverage": 0.573283950617284,
+        "findings": []
+      }
+    },
+    {
+      "source": "gallery-diptych",
+      "metrics": {
+        "errors": 0,
+        "warnings": 0,
+        "minReadingSize": 14.4,
+        "contentCoverage": 0.6506122448979592,
+        "findings": []
+      }
+    },
+    {
+      "source": "centered-invitation",
+      "metrics": {
+        "errors": 0,
+        "warnings": 0,
+        "minReadingSize": 11.7,
+        "contentCoverage": 0.31,
+        "findings": []
+      }
+    },
+    {
+      "source": "museum-sidebar",
+      "metrics": {
+        "errors": 0,
+        "warnings": 0,
+        "minReadingSize": 9.72,
+        "contentCoverage": 0.66575,
+        "findings": []
+      }
+    }
+  ],
+  "summary": {
+    "distinctCases": 2422,
+    "nearbySamples": 182,
+    "nearby": {
+      "previous": {
+        "rearranged": 132,
+        "maxMovement": 0.576024204668801,
+        "maxCropRisk": 0.6515444447192951
+      },
+      "current": {
+        "rearranged": 0,
+        "maxMovement": 0.004439063761097664,
+        "maxCropRisk": 8.881784197001252e-16
+      },
+      "ablated": {
+        "rearranged": 12,
+        "maxMovement": 0.09071064874175674,
+        "maxCropRisk": 0.09575406421672095
+      }
+    },
+    "standardDevelopment": {
+      "previous": {
+        "errors": 0,
+        "warnings": 6,
+        "selections": {
+          "identity": 1,
+          "uniform": 3,
+          "stack": 19,
+          "split": 7
+        }
+      },
+      "current": {
+        "errors": 0,
+        "warnings": 11,
+        "selections": {
+          "identity": 1,
+          "uniform": 18,
+          "stack": 10,
+          "split": 1
+        }
+      },
+      "ablated": {
+        "errors": 0,
+        "warnings": 7,
+        "selections": {
+          "identity": 1,
+          "uniform": 14,
+          "stack": 14,
+          "split": 1
+        }
+      }
+    },
+    "standardAdditional": {
+      "previous": {
+        "errors": 0,
+        "warnings": 0,
+        "selections": {
+          "identity": 0,
+          "uniform": 0,
+          "stack": 5,
+          "split": 4
+        }
+      },
+      "current": {
+        "errors": 0,
+        "warnings": 0,
+        "selections": {
+          "identity": 0,
+          "uniform": 3,
+          "stack": 4,
+          "split": 2
+        }
+      },
+      "ablated": {
+        "errors": 0,
+        "warnings": 0,
+        "selections": {
+          "identity": 0,
+          "uniform": 3,
+          "stack": 6,
+          "split": 0
+        }
+      }
+    },
+    "standardChanges": [
+      {
+        "source": "after-dark",
+        "target": "story",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "after-dark",
+        "target": "landscape",
+        "from": "split",
+        "to": "stack",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "long-headline",
+        "target": "square",
+        "from": "split",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 1
+      },
+      {
+        "source": "long-headline",
+        "target": "story",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 1
+      },
+      {
+        "source": "long-headline",
+        "target": "landscape",
+        "from": "split",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "dense-program",
+        "target": "story",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "grouped-details",
+        "target": "story",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "intentional-overlap",
+        "target": "story",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "intentional-overlap",
+        "target": "landscape",
+        "from": "split",
+        "to": "stack",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "layered-art",
+        "target": "story",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "layered-art",
+        "target": "landscape",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "product-pairs",
+        "target": "square",
+        "from": "split",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 1
+      },
+      {
+        "source": "quiet-brand",
+        "target": "story",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "edge-subject",
+        "target": "square",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 1
+      },
+      {
+        "source": "edge-subject",
+        "target": "story",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 1
+      },
+      {
+        "source": "edge-subject",
+        "target": "landscape",
+        "from": "split",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "type-pairing",
+        "target": "story",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "gallery-diptych",
+        "target": "square",
+        "from": "split",
+        "to": "stack",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "gallery-diptych",
+        "target": "landscape",
+        "from": "split",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "centered-invitation",
+        "target": "story",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "museum-sidebar",
+        "target": "story",
+        "from": "stack",
+        "to": "split",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "museum-sidebar",
+        "target": "landscape",
+        "from": "split",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      }
+    ],
+    "transitionCount": 19,
+    "medianLayoutMs": 38.961167000001296,
+    "p95LayoutMs": 111.39129200000025
+  },
+  "transitions": [
+    {
+      "source": "after-dark",
+      "axis": "width",
+      "before": {
+        "id": "1163x1350",
+        "label": "1163 \u00d7 1350",
+        "width": 1163,
+        "height": 1350
+      },
+      "after": {
+        "id": "1164x1350",
+        "label": "1164 \u00d7 1350",
+        "width": 1164,
+        "height": 1350
+      },
+      "from": {
+        "strategy": "uniform",
+        "metrics": {
+          "errors": 0,
+          "warnings": 1,
+          "minReadingSize": 8.357695614789337,
+          "contentCoverage": 0.6520760485334862,
+          "findings": [
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "eyebrow"
+              ],
+              "message": "eyebrow reads at 8.4px on a 360px short edge."
+            }
+          ]
+        },
+        "terms": {
+          "movement": 0,
+          "alignment": 0,
+          "spacing": 0,
+          "hierarchy": 0,
+          "cropRisk": 0,
+          "loss": 0,
+          "compositionWeight": 0.9286328460877044,
+          "compositionPenalty": 0,
+          "readabilityDeficit": 0.005093270657541327,
+          "score": 0.04074616526033062
+        },
+        "movementFromSource": {
+          "mean": 0,
+          "max": 0
+        },
+        "imageFrames": [
+          {
+            "id": "hero",
+            "aspectRatio": 1.894736842105263
+          }
+        ]
+      },
+      "to": {
+        "strategy": "stack",
+        "metrics": {
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 9.998969072164948,
+          "contentCoverage": 0.6906813842112413,
+          "findings": []
+        },
+        "terms": {
+          "movement": 0.02876390814712967,
+          "alignment": 0.023965903358894442,
+          "spacing": 0.04444588780151425,
+          "hierarchy": 0.11325041211316686,
+          "cropRisk": 0.008926951933382665,
+          "loss": 0.04387061267081758,
+          "compositionWeight": 0.9278350515463918,
+          "compositionPenalty": 0.040704692168799815,
+          "readabilityDeficit": 0,
+          "score": 0.040704692168799815
+        },
+        "movementFromSource": {
+          "mean": 0.02480088080241402,
+          "max": 0.042745116147012485
+        },
+        "imageFrames": [
+          {
+            "id": "hero",
+            "aspectRatio": 1.87782261738938
+          }
+        ]
+      },
+      "adjacentMovement": {
+        "mean": 0.02480088080241402,
+        "max": 0.042745116147012485
+      },
+      "adjacentCropRisk": 0.008926951933382665
+    },
+    {
+      "source": "after-dark",
+      "axis": "height",
+      "before": {
+        "id": "1080x1253",
+        "label": "1080 \u00d7 1253",
+        "width": 1080,
+        "height": 1253
+      },
+      "after": {
+        "id": "1080x1254",
+        "label": "1080 \u00d7 1254",
+        "width": 1080,
+        "height": 1254
+      },
+      "from": {
+        "strategy": "stack",
+        "metrics": {
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 9.996666666666666,
+          "contentCoverage": 0.6907968720255105,
+          "findings": []
+        },
+        "terms": {
+          "movement": 0.028779173763264693,
+          "alignment": 0.023912609984326753,
+          "spacing": 0.04441762835346413,
+          "hierarchy": 0.11109801835975945,
+          "cropRisk": 0.009343940948559615,
+          "loss": 0.04351027428187493,
+          "compositionWeight": 0.9281481481481482,
+          "compositionPenalty": 0.040383980500140214,
+          "readabilityDeficit": 0,
+          "score": 0.040383980500140214
+        },
+        "movementFromSource": {
+          "mean": 0.024805672517418893,
+          "max": 0.04274806491512628
+        },
+        "imageFrames": [
+          {
+            "id": "hero",
+            "aspectRatio": 1.8770325329395712
+          }
+        ]
+      },
+      "to": {
+        "strategy": "uniform",
+        "metrics": {
+          "errors": 0,
+          "warnings": 1,
+          "minReadingSize": 8.36,
+          "contentCoverage": 0.6522558390489254,
+          "findings": [
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "eyebrow"
+              ],
+              "message": "eyebrow reads at 8.4px on a 360px short edge."
+            }
+          ]
+        },
+        "terms": {
+          "movement": 2.8788396299618064e-17,
+          "alignment": 0,
+          "spacing": 0,
+          "hierarchy": 2.9605947323337506e-16,
+          "cropRisk": 8.881784197001252e-16,
+          "loss": 2.426052578466237e-16,
+          "compositionWeight": 0.9288888888888889,
+          "compositionPenalty": 2.2535332839975266e-16,
+          "readabilityDeficit": 0.005056790123456792,
+          "score": 0.04045432098765456
+        },
+        "movementFromSource": {
+          "mean": 3.172065784643304e-17,
+          "max": 1.1102230246251565e-16
+        },
+        "imageFrames": [
+          {
+            "id": "hero",
+            "aspectRatio": 1.8947368421052633
+          }
+        ]
+      },
+      "adjacentMovement": {
+        "mean": 0.024805672517418893,
+        "max": 0.04274806491512628
+      },
+      "adjacentCropRisk": 0.009343940948558727
+    },
+    {
+      "source": "dense-program",
+      "axis": "width",
+      "before": {
+        "id": "1283x1350",
+        "label": "1283 \u00d7 1350",
+        "width": 1283,
+        "height": 1350
+      },
+      "after": {
+        "id": "1284x1350",
+        "label": "1284 \u00d7 1350",
+        "width": 1284,
+        "height": 1350
+      },
+      "from": {
+        "strategy": "uniform",
+        "metrics": {
+          "errors": 0,
+          "warnings": 5,
+          "minReadingSize": 8.417770849571317,
+          "contentCoverage": 0.4271308564995237,
+          "findings": [
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "detail-0"
+              ],
+              "message": "detail-0 reads at 8.4px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "detail-1"
+              ],
+              "message": "detail-1 reads at 8.4px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "detail-2"
+              ],
+              "message": "detail-2 reads at 8.4px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "detail-3"
+              ],
+              "message": "detail-3 reads at 8.4px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "footer"
+              ],
+              "message": "footer reads at 8.7px on a 360px short edge."
+            }
+          ]
+        },
+        "terms": {
+          "movement": 0,
+          "alignment": 0,
+          "spacing": 0,
+          "hierarchy": 0,
+          "cropRisk": 0,
+          "loss": 0,
+          "compositionWeight": 0.8417770849571318,
+          "compositionPenalty": 0,
+          "readabilityDeficit": 0.004185071402579087,
+          "score": 0.03348057122063269
+        },
+        "movementFromSource": {
+          "mean": 4.3950809734127905e-05,
+          "max": 0.00043950809734127905
+        },
+        "imageFrames": []
+      },
+      "to": {
+        "strategy": "stack",
+        "metrics": {
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.037383177570092,
+          "contentCoverage": 0.6165482841842198,
+          "findings": []
+        },
+        "terms": {
+          "movement": 0.06486471702365781,
+          "alignment": 0.0004672897196261682,
+          "spacing": 0.08529044747853788,
+          "hierarchy": 0.05221517136830167,
+          "cropRisk": 0,
+          "loss": 0.04056752511802471,
+          "compositionWeight": 0.8411214953271028,
+          "compositionPenalty": 0.034122217388992744,
+          "readabilityDeficit": 0,
+          "score": 0.034122217388992744
+        },
+        "movementFromSource": {
+          "mean": 0.06169861481783513,
+          "max": 0.09825722530642933
+        },
+        "imageFrames": []
+      },
+      "adjacentMovement": {
+        "mean": 0.061694518183505756,
+        "max": 0.09825722530642933
+      },
+      "adjacentCropRisk": 0
+    },
+    {
+      "source": "dense-program",
+      "axis": "height",
+      "before": {
+        "id": "1080x1135",
+        "label": "1080 \u00d7 1135",
+        "width": 1080,
+        "height": 1135
+      },
+      "after": {
+        "id": "1080x1136",
+        "label": "1080 \u00d7 1136",
+        "width": 1080,
+        "height": 1136
+      },
+      "from": {
+        "strategy": "stack",
+        "metrics": {
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.036666666666667,
+          "contentCoverage": 0.6166740883919682,
+          "findings": []
+        },
+        "terms": {
+          "movement": 0.06482414939620026,
+          "alignment": 0.00046707818930041145,
+          "spacing": 0.0854442439824989,
+          "hierarchy": 0.05217480680225059,
+          "cropRisk": 0,
+          "loss": 0.04058205567405004,
+          "compositionWeight": 0.8407407407407408,
+          "compositionPenalty": 0.03411898754818281,
+          "readabilityDeficit": 0,
+          "score": 0.03411898754818281
+        },
+        "movementFromSource": {
+          "mean": 0.061687950678038825,
+          "max": 0.09825026384824509
+        },
+        "imageFrames": []
+      },
+      "to": {
+        "strategy": "uniform",
+        "metrics": {
+          "errors": 0,
+          "warnings": 5,
+          "minReadingSize": 8.414814814814815,
+          "contentCoverage": 0.42698086267337293,
+          "findings": [
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "detail-0"
+              ],
+              "message": "detail-0 reads at 8.4px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "detail-1"
+              ],
+              "message": "detail-1 reads at 8.4px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "detail-2"
+              ],
+              "message": "detail-2 reads at 8.4px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "detail-3"
+              ],
+              "message": "detail-3 reads at 8.4px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "footer"
+              ],
+              "message": "footer reads at 8.7px on a 360px short edge."
+            }
+          ]
+        },
+        "terms": {
+          "movement": 5.396897871142311e-17,
+          "alignment": 3.728156329605465e-18,
+          "spacing": 0,
+          "hierarchy": 0,
+          "cropRisk": 0,
+          "loss": 1.1539427008205715e-17,
+          "compositionWeight": 0.8414814814814815,
+          "compositionPenalty": 9.710214134312365e-18,
+          "readabilityDeficit": 0.004227675320496547,
+          "score": 0.03382140256397238
+        },
+        "movementFromSource": {
+          "mean": 4.40329218107105e-05,
+          "max": 0.0004403292181069385
+        },
+        "imageFrames": []
+      },
+      "adjacentMovement": {
+        "mean": 0.06168384875759427,
+        "max": 0.09825026384824509
+      },
+      "adjacentCropRisk": 0
+    },
+    {
+      "source": "intentional-overlap",
+      "axis": "width",
+      "before": {
+        "id": "1290x1350",
+        "label": "1290 \u00d7 1350",
+        "width": 1290,
+        "height": 1350
+      },
+      "after": {
+        "id": "1291x1350",
+        "label": "1291 \u00d7 1350",
+        "width": 1291,
+        "height": 1350
+      },
+      "from": {
+        "strategy": "uniform",
+        "metrics": {
+          "errors": 0,
+          "warnings": 1,
+          "minReadingSize": 8.372093023255815,
+          "contentCoverage": 0.8168303186907838,
+          "findings": [
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "footer"
+              ],
+              "message": "footer reads at 8.4px on a 360px short edge."
+            }
+          ]
+        },
+        "terms": {
+          "movement": 0,
+          "alignment": 0,
+          "spacing": 0,
+          "hierarchy": 0,
+          "cropRisk": 0,
+          "loss": 0,
+          "compositionWeight": 0.8372093023255814,
+          "compositionPenalty": 0,
+          "readabilityDeficit": 0.004867495943753367,
+          "score": 0.03893996755002693
+        },
+        "movementFromSource": {
+          "mean": 0.0014319552110249822,
+          "max": 0.003843669250645998
+        },
+        "imageFrames": [
+          {
+            "id": "hero",
+            "aspectRatio": 1.136094674556213
+          }
+        ]
+      },
+      "to": {
+        "strategy": "stack",
+        "metrics": {
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.999070487993803,
+          "contentCoverage": 0.9540085809667601,
+          "findings": []
+        },
+        "terms": {
+          "movement": 0.03813064626556871,
+          "alignment": 0.00010776039396721342,
+          "spacing": 0.05001639684299427,
+          "hierarchy": 0.14515838907595532,
+          "cropRisk": 8.881784197001252e-16,
+          "loss": 0.04668263851569728,
+          "compositionWeight": 0.836560805577072,
+          "compositionPenalty": 0.03905286568315497,
+          "readabilityDeficit": 0,
+          "score": 0.03905286568315497
+        },
+        "movementFromSource": {
+          "mean": 0.03647171679415175,
+          "max": 0.05175600619640154
+        },
+        "imageFrames": [
+          {
+            "id": "hero",
+            "aspectRatio": 1.1360946745562133
+          }
+        ]
+      },
+      "adjacentMovement": {
+        "mean": 0.03646483305249507,
+        "max": 0.051736358016755045
+      },
+      "adjacentCropRisk": 8.881784197001252e-16
+    },
+    {
+      "source": "intentional-overlap",
+      "axis": "height",
+      "before": {
+        "id": "1080x1130",
+        "label": "1080 \u00d7 1130",
+        "width": 1080,
+        "height": 1130
+      },
+      "after": {
+        "id": "1080x1131",
+        "label": "1080 \u00d7 1131",
+        "width": 1080,
+        "height": 1131
+      },
+      "from": {
+        "strategy": "stack",
+        "metrics": {
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.996666666666668,
+          "contentCoverage": 0.9546884177635673,
+          "findings": []
+        },
+        "terms": {
+          "movement": 0.03817685802277398,
+          "alignment": 0.00010798511973266485,
+          "spacing": 0.05006392852134982,
+          "hierarchy": 0.14480459797775955,
+          "cropRisk": 0,
+          "loss": 0.0466306739283232,
+          "compositionWeight": 0.837037037037037,
+          "compositionPenalty": 0.03903160114000386,
+          "readabilityDeficit": 0,
+          "score": 0.03903160114000386
+        },
+        "movementFromSource": {
+          "mean": 0.03649489090342284,
+          "max": 0.051777125604345525
+        },
+        "imageFrames": [
+          {
+            "id": "hero",
+            "aspectRatio": 1.136094674556213
+          }
+        ]
+      },
+      "to": {
+        "strategy": "uniform",
+        "metrics": {
+          "errors": 0,
+          "warnings": 1,
+          "minReadingSize": 8.377777777777778,
+          "contentCoverage": 0.8173849565614996,
+          "findings": [
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "footer"
+              ],
+              "message": "footer reads at 8.4px on a 360px short edge."
+            }
+          ]
+        },
+        "terms": {
+          "movement": 4.407996601474696e-17,
+          "alignment": 1.73876198565633e-17,
+          "spacing": 0,
+          "hierarchy": 4.440892098500626e-16,
+          "cropRisk": 0,
+          "loss": 1.0111135914427459e-16,
+          "compositionWeight": 0.8377777777777778,
+          "compositionPenalty": 8.470884977198116e-17,
+          "readabilityDeficit": 0.004779759183051358,
+          "score": 0.038238073464410945
+        },
+        "movementFromSource": {
+          "mean": 0.0014269547325103326,
+          "max": 0.0038302469135802486
+        },
+        "imageFrames": [
+          {
+            "id": "hero",
+            "aspectRatio": 1.136094674556213
+          }
+        ]
+      },
+      "adjacentMovement": {
+        "mean": 0.03648824194653628,
+        "max": 0.05175814764311707
+      },
+      "adjacentCropRisk": 0
+    },
+    {
+      "source": "product-pairs",
+      "axis": "width",
+      "before": {
+        "id": "541x1080",
+        "label": "541 \u00d7 1080",
+        "width": 541,
+        "height": 1080
+      },
+      "after": {
+        "id": "542x1080",
+        "label": "542 \u00d7 1080",
+        "width": 542,
+        "height": 1080
+      },
+      "from": {
+        "strategy": "stack",
+        "metrics": {
+          "errors": 0,
+          "warnings": 1,
+          "minReadingSize": 8.876894639556376,
+          "contentCoverage": 0.3009802057009244,
+          "findings": [
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "footer"
+              ],
+              "message": "footer reads at 8.9px on a 360px short edge."
+            }
+          ]
+        },
+        "terms": {
+          "movement": 0.4815114073081546,
+          "alignment": 0.30324198842610195,
+          "spacing": 0.38374789296282463,
+          "hierarchy": 0.14146565219304785,
+          "cropRisk": 0,
+          "loss": 0.2619933881780258,
+          "compositionWeight": 0.37569444444444444,
+          "compositionPenalty": 0.09842946041966108,
+          "readabilityDeficit": 0.0001870978983945013,
+          "score": 0.0999262436068171
+        },
+        "movementFromSource": {
+          "mean": 0.2894045052801511,
+          "max": 0.5902060214419832
+        },
+        "imageFrames": [
+          {
+            "id": "product-0",
+            "aspectRatio": 0.8163265306122449
+          },
+          {
+            "id": "product-1",
+            "aspectRatio": 0.8163265306122449
+          },
+          {
+            "id": "product-2",
+            "aspectRatio": 0.8163265306122449
+          }
+        ]
+      },
+      "to": {
+        "strategy": "split",
+        "metrics": {
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.341697416974169,
+          "contentCoverage": 0.6995930337858843,
+          "findings": []
+        },
+        "terms": {
+          "movement": 0.51686146357736,
+          "alignment": 0.38008959409594095,
+          "spacing": 0.40489767677225,
+          "hierarchy": 0.031273398341015106,
+          "cropRisk": 0,
+          "loss": 0.2666244265573132,
+          "compositionWeight": 0.37638888888888894,
+          "compositionPenalty": 0.1003544716625443,
+          "readabilityDeficit": 0,
+          "score": 0.1003544716625443
+        },
+        "movementFromSource": {
+          "mean": 0.406595994950594,
+          "max": 0.6173241869575956
+        },
+        "imageFrames": [
+          {
+            "id": "product-0",
+            "aspectRatio": 0.8163265306122449
+          },
+          {
+            "id": "product-1",
+            "aspectRatio": 0.8163265306122449
+          },
+          {
+            "id": "product-2",
+            "aspectRatio": 0.8163265306122449
+          }
+        ]
+      },
+      "adjacentMovement": {
+        "mean": 0.24729665915075003,
+        "max": 0.34624228825793435
+      },
+      "adjacentCropRisk": 0
+    },
+    {
+      "source": "product-pairs",
+      "axis": "width",
+      "before": {
+        "id": "936x1080",
+        "label": "936 \u00d7 1080",
+        "width": 936,
+        "height": 1080
+      },
+      "after": {
+        "id": "937x1080",
+        "label": "937 \u00d7 1080",
+        "width": 937,
+        "height": 1080
+      },
+      "from": {
+        "strategy": "split",
+        "metrics": {
+          "errors": 0,
+          "warnings": 6,
+          "minReadingSize": 7.142307692307692,
+          "contentCoverage": 0.5207824624748623,
+          "findings": [
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "label-0"
+              ],
+              "message": "label-0 reads at 8.4px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "price-0"
+              ],
+              "message": "price-0 reads at 7.2px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "label-1"
+              ],
+              "message": "label-1 reads at 8.3px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "price-1"
+              ],
+              "message": "price-1 reads at 7.2px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "label-2"
+              ],
+              "message": "label-2 reads at 7.1px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "price-2"
+              ],
+              "message": "price-2 reads at 7.2px on a 360px short edge."
+            }
+          ]
+        },
+        "terms": {
+          "movement": 0.3925243711977144,
+          "alignment": 0.27689538461538454,
+          "spacing": 0.3015596981904036,
+          "hierarchy": 0.24079019123650552,
+          "cropRisk": 0,
+          "loss": 0.24235392904800163,
+          "compositionWeight": 0.65,
+          "compositionPenalty": 0.15753005388120106,
+          "readabilityDeficit": 0.04260519395134781,
+          "score": 0.49837160549198356
+        },
+        "movementFromSource": {
+          "mean": 0.405283112146706,
+          "max": 0.6126350195571729
+        },
+        "imageFrames": [
+          {
+            "id": "product-0",
+            "aspectRatio": 0.8163265306122449
+          },
+          {
+            "id": "product-1",
+            "aspectRatio": 0.8163265306122449
+          },
+          {
+            "id": "product-2",
+            "aspectRatio": 0.8163265306122449
+          }
+        ]
+      },
+      "to": {
+        "strategy": "uniform",
+        "metrics": {
+          "errors": 0,
+          "warnings": 7,
+          "minReadingSize": 6.750000000000001,
+          "contentCoverage": 0.4134202549868542,
+          "findings": [
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "label-0"
+              ],
+              "message": "label-0 reads at 7.8px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "price-0"
+              ],
+              "message": "price-0 reads at 8.3px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "label-1"
+              ],
+              "message": "label-1 reads at 7.8px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "price-1"
+              ],
+              "message": "price-1 reads at 8.3px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "label-2"
+              ],
+              "message": "label-2 reads at 7.8px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "price-2"
+              ],
+              "message": "price-2 reads at 8.3px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "footer"
+              ],
+              "message": "footer reads at 6.8px on a 360px short edge."
+            }
+          ]
+        },
+        "terms": {
+          "movement": 3.4301809259991037e-17,
+          "alignment": 0,
+          "spacing": 0,
+          "hierarchy": 2.745278751800387e-16,
+          "cropRisk": 0,
+          "loss": 6.176593688800595e-17,
+          "compositionWeight": 0.6506944444444445,
+          "compositionPenalty": 4.019075198893165e-17,
+          "readabilityDeficit": 0.062499999999999944,
+          "score": 0.4999999999999996
+        },
+        "movementFromSource": {
+          "mean": 0.0850035657500935,
+          "max": 0.15168917181069952
+        },
+        "imageFrames": [
+          {
+            "id": "product-0",
+            "aspectRatio": 0.8163265306122449
+          },
+          {
+            "id": "product-1",
+            "aspectRatio": 0.8163265306122449
+          },
+          {
+            "id": "product-2",
+            "aspectRatio": 0.8163265306122449
+          }
+        ]
+      },
+      "adjacentMovement": {
+        "mean": 0.37204939583284563,
+        "max": 0.6104175447550916
+      },
+      "adjacentCropRisk": 0
+    },
+    {
+      "source": "product-pairs",
+      "axis": "height",
+      "before": {
+        "id": "1440x1660",
+        "label": "1440 \u00d7 1660",
+        "width": 1440,
+        "height": 1660
+      },
+      "after": {
+        "id": "1440x1661",
+        "label": "1440 \u00d7 1661",
+        "width": 1440,
+        "height": 1661
+      },
+      "from": {
+        "strategy": "uniform",
+        "metrics": {
+          "errors": 0,
+          "warnings": 7,
+          "minReadingSize": 6.75,
+          "contentCoverage": 0.4133617804551539,
+          "findings": [
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "label-0"
+              ],
+              "message": "label-0 reads at 7.8px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "price-0"
+              ],
+              "message": "price-0 reads at 8.3px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "label-1"
+              ],
+              "message": "label-1 reads at 7.8px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "price-1"
+              ],
+              "message": "price-1 reads at 8.3px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "label-2"
+              ],
+              "message": "label-2 reads at 7.8px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "price-2"
+              ],
+              "message": "price-2 reads at 8.3px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "footer"
+              ],
+              "message": "footer reads at 6.8px on a 360px short edge."
+            }
+          ]
+        },
+        "terms": {
+          "movement": 0,
+          "alignment": 0,
+          "spacing": 0,
+          "hierarchy": 0,
+          "cropRisk": 0,
+          "loss": 0,
+          "compositionWeight": 0.6506024096385543,
+          "compositionPenalty": 0,
+          "readabilityDeficit": 0.0625,
+          "score": 0.5
+        },
+        "movementFromSource": {
+          "mean": 0.08502596243560097,
+          "max": 0.15172913877733152
+        },
+        "imageFrames": [
+          {
+            "id": "product-0",
+            "aspectRatio": 0.8163265306122449
+          },
+          {
+            "id": "product-1",
+            "aspectRatio": 0.8163265306122449
+          },
+          {
+            "id": "product-2",
+            "aspectRatio": 0.8163265306122449
+          }
+        ]
+      },
+      "to": {
+        "strategy": "split",
+        "metrics": {
+          "errors": 0,
+          "warnings": 6,
+          "minReadingSize": 7.140000000000001,
+          "contentCoverage": 0.5206956928222625,
+          "findings": [
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "label-0"
+              ],
+              "message": "label-0 reads at 8.3px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "price-0"
+              ],
+              "message": "price-0 reads at 7.4px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "label-1"
+              ],
+              "message": "label-1 reads at 8.3px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "price-1"
+              ],
+              "message": "price-1 reads at 7.4px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "label-2"
+              ],
+              "message": "label-2 reads at 7.1px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "price-2"
+              ],
+              "message": "price-2 reads at 7.4px on a 360px short edge."
+            }
+          ]
+        },
+        "terms": {
+          "movement": 0.3924861222696308,
+          "alignment": 0.27683555555555556,
+          "spacing": 0.30151902675402686,
+          "hierarchy": 0.23744917041926553,
+          "cropRisk": 0,
+          "loss": 0.24165797499969574,
+          "compositionWeight": 0.650210716435882,
+          "compositionPenalty": 0.15712860505699663,
+          "readabilityDeficit": 0.04271111111111107,
+          "score": 0.49881749394588515
+        },
+        "movementFromSource": {
+          "mean": 0.4052821921553056,
+          "max": 0.6126314579752801
+        },
+        "imageFrames": [
+          {
+            "id": "product-0",
+            "aspectRatio": 0.8163265306122449
+          },
+          {
+            "id": "product-1",
+            "aspectRatio": 0.8163265306122449
+          },
+          {
+            "id": "product-2",
+            "aspectRatio": 0.8163265306122449
+          }
+        ]
+      },
+      "adjacentMovement": {
+        "mean": 0.37204121834180964,
+        "max": 0.6104134515182368
+      },
+      "adjacentCropRisk": 0
+    },
+    {
+      "source": "quiet-brand",
+      "axis": "width",
+      "before": {
+        "id": "1142x1350",
+        "label": "1142 \u00d7 1350",
+        "width": 1142,
+        "height": 1350
+      },
+      "after": {
+        "id": "1143x1350",
+        "label": "1143 \u00d7 1350",
+        "width": 1143,
+        "height": 1350
+      },
+      "from": {
+        "strategy": "uniform",
+        "metrics": {
+          "errors": 0,
+          "warnings": 2,
+          "minReadingSize": 8.51138353765324,
+          "contentCoverage": 0.32110008432250114,
+          "findings": [
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "eyebrow"
+              ],
+              "message": "eyebrow reads at 8.5px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "footer"
+              ],
+              "message": "footer reads at 8.8px on a 360px short edge."
+            }
+          ]
+        },
+        "terms": {
+          "movement": 0,
+          "alignment": 0,
+          "spacing": 0,
+          "hierarchy": 0,
+          "cropRisk": 0,
+          "loss": 0,
+          "compositionWeight": 0.9457092819614712,
+          "compositionPenalty": 0,
+          "readabilityDeficit": 0.002947482065139049,
+          "score": 0.023579856521112393
+        },
+        "movementFromSource": {
+          "mean": 0.004277907504702599,
+          "max": 0.01988146202244276
+        },
+        "imageFrames": []
+      },
+      "to": {
+        "strategy": "stack",
+        "metrics": {
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.796850393700788,
+          "contentCoverage": 0.7189970000000001,
+          "findings": []
+        },
+        "terms": {
+          "movement": 0.03516490093573254,
+          "alignment": 0.009777996500437446,
+          "spacing": 0.08010742174188913,
+          "hierarchy": 0.00011862930938594252,
+          "cropRisk": 0,
+          "loss": 0.02503378969748901,
+          "compositionWeight": 0.9448818897637795,
+          "compositionPenalty": 0.02365397451731245,
+          "readabilityDeficit": 0,
+          "score": 0.02365397451731245
+        },
+        "movementFromSource": {
+          "mean": 0.03402324702043127,
+          "max": 0.0888472954075473
+        },
+        "imageFrames": []
+      },
+      "adjacentMovement": {
+        "mean": 0.02998453391709476,
+        "max": 0.08858890354281569
+      },
+      "adjacentCropRisk": 0
+    },
+    {
+      "source": "quiet-brand",
+      "axis": "height",
+      "before": {
+        "id": "1080x1276",
+        "label": "1080 \u00d7 1276",
+        "width": 1080,
+        "height": 1276
+      },
+      "after": {
+        "id": "1080x1277",
+        "label": "1080 \u00d7 1277",
+        "width": 1080,
+        "height": 1277
+      },
+      "from": {
+        "strategy": "stack",
+        "metrics": {
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.796666666666667,
+          "contentCoverage": 0.7190454545454547,
+          "findings": []
+        },
+        "terms": {
+          "movement": 0.03517150773836043,
+          "alignment": 0.009746227709190664,
+          "spacing": 0.08004747814418844,
+          "hierarchy": 0.00012555007592559195,
+          "cropRisk": 0,
+          "loss": 0.025018152733533028,
+          "compositionWeight": 0.9451851851851854,
+          "compositionPenalty": 0.023646787324435665,
+          "readabilityDeficit": 0,
+          "score": 0.023646787324435665
+        },
+        "movementFromSource": {
+          "mean": 0.03399707450082855,
+          "max": 0.08885827652193776
+        },
+        "imageFrames": []
+      },
+      "to": {
+        "strategy": "uniform",
+        "metrics": {
+          "errors": 0,
+          "warnings": 2,
+          "minReadingSize": 8.513333333333334,
+          "contentCoverage": 0.321173642229335,
+          "findings": [
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "eyebrow"
+              ],
+              "message": "eyebrow reads at 8.5px on a 360px short edge."
+            },
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "footer"
+              ],
+              "message": "footer reads at 8.8px on a 360px short edge."
+            }
+          ]
+        },
+        "terms": {
+          "movement": 2.7348357485983e-17,
+          "alignment": 1.9891495857867385e-17,
+          "spacing": 0,
+          "hierarchy": 5.181040781584064e-16,
+          "cropRisk": 0,
+          "loss": 1.1306878630045136e-16,
+          "compositionWeight": 0.9459259259259261,
+          "compositionPenalty": 1.0695469637457511e-16,
+          "readabilityDeficit": 0.0029240054869684477,
+          "score": 0.02339204389574769
+        },
+        "movementFromSource": {
+          "mean": 0.004260836762688613,
+          "max": 0.019802126200274328
+        },
+        "imageFrames": []
+      },
+      "adjacentMovement": {
+        "mean": 0.029974470198958457,
+        "max": 0.0886009204559487
+      },
+      "adjacentCropRisk": 0
+    },
+    {
+      "source": "type-pairing",
+      "axis": "width",
+      "before": {
+        "id": "1186x1350",
+        "label": "1186 \u00d7 1350",
+        "width": 1186,
+        "height": 1350
+      },
+      "after": {
+        "id": "1187x1350",
+        "label": "1187 \u00d7 1350",
+        "width": 1187,
+        "height": 1350
+      },
+      "from": {
+        "strategy": "uniform",
+        "metrics": {
+          "errors": 0,
+          "warnings": 1,
+          "minReadingSize": 8.499156829679595,
+          "contentCoverage": 0.5220460933108488,
+          "findings": [
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "eyebrow"
+              ],
+              "message": "eyebrow reads at 8.5px on a 360px short edge."
+            }
+          ]
+        },
+        "terms": {
+          "movement": 0,
+          "alignment": 0,
+          "spacing": 0,
+          "hierarchy": 0,
+          "cropRisk": 0,
+          "loss": 0,
+          "compositionWeight": 0.9106239460370995,
+          "compositionPenalty": 0,
+          "readabilityDeficit": 0.003096838040204866,
+          "score": 0.02477470432163893
+        },
+        "movementFromSource": {
+          "mean": 0,
+          "max": 0
+        },
+        "imageFrames": []
+      },
+      "to": {
+        "strategy": "stack",
+        "metrics": {
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.197304128053919,
+          "contentCoverage": 0.7131841111111111,
+          "findings": []
+        },
+        "terms": {
+          "movement": 0.03493132148460271,
+          "alignment": 0,
+          "spacing": 0.06933014782646225,
+          "hierarchy": 0.03493934003713881,
+          "cropRisk": 0,
+          "loss": 0.027840161869640757,
+          "compositionWeight": 0.9098567818028643,
+          "compositionPenalty": 0.025330560083582154,
+          "readabilityDeficit": 0,
+          "score": 0.025330560083582154
+        },
+        "movementFromSource": {
+          "mean": 0.030713687853498827,
+          "max": 0.054327893847802344
+        },
+        "imageFrames": []
+      },
+      "adjacentMovement": {
+        "mean": 0.030713687853498827,
+        "max": 0.054327893847802344
+      },
+      "adjacentCropRisk": 0
+    },
+    {
+      "source": "type-pairing",
+      "axis": "height",
+      "before": {
+        "id": "1080x1228",
+        "label": "1080 \u00d7 1228",
+        "width": 1080,
+        "height": 1228
+      },
+      "after": {
+        "id": "1080x1229",
+        "label": "1080 \u00d7 1229",
+        "width": 1080,
+        "height": 1229
+      },
+      "from": {
+        "strategy": "stack",
+        "metrics": {
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.196666666666667,
+          "contentCoverage": 0.713144951140065,
+          "findings": []
+        },
+        "terms": {
+          "movement": 0.034921105082758704,
+          "alignment": 0,
+          "spacing": 0.06941974724249132,
+          "hierarchy": 0.035016842991894837,
+          "cropRisk": 0,
+          "loss": 0.027871539063428975,
+          "compositionWeight": 0.9096296296296298,
+          "compositionPenalty": 0.02535277775547466,
+          "readabilityDeficit": 0,
+          "score": 0.02535277775547466
+        },
+        "movementFromSource": {
+          "mean": 0.030712372548354582,
+          "max": 0.05431859901116798
+        },
+        "imageFrames": []
+      },
+      "to": {
+        "strategy": "uniform",
+        "metrics": {
+          "errors": 0,
+          "warnings": 1,
+          "minReadingSize": 8.49679012345679,
+          "contentCoverage": 0.521900722450846,
+          "findings": [
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "eyebrow"
+              ],
+              "message": "eyebrow reads at 8.5px on a 360px short edge."
+            }
+          ]
+        },
+        "terms": {
+          "movement": 1.7270135938613546e-17,
+          "alignment": 0,
+          "spacing": 0,
+          "hierarchy": 2.220446049250313e-16,
+          "cropRisk": 0,
+          "loss": 4.786294817272897e-17,
+          "compositionWeight": 0.9103703703703704,
+          "compositionPenalty": 4.3573009855025114e-17,
+          "readabilityDeficit": 0.003126175059884347,
+          "score": 0.025009400479074823
+        },
+        "movementFromSource": {
+          "mean": 1.3877787807814457e-17,
+          "max": 5.551115123125783e-17
+        },
+        "imageFrames": []
+      },
+      "adjacentMovement": {
+        "mean": 0.030712372548354596,
+        "max": 0.05431859901116798
+      },
+      "adjacentCropRisk": 0
+    },
+    {
+      "source": "gallery-diptych",
+      "axis": "width",
+      "before": {
+        "id": "755x700",
+        "label": "755 \u00d7 700",
+        "width": 755,
+        "height": 700
+      },
+      "after": {
+        "id": "756x700",
+        "label": "756 \u00d7 700",
+        "width": 756,
+        "height": 700
+      },
+      "from": {
+        "strategy": "stack",
+        "metrics": {
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.82857142857143,
+          "contentCoverage": 0.6991788079470198,
+          "findings": []
+        },
+        "terms": {
+          "movement": 0.26730906398213694,
+          "alignment": 0.11451923076923076,
+          "spacing": 0.3738826203558347,
+          "hierarchy": 0.2819624225776968,
+          "cropRisk": 0.355305838739573,
+          "loss": 0.27859583528489446,
+          "compositionWeight": 0.5392857142857143,
+          "compositionPenalty": 0.1502427540286395,
+          "readabilityDeficit": 0,
+          "score": 0.1502427540286395
+        },
+        "movementFromSource": {
+          "mean": 0.17256602357791226,
+          "max": 0.3179096809112034
+        },
+        "imageFrames": [
+          {
+            "id": "left",
+            "aspectRatio": 2.6590681555641127
+          },
+          {
+            "id": "right",
+            "aspectRatio": 2.6590681555641127
+          }
+        ]
+      },
+      "to": {
+        "strategy": "uniform",
+        "metrics": {
+          "errors": 0,
+          "warnings": 1,
+          "minReadingSize": 7.776000000000001,
+          "contentCoverage": 0.351330612244898,
+          "findings": [
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "caption"
+              ],
+              "message": "caption reads at 7.8px on a 360px short edge."
+            }
+          ]
+        },
+        "terms": {
+          "movement": 6.344131569286609e-18,
+          "alignment": 0,
+          "spacing": 0,
+          "hierarchy": 2.220446049250313e-16,
+          "cropRisk": 8.881784197001252e-16,
+          "loss": 2.2331343123888865e-16,
+          "compositionWeight": 0.54,
+          "compositionPenalty": 1.2058925286899988e-16,
+          "readabilityDeficit": 0.01849599999999997,
+          "score": 0.14796799999999988
+        },
+        "movementFromSource": {
+          "mean": 0.09035714285714289,
+          "max": 0.18071428571428572
+        },
+        "imageFrames": [
+          {
+            "id": "left",
+            "aspectRatio": 1.7142857142857142
+          },
+          {
+            "id": "right",
+            "aspectRatio": 1.7142857142857142
+          }
+        ]
+      },
+      "adjacentMovement": {
+        "mean": 0.2595650733907429,
+        "max": 0.31370922413116137
+      },
+      "adjacentCropRisk": 0.35530583873957355
+    },
+    {
+      "source": "gallery-diptych",
+      "axis": "height",
+      "before": {
+        "id": "1400x1297",
+        "label": "1400 \u00d7 1297",
+        "width": 1400,
+        "height": 1297
+      },
+      "after": {
+        "id": "1400x1298",
+        "label": "1400 \u00d7 1298",
+        "width": 1400,
+        "height": 1298
+      },
+      "from": {
+        "strategy": "uniform",
+        "metrics": {
+          "errors": 0,
+          "warnings": 1,
+          "minReadingSize": 7.771781033153431,
+          "contentCoverage": 0.35113999339134266,
+          "findings": [
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "caption"
+              ],
+              "message": "caption reads at 7.8px on a 360px short edge."
+            }
+          ]
+        },
+        "terms": {
+          "movement": 0,
+          "alignment": 0,
+          "spacing": 0,
+          "hierarchy": 0,
+          "cropRisk": 0,
+          "loss": 0,
+          "compositionWeight": 0.5397070161912105,
+          "compositionPenalty": 0,
+          "readabilityDeficit": 0.01862372630273646,
+          "score": 0.1489898104218917
+        },
+        "movementFromSource": {
+          "mean": 0.09041469324815508,
+          "max": 0.18082938649631014
+        },
+        "imageFrames": [
+          {
+            "id": "left",
+            "aspectRatio": 1.7142857142857142
+          },
+          {
+            "id": "right",
+            "aspectRatio": 1.7142857142857142
+          }
+        ]
+      },
+      "to": {
+        "strategy": "stack",
+        "metrics": {
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 12.131278890600926,
+          "contentCoverage": 0.6991797857142857,
+          "findings": []
+        },
+        "terms": {
+          "movement": 0.2673091030814455,
+          "alignment": 0.11451923076923079,
+          "spacing": 0.37388457587610135,
+          "hierarchy": 0.2759568424010915,
+          "cropRisk": 0.3553133188141223,
+          "loss": 0.2773966141883982,
+          "compositionWeight": 0.539291217257319,
+          "compositionPenalty": 0.14959755772872016,
+          "readabilityDeficit": 0,
+          "score": 0.14959755772872016
+        },
+        "movementFromSource": {
+          "mean": 0.17256602357791231,
+          "max": 0.3179096809112035
+        },
+        "imageFrames": [
+          {
+            "id": "left",
+            "aspectRatio": 2.6590990078038366
+          },
+          {
+            "id": "right",
+            "aspectRatio": 2.6590990078038366
+          }
+        ]
+      },
+      "adjacentMovement": {
+        "mean": 0.25962049873056486,
+        "max": 0.31370657471406593
+      },
+      "adjacentCropRisk": 0.3553133188141223
+    },
+    {
+      "source": "centered-invitation",
+      "axis": "width",
+      "before": {
+        "id": "1103x1200",
+        "label": "1103 \u00d7 1200",
+        "width": 1103,
+        "height": 1200
+      },
+      "after": {
+        "id": "1104x1200",
+        "label": "1104 \u00d7 1200",
+        "width": 1104,
+        "height": 1200
+      },
+      "from": {
+        "strategy": "uniform",
+        "metrics": {
+          "errors": 0,
+          "warnings": 1,
+          "minReadingSize": 8.485947416137806,
+          "contentCoverage": 0.22484134179510426,
+          "findings": [
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "footer"
+              ],
+              "message": "footer reads at 8.5px on a 360px short edge."
+            }
+          ]
+        },
+        "terms": {
+          "movement": 0,
+          "alignment": 0,
+          "spacing": 0,
+          "hierarchy": 0,
+          "cropRisk": 0,
+          "loss": 0,
+          "compositionWeight": 0.7252946509519491,
+          "compositionPenalty": 0,
+          "readabilityDeficit": 0.003262346407103673,
+          "score": 0.026098771256829384
+        },
+        "movementFromSource": {
+          "mean": 0,
+          "max": 0
+        },
+        "imageFrames": []
+      },
+      "to": {
+        "strategy": "stack",
+        "metrics": {
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 14.038043478260867,
+          "contentCoverage": 0.705918,
+          "findings": []
+        },
+        "terms": {
+          "movement": 0.03869623655913976,
+          "alignment": 0,
+          "spacing": 0.143406381486676,
+          "hierarchy": 6.452241645984087e-05,
+          "cropRisk": 0,
+          "loss": 0.036433428092455124,
+          "compositionWeight": 0.7246376811594202,
+          "compositionPenalty": 0.026401034849605157,
+          "readabilityDeficit": 0,
+          "score": 0.026401034849605157
+        },
+        "movementFromSource": {
+          "mean": 0.03560053763440856,
+          "max": 0.10011720430107524
+        },
+        "imageFrames": []
+      },
+      "adjacentMovement": {
+        "mean": 0.03560053763440856,
+        "max": 0.10011720430107524
+      },
+      "adjacentCropRisk": 0
+    },
+    {
+      "source": "centered-invitation",
+      "axis": "height",
+      "before": {
+        "id": "800x870",
+        "label": "800 \u00d7 870",
+        "width": 800,
+        "height": 870
+      },
+      "after": {
+        "id": "800x871",
+        "label": "800 \u00d7 871",
+        "width": 800,
+        "height": 871
+      },
+      "from": {
+        "strategy": "stack",
+        "metrics": {
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 14.035499999999999,
+          "contentCoverage": 0.706,
+          "findings": []
+        },
+        "terms": {
+          "movement": 0.038703797043010774,
+          "alignment": 0,
+          "spacing": 0.14334442204301076,
+          "hierarchy": 9.616830668048489e-05,
+          "cropRisk": 0,
+          "loss": 0.03642887747854041,
+          "compositionWeight": 0.725,
+          "compositionPenalty": 0.026410936171941794,
+          "readabilityDeficit": 0,
+          "score": 0.026410936171941794
+        },
+        "movementFromSource": {
+          "mean": 0.03558969843035474,
+          "max": 0.10012513904338155
+        },
+        "imageFrames": []
+      },
+      "to": {
+        "strategy": "uniform",
+        "metrics": {
+          "errors": 0,
+          "warnings": 1,
+          "minReadingSize": 8.49225,
+          "contentCoverage": 0.2250083333333333,
+          "findings": [
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "footer"
+              ],
+              "message": "footer reads at 8.5px on a 360px short edge."
+            }
+          ]
+        },
+        "terms": {
+          "movement": 2.4716608426397172e-17,
+          "alignment": 0,
+          "spacing": 0,
+          "hierarchy": 2.9605947323337506e-16,
+          "cropRisk": 0,
+          "loss": 6.415521633195445e-17,
+          "compositionWeight": 0.7258333333333333,
+          "compositionPenalty": 4.6565994520943604e-17,
+          "readabilityDeficit": 0.0031828402777777784,
+          "score": 0.025462722222222272
+        },
+        "movementFromSource": {
+          "mean": 3.3306690738754695e-17,
+          "max": 1.1102230246251565e-16
+        },
+        "imageFrames": []
+      },
+      "adjacentMovement": {
+        "mean": 0.035589698430354734,
+        "max": 0.10012513904338155
+      },
+      "adjacentCropRisk": 0
+    },
+    {
+      "source": "museum-sidebar",
+      "axis": "width",
+      "before": {
+        "id": "1028x1000",
+        "label": "1028 \u00d7 1000",
+        "width": 1028,
+        "height": 1000
+      },
+      "after": {
+        "id": "1029x1000",
+        "label": "1029 \u00d7 1000",
+        "width": 1029,
+        "height": 1000
+      },
+      "from": {
+        "strategy": "split",
+        "metrics": {
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.6604,
+          "contentCoverage": 0.7056668287937743,
+          "findings": []
+        },
+        "terms": {
+          "movement": 0.05452114194920526,
+          "alignment": 0.0011681818181818182,
+          "spacing": 0.05342666666666666,
+          "hierarchy": 0.14804264312926543,
+          "cropRisk": 0,
+          "loss": 0.05143172671266383,
+          "compositionWeight": 0.8566666666666667,
+          "compositionPenalty": 0.04405984588384868,
+          "readabilityDeficit": 0,
+          "score": 0.04405984588384868
+        },
+        "movementFromSource": {
+          "mean": 0.0473480474313249,
+          "max": 0.05337425758371469
+        },
+        "imageFrames": [
+          {
+            "id": "art",
+            "aspectRatio": 0.48380459770114936
+          }
+        ]
+      },
+      "to": {
+        "strategy": "uniform",
+        "metrics": {
+          "errors": 0,
+          "warnings": 1,
+          "minReadingSize": 8.3349,
+          "contentCoverage": 0.570880625,
+          "findings": [
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "footer"
+              ],
+              "message": "footer reads at 8.3px on a 360px short edge."
+            }
+          ]
+        },
+        "terms": {
+          "movement": 3.136487380837917e-17,
+          "alignment": 3.148996215300444e-18,
+          "spacing": 0,
+          "hierarchy": 2.9605947323337506e-16,
+          "cropRisk": 0,
+          "loss": 6.611466865141094e-17,
+          "compositionWeight": 0.8574999999999999,
+          "compositionPenalty": 5.669332836858487e-17,
+          "readabilityDeficit": 0.0054612100000000115,
+          "score": 0.04368968000000015
+        },
+        "movementFromSource": {
+          "mean": 0.027787500000000027,
+          "max": 0.05415000000000003
+        },
+        "imageFrames": [
+          {
+            "id": "art",
+            "aspectRatio": 0.6781609195402298
+          }
+        ]
+      },
+      "adjacentMovement": {
+        "mean": 0.05327655317101426,
+        "max": 0.07084804610798102
+      },
+      "adjacentCropRisk": 0
+    },
+    {
+      "source": "museum-sidebar",
+      "axis": "height",
+      "before": {
+        "id": "1200x1166",
+        "label": "1200 \u00d7 1166",
+        "width": 1200,
+        "height": 1166
+      },
+      "after": {
+        "id": "1200x1167",
+        "label": "1200 \u00d7 1167",
+        "width": 1200,
+        "height": 1167
+      },
+      "from": {
+        "strategy": "uniform",
+        "metrics": {
+          "errors": 0,
+          "warnings": 1,
+          "minReadingSize": 8.336192109777015,
+          "contentCoverage": 0.5709691252144082,
+          "findings": [
+            {
+              "kind": "small-text",
+              "severity": "warning",
+              "elementIds": [
+                "footer"
+              ],
+              "message": "footer reads at 8.3px on a 360px short edge."
+            }
+          ]
+        },
+        "terms": {
+          "movement": 0,
+          "alignment": 0,
+          "spacing": 0,
+          "hierarchy": 0,
+          "cropRisk": 0,
+          "loss": 0,
+          "compositionWeight": 0.8576329331046312,
+          "compositionPenalty": 0,
+          "readabilityDeficit": 0.005440011297806058,
+          "score": 0.043520090382448466
+        },
+        "movementFromSource": {
+          "mean": 0.02776157804459689,
+          "max": 0.05409948542024012
+        },
+        "imageFrames": [
+          {
+            "id": "art",
+            "aspectRatio": 0.6781609195402298
+          }
+        ]
+      },
+      "to": {
+        "strategy": "split",
+        "metrics": {
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.66375321336761,
+          "contentCoverage": 0.70570431375,
+          "findings": []
+        },
+        "terms": {
+          "movement": 0.05450659976370341,
+          "alignment": 0.0011684973124561815,
+          "spacing": 0.05342186589545845,
+          "hierarchy": 0.14801062752433633,
+          "cropRisk": 0,
+          "loss": 0.05142151809919088,
+          "compositionWeight": 0.856898029134533,
+          "compositionPenalty": 0.04406299751430238,
+          "readabilityDeficit": 0,
+          "score": 0.04406299751430238
+        },
+        "movementFromSource": {
+          "mean": 0.04734537472844576,
+          "max": 0.05336872703282058
+        },
+        "imageFrames": [
+          {
+            "id": "art",
+            "aspectRatio": 0.4839609668173625
+          }
+        ]
+      },
+      "adjacentMovement": {
+        "mean": 0.05326052926463974,
+        "max": 0.07080905290145213
+      },
+      "adjacentCropRisk": 0
+    }
+  ],
+  "visuals": [
+    {
+      "name": "transition-after-dark-width-1164-before",
+      "source": "after-dark",
+      "width": 1163,
+      "height": 1350,
+      "note": "Transition: preceding pixel"
+    },
+    {
+      "name": "transition-after-dark-width-1164-after",
+      "source": "after-dark",
+      "width": 1164,
+      "height": 1350,
+      "note": "Transition: following pixel"
+    },
+    {
+      "name": "transition-after-dark-height-1254-before",
+      "source": "after-dark",
+      "width": 1080,
+      "height": 1253,
+      "note": "Transition: preceding pixel"
+    },
+    {
+      "name": "transition-after-dark-height-1254-after",
+      "source": "after-dark",
+      "width": 1080,
+      "height": 1254,
+      "note": "Transition: following pixel"
+    },
+    {
+      "name": "transition-dense-program-width-1284-before",
+      "source": "dense-program",
+      "width": 1283,
+      "height": 1350,
+      "note": "Transition: preceding pixel"
+    },
+    {
+      "name": "transition-dense-program-width-1284-after",
+      "source": "dense-program",
+      "width": 1284,
+      "height": 1350,
+      "note": "Transition: following pixel"
+    },
+    {
+      "name": "nearby-quiet-brand",
+      "source": "quiet-brand",
+      "width": 1081,
+      "height": 1350,
+      "note": "One-pixel width increase"
+    },
+    {
+      "name": "story-quiet-brand",
+      "source": "quiet-brand",
+      "width": 1080,
+      "height": 1920,
+      "note": "Substantial format change"
+    },
+    {
+      "name": "nearby-edge-subject",
+      "source": "edge-subject",
+      "width": 1351,
+      "height": 1080,
+      "note": "One-pixel width increase"
+    },
+    {
+      "name": "story-edge-subject",
+      "source": "edge-subject",
+      "width": 1080,
+      "height": 1920,
+      "note": "Substantial format change"
+    },
+    {
+      "name": "nearby-gallery-diptych",
+      "source": "gallery-diptych",
+      "width": 1401,
+      "height": 700,
+      "note": "One-pixel width increase"
+    },
+    {
+      "name": "story-gallery-diptych",
+      "source": "gallery-diptych",
+      "width": 1080,
+      "height": 1920,
+      "note": "Substantial format change"
+    },
+    {
+      "name": "nearby-centered-invitation",
+      "source": "centered-invitation",
+      "width": 801,
+      "height": 1200,
+      "note": "One-pixel width increase"
+    },
+    {
+      "name": "story-centered-invitation",
+      "source": "centered-invitation",
+      "width": 1080,
+      "height": 1920,
+      "note": "Substantial format change"
+    },
+    {
+      "name": "nearby-museum-sidebar",
+      "source": "museum-sidebar",
+      "width": 1201,
+      "height": 1000,
+      "note": "One-pixel width increase"
+    },
+    {
+      "name": "story-museum-sidebar",
+      "source": "museum-sidebar",
+      "width": 1080,
+      "height": 1920,
+      "note": "Substantial format change"
+    }
+  ]
+}

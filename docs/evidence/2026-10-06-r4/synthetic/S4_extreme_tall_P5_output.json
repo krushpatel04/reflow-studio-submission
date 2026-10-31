@@ -1,0 +1,42 @@
+{
+  "canvas": {
+    "width": 60,
+    "height": 1000
+  },
+  "elements": [
+    {
+      "id": "bg",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "x": 0,
+      "y": 0,
+      "width": 60,
+      "height": 1000,
+      "fill_color": "rgba(255,255,255,1)"
+    },
+    {
+      "id": "tall1",
+      "type": "text",
+      "x": 0.0,
+      "y": 0.0,
+      "width": 58.0,
+      "height": 45.75358490992202,
+      "content": "Vertical Tower Headline",
+      "font_family": "Solstice Serif",
+      "font_size": 12.709329141645004,
+      "color": "rgba(0,0,0,1)"
+    },
+    {
+      "id": "tall2",
+      "type": "text",
+      "x": 0.0,
+      "y": 47.75358490992202,
+      "width": 59.0,
+      "height": 36.60286792793761,
+      "content": "Secondary Column Text",
+      "font_family": "Solstice Sans",
+      "font_size": 10.167463313316002,
+      "color": "rgba(0,0,0,1)"
+    }
+  ]
+}

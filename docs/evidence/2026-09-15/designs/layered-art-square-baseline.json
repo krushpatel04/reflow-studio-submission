@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "layered-art",
+  "name": "Layers of possibility",
+  "description": "Transparent decorative shapes preserve paint order and intentional overlap.",
+  "provenance": "synthetic",
+  "width": 1080,
+  "height": 1080,
+  "background": "#ece4f1",
+  "elements": [
+    {
+      "id": "orb-1",
+      "type": "ellipse",
+      "role": "decoration",
+      "x": 430,
+      "y": 110,
+      "width": 565,
+      "height": 565,
+      "color": "#8263bc",
+      "opacity": 0.55
+    },
+    {
+      "id": "orb-2",
+      "type": "ellipse",
+      "role": "decoration",
+      "x": 225,
+      "y": 300,
+      "width": 590,
+      "height": 590,
+      "color": "#e7aa6e",
+      "opacity": 0.65
+    },
+    {
+      "id": "eyebrow",
+      "type": "text",
+      "role": "content",
+      "text": "EXPERIMENT / 006",
+      "x": 68,
+      "y": 64,
+      "width": 900,
+      "height": 52,
+      "fontSize": 30,
+      "color": "#2b1e3d",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "headline",
+      "type": "text",
+      "role": "content",
+      "text": "Make\nsomething\nunexpected.",
+      "x": 68,
+      "y": 202,
+      "width": 940,
+      "height": 415,
+      "fontSize": 106,
+      "color": "#2b1e3d",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "footer",
+      "type": "text",
+      "role": "content",
+      "text": "OPEN LAB · WEDNESDAY · 18:00",
+      "x": 68,
+      "y": 902,
+      "width": 940,
+      "height": 92,
+      "fontSize": 33,
+      "color": "#2b1e3d",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    }
+  ],
+  "groups": []
+}

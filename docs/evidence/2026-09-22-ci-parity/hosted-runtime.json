@@ -1,0 +1,10 @@
+{
+  "chromium": "153.0.8010.12",
+  "node": "v24.20.0",
+  "platform": "linux",
+  "schemaVersion": "reflow.design.v0",
+  "fault": "none",
+  "page": "/verify.html",
+  "errors": [],
+  "reportProduced": true
+}

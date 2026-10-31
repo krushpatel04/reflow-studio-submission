@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "type-pairing",
+  "name": "Two voices, one design",
+  "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+  "provenance": "synthetic",
+  "width": 1080,
+  "height": 1080,
+  "background": "#2a352e",
+  "elements": [
+    {
+      "id": "eyebrow",
+      "type": "text",
+      "role": "content",
+      "text": "THE INDEPENDENT READING SERIES",
+      "x": 165.6,
+      "y": 52,
+      "width": 748.8000000000001,
+      "height": 43.2,
+      "fontSize": 22.400000000000002,
+      "color": "#e4dec8",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "headline",
+      "type": "text",
+      "role": "content",
+      "text": "Words\nworth\nstaying for.",
+      "x": 165.6,
+      "y": 156.8,
+      "width": 748.8000000000001,
+      "height": 440,
+      "fontSize": 105.60000000000001,
+      "color": "#e4dec8",
+      "fontWeight": 600,
+      "fontFamily": "Source Serif 4",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "body",
+      "type": "text",
+      "role": "content",
+      "text": "Three writers. An open door.\nAn evening without an agenda.",
+      "x": 165.6,
+      "y": 668.8000000000001,
+      "width": 748.8000000000001,
+      "height": 122.4,
+      "fontSize": 32.800000000000004,
+      "color": "#e4dec8",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "footer",
+      "type": "text",
+      "role": "content",
+      "text": "TUESDAY 20 OCT · 19:00\nTHE OLD BOOKSHOP",
+      "x": 165.6,
+      "y": 896,
+      "width": 748.8000000000001,
+      "height": 108.80000000000001,
+      "fontSize": 27.200000000000003,
+      "color": "#e4dec8",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    }
+  ],
+  "groups": []
+}

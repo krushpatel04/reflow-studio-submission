@@ -1,0 +1,82 @@
+✔ creates deterministic blank reviewer records without method or input-path leakage (10.803875ms)
+✔ assigns every eligible case to distinct reviewers with balanced primary workloads (0.60225ms)
+✔ adds one hidden reversed control per reviewer and decodes A/B to the opposite outputs (0.735334ms)
+✔ keeps excluded and failed cases out of review while retaining their exact reasons in accounting (0.257709ms)
+✔ rejects malformed, duplicate, and impossible inputs while accepting valid sparse failures (0.502958ms)
+✔ CLI writes physically separate reviewer, private-decode, and accounting manifests (94.345875ms)
+✔ materialize copies pinned eligible PNGs including controls and never reads excluded/failed paths (156.472458ms)
+✔ materialize rejects hash before publishing any directory (76.800875ms)
+✔ materialize rejects missing before publishing any directory (79.334791ms)
+✔ materialize rejects non-png before publishing any directory (76.201209ms)
+✔ materialize rejects oversized before publishing any directory (93.034708ms)
+✔ CLI rejects unknown and duplicate options instead of silently ignoring intended mode (197.695833ms)
+✖ materialize rejects identity-bearing tEXt PNG metadata (80.5995ms)
+✖ materialize rejects identity-bearing zTXt PNG metadata (77.3415ms)
+✖ materialize rejects identity-bearing iTXt PNG metadata (78.927541ms)
+✖ materialize rejects identity-bearing eXIf PNG metadata (78.883542ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 12
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1267.885833
+
+✖ failing tests:
+
+test at tests/issue7-review-bundle.test.ts:1:12105
+✖ materialize rejects identity-bearing tEXt PNG metadata (80.5995ms)
+  AssertionError [ERR_ASSERTION]: method-bearing metadata must not reach reviewers
+      at TestContext.<anonymous> (<repo>/tests/issue7-review-bundle.test.ts:305:14)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 0,
+    operator: 'notStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/issue7-review-bundle.test.ts:1:12105
+✖ materialize rejects identity-bearing zTXt PNG metadata (77.3415ms)
+  AssertionError [ERR_ASSERTION]: method-bearing metadata must not reach reviewers
+      at TestContext.<anonymous> (<repo>/tests/issue7-review-bundle.test.ts:305:14)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 0,
+    operator: 'notStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/issue7-review-bundle.test.ts:1:12105
+✖ materialize rejects identity-bearing iTXt PNG metadata (78.927541ms)
+  AssertionError [ERR_ASSERTION]: method-bearing metadata must not reach reviewers
+      at TestContext.<anonymous> (<repo>/tests/issue7-review-bundle.test.ts:305:14)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 0,
+    operator: 'notStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/issue7-review-bundle.test.ts:1:12105
+✖ materialize rejects identity-bearing eXIf PNG metadata (78.883542ms)
+  AssertionError [ERR_ASSERTION]: method-bearing metadata must not reach reviewers
+      at TestContext.<anonymous> (<repo>/tests/issue7-review-bundle.test.ts:305:14)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 0,
+    operator: 'notStrictEqual',
+    diff: 'simple'
+  }

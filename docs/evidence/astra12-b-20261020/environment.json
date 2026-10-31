@@ -1,0 +1,22 @@
+{
+  "package-lock.json": {
+    "current": "fd107687b392d74de92033dbc92570dcce81600709662f8f1ad48ae77a07158e",
+    "cached_source": "fd107687b392d74de92033dbc92570dcce81600709662f8f1ad48ae77a07158e"
+  },
+  "requirements-python-submission.txt": {
+    "current": "b7fb1a494511fa37c79753fc82e4f222d9666da5813610c6bb2b85c80d7a96e1",
+    "cached_source": "b7fb1a494511fa37c79753fc82e4f222d9666da5813610c6bb2b85c80d7a96e1"
+  },
+  "constraints-python-submission.txt": {
+    "current": "77d3fe8e375b3616a5e4fd09e0c6dacab5571df0de25c25230d9a5dc2a00b26b",
+    "cached_source": "77d3fe8e375b3616a5e4fd09e0c6dacab5571df0de25c25230d9a5dc2a00b26b"
+  },
+  "requirements-python-test.txt": {
+    "current": "d3a3526bbd267bae12ecdc74b45bf302e6938281bf37cfcc65a9f3ddb7026955",
+    "cached_source": "d3a3526bbd267bae12ecdc74b45bf302e6938281bf37cfcc65a9f3ddb7026955"
+  },
+  "upstream_head": "a44a06046b0413f0785e7203955c3822e0acbc32",
+  "host": "macOS-15.4-arm64-arm-64bit-Mach-O",
+  "python": "Python 3.11.11",
+  "node": "v24.20.0"
+}

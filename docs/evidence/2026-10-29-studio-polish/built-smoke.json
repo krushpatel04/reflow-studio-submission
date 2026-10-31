@@ -1,0 +1,18 @@
+{
+  "built": true,
+  "external_network_blocked": true,
+  "local_http_server_required": true,
+  "local_server_disconnect": {
+    "failure_visible": true,
+    "retained_headline": "Designafter dark.",
+    "retry_recovered": true
+  },
+  "edit": true,
+  "inspection": true,
+  "actual_size": true,
+  "escape_focus": true,
+  "export": "after-dark-reflow.json",
+  "export_copy_preserved": true,
+  "page_errors": [],
+  "external_requests": []
+}

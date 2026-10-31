@@ -1,0 +1,29 @@
+{
+  "status": "PASS_SCOPED_IMMUTABLE_SOURCE",
+  "scope": "Font measurement parity and font-set readiness before prepared-cache commit",
+  "candidate_sha": "a184facd6dae2a981dbbc70fbe0583450410b222",
+  "utc": "2026-10-15T16:26:16.438431+00:00",
+  "source_hashes": {
+    "src/layout-worker.ts": "152101c1ddeac57ca7fc6fb336d03148fe266c82e375dd82f16564ec2f8125e4",
+    "src/main.ts": "fb76507a525caf0127b0616e01ba424bc534c3747353319d98f052ea0d311b92",
+    "tests/browser/request-lifecycle.spec.ts": "cc702e31ccd4ccba63eedae1c5e34c1885df82aa2fb465fc533f60b9d1941f15"
+  },
+  "findings": [],
+  "reason": "Awaiting fonts.ready after explicit subset loads allows loadingdone-driven cache invalidation to settle before prepared layout enters cache; revision check and outer deadline remain after/across the wait. Worker font implementation unchanged.",
+  "regression": {
+    "before_presentation_layout_measurements": 1626,
+    "after": 0,
+    "test": "newly loaded font subsets leave a reusable committed presentation cache",
+    "focused_review_controls_passed": 3
+  },
+  "evidence_hashes": {
+    "font-boundary-red-counts.json": "89306175e46714cd6d5d4808ed6f903a2f2a4536016d31e0709f7a520a74ca37",
+    "font-boundary-cache.json": "68aadf8480ad46a4c0781df2c86cabd5c7cd32f26d0d11d39ec6f79787708cc3",
+    "review-controls-green.log": "2ab5ccb6f30f54bd099a148112b0e9cae526925d782d6b4377afd5b9736e3afa"
+  },
+  "limits": [
+    "C executed evidence; A independently inspected source and artifacts without rerun",
+    "Full candidate gates still running; D owns general lifecycle/integration acceptance",
+    "No native Express or broader font support claim"
+  ]
+}

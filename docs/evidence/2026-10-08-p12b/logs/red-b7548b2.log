@@ -1,0 +1,74 @@
+Fontconfig error: Cannot load default config file
+/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+F/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+FE/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+E/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+FE
+======================================================================
+ERROR: test_caller_enters_once_per_task_with_renderer_records_and_exits (tests_python.test_render_font_binding.RenderFontBinding.test_caller_enters_once_per_task_with_renderer_records_and_exits)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py", line 41, in test_caller_enters_once_per_task_with_renderer_records_and_exits
+    real, calls = text_fit.faces, []
+                  ^^^^^^^^^^^^^^
+AttributeError: module 'engine.text_fit' has no attribute 'faces'
+
+======================================================================
+ERROR: test_context_is_reset_after_run (tests_python.test_render_font_binding.RenderFontBinding.test_context_is_reset_after_run)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py", line 62, in test_context_is_reset_after_run
+    self.assertIsNone(text_fit._FACES.get())
+                      ^^^^^^^^^^^^^^^
+AttributeError: module 'engine.text_fit' has no attribute '_FACES'
+
+======================================================================
+ERROR: test_without_faces_hook_run_still_works_and_says_unavailable (tests_python.test_render_font_binding.RenderFontBinding.test_without_faces_hook_run_still_works_and_says_unavailable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py", line 66, in test_without_faces_hook_run_still_works_and_says_unavailable
+    real = text_fit.faces
+           ^^^^^^^^^^^^^^
+AttributeError: module 'engine.text_fit' has no attribute 'faces'
+
+======================================================================
+FAIL: test_audit_says_bound_when_hook_present (tests_python.test_render_font_binding.RenderFontBinding.test_audit_says_bound_when_hook_present)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py", line 77, in test_audit_says_bound_when_hook_present
+    self.assertEqual(audits['fitnarrow']['font_binding'], 'bound')
+AssertionError: 'unavailable' != 'bound'
+- unavailable
++ bound
+
+
+======================================================================
+FAIL: test_box_width_follows_the_task_bytes (tests_python.test_render_font_binding.RenderFontBinding.test_box_width_follows_the_task_bytes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py", line 37, in test_box_width_follows_the_task_bytes
+    self.assertGreater(width['fitwide']['width'], width['fitnarrow']['width'])
+AssertionError: 120.0 not greater than 120.0
+
+======================================================================
+FAIL: test_fit_font_hash_equals_renderer_font_hash (tests_python.test_render_font_binding.RenderFontBinding.test_fit_font_hash_equals_renderer_font_hash)
+D3: for every text element the fit measured the same bytes the renderer drew. RED on b7548b2.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py", line 31, in test_fit_font_hash_equals_renderer_font_hash
+    self.assertTrue(audit['metrics'], f'{lid}: fit measured nothing')
+AssertionError: [] is not true : fitnarrow: fit measured nothing
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.790s
+
+FAILED (failures=3, errors=3)
+exit=1

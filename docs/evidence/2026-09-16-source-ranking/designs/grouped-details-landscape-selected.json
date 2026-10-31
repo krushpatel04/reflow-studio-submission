@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "grouped-details",
+  "name": "Keep the details together",
+  "description": "Two semantic clusters must retain their internal arrangement.",
+  "provenance": "synthetic",
+  "width": 1920,
+  "height": 1080,
+  "background": "#e6ebdf",
+  "elements": [
+    {
+      "id": "headline",
+      "type": "text",
+      "role": "content",
+      "text": "A little room\nfor big ideas.",
+      "x": 321.6,
+      "y": 78,
+      "width": 828,
+      "height": 286.8,
+      "fontSize": 98.39999999999999,
+      "color": "#283929",
+      "fontWeight": 600,
+      "fontFamily": "Source Serif 4",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "hero",
+      "type": "image",
+      "role": "content",
+      "assetId": "orbit",
+      "x": 1212,
+      "y": 76.8,
+      "width": 384,
+      "height": 486,
+      "fit": "cover",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "date",
+      "type": "text",
+      "role": "content",
+      "text": "SAT 24 OCT",
+      "x": 324,
+      "y": 498,
+      "width": 768,
+      "height": 93.6,
+      "fontSize": 69.6,
+      "color": "#283929",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "when-where"
+    },
+    {
+      "id": "venue",
+      "type": "text",
+      "role": "content",
+      "text": "12:00–16:00\nNorth campus workshop",
+      "x": 324,
+      "y": 618,
+      "width": 768,
+      "height": 134.4,
+      "fontSize": 43.199999999999996,
+      "color": "#283929",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "when-where"
+    },
+    {
+      "id": "cta-bg",
+      "type": "rect",
+      "role": "content",
+      "x": 324,
+      "y": 872.4,
+      "width": 1272,
+      "height": 132,
+      "color": "#283929",
+      "groupId": "cta",
+      "radius": 19.2
+    },
+    {
+      "id": "cta",
+      "type": "text",
+      "role": "content",
+      "text": "RESERVE YOUR WORKBENCH",
+      "x": 348,
+      "y": 909.6,
+      "width": 1224,
+      "height": 62.4,
+      "fontSize": 38.4,
+      "color": "#ffffff",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "cta",
+      "align": "center"
+    }
+  ],
+  "groups": [
+    {
+      "id": "when-where",
+      "label": "when where"
+    },
+    {
+      "id": "cta",
+      "label": "cta"
+    }
+  ]
+}

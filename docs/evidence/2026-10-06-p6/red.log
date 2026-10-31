@@ -1,0 +1,53 @@
+E....FFFFF.
+======================================================================
+ERROR: test_ladder_ends_exactly_at_s (tests_python.test_group_scale.Controls.test_ladder_ends_exactly_at_s)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_group_scale.py", line 106, in test_ladder_ends_exactly_at_s
+    from engine.text_fit import ladder
+ImportError: cannot import name 'ladder' from 'engine.text_fit' (/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/engine/text_fit.py)
+
+======================================================================
+FAIL: test_sub_floor_group_labels_reach_floor_with_one_ratio_k_ge_s (tests_python.test_group_scale.L3GroupScale.test_sub_floor_group_labels_reach_floor_with_one_ratio_k_ge_s) [badge1]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_group_scale.py", line 59, in test_sub_floor_group_labels_reach_floor_with_one_ratio_k_ge_s
+    self.assertGreaterEqual(self.o[f"{g}_label"]["font_size"], FLOOR - 1e-9)
+AssertionError: 1.0 not greater than or equal to 5.999999999
+
+======================================================================
+FAIL: test_sub_floor_group_labels_reach_floor_with_one_ratio_k_ge_s (tests_python.test_group_scale.L3GroupScale.test_sub_floor_group_labels_reach_floor_with_one_ratio_k_ge_s) [badge2]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_group_scale.py", line 59, in test_sub_floor_group_labels_reach_floor_with_one_ratio_k_ge_s
+    self.assertGreaterEqual(self.o[f"{g}_label"]["font_size"], FLOOR - 1e-9)
+AssertionError: 1.0 not greater than or equal to 5.999999999
+
+======================================================================
+FAIL: test_sub_floor_group_labels_reach_floor_with_one_ratio_k_ge_s (tests_python.test_group_scale.L3GroupScale.test_sub_floor_group_labels_reach_floor_with_one_ratio_k_ge_s) [badge3]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_group_scale.py", line 59, in test_sub_floor_group_labels_reach_floor_with_one_ratio_k_ge_s
+    self.assertGreaterEqual(self.o[f"{g}_label"]["font_size"], FLOOR - 1e-9)
+AssertionError: 1.0 not greater than or equal to 5.999999999
+
+======================================================================
+FAIL: test_sub_floor_group_labels_reach_floor_with_one_ratio_k_ge_s (tests_python.test_group_scale.L3GroupScale.test_sub_floor_group_labels_reach_floor_with_one_ratio_k_ge_s) [cta]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_group_scale.py", line 59, in test_sub_floor_group_labels_reach_floor_with_one_ratio_k_ge_s
+    self.assertGreaterEqual(self.o[f"{g}_label"]["font_size"], FLOOR - 1e-9)
+AssertionError: 1.4666666666666666 not greater than or equal to 5.999999999
+
+======================================================================
+FAIL: test_sub_floor_group_labels_reach_floor_with_one_ratio_k_ge_s (tests_python.test_group_scale.L3GroupScale.test_sub_floor_group_labels_reach_floor_with_one_ratio_k_ge_s) [ribbon]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_group_scale.py", line 59, in test_sub_floor_group_labels_reach_floor_with_one_ratio_k_ge_s
+    self.assertGreaterEqual(self.o[f"{g}_label"]["font_size"], FLOOR - 1e-9)
+AssertionError: 1.3333333333333333 not greater than or equal to 5.999999999
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.548s
+
+FAILED (failures=5, errors=1)

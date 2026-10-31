@@ -1,0 +1,61 @@
+{
+  "baseCommit": "98b2eb1",
+  "node": "v24.20.0",
+  "benchmark": {
+    "cases": 30,
+    "sourceErrors": 0,
+    "baselineErrors": 0,
+    "selectedErrors": 0,
+    "baselineWarnings": 42,
+    "selectedWarnings": 6,
+    "selectedCasesWithErrors": 0,
+    "medianLayoutMs": 21.60525000000007,
+    "p95LayoutMs": 47.94120800000002,
+    "selections": {
+      "identity": 1,
+      "uniform": 3,
+      "stack": 19,
+      "split": 7
+    }
+  },
+  "unchangedArchivedDesigns": 70,
+  "unchangedArchivedPngs": 70,
+  "selectedStrategiesChanged": 0,
+  "files": [
+    {
+      "path": "badge-after.json",
+      "sha256": "566c52f2f1dce84fa60a7ff811f3eb780946f58d5c882f25dc27763a39da647c",
+      "bytes": 7027
+    },
+    {
+      "path": "badge-after.png",
+      "sha256": "c3324ac6d9da5eb72bc676312eb5221ebc6f894011588c45e469d24d8888507a",
+      "bytes": 7771
+    },
+    {
+      "path": "badge-before.json",
+      "sha256": "c4008b0edcceecfe11ab85427c7386b7de2919683885d297e1a8c03976a743b4",
+      "bytes": 6940
+    },
+    {
+      "path": "badge-before.png",
+      "sha256": "5938673a410623371580f067d6364c5993a9cc09fc9be2eb7b61d58a038e2d12",
+      "bytes": 3522
+    },
+    {
+      "path": "badge-source.png",
+      "sha256": "219e4c0d6bbd67a838c66b46e5554916aab1e5396156af4bf45cc833b88303d5",
+      "bytes": 7191
+    },
+    {
+      "path": "browser-green.json",
+      "sha256": "ecac9a66e1c66df46014465216409612adfadd40e1b4d77245d1338bab97e2a7",
+      "bytes": 1323
+    },
+    {
+      "path": "probes.json",
+      "sha256": "5bf8a852f2fbc13116c0b417d1da6b7b1c88b5c293909e97bd007964f8c8757f",
+      "bytes": 5608
+    }
+  ]
+}

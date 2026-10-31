@@ -1,0 +1,91 @@
+/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/engine/text_fit.py:563: RuntimeWarning: text_fit: no candidate meets the floor for ids headline,subhead,legal_text
+  warnings.warn("text_fit: no candidate meets the floor for ids " + ",".join(free), RuntimeWarning)
+======================================================================
+FAIL: test_medium_copy_and_labels_improve_without_smaller_headline (tests_python.test_campaign_medium.MediumCampaign.test_medium_copy_and_labels_improve_without_smaller_headline) (target=(300, 250))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 31, in test_medium_copy_and_labels_improve_without_smaller_headline
+    self.checked(source(), w, h)
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 21, in checked
+    CampaignRobustness.clear(self, out)
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 54, in clear
+    self.assertFalse(overlaps(a, b), (a['id'], b['id']))
+AssertionError: True is not false : ('holiday_watermark', 'legal_text')
+
+======================================================================
+FAIL: test_medium_copy_and_labels_improve_without_smaller_headline (tests_python.test_campaign_medium.MediumCampaign.test_medium_copy_and_labels_improve_without_smaller_headline) (target=(301, 251))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 31, in test_medium_copy_and_labels_improve_without_smaller_headline
+    self.checked(source(), w, h)
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 21, in checked
+    CampaignRobustness.clear(self, out)
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 54, in clear
+    self.assertFalse(overlaps(a, b), (a['id'], b['id']))
+AssertionError: True is not false : ('holiday_watermark', 'legal_text')
+
+======================================================================
+FAIL: test_medium_copy_and_labels_improve_without_smaller_headline (tests_python.test_campaign_medium.MediumCampaign.test_medium_copy_and_labels_improve_without_smaller_headline) (target=(320, 250))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 31, in test_medium_copy_and_labels_improve_without_smaller_headline
+    self.checked(source(), w, h)
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 21, in checked
+    CampaignRobustness.clear(self, out)
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 54, in clear
+    self.assertFalse(overlaps(a, b), (a['id'], b['id']))
+AssertionError: True is not false : ('holiday_watermark', 'legal_text')
+
+======================================================================
+FAIL: test_medium_copy_and_labels_improve_without_smaller_headline (tests_python.test_campaign_medium.MediumCampaign.test_medium_copy_and_labels_improve_without_smaller_headline) (target=(250, 300))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 31, in test_medium_copy_and_labels_improve_without_smaller_headline
+    self.checked(source(), w, h)
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 24, in checked
+    self.assertGreaterEqual(e['font_size'], 9, e['id'])
+AssertionError: 6.0 not greater than or equal to 9 : subhead
+
+======================================================================
+FAIL: test_medium_copy_and_labels_improve_without_smaller_headline (tests_python.test_campaign_medium.MediumCampaign.test_medium_copy_and_labels_improve_without_smaller_headline) (target=(600, 500))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 31, in test_medium_copy_and_labels_improve_without_smaller_headline
+    self.checked(source(), w, h)
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 20, in checked
+    out = CampaignRobustness.checked(self, s, w, h)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 39, in checked
+    self.assertTrue(x0 >= -1e-6 and y0 >= -1e-6 and x1 <= w + 1e-6 and y1 <= h + 1e-6, b['id'])
+AssertionError: False is not true : ribbon_bg
+
+======================================================================
+FAIL: test_medium_text_has_real_ink_without_clipping (tests_python.test_campaign_medium.MediumCampaign.test_medium_text_has_real_ink_without_clipping)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 63, in test_medium_text_has_real_ink_without_clipping
+    out = self.checked(source(),300,250)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 21, in checked
+    CampaignRobustness.clear(self, out)
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 54, in clear
+    self.assertFalse(overlaps(a, b), (a['id'], b['id']))
+AssertionError: True is not false : ('holiday_watermark', 'legal_text')
+
+======================================================================
+FAIL: test_singleton_anonymous_reversed_source_keeps_same_geometry (tests_python.test_campaign_medium.MediumCampaign.test_singleton_anonymous_reversed_source_keeps_same_geometry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 54, in test_singleton_anonymous_reversed_source_keeps_same_geometry
+    original = self.checked(s,300,250)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 21, in checked
+    CampaignRobustness.clear(self, out)
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 54, in clear
+    self.assertFalse(overlaps(a, b), (a['id'], b['id']))
+AssertionError: True is not false : ('holiday_watermark', 'legal_text')
+
+----------------------------------------------------------------------
+Ran 5 tests in 2.059s
+
+FAILED (failures=7)

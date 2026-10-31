@@ -1,0 +1,23 @@
+{
+  "startupMs": 221.65791699999681,
+  "startupState": "new context; Network.clearBrowserCache before navigation",
+  "samples": [
+    {
+      "cacheState": "browser HTTP cache explicitly cleared immediately before this edit",
+      "elapsedMs": 287.91591699999844
+    },
+    {
+      "cacheState": "same context repeated request after preceding request",
+      "elapsedMs": 235.7421250000043
+    },
+    {
+      "cacheState": "same context repeated request after preceding request",
+      "elapsedMs": 220.22229199999856
+    },
+    {
+      "cacheState": "same context repeated request after preceding request",
+      "elapsedMs": 258.05983299999934
+    }
+  ],
+  "method": "CDP Network.clearBrowserCache before startup and first edit only. Fresh worker per edit. OS/server/compiled-code caches are not reset; no universal cold-machine or percentile claim. Timing includes Playwright overhead."
+}

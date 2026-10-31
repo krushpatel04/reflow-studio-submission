@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "product-pairs",
+  "name": "Small batch, good things",
+  "description": "Three product and label groups should remain associated across formats.",
+  "provenance": "synthetic",
+  "width": 1080,
+  "height": 1080,
+  "background": "#f5eee3",
+  "elements": [
+    {
+      "id": "headline",
+      "type": "text",
+      "role": "content",
+      "text": "Made for everyday.",
+      "x": 52.5,
+      "y": 187.5,
+      "width": 975,
+      "height": 116.25,
+      "fontSize": 74.25,
+      "color": "#294239",
+      "fontWeight": 600,
+      "fontFamily": "Source Serif 4",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "product-0",
+      "type": "image",
+      "role": "content",
+      "assetId": "product",
+      "x": 52.5,
+      "y": 345,
+      "width": 300,
+      "height": 367.5,
+      "fit": "contain",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "groupId": "product-0"
+    },
+    {
+      "id": "label-0",
+      "type": "text",
+      "role": "content",
+      "text": "The market bag",
+      "x": 52.5,
+      "y": 739.5,
+      "width": 300,
+      "height": 42.75,
+      "fontSize": 23.25,
+      "color": "#294239",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "product-0"
+    },
+    {
+      "id": "price-0",
+      "type": "text",
+      "role": "content",
+      "text": "$24",
+      "x": 52.5,
+      "y": 796.5,
+      "width": 300,
+      "height": 37.5,
+      "fontSize": 24.75,
+      "color": "#294239",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "product-0"
+    },
+    {
+      "id": "product-1",
+      "type": "image",
+      "role": "content",
+      "assetId": "product",
+      "x": 390,
+      "y": 345,
+      "width": 300,
+      "height": 367.5,
+      "fit": "contain",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "groupId": "product-1"
+    },
+    {
+      "id": "label-1",
+      "type": "text",
+      "role": "content",
+      "text": "The weekend bag",
+      "x": 390,
+      "y": 739.5,
+      "width": 300,
+      "height": 42.75,
+      "fontSize": 23.25,
+      "color": "#294239",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "product-1"
+    },
+    {
+      "id": "price-1",
+      "type": "text",
+      "role": "content",
+      "text": "$32",
+      "x": 390,
+      "y": 796.5,
+      "width": 300,
+      "height": 37.5,
+      "fontSize": 24.75,
+      "color": "#294239",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "product-1"
+    },
+    {
+      "id": "product-2",
+      "type": "image",
+      "role": "content",
+      "assetId": "product",
+      "x": 727.5,
+      "y": 345,
+      "width": 300,
+      "height": 367.5,
+      "fit": "contain",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "groupId": "product-2"
+    },
+    {
+      "id": "label-2",
+      "type": "text",
+      "role": "content",
+      "text": "The everywhere bag",
+      "x": 727.5,
+      "y": 739.5,
+      "width": 300,
+      "height": 42.75,
+      "fontSize": 23.25,
+      "color": "#294239",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "product-2"
+    },
+    {
+      "id": "price-2",
+      "type": "text",
+      "role": "content",
+      "text": "$38",
+      "x": 727.5,
+      "y": 796.5,
+      "width": 300,
+      "height": 37.5,
+      "fontSize": 24.75,
+      "color": "#294239",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "product-2"
+    },
+    {
+      "id": "footer",
+      "type": "text",
+      "role": "content",
+      "text": "THOUGHTFULLY MADE. READY TO GO.",
+      "x": 52.5,
+      "y": 871.5,
+      "width": 975,
+      "height": 40.5,
+      "fontSize": 20.25,
+      "color": "#294239",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    }
+  ],
+  "groups": [
+    {
+      "id": "product-0",
+      "label": "product 0"
+    },
+    {
+      "id": "product-1",
+      "label": "product 1"
+    },
+    {
+      "id": "product-2",
+      "label": "product 2"
+    }
+  ]
+}

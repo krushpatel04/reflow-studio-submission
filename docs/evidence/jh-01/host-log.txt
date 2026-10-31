@@ -1,0 +1,26 @@
+Run 1, 2026-10-08, Code Playground Add-on Mode, iframe.js with `import addOnUISdk, { RuntimeType } from "https://express.adobe.com/static/add-on-sdk/sdk.js"`.
+[Playground: Add-on] Uncaught (in promise) Error: 'panel' runtime not initialized within set time limit
+<anonymous>@add-on-sdk-document-sandbox:1
+(Other console lines were Express's own Report-Only CSP notices for app.link; unrelated.)
+
+Run 2, 2026-10-08, same Playground, iframe.js without the import (global addOnUISdk, RuntimeType from constants or "documentSandbox").
+Same error: [Playground: Add-on] Uncaught (in promise) Error: 'panel' runtime not initialized within set time limit
+Raised from add-on-sdk-document-sandbox via Express's QuickJS sandbox (quickjs_wasm, wxp-startup-quickjs). Stack format suggests Firefox (unconfirmed).
+
+Run 3, 2026-10-08 ~17:50 local, Chrome (Claude in Chrome tab), same Playground project (code synced from the Firefox session; Iframe JS without import).
+Run Code opened a "Playground AddOn" panel that stayed completely blank for 20+ s: even the static HTML heading did not render.
+Toast: "If your changes aren't showing or working as expected, check your browser's developer console for any errors."
+No console messages captured on the Express top-level page after Run Code (add-on frame console not readable by the tool).
+Control (reports/jh-01/control/): HTML replaced with one line OK; automated typing into Iframe JS / Document JS tabs did not register after 3 attempts, so the control is not yet run.
+
+Run 4, Chrome: Settings > General > Add-on Development toggle already ON (Developer Terms previously accepted). Add-on catalogue loads.
+Run 5, Chrome: reload, control (one-line <p> HTML fragment + 3-line Iframe JS + ping Document JS) -> panel opens, stays blank.
+Run 6, Chrome: More > Start a new session -> Adobe's own Add-on template, unmodified -> panel shows "Create Rectangle" button. Host/account/browser OK.
+Template differences from our probe: (1) HTML is a full document (<!DOCTYPE html><html><head>...<body>); ours was a fragment.
+(2) Iframe JS imports `import addOnUISdk from "https://new.express.adobe.com/static/add-on-sdk/sdk.js";` (new.express host) and calls runtime.apiProxy("documentSandbox").
+Document JS matches our pattern (addOnSandboxSdk.instance.runtime.exposeApi, editor.context.insertionParent.children.append).
+Conclusion so far: the blank panel is caused by our paste files, most likely the HTML fragment; repo files updated to the template's structure (not yet re-run).
+
+Run 7, Chrome, 2026-10-08 ~20:09 local: fixed paste files (full HTML document, new.express sdk.js import) typed into the Playground as one-line equivalents. Panel showed "Ready". Copy JSON is blocked in the add-on iframe ("Copy blocked"), so snapshots are transcribed from zoomed screenshots.
+Fresh document https://express.adobe.com/id/urn:aaid:sc:AP:f0272e11-8bdd-4c56-a2cf-e6ee1d4250cc. Create probe text -> created:true; editor.createText placed the text largely off-page (x -545, y -111, w 1091, h 154).
+Earlier scratch document urn:aaid:sc:AP:96631073-62b2-473f-bb14-9516a3d2dc70 received stray keystrokes from mis-focused automation (extra text boxes/pages); not used for evidence.

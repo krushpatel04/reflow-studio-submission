@@ -1,0 +1,34 @@
+{
+  "reviewer": "B",
+  "source": "00b3b02be1d19b056d9462d185dc344019f08f4e",
+  "decision": "ACCEPT_DOCUMENTATION_RECONCILIATION_ONLY_ISSUE148_OPEN",
+  "files": {
+    "docs/evidence/astra12-a-20261020/README.md": "4da0ee46fb58fb436a0b1bc7d64e493ac233acd659230a56d38cb3ed704a9d57",
+    "docs/evidence/astra12-a-20261020/audit-result.json": "c564dfb156c7bb9c9fb6c9b42f7dd1543b3f88dfb836a4818b6ccd12bdf8ba6c",
+    "docs/evidence/astra12-a-20261020/audit.py": "4a22d2e5c8864802884a3cd25d70e704432ab02b8b04027eafbdae18d3f24bd1",
+    "docs/evidence/astra12-a-20261020/issue-148.json": "0e3e700b502b491904ee4e5ae2ccdbf77ab9f5c051a6f53d85e1dabbd31385b7",
+    "docs/plans/astra12-a-20261020.md": "cf6704c82abf443d3e1ff438463945c06ece400bc8882f4b0001671428b7f6de"
+  },
+  "audit_reproduced": {
+    "audit_host": "macOS-15.4-arm64-arm-64bit",
+    "manifest_files": 22,
+    "results": {
+      "linux": {
+        "rows": 50,
+        "verified_2x_views": 50,
+        "fractional_integer_controls": 20,
+        "archive_sha256": "dfaea3db263ace5fd1e2218159059a77fbca177db42f69074b482ed6ebf93203"
+      },
+      "macos": {
+        "rows": 50,
+        "verified_2x_views": 50,
+        "fractional_integer_controls": 20,
+        "archive_sha256": "7f208c398197d014927a9bbf42a3023660466208eb40340a8be97f378556450e"
+      }
+    },
+    "fresh_renders": 0,
+    "human_verdict": null
+  },
+  "findings": [],
+  "scope": "Both original acceptance bullets retained;100 archived input/PNG/2x checks and40controls freshly verified; no new render or engine fix. Human Linux public-sample check absent; no issue148completion. Root/typography owner must select bounded safe remedy and actualhumanreceipt."
+}

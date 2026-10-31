@@ -1,0 +1,287 @@
+{
+  "sourceId": "badge-decoration-content",
+  "target": {
+    "id": "tall",
+    "label": "Tall",
+    "width": 600,
+    "height": 1200
+  },
+  "baseline": {
+    "strategy": "uniform",
+    "design": {
+      "schemaVersion": "reflow.design.v0",
+      "id": "badge-decoration-content",
+      "name": "Grouped badge",
+      "description": "White label on an explicitly grouped dark plate",
+      "provenance": "synthetic",
+      "width": 600,
+      "height": 1200,
+      "background": "#ffffff",
+      "groups": [
+        {
+          "id": "button",
+          "label": "Button"
+        }
+      ],
+      "elements": [
+        {
+          "id": "plate",
+          "type": "rect",
+          "role": "decoration",
+          "groupId": "button",
+          "x": 60,
+          "y": 360,
+          "width": 300,
+          "height": 120,
+          "color": "#16362a"
+        },
+        {
+          "id": "label",
+          "type": "text",
+          "role": "content",
+          "groupId": "button",
+          "x": 84,
+          "y": 396,
+          "width": 252,
+          "height": 42,
+          "text": "CALL TODAY",
+          "fontFamily": "Inter",
+          "fontSize": 24,
+          "fontWeight": 700,
+          "lineHeight": 1.1,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    "metrics": {
+      "errors": 0,
+      "warnings": 0,
+      "minReadingSize": 14.4,
+      "contentCoverage": 0.0147,
+      "findings": []
+    }
+  },
+  "selected": {
+    "strategy": "stack",
+    "design": {
+      "schemaVersion": "reflow.design.v0",
+      "id": "badge-decoration-content",
+      "name": "Grouped badge",
+      "description": "White label on an explicitly grouped dark plate",
+      "provenance": "synthetic",
+      "width": 600,
+      "height": 1200,
+      "background": "#ffffff",
+      "groups": [
+        {
+          "id": "button",
+          "label": "Button"
+        }
+      ],
+      "elements": [
+        {
+          "id": "plate",
+          "type": "rect",
+          "role": "decoration",
+          "groupId": "button",
+          "x": 60,
+          "y": 360,
+          "width": 300,
+          "height": 120,
+          "color": "#16362a"
+        },
+        {
+          "id": "label",
+          "type": "text",
+          "role": "content",
+          "groupId": "button",
+          "x": 39,
+          "y": 39,
+          "width": 522,
+          "height": 1122,
+          "text": "CALL TODAY",
+          "fontFamily": "Inter",
+          "fontSize": 28.79,
+          "fontWeight": 700,
+          "lineHeight": 1.1,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    "metrics": {
+      "errors": 0,
+      "warnings": 0,
+      "minReadingSize": 17.274,
+      "contentCoverage": 0.81345,
+      "findings": []
+    }
+  },
+  "candidates": [
+    {
+      "strategy": "uniform",
+      "design": {
+        "schemaVersion": "reflow.design.v0",
+        "id": "badge-decoration-content",
+        "name": "Grouped badge",
+        "description": "White label on an explicitly grouped dark plate",
+        "provenance": "synthetic",
+        "width": 600,
+        "height": 1200,
+        "background": "#ffffff",
+        "groups": [
+          {
+            "id": "button",
+            "label": "Button"
+          }
+        ],
+        "elements": [
+          {
+            "id": "plate",
+            "type": "rect",
+            "role": "decoration",
+            "groupId": "button",
+            "x": 60,
+            "y": 360,
+            "width": 300,
+            "height": 120,
+            "color": "#16362a"
+          },
+          {
+            "id": "label",
+            "type": "text",
+            "role": "content",
+            "groupId": "button",
+            "x": 84,
+            "y": 396,
+            "width": 252,
+            "height": 42,
+            "text": "CALL TODAY",
+            "fontFamily": "Inter",
+            "fontSize": 24,
+            "fontWeight": 700,
+            "lineHeight": 1.1,
+            "color": "#ffffff"
+          }
+        ]
+      },
+      "metrics": {
+        "errors": 0,
+        "warnings": 0,
+        "minReadingSize": 14.4,
+        "contentCoverage": 0.0147,
+        "findings": []
+      }
+    },
+    {
+      "strategy": "stack",
+      "design": {
+        "schemaVersion": "reflow.design.v0",
+        "id": "badge-decoration-content",
+        "name": "Grouped badge",
+        "description": "White label on an explicitly grouped dark plate",
+        "provenance": "synthetic",
+        "width": 600,
+        "height": 1200,
+        "background": "#ffffff",
+        "groups": [
+          {
+            "id": "button",
+            "label": "Button"
+          }
+        ],
+        "elements": [
+          {
+            "id": "plate",
+            "type": "rect",
+            "role": "decoration",
+            "groupId": "button",
+            "x": 60,
+            "y": 360,
+            "width": 300,
+            "height": 120,
+            "color": "#16362a"
+          },
+          {
+            "id": "label",
+            "type": "text",
+            "role": "content",
+            "groupId": "button",
+            "x": 39,
+            "y": 39,
+            "width": 522,
+            "height": 1122,
+            "text": "CALL TODAY",
+            "fontFamily": "Inter",
+            "fontSize": 28.79,
+            "fontWeight": 700,
+            "lineHeight": 1.1,
+            "color": "#ffffff"
+          }
+        ]
+      },
+      "metrics": {
+        "errors": 0,
+        "warnings": 0,
+        "minReadingSize": 17.274,
+        "contentCoverage": 0.81345,
+        "findings": []
+      }
+    },
+    {
+      "strategy": "split",
+      "design": {
+        "schemaVersion": "reflow.design.v0",
+        "id": "badge-decoration-content",
+        "name": "Grouped badge",
+        "description": "White label on an explicitly grouped dark plate",
+        "provenance": "synthetic",
+        "width": 600,
+        "height": 1200,
+        "background": "#ffffff",
+        "groups": [
+          {
+            "id": "button",
+            "label": "Button"
+          }
+        ],
+        "elements": [
+          {
+            "id": "plate",
+            "type": "rect",
+            "role": "decoration",
+            "groupId": "button",
+            "x": 60,
+            "y": 360,
+            "width": 300,
+            "height": 120,
+            "color": "#16362a"
+          },
+          {
+            "id": "label",
+            "type": "text",
+            "role": "content",
+            "groupId": "button",
+            "x": 39,
+            "y": 39,
+            "width": 522,
+            "height": 1122,
+            "text": "CALL TODAY",
+            "fontFamily": "Inter",
+            "fontSize": 28.79,
+            "fontWeight": 700,
+            "lineHeight": 1.1,
+            "color": "#ffffff"
+          }
+        ]
+      },
+      "metrics": {
+        "errors": 0,
+        "warnings": 0,
+        "minReadingSize": 17.274,
+        "contentCoverage": 0.81345,
+        "findings": []
+      }
+    }
+  ],
+  "elapsedMs": 11.558875000000057
+}

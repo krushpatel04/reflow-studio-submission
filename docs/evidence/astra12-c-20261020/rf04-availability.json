@@ -1,0 +1,446 @@
+{
+  "observed_at": "2026-10-20T17:18:17.308899+00:00",
+  "manifest": {
+    "path": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-development-accounting/accepted-development-manifest.json",
+    "bytes": 48939,
+    "sha256": "67e8c30f01e004682537f6228d18a70c56bef3ea6177b770b7d3f004254e7356"
+  },
+  "archives": [
+    {
+      "path": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-source-acceptance/producer-v3/review.zip",
+      "version": "development-v3",
+      "producer_commit": "354f62730996810fcc961d98616c6030332c297b",
+      "selection_entry": "docs/evidence/kr-01/development-v3/selection.json",
+      "selection_sha256": "0728e1a7a2c28370f1c9f43bbeab8d8c0ff4ffaaa8eb62f0e937e83b814ea902",
+      "selected_sources": [
+        {
+          "layout_id": "4WR6DyGuWK7GRAxLeJjl",
+          "template_id": "f14bffeb-8f1f-4c2e-a459-1c56885eb006",
+          "split": "development"
+        }
+      ],
+      "sha256": "38b7bd359c328e812a6fade4fe60ebe13a31e69c88e95cab9d99e2e3116afd88"
+    },
+    {
+      "path": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "version": "development-v4-revision-2",
+      "producer_commit": "0655ec8971dde1026ac87e0eb5ae5f394eb1f80a",
+      "selection_entry": "docs/evidence/kr-01/development-v4/selection.json",
+      "selection_sha256": "23192ee8c0aeca5fe4ecc092eddfb1da98af6ed74141ffc0664c9aed47dc5b2a",
+      "selected_sources": [
+        {
+          "layout_id": "6lTuObn2CUHywDvwyuY5",
+          "template_id": "fe8c470a-57c6-4ba4-a3ce-e67184013589",
+          "split": "development"
+        },
+        {
+          "layout_id": "58KCTYpSufDKLTfdYrbJ",
+          "template_id": "d55acfe6-8bac-40be-8dd2-ff31e794881e",
+          "split": "development"
+        }
+      ],
+      "sha256": "6b5788299da1cb94762b2cfc5ee28d02d782e826a4ff3caf8a293d46bcff7d83"
+    }
+  ],
+  "payloads": [
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-source-acceptance/producer-v3/review.zip",
+      "archive_entry": "reports/kr-01/development-v3/originals/4WR6DyGuWK7GRAxLeJjl.json",
+      "frozen_file": "development-v3/originals/4WR6DyGuWK7GRAxLeJjl.json",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "bytes": 3157,
+      "sha256": "bb8d7d9ab23a4502eb5ceaa9b5c72cde66e9749722ac215d9851cfe4f29b26c2"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-source-acceptance/producer-v3/review.zip",
+      "archive_entry": "reports/kr-01/development-v3/sources/4WR6DyGuWK7GRAxLeJjl.json",
+      "frozen_file": "development-v3/sources/4WR6DyGuWK7GRAxLeJjl.json",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "bytes": 3391,
+      "sha256": "7304e9bd98395eeebded101a589bf914819d7978d25aee6ed9b8bed86fa8fa35"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-source-acceptance/producer-v3/review.zip",
+      "archive_entry": "reports/kr-01/development-v3/tasks/lica-4WR6DyGuWK7GRAxLeJjl-1080x1080.json",
+      "frozen_file": "development-v3/tasks/lica-4WR6DyGuWK7GRAxLeJjl-1080x1080.json",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "bytes": 3811,
+      "sha256": "7a5bb1f4d748d0a7c58374d10ce43969c771ffc4712d1a933bcf612b4f8c0307"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-source-acceptance/producer-v3/review.zip",
+      "archive_entry": "reports/kr-01/development-v3/tasks/lica-4WR6DyGuWK7GRAxLeJjl-1080x1920.json",
+      "frozen_file": "development-v3/tasks/lica-4WR6DyGuWK7GRAxLeJjl-1080x1920.json",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "bytes": 3811,
+      "sha256": "ba35cd4cea7328c5a798af8e18f63b5e367b82581d3704db0311ab4be6c2df0a"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-source-acceptance/producer-v3/review.zip",
+      "archive_entry": "reports/kr-01/development-v3/tasks/lica-4WR6DyGuWK7GRAxLeJjl-1920x1080.json",
+      "frozen_file": "development-v3/tasks/lica-4WR6DyGuWK7GRAxLeJjl-1920x1080.json",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "bytes": 3811,
+      "sha256": "5ee159c9eb903abef691c823764552bd8afbea45913cf66c14c594ffe328e2f5"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-source-acceptance/producer-v3/review.zip",
+      "archive_entry": "reports/kr-01/development-v3/tasks/lica-4WR6DyGuWK7GRAxLeJjl-1080x1350.json",
+      "frozen_file": "development-v3/tasks/lica-4WR6DyGuWK7GRAxLeJjl-1080x1350.json",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "bytes": 3811,
+      "sha256": "2b87abaf6db28d8f6b0e4507fee4c1367cc7883814b6bd0322bc26d1c7d56233"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-source-acceptance/producer-v3/review.zip",
+      "archive_entry": "reports/kr-01/development-v3/tasks/lica-4WR6DyGuWK7GRAxLeJjl-1500x500.json",
+      "frozen_file": "development-v3/tasks/lica-4WR6DyGuWK7GRAxLeJjl-1500x500.json",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "bytes": 3809,
+      "sha256": "d12d49ebea5db8ae56ca84787b2783f8dba41489227c920ffb3c6dc679bf6c2d"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-source-acceptance/producer-v3/review.zip",
+      "archive_entry": "reports/kr-01/development-v3/tasks/lica-4WR6DyGuWK7GRAxLeJjl-728x90.json",
+      "frozen_file": "development-v3/tasks/lica-4WR6DyGuWK7GRAxLeJjl-728x90.json",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "bytes": 3805,
+      "sha256": "a1acf71a980db0fc7e0fdb92690c681925a80212a8fed6cd755f668fecde2f96"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-source-acceptance/producer-v3/review.zip",
+      "archive_entry": "reports/kr-01/development-v3/tasks/lica-4WR6DyGuWK7GRAxLeJjl-160x600.json",
+      "frozen_file": "development-v3/tasks/lica-4WR6DyGuWK7GRAxLeJjl-160x600.json",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "bytes": 3807,
+      "sha256": "1832d76dce893f621eee3796a2bd36412835cd6119907e98b330034b34243dd7"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-source-acceptance/producer-v3/review.zip",
+      "archive_entry": "reports/kr-01/development-v3/resources/blobs/11ee2024bd616a44201bfb39ccae2bf4f506f6706cb1e6db58d294fcffa3973f",
+      "frozen_file": "development-v3/resources/blobs/11ee2024bd616a44201bfb39ccae2bf4f506f6706cb1e6db58d294fcffa3973f",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "bytes": 48532,
+      "sha256": "11ee2024bd616a44201bfb39ccae2bf4f506f6706cb1e6db58d294fcffa3973f"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-source-acceptance/producer-v3/review.zip",
+      "archive_entry": "reports/kr-01/development-v3/resources/blobs/229bbebe79798a61a543b842e24e1e6b7b5ed838afd108e1d1657e6a28070c54",
+      "frozen_file": "development-v3/resources/blobs/229bbebe79798a61a543b842e24e1e6b7b5ed838afd108e1d1657e6a28070c54",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "bytes": 4381,
+      "sha256": "229bbebe79798a61a543b842e24e1e6b7b5ed838afd108e1d1657e6a28070c54"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-source-acceptance/producer-v3/review.zip",
+      "archive_entry": "reports/kr-01/development-v3/resources/blobs/40b2e32578747c1e100b972c49933361e7d940416d6e250c9dc7bd498cca8d6b",
+      "frozen_file": "development-v3/resources/blobs/40b2e32578747c1e100b972c49933361e7d940416d6e250c9dc7bd498cca8d6b",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "bytes": 10551,
+      "sha256": "40b2e32578747c1e100b972c49933361e7d940416d6e250c9dc7bd498cca8d6b"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-source-acceptance/producer-v3/review.zip",
+      "archive_entry": "reports/kr-01/development-v3/resources/blobs/4150bd7267e38df810c430142f57b4c3134dacc0438a2707fef4f08a6a92980a",
+      "frozen_file": "development-v3/resources/blobs/4150bd7267e38df810c430142f57b4c3134dacc0438a2707fef4f08a6a92980a",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "bytes": 42881,
+      "sha256": "4150bd7267e38df810c430142f57b4c3134dacc0438a2707fef4f08a6a92980a"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-source-acceptance/producer-v3/review.zip",
+      "archive_entry": "reports/kr-01/development-v3/resources/blobs/6dfb17aeaa37553edcb1d76a092894e06fe393124ccbc6eff6661c75bccf9fc8",
+      "frozen_file": "development-v3/resources/blobs/6dfb17aeaa37553edcb1d76a092894e06fe393124ccbc6eff6661c75bccf9fc8",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "bytes": 35620,
+      "sha256": "6dfb17aeaa37553edcb1d76a092894e06fe393124ccbc6eff6661c75bccf9fc8"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-source-acceptance/producer-v3/review.zip",
+      "archive_entry": "reports/kr-01/development-v3/resources/blobs/9694ce07befb56520e5852792455c1c6a8591954cb3ef2fcad61461a9a371f74",
+      "frozen_file": "development-v3/resources/blobs/9694ce07befb56520e5852792455c1c6a8591954cb3ef2fcad61461a9a371f74",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "bytes": 2661373,
+      "sha256": "9694ce07befb56520e5852792455c1c6a8591954cb3ef2fcad61461a9a371f74"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-source-acceptance/producer-v3/review.zip",
+      "archive_entry": "reports/kr-01/development-v3/resources/blobs/e66bcd2761ab6924b25ce70dafe10e57a39193c4fea1516730bd9cb5240af6c8",
+      "frozen_file": "development-v3/resources/blobs/e66bcd2761ab6924b25ce70dafe10e57a39193c4fea1516730bd9cb5240af6c8",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "bytes": 18780,
+      "sha256": "e66bcd2761ab6924b25ce70dafe10e57a39193c4fea1516730bd9cb5240af6c8"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-source-acceptance/producer-v3/review.zip",
+      "archive_entry": "reports/kr-01/development-v3/resources/blobs/f2c2b2ffbe7940fc3cf7f6302690c3104d104cce8ec02137fa90c0841b38ffd4",
+      "frozen_file": "development-v3/resources/blobs/f2c2b2ffbe7940fc3cf7f6302690c3104d104cce8ec02137fa90c0841b38ffd4",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "bytes": 16896,
+      "sha256": "f2c2b2ffbe7940fc3cf7f6302690c3104d104cce8ec02137fa90c0841b38ffd4"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-source-acceptance/producer-v3/review.zip",
+      "archive_entry": "reports/kr-01/development-v3/resources/blobs/f429f739351287574c0c3175a9222bb3e49c7cad3f568a04f2c08d74c107724e",
+      "frozen_file": "development-v3/resources/blobs/f429f739351287574c0c3175a9222bb3e49c7cad3f568a04f2c08d74c107724e",
+      "source": "4WR6DyGuWK7GRAxLeJjl",
+      "bytes": 4509,
+      "sha256": "f429f739351287574c0c3175a9222bb3e49c7cad3f568a04f2c08d74c107724e"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/originals/6lTuObn2CUHywDvwyuY5.json",
+      "frozen_file": "development-v4-revision-2/originals/6lTuObn2CUHywDvwyuY5.json",
+      "source": "6lTuObn2CUHywDvwyuY5",
+      "bytes": 1149,
+      "sha256": "61b3423b2a82de51af3eebf65ac8b355087f372a22704afe9d9def7b4822547e"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/sources/6lTuObn2CUHywDvwyuY5.json",
+      "frozen_file": "development-v4-revision-2/sources/6lTuObn2CUHywDvwyuY5.json",
+      "source": "6lTuObn2CUHywDvwyuY5",
+      "bytes": 1269,
+      "sha256": "2c935bf5dc9dfdbd4e71e6f1740ac7603ebe8600b939ee7be9433deeed3b2a26"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/tasks/lica-6lTuObn2CUHywDvwyuY5-1080x1080.json",
+      "frozen_file": "development-v4-revision-2/tasks/lica-6lTuObn2CUHywDvwyuY5-1080x1080.json",
+      "source": "6lTuObn2CUHywDvwyuY5",
+      "bytes": 1515,
+      "sha256": "7351f5c2c20cd9da302607493aa10866d0245dbbf3950bbdf38e4297e7a3cc50"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/tasks/lica-6lTuObn2CUHywDvwyuY5-1080x1920.json",
+      "frozen_file": "development-v4-revision-2/tasks/lica-6lTuObn2CUHywDvwyuY5-1080x1920.json",
+      "source": "6lTuObn2CUHywDvwyuY5",
+      "bytes": 1515,
+      "sha256": "c88cd2c7bb68ba1fb30184a17b5fe79754173760c54323e637cd9d1abea61966"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/tasks/lica-6lTuObn2CUHywDvwyuY5-1920x1080.json",
+      "frozen_file": "development-v4-revision-2/tasks/lica-6lTuObn2CUHywDvwyuY5-1920x1080.json",
+      "source": "6lTuObn2CUHywDvwyuY5",
+      "bytes": 1515,
+      "sha256": "759512468b7000a3d2636f63c3f0c8b0e368b9a73224b7f68f6f47e95d58d364"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/tasks/lica-6lTuObn2CUHywDvwyuY5-1080x1350.json",
+      "frozen_file": "development-v4-revision-2/tasks/lica-6lTuObn2CUHywDvwyuY5-1080x1350.json",
+      "source": "6lTuObn2CUHywDvwyuY5",
+      "bytes": 1515,
+      "sha256": "59e16d7ddc2420e8c091592308877ef61b2f41b320b13aa5467f10054dd22e97"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/tasks/lica-6lTuObn2CUHywDvwyuY5-1500x500.json",
+      "frozen_file": "development-v4-revision-2/tasks/lica-6lTuObn2CUHywDvwyuY5-1500x500.json",
+      "source": "6lTuObn2CUHywDvwyuY5",
+      "bytes": 1513,
+      "sha256": "3ef1abf5ffc03a8299adea95e08251eed41b06fa62827e92750f197d87883516"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/tasks/lica-6lTuObn2CUHywDvwyuY5-728x90.json",
+      "frozen_file": "development-v4-revision-2/tasks/lica-6lTuObn2CUHywDvwyuY5-728x90.json",
+      "source": "6lTuObn2CUHywDvwyuY5",
+      "bytes": 1509,
+      "sha256": "4be488df97a795058a759fe3dd16baf78c542bf9370d25aaae3cf11aa2574c73"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/tasks/lica-6lTuObn2CUHywDvwyuY5-160x600.json",
+      "frozen_file": "development-v4-revision-2/tasks/lica-6lTuObn2CUHywDvwyuY5-160x600.json",
+      "source": "6lTuObn2CUHywDvwyuY5",
+      "bytes": 1511,
+      "sha256": "eecde9077184492805bc59934a6dea1ce3cb18c786139a81b8394833f6ca7df4"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/resources/blobs/5bcf0ae67c760f2eb25ebf63b7348154cff1249f1c1f6e3382c6bb838733fa2f",
+      "frozen_file": "development-v4-revision-2/resources/blobs/5bcf0ae67c760f2eb25ebf63b7348154cff1249f1c1f6e3382c6bb838733fa2f",
+      "source": "6lTuObn2CUHywDvwyuY5",
+      "bytes": 66034,
+      "sha256": "5bcf0ae67c760f2eb25ebf63b7348154cff1249f1c1f6e3382c6bb838733fa2f"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/resources/blobs/bdc721fa57fa599be92cd729e1df1824e6c9d799adc8f77b5898d409ad28e3fa",
+      "frozen_file": "development-v4-revision-2/resources/blobs/bdc721fa57fa599be92cd729e1df1824e6c9d799adc8f77b5898d409ad28e3fa",
+      "source": "6lTuObn2CUHywDvwyuY5",
+      "bytes": 112553,
+      "sha256": "bdc721fa57fa599be92cd729e1df1824e6c9d799adc8f77b5898d409ad28e3fa"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/resources/blobs/c4e46a58b08b32ab5323913503f8092c5e14a73581bb7aafb6aeef7ac9366bf1",
+      "frozen_file": "development-v4-revision-2/resources/blobs/c4e46a58b08b32ab5323913503f8092c5e14a73581bb7aafb6aeef7ac9366bf1",
+      "source": "6lTuObn2CUHywDvwyuY5",
+      "bytes": 32812,
+      "sha256": "c4e46a58b08b32ab5323913503f8092c5e14a73581bb7aafb6aeef7ac9366bf1"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/originals/58KCTYpSufDKLTfdYrbJ.json",
+      "frozen_file": "development-v4-revision-2/originals/58KCTYpSufDKLTfdYrbJ.json",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "bytes": 5968,
+      "sha256": "dc5331b4df32dfc7313d45f36023e551dcd38fa47211b346bf5a8dfdba45feef"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/sources/58KCTYpSufDKLTfdYrbJ.json",
+      "frozen_file": "development-v4-revision-2/sources/58KCTYpSufDKLTfdYrbJ.json",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "bytes": 6081,
+      "sha256": "d04c2278868f706cb58d1eb6230aa41b477ad661e962fdc58a841843ed2f13b6"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/tasks/lica-58KCTYpSufDKLTfdYrbJ-1080x1080.json",
+      "frozen_file": "development-v4-revision-2/tasks/lica-58KCTYpSufDKLTfdYrbJ-1080x1080.json",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "bytes": 6675,
+      "sha256": "af343f566ec975232df10c55f23708978177c85d20325678a483075d3a6a7a96"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/tasks/lica-58KCTYpSufDKLTfdYrbJ-1080x1920.json",
+      "frozen_file": "development-v4-revision-2/tasks/lica-58KCTYpSufDKLTfdYrbJ-1080x1920.json",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "bytes": 6675,
+      "sha256": "c1d2c4707b0914793d2bc2906e27cef0adfed3a6cbd340348101848bbb283d3c"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/tasks/lica-58KCTYpSufDKLTfdYrbJ-1920x1080.json",
+      "frozen_file": "development-v4-revision-2/tasks/lica-58KCTYpSufDKLTfdYrbJ-1920x1080.json",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "bytes": 6675,
+      "sha256": "d906fb65c92edc0bd6539d601a40db45f7eeda9fe5867c5ea721f5f4a6ed1996"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/tasks/lica-58KCTYpSufDKLTfdYrbJ-1080x1350.json",
+      "frozen_file": "development-v4-revision-2/tasks/lica-58KCTYpSufDKLTfdYrbJ-1080x1350.json",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "bytes": 6675,
+      "sha256": "1ae99a902fd78d1986ed2783e137aa07433af5385fcbfdc144d540c1b5b02026"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/tasks/lica-58KCTYpSufDKLTfdYrbJ-1500x500.json",
+      "frozen_file": "development-v4-revision-2/tasks/lica-58KCTYpSufDKLTfdYrbJ-1500x500.json",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "bytes": 6673,
+      "sha256": "076fe4ebc9457ffdb751f2c217ab7130b871eed2827c38ad0f7c49ea78b55a36"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/tasks/lica-58KCTYpSufDKLTfdYrbJ-728x90.json",
+      "frozen_file": "development-v4-revision-2/tasks/lica-58KCTYpSufDKLTfdYrbJ-728x90.json",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "bytes": 6669,
+      "sha256": "fd4b7959cb44003e792c1ea318a82cf35cad7ce4badf08516734f6065debdf92"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/tasks/lica-58KCTYpSufDKLTfdYrbJ-160x600.json",
+      "frozen_file": "development-v4-revision-2/tasks/lica-58KCTYpSufDKLTfdYrbJ-160x600.json",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "bytes": 6671,
+      "sha256": "c8722532a062c8b337c06be658ba511db8f400c3cbc450e49d7f6841e4f9dd25"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/resources/blobs/1edaef940c1444e1d2dae2a99add51fc40da1e9bc24f4fc5c64d0700ac6b5709",
+      "frozen_file": "development-v4-revision-2/resources/blobs/1edaef940c1444e1d2dae2a99add51fc40da1e9bc24f4fc5c64d0700ac6b5709",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "bytes": 60524,
+      "sha256": "1edaef940c1444e1d2dae2a99add51fc40da1e9bc24f4fc5c64d0700ac6b5709"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/resources/blobs/26684507aa5e902390763ef0068a0b86613f82eff9a6a687f400123f26852e12",
+      "frozen_file": "development-v4-revision-2/resources/blobs/26684507aa5e902390763ef0068a0b86613f82eff9a6a687f400123f26852e12",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "bytes": 15804,
+      "sha256": "26684507aa5e902390763ef0068a0b86613f82eff9a6a687f400123f26852e12"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/resources/blobs/5c4a92c8f8ce0ab211f4c72889d82383c9644546115d9ba39a4f2d5b8f37014b",
+      "frozen_file": "development-v4-revision-2/resources/blobs/5c4a92c8f8ce0ab211f4c72889d82383c9644546115d9ba39a4f2d5b8f37014b",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "bytes": 6175,
+      "sha256": "5c4a92c8f8ce0ab211f4c72889d82383c9644546115d9ba39a4f2d5b8f37014b"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/resources/blobs/5e6c68dd300b566830bfbe4cb0df1b7fd0d30471fefb57e712f77059c87a805f",
+      "frozen_file": "development-v4-revision-2/resources/blobs/5e6c68dd300b566830bfbe4cb0df1b7fd0d30471fefb57e712f77059c87a805f",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "bytes": 59032,
+      "sha256": "5e6c68dd300b566830bfbe4cb0df1b7fd0d30471fefb57e712f77059c87a805f"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/resources/blobs/915ad0a3db9f2e7fbe58c70e8d18cbe37065a234a7f30dc90440ed642f8e1ee1",
+      "frozen_file": "development-v4-revision-2/resources/blobs/915ad0a3db9f2e7fbe58c70e8d18cbe37065a234a7f30dc90440ed642f8e1ee1",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "bytes": 113,
+      "sha256": "915ad0a3db9f2e7fbe58c70e8d18cbe37065a234a7f30dc90440ed642f8e1ee1"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/resources/blobs/918b7dc3e2e2d015c16ce08b57bcb64d2253bafc1707658f361e72865498e537",
+      "frozen_file": "development-v4-revision-2/resources/blobs/918b7dc3e2e2d015c16ce08b57bcb64d2253bafc1707658f361e72865498e537",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "bytes": 23580,
+      "sha256": "918b7dc3e2e2d015c16ce08b57bcb64d2253bafc1707658f361e72865498e537"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/resources/blobs/9338e65fc077355c7a87ae0d64cc101e23b9bf8ad78ae65f0f319c857311b526",
+      "frozen_file": "development-v4-revision-2/resources/blobs/9338e65fc077355c7a87ae0d64cc101e23b9bf8ad78ae65f0f319c857311b526",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "bytes": 7816,
+      "sha256": "9338e65fc077355c7a87ae0d64cc101e23b9bf8ad78ae65f0f319c857311b526"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/resources/blobs/9648253641ec1d1f8ba2fbe8997909f7bfc48cc38537946f6272321788465b84",
+      "frozen_file": "development-v4-revision-2/resources/blobs/9648253641ec1d1f8ba2fbe8997909f7bfc48cc38537946f6272321788465b84",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "bytes": 6074,
+      "sha256": "9648253641ec1d1f8ba2fbe8997909f7bfc48cc38537946f6272321788465b84"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/resources/blobs/bd2dd6cffbe6990dfbd11e198f99dedcac411cd4be96e206e1524bb68318d346",
+      "frozen_file": "development-v4-revision-2/resources/blobs/bd2dd6cffbe6990dfbd11e198f99dedcac411cd4be96e206e1524bb68318d346",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "bytes": 538,
+      "sha256": "bd2dd6cffbe6990dfbd11e198f99dedcac411cd4be96e206e1524bb68318d346"
+    },
+    {
+      "archive": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/astra-financial-heading/producer-v4/review.zip",
+      "archive_entry": "reports/kr-01/development-v4/revision-2/resources/blobs/c447dd7677b419db7b21dbdfc6277c7816a913ffda76fd2e52702df538de0e49",
+      "frozen_file": "development-v4-revision-2/resources/blobs/c447dd7677b419db7b21dbdfc6277c7816a913ffda76fd2e52702df538de0e49",
+      "source": "58KCTYpSufDKLTfdYrbJ",
+      "bytes": 23040,
+      "sha256": "c447dd7677b419db7b21dbdfc6277c7816a913ffda76fd2e52702df538de0e49"
+    }
+  ],
+  "limits": [
+    "Read-only selected development payload audit; no extraction, transfer, execution or renderer run.",
+    "Historical development split metadata verified; no new admission or broad KR01 acceptance inferred."
+  ],
+  "payload_count": 49,
+  "unique_frozen_files": 49,
+  "task_count": 21
+}

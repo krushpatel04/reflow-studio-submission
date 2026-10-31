@@ -1,0 +1,14 @@
+{
+  "label": "B-edited",
+  "takenAt": "2026-10-09T00:10:25.681Z",
+  "nodes": [
+    {
+      "id": "cd4df617-275e-432e-bf26-44be534a3022",
+      "type": "Text",
+      "text": "Reflow probe edited",
+      "bounds": { "x": -560.9347534179688, "y": 205.3330841064453, "width": 1121.8695068359375, "height": 154.13209533691406 },
+      "rotation": 0,
+      "addOnData": { "reflow.sourceId": "probe-1" }
+    }
+  ]
+}

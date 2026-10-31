@@ -1,0 +1,341 @@
+{
+  "before": {
+    "commit": "3d08dd9",
+    "summary": {
+      "cases": 30,
+      "sourceErrors": 0,
+      "baselineErrors": 0,
+      "selectedErrors": 0,
+      "baselineWarnings": 45,
+      "selectedWarnings": 7,
+      "selectedCasesWithErrors": 0,
+      "medianLayoutMs": 15.201750000000061,
+      "p95LayoutMs": 36.45754099999999,
+      "selections": {
+        "identity": 1,
+        "uniform": 17,
+        "stack": 10,
+        "split": 0,
+        "group-grid-1": 0,
+        "group-grid-2": 0,
+        "group-grid-3": 2,
+        "group-grid-4": 0
+      }
+    }
+  },
+  "after": {
+    "summary": {
+      "cases": 30,
+      "sourceErrors": 0,
+      "baselineErrors": 0,
+      "selectedErrors": 0,
+      "baselineWarnings": 45,
+      "selectedWarnings": 8,
+      "selectedCasesWithErrors": 0,
+      "medianLayoutMs": 15.031834000000003,
+      "p95LayoutMs": 36.86691700000006,
+      "selections": {
+        "identity": 1,
+        "uniform": 17,
+        "stack": 10,
+        "split": 0,
+        "group-grid-1": 0,
+        "group-grid-2": 0,
+        "group-grid-3": 2,
+        "group-grid-4": 0
+      }
+    }
+  },
+  "cases": [
+    {
+      "case": "after-dark/square",
+      "strategyBefore": "stack",
+      "strategyAfter": "stack",
+      "findingsBefore": [
+        "unsupported-glyph:ticket-label"
+      ],
+      "findingsAfter": [
+        "unsupported-glyph:ticket-label"
+      ],
+      "newCandidateFindings": [
+        "split: hero shows 31% of the image region visible in the source."
+      ]
+    },
+    {
+      "case": "after-dark/story",
+      "strategyBefore": "uniform",
+      "strategyAfter": "uniform",
+      "findingsBefore": [
+        "unsupported-glyph:ticket-label"
+      ],
+      "findingsAfter": [
+        "unsupported-glyph:ticket-label"
+      ],
+      "newCandidateFindings": [
+        "split: hero shows 16% of the image region visible in the source."
+      ]
+    },
+    {
+      "case": "after-dark/landscape",
+      "strategyBefore": "stack",
+      "strategyAfter": "stack",
+      "findingsBefore": [
+        "unsupported-glyph:ticket-label"
+      ],
+      "findingsAfter": [
+        "crop-loss:hero",
+        "unsupported-glyph:ticket-label"
+      ],
+      "newCandidateFindings": [
+        "stack: hero shows 44% of the image region visible in the source."
+      ]
+    },
+    {
+      "case": "long-headline/square",
+      "strategyBefore": "uniform",
+      "strategyAfter": "uniform",
+      "findingsBefore": [
+        "small-text:details"
+      ],
+      "findingsAfter": [
+        "small-text:details"
+      ],
+      "newCandidateFindings": [
+        "split: hero shows 37% of the image region visible in the source."
+      ]
+    },
+    {
+      "case": "long-headline/story",
+      "strategyBefore": "uniform",
+      "strategyAfter": "uniform",
+      "findingsBefore": [
+        "small-text:details"
+      ],
+      "findingsAfter": [
+        "small-text:details"
+      ],
+      "newCandidateFindings": [
+        "split: hero shows 19% of the image region visible in the source."
+      ]
+    },
+    {
+      "case": "long-headline/landscape",
+      "strategyBefore": "uniform",
+      "strategyAfter": "uniform",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": [
+        "stack: hero shows 38% of the image region visible in the source."
+      ]
+    },
+    {
+      "case": "dense-program/square",
+      "strategyBefore": "stack",
+      "strategyAfter": "stack",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": []
+    },
+    {
+      "case": "dense-program/story",
+      "strategyBefore": "uniform",
+      "strategyAfter": "uniform",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": []
+    },
+    {
+      "case": "dense-program/landscape",
+      "strategyBefore": "stack",
+      "strategyAfter": "stack",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": []
+    },
+    {
+      "case": "grouped-details/square",
+      "strategyBefore": "uniform",
+      "strategyAfter": "uniform",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": []
+    },
+    {
+      "case": "grouped-details/story",
+      "strategyBefore": "uniform",
+      "strategyAfter": "uniform",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": [
+        "split: hero shows 31% of the image region visible in the source."
+      ]
+    },
+    {
+      "case": "grouped-details/landscape",
+      "strategyBefore": "uniform",
+      "strategyAfter": "uniform",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": [
+        "stack: hero shows 48% of the image region visible in the source."
+      ]
+    },
+    {
+      "case": "intentional-overlap/square",
+      "strategyBefore": "stack",
+      "strategyAfter": "stack",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": []
+    },
+    {
+      "case": "intentional-overlap/story",
+      "strategyBefore": "uniform",
+      "strategyAfter": "uniform",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": []
+    },
+    {
+      "case": "intentional-overlap/landscape",
+      "strategyBefore": "stack",
+      "strategyAfter": "stack",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": []
+    },
+    {
+      "case": "layered-art/square",
+      "strategyBefore": "identity",
+      "strategyAfter": "identity",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": []
+    },
+    {
+      "case": "layered-art/story",
+      "strategyBefore": "uniform",
+      "strategyAfter": "uniform",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": []
+    },
+    {
+      "case": "layered-art/landscape",
+      "strategyBefore": "uniform",
+      "strategyAfter": "uniform",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": []
+    },
+    {
+      "case": "product-pairs/square",
+      "strategyBefore": "group-grid-3",
+      "strategyAfter": "group-grid-3",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": []
+    },
+    {
+      "case": "product-pairs/story",
+      "strategyBefore": "group-grid-3",
+      "strategyAfter": "group-grid-3",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": []
+    },
+    {
+      "case": "product-pairs/landscape",
+      "strategyBefore": "uniform",
+      "strategyAfter": "uniform",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": []
+    },
+    {
+      "case": "quiet-brand/square",
+      "strategyBefore": "stack",
+      "strategyAfter": "stack",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": []
+    },
+    {
+      "case": "quiet-brand/story",
+      "strategyBefore": "uniform",
+      "strategyAfter": "uniform",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": []
+    },
+    {
+      "case": "quiet-brand/landscape",
+      "strategyBefore": "stack",
+      "strategyAfter": "stack",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": []
+    },
+    {
+      "case": "edge-subject/square",
+      "strategyBefore": "uniform",
+      "strategyAfter": "uniform",
+      "findingsBefore": [
+        "small-text:footer"
+      ],
+      "findingsAfter": [
+        "small-text:footer"
+      ],
+      "newCandidateFindings": [
+        "split: hero shows 31% of the image region visible in the source."
+      ]
+    },
+    {
+      "case": "edge-subject/story",
+      "strategyBefore": "uniform",
+      "strategyAfter": "uniform",
+      "findingsBefore": [
+        "small-text:footer"
+      ],
+      "findingsAfter": [
+        "small-text:footer"
+      ],
+      "newCandidateFindings": [
+        "stack: hero shows 46% of the image region visible in the source.",
+        "split: hero shows 16% of the image region visible in the source."
+      ]
+    },
+    {
+      "case": "edge-subject/landscape",
+      "strategyBefore": "uniform",
+      "strategyAfter": "uniform",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": []
+    },
+    {
+      "case": "type-pairing/square",
+      "strategyBefore": "stack",
+      "strategyAfter": "stack",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": []
+    },
+    {
+      "case": "type-pairing/story",
+      "strategyBefore": "uniform",
+      "strategyAfter": "uniform",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": []
+    },
+    {
+      "case": "type-pairing/landscape",
+      "strategyBefore": "stack",
+      "strategyAfter": "stack",
+      "findingsBefore": [],
+      "findingsAfter": [],
+      "newCandidateFindings": []
+    }
+  ]
+}

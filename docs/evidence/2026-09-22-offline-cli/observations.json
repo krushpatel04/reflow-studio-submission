@@ -1,0 +1,104 @@
+{
+  "cases": [
+    {
+      "fixture": "after-dark",
+      "inputSha256": "d1f3bd4d6d8d21393fcb05b785ad2fce063cb8d34cef90b387d165348165367e",
+      "strategy": "stack",
+      "errors": 0,
+      "warnings": 1,
+      "idsPreserved": true,
+      "processWallMs": 225.311,
+      "peakWorkerRssKiB": 116356
+    },
+    {
+      "fixture": "dense-program",
+      "inputSha256": "6f1edad3fe0248418655216461b506472aa2f976eceead188b1f315419a83e21",
+      "strategy": "stack",
+      "errors": 0,
+      "warnings": 0,
+      "idsPreserved": true,
+      "processWallMs": 197.177,
+      "peakWorkerRssKiB": 116908
+    },
+    {
+      "fixture": "edge-subject",
+      "inputSha256": "d12280bb46a4e1d359b1d9c5812866bd06c79b0a870372bcfbf4acd62fb469fb",
+      "strategy": "uniform",
+      "errors": 0,
+      "warnings": 1,
+      "idsPreserved": true,
+      "processWallMs": 176.309,
+      "peakWorkerRssKiB": 113480
+    },
+    {
+      "fixture": "grouped-details",
+      "inputSha256": "6185c6d8bf26701c5d0b62b8c18e421c43680bf6ce7b6439fcf68ee1c24f3364",
+      "strategy": "uniform",
+      "errors": 0,
+      "warnings": 0,
+      "idsPreserved": true,
+      "processWallMs": 187.084,
+      "peakWorkerRssKiB": 114316
+    },
+    {
+      "fixture": "intentional-overlap",
+      "inputSha256": "f7a191cb7aa0fa36ee519d52efde7d81fbefd11a527337ad75e968f5f5a4fd5c",
+      "strategy": "stack",
+      "errors": 0,
+      "warnings": 0,
+      "idsPreserved": true,
+      "processWallMs": 187.861,
+      "peakWorkerRssKiB": 114452
+    },
+    {
+      "fixture": "layered-art",
+      "inputSha256": "5ddc2511137c45cf046a47f05467b81165b99d9538b10a328abe0a1610a3f99e",
+      "strategy": "identity",
+      "errors": 0,
+      "warnings": 0,
+      "idsPreserved": true,
+      "processWallMs": 155.24,
+      "peakWorkerRssKiB": 111680
+    },
+    {
+      "fixture": "long-headline",
+      "inputSha256": "d1f6e71994f37e436877ddeab6fe8e6e55392163f5fd87aa464c96bb78b9602c",
+      "strategy": "uniform",
+      "errors": 0,
+      "warnings": 1,
+      "idsPreserved": true,
+      "processWallMs": 196.216,
+      "peakWorkerRssKiB": 116420
+    },
+    {
+      "fixture": "product-pairs",
+      "inputSha256": "f279ff7face3cda1cbd41181d0cc0b9e6feb47247530afc8c6f7b84ed0a7dc57",
+      "strategy": "group-grid-3",
+      "errors": 0,
+      "warnings": 0,
+      "idsPreserved": true,
+      "processWallMs": 273.054,
+      "peakWorkerRssKiB": 118972
+    },
+    {
+      "fixture": "quiet-brand",
+      "inputSha256": "18085bc79e9e4f5d7ded21724ff5b61d0b5ab3887979bc737ec43994b470a401",
+      "strategy": "stack",
+      "errors": 0,
+      "warnings": 0,
+      "idsPreserved": true,
+      "processWallMs": 224.777,
+      "peakWorkerRssKiB": 114048
+    },
+    {
+      "fixture": "type-pairing",
+      "inputSha256": "5a57df9b53d4460800c9a1a065c4e1fa69ff05064ef8078a344faa4334ffff13",
+      "strategy": "stack",
+      "errors": 0,
+      "warnings": 0,
+      "idsPreserved": true,
+      "processWallMs": 191.555,
+      "peakWorkerRssKiB": 114408
+    }
+  ]
+}

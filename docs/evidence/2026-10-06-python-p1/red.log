@@ -1,0 +1,140 @@
+.F...F..FFFFF....FFEFEFF
+======================================================================
+ERROR: test_invalid_source_canvas (tests_python.test_contract.Validation.test_invalid_source_canvas)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 152, in test_invalid_source_canvas
+    self.bad(src(SHAPE, w=w, h=h))
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 143, in bad
+    resize(source, target or self.T)
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/engine/resize.py", line 6, in resize
+    scale_x = target_canvas["width"] / source["canvas"]["width"]
+              ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+
+======================================================================
+ERROR: test_malformed_containers (tests_python.test_contract.Validation.test_malformed_containers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 173, in test_malformed_containers
+    self.bad({"canvas": {"width": 5, "height": 5}})
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 143, in bad
+    resize(source, target or self.T)
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/engine/resize.py", line 9, in resize
+    for el in source["elements"]:
+              ~~~~~~^^^^^^^^^^^^
+KeyError: 'elements'
+
+======================================================================
+FAIL: test_input_not_mutated_and_output_not_aliased (tests_python.test_contract.Identity.test_input_not_mutated_and_output_not_aliased)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 51, in test_input_not_mutated_and_output_not_aliased
+    self.assertEqual(json.dumps(s, sort_keys=True), before)
+AssertionError: '{"ca[355 chars]r": "x", "end": 2, "font_weight": "bold", "sta[431 chars]0}]}' != '{"ca[355 chars]r": "rgba(9,9,9,1)", "end": 2, "font_weight": [440 chars]0}]}'
+Diff is 2711 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_aspect_ratio_preserved_for_non_cover_image (tests_python.test_contract.Layout.test_aspect_ratio_preserved_for_non_cover_image)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 91, in test_aspect_ratio_preserved_for_non_cover_image
+    self.assertAlmostEqual(o["width"] / o["height"], 2.0)
+AssertionError: 0.6666666666666666 != 2.0 within 7 places (1.3333333333333335 difference)
+
+======================================================================
+FAIL: test_font_and_scalars_scale_uniformly (tests_python.test_contract.Layout.test_font_and_scalars_scale_uniformly)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 96, in test_font_and_scalars_scale_uniformly
+    self.assertAlmostEqual(o["t"]["letter_spacing"], 1)
+AssertionError: 2 != 1 within 7 places (1 difference)
+
+======================================================================
+FAIL: test_group_moves_as_unit (tests_python.test_contract.Layout.test_group_moves_as_unit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 105, in test_group_moves_as_unit
+    self.assertAlmostEqual(o["b"]["x"] - o["a"]["x"], 100)  # 200 * 0.5
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 600.0 != 100 within 7 places (500.0 difference)
+
+======================================================================
+FAIL: test_positive_control_contain_full_canvas_not_stretched (tests_python.test_contract.Layout.test_positive_control_contain_full_canvas_not_stretched)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 129, in test_positive_control_contain_full_canvas_not_stretched
+    self.assertAlmostEqual(o["width"] / o["height"], 1.0)
+AssertionError: 4.0 != 1.0 within 7 places (3.0 difference)
+
+======================================================================
+FAIL: test_positive_control_cover_not_covering_canvas_keeps_aspect (tests_python.test_contract.Layout.test_positive_control_cover_not_covering_canvas_keeps_aspect)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 123, in test_positive_control_cover_not_covering_canvas_keeps_aspect
+    self.assertAlmostEqual(o["width"] / o["height"], 2.0)
+AssertionError: 8.0 != 2.0 within 7 places (6.0 difference)
+
+======================================================================
+FAIL: test_uniform_scale_and_centering (tests_python.test_contract.Layout.test_uniform_scale_and_centering)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 86, in test_uniform_scale_and_centering
+    self.assertAlmostEqual(o["x"], 510); self.assertAlmostEqual(o["y"], 10)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 20.0 != 510 within 7 places (490.0 difference)
+
+======================================================================
+FAIL: test_duplicate_and_missing_ids (tests_python.test_contract.Validation.test_duplicate_and_missing_ids)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 163, in test_duplicate_and_missing_ids
+    self.bad(src(SHAPE, SHAPE))
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 142, in bad
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_font_size_must_be_valid_number (tests_python.test_contract.Validation.test_font_size_must_be_valid_number)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 169, in test_font_size_must_be_valid_number
+    self.bad(src(dict(TEXT, font_size=True)))
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 142, in bad
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_invalid_target_dims (tests_python.test_contract.Validation.test_invalid_target_dims)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 148, in test_invalid_target_dims
+    self.bad(src(SHAPE), t)
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 142, in bad
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_negative_size_rejected (tests_python.test_contract.Validation.test_negative_size_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 160, in test_negative_size_rejected
+    self.bad(src(dict(SHAPE, width=-1)))
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 142, in bad
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_nonfinite_and_bool_geometry (tests_python.test_contract.Validation.test_nonfinite_and_bool_geometry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 157, in test_nonfinite_and_bool_geometry
+    self.bad(src(dict(SHAPE, **{k: v})))
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 142, in bad
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.003s
+
+FAILED (failures=12, errors=2)

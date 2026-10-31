@@ -1,0 +1,16 @@
+✔ CLI emits deterministic editable output with diagnostics and retained content (1472.758167ms)
+✔ CLI rejects malformed JSON, bad dimensions and unsupported resources with structured errors (964.639584ms)
+✔ CLI enforces external deadline and reports explicit failure (77.644542ms)
+✔ CLI stops dense synchronous layout at the process deadline (583.697792ms)
+✔ CLI accepts bundled image resources and reports findings at an extreme valid target (368.646625ms)
+✔ CLI rejects an oversized input before starting layout (67.75775ms)
+✔ CLI rejects a FIFO without a writer before a blocking read (80.981083ms)
+✔ CLI accepts a regular file through a symlink and rejects a directory (970.846791ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4684.478334

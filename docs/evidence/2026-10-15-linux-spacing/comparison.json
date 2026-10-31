@@ -1,0 +1,721 @@
+{
+  "candidate": "83095a0e99ff6dc75c28ba4a86a9f660c9889aa1",
+  "linux_run": "https://github.com/kj-squared-labs/reflow-studio/actions/runs/38765125773",
+  "linux_tests": 438,
+  "linux_skips": 0,
+  "mac_tests": 438,
+  "pairs": 50,
+  "same_fonts": true,
+  "same_renderer_text": true,
+  "same_script": true,
+  "rows": [
+    {
+      "text": "SUNSET SALE",
+      "size": 6,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 3.910064697265625e-05,
+      "per_glyph_platform_delta_range": [
+        -0.5460000038146973,
+        1.309999942779541
+      ]
+    },
+    {
+      "text": "SUNSET SALE",
+      "size": 6,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 3.910064697265625e-05,
+      "per_glyph_platform_delta_range": [
+        -0.5460000038146973,
+        1.309999942779541
+      ]
+    },
+    {
+      "text": "SUNSET SALE",
+      "size": 6.67,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 3.910064697265625e-05,
+      "per_glyph_platform_delta_range": [
+        -0.5460000038146973,
+        1.309999942779541
+      ]
+    },
+    {
+      "text": "SUNSET SALE",
+      "size": 6.67,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 3.910064697265625e-05,
+      "per_glyph_platform_delta_range": [
+        -0.5460000038146973,
+        1.309999942779541
+      ]
+    },
+    {
+      "text": "SUNSET SALE",
+      "size": 7,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 2.288818359375e-05,
+      "per_glyph_platform_delta_range": [
+        -0.48399996757507324,
+        1.065000057220459
+      ]
+    },
+    {
+      "text": "SUNSET SALE",
+      "size": 7,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 2.288818359375e-05,
+      "per_glyph_platform_delta_range": [
+        -0.48399996757507324,
+        1.065000057220459
+      ]
+    },
+    {
+      "text": "SUNSET SALE",
+      "size": 8,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 8.0108642578125e-05,
+      "per_glyph_platform_delta_range": [
+        0.10400009155273438,
+        1.2719998359680176
+      ]
+    },
+    {
+      "text": "SUNSET SALE",
+      "size": 8,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 8.0108642578125e-05,
+      "per_glyph_platform_delta_range": [
+        0.10400009155273438,
+        1.2719998359680176
+      ]
+    },
+    {
+      "text": "SUNSET SALE",
+      "size": 8.15,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 8.0108642578125e-05,
+      "per_glyph_platform_delta_range": [
+        0.10400009155273438,
+        1.2719998359680176
+      ]
+    },
+    {
+      "text": "SUNSET SALE",
+      "size": 8.15,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 8.0108642578125e-05,
+      "per_glyph_platform_delta_range": [
+        0.10400009155273438,
+        1.2719998359680176
+      ]
+    },
+    {
+      "text": "AWARD WINNING 2026",
+      "size": 6,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 4.2438507080078125e-05,
+      "per_glyph_platform_delta_range": [
+        -0.4219999313354492,
+        1.0880000591278076
+      ]
+    },
+    {
+      "text": "AWARD WINNING 2026",
+      "size": 6,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 4.2438507080078125e-05,
+      "per_glyph_platform_delta_range": [
+        -0.4219999313354492,
+        1.0880000591278076
+      ]
+    },
+    {
+      "text": "AWARD WINNING 2026",
+      "size": 6.67,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 4.2438507080078125e-05,
+      "per_glyph_platform_delta_range": [
+        -0.4219999313354492,
+        1.0880000591278076
+      ]
+    },
+    {
+      "text": "AWARD WINNING 2026",
+      "size": 6.67,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 4.2438507080078125e-05,
+      "per_glyph_platform_delta_range": [
+        -0.4219999313354492,
+        1.0880000591278076
+      ]
+    },
+    {
+      "text": "AWARD WINNING 2026",
+      "size": 7,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 3.1948089599609375e-05,
+      "per_glyph_platform_delta_range": [
+        -0.48399996757507324,
+        1.435999870300293
+      ]
+    },
+    {
+      "text": "AWARD WINNING 2026",
+      "size": 7,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 3.1948089599609375e-05,
+      "per_glyph_platform_delta_range": [
+        -0.48399996757507324,
+        1.435999870300293
+      ]
+    },
+    {
+      "text": "AWARD WINNING 2026",
+      "size": 8,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 0.0001068115234375,
+      "per_glyph_platform_delta_range": [
+        -0.4160003662109375,
+        1.4320001602172852
+      ]
+    },
+    {
+      "text": "AWARD WINNING 2026",
+      "size": 8,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 0.0001068115234375,
+      "per_glyph_platform_delta_range": [
+        -0.4160003662109375,
+        1.4320001602172852
+      ]
+    },
+    {
+      "text": "AWARD WINNING 2026",
+      "size": 8.15,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 0.0001068115234375,
+      "per_glyph_platform_delta_range": [
+        -0.4160003662109375,
+        1.4320001602172852
+      ]
+    },
+    {
+      "text": "AWARD WINNING 2026",
+      "size": 8.15,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 0.0001068115234375,
+      "per_glyph_platform_delta_range": [
+        -0.4160003662109375,
+        1.4320001602172852
+      ]
+    },
+    {
+      "text": "SMALL BATCH",
+      "size": 6,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 4.1484832763671875e-05,
+      "per_glyph_platform_delta_range": [
+        -0.5460000038146973,
+        1.309999942779541
+      ]
+    },
+    {
+      "text": "SMALL BATCH",
+      "size": 6,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 4.1484832763671875e-05,
+      "per_glyph_platform_delta_range": [
+        -0.5460000038146973,
+        1.309999942779541
+      ]
+    },
+    {
+      "text": "SMALL BATCH",
+      "size": 6.67,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 4.1484832763671875e-05,
+      "per_glyph_platform_delta_range": [
+        -0.5460000038146973,
+        1.309999942779541
+      ]
+    },
+    {
+      "text": "SMALL BATCH",
+      "size": 6.67,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 4.1484832763671875e-05,
+      "per_glyph_platform_delta_range": [
+        -0.5460000038146973,
+        1.309999942779541
+      ]
+    },
+    {
+      "text": "SMALL BATCH",
+      "size": 7,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 2.6226043701171875e-05,
+      "per_glyph_platform_delta_range": [
+        -0.48399996757507324,
+        0.8829998970031738
+      ]
+    },
+    {
+      "text": "SMALL BATCH",
+      "size": 7,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 2.6226043701171875e-05,
+      "per_glyph_platform_delta_range": [
+        -0.48399996757507324,
+        0.8829998970031738
+      ]
+    },
+    {
+      "text": "SMALL BATCH",
+      "size": 8,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 9.72747802734375e-05,
+      "per_glyph_platform_delta_range": [
+        0.10400009155273438,
+        1.2719998359680176
+      ]
+    },
+    {
+      "text": "SMALL BATCH",
+      "size": 8,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 9.72747802734375e-05,
+      "per_glyph_platform_delta_range": [
+        0.10400009155273438,
+        1.2719998359680176
+      ]
+    },
+    {
+      "text": "SMALL BATCH",
+      "size": 8.15,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 9.72747802734375e-05,
+      "per_glyph_platform_delta_range": [
+        0.10400009155273438,
+        1.2719998359680176
+      ]
+    },
+    {
+      "text": "SMALL BATCH",
+      "size": 8.15,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 9.72747802734375e-05,
+      "per_glyph_platform_delta_range": [
+        0.10400009155273438,
+        1.2719998359680176
+      ]
+    },
+    {
+      "text": "NEW FLAVOR",
+      "size": 6,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 4.2438507080078125e-05,
+      "per_glyph_platform_delta_range": [
+        -0.4219999313354492,
+        1.0880000591278076
+      ]
+    },
+    {
+      "text": "NEW FLAVOR",
+      "size": 6,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 4.2438507080078125e-05,
+      "per_glyph_platform_delta_range": [
+        -0.4219999313354492,
+        1.0880000591278076
+      ]
+    },
+    {
+      "text": "NEW FLAVOR",
+      "size": 6.67,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 4.2438507080078125e-05,
+      "per_glyph_platform_delta_range": [
+        -0.4219999313354492,
+        1.0880000591278076
+      ]
+    },
+    {
+      "text": "NEW FLAVOR",
+      "size": 6.67,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 4.2438507080078125e-05,
+      "per_glyph_platform_delta_range": [
+        -0.4219999313354492,
+        1.0880000591278076
+      ]
+    },
+    {
+      "text": "NEW FLAVOR",
+      "size": 7,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 3.1948089599609375e-05,
+      "per_glyph_platform_delta_range": [
+        -0.48399996757507324,
+        1.498000144958496
+      ]
+    },
+    {
+      "text": "NEW FLAVOR",
+      "size": 7,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 3.1948089599609375e-05,
+      "per_glyph_platform_delta_range": [
+        -0.48399996757507324,
+        1.498000144958496
+      ]
+    },
+    {
+      "text": "NEW FLAVOR",
+      "size": 8,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 0.0001068115234375,
+      "per_glyph_platform_delta_range": [
+        -0.4160003662109375,
+        0.9840002059936523
+      ]
+    },
+    {
+      "text": "NEW FLAVOR",
+      "size": 8,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 0.0001068115234375,
+      "per_glyph_platform_delta_range": [
+        -0.4160003662109375,
+        0.9840002059936523
+      ]
+    },
+    {
+      "text": "NEW FLAVOR",
+      "size": 8.15,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 0.0001068115234375,
+      "per_glyph_platform_delta_range": [
+        -0.4160003662109375,
+        0.9840002059936523
+      ]
+    },
+    {
+      "text": "NEW FLAVOR",
+      "size": 8.15,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 0.0001068115234375,
+      "per_glyph_platform_delta_range": [
+        -0.4160003662109375,
+        0.9840002059936523
+      ]
+    },
+    {
+      "text": "Shop the Summer Line",
+      "size": 6,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 4.9591064453125e-05,
+      "per_glyph_platform_delta_range": [
+        -0.3540000915527344,
+        1.563999891281128
+      ]
+    },
+    {
+      "text": "Shop the Summer Line",
+      "size": 6,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 4.9591064453125e-05,
+      "per_glyph_platform_delta_range": [
+        -0.3540000915527344,
+        1.563999891281128
+      ]
+    },
+    {
+      "text": "Shop the Summer Line",
+      "size": 6.67,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 4.9591064453125e-05,
+      "per_glyph_platform_delta_range": [
+        -0.3540000915527344,
+        1.563999891281128
+      ]
+    },
+    {
+      "text": "Shop the Summer Line",
+      "size": 6.67,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 4.9591064453125e-05,
+      "per_glyph_platform_delta_range": [
+        -0.3540000915527344,
+        1.563999891281128
+      ]
+    },
+    {
+      "text": "Shop the Summer Line",
+      "size": 7,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 3.62396240234375e-05,
+      "per_glyph_platform_delta_range": [
+        -0.48399996757507324,
+        1.688000202178955
+      ]
+    },
+    {
+      "text": "Shop the Summer Line",
+      "size": 7,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 3.62396240234375e-05,
+      "per_glyph_platform_delta_range": [
+        -0.48399996757507324,
+        1.688000202178955
+      ]
+    },
+    {
+      "text": "Shop the Summer Line",
+      "size": 8,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 0.0001068115234375,
+      "per_glyph_platform_delta_range": [
+        0.18400001525878906,
+        1.0799999237060547
+      ]
+    },
+    {
+      "text": "Shop the Summer Line",
+      "size": 8,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 0.0001068115234375,
+      "per_glyph_platform_delta_range": [
+        0.18400001525878906,
+        1.0799999237060547
+      ]
+    },
+    {
+      "text": "Shop the Summer Line",
+      "size": 8.15,
+      "rotation": 0,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 0.0001068115234375,
+      "per_glyph_platform_delta_range": [
+        0.18400001525878906,
+        1.0799999237060547
+      ]
+    },
+    {
+      "text": "Shop the Summer Line",
+      "size": 8.15,
+      "rotation": -12,
+      "same_input": true,
+      "png_identical": false,
+      "default_advances_identical": false,
+      "linux_default_all_integer": true,
+      "linux_linear_max_delta_from_mac_default": 0.0001068115234375,
+      "per_glyph_platform_delta_range": [
+        0.18400001525878906,
+        1.0799999237060547
+      ]
+    }
+  ],
+  "interpretation": "Linux default hinted advance policy differs from macOS; linear/unhinted diagnostic metric policies converge. Actual renderer unchanged, so this is advance-policy evidence not a rendered-remedy demonstration.",
+  "limits": [
+    "No human1x2x verdict",
+    "No full public-sample before/after engine remedy",
+    "Uniform letter_spacing cannot exactly cancel per-glyph nonconstant advance differences",
+    "No floor change justified solely by these metrics",
+    "Organizer policy/access needed before any official renderer font-policy change"
+  ]
+}

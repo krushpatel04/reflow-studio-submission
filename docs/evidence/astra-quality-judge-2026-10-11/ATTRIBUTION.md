@@ -1,0 +1,5 @@
+# Attribution and local image retention
+
+The pinned producer archives identify the LICA WORLD dataset (https://github.com/purvanshi/lica-dataset) as CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Their attribution records official-schema conversion, displayed-text transforms, weight mapping, justification mapping, SVG rasterization, deterministic IDs and generated targets. Fonts retain separate licenses in the producer resources index. The archives explicitly state that the dataset does not separately document rights for embedded photos. This is inherited attribution, not an independent comprehensive rights clearance.
+
+This publication retains the evaluator report and six-image hash manifest; no image binaries are redistributed. Original images remain unchanged in the local evidence archive at the repository-relative local_retained_path values. Producer archive hashes and member paths permit an authorized holder to reproduce the identity checks. Root verified both archive hashes and all six exact member bytes before publication.

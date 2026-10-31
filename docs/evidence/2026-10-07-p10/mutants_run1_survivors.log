@@ -1,0 +1,17 @@
+height-fit-dropped: KILLED (2 tests)
+width-fit-dropped: SURVIVED
+margin-1-removed: SURVIVED
+margin-1.02-removed: SURVIVED
+letter-spacing-skip-removed: KILLED (1 tests)
+partial-not-all-or-nothing: KILLED (3 tests)
+raise-when-not-sub-floor: KILLED (1 tests)
+font-not-floor: KILLED (7 tests)
+geometry-touched: KILLED (4 tests)
+rotation-touched: KILLED (3 tests)
+fit-on-unscaled-source-box: SURVIVED
+raise-also-above-floor: KILLED (1 tests)
+eps-removed: KILLED (1 tests)
+raise-disabled: KILLED (7 tests)
+raise-before-rigid-ladder: KILLED (1 tests)
+restored
+done

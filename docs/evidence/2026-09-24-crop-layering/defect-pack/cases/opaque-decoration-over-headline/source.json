@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "opaque-decoration-over-headline",
+  "name": "opaque-decoration-over-headline",
+  "description": "Defect-control case",
+  "provenance": "synthetic",
+  "width": 1000,
+  "height": 1000,
+  "background": "#ffffff",
+  "groups": [],
+  "elements": [
+    {
+      "id": "headline",
+      "type": "text",
+      "role": "content",
+      "x": 100,
+      "y": 100,
+      "width": 800,
+      "height": 120,
+      "text": "A clear headline here",
+      "fontFamily": "Inter",
+      "fontSize": 64,
+      "fontWeight": 700,
+      "lineHeight": 1.1,
+      "color": "#111111"
+    },
+    {
+      "id": "body",
+      "type": "text",
+      "role": "content",
+      "x": 100,
+      "y": 300,
+      "width": 800,
+      "height": 60,
+      "text": "Quiet supporting copy",
+      "fontFamily": "Inter",
+      "fontSize": 36,
+      "fontWeight": 500,
+      "lineHeight": 1.1,
+      "color": "#333333"
+    },
+    {
+      "id": "sticker",
+      "type": "rect",
+      "role": "decoration",
+      "x": 700,
+      "y": 700,
+      "width": 200,
+      "height": 200,
+      "color": "#e34850"
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "id": "UB-ACCEPTANCE-02-lineage-documentation",
+  "disposition": "Manifest-listed lineage documentation complete; execution/fidelity/human acceptance BLOCKED",
+  "source_revision": "f113f173f3dad1b081aadc4382c6058109b445a9",
+  "named_manifest": {
+    "canonical_url": "https://github.com/kj-squared-labs/reflow-studio/blob/f113f173f3dad1b081aadc4382c6058109b445a9/docs/evidence/kr-01-next/manifest.json",
+    "delivery": "owner-provided base64 decoded without normalization; outside-repository input only",
+    "locally_verified_bytes": 12166,
+    "locally_verified_sha256": "243fdbc371989620c2d6f2108e69faff7e84cb78643bea860f8194ea49c39e79",
+    "locally_verified_git_blob": "6c0a3e1950e0816946aa32adae3a8fa2d5040e98",
+    "parsed": true,
+    "listed_files_opened": false,
+    "assertion_origin": "source-reported; source/task/resource/archive/render payloads not reverified"
+  },
+  "manifest_reported": {
+    "version": "kr-01-next-v2-review",
+    "source_commit": "75f0ac1218b00a62f44b2b0aca4884b1e0f2a677",
+    "upstream_commit": "a44a06046b0413f0785e7203955c3822e0acbc32",
+    "status": "review-candidate; all-quarantined",
+    "human_acceptance": "pending",
+    "technical_review": {
+      "status": "no-critical-or-important-findings",
+      "reviewed_index_sha256": "c77240ea68467c3d9d87f7da6d0fae7e23abcfab0e10b51f60dff3d66e7234dc",
+      "reviewed_archive_sha256": "5a57c941aeee7da7e5629703732e39eef5ebacdbb3910d7bbbb9313554c54d51",
+      "scope": "all81archive entries/CRCs;77indexedfiles;3supplementalfiles;source/task/resource/selection/control/6PNG; human acceptance remains pending"
+    },
+    "selection_sha256": "f50a05198e6476537f20b51f8be7fb47c9cd65a221f11855c08f7d2d648c025c",
+    "archive": {
+      "file": "review.zip",
+      "sha256": "5a57c941aeee7da7e5629703732e39eef5ebacdbb3910d7bbbb9313554c54d51",
+      "bytes": 15698647,
+      "entries": 81
+    },
+    "artifact_index_sha256": "c77240ea68467c3d9d87f7da6d0fae7e23abcfab0e10b51f60dff3d66e7234dc",
+    "audit_script_sha256": "a25d451bcd17259de041f038cd6da0e637b2484ebc29dfeb9bda88251988bc61",
+    "reused_script_sha256": "adf352dea27109779c6b5ccae936a24087a2a7d8ff75ec8031805af99a2ca869",
+    "extra_archive_files": {
+      "reports/kr-01-next/v1/audit.py": {
+        "sha256": "70816f7fdb5891a62f53a42127cd8870767689a0768223b7f597c99249014987",
+        "bytes": 14948
+      },
+      "reports/kr-01-next/v1/failure.json": {
+        "sha256": "85e93bcb4cb25628ce48d77e31a301d8da394e8e2e29c8504861bb605e21ce59",
+        "bytes": 271
+      },
+      "docs/evidence/kr-01-next/selection.json": {
+        "sha256": "f50a05198e6476537f20b51f8be7fb47c9cd65a221f11855c08f7d2d648c025c",
+        "bytes": 23793
+      }
+    },
+    "counts": {
+      "source_count": 3,
+      "task_count": 21,
+      "verified_resource_blobs": 34,
+      "positive_content_controls": 3,
+      "changed_copy_negative_controls": 3,
+      "skipped_checks": 0
+    },
+    "asset_provenance_failures": 4,
+    "faithful_quality_eligible_sources": 0,
+    "inherited_exclusions": {
+      "B97PvhvRYj5UbiIgPavx": "BARBER title (0-1) and PRICES subtitle (0-2) overlap after unchanged-source rendering.",
+      "eFlnAlIZr2D7QARKljAg": "BARBER title (0-1) and PRICES subtitle (0-2) overlap after unchanged-source rendering.",
+      "3MbAZeH8FOua2e8ToFGR": "All five converted font sizes match raw px values. Converted line-height multipliers reproduce raw px values. Unchanged source render has much smaller text than the LICA PNG; excluded as directed.",
+      "GLkvpJGsVXVWUZtFfQnz": "missing coordinates",
+      "S2R6nZIgKSiOrWmgzs60": "Body text 0-18 escapes its source frame and enters the first yellow portrait-caption region 0-3-0. No direct glyph intersection with caption text was measured; the visible region intrusion remains.",
+      "3OcbtlfEs722hNRt0W1P": "zero-height SVG",
+      "A5ijgpumOCZpbBwUaoE0": "explicit hold; invalid source geometry/font sizes"
+    }
+  },
+  "dispositions": [
+    {
+      "layout_id": "0qOFrrbBaTnaYeRoIlZE",
+      "template_id": "34c51849-2456-43a2-aba6-f4c90bc5f3bd",
+      "source_sha256": "b515df44fca7bbf35db2f77092ce237f13495aafd01dc017a18b2cddf61e412d",
+      "reference_sha256": "467b3dd9a1ba81951ca7da2cc5cfddb80863ce0146e218313e392490c3e095f8",
+      "render_sha256": "2655e7ad66eb7fa3c8b27824f712842dc45cd5b98feb9866c4cd29aab07587ed",
+      "faithful_quality_eligible": false,
+      "status": "quarantined",
+      "reason": "Three SVG raster bindings absent from original-to-derivative resource records (0-1,0-3,0-8). Visually close copy/artwork is insufficient to establish complete asset provenance.",
+      "asset_provenance_errors": [
+        {
+          "element_id": "0-1",
+          "source_url": "https://storage.googleapis.com/lica-video/78e59699-d65d-462e-aeab-adfa2d8c5941.svg",
+          "original_sha256": "d19a7d7ddcef6b06773083022039ae652fdae70701282eefe69fdcfbd7b4883e",
+          "render_blob_sha256": "124c082b7c407a4effd94de1feebc97e62e997f1f429504f02571049709312fe",
+          "reason": "Rendered blob is indexed but original-to-derivative mapping is absent"
+        },
+        {
+          "element_id": "0-3",
+          "source_url": "https://storage.googleapis.com/lica-video/79661d6c-659c-4713-8a6b-586f3f64449f.svg",
+          "original_sha256": "18fcb81d634760b9eac363118590abc6911ddad5f5ae19eb82c797a10b006375",
+          "render_blob_sha256": "9051c5dbd50a569e5844cc7c1ab717906ab3c102a592806383a78b1612d0ca44",
+          "reason": "Rendered blob is indexed but original-to-derivative mapping is absent"
+        },
+        {
+          "element_id": "0-8",
+          "source_url": "https://storage.googleapis.com/lica-video/e73f75e2-7334-45fd-b43e-85624c2df659.svg",
+          "original_sha256": "2f6bc8bcfeaaa3eea447837027fdf6e1ff27cf040d211a3546614a6fba453882",
+          "render_blob_sha256": "a1ed06d01fb05f30347e9b75799f004b25f4c5bea10b72b62676e238e793e350",
+          "reason": "Rendered blob is indexed but original-to-derivative mapping is absent"
+        }
+      ],
+      "tasks": [
+        {
+          "file": "tasks/lica-0qOFrrbBaTnaYeRoIlZE-1080x1080.json",
+          "sha256": "e1c55b79ab341dc9fec579b29d2bac192d6bb43c0c37b0eca6a774421be97f4b",
+          "status": "quarantined-with-source; resize-not-executed"
+        },
+        {
+          "file": "tasks/lica-0qOFrrbBaTnaYeRoIlZE-1080x1920.json",
+          "sha256": "38f55387355381918198a5511c8da340672402cac55fad63e4ef83cef5c30d81",
+          "status": "quarantined-with-source; resize-not-executed"
+        },
+        {
+          "file": "tasks/lica-0qOFrrbBaTnaYeRoIlZE-1920x1080.json",
+          "sha256": "afd2bea39c6d0255bd1cd7a8544e93090080954ee6bd6e931b052eebb6b220ba",
+          "status": "quarantined-with-source; resize-not-executed"
+        },
+        {
+          "file": "tasks/lica-0qOFrrbBaTnaYeRoIlZE-1080x1350.json",
+          "sha256": "07da1812dbd8ba6011d73c54ce2287e3a88ad6711366204bb73f674a20ec5f8f",
+          "status": "quarantined-with-source; resize-not-executed"
+        },
+        {
+          "file": "tasks/lica-0qOFrrbBaTnaYeRoIlZE-1500x500.json",
+          "sha256": "ee6b2a88fb0cc4043145c13413818500967d417f65f88f350086b04db1491148",
+          "status": "quarantined-with-source; resize-not-executed"
+        },
+        {
+          "file": "tasks/lica-0qOFrrbBaTnaYeRoIlZE-728x90.json",
+          "sha256": "eb4879f339eae192cc8cabfa695155ce136822b533f7b327aa2355c630469f63",
+          "status": "quarantined-with-source; resize-not-executed"
+        },
+        {
+          "file": "tasks/lica-0qOFrrbBaTnaYeRoIlZE-160x600.json",
+          "sha256": "ac09820cfe4d954b89c9813613c1183fa5511028296b3c59eeaa98e63ab8b302",
+          "status": "quarantined-with-source; resize-not-executed"
+        }
+      ],
+      "target_dimensions": null,
+      "artifact_paths_verified": false
+    },
+    {
+      "layout_id": "0vxUdcOKbvrSVNSxRY4w",
+      "template_id": "010f7dcf-7362-484d-ab21-e22230a75cd7",
+      "source_sha256": "a69e7db5a24f4bbe3bda682115afe92d2c1e8c794026d4c0cad77a0f4619b518",
+      "reference_sha256": "cfec7c8f131c023473aa738241657756b11d5e902f3496960c2c68511e957471",
+      "render_sha256": "0b4070463a00a81c0765db4ccd7af62623d11b88081e9cd574fc81299a2835b0",
+      "faithful_quality_eligible": false,
+      "status": "quarantined",
+      "reason": "Josefin typography is visibly heavier than reference and top italic paragraph 0-12 changes from three reference lines to four rendered lines. One SVG raster provenance link absent. JSON/reference typography conflict unresolved.",
+      "asset_provenance_errors": [
+        {
+          "element_id": "0-3",
+          "source_url": "https://storage.googleapis.com/lica-video/1996ba46-f912-4559-a760-7d292f66093f.svg",
+          "original_sha256": "c81c8f049a4dd0e86ce7f471d2494b9d540ab793ff1e5e8c3d170a0247ab6333",
+          "render_blob_sha256": "b576dd37f0683797ce5904a95df2a0c050b426adf95d3e5bef3615a5beb4ac60",
+          "reason": "Rendered blob is indexed but original-to-derivative mapping is absent"
+        }
+      ],
+      "tasks": [
+        {
+          "file": "tasks/lica-0vxUdcOKbvrSVNSxRY4w-1080x1080.json",
+          "sha256": "03d8c2bf0a73aa78c8266aeb1f899de5be6c746c437f80756ea4d86023361966",
+          "status": "quarantined-with-source; resize-not-executed"
+        },
+        {
+          "file": "tasks/lica-0vxUdcOKbvrSVNSxRY4w-1080x1920.json",
+          "sha256": "4d8141cb0d1c35785138ca0a34aaa83a977b61bff825a96359516bf600689b12",
+          "status": "quarantined-with-source; resize-not-executed"
+        },
+        {
+          "file": "tasks/lica-0vxUdcOKbvrSVNSxRY4w-1920x1080.json",
+          "sha256": "1d9799babe79f263f0d9a16ed348c3928c7c5ed751accc448054c4fbf8f783d8",
+          "status": "quarantined-with-source; resize-not-executed"
+        },
+        {
+          "file": "tasks/lica-0vxUdcOKbvrSVNSxRY4w-1080x1350.json",
+          "sha256": "986e713ab4ea1b5d4bce17b80a93f7770cc3354b5f2b96df312f42c94b0e0b0f",
+          "status": "quarantined-with-source; resize-not-executed"
+        },
+        {
+          "file": "tasks/lica-0vxUdcOKbvrSVNSxRY4w-1500x500.json",
+          "sha256": "fef182c78540c2fda8819fc0e097ade3516ef399ec607200ed967293e1a206d8",
+          "status": "quarantined-with-source; resize-not-executed"
+        },
+        {
+          "file": "tasks/lica-0vxUdcOKbvrSVNSxRY4w-728x90.json",
+          "sha256": "3337653949b3c426e4c1010df12a33665f235396d7f160685c8043e98a48807f",
+          "status": "quarantined-with-source; resize-not-executed"
+        },
+        {
+          "file": "tasks/lica-0vxUdcOKbvrSVNSxRY4w-160x600.json",
+          "sha256": "d4016e94acd0ee6ddd8185de7a84b2a170ecf51cd41163ef9732dc24e3fd418a",
+          "status": "quarantined-with-source; resize-not-executed"
+        }
+      ],
+      "target_dimensions": null,
+      "artifact_paths_verified": false
+    },
+    {
+      "layout_id": "3jmFr3CGhibT4vc3KjI1",
+      "template_id": "db3969c1-218a-467d-88d7-6718bf412791",
+      "source_sha256": "b82319b5bf5aca7c8b0ffa2dcedc50e0ab84c33ef060f30a08b0e59c1e999990",
+      "reference_sha256": "ee0944ba9c39b59e36b2ca0c65f0da773bac611c8565239377da017ffba1f5bd",
+      "render_sha256": "3e5495fc435a0c458e7d30b90abc15c36bb3065c4b179ba075ad67382fc41396",
+      "faithful_quality_eligible": false,
+      "status": "quarantined",
+      "reason": "Nunito Sans numeric weights 600/900 map to bold with supplied700 face. Subtitle 0-6-1 is heavier and wraps into two rendered lines versus one reference line. Title 0-6-0 loses declared900weight. Preserve explicit mismatch.",
+      "asset_provenance_errors": [],
+      "tasks": [
+        {
+          "file": "tasks/lica-3jmFr3CGhibT4vc3KjI1-1080x1080.json",
+          "sha256": "b6bf3275c0a7689105574a0e16a6a2f8652c13afed5f618af7532a3210757ee9",
+          "status": "quarantined-with-source; resize-not-executed"
+        },
+        {
+          "file": "tasks/lica-3jmFr3CGhibT4vc3KjI1-1080x1920.json",
+          "sha256": "c514048a7bb0d7873aa058732ca085be3d02f2f881979d5b36412752b71f523a",
+          "status": "quarantined-with-source; resize-not-executed"
+        },
+        {
+          "file": "tasks/lica-3jmFr3CGhibT4vc3KjI1-1920x1080.json",
+          "sha256": "4c8d319c1b861d2e654c91abbffa4d78bbf5a9b2207c661f4de614ded017439f",
+          "status": "quarantined-with-source; resize-not-executed"
+        },
+        {
+          "file": "tasks/lica-3jmFr3CGhibT4vc3KjI1-1080x1350.json",
+          "sha256": "1974a4c65a4737cc1ec7f55d0b4dd2b87f3e439ff9f197c7cb1d8c0da2988057",
+          "status": "quarantined-with-source; resize-not-executed"
+        },
+        {
+          "file": "tasks/lica-3jmFr3CGhibT4vc3KjI1-1500x500.json",
+          "sha256": "fbc5be926cf4627b8694bb84201e52b8574572bdc2a150386b362d808c2e2f53",
+          "status": "quarantined-with-source; resize-not-executed"
+        },
+        {
+          "file": "tasks/lica-3jmFr3CGhibT4vc3KjI1-728x90.json",
+          "sha256": "e9c8b136f82db53219aecac003564c1b84cade5b84758a4cb69b8b9e16f7fa14",
+          "status": "quarantined-with-source; resize-not-executed"
+        },
+        {
+          "file": "tasks/lica-3jmFr3CGhibT4vc3KjI1-160x600.json",
+          "sha256": "5577818b870820c4eee1a41200ca18f7b0b77d590031a1bf8a0521f4c78fec7f",
+          "status": "quarantined-with-source; resize-not-executed"
+        }
+      ],
+      "target_dimensions": null,
+      "artifact_paths_verified": false
+    }
+  ],
+  "unknown": [
+    "actual task JSON target dimensions; filename suffixes not verified",
+    "accessible original/task/reference/render/resource/index/archive paths beyond literal manifest entries",
+    "renderer identity and source/rendered bytes",
+    "complete box metadata and alias mapping",
+    "human acceptance receipt paths"
+  ],
+  "receipt_boundaries": {
+    "technical_metadata": "local manifest-byte integrity only; listed artifact hashes/controls/exclusions source-reported",
+    "renderer_behavioral": "source-reported reference/render hashes and technical review; no new reproduction",
+    "human_acceptance": "pending; no new receipt",
+    "converter_ack": "pending #112 comment6071098172"
+  },
+  "execution_authorized": false,
+  "terminal": "Stop at exact documentation review completion; no further collection/execution/publication"
+}

@@ -1,0 +1,18 @@
+== C1 src 1080 1350 tgt 120 600 s=0.11111
+badge2 badge2_bg shape fs=0.00 box [0.0, 60.0, 110.16, 16.2] rot 0
+badge2 badge2_label text fs=4.86 box [0.0, 63.89, 110.16, 8.42] rot 0
+sub_floor True
+need f=1.235 ladder [1.235, 1.111, 1.0]
+  f=1.235 union w=136.0 h=20.0 fits_canvas=False
+  f=1.111 union w=122.4 h=18.0 fits_canvas=False
+== C3b src 1200 1200 tgt 60 1000 s=0.05000
+cta cta_bg shape fs=0.00 box [0.0, 0.0, 54.68, 13.12] rot 0
+cta cta_label text fs=4.37 box [1.09, 1.09, 52.49, 10.94] rot 0
+sub_floor True
+need f=1.372 ladder [1.372, 1.235, 1.111, 1.0]
+  f=1.372 union w=75.0 h=18.0 fits_canvas=False
+  f=1.235 union w=67.5 h=16.2 fits_canvas=False
+  f=1.111 union w=60.8 h=14.6 fits_canvas=False
+== text measure: widest line of label at 6px vs plate, and max rigid f by canvas
+C1 'AWARD WINNING 2026' fs_now=4.86 plate 110.16x16.20 text@now w=54.0 lines=1 text@6 w=72.0 lines=1 h=7.2 max rigid f by canvas=1.089 -> font 5.29
+C3b 'Shop now' fs_now=4.37 plate 54.68x13.12 text@now w=24.0 lines=1 text@6 w=31.0 lines=1 h=7.2 max rigid f by canvas=1.097 -> font 4.80

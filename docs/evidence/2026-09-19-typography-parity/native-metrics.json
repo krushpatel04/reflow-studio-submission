@@ -1,0 +1,4283 @@
+{
+  "schemaVersion": "reflow.font-parity.v1",
+  "probes": [
+    {
+      "id": "after-dark/square/eyebrow",
+      "source": "fixture",
+      "text": "THE CAMPUS CREATIVE SERIES",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 32.39,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 939.6,
+        "height": 52.342
+      },
+      "metrics": {
+        "width": 499.34,
+        "ascent": 31.378,
+        "descent": 7.813
+      },
+      "layout": {
+        "lines": [
+          "THE CAMPUS CREATIVE SERIES"
+        ],
+        "width": 499.34,
+        "ascent": 31.378,
+        "lineStep": 39.191,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "after-dark/square/headline",
+      "source": "fixture",
+      "text": "Design\nafter dark.",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 79.72,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 939.6,
+        "height": 192.927
+      },
+      "metrics": {
+        "width": 405.21,
+        "ascent": 77.229,
+        "descent": 19.229
+      },
+      "layout": {
+        "lines": [
+          "Design",
+          "after dark."
+        ],
+        "width": 405.21,
+        "ascent": 77.229,
+        "lineStep": 96.458,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "after-dark/square/date",
+      "source": "fixture",
+      "text": "Friday, October 16 · 7 PM",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 30.04,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 654.275,
+        "height": 36.349
+      },
+      "metrics": {
+        "width": 361.34,
+        "ascent": 29.101,
+        "descent": 7.246
+      },
+      "layout": {
+        "lines": [
+          "Friday, October 16 · 7 PM"
+        ],
+        "width": 361.34,
+        "ascent": 29.101,
+        "lineStep": 36.347,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "after-dark/square/venue",
+      "source": "fixture",
+      "text": "The student union · Everyone welcome",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 27.73,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 654.275,
+        "height": 33.553
+      },
+      "metrics": {
+        "width": 514.81,
+        "ascent": 26.863,
+        "descent": 6.689
+      },
+      "layout": {
+        "lines": [
+          "The student union · Everyone welcome"
+        ],
+        "width": 514.81,
+        "ascent": 26.863,
+        "lineStep": 33.552,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "after-dark/square/ticket-label",
+      "source": "fixture",
+      "text": "SAVE YOUR SEAT  →",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 28.85,
+      "lineHeight": 1.14,
+      "align": "center",
+      "box": {
+        "width": 612.334,
+        "height": 34.951
+      },
+      "metrics": {
+        "width": 279.76,
+        "ascent": 27.948,
+        "descent": 6.959
+      },
+      "layout": {
+        "lines": [
+          "SAVE YOUR SEAT →"
+        ],
+        "width": 272.93,
+        "ascent": 28,
+        "lineStep": 34.959,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "after-dark/story/eyebrow",
+      "source": "fixture",
+      "text": "THE CAMPUS CREATIVE SERIES",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 27,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 936,
+        "height": 45
+      },
+      "metrics": {
+        "width": 416.44,
+        "ascent": 26.156,
+        "descent": 6.513
+      },
+      "layout": {
+        "lines": [
+          "THE CAMPUS CREATIVE SERIES"
+        ],
+        "width": 416.44,
+        "ascent": 26.156,
+        "lineStep": 32.669,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "after-dark/story/headline",
+      "source": "fixture",
+      "text": "Design\nafter dark.",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 112,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 936,
+        "height": 276
+      },
+      "metrics": {
+        "width": 569.3,
+        "ascent": 108.5,
+        "descent": 27.016
+      },
+      "layout": {
+        "lines": [
+          "Design",
+          "after dark."
+        ],
+        "width": 569.3,
+        "ascent": 108.5,
+        "lineStep": 135.516,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "after-dark/story/date",
+      "source": "fixture",
+      "text": "Friday, October 16 · 7 PM",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 38,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 936,
+        "height": 52
+      },
+      "metrics": {
+        "width": 457.22,
+        "ascent": 36.813,
+        "descent": 9.166
+      },
+      "layout": {
+        "lines": [
+          "Friday, October 16 · 7 PM"
+        ],
+        "width": 457.22,
+        "ascent": 36.813,
+        "lineStep": 45.979,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "after-dark/story/venue",
+      "source": "fixture",
+      "text": "The student union · Everyone welcome",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 30,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 936,
+        "height": 48
+      },
+      "metrics": {
+        "width": 557.18,
+        "ascent": 29.063,
+        "descent": 7.236
+      },
+      "layout": {
+        "lines": [
+          "The student union · Everyone welcome"
+        ],
+        "width": 557.18,
+        "ascent": 29.063,
+        "lineStep": 36.299,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "after-dark/story/ticket-label",
+      "source": "fixture",
+      "text": "SAVE YOUR SEAT  →",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 32,
+      "lineHeight": 1.14,
+      "align": "center",
+      "box": {
+        "width": 876,
+        "height": 50
+      },
+      "metrics": {
+        "width": 310.38,
+        "ascent": 31,
+        "descent": 7.719
+      },
+      "layout": {
+        "lines": [
+          "SAVE YOUR SEAT →"
+        ],
+        "width": 302.8,
+        "ascent": 31,
+        "lineStep": 38.719,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "after-dark/landscape/eyebrow",
+      "source": "fixture",
+      "text": "THE CAMPUS CREATIVE SERIES",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 32.39,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 1779.6,
+        "height": 52.342
+      },
+      "metrics": {
+        "width": 499.34,
+        "ascent": 31.378,
+        "descent": 7.813
+      },
+      "layout": {
+        "lines": [
+          "THE CAMPUS CREATIVE SERIES"
+        ],
+        "width": 499.34,
+        "ascent": 31.378,
+        "lineStep": 39.191,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "after-dark/landscape/headline",
+      "source": "fixture",
+      "text": "Design\nafter dark.",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 79.72,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 1779.6,
+        "height": 192.927
+      },
+      "metrics": {
+        "width": 405.21,
+        "ascent": 77.229,
+        "descent": 19.229
+      },
+      "layout": {
+        "lines": [
+          "Design",
+          "after dark."
+        ],
+        "width": 405.21,
+        "ascent": 77.229,
+        "lineStep": 96.458,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "after-dark/landscape/date",
+      "source": "fixture",
+      "text": "Friday, October 16 · 7 PM",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 30.04,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 654.275,
+        "height": 36.349
+      },
+      "metrics": {
+        "width": 361.34,
+        "ascent": 29.101,
+        "descent": 7.246
+      },
+      "layout": {
+        "lines": [
+          "Friday, October 16 · 7 PM"
+        ],
+        "width": 361.34,
+        "ascent": 29.101,
+        "lineStep": 36.347,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "after-dark/landscape/venue",
+      "source": "fixture",
+      "text": "The student union · Everyone welcome",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 27.73,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 654.275,
+        "height": 33.553
+      },
+      "metrics": {
+        "width": 514.81,
+        "ascent": 26.863,
+        "descent": 6.689
+      },
+      "layout": {
+        "lines": [
+          "The student union · Everyone welcome"
+        ],
+        "width": 514.81,
+        "ascent": 26.863,
+        "lineStep": 33.552,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "after-dark/landscape/ticket-label",
+      "source": "fixture",
+      "text": "SAVE YOUR SEAT  →",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 28.85,
+      "lineHeight": 1.14,
+      "align": "center",
+      "box": {
+        "width": 612.334,
+        "height": 34.951
+      },
+      "metrics": {
+        "width": 279.76,
+        "ascent": 27.948,
+        "descent": 6.959
+      },
+      "layout": {
+        "lines": [
+          "SAVE YOUR SEAT →"
+        ],
+        "width": 272.93,
+        "ascent": 28,
+        "lineStep": 34.959,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "long-headline/square/eyebrow",
+      "source": "fixture",
+      "text": "IDEAS WORTH BUILDING",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 27,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 954,
+        "height": 43.2
+      },
+      "metrics": {
+        "width": 324.54,
+        "ascent": 26.156,
+        "descent": 6.513
+      },
+      "layout": {
+        "lines": [
+          "IDEAS WORTH BUILDING"
+        ],
+        "width": 324.54,
+        "ascent": 26.156,
+        "lineStep": 32.669,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "long-headline/square/headline",
+      "source": "fixture",
+      "text": "The future belongs to people who make things together.",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 75.6,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 954,
+        "height": 297
+      },
+      "metrics": {
+        "width": 2061.52,
+        "ascent": 73.237,
+        "descent": 18.236
+      },
+      "layout": {
+        "lines": [
+          "The future belongs to",
+          "people who make things",
+          "together."
+        ],
+        "width": 896.24,
+        "ascent": 73.237,
+        "lineStep": 91.473,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "long-headline/square/body",
+      "source": "fixture",
+      "text": "An evening of stories, experiments, and unfinished ideas. Bring something you are curious about.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 31.5,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 553.5,
+        "height": 144
+      },
+      "metrics": {
+        "width": 1462.81,
+        "ascent": 30.516,
+        "descent": 7.598
+      },
+      "layout": {
+        "lines": [
+          "An evening of stories, experiments,",
+          "and unfinished ideas. Bring",
+          "something you are curious about."
+        ],
+        "width": 532.69,
+        "ascent": 31,
+        "lineStep": 38.598,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "long-headline/square/details",
+      "source": "fixture",
+      "text": "THURSDAY · 6:30 PM\nTHE DESIGN LAB",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 26.1,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 558,
+        "height": 82.8
+      },
+      "metrics": {
+        "width": 269.01,
+        "ascent": 25.284,
+        "descent": 6.296
+      },
+      "layout": {
+        "lines": [
+          "THURSDAY · 6:30 PM",
+          "THE DESIGN LAB"
+        ],
+        "width": 269.01,
+        "ascent": 26,
+        "lineStep": 32.296,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "long-headline/story/eyebrow",
+      "source": "fixture",
+      "text": "IDEAS WORTH BUILDING",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 27,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 954,
+        "height": 43.2
+      },
+      "metrics": {
+        "width": 324.54,
+        "ascent": 26.156,
+        "descent": 6.513
+      },
+      "layout": {
+        "lines": [
+          "IDEAS WORTH BUILDING"
+        ],
+        "width": 324.54,
+        "ascent": 26.156,
+        "lineStep": 32.669,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "long-headline/story/headline",
+      "source": "fixture",
+      "text": "The future belongs to people who make things together.",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 75.6,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 954,
+        "height": 297
+      },
+      "metrics": {
+        "width": 2061.52,
+        "ascent": 73.237,
+        "descent": 18.236
+      },
+      "layout": {
+        "lines": [
+          "The future belongs to",
+          "people who make things",
+          "together."
+        ],
+        "width": 896.24,
+        "ascent": 73.237,
+        "lineStep": 91.473,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "long-headline/story/body",
+      "source": "fixture",
+      "text": "An evening of stories, experiments, and unfinished ideas. Bring something you are curious about.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 31.5,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 553.5,
+        "height": 144
+      },
+      "metrics": {
+        "width": 1462.81,
+        "ascent": 30.516,
+        "descent": 7.598
+      },
+      "layout": {
+        "lines": [
+          "An evening of stories, experiments,",
+          "and unfinished ideas. Bring",
+          "something you are curious about."
+        ],
+        "width": 532.69,
+        "ascent": 31,
+        "lineStep": 38.598,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "long-headline/story/details",
+      "source": "fixture",
+      "text": "THURSDAY · 6:30 PM\nTHE DESIGN LAB",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 26.1,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 558,
+        "height": 82.8
+      },
+      "metrics": {
+        "width": 269.01,
+        "ascent": 25.284,
+        "descent": 6.296
+      },
+      "layout": {
+        "lines": [
+          "THURSDAY · 6:30 PM",
+          "THE DESIGN LAB"
+        ],
+        "width": 269.01,
+        "ascent": 26,
+        "lineStep": 32.296,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "long-headline/landscape/eyebrow",
+      "source": "fixture",
+      "text": "IDEAS WORTH BUILDING",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 36,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 1272,
+        "height": 57.6
+      },
+      "metrics": {
+        "width": 432.72,
+        "ascent": 34.875,
+        "descent": 8.684
+      },
+      "layout": {
+        "lines": [
+          "IDEAS WORTH BUILDING"
+        ],
+        "width": 432.72,
+        "ascent": 35,
+        "lineStep": 43.684,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "long-headline/landscape/headline",
+      "source": "fixture",
+      "text": "The future belongs to people who make things together.",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 100.8,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 1272,
+        "height": 396
+      },
+      "metrics": {
+        "width": 2748.83,
+        "ascent": 97.65,
+        "descent": 24.314
+      },
+      "layout": {
+        "lines": [
+          "The future belongs to",
+          "people who make things",
+          "together."
+        ],
+        "width": 1195.04,
+        "ascent": 97.65,
+        "lineStep": 121.964,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "long-headline/landscape/body",
+      "source": "fixture",
+      "text": "An evening of stories, experiments, and unfinished ideas. Bring something you are curious about.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 42,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 738,
+        "height": 192
+      },
+      "metrics": {
+        "width": 1950.42,
+        "ascent": 40.688,
+        "descent": 10.131
+      },
+      "layout": {
+        "lines": [
+          "An evening of stories, experiments,",
+          "and unfinished ideas. Bring",
+          "something you are curious about."
+        ],
+        "width": 710.25,
+        "ascent": 40.688,
+        "lineStep": 50.818,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "long-headline/landscape/details",
+      "source": "fixture",
+      "text": "THURSDAY · 6:30 PM\nTHE DESIGN LAB",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 34.8,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 744,
+        "height": 110.4
+      },
+      "metrics": {
+        "width": 358.74,
+        "ascent": 33.712,
+        "descent": 8.394
+      },
+      "layout": {
+        "lines": [
+          "THURSDAY · 6:30 PM",
+          "THE DESIGN LAB"
+        ],
+        "width": 358.74,
+        "ascent": 33.712,
+        "lineStep": 42.107,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/square/headline",
+      "source": "fixture",
+      "text": "Open studio\nWeek 01",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 99.77,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 939.6,
+        "height": 241.442
+      },
+      "metrics": {
+        "width": 590.56,
+        "ascent": 96.652,
+        "descent": 24.066
+      },
+      "layout": {
+        "lines": [
+          "Open studio",
+          "Week 01"
+        ],
+        "width": 590.56,
+        "ascent": 96.652,
+        "lineStep": 120.718,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/square/session-0",
+      "source": "fixture",
+      "text": "18:00  Doors & introductions",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 38.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 898.166,
+        "height": 54.696
+      },
+      "metrics": {
+        "width": 539.16,
+        "ascent": 37.772,
+        "descent": 9.405
+      },
+      "layout": {
+        "lines": [
+          "18:00 Doors & introductions"
+        ],
+        "width": 529.92,
+        "ascent": 38,
+        "lineStep": 47.405,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/square/detail-0",
+      "source": "fixture",
+      "text": "Meet the people behind the projects.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 29.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 898.166,
+        "height": 57.575
+      },
+      "metrics": {
+        "width": 526.13,
+        "ascent": 29.053,
+        "descent": 7.234
+      },
+      "layout": {
+        "lines": [
+          "Meet the people behind the projects."
+        ],
+        "width": 526.13,
+        "ascent": 29.053,
+        "lineStep": 36.287,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/square/session-1",
+      "source": "fixture",
+      "text": "18:30  Make something small",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 38.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 898.166,
+        "height": 54.696
+      },
+      "metrics": {
+        "width": 551.32,
+        "ascent": 37.772,
+        "descent": 9.405
+      },
+      "layout": {
+        "lines": [
+          "18:30 Make something small"
+        ],
+        "width": 542.09,
+        "ascent": 38,
+        "lineStep": 47.405,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/square/detail-1",
+      "source": "fixture",
+      "text": "Choose a prompt. Follow your curiosity.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 29.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 898.166,
+        "height": 57.575
+      },
+      "metrics": {
+        "width": 567.97,
+        "ascent": 29.053,
+        "descent": 7.234
+      },
+      "layout": {
+        "lines": [
+          "Choose a prompt. Follow your curiosity."
+        ],
+        "width": 567.97,
+        "ascent": 29.053,
+        "lineStep": 36.287,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/square/session-2",
+      "source": "fixture",
+      "text": "19:15  Share what surprised you",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 38.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 898.166,
+        "height": 54.696
+      },
+      "metrics": {
+        "width": 601.29,
+        "ascent": 37.772,
+        "descent": 9.405
+      },
+      "layout": {
+        "lines": [
+          "19:15 Share what surprised you"
+        ],
+        "width": 592.06,
+        "ascent": 38,
+        "lineStep": 47.405,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/square/detail-2",
+      "source": "fixture",
+      "text": "A five-minute story from every table.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 29.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 898.166,
+        "height": 57.575
+      },
+      "metrics": {
+        "width": 527.6,
+        "ascent": 29.053,
+        "descent": 7.234
+      },
+      "layout": {
+        "lines": [
+          "A five-minute story from every table."
+        ],
+        "width": 527.6,
+        "ascent": 29.053,
+        "lineStep": 36.287,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/square/session-3",
+      "source": "fixture",
+      "text": "20:00  A conversation over coffee",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 38.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 898.166,
+        "height": 54.696
+      },
+      "metrics": {
+        "width": 648.25,
+        "ascent": 37.772,
+        "descent": 9.405
+      },
+      "layout": {
+        "lines": [
+          "20:00 A conversation over coffee"
+        ],
+        "width": 639.02,
+        "ascent": 38,
+        "lineStep": 47.405,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/square/detail-3",
+      "source": "fixture",
+      "text": "Stay a little longer. Ask another question.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 29.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 898.166,
+        "height": 57.575
+      },
+      "metrics": {
+        "width": 585.57,
+        "ascent": 29.053,
+        "descent": 7.234
+      },
+      "layout": {
+        "lines": [
+          "Stay a little longer. Ask another question."
+        ],
+        "width": 585.57,
+        "ascent": 29.053,
+        "lineStep": 36.287,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/square/footer",
+      "source": "fixture",
+      "text": "FREE ENTRY · MATERIALS PROVIDED",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 37.19,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 939.6,
+        "height": 71.853
+      },
+      "metrics": {
+        "width": 670.05,
+        "ascent": 36.028,
+        "descent": 8.971
+      },
+      "layout": {
+        "lines": [
+          "FREE ENTRY · MATERIALS PROVIDED"
+        ],
+        "width": 670.05,
+        "ascent": 36.028,
+        "lineStep": 44.998,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/story/headline",
+      "source": "fixture",
+      "text": "Open studio\nWeek 01",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 93,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 930,
+        "height": 250
+      },
+      "metrics": {
+        "width": 550.51,
+        "ascent": 90.094,
+        "descent": 22.433
+      },
+      "layout": {
+        "lines": [
+          "Open studio",
+          "Week 01"
+        ],
+        "width": 550.51,
+        "ascent": 90.094,
+        "lineStep": 112.526,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/story/session-0",
+      "source": "fixture",
+      "text": "18:00  Doors & introductions",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 39,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 936,
+        "height": 57
+      },
+      "metrics": {
+        "width": 539.37,
+        "ascent": 37.781,
+        "descent": 9.407
+      },
+      "layout": {
+        "lines": [
+          "18:00 Doors & introductions"
+        ],
+        "width": 530.14,
+        "ascent": 38,
+        "lineStep": 47.407,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/story/detail-0",
+      "source": "fixture",
+      "text": "Meet the people behind the projects.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 30,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 936,
+        "height": 60
+      },
+      "metrics": {
+        "width": 526.41,
+        "ascent": 29.063,
+        "descent": 7.236
+      },
+      "layout": {
+        "lines": [
+          "Meet the people behind the projects."
+        ],
+        "width": 526.41,
+        "ascent": 29.063,
+        "lineStep": 36.299,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/story/session-1",
+      "source": "fixture",
+      "text": "18:30  Make something small",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 39,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 936,
+        "height": 57
+      },
+      "metrics": {
+        "width": 551.54,
+        "ascent": 37.781,
+        "descent": 9.407
+      },
+      "layout": {
+        "lines": [
+          "18:30 Make something small"
+        ],
+        "width": 542.31,
+        "ascent": 38,
+        "lineStep": 47.407,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/story/detail-1",
+      "source": "fixture",
+      "text": "Choose a prompt. Follow your curiosity.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 30,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 936,
+        "height": 60
+      },
+      "metrics": {
+        "width": 568.27,
+        "ascent": 29.063,
+        "descent": 7.236
+      },
+      "layout": {
+        "lines": [
+          "Choose a prompt. Follow your curiosity."
+        ],
+        "width": 568.27,
+        "ascent": 29.063,
+        "lineStep": 36.299,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/story/session-2",
+      "source": "fixture",
+      "text": "19:15  Share what surprised you",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 39,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 936,
+        "height": 57
+      },
+      "metrics": {
+        "width": 601.53,
+        "ascent": 37.781,
+        "descent": 9.407
+      },
+      "layout": {
+        "lines": [
+          "19:15 Share what surprised you"
+        ],
+        "width": 592.29,
+        "ascent": 38,
+        "lineStep": 47.407,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/story/detail-2",
+      "source": "fixture",
+      "text": "A five-minute story from every table.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 30,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 936,
+        "height": 60
+      },
+      "metrics": {
+        "width": 527.87,
+        "ascent": 29.063,
+        "descent": 7.236
+      },
+      "layout": {
+        "lines": [
+          "A five-minute story from every table."
+        ],
+        "width": 527.87,
+        "ascent": 29.063,
+        "lineStep": 36.299,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/story/session-3",
+      "source": "fixture",
+      "text": "20:00  A conversation over coffee",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 39,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 936,
+        "height": 57
+      },
+      "metrics": {
+        "width": 648.51,
+        "ascent": 37.781,
+        "descent": 9.407
+      },
+      "layout": {
+        "lines": [
+          "20:00 A conversation over coffee"
+        ],
+        "width": 639.27,
+        "ascent": 38,
+        "lineStep": 47.407,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/story/detail-3",
+      "source": "fixture",
+      "text": "Stay a little longer. Ask another question.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 30,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 936,
+        "height": 60
+      },
+      "metrics": {
+        "width": 585.88,
+        "ascent": 29.063,
+        "descent": 7.236
+      },
+      "layout": {
+        "lines": [
+          "Stay a little longer. Ask another question."
+        ],
+        "width": 585.88,
+        "ascent": 29.063,
+        "lineStep": 36.299,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/story/footer",
+      "source": "fixture",
+      "text": "FREE ENTRY · MATERIALS PROVIDED",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 31,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 936,
+        "height": 74
+      },
+      "metrics": {
+        "width": 558.56,
+        "ascent": 30.031,
+        "descent": 7.478
+      },
+      "layout": {
+        "lines": [
+          "FREE ENTRY · MATERIALS PROVIDED"
+        ],
+        "width": 558.56,
+        "ascent": 30.031,
+        "lineStep": 37.509,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/landscape/headline",
+      "source": "fixture",
+      "text": "Open studio\nWeek 01",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 99.77,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 1779.6,
+        "height": 241.442
+      },
+      "metrics": {
+        "width": 590.56,
+        "ascent": 96.652,
+        "descent": 24.066
+      },
+      "layout": {
+        "lines": [
+          "Open studio",
+          "Week 01"
+        ],
+        "width": 590.56,
+        "ascent": 96.652,
+        "lineStep": 120.718,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/landscape/session-0",
+      "source": "fixture",
+      "text": "18:00  Doors & introductions",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 38.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 898.166,
+        "height": 54.696
+      },
+      "metrics": {
+        "width": 539.16,
+        "ascent": 37.772,
+        "descent": 9.405
+      },
+      "layout": {
+        "lines": [
+          "18:00 Doors & introductions"
+        ],
+        "width": 529.92,
+        "ascent": 38,
+        "lineStep": 47.405,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/landscape/detail-0",
+      "source": "fixture",
+      "text": "Meet the people behind the projects.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 29.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 898.166,
+        "height": 57.575
+      },
+      "metrics": {
+        "width": 526.13,
+        "ascent": 29.053,
+        "descent": 7.234
+      },
+      "layout": {
+        "lines": [
+          "Meet the people behind the projects."
+        ],
+        "width": 526.13,
+        "ascent": 29.053,
+        "lineStep": 36.287,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/landscape/session-1",
+      "source": "fixture",
+      "text": "18:30  Make something small",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 38.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 898.166,
+        "height": 54.696
+      },
+      "metrics": {
+        "width": 551.32,
+        "ascent": 37.772,
+        "descent": 9.405
+      },
+      "layout": {
+        "lines": [
+          "18:30 Make something small"
+        ],
+        "width": 542.09,
+        "ascent": 38,
+        "lineStep": 47.405,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/landscape/detail-1",
+      "source": "fixture",
+      "text": "Choose a prompt. Follow your curiosity.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 29.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 898.166,
+        "height": 57.575
+      },
+      "metrics": {
+        "width": 567.97,
+        "ascent": 29.053,
+        "descent": 7.234
+      },
+      "layout": {
+        "lines": [
+          "Choose a prompt. Follow your curiosity."
+        ],
+        "width": 567.97,
+        "ascent": 29.053,
+        "lineStep": 36.287,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/landscape/session-2",
+      "source": "fixture",
+      "text": "19:15  Share what surprised you",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 38.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 898.166,
+        "height": 54.696
+      },
+      "metrics": {
+        "width": 601.29,
+        "ascent": 37.772,
+        "descent": 9.405
+      },
+      "layout": {
+        "lines": [
+          "19:15 Share what surprised you"
+        ],
+        "width": 592.06,
+        "ascent": 38,
+        "lineStep": 47.405,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/landscape/detail-2",
+      "source": "fixture",
+      "text": "A five-minute story from every table.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 29.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 898.166,
+        "height": 57.575
+      },
+      "metrics": {
+        "width": 527.6,
+        "ascent": 29.053,
+        "descent": 7.234
+      },
+      "layout": {
+        "lines": [
+          "A five-minute story from every table."
+        ],
+        "width": 527.6,
+        "ascent": 29.053,
+        "lineStep": 36.287,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/landscape/session-3",
+      "source": "fixture",
+      "text": "20:00  A conversation over coffee",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 38.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 898.166,
+        "height": 54.696
+      },
+      "metrics": {
+        "width": 648.25,
+        "ascent": 37.772,
+        "descent": 9.405
+      },
+      "layout": {
+        "lines": [
+          "20:00 A conversation over coffee"
+        ],
+        "width": 639.02,
+        "ascent": 38,
+        "lineStep": 47.405,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/landscape/detail-3",
+      "source": "fixture",
+      "text": "Stay a little longer. Ask another question.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 29.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 898.166,
+        "height": 57.575
+      },
+      "metrics": {
+        "width": 585.57,
+        "ascent": 29.053,
+        "descent": 7.234
+      },
+      "layout": {
+        "lines": [
+          "Stay a little longer. Ask another question."
+        ],
+        "width": 585.57,
+        "ascent": 29.053,
+        "lineStep": 36.287,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "dense-program/landscape/footer",
+      "source": "fixture",
+      "text": "FREE ENTRY · MATERIALS PROVIDED",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 37.19,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 1779.6,
+        "height": 71.853
+      },
+      "metrics": {
+        "width": 670.05,
+        "ascent": 36.028,
+        "descent": 8.971
+      },
+      "layout": {
+        "lines": [
+          "FREE ENTRY · MATERIALS PROVIDED"
+        ],
+        "width": 670.05,
+        "ascent": 36.028,
+        "lineStep": 44.998,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "grouped-details/square/headline",
+      "source": "fixture",
+      "text": "A little room\nfor big ideas.",
+      "fontFamily": "Source Serif 4",
+      "fontWeight": 600,
+      "fontSize": 73.8,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 621,
+        "height": 215.1
+      },
+      "metrics": {
+        "width": 459.9,
+        "ascent": 76.457,
+        "descent": 24.723
+      },
+      "layout": {
+        "lines": [
+          "A little room",
+          "for big ideas."
+        ],
+        "width": 459.9,
+        "ascent": 76.457,
+        "lineStep": 101.18,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "grouped-details/square/date",
+      "source": "fixture",
+      "text": "SAT 24 OCT",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 52.2,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 576,
+        "height": 70.2
+      },
+      "metrics": {
+        "width": 308.26,
+        "ascent": 50.569,
+        "descent": 12.591
+      },
+      "layout": {
+        "lines": [
+          "SAT 24 OCT"
+        ],
+        "width": 308.26,
+        "ascent": 50.569,
+        "lineStep": 63.16,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "grouped-details/square/venue",
+      "source": "fixture",
+      "text": "12:00–16:00\nNorth campus workshop",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 32.4,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 576,
+        "height": 100.8
+      },
+      "metrics": {
+        "width": 381.62,
+        "ascent": 31.388,
+        "descent": 7.815
+      },
+      "layout": {
+        "lines": [
+          "12:00–16:00",
+          "North campus workshop"
+        ],
+        "width": 381.62,
+        "ascent": 31.388,
+        "lineStep": 39.203,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "grouped-details/square/cta",
+      "source": "fixture",
+      "text": "RESERVE YOUR WORKBENCH",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 28.8,
+      "lineHeight": 1.14,
+      "align": "center",
+      "box": {
+        "width": 918,
+        "height": 46.8
+      },
+      "metrics": {
+        "width": 418.02,
+        "ascent": 27.9,
+        "descent": 6.947
+      },
+      "layout": {
+        "lines": [
+          "RESERVE YOUR WORKBENCH"
+        ],
+        "width": 418.02,
+        "ascent": 28,
+        "lineStep": 34.947,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "grouped-details/story/headline",
+      "source": "fixture",
+      "text": "A little room\nfor big ideas.",
+      "fontFamily": "Source Serif 4",
+      "fontWeight": 600,
+      "fontSize": 73.8,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 621,
+        "height": 215.1
+      },
+      "metrics": {
+        "width": 459.9,
+        "ascent": 76.457,
+        "descent": 24.723
+      },
+      "layout": {
+        "lines": [
+          "A little room",
+          "for big ideas."
+        ],
+        "width": 459.9,
+        "ascent": 76.457,
+        "lineStep": 101.18,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "grouped-details/story/date",
+      "source": "fixture",
+      "text": "SAT 24 OCT",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 52.2,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 576,
+        "height": 70.2
+      },
+      "metrics": {
+        "width": 308.26,
+        "ascent": 50.569,
+        "descent": 12.591
+      },
+      "layout": {
+        "lines": [
+          "SAT 24 OCT"
+        ],
+        "width": 308.26,
+        "ascent": 50.569,
+        "lineStep": 63.16,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "grouped-details/story/venue",
+      "source": "fixture",
+      "text": "12:00–16:00\nNorth campus workshop",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 32.4,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 576,
+        "height": 100.8
+      },
+      "metrics": {
+        "width": 381.62,
+        "ascent": 31.388,
+        "descent": 7.815
+      },
+      "layout": {
+        "lines": [
+          "12:00–16:00",
+          "North campus workshop"
+        ],
+        "width": 381.62,
+        "ascent": 31.388,
+        "lineStep": 39.203,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "grouped-details/story/cta",
+      "source": "fixture",
+      "text": "RESERVE YOUR WORKBENCH",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 28.8,
+      "lineHeight": 1.14,
+      "align": "center",
+      "box": {
+        "width": 918,
+        "height": 46.8
+      },
+      "metrics": {
+        "width": 418.02,
+        "ascent": 27.9,
+        "descent": 6.947
+      },
+      "layout": {
+        "lines": [
+          "RESERVE YOUR WORKBENCH"
+        ],
+        "width": 418.02,
+        "ascent": 28,
+        "lineStep": 34.947,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "grouped-details/landscape/headline",
+      "source": "fixture",
+      "text": "A little room\nfor big ideas.",
+      "fontFamily": "Source Serif 4",
+      "fontWeight": 600,
+      "fontSize": 98.4,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 828,
+        "height": 286.8
+      },
+      "metrics": {
+        "width": 613.17,
+        "ascent": 101.942,
+        "descent": 32.964
+      },
+      "layout": {
+        "lines": [
+          "A little room",
+          "for big ideas."
+        ],
+        "width": 613.17,
+        "ascent": 101.942,
+        "lineStep": 134.906,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "grouped-details/landscape/date",
+      "source": "fixture",
+      "text": "SAT 24 OCT",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 69.6,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 768,
+        "height": 93.6
+      },
+      "metrics": {
+        "width": 411.07,
+        "ascent": 67.425,
+        "descent": 16.788
+      },
+      "layout": {
+        "lines": [
+          "SAT 24 OCT"
+        ],
+        "width": 411.07,
+        "ascent": 67.425,
+        "lineStep": 84.213,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "grouped-details/landscape/venue",
+      "source": "fixture",
+      "text": "12:00–16:00\nNorth campus workshop",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 43.2,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 768,
+        "height": 134.4
+      },
+      "metrics": {
+        "width": 508.82,
+        "ascent": 41.85,
+        "descent": 10.42
+      },
+      "layout": {
+        "lines": [
+          "12:00–16:00",
+          "North campus workshop"
+        ],
+        "width": 508.82,
+        "ascent": 41.85,
+        "lineStep": 52.27,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "grouped-details/landscape/cta",
+      "source": "fixture",
+      "text": "RESERVE YOUR WORKBENCH",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 38.4,
+      "lineHeight": 1.14,
+      "align": "center",
+      "box": {
+        "width": 1224,
+        "height": 62.4
+      },
+      "metrics": {
+        "width": 557.28,
+        "ascent": 37.2,
+        "descent": 9.263
+      },
+      "layout": {
+        "lines": [
+          "RESERVE YOUR WORKBENCH"
+        ],
+        "width": 557.28,
+        "ascent": 37.2,
+        "lineStep": 46.463,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "intentional-overlap/square/headline",
+      "source": "fixture",
+      "text": "Find your\noutside.",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 78.85,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 657.517,
+        "height": 190.809
+      },
+      "metrics": {
+        "width": 360.69,
+        "ascent": 76.386,
+        "descent": 19.019
+      },
+      "layout": {
+        "lines": [
+          "Find your",
+          "outside."
+        ],
+        "width": 360.69,
+        "ascent": 76.386,
+        "lineStep": 95.405,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "intentional-overlap/square/description",
+      "source": "fixture",
+      "text": "A walk, a sketchbook,\nand a different perspective.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 43.11,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 939.6,
+        "height": 104.315
+      },
+      "metrics": {
+        "width": 567.05,
+        "ascent": 41.763,
+        "descent": 10.399
+      },
+      "layout": {
+        "lines": [
+          "A walk, a sketchbook,",
+          "and a different perspective."
+        ],
+        "width": 567.05,
+        "ascent": 41.763,
+        "lineStep": 52.161,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "intentional-overlap/square/footer",
+      "source": "fixture",
+      "text": "SUNDAY 09:00 · MEET AT THE NORTH GATE",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 35.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 939.6,
+        "height": 55.008
+      },
+      "metrics": {
+        "width": 778.81,
+        "ascent": 34.865,
+        "descent": 8.681
+      },
+      "layout": {
+        "lines": [
+          "SUNDAY 09:00 · MEET AT THE NORTH GATE"
+        ],
+        "width": 778.81,
+        "ascent": 35,
+        "lineStep": 43.681,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "intentional-overlap/story/headline",
+      "source": "fixture",
+      "text": "Find your\noutside.",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 89,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 765,
+        "height": 222
+      },
+      "metrics": {
+        "width": 407.15,
+        "ascent": 86.219,
+        "descent": 21.468
+      },
+      "layout": {
+        "lines": [
+          "Find your",
+          "outside."
+        ],
+        "width": 407.15,
+        "ascent": 86.219,
+        "lineStep": 107.687,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "intentional-overlap/story/description",
+      "source": "fixture",
+      "text": "A walk, a sketchbook,\nand a different perspective.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 43,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 936,
+        "height": 142
+      },
+      "metrics": {
+        "width": 565.61,
+        "ascent": 41.656,
+        "descent": 10.372
+      },
+      "layout": {
+        "lines": [
+          "A walk, a sketchbook,",
+          "and a different perspective."
+        ],
+        "width": 565.61,
+        "ascent": 41.656,
+        "lineStep": 52.028,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "intentional-overlap/story/footer",
+      "source": "fixture",
+      "text": "SUNDAY 09:00 · MEET AT THE NORTH GATE",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 30,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 936,
+        "height": 73
+      },
+      "metrics": {
+        "width": 649.29,
+        "ascent": 29.063,
+        "descent": 7.236
+      },
+      "layout": {
+        "lines": [
+          "SUNDAY 09:00 · MEET AT THE NORTH GATE"
+        ],
+        "width": 649.29,
+        "ascent": 29.063,
+        "lineStep": 36.299,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "intentional-overlap/landscape/headline",
+      "source": "fixture",
+      "text": "Find your\noutside.",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 78.85,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 657.517,
+        "height": 190.809
+      },
+      "metrics": {
+        "width": 360.69,
+        "ascent": 76.386,
+        "descent": 19.019
+      },
+      "layout": {
+        "lines": [
+          "Find your",
+          "outside."
+        ],
+        "width": 360.69,
+        "ascent": 76.386,
+        "lineStep": 95.405,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "intentional-overlap/landscape/description",
+      "source": "fixture",
+      "text": "A walk, a sketchbook,\nand a different perspective.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 43.11,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 1779.6,
+        "height": 104.315
+      },
+      "metrics": {
+        "width": 567.05,
+        "ascent": 41.763,
+        "descent": 10.399
+      },
+      "layout": {
+        "lines": [
+          "A walk, a sketchbook,",
+          "and a different perspective."
+        ],
+        "width": 567.05,
+        "ascent": 41.763,
+        "lineStep": 52.161,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "intentional-overlap/landscape/footer",
+      "source": "fixture",
+      "text": "SUNDAY 09:00 · MEET AT THE NORTH GATE",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 35.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 1779.6,
+        "height": 55.008
+      },
+      "metrics": {
+        "width": 778.81,
+        "ascent": 34.865,
+        "descent": 8.681
+      },
+      "layout": {
+        "lines": [
+          "SUNDAY 09:00 · MEET AT THE NORTH GATE"
+        ],
+        "width": 778.81,
+        "ascent": 35,
+        "lineStep": 43.681,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "layered-art/square/eyebrow",
+      "source": "fixture",
+      "text": "EXPERIMENT / 006",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 30,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 900,
+        "height": 52
+      },
+      "metrics": {
+        "width": 276.52,
+        "ascent": 29.063,
+        "descent": 7.236
+      },
+      "layout": {
+        "lines": [
+          "EXPERIMENT / 006"
+        ],
+        "width": 276.52,
+        "ascent": 29.063,
+        "lineStep": 36.299,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "layered-art/square/headline",
+      "source": "fixture",
+      "text": "Make\nsomething\nunexpected.",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 106,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 940,
+        "height": 415
+      },
+      "metrics": {
+        "width": 649.97,
+        "ascent": 102.688,
+        "descent": 25.568
+      },
+      "layout": {
+        "lines": [
+          "Make",
+          "something",
+          "unexpected."
+        ],
+        "width": 649.97,
+        "ascent": 102.688,
+        "lineStep": 128.256,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "layered-art/square/footer",
+      "source": "fixture",
+      "text": "OPEN LAB · WEDNESDAY · 18:00",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 33,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 940,
+        "height": 92
+      },
+      "metrics": {
+        "width": 523.02,
+        "ascent": 31.969,
+        "descent": 7.96
+      },
+      "layout": {
+        "lines": [
+          "OPEN LAB · WEDNESDAY · 18:00"
+        ],
+        "width": 523.02,
+        "ascent": 31.969,
+        "lineStep": 39.929,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "layered-art/story/eyebrow",
+      "source": "fixture",
+      "text": "EXPERIMENT / 006",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 30,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 900,
+        "height": 52
+      },
+      "metrics": {
+        "width": 276.52,
+        "ascent": 29.063,
+        "descent": 7.236
+      },
+      "layout": {
+        "lines": [
+          "EXPERIMENT / 006"
+        ],
+        "width": 276.52,
+        "ascent": 29.063,
+        "lineStep": 36.299,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "layered-art/story/headline",
+      "source": "fixture",
+      "text": "Make\nsomething\nunexpected.",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 106,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 940,
+        "height": 415
+      },
+      "metrics": {
+        "width": 649.97,
+        "ascent": 102.688,
+        "descent": 25.568
+      },
+      "layout": {
+        "lines": [
+          "Make",
+          "something",
+          "unexpected."
+        ],
+        "width": 649.97,
+        "ascent": 102.688,
+        "lineStep": 128.256,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "layered-art/story/footer",
+      "source": "fixture",
+      "text": "OPEN LAB · WEDNESDAY · 18:00",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 33,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 940,
+        "height": 92
+      },
+      "metrics": {
+        "width": 523.02,
+        "ascent": 31.969,
+        "descent": 7.96
+      },
+      "layout": {
+        "lines": [
+          "OPEN LAB · WEDNESDAY · 18:00"
+        ],
+        "width": 523.02,
+        "ascent": 31.969,
+        "lineStep": 39.929,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "layered-art/landscape/eyebrow",
+      "source": "fixture",
+      "text": "EXPERIMENT / 006",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 30,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 900,
+        "height": 52
+      },
+      "metrics": {
+        "width": 276.52,
+        "ascent": 29.063,
+        "descent": 7.236
+      },
+      "layout": {
+        "lines": [
+          "EXPERIMENT / 006"
+        ],
+        "width": 276.52,
+        "ascent": 29.063,
+        "lineStep": 36.299,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "layered-art/landscape/headline",
+      "source": "fixture",
+      "text": "Make\nsomething\nunexpected.",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 106,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 940,
+        "height": 415
+      },
+      "metrics": {
+        "width": 649.97,
+        "ascent": 102.688,
+        "descent": 25.568
+      },
+      "layout": {
+        "lines": [
+          "Make",
+          "something",
+          "unexpected."
+        ],
+        "width": 649.97,
+        "ascent": 102.688,
+        "lineStep": 128.256,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "layered-art/landscape/footer",
+      "source": "fixture",
+      "text": "OPEN LAB · WEDNESDAY · 18:00",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 33,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 940,
+        "height": 92
+      },
+      "metrics": {
+        "width": 523.02,
+        "ascent": 31.969,
+        "descent": 7.96
+      },
+      "layout": {
+        "lines": [
+          "OPEN LAB · WEDNESDAY · 18:00"
+        ],
+        "width": 523.02,
+        "ascent": 31.969,
+        "lineStep": 39.929,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/square/headline",
+      "source": "fixture",
+      "text": "Made for everyday.",
+      "fontFamily": "Source Serif 4",
+      "fontWeight": 600,
+      "fontSize": 74.25,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 975,
+        "height": 116.25
+      },
+      "metrics": {
+        "width": 680.2,
+        "ascent": 76.923,
+        "descent": 24.874
+      },
+      "layout": {
+        "lines": [
+          "Made for everyday."
+        ],
+        "width": 680.2,
+        "ascent": 76.923,
+        "lineStep": 101.797,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/square/label-0",
+      "source": "fixture",
+      "text": "The market bag",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 23.25,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 300,
+        "height": 42.75
+      },
+      "metrics": {
+        "width": 177.8,
+        "ascent": 22.523,
+        "descent": 5.608
+      },
+      "layout": {
+        "lines": [
+          "The market bag"
+        ],
+        "width": 177.8,
+        "ascent": 23,
+        "lineStep": 28.608,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/square/price-0",
+      "source": "fixture",
+      "text": "$24",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 24.75,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 300,
+        "height": 37.5
+      },
+      "metrics": {
+        "width": 47.1,
+        "ascent": 23.977,
+        "descent": 5.97
+      },
+      "layout": {
+        "lines": [
+          "$24"
+        ],
+        "width": 47.1,
+        "ascent": 24,
+        "lineStep": 29.97,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/square/label-1",
+      "source": "fixture",
+      "text": "The weekend bag",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 23.25,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 300,
+        "height": 42.75
+      },
+      "metrics": {
+        "width": 201.02,
+        "ascent": 22.523,
+        "descent": 5.608
+      },
+      "layout": {
+        "lines": [
+          "The weekend bag"
+        ],
+        "width": 201.02,
+        "ascent": 23,
+        "lineStep": 28.608,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/square/price-1",
+      "source": "fixture",
+      "text": "$32",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 24.75,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 300,
+        "height": 37.5
+      },
+      "metrics": {
+        "width": 46.76,
+        "ascent": 23.977,
+        "descent": 5.97
+      },
+      "layout": {
+        "lines": [
+          "$32"
+        ],
+        "width": 46.76,
+        "ascent": 24,
+        "lineStep": 29.97,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/square/label-2",
+      "source": "fixture",
+      "text": "The everywhere bag",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 23.25,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 300,
+        "height": 42.75
+      },
+      "metrics": {
+        "width": 233.4,
+        "ascent": 22.523,
+        "descent": 5.608
+      },
+      "layout": {
+        "lines": [
+          "The everywhere bag"
+        ],
+        "width": 233.4,
+        "ascent": 23,
+        "lineStep": 28.608,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/square/price-2",
+      "source": "fixture",
+      "text": "$38",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 24.75,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 300,
+        "height": 37.5
+      },
+      "metrics": {
+        "width": 47.08,
+        "ascent": 23.977,
+        "descent": 5.97
+      },
+      "layout": {
+        "lines": [
+          "$38"
+        ],
+        "width": 47.08,
+        "ascent": 24,
+        "lineStep": 29.97,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/square/footer",
+      "source": "fixture",
+      "text": "THOUGHTFULLY MADE. READY TO GO.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 20.25,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 975,
+        "height": 40.5
+      },
+      "metrics": {
+        "width": 384.03,
+        "ascent": 19.617,
+        "descent": 4.885
+      },
+      "layout": {
+        "lines": [
+          "THOUGHTFULLY MADE. READY TO GO."
+        ],
+        "width": 384.03,
+        "ascent": 19.617,
+        "lineStep": 24.502,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/story/headline",
+      "source": "fixture",
+      "text": "Made for everyday.",
+      "fontFamily": "Source Serif 4",
+      "fontWeight": 600,
+      "fontSize": 97.96,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 457.715,
+        "height": 1048.853
+      },
+      "metrics": {
+        "width": 897.35,
+        "ascent": 101.487,
+        "descent": 32.817
+      },
+      "layout": {
+        "lines": [
+          "Made for",
+          "everyday."
+        ],
+        "width": 455.38,
+        "ascent": 101.487,
+        "lineStep": 134.303,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/story/label-0",
+      "source": "fixture",
+      "text": "The market bag",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 30.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 352.883,
+        "height": 50.286
+      },
+      "metrics": {
+        "width": 236.95,
+        "ascent": 30.022,
+        "descent": 7.475
+      },
+      "layout": {
+        "lines": [
+          "The market bag"
+        ],
+        "width": 236.95,
+        "ascent": 30.022,
+        "lineStep": 37.497,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/story/price-0",
+      "source": "fixture",
+      "text": "$24",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 32.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 352.883,
+        "height": 44.11
+      },
+      "metrics": {
+        "width": 62.76,
+        "ascent": 31.959,
+        "descent": 7.958
+      },
+      "layout": {
+        "lines": [
+          "$24"
+        ],
+        "width": 62.76,
+        "ascent": 31.959,
+        "lineStep": 39.917,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/story/label-1",
+      "source": "fixture",
+      "text": "The weekend bag",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 30.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 352.883,
+        "height": 50.286
+      },
+      "metrics": {
+        "width": 267.89,
+        "ascent": 30.022,
+        "descent": 7.475
+      },
+      "layout": {
+        "lines": [
+          "The weekend bag"
+        ],
+        "width": 267.89,
+        "ascent": 30.022,
+        "lineStep": 37.497,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/story/price-1",
+      "source": "fixture",
+      "text": "$32",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 32.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 352.883,
+        "height": 44.11
+      },
+      "metrics": {
+        "width": 62.31,
+        "ascent": 31.959,
+        "descent": 7.958
+      },
+      "layout": {
+        "lines": [
+          "$32"
+        ],
+        "width": 62.31,
+        "ascent": 31.959,
+        "lineStep": 39.917,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/story/label-2",
+      "source": "fixture",
+      "text": "The everywhere bag",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 30.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 352.883,
+        "height": 50.286
+      },
+      "metrics": {
+        "width": 311.04,
+        "ascent": 30.022,
+        "descent": 7.475
+      },
+      "layout": {
+        "lines": [
+          "The everywhere bag"
+        ],
+        "width": 311.04,
+        "ascent": 30.022,
+        "lineStep": 37.497,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/story/price-2",
+      "source": "fixture",
+      "text": "$38",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 32.99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 352.883,
+        "height": 44.11
+      },
+      "metrics": {
+        "width": 62.75,
+        "ascent": 31.959,
+        "descent": 7.958
+      },
+      "layout": {
+        "lines": [
+          "$38"
+        ],
+        "width": 62.75,
+        "ascent": 31.959,
+        "lineStep": 39.917,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/story/footer",
+      "source": "fixture",
+      "text": "THOUGHTFULLY MADE. READY TO GO.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 32.39,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 457.715,
+        "height": 703.747
+      },
+      "metrics": {
+        "width": 613.97,
+        "ascent": 31.378,
+        "descent": 7.813
+      },
+      "layout": {
+        "lines": [
+          "THOUGHTFULLY MADE.",
+          "READY TO GO."
+        ],
+        "width": 377.84,
+        "ascent": 31.378,
+        "lineStep": 39.191,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/landscape/headline",
+      "source": "fixture",
+      "text": "Made for everyday.",
+      "fontFamily": "Source Serif 4",
+      "fontWeight": 600,
+      "fontSize": 99,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 1300,
+        "height": 155
+      },
+      "metrics": {
+        "width": 906.94,
+        "ascent": 102.564,
+        "descent": 33.165
+      },
+      "layout": {
+        "lines": [
+          "Made for everyday."
+        ],
+        "width": 906.94,
+        "ascent": 102.564,
+        "lineStep": 135.729,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/landscape/label-0",
+      "source": "fixture",
+      "text": "The market bag",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 31,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 400,
+        "height": 57
+      },
+      "metrics": {
+        "width": 237.07,
+        "ascent": 30.031,
+        "descent": 7.478
+      },
+      "layout": {
+        "lines": [
+          "The market bag"
+        ],
+        "width": 237.07,
+        "ascent": 30.031,
+        "lineStep": 37.509,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/landscape/price-0",
+      "source": "fixture",
+      "text": "$24",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 33,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 400,
+        "height": 50
+      },
+      "metrics": {
+        "width": 62.79,
+        "ascent": 31.969,
+        "descent": 7.96
+      },
+      "layout": {
+        "lines": [
+          "$24"
+        ],
+        "width": 62.79,
+        "ascent": 31.969,
+        "lineStep": 39.929,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/landscape/label-1",
+      "source": "fixture",
+      "text": "The weekend bag",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 31,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 400,
+        "height": 57
+      },
+      "metrics": {
+        "width": 268.03,
+        "ascent": 30.031,
+        "descent": 7.478
+      },
+      "layout": {
+        "lines": [
+          "The weekend bag"
+        ],
+        "width": 268.03,
+        "ascent": 30.031,
+        "lineStep": 37.509,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/landscape/price-1",
+      "source": "fixture",
+      "text": "$32",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 33,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 400,
+        "height": 50
+      },
+      "metrics": {
+        "width": 62.34,
+        "ascent": 31.969,
+        "descent": 7.96
+      },
+      "layout": {
+        "lines": [
+          "$32"
+        ],
+        "width": 62.34,
+        "ascent": 31.969,
+        "lineStep": 39.929,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/landscape/label-2",
+      "source": "fixture",
+      "text": "The everywhere bag",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 31,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 400,
+        "height": 57
+      },
+      "metrics": {
+        "width": 311.2,
+        "ascent": 30.031,
+        "descent": 7.478
+      },
+      "layout": {
+        "lines": [
+          "The everywhere bag"
+        ],
+        "width": 311.2,
+        "ascent": 30.031,
+        "lineStep": 37.509,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/landscape/price-2",
+      "source": "fixture",
+      "text": "$38",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 33,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 400,
+        "height": 50
+      },
+      "metrics": {
+        "width": 62.78,
+        "ascent": 31.969,
+        "descent": 7.96
+      },
+      "layout": {
+        "lines": [
+          "$38"
+        ],
+        "width": 62.78,
+        "ascent": 31.969,
+        "lineStep": 39.929,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "product-pairs/landscape/footer",
+      "source": "fixture",
+      "text": "THOUGHTFULLY MADE. READY TO GO.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 27,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 1300,
+        "height": 54
+      },
+      "metrics": {
+        "width": 512.04,
+        "ascent": 26.156,
+        "descent": 6.513
+      },
+      "layout": {
+        "lines": [
+          "THOUGHTFULLY MADE. READY TO GO."
+        ],
+        "width": 512.04,
+        "ascent": 26.156,
+        "lineStep": 32.669,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "quiet-brand/square/eyebrow",
+      "source": "fixture",
+      "text": "FIELD NOTES / VOL. 04",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 32.39,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 939.6,
+        "height": 107.548
+      },
+      "metrics": {
+        "width": 362.04,
+        "ascent": 31.378,
+        "descent": 7.813
+      },
+      "layout": {
+        "lines": [
+          "FIELD NOTES / VOL. 04"
+        ],
+        "width": 362.04,
+        "ascent": 31.378,
+        "lineStep": 39.191,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "quiet-brand/square/headline",
+      "source": "fixture",
+      "text": "Less,\nbut better.",
+      "fontFamily": "Source Serif 4",
+      "fontWeight": 600,
+      "fontSize": 133.19,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 939.6,
+        "height": 452.989
+      },
+      "metrics": {
+        "width": 665.67,
+        "ascent": 137.985,
+        "descent": 44.619
+      },
+      "layout": {
+        "lines": [
+          "Less,",
+          "but better."
+        ],
+        "width": 665.67,
+        "ascent": 137.985,
+        "lineStep": 182.604,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "quiet-brand/square/body",
+      "source": "fixture",
+      "text": "A conversation about attention,\ncraft, and choosing what matters.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 40.79,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 939.6,
+        "height": 190.514
+      },
+      "metrics": {
+        "width": 653.91,
+        "ascent": 39.515,
+        "descent": 9.839
+      },
+      "layout": {
+        "lines": [
+          "A conversation about attention,",
+          "craft, and choosing what matters."
+        ],
+        "width": 653.91,
+        "ascent": 40,
+        "lineStep": 49.839,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "quiet-brand/square/footer",
+      "source": "fixture",
+      "text": "OCTOBER 22 · THE READING ROOM",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 33.59,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 939.6,
+        "height": 107.548
+      },
+      "metrics": {
+        "width": 578.14,
+        "ascent": 32.54,
+        "descent": 8.102
+      },
+      "layout": {
+        "lines": [
+          "OCTOBER 22 · THE READING ROOM"
+        ],
+        "width": 578.14,
+        "ascent": 33,
+        "lineStep": 41.102,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "quiet-brand/story/eyebrow",
+      "source": "fixture",
+      "text": "FIELD NOTES / VOL. 04",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 27,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 910,
+        "height": 45
+      },
+      "metrics": {
+        "width": 301.93,
+        "ascent": 26.156,
+        "descent": 6.513
+      },
+      "layout": {
+        "lines": [
+          "FIELD NOTES / VOL. 04"
+        ],
+        "width": 301.93,
+        "ascent": 26.156,
+        "lineStep": 32.669,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "quiet-brand/story/headline",
+      "source": "fixture",
+      "text": "Less,\nbut better.",
+      "fontFamily": "Source Serif 4",
+      "fontWeight": 600,
+      "fontSize": 111,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 920,
+        "height": 310
+      },
+      "metrics": {
+        "width": 554.78,
+        "ascent": 114.996,
+        "descent": 37.185
+      },
+      "layout": {
+        "lines": [
+          "Less,",
+          "but better."
+        ],
+        "width": 554.78,
+        "ascent": 114.996,
+        "lineStep": 152.181,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "quiet-brand/story/body",
+      "source": "fixture",
+      "text": "A conversation about attention,\ncraft, and choosing what matters.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 34,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 875,
+        "height": 124
+      },
+      "metrics": {
+        "width": 545.18,
+        "ascent": 32.938,
+        "descent": 8.201
+      },
+      "layout": {
+        "lines": [
+          "A conversation about attention,",
+          "craft, and choosing what matters."
+        ],
+        "width": 545.18,
+        "ascent": 33,
+        "lineStep": 41.201,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "quiet-brand/story/footer",
+      "source": "fixture",
+      "text": "OCTOBER 22 · THE READING ROOM",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 28,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 915,
+        "height": 66
+      },
+      "metrics": {
+        "width": 482.1,
+        "ascent": 27.125,
+        "descent": 6.754
+      },
+      "layout": {
+        "lines": [
+          "OCTOBER 22 · THE READING ROOM"
+        ],
+        "width": 482.1,
+        "ascent": 28,
+        "lineStep": 34.754,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "quiet-brand/landscape/eyebrow",
+      "source": "fixture",
+      "text": "FIELD NOTES / VOL. 04",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 32.39,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 1779.6,
+        "height": 107.548
+      },
+      "metrics": {
+        "width": 362.04,
+        "ascent": 31.378,
+        "descent": 7.813
+      },
+      "layout": {
+        "lines": [
+          "FIELD NOTES / VOL. 04"
+        ],
+        "width": 362.04,
+        "ascent": 31.378,
+        "lineStep": 39.191,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "quiet-brand/landscape/headline",
+      "source": "fixture",
+      "text": "Less,\nbut better.",
+      "fontFamily": "Source Serif 4",
+      "fontWeight": 600,
+      "fontSize": 133.19,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 1779.6,
+        "height": 452.989
+      },
+      "metrics": {
+        "width": 665.67,
+        "ascent": 137.985,
+        "descent": 44.619
+      },
+      "layout": {
+        "lines": [
+          "Less,",
+          "but better."
+        ],
+        "width": 665.67,
+        "ascent": 137.985,
+        "lineStep": 182.604,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "quiet-brand/landscape/body",
+      "source": "fixture",
+      "text": "A conversation about attention,\ncraft, and choosing what matters.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 40.79,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 1779.6,
+        "height": 190.514
+      },
+      "metrics": {
+        "width": 653.91,
+        "ascent": 39.515,
+        "descent": 9.839
+      },
+      "layout": {
+        "lines": [
+          "A conversation about attention,",
+          "craft, and choosing what matters."
+        ],
+        "width": 653.91,
+        "ascent": 40,
+        "lineStep": 49.839,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "quiet-brand/landscape/footer",
+      "source": "fixture",
+      "text": "OCTOBER 22 · THE READING ROOM",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 33.59,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 1779.6,
+        "height": 107.548
+      },
+      "metrics": {
+        "width": 578.14,
+        "ascent": 32.54,
+        "descent": 8.102
+      },
+      "layout": {
+        "lines": [
+          "OCTOBER 22 · THE READING ROOM"
+        ],
+        "width": 578.14,
+        "ascent": 33,
+        "lineStep": 41.102,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "edge-subject/square/headline",
+      "source": "fixture",
+      "text": "Take the long way.",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 67.2,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 984,
+        "height": 104
+      },
+      "metrics": {
+        "width": 609.57,
+        "ascent": 65.1,
+        "descent": 16.209
+      },
+      "layout": {
+        "lines": [
+          "Take the long way."
+        ],
+        "width": 609.57,
+        "ascent": 65.1,
+        "lineStep": 81.309,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "edge-subject/square/footer",
+      "source": "fixture",
+      "text": "WALKING CLUB · EVERY SATURDAY",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 24.8,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 984,
+        "height": 52
+      },
+      "metrics": {
+        "width": 428.94,
+        "ascent": 24.025,
+        "descent": 5.982
+      },
+      "layout": {
+        "lines": [
+          "WALKING CLUB · EVERY SATURDAY"
+        ],
+        "width": 428.94,
+        "ascent": 24.025,
+        "lineStep": 30.007,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "edge-subject/story/headline",
+      "source": "fixture",
+      "text": "Take the long way.",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 67.2,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 984,
+        "height": 104
+      },
+      "metrics": {
+        "width": 609.57,
+        "ascent": 65.1,
+        "descent": 16.209
+      },
+      "layout": {
+        "lines": [
+          "Take the long way."
+        ],
+        "width": 609.57,
+        "ascent": 65.1,
+        "lineStep": 81.309,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "edge-subject/story/footer",
+      "source": "fixture",
+      "text": "WALKING CLUB · EVERY SATURDAY",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 24.8,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 984,
+        "height": 52
+      },
+      "metrics": {
+        "width": 428.94,
+        "ascent": 24.025,
+        "descent": 5.982
+      },
+      "layout": {
+        "lines": [
+          "WALKING CLUB · EVERY SATURDAY"
+        ],
+        "width": 428.94,
+        "ascent": 24.025,
+        "lineStep": 30.007,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "edge-subject/landscape/headline",
+      "source": "fixture",
+      "text": "Take the long way.",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 84,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 1230,
+        "height": 130
+      },
+      "metrics": {
+        "width": 762.11,
+        "ascent": 81.375,
+        "descent": 20.262
+      },
+      "layout": {
+        "lines": [
+          "Take the long way."
+        ],
+        "width": 762.11,
+        "ascent": 81.375,
+        "lineStep": 101.637,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "edge-subject/landscape/footer",
+      "source": "fixture",
+      "text": "WALKING CLUB · EVERY SATURDAY",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 31,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 1230,
+        "height": 65
+      },
+      "metrics": {
+        "width": 536.25,
+        "ascent": 30.031,
+        "descent": 7.478
+      },
+      "layout": {
+        "lines": [
+          "WALKING CLUB · EVERY SATURDAY"
+        ],
+        "width": 536.25,
+        "ascent": 30.031,
+        "lineStep": 37.509,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "type-pairing/square/eyebrow",
+      "source": "fixture",
+      "text": "THE INDEPENDENT READING SERIES",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 33.59,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 939.6,
+        "height": 70.351
+      },
+      "metrics": {
+        "width": 600.05,
+        "ascent": 32.54,
+        "descent": 8.102
+      },
+      "layout": {
+        "lines": [
+          "THE INDEPENDENT READING SERIES"
+        ],
+        "width": 600.05,
+        "ascent": 33,
+        "lineStep": 41.102,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "type-pairing/square/headline",
+      "source": "fixture",
+      "text": "Words\nworth\nstaying for.",
+      "fontFamily": "Source Serif 4",
+      "fontWeight": 600,
+      "fontSize": 125.63,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 939.6,
+        "height": 516.731
+      },
+      "metrics": {
+        "width": 677.87,
+        "ascent": 130.153,
+        "descent": 42.086
+      },
+      "layout": {
+        "lines": [
+          "Words",
+          "worth",
+          "staying for."
+        ],
+        "width": 677.87,
+        "ascent": 130.153,
+        "lineStep": 172.239,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "type-pairing/square/body",
+      "source": "fixture",
+      "text": "Three writers. An open door.\nAn evening without an agenda.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 49.19,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 939.6,
+        "height": 143.745
+      },
+      "metrics": {
+        "width": 726.4,
+        "ascent": 47.653,
+        "descent": 11.865
+      },
+      "layout": {
+        "lines": [
+          "Three writers. An open door.",
+          "An evening without an agenda."
+        ],
+        "width": 726.4,
+        "ascent": 47.653,
+        "lineStep": 59.518,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "type-pairing/square/footer",
+      "source": "fixture",
+      "text": "TUESDAY 20 OCT · 19:00\nTHE OLD BOOKSHOP",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 40.79,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 939.6,
+        "height": 127.773
+      },
+      "metrics": {
+        "width": 500.27,
+        "ascent": 39.515,
+        "descent": 9.839
+      },
+      "layout": {
+        "lines": [
+          "TUESDAY 20 OCT · 19:00",
+          "THE OLD BOOKSHOP"
+        ],
+        "width": 500.27,
+        "ascent": 40,
+        "lineStep": 49.839,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "type-pairing/story/eyebrow",
+      "source": "fixture",
+      "text": "THE INDEPENDENT READING SERIES",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 28,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 936,
+        "height": 54
+      },
+      "metrics": {
+        "width": 500.36,
+        "ascent": 27.125,
+        "descent": 6.754
+      },
+      "layout": {
+        "lines": [
+          "THE INDEPENDENT READING SERIES"
+        ],
+        "width": 500.36,
+        "ascent": 28,
+        "lineStep": 34.754,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "type-pairing/story/headline",
+      "source": "fixture",
+      "text": "Words\nworth\nstaying for.",
+      "fontFamily": "Source Serif 4",
+      "fontWeight": 600,
+      "fontSize": 132,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 936,
+        "height": 550
+      },
+      "metrics": {
+        "width": 712.27,
+        "ascent": 136.752,
+        "descent": 44.22
+      },
+      "layout": {
+        "lines": [
+          "Words",
+          "worth",
+          "staying for."
+        ],
+        "width": 712.27,
+        "ascent": 136.752,
+        "lineStep": 180.972,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "type-pairing/story/body",
+      "source": "fixture",
+      "text": "Three writers. An open door.\nAn evening without an agenda.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 41,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 936,
+        "height": 153
+      },
+      "metrics": {
+        "width": 605.49,
+        "ascent": 39.719,
+        "descent": 9.89
+      },
+      "layout": {
+        "lines": [
+          "Three writers. An open door.",
+          "An evening without an agenda."
+        ],
+        "width": 605.49,
+        "ascent": 40,
+        "lineStep": 49.89,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "type-pairing/story/footer",
+      "source": "fixture",
+      "text": "TUESDAY 20 OCT · 19:00\nTHE OLD BOOKSHOP",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 34,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 936,
+        "height": 136
+      },
+      "metrics": {
+        "width": 417.08,
+        "ascent": 32.938,
+        "descent": 8.201
+      },
+      "layout": {
+        "lines": [
+          "TUESDAY 20 OCT · 19:00",
+          "THE OLD BOOKSHOP"
+        ],
+        "width": 417.08,
+        "ascent": 33,
+        "lineStep": 41.201,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "type-pairing/landscape/eyebrow",
+      "source": "fixture",
+      "text": "THE INDEPENDENT READING SERIES",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 33.59,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 1779.6,
+        "height": 70.351
+      },
+      "metrics": {
+        "width": 600.05,
+        "ascent": 32.54,
+        "descent": 8.102
+      },
+      "layout": {
+        "lines": [
+          "THE INDEPENDENT READING SERIES"
+        ],
+        "width": 600.05,
+        "ascent": 33,
+        "lineStep": 41.102,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "type-pairing/landscape/headline",
+      "source": "fixture",
+      "text": "Words\nworth\nstaying for.",
+      "fontFamily": "Source Serif 4",
+      "fontWeight": 600,
+      "fontSize": 125.63,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 1779.6,
+        "height": 516.731
+      },
+      "metrics": {
+        "width": 677.87,
+        "ascent": 130.153,
+        "descent": 42.086
+      },
+      "layout": {
+        "lines": [
+          "Words",
+          "worth",
+          "staying for."
+        ],
+        "width": 677.87,
+        "ascent": 130.153,
+        "lineStep": 172.239,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "type-pairing/landscape/body",
+      "source": "fixture",
+      "text": "Three writers. An open door.\nAn evening without an agenda.",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 49.19,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 1779.6,
+        "height": 143.745
+      },
+      "metrics": {
+        "width": 726.4,
+        "ascent": 47.653,
+        "descent": 11.865
+      },
+      "layout": {
+        "lines": [
+          "Three writers. An open door.",
+          "An evening without an agenda."
+        ],
+        "width": 726.4,
+        "ascent": 47.653,
+        "lineStep": 59.518,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "type-pairing/landscape/footer",
+      "source": "fixture",
+      "text": "TUESDAY 20 OCT · 19:00\nTHE OLD BOOKSHOP",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 40.79,
+      "lineHeight": 1.14,
+      "align": null,
+      "box": {
+        "width": 1779.6,
+        "height": 127.773
+      },
+      "metrics": {
+        "width": 500.27,
+        "ascent": 39.515,
+        "descent": 9.839
+      },
+      "layout": {
+        "lines": [
+          "TUESDAY 20 OCT · 19:00",
+          "THE OLD BOOKSHOP"
+        ],
+        "width": 500.27,
+        "ascent": 40,
+        "lineStep": 49.839,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "probe/long-unbroken-word",
+      "source": "probe",
+      "text": "Supercalifragilisticexpialidocious",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 32,
+      "lineHeight": 1.2,
+      "align": null,
+      "box": {
+        "width": 80,
+        "height": 400
+      },
+      "metrics": {
+        "width": 495.44,
+        "ascent": 31,
+        "descent": 7.719
+      },
+      "layout": {
+        "lines": [
+          "Supe",
+          "rcalif",
+          "ragili",
+          "stice",
+          "xpiali",
+          "doci",
+          "ous"
+        ],
+        "width": 78.28,
+        "ascent": 31,
+        "lineStep": 38.719,
+        "emergencyBreaks": 1
+      }
+    },
+    {
+      "id": "probe/explicit-line-breaks",
+      "source": "probe",
+      "text": "Line one\nLine two\nLine three",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 32,
+      "lineHeight": 1.2,
+      "align": null,
+      "box": {
+        "width": 1000,
+        "height": 200
+      },
+      "metrics": {
+        "width": 150.63,
+        "ascent": 31,
+        "descent": 7.719
+      },
+      "layout": {
+        "lines": [
+          "Line one",
+          "Line two",
+          "Line three"
+        ],
+        "width": 150.63,
+        "ascent": 31,
+        "lineStep": 38.719,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "probe/repeated-whitespace",
+      "source": "probe",
+      "text": "Hello    world,   with     gaps",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 32,
+      "lineHeight": 1.2,
+      "align": null,
+      "box": {
+        "width": 1000,
+        "height": 100
+      },
+      "metrics": {
+        "width": 416.44,
+        "ascent": 31,
+        "descent": 7.719
+      },
+      "layout": {
+        "lines": [
+          "Hello world, with gaps"
+        ],
+        "width": 335.44,
+        "ascent": 31,
+        "lineStep": 38.719,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "probe/combining-mark",
+      "source": "probe",
+      "text": "café",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 32,
+      "lineHeight": 1.2,
+      "align": null,
+      "box": {
+        "width": 6,
+        "height": 200
+      },
+      "metrics": {
+        "width": 66.13,
+        "ascent": 31,
+        "descent": 7.719
+      },
+      "layout": {
+        "lines": [
+          "c",
+          "a",
+          "f",
+          "é"
+        ],
+        "width": 18.66,
+        "ascent": 31,
+        "lineStep": 38.719,
+        "emergencyBreaks": 1
+      }
+    },
+    {
+      "id": "probe/emoji-zwj-sequence",
+      "source": "probe",
+      "text": "AAAA👩‍🎨AAAA",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 32,
+      "lineHeight": 1.2,
+      "align": null,
+      "box": {
+        "width": 40,
+        "height": 200
+      },
+      "metrics": {
+        "width": 221.44,
+        "ascent": 31,
+        "descent": 7.719
+      },
+      "layout": {
+        "lines": [
+          "A",
+          "A",
+          "A",
+          "A",
+          "👩‍🎨",
+          "A",
+          "A",
+          "A",
+          "A"
+        ],
+        "width": 42,
+        "ascent": 31,
+        "lineStep": 38.719,
+        "emergencyBreaks": 1
+      }
+    },
+    {
+      "id": "probe/cyrillic-sample",
+      "source": "probe",
+      "text": "Привет, мир",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 32,
+      "lineHeight": 1.2,
+      "align": null,
+      "box": {
+        "width": 400,
+        "height": 100
+      },
+      "metrics": {
+        "width": 195.32,
+        "ascent": 31,
+        "descent": 7.719
+      },
+      "layout": {
+        "lines": [
+          "Привет, мир"
+        ],
+        "width": 195.32,
+        "ascent": 31,
+        "lineStep": 38.719,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "probe/greek-sample",
+      "source": "probe",
+      "text": "Καλημέρα κόσμε",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 32,
+      "lineHeight": 1.2,
+      "align": null,
+      "box": {
+        "width": 400,
+        "height": 100
+      },
+      "metrics": {
+        "width": 258.63,
+        "ascent": 31,
+        "descent": 7.719
+      },
+      "layout": {
+        "lines": [
+          "Καλημέρα κόσμε"
+        ],
+        "width": 258.63,
+        "ascent": 31,
+        "lineStep": 38.719,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "probe/vietnamese-sample",
+      "source": "probe",
+      "text": "Xin chào thế giới",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 32,
+      "lineHeight": 1.2,
+      "align": null,
+      "box": {
+        "width": 400,
+        "height": 100
+      },
+      "metrics": {
+        "width": 252.11,
+        "ascent": 31,
+        "descent": 7.719
+      },
+      "layout": {
+        "lines": [
+          "Xin chào thế giới"
+        ],
+        "width": 252.11,
+        "ascent": 31,
+        "lineStep": 38.719,
+        "emergencyBreaks": 0
+      }
+    },
+    {
+      "id": "probe/arabic-sample",
+      "source": "probe",
+      "text": "مرحبا بالعالم",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 32,
+      "lineHeight": 1.2,
+      "align": null,
+      "box": {
+        "width": 400,
+        "height": 100
+      },
+      "metrics": {
+        "width": 261,
+        "ascent": 31,
+        "descent": 7.719
+      },
+      "layout": {
+        "lines": [
+          "مرحبا بالعالم"
+        ],
+        "width": 261,
+        "ascent": 31,
+        "lineStep": 38.719,
+        "emergencyBreaks": 0
+      }
+    }
+  ]
+}

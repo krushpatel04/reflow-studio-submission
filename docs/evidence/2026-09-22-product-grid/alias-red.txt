@@ -1,0 +1,56 @@
+✔ square products gain readable labels and prices without losing headline hierarchy (72.361875ms)
+✔ four backed product groups can occupy two columns with readable text and legal overlaps (54.514791ms)
+✔ bookend space follows measured wrapping before group space is allocated (106.342792ms)
+✔ grid candidates preserve all source content and rigid geometry: product-pairs (210.596042ms)
+✔ grid candidates preserve all source content and rigid geometry: four-product-shelf (211.281167ms)
+✔ identity and healthy nearby product composition remain stable (167.071375ms)
+✔ ambiguous associations and cross-group overlaps keep the existing conservative alternatives (75.108542ms)
+✔ invalid product input fails before requesting native measurements (0.485ms)
+✖ all returned grid documents own their bookends and do not alias other candidates (45.282583ms)
+✔ impossible bookends retain visible legacy findings and do not create overflowing grids (29.952375ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 9
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1346.88075
+
+✖ failing tests:
+
+test at tests/product-grid.test.ts:115:1
+✖ all returned grid documents own their bookends and do not alias other candidates (45.282583ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  ... Skipped lines
+  
+    {
+      design: {
+        background: '#f5eee3',
+        description: 'Three product and label groups should remain associated across formats.',
+        elements: [
+  ...
+            role: 'content',
+  +         text: 'Changed by a caller',
+  -         text: 'Made for everyday.',
+            type: 'text',
+            width: 939.6,
+            x: 70.2,
+            y: 70.2
+          },
+  
+      at TestContext.<anonymous> (/Users/ojeda/Documents/ChatGPT/Reflow/tests/product-grid.test.ts:121:71)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { strategy: 'group-grid-2', design: { schemaVersion: 'reflow.design.v0', id: 'product-pairs', name: 'Small batch, good things', description: 'Three product and label groups should remain associated across formats.', provenance: 'synthetic', width: 1080, height: 1080, background: '#f5eee3', elements: [Array], groups: [Array] }, metrics: { errors: 0, warnings: 6, minReadingSize: 5.003333333333334, contentCoverage: 0.38201951891264496, findings: [Array] } },
+    expected: { strategy: 'group-grid-2', design: { schemaVersion: 'reflow.design.v0', id: 'product-pairs', name: 'Small batch, good things', description: 'Three product and label groups should remain associated across formats.', provenance: 'synthetic', width: 1080, height: 1080, background: '#f5eee3', elements: [Array], groups: [Array] }, metrics: { errors: 0, warnings: 6, minReadingSize: 5.003333333333334, contentCoverage: 0.38201951891264496, findings: [Array] } },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

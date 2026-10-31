@@ -1,0 +1,13 @@
+# Owner-authorized AI/Astra visual review plan
+
+Frozen before viewing image pixels, 2026-10-11. Checkout: f08a7951a4e6a8b84fcf8589f33d0e4c954c67d5. Scope is evidence-only in this directory.
+
+Problem: source-render correspondence and measured font hashes do not establish visual quality. A bounded AI judgment can locate visible discrepancies without inventing human votes or approving source admission. Risk: confusing source conversion with engine resizing, historical snapshots with current main, or objective color data with display appearance.
+
+Fixed sample: all three previously audited public development original/converted pairs in reports/astra-color-fidelity/inputs/{financial,flowers,inspiring}/{references,renders}.png. Selection follows existing bounded audit inventory, not visual outcomes. No validation or sealed data. This slice evaluates conversion fidelity at original dimensions; it cannot estimate candidate-versus-baseline resize wins.
+
+Rubric, 1–5: 1 unusable/severe failure; 2 major visible defect; 3 usable with material correction; 4 good with minor discrepancy; 5 no material visible defect at inspected scale. Score composition/hierarchy, text/readability, fidelity/assets, crop, color/brand, and artifacts separately. N/A if evidence cannot establish a dimension. Scores are subjective ordinal AI judgments, not calibrated human metrics. Retained source flaws are noted separately from conversion regressions. Any missing/changed content or severe clipping blocks a clean fidelity recommendation regardless of average. No mean score or win rate.
+
+Steps: bind six image hashes and source producer revisions; inspect native image pixels using view_image plus full-image presentation; record direct observations separately from inherited numeric/color findings; map relevant issues' acceptance boundaries; check links, hashes, inventory and unchanged non-owned files. For original/conversion comparison method labels remain visible: this is not randomized or blind, as correct attribution is needed and prior source audit context is already exposed. Future candidate ranking requires a separately frozen blinded pairing.
+
+Acceptance: exactly three pairs accounted; six exact PNG hashes verified against existing input receipt; image paths and producer revisions recorded; all six rubric dimensions scored or explicitly uncertain; conversion issues separated from resizing; human/held-out/current-engine limits explicit; no production or reserved human-evaluation files changed. No code suite is warranted for this document-only review. Existing workflow suffices; no new skill needed.

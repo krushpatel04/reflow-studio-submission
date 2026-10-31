@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "intentional-overlap",
+  "name": "Designed to overlap",
+  "description": "Text intentionally overlays artwork; that overlap should not be scored as a collision.",
+  "provenance": "synthetic",
+  "width": 1920,
+  "height": 1080,
+  "background": "#f7f3e9",
+  "elements": [
+    {
+      "id": "hero",
+      "type": "image",
+      "role": "content",
+      "assetId": "landscape",
+      "x": 576,
+      "y": 52,
+      "width": 768,
+      "height": 676,
+      "fit": "cover",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "groupId": "hero-composition"
+    },
+    {
+      "id": "title-panel",
+      "type": "rect",
+      "role": "content",
+      "x": 606.4,
+      "y": 412,
+      "width": 672,
+      "height": 228.8,
+      "color": "#f7f3e9",
+      "groupId": "hero-composition",
+      "radius": 11.200000000000001
+    },
+    {
+      "id": "headline",
+      "type": "text",
+      "role": "content",
+      "text": "Find your\noutside.",
+      "x": 633.6,
+      "y": 444,
+      "width": 612,
+      "height": 177.60000000000002,
+      "fontSize": 71.2,
+      "color": "#22394b",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "hero-composition"
+    },
+    {
+      "id": "description",
+      "type": "text",
+      "role": "content",
+      "text": "A walk, a sketchbook,\nand a different perspective.",
+      "x": 585.6,
+      "y": 784,
+      "width": 748.8000000000001,
+      "height": 113.60000000000001,
+      "fontSize": 34.4,
+      "color": "#22394b",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "footer",
+      "type": "text",
+      "role": "content",
+      "text": "SUNDAY 09:00 · MEET AT THE NORTH GATE",
+      "x": 585.6,
+      "y": 952,
+      "width": 748.8000000000001,
+      "height": 58.400000000000006,
+      "fontSize": 24,
+      "color": "#22394b",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    }
+  ],
+  "groups": [
+    {
+      "id": "hero-composition",
+      "label": "hero composition"
+    }
+  ]
+}

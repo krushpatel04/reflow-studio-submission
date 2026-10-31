@@ -1,0 +1,30 @@
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/05-reset-dirs-sample.conf", line 6: unknown element "reset-dirs"
+======================================================================
+FAIL: test_medium_copy_and_labels_improve_without_smaller_headline (tests_python.test_campaign_medium.MediumCampaign.test_medium_copy_and_labels_improve_without_smaller_headline) (target=(300, 250))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/review/tests_python/test_campaign_medium.py", line 38, in test_medium_copy_and_labels_improve_without_smaller_headline
+    self.checked(source(), w, h)
+  File "/review/tests_python/test_campaign_medium.py", line 24, in checked
+    checks.CampaignRobustness.clear(self, out)
+  File "/review/tests_python/test_campaign_robustness.py", line 54, in clear
+    self.assertFalse(overlaps(a, b), (a['id'], b['id']))
+AssertionError: True is not false : ('holiday_watermark', 'legal_text')
+
+======================================================================
+FAIL: test_medium_copy_and_labels_improve_without_smaller_headline (tests_python.test_campaign_medium.MediumCampaign.test_medium_copy_and_labels_improve_without_smaller_headline) (target=(301, 251))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/review/tests_python/test_campaign_medium.py", line 38, in test_medium_copy_and_labels_improve_without_smaller_headline
+    self.checked(source(), w, h)
+  File "/review/tests_python/test_campaign_medium.py", line 24, in checked
+    checks.CampaignRobustness.clear(self, out)
+  File "/review/tests_python/test_campaign_robustness.py", line 54, in clear
+    self.assertFalse(overlaps(a, b), (a['id'], b['id']))
+AssertionError: True is not false : ('holiday_watermark', 'legal_text')
+
+----------------------------------------------------------------------
+Ran 1 test in 2.214s
+
+FAILED (failures=2)

@@ -1,0 +1,76 @@
+{
+  "baseline": "d8656f4a37614d3163d65c57f5dcc808e00eb58d",
+  "scope": "preflight-only; RF04 incomplete",
+  "artifacts": [
+    {
+      "path": "scripts/quality/dev_report.py",
+      "bytes": 7765,
+      "sha256": "50a9a0eb1432a0086242e930b91d156e4e6d7c71f21e76ebb64f51b0833362c6"
+    },
+    {
+      "path": "tests_python/test_dev_report.py",
+      "bytes": 8915,
+      "sha256": "e925207114bb39e86ad1830215cfb1800ea19b04ddbe17a28ea22a10f83d2f31"
+    },
+    {
+      "path": "docs/plans/rf-04-2026-10-13.md",
+      "bytes": 4606,
+      "sha256": "7d6e6f22fd319ff2767441f1521b0a36b2bc46274ffef36816a4f5fbe702b70f"
+    },
+    {
+      "path": "docs/evidence/rf-04/README.md",
+      "bytes": 3451,
+      "sha256": "232e228bbe03b6dad188e3b56a715ad4acc3a635b9325fd90471023d9d028083"
+    },
+    {
+      "path": "reports/rf-04/accepted-development-manifest.json",
+      "bytes": 48939,
+      "sha256": "67e8c30f01e004682537f6228d18a70c56bef3ea6177b770b7d3f004254e7356"
+    },
+    {
+      "path": "reports/rf-04/metadata-only-blocked-final.json",
+      "bytes": 95573,
+      "sha256": "be99b4b1d59fcf3cdeaabaa15f402f508898b48cf7cd7056d5311af473e4fd91"
+    },
+    {
+      "path": "reports/rf-04/metadata-only-blocked.json",
+      "bytes": 93326,
+      "sha256": "649664f5b65cde6792758c75fbf2de8e7cd7e1e92fb3f03a10882b3eb3cea9c9"
+    },
+    {
+      "path": "reports/rf-04/npm-build.log",
+      "bytes": 86,
+      "sha256": "f08992aca8ef3b0a1e8fa534e58defaca16c6a933c32e7e29e5dd72cd417c001"
+    },
+    {
+      "path": "reports/rf-04/npm-test.log",
+      "bytes": 85,
+      "sha256": "37f3a557f5af8d0f15aae2fff959a43547e86e107329ad50a83a33324abc58b6"
+    },
+    {
+      "path": "reports/rf-04/preflight-green-final.log",
+      "bytes": 113,
+      "sha256": "bb3ba86f7edc6abec5777860c22a2b60067502dedffb711a1035256ffd07cc9b"
+    },
+    {
+      "path": "reports/rf-04/preflight-green.log",
+      "bytes": 107,
+      "sha256": "900f1973ec5e45a295b2e9a1813cbb47a0ba79319cb93d9eeaef2c28a8e5eec8"
+    },
+    {
+      "path": "reports/rf-04/preflight-red.log",
+      "bytes": 5869,
+      "sha256": "c3cab4a439b0dde0fc5213d9d83d668666f6f0c8ce5b78f438e333aa77e29b81"
+    },
+    {
+      "path": "reports/rf-04/preflight.patch",
+      "bytes": 17358,
+      "sha256": "41c00c9db2dc1609be3c70dce6dee5de8a1e4bad860173bf22b959471db7ab1e"
+    },
+    {
+      "path": "reports/rf-04/target-red.log",
+      "bytes": 650,
+      "sha256": "8284f9d1dc3c6f9d532bebb154109aedd67ebc2586d4fd781c09267ce14e649b"
+    }
+  ]
+}

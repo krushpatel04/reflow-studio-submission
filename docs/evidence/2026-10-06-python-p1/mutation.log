@@ -1,0 +1,75 @@
+.......FFF..F...........
+======================================================================
+FAIL: test_everything_inside_target_when_source_inside (tests_python.test_contract.Layout.test_everything_inside_target_when_source_inside)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 111, in test_everything_inside_target_when_source_inside
+    self.assertGreaterEqual(e["x"], -1e-9); self.assertGreaterEqual(e["y"], -1e-9)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: -173.4 not greater than or equal to -1e-09
+
+======================================================================
+FAIL: test_font_and_scalars_scale_uniformly (tests_python.test_contract.Layout.test_font_and_scalars_scale_uniformly)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 95, in test_font_and_scalars_scale_uniformly
+    self.assertAlmostEqual(o["t"]["font_size"], 20)       # s = 0.5
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 80.0 != 20 within 7 places (60.0 difference)
+
+======================================================================
+FAIL: test_group_moves_as_unit (tests_python.test_contract.Layout.test_group_moves_as_unit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 105, in test_group_moves_as_unit
+    self.assertAlmostEqual(o["b"]["x"] - o["a"]["x"], 100)  # 200 * 0.5
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 600.0 != 100 within 7 places (500.0 difference)
+
+======================================================================
+FAIL: test_uniform_scale_and_centering (tests_python.test_contract.Layout.test_uniform_scale_and_centering)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 86, in test_uniform_scale_and_centering
+    self.assertAlmostEqual(o["x"], 510); self.assertAlmostEqual(o["y"], 10)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 20.0 != 510 within 7 places (490.0 difference)
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.001s
+
+FAILED (failures=4)
+.F......................
+======================================================================
+FAIL: test_input_not_mutated_and_output_not_aliased (tests_python.test_contract.Identity.test_input_not_mutated_and_output_not_aliased)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 51, in test_input_not_mutated_and_output_not_aliased
+    self.assertEqual(json.dumps(s, sort_keys=True), before)
+AssertionError: '{"ca[355 chars]r": "x", "end": 2, "font_weight": "bold", "sta[431 chars]0}]}' != '{"ca[355 chars]r": "rgba(9,9,9,1)", "end": 2, "font_weight": [440 chars]0}]}'
+Diff is 2711 characters long. Set self.maxDiff to None to see it.
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.002s
+
+FAILED (failures=1)
+......F.................
+======================================================================
+FAIL: test_cover_image_covering_canvas_fills_target (tests_python.test_contract.Layout.test_cover_image_covering_canvas_fills_target)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 117, in test_cover_image_covering_canvas_fills_target
+    self.assertEqual((o["x"], o["y"], o["width"], o["height"]), (0, 0, 2000, 500))
+AssertionError: Tuples differ: (750.0, 0.0, 500.0, 500.0) != (0, 0, 2000, 500)
+
+First differing element 0:
+750.0
+0
+
+- (750.0, 0.0, 500.0, 500.0)
++ (0, 0, 2000, 500)
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.001s
+
+FAILED (failures=1)

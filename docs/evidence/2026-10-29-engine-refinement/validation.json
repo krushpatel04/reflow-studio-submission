@@ -1,0 +1,60 @@
+{
+  "source": "126c18668db7817b753383c98ff095ecd25c6226",
+  "files": {
+    "engine/composition.py": "70e0a7893d10cf69fe2b05329b5cf4e41b34e35791a9000632103c2182ee3a4d",
+    "engine/text_fit.py": "649e9db5221d91aa342b8d2936e3dc1fb82ce437857be773bbae7d72fe0058a1",
+    "tests_python/test_campaign_robustness.py": "5ead5da978617aa599c94d9e6531c203054a1fbceacd39db9de6e1c7558631c1",
+    "tests_python/test_search_efficiency.py": "f78876aec655cf9d5c9814d6e312df3909e70ec1f27c9a7ea8caaf5116ced793",
+    "tests_python/test_text_fit.py": "6416201590c6bfec50255d3b5bcd3d7daf62030dba8c9f8654e66cdb49377348"
+  },
+  "python": {
+    "tests": 536,
+    "skipped": 0,
+    "pass": true
+  },
+  "node": {
+    "tests": 741,
+    "skipped": 0,
+    "pass": true
+  },
+  "build": {
+    "pass": true,
+    "warning": "existing workbench chunk exceeds500kB"
+  },
+  "native": {
+    "cases": 30,
+    "pass": true
+  },
+  "benchmark": {
+    "export_sets": 70,
+    "selected_errors": 0,
+    "selected_warnings": 8
+  },
+  "linux_focused": {
+    "tests": 17,
+    "pass": true,
+    "note": "fontTools supplied via read-only test-only mount; first attempt lacked this test dependency. Production dependencies/image unchanged."
+  },
+  "development": {
+    "cases": 21,
+    "real_renders": 21,
+    "fallbacks": 0,
+    "pngs_unchanged": 21
+  },
+  "scope": "Exposed development and local emulated Linux/amd64 evidence, not hidden score or human acceptance.",
+  "qualification": {
+    "pass": true,
+    "source": "126c18668db7817b753383c98ff095ecd25c6226",
+    "source_clean": true,
+    "image": {
+      "id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+      "arch": "amd64",
+      "os": "linux"
+    },
+    "controls": 4,
+    "failure_matrix_cases": 6,
+    "resource_profile_pass": true,
+    "fingerprint_verify_exit": 0
+  },
+  "expanded_smoke_image": "sha256:b5ba3ca804ceafa546f66b636ba165eecb02ffe274a4896eba1ba84f19e5eff1"
+}

@@ -1,0 +1,12 @@
+== baseline
+Ran 75 tests in 0.810s
+OK
+== M1 group containment off (refit also moves grouped labels)
+Ran 75 tests in 0.825s
+FAILED (failures=10)
+== M2 rotation ignored in bounds
+Ran 75 tests in 0.814s
+FAILED (failures=1)
+== M3 floor off (refit never fires)
+Ran 75 tests in 0.036s
+FAILED (failures=9)

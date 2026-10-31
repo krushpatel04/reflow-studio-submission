@@ -1,0 +1,27 @@
+{
+  "scope": "Read-only re-evaluation of historical October15 artifact; NOT a new container measurement",
+  "historical_commit": "3e14604df212b1a6216123fe9f49474699cd50df",
+  "historical_report_sha256": "687cd5acb5e553c63e41b02c4b3ba9f527216dd9aa99b5422b8f1d4b00115ec4",
+  "legacy_report_rejected": [
+    "diagnostic verdict mismatch",
+    "behavioral findings concealed or invented"
+  ],
+  "corrected_interpretation_errors": [],
+  "corrections": [
+    {
+      "family": "missing-assets",
+      "old": "visible-findings",
+      "corrected": "silent-success-unaccepted",
+      "ordinary_stdout": "[task.json] OK in 0.07s -> task_output.json, task_output.png\n",
+      "ordinary_stderr": "Fontconfig warning: \"/usr/share/fontconfig/conf.avail/05-reset-dirs-sample.conf\", line 6: unknown element \"reset-dirs\"\n",
+      "probe_only_findings": [
+        "Missing asset 'solstice_bg_gradient.png' for element 'bg' - rendered a placeholder.",
+        "Missing asset 'solstice_logo_lockup.png' for element 'logo' - rendered a placeholder."
+      ]
+    }
+  ],
+  "dense100_pairs_retained": 3,
+  "dense100_timedout_invocations_retained": 6,
+  "raw_historical_report_unchanged": true,
+  "behavioral_acceptance": false
+}

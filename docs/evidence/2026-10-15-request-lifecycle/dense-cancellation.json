@@ -1,0 +1,25 @@
+{
+  "workload": {
+    "elements": 100,
+    "charactersEach": 1000
+  },
+  "samples": [
+    {
+      "feedbackMs": 1.2000000476837158,
+      "ackMs": 0.19999992847442627,
+      "destroyedMs": 2012.8674589999991
+    },
+    {
+      "feedbackMs": 1.399999976158142,
+      "ackMs": 0.10000002384185791,
+      "destroyedMs": 2004.9091250000001
+    },
+    {
+      "feedbackMs": 0.8999999761581421,
+      "ackMs": 0.19999992847442627,
+      "destroyedMs": 2013.4215409999997
+    }
+  ],
+  "healthyRecoveryMs": 115.57762500000172,
+  "browser": "153.0.8010.12"
+}

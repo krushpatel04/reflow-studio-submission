@@ -1,0 +1,2215 @@
+{
+  "baseline": "3d10c00bb6868c22937c507c910df9defbb09115",
+  "source": "8b0485acd90b0c23d1335c285f63a147117d44fa",
+  "engineHashes": {
+    "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "composition.py": "321325d2b14715b3b99c3dfb2826fa02dc067386312c49ef390e4014934a417f",
+    "resize.py": "d349e6fed0dd2ea0ea3002769c89563dd7ac556bd8bf70b7335d146a856e1460",
+    "text_fit.py": "52ac43248d8f0e7351dab39bfc618456ba4e97c61b91379b066ef27a6e4e7ea3"
+  },
+  "method": "Three alternating fresh-process pairs; each case has one warmup and six timed resizes. Layout only; no renderer or startup timing. Both process CPU and wall time retained.",
+  "summary": [
+    {
+      "name": "chameleon_sample_level1_warmup",
+      "outputSha256": "5553467cf7ae106de6c6502aec567c3f23c5a953d4a43c47a4ef5c98b8f4e23a",
+      "warnings": [],
+      "before": {
+        "wallMs": 0.06647943519055843,
+        "cpuMs": 0.06600000000000356,
+        "pythonFontReads": 0,
+        "nativeGlyphQueries": 0
+      },
+      "after": {
+        "wallMs": 0.07435400038957596,
+        "cpuMs": 0.07349999999999718,
+        "pythonFontReads": 0,
+        "nativeGlyphQueries": 0
+      }
+    },
+    {
+      "name": "chameleon_sample_level2_core",
+      "outputSha256": "6c74bf04d6102e7c5bc6c68d62c647b49ec934ba5fcdaff08ed9cfa93ff427ff",
+      "warnings": [],
+      "before": {
+        "wallMs": 0.7722295122221112,
+        "cpuMs": 0.7714999999999944,
+        "pythonFontReads": 0,
+        "nativeGlyphQueries": 0
+      },
+      "after": {
+        "wallMs": 0.8403335232287645,
+        "cpuMs": 0.8389999999999925,
+        "pythonFontReads": 0,
+        "nativeGlyphQueries": 0
+      }
+    },
+    {
+      "name": "chameleon_sample_level3_advanced",
+      "outputSha256": "77633c5be4f7b15c80ef89fe743fde35317c89d2a4021902bc342e3d6b59f8e1",
+      "warnings": [],
+      "before": {
+        "wallMs": 36.674354458227754,
+        "cpuMs": 36.572500000000005,
+        "pythonFontReads": 157,
+        "nativeGlyphQueries": 157
+      },
+      "after": {
+        "wallMs": 27.503124496433884,
+        "cpuMs": 27.492999999999974,
+        "pythonFontReads": 3,
+        "nativeGlyphQueries": 69
+      }
+    },
+    {
+      "name": "campaign-300x250",
+      "outputSha256": "f2021320c727643bd9c253b3cb6a840e834faaacaf6150feb4dfd6764e1df4c8",
+      "warnings": [],
+      "before": {
+        "wallMs": 172.5316040101461,
+        "cpuMs": 169.77599999999993,
+        "pythonFontReads": 507,
+        "nativeGlyphQueries": 507
+      },
+      "after": {
+        "wallMs": 139.12504148902372,
+        "cpuMs": 139.003,
+        "pythonFontReads": 3,
+        "nativeGlyphQueries": 329
+      }
+    },
+    {
+      "name": "campaign-301x251",
+      "outputSha256": "8d62f9bc920919fba562c37d349cbe6e291fcd2532efa623180933d7d082fe4b",
+      "warnings": [],
+      "before": {
+        "wallMs": 163.17341645481065,
+        "cpuMs": 162.74549999999977,
+        "pythonFontReads": 507,
+        "nativeGlyphQueries": 507
+      },
+      "after": {
+        "wallMs": 152.2912714863196,
+        "cpuMs": 150.87050000000013,
+        "pythonFontReads": 3,
+        "nativeGlyphQueries": 329
+      }
+    },
+    {
+      "name": "campaign-320x250",
+      "outputSha256": "3d48da398d675425f0ae1891a0da4a3446f2192be5398ed85f46e70c5d33f270",
+      "warnings": [],
+      "before": {
+        "wallMs": 171.30566702689976,
+        "cpuMs": 169.4000000000002,
+        "pythonFontReads": 504,
+        "nativeGlyphQueries": 504
+      },
+      "after": {
+        "wallMs": 160.91772948857397,
+        "cpuMs": 159.69600000000008,
+        "pythonFontReads": 3,
+        "nativeGlyphQueries": 329
+      }
+    },
+    {
+      "name": "campaign-250x300",
+      "outputSha256": "bec4c41e2e835b2d913d6089eab427073f6a45d4ceabcc150e211e2b02b4b719",
+      "warnings": [],
+      "before": {
+        "wallMs": 206.62008348153904,
+        "cpuMs": 202.25299999999982,
+        "pythonFontReads": 747,
+        "nativeGlyphQueries": 747
+      },
+      "after": {
+        "wallMs": 186.2786664860323,
+        "cpuMs": 184.53100000000023,
+        "pythonFontReads": 3,
+        "nativeGlyphQueries": 528
+      }
+    },
+    {
+      "name": "campaign-600x500",
+      "outputSha256": "e5aadfd8ce732891ca7f70c4bc4a311abcebae37c2ba4eed4d096e2a53d9ea2e",
+      "warnings": [],
+      "before": {
+        "wallMs": 99.55414547584951,
+        "cpuMs": 97.32549999999972,
+        "pythonFontReads": 309,
+        "nativeGlyphQueries": 309
+      },
+      "after": {
+        "wallMs": 92.96952153090388,
+        "cpuMs": 92.06399999999971,
+        "pythonFontReads": 3,
+        "nativeGlyphQueries": 237
+      }
+    },
+    {
+      "name": "campaign-20x20",
+      "outputSha256": "f3c4429c64b434ec3699dce471976ee1dbda3d62595ce7be7090ea69f11b87bc",
+      "warnings": [
+        "text_fit: no candidate meets the floor for ids headline,subhead,legal_text"
+      ],
+      "before": {
+        "wallMs": 279.5792914694175,
+        "cpuMs": 276.25349999999924,
+        "pythonFontReads": 560,
+        "nativeGlyphQueries": 560
+      },
+      "after": {
+        "wallMs": 200.22566645639017,
+        "cpuMs": 199.7,
+        "pythonFontReads": 3,
+        "nativeGlyphQueries": 62
+      }
+    },
+    {
+      "name": "campaign-1080x1350",
+      "outputSha256": "a06cebf2fc8a86ea66884d6e8b625ae50c097debb247182d6b21ebf73394c5d7",
+      "warnings": [],
+      "before": {
+        "wallMs": 0.2743129152804613,
+        "cpuMs": 0.2735000000004817,
+        "pythonFontReads": 0,
+        "nativeGlyphQueries": 0
+      },
+      "after": {
+        "wallMs": 0.2730209962464869,
+        "cpuMs": 0.2725000000003419,
+        "pythonFontReads": 0,
+        "nativeGlyphQueries": 0
+      }
+    }
+  ],
+  "trials": [
+    {
+      "pair": 0,
+      "label": "before",
+      "rows": [
+        {
+          "name": "chameleon_sample_level1_warmup",
+          "timings": [
+            {
+              "wallMs": 0.09520899038761854,
+              "cpuMs": 0.09400000000001074
+            },
+            {
+              "wallMs": 0.07325003389269114,
+              "cpuMs": 0.07300000000000362
+            },
+            {
+              "wallMs": 0.07083301898092031,
+              "cpuMs": 0.07000000000000062
+            },
+            {
+              "wallMs": 0.06633298471570015,
+              "cpuMs": 0.06499999999999562
+            },
+            {
+              "wallMs": 0.0665419502183795,
+              "cpuMs": 0.06599999999999662
+            },
+            {
+              "wallMs": 0.06612495053559542,
+              "cpuMs": 0.0660000000000105
+            }
+          ],
+          "outputSha256": "5553467cf7ae106de6c6502aec567c3f23c5a953d4a43c47a4ef5c98b8f4e23a",
+          "warnings": [],
+          "pythonFontReads": 0,
+          "nativeGlyphQueries": 0
+        },
+        {
+          "name": "chameleon_sample_level2_core",
+          "timings": [
+            {
+              "wallMs": 0.8859579684212804,
+              "cpuMs": 0.8839999999999959
+            },
+            {
+              "wallMs": 0.7825000211596489,
+              "cpuMs": 0.7820000000000049
+            },
+            {
+              "wallMs": 0.7619590032845736,
+              "cpuMs": 0.7609999999999839
+            },
+            {
+              "wallMs": 0.6976670119911432,
+              "cpuMs": 0.6970000000000032
+            },
+            {
+              "wallMs": 0.691374996677041,
+              "cpuMs": 0.6909999999999972
+            },
+            {
+              "wallMs": 0.6988749373704195,
+              "cpuMs": 0.6979999999999764
+            }
+          ],
+          "outputSha256": "6c74bf04d6102e7c5bc6c68d62c647b49ec934ba5fcdaff08ed9cfa93ff427ff",
+          "warnings": [],
+          "pythonFontReads": 0,
+          "nativeGlyphQueries": 0
+        },
+        {
+          "name": "chameleon_sample_level3_advanced",
+          "timings": [
+            {
+              "wallMs": 34.150667022913694,
+              "cpuMs": 33.960000000000015
+            },
+            {
+              "wallMs": 34.00170907843858,
+              "cpuMs": 33.91699999999997
+            },
+            {
+              "wallMs": 40.88520898949355,
+              "cpuMs": 36.78999999999999
+            },
+            {
+              "wallMs": 36.645582993514836,
+              "cpuMs": 36.50700000000001
+            },
+            {
+              "wallMs": 36.71304101590067,
+              "cpuMs": 36.246
+            },
+            {
+              "wallMs": 49.67141605447978,
+              "cpuMs": 41.97700000000004
+            }
+          ],
+          "outputSha256": "77633c5be4f7b15c80ef89fe743fde35317c89d2a4021902bc342e3d6b59f8e1",
+          "warnings": [],
+          "pythonFontReads": 157,
+          "nativeGlyphQueries": 157
+        },
+        {
+          "name": "campaign-300x250",
+          "timings": [
+            {
+              "wallMs": 173.673624987714,
+              "cpuMs": 171.37199999999996
+            },
+            {
+              "wallMs": 175.81362498458475,
+              "cpuMs": 171.66000000000003
+            },
+            {
+              "wallMs": 168.6625420115888,
+              "cpuMs": 166.62200000000004
+            },
+            {
+              "wallMs": 173.34300000220537,
+              "cpuMs": 170.87699999999995
+            },
+            {
+              "wallMs": 168.6377909500152,
+              "cpuMs": 165.36299999999991
+            },
+            {
+              "wallMs": 171.72020801808685,
+              "cpuMs": 168.6749999999999
+            }
+          ],
+          "outputSha256": "f2021320c727643bd9c253b3cb6a840e834faaacaf6150feb4dfd6764e1df4c8",
+          "warnings": [],
+          "pythonFontReads": 507,
+          "nativeGlyphQueries": 507
+        },
+        {
+          "name": "campaign-301x251",
+          "timings": [
+            {
+              "wallMs": 167.09229198750108,
+              "cpuMs": 165.75000000000006
+            },
+            {
+              "wallMs": 176.29645799752325,
+              "cpuMs": 174.7329999999998
+            },
+            {
+              "wallMs": 168.17866696510464,
+              "cpuMs": 167.88399999999993
+            },
+            {
+              "wallMs": 173.8734160317108,
+              "cpuMs": 170.86200000000008
+            },
+            {
+              "wallMs": 166.98524996172637,
+              "cpuMs": 166.86299999999977
+            },
+            {
+              "wallMs": 168.18966704886407,
+              "cpuMs": 167.84500000000025
+            }
+          ],
+          "outputSha256": "8d62f9bc920919fba562c37d349cbe6e291fcd2532efa623180933d7d082fe4b",
+          "warnings": [],
+          "pythonFontReads": 507,
+          "nativeGlyphQueries": 507
+        },
+        {
+          "name": "campaign-320x250",
+          "timings": [
+            {
+              "wallMs": 159.83649995177984,
+              "cpuMs": 158.655
+            },
+            {
+              "wallMs": 173.6375419422984,
+              "cpuMs": 170.55100000000013
+            },
+            {
+              "wallMs": 168.0900000501424,
+              "cpuMs": 164.37100000000004
+            },
+            {
+              "wallMs": 164.24658300820738,
+              "cpuMs": 160.09800000000007
+            },
+            {
+              "wallMs": 158.21437491104007,
+              "cpuMs": 158.05700000000033
+            },
+            {
+              "wallMs": 169.74462498910725,
+              "cpuMs": 169.41700000000014
+            }
+          ],
+          "outputSha256": "3d48da398d675425f0ae1891a0da4a3446f2192be5398ed85f46e70c5d33f270",
+          "warnings": [],
+          "pythonFontReads": 504,
+          "nativeGlyphQueries": 504
+        },
+        {
+          "name": "campaign-250x300",
+          "timings": [
+            {
+              "wallMs": 212.9807920427993,
+              "cpuMs": 210.37199999999956
+            },
+            {
+              "wallMs": 228.96133305039257,
+              "cpuMs": 221.71300000000028
+            },
+            {
+              "wallMs": 209.05041601508856,
+              "cpuMs": 207.8899999999999
+            },
+            {
+              "wallMs": 202.90779205970466,
+              "cpuMs": 202.27399999999918
+            },
+            {
+              "wallMs": 201.00095798261464,
+              "cpuMs": 200.2329999999999
+            },
+            {
+              "wallMs": 204.89399996586144,
+              "cpuMs": 201.65000000000077
+            }
+          ],
+          "outputSha256": "bec4c41e2e835b2d913d6089eab427073f6a45d4ceabcc150e211e2b02b4b719",
+          "warnings": [],
+          "pythonFontReads": 747,
+          "nativeGlyphQueries": 747
+        },
+        {
+          "name": "campaign-600x500",
+          "timings": [
+            {
+              "wallMs": 100.34283297136426,
+              "cpuMs": 100.04399999999958
+            },
+            {
+              "wallMs": 105.764374951832,
+              "cpuMs": 101.59700000000083
+            },
+            {
+              "wallMs": 103.00079209264368,
+              "cpuMs": 102.26799999999957
+            },
+            {
+              "wallMs": 99.09833304118365,
+              "cpuMs": 98.97399999999922
+            },
+            {
+              "wallMs": 101.78479203023016,
+              "cpuMs": 101.43499999999949
+            },
+            {
+              "wallMs": 102.19325008802116,
+              "cpuMs": 98.3300000000007
+            }
+          ],
+          "outputSha256": "e5aadfd8ce732891ca7f70c4bc4a311abcebae37c2ba4eed4d096e2a53d9ea2e",
+          "warnings": [],
+          "pythonFontReads": 309,
+          "nativeGlyphQueries": 309
+        },
+        {
+          "name": "campaign-20x20",
+          "timings": [
+            {
+              "wallMs": 320.39233308751136,
+              "cpuMs": 303.87299999999937
+            },
+            {
+              "wallMs": 280.8409580029547,
+              "cpuMs": 276.1089999999999
+            },
+            {
+              "wallMs": 254.43520909175277,
+              "cpuMs": 254.27100000000104
+            },
+            {
+              "wallMs": 278.3119169762358,
+              "cpuMs": 273.5690000000002
+            },
+            {
+              "wallMs": 301.8267910229042,
+              "cpuMs": 294.6440000000017
+            },
+            {
+              "wallMs": 278.3176249358803,
+              "cpuMs": 276.3979999999986
+            }
+          ],
+          "outputSha256": "f3c4429c64b434ec3699dce471976ee1dbda3d62595ce7be7090ea69f11b87bc",
+          "warnings": [
+            "text_fit: no candidate meets the floor for ids headline,subhead,legal_text"
+          ],
+          "pythonFontReads": 560,
+          "nativeGlyphQueries": 560
+        },
+        {
+          "name": "campaign-1080x1350",
+          "timings": [
+            {
+              "wallMs": 0.2772919833660126,
+              "cpuMs": 0.27599999999949887
+            },
+            {
+              "wallMs": 0.27595891151577234,
+              "cpuMs": 0.27500000000024727
+            },
+            {
+              "wallMs": 0.2714169677346945,
+              "cpuMs": 0.2699999999986602
+            },
+            {
+              "wallMs": 0.2714999718591571,
+              "cpuMs": 0.2710000000014645
+            },
+            {
+              "wallMs": 0.27170893736183643,
+              "cpuMs": 0.27199999999893976
+            },
+            {
+              "wallMs": 0.2666250802576542,
+              "cpuMs": 0.26599999999987745
+            }
+          ],
+          "outputSha256": "a06cebf2fc8a86ea66884d6e8b625ae50c097debb247182d6b21ebf73394c5d7",
+          "warnings": [],
+          "pythonFontReads": 0,
+          "nativeGlyphQueries": 0
+        }
+      ]
+    },
+    {
+      "pair": 0,
+      "label": "after",
+      "rows": [
+        {
+          "name": "chameleon_sample_level1_warmup",
+          "timings": [
+            {
+              "wallMs": 0.08258293382823467,
+              "cpuMs": 0.08100000000001162
+            },
+            {
+              "wallMs": 0.06987503729760647,
+              "cpuMs": 0.06899999999999962
+            },
+            {
+              "wallMs": 0.06995804142206907,
+              "cpuMs": 0.07000000000000062
+            },
+            {
+              "wallMs": 0.065416912548244,
+              "cpuMs": 0.06499999999999562
+            },
+            {
+              "wallMs": 0.06337498780339956,
+              "cpuMs": 0.06299999999999362
+            },
+            {
+              "wallMs": 0.06145890802145004,
+              "cpuMs": 0.061000000000005494
+            }
+          ],
+          "outputSha256": "5553467cf7ae106de6c6502aec567c3f23c5a953d4a43c47a4ef5c98b8f4e23a",
+          "warnings": [],
+          "pythonFontReads": 0,
+          "nativeGlyphQueries": 0
+        },
+        {
+          "name": "chameleon_sample_level2_core",
+          "timings": [
+            {
+              "wallMs": 0.8205000776797533,
+              "cpuMs": 0.8189999999999864
+            },
+            {
+              "wallMs": 0.7247499888762832,
+              "cpuMs": 0.7240000000000024
+            },
+            {
+              "wallMs": 0.711292028427124,
+              "cpuMs": 0.7109999999999894
+            },
+            {
+              "wallMs": 0.6947499932721257,
+              "cpuMs": 0.6940000000000002
+            },
+            {
+              "wallMs": 0.6839169654995203,
+              "cpuMs": 0.6829999999999892
+            },
+            {
+              "wallMs": 0.6799999391660094,
+              "cpuMs": 0.6789999999999852
+            }
+          ],
+          "outputSha256": "6c74bf04d6102e7c5bc6c68d62c647b49ec934ba5fcdaff08ed9cfa93ff427ff",
+          "warnings": [],
+          "pythonFontReads": 0,
+          "nativeGlyphQueries": 0
+        },
+        {
+          "name": "chameleon_sample_level3_advanced",
+          "timings": [
+            {
+              "wallMs": 25.005250005051494,
+              "cpuMs": 24.966999999999988
+            },
+            {
+              "wallMs": 24.784166947938502,
+              "cpuMs": 24.757
+            },
+            {
+              "wallMs": 24.74441600497812,
+              "cpuMs": 24.640999999999995
+            },
+            {
+              "wallMs": 24.571375106461346,
+              "cpuMs": 24.509000000000004
+            },
+            {
+              "wallMs": 24.97408294584602,
+              "cpuMs": 24.910000000000043
+            },
+            {
+              "wallMs": 24.907417013309896,
+              "cpuMs": 24.82200000000001
+            }
+          ],
+          "outputSha256": "77633c5be4f7b15c80ef89fe743fde35317c89d2a4021902bc342e3d6b59f8e1",
+          "warnings": [],
+          "pythonFontReads": 3,
+          "nativeGlyphQueries": 69
+        },
+        {
+          "name": "campaign-300x250",
+          "timings": [
+            {
+              "wallMs": 124.0865410072729,
+              "cpuMs": 123.99000000000004
+            },
+            {
+              "wallMs": 129.9063750775531,
+              "cpuMs": 129.61900000000003
+            },
+            {
+              "wallMs": 128.20775003638119,
+              "cpuMs": 128.07100000000005
+            },
+            {
+              "wallMs": 131.52862491551787,
+              "cpuMs": 131.42700000000008
+            },
+            {
+              "wallMs": 133.52445897180587,
+              "cpuMs": 133.41999999999987
+            },
+            {
+              "wallMs": 136.30054204259068,
+              "cpuMs": 136.1079999999999
+            }
+          ],
+          "outputSha256": "f2021320c727643bd9c253b3cb6a840e834faaacaf6150feb4dfd6764e1df4c8",
+          "warnings": [],
+          "pythonFontReads": 3,
+          "nativeGlyphQueries": 329
+        },
+        {
+          "name": "campaign-301x251",
+          "timings": [
+            {
+              "wallMs": 135.95195789821446,
+              "cpuMs": 135.71099999999993
+            },
+            {
+              "wallMs": 216.64466708898544,
+              "cpuMs": 172.59500000000006
+            },
+            {
+              "wallMs": 161.63395799230784,
+              "cpuMs": 159.06200000000004
+            },
+            {
+              "wallMs": 158.8103329995647,
+              "cpuMs": 157.05299999999988
+            },
+            {
+              "wallMs": 151.20533399749547,
+              "cpuMs": 150.27800000000013
+            },
+            {
+              "wallMs": 141.5532500250265,
+              "cpuMs": 141.49000000000012
+            }
+          ],
+          "outputSha256": "8d62f9bc920919fba562c37d349cbe6e291fcd2532efa623180933d7d082fe4b",
+          "warnings": [],
+          "pythonFontReads": 3,
+          "nativeGlyphQueries": 329
+        },
+        {
+          "name": "campaign-320x250",
+          "timings": [
+            {
+              "wallMs": 138.05579103063792,
+              "cpuMs": 137.90799999999993
+            },
+            {
+              "wallMs": 139.23470804002136,
+              "cpuMs": 139.09199999999976
+            },
+            {
+              "wallMs": 139.27529100328684,
+              "cpuMs": 139.04999999999967
+            },
+            {
+              "wallMs": 151.28845802973956,
+              "cpuMs": 149.10900000000015
+            },
+            {
+              "wallMs": 156.14091604948044,
+              "cpuMs": 154.2340000000002
+            },
+            {
+              "wallMs": 171.6819170396775,
+              "cpuMs": 166.1349999999997
+            }
+          ],
+          "outputSha256": "3d48da398d675425f0ae1891a0da4a3446f2192be5398ed85f46e70c5d33f270",
+          "warnings": [],
+          "pythonFontReads": 3,
+          "nativeGlyphQueries": 329
+        },
+        {
+          "name": "campaign-250x300",
+          "timings": [
+            {
+              "wallMs": 182.53704207018018,
+              "cpuMs": 181.65500000000011
+            },
+            {
+              "wallMs": 191.06170895975083,
+              "cpuMs": 188.83699999999948
+            },
+            {
+              "wallMs": 178.32104093395174,
+              "cpuMs": 177.08100000000027
+            },
+            {
+              "wallMs": 176.29591701552272,
+              "cpuMs": 174.52299999999977
+            },
+            {
+              "wallMs": 174.24987500999123,
+              "cpuMs": 172.10199999999975
+            },
+            {
+              "wallMs": 186.52141699567437,
+              "cpuMs": 184.47600000000008
+            }
+          ],
+          "outputSha256": "bec4c41e2e835b2d913d6089eab427073f6a45d4ceabcc150e211e2b02b4b719",
+          "warnings": [],
+          "pythonFontReads": 3,
+          "nativeGlyphQueries": 528
+        },
+        {
+          "name": "campaign-600x500",
+          "timings": [
+            {
+              "wallMs": 81.09008392784745,
+              "cpuMs": 81.048
+            },
+            {
+              "wallMs": 87.47170795686543,
+              "cpuMs": 87.37999999999957
+            },
+            {
+              "wallMs": 93.40245905332267,
+              "cpuMs": 89.10100000000031
+            },
+            {
+              "wallMs": 87.05887501128018,
+              "cpuMs": 86.83399999999963
+            },
+            {
+              "wallMs": 86.24674996826798,
+              "cpuMs": 86.19799999999955
+            },
+            {
+              "wallMs": 81.64912497159094,
+              "cpuMs": 81.5709999999994
+            }
+          ],
+          "outputSha256": "e5aadfd8ce732891ca7f70c4bc4a311abcebae37c2ba4eed4d096e2a53d9ea2e",
+          "warnings": [],
+          "pythonFontReads": 3,
+          "nativeGlyphQueries": 237
+        },
+        {
+          "name": "campaign-20x20",
+          "timings": [
+            {
+              "wallMs": 190.89025002904236,
+              "cpuMs": 190.66200000000055
+            },
+            {
+              "wallMs": 187.49483302235603,
+              "cpuMs": 187.411
+            },
+            {
+              "wallMs": 188.0771249998361,
+              "cpuMs": 187.75100000000043
+            },
+            {
+              "wallMs": 182.00683302711695,
+              "cpuMs": 181.92800000000008
+            },
+            {
+              "wallMs": 184.27604099269956,
+              "cpuMs": 184.18000000000046
+            },
+            {
+              "wallMs": 194.1615000832826,
+              "cpuMs": 192.7709999999996
+            }
+          ],
+          "outputSha256": "f3c4429c64b434ec3699dce471976ee1dbda3d62595ce7be7090ea69f11b87bc",
+          "warnings": [
+            "text_fit: no candidate meets the floor for ids headline,subhead,legal_text"
+          ],
+          "pythonFontReads": 3,
+          "nativeGlyphQueries": 62
+        },
+        {
+          "name": "campaign-1080x1350",
+          "timings": [
+            {
+              "wallMs": 0.2805000403895974,
+              "cpuMs": 0.280000000000058
+            },
+            {
+              "wallMs": 0.2703749341890216,
+              "cpuMs": 0.27000000000043656
+            },
+            {
+              "wallMs": 0.2756670583039522,
+              "cpuMs": 0.27500000000024727
+            },
+            {
+              "wallMs": 0.26754196733236313,
+              "cpuMs": 0.268000000000157
+            },
+            {
+              "wallMs": 0.2662499900907278,
+              "cpuMs": 0.26500000000062585
+            },
+            {
+              "wallMs": 0.2652909606695175,
+              "cpuMs": 0.2639999999995979
+            }
+          ],
+          "outputSha256": "a06cebf2fc8a86ea66884d6e8b625ae50c097debb247182d6b21ebf73394c5d7",
+          "warnings": [],
+          "pythonFontReads": 0,
+          "nativeGlyphQueries": 0
+        }
+      ]
+    },
+    {
+      "pair": 1,
+      "label": "after",
+      "rows": [
+        {
+          "name": "chameleon_sample_level1_warmup",
+          "timings": [
+            {
+              "wallMs": 0.08841603994369507,
+              "cpuMs": 0.08800000000000474
+            },
+            {
+              "wallMs": 0.07566704880446196,
+              "cpuMs": 0.07500000000000562
+            },
+            {
+              "wallMs": 0.07304095197468996,
+              "cpuMs": 0.07199999999998874
+            },
+            {
+              "wallMs": 0.07025001104921103,
+              "cpuMs": 0.07000000000000062
+            },
+            {
+              "wallMs": 0.06891600787639618,
+              "cpuMs": 0.06799999999999862
+            },
+            {
+              "wallMs": 0.06666698027402163,
+              "cpuMs": 0.06599999999999662
+            }
+          ],
+          "outputSha256": "5553467cf7ae106de6c6502aec567c3f23c5a953d4a43c47a4ef5c98b8f4e23a",
+          "warnings": [],
+          "pythonFontReads": 0,
+          "nativeGlyphQueries": 0
+        },
+        {
+          "name": "chameleon_sample_level2_core",
+          "timings": [
+            {
+              "wallMs": 0.9293339680880308,
+              "cpuMs": 0.9280000000000121
+            },
+            {
+              "wallMs": 0.8132089860737324,
+              "cpuMs": 0.8110000000000062
+            },
+            {
+              "wallMs": 0.7979579968377948,
+              "cpuMs": 0.794000000000003
+            },
+            {
+              "wallMs": 0.9397079702466726,
+              "cpuMs": 0.9310000000000013
+            },
+            {
+              "wallMs": 0.8601669687777758,
+              "cpuMs": 0.8589999999999987
+            },
+            {
+              "wallMs": 0.8130830246955156,
+              "cpuMs": 0.8120000000000072
+            }
+          ],
+          "outputSha256": "6c74bf04d6102e7c5bc6c68d62c647b49ec934ba5fcdaff08ed9cfa93ff427ff",
+          "warnings": [],
+          "pythonFontReads": 0,
+          "nativeGlyphQueries": 0
+        },
+        {
+          "name": "chameleon_sample_level3_advanced",
+          "timings": [
+            {
+              "wallMs": 28.45670806709677,
+              "cpuMs": 28.435000000000016
+            },
+            {
+              "wallMs": 27.46270806528628,
+              "cpuMs": 27.450000000000003
+            },
+            {
+              "wallMs": 26.812540949322283,
+              "cpuMs": 26.777999999999995
+            },
+            {
+              "wallMs": 28.122292016632855,
+              "cpuMs": 28.067999999999984
+            },
+            {
+              "wallMs": 27.54354092758149,
+              "cpuMs": 27.535999999999948
+            },
+            {
+              "wallMs": 26.923042023554444,
+              "cpuMs": 26.880000000000017
+            }
+          ],
+          "outputSha256": "77633c5be4f7b15c80ef89fe743fde35317c89d2a4021902bc342e3d6b59f8e1",
+          "warnings": [],
+          "pythonFontReads": 3,
+          "nativeGlyphQueries": 69
+        },
+        {
+          "name": "campaign-300x250",
+          "timings": [
+            {
+              "wallMs": 139.39258293248713,
+              "cpuMs": 139.19599999999994
+            },
+            {
+              "wallMs": 139.82920802664012,
+              "cpuMs": 139.59600000000006
+            },
+            {
+              "wallMs": 140.0577500462532,
+              "cpuMs": 139.85199999999998
+            },
+            {
+              "wallMs": 138.8575000455603,
+              "cpuMs": 138.81
+            },
+            {
+              "wallMs": 135.95370796974748,
+              "cpuMs": 135.61100000000016
+            },
+            {
+              "wallMs": 132.9473340883851,
+              "cpuMs": 132.90599999999998
+            }
+          ],
+          "outputSha256": "f2021320c727643bd9c253b3cb6a840e834faaacaf6150feb4dfd6764e1df4c8",
+          "warnings": [],
+          "pythonFontReads": 3,
+          "nativeGlyphQueries": 329
+        },
+        {
+          "name": "campaign-301x251",
+          "timings": [
+            {
+              "wallMs": 139.56820906605572,
+              "cpuMs": 139.38899999999998
+            },
+            {
+              "wallMs": 138.53004097472876,
+              "cpuMs": 138.35799999999998
+            },
+            {
+              "wallMs": 138.34349997341633,
+              "cpuMs": 138.11299999999994
+            },
+            {
+              "wallMs": 139.01287503540516,
+              "cpuMs": 138.8269999999996
+            },
+            {
+              "wallMs": 135.33600000664592,
+              "cpuMs": 134.8720000000001
+            },
+            {
+              "wallMs": 158.78470905590802,
+              "cpuMs": 152.41500000000042
+            }
+          ],
+          "outputSha256": "8d62f9bc920919fba562c37d349cbe6e291fcd2532efa623180933d7d082fe4b",
+          "warnings": [],
+          "pythonFontReads": 3,
+          "nativeGlyphQueries": 329
+        },
+        {
+          "name": "campaign-320x250",
+          "timings": [
+            {
+              "wallMs": 167.26150002796203,
+              "cpuMs": 165.93800000000013
+            },
+            {
+              "wallMs": 161.03283397387713,
+              "cpuMs": 159.70700000000005
+            },
+            {
+              "wallMs": 165.48941703513265,
+              "cpuMs": 162.52299999999974
+            },
+            {
+              "wallMs": 158.77933299634606,
+              "cpuMs": 157.3739999999999
+            },
+            {
+              "wallMs": 156.86149999964982,
+              "cpuMs": 155.97400000000005
+            },
+            {
+              "wallMs": 160.8026250032708,
+              "cpuMs": 159.6850000000001
+            }
+          ],
+          "outputSha256": "3d48da398d675425f0ae1891a0da4a3446f2192be5398ed85f46e70c5d33f270",
+          "warnings": [],
+          "pythonFontReads": 3,
+          "nativeGlyphQueries": 329
+        },
+        {
+          "name": "campaign-250x300",
+          "timings": [
+            {
+              "wallMs": 245.42229203507304,
+              "cpuMs": 232.8979999999996
+            },
+            {
+              "wallMs": 300.7558329263702,
+              "cpuMs": 275.4950000000003
+            },
+            {
+              "wallMs": 259.8365420708433,
+              "cpuMs": 252.54699999999985
+            },
+            {
+              "wallMs": 233.3656660048291,
+              "cpuMs": 223.80099999999993
+            },
+            {
+              "wallMs": 202.783124987036,
+              "cpuMs": 199.50500000000028
+            },
+            {
+              "wallMs": 203.49066599737853,
+              "cpuMs": 201.83899999999966
+            }
+          ],
+          "outputSha256": "bec4c41e2e835b2d913d6089eab427073f6a45d4ceabcc150e211e2b02b4b719",
+          "warnings": [],
+          "pythonFontReads": 3,
+          "nativeGlyphQueries": 528
+        },
+        {
+          "name": "campaign-600x500",
+          "timings": [
+            {
+              "wallMs": 112.0404580142349,
+              "cpuMs": 102.34499999999969
+            },
+            {
+              "wallMs": 95.52199998870492,
+              "cpuMs": 95.26600000000052
+            },
+            {
+              "wallMs": 96.06912499293685,
+              "cpuMs": 95.62199999999964
+            },
+            {
+              "wallMs": 92.12449996266514,
+              "cpuMs": 92.08699999999936
+            },
+            {
+              "wallMs": 89.5054170396179,
+              "cpuMs": 89.44900000000011
+            },
+            {
+              "wallMs": 86.79362491238862,
+              "cpuMs": 86.56000000000041
+            }
+          ],
+          "outputSha256": "e5aadfd8ce732891ca7f70c4bc4a311abcebae37c2ba4eed4d096e2a53d9ea2e",
+          "warnings": [],
+          "pythonFontReads": 3,
+          "nativeGlyphQueries": 237
+        },
+        {
+          "name": "campaign-20x20",
+          "timings": [
+            {
+              "wallMs": 238.83258400019258,
+              "cpuMs": 238.60100000000006
+            },
+            {
+              "wallMs": 212.36895897891372,
+              "cpuMs": 211.26299999999975
+            },
+            {
+              "wallMs": 201.44970796536654,
+              "cpuMs": 201.31500000000014
+            },
+            {
+              "wallMs": 192.30066693853587,
+              "cpuMs": 192.13799999999992
+            },
+            {
+              "wallMs": 187.66275001689792,
+              "cpuMs": 187.58600000000047
+            },
+            {
+              "wallMs": 199.0016249474138,
+              "cpuMs": 198.08499999999984
+            }
+          ],
+          "outputSha256": "f3c4429c64b434ec3699dce471976ee1dbda3d62595ce7be7090ea69f11b87bc",
+          "warnings": [
+            "text_fit: no candidate meets the floor for ids headline,subhead,legal_text"
+          ],
+          "pythonFontReads": 3,
+          "nativeGlyphQueries": 62
+        },
+        {
+          "name": "campaign-1080x1350",
+          "timings": [
+            {
+              "wallMs": 0.2831659512594342,
+              "cpuMs": 0.28299999999958914
+            },
+            {
+              "wallMs": 0.26954198256134987,
+              "cpuMs": 0.268000000000157
+            },
+            {
+              "wallMs": 0.26987504679709673,
+              "cpuMs": 0.2689999999994086
+            },
+            {
+              "wallMs": 0.2662090118974447,
+              "cpuMs": 0.26500000000062585
+            },
+            {
+              "wallMs": 0.267416937276721,
+              "cpuMs": 0.2670000000009054
+            },
+            {
+              "wallMs": 0.2698749303817749,
+              "cpuMs": 0.2689999999994086
+            }
+          ],
+          "outputSha256": "a06cebf2fc8a86ea66884d6e8b625ae50c097debb247182d6b21ebf73394c5d7",
+          "warnings": [],
+          "pythonFontReads": 0,
+          "nativeGlyphQueries": 0
+        }
+      ]
+    },
+    {
+      "pair": 1,
+      "label": "before",
+      "rows": [
+        {
+          "name": "chameleon_sample_level1_warmup",
+          "timings": [
+            {
+              "wallMs": 0.08454103954136372,
+              "cpuMs": 0.08400000000000074
+            },
+            {
+              "wallMs": 0.07183302659541368,
+              "cpuMs": 0.07199999999998874
+            },
+            {
+              "wallMs": 0.0730419997125864,
+              "cpuMs": 0.07200000000000262
+            },
+            {
+              "wallMs": 0.0688750296831131,
+              "cpuMs": 0.06899999999999962
+            },
+            {
+              "wallMs": 0.06554194260388613,
+              "cpuMs": 0.0650000000000095
+            },
+            {
+              "wallMs": 0.06483402103185654,
+              "cpuMs": 0.06399999999999462
+            }
+          ],
+          "outputSha256": "5553467cf7ae106de6c6502aec567c3f23c5a953d4a43c47a4ef5c98b8f4e23a",
+          "warnings": [],
+          "pythonFontReads": 0,
+          "nativeGlyphQueries": 0
+        },
+        {
+          "name": "chameleon_sample_level2_core",
+          "timings": [
+            {
+              "wallMs": 0.9597090538591146,
+              "cpuMs": 0.9389999999999954
+            },
+            {
+              "wallMs": 0.8382080122828484,
+              "cpuMs": 0.8370000000000044
+            },
+            {
+              "wallMs": 0.9622919606044888,
+              "cpuMs": 0.9490000000000054
+            },
+            {
+              "wallMs": 0.9651250438764691,
+              "cpuMs": 0.9580000000000005
+            },
+            {
+              "wallMs": 0.8652500109747052,
+              "cpuMs": 0.8639999999999898
+            },
+            {
+              "wallMs": 0.9260410442948341,
+              "cpuMs": 0.8859999999999979
+            }
+          ],
+          "outputSha256": "6c74bf04d6102e7c5bc6c68d62c647b49ec934ba5fcdaff08ed9cfa93ff427ff",
+          "warnings": [],
+          "pythonFontReads": 0,
+          "nativeGlyphQueries": 0
+        },
+        {
+          "name": "chameleon_sample_level3_advanced",
+          "timings": [
+            {
+              "wallMs": 37.83599997404963,
+              "cpuMs": 37.73499999999999
+            },
+            {
+              "wallMs": 37.04041603486985,
+              "cpuMs": 36.98500000000002
+            },
+            {
+              "wallMs": 36.68904199730605,
+              "cpuMs": 36.67599999999999
+            },
+            {
+              "wallMs": 37.033333093859255,
+              "cpuMs": 36.999
+            },
+            {
+              "wallMs": 37.949333898723125,
+              "cpuMs": 37.64299999999998
+            },
+            {
+              "wallMs": 36.91900009289384,
+              "cpuMs": 36.90399999999999
+            }
+          ],
+          "outputSha256": "77633c5be4f7b15c80ef89fe743fde35317c89d2a4021902bc342e3d6b59f8e1",
+          "warnings": [],
+          "pythonFontReads": 157,
+          "nativeGlyphQueries": 157
+        },
+        {
+          "name": "campaign-300x250",
+          "timings": [
+            {
+              "wallMs": 195.44550008140504,
+              "cpuMs": 191.46400000000008
+            },
+            {
+              "wallMs": 239.29245804902166,
+              "cpuMs": 233.62100000000007
+            },
+            {
+              "wallMs": 271.21191599871963,
+              "cpuMs": 261.18900000000014
+            },
+            {
+              "wallMs": 268.6771670123562,
+              "cpuMs": 264.46900000000005
+            },
+            {
+              "wallMs": 265.824833069928,
+              "cpuMs": 262.6820000000001
+            },
+            {
+              "wallMs": 215.7361670397222,
+              "cpuMs": 214.95600000000016
+            }
+          ],
+          "outputSha256": "f2021320c727643bd9c253b3cb6a840e834faaacaf6150feb4dfd6764e1df4c8",
+          "warnings": [],
+          "pythonFontReads": 507,
+          "nativeGlyphQueries": 507
+        },
+        {
+          "name": "campaign-301x251",
+          "timings": [
+            {
+              "wallMs": 155.0442089792341,
+              "cpuMs": 154.5460000000003
+            },
+            {
+              "wallMs": 166.9690840644762,
+              "cpuMs": 163.11399999999975
+            },
+            {
+              "wallMs": 163.75579091254622,
+              "cpuMs": 163.23099999999968
+            },
+            {
+              "wallMs": 162.16158401221037,
+              "cpuMs": 162.02700000000016
+            },
+            {
+              "wallMs": 157.78616699390113,
+              "cpuMs": 157.6599999999999
+            },
+            {
+              "wallMs": 166.61316598765552,
+              "cpuMs": 165.4589999999998
+            }
+          ],
+          "outputSha256": "8d62f9bc920919fba562c37d349cbe6e291fcd2532efa623180933d7d082fe4b",
+          "warnings": [],
+          "pythonFontReads": 507,
+          "nativeGlyphQueries": 507
+        },
+        {
+          "name": "campaign-320x250",
+          "timings": [
+            {
+              "wallMs": 173.47608401905745,
+              "cpuMs": 169.3830000000003
+            },
+            {
+              "wallMs": 172.86670906469226,
+              "cpuMs": 171.90099999999964
+            },
+            {
+              "wallMs": 168.54508395772427,
+              "cpuMs": 167.80099999999987
+            },
+            {
+              "wallMs": 173.1072919210419,
+              "cpuMs": 171.95300000000026
+            },
+            {
+              "wallMs": 168.19945897441357,
+              "cpuMs": 166.43700000000018
+            },
+            {
+              "wallMs": 169.48133404366672,
+              "cpuMs": 168.9210000000001
+            }
+          ],
+          "outputSha256": "3d48da398d675425f0ae1891a0da4a3446f2192be5398ed85f46e70c5d33f270",
+          "warnings": [],
+          "pythonFontReads": 504,
+          "nativeGlyphQueries": 504
+        },
+        {
+          "name": "campaign-250x300",
+          "timings": [
+            {
+              "wallMs": 212.1080830693245,
+              "cpuMs": 208.93500000000031
+            },
+            {
+              "wallMs": 209.8803329281509,
+              "cpuMs": 209.5929999999999
+            },
+            {
+              "wallMs": 199.84499993734062,
+              "cpuMs": 199.26699999999985
+            },
+            {
+              "wallMs": 208.14420795068145,
+              "cpuMs": 202.23200000000043
+            },
+            {
+              "wallMs": 234.47308293543756,
+              "cpuMs": 216.51500000000024
+            },
+            {
+              "wallMs": 265.7031250419095,
+              "cpuMs": 254.5510000000002
+            }
+          ],
+          "outputSha256": "bec4c41e2e835b2d913d6089eab427073f6a45d4ceabcc150e211e2b02b4b719",
+          "warnings": [],
+          "pythonFontReads": 747,
+          "nativeGlyphQueries": 747
+        },
+        {
+          "name": "campaign-600x500",
+          "timings": [
+            {
+              "wallMs": 102.2765829693526,
+              "cpuMs": 99.64700000000005
+            },
+            {
+              "wallMs": 93.00787490792572,
+              "cpuMs": 92.9360000000008
+            },
+            {
+              "wallMs": 96.66095802094787,
+              "cpuMs": 96.57599999999977
+            },
+            {
+              "wallMs": 98.5524170100689,
+              "cpuMs": 97.81700000000004
+            },
+            {
+              "wallMs": 94.90687504876405,
+              "cpuMs": 94.71999999999969
+            },
+            {
+              "wallMs": 93.09833310544491,
+              "cpuMs": 92.99299999999988
+            }
+          ],
+          "outputSha256": "e5aadfd8ce732891ca7f70c4bc4a311abcebae37c2ba4eed4d096e2a53d9ea2e",
+          "warnings": [],
+          "pythonFontReads": 309,
+          "nativeGlyphQueries": 309
+        },
+        {
+          "name": "campaign-20x20",
+          "timings": [
+            {
+              "wallMs": 249.74616593681276,
+              "cpuMs": 246.50899999999965
+            },
+            {
+              "wallMs": 243.15837491303682,
+              "cpuMs": 243.01100000000008
+            },
+            {
+              "wallMs": 237.60362493339926,
+              "cpuMs": 237.08700000000073
+            },
+            {
+              "wallMs": 242.3221659846604,
+              "cpuMs": 241.84799999999916
+            },
+            {
+              "wallMs": 259.1036669909954,
+              "cpuMs": 253.76899999999836
+            },
+            {
+              "wallMs": 243.2708339765668,
+              "cpuMs": 243.05699999999854
+            }
+          ],
+          "outputSha256": "f3c4429c64b434ec3699dce471976ee1dbda3d62595ce7be7090ea69f11b87bc",
+          "warnings": [
+            "text_fit: no candidate meets the floor for ids headline,subhead,legal_text"
+          ],
+          "pythonFontReads": 560,
+          "nativeGlyphQueries": 560
+        },
+        {
+          "name": "campaign-1080x1350",
+          "timings": [
+            {
+              "wallMs": 0.28200005181133747,
+              "cpuMs": 0.280000000000058
+            },
+            {
+              "wallMs": 0.2726669190451503,
+              "cpuMs": 0.2720000000007161
+            },
+            {
+              "wallMs": 0.2685829531401396,
+              "cpuMs": 0.268000000000157
+            },
+            {
+              "wallMs": 0.2686249790713191,
+              "cpuMs": 0.268000000000157
+            },
+            {
+              "wallMs": 0.2639159793034196,
+              "cpuMs": 0.2630000000003463
+            },
+            {
+              "wallMs": 0.2644580090418458,
+              "cpuMs": 0.2639999999995979
+            }
+          ],
+          "outputSha256": "a06cebf2fc8a86ea66884d6e8b625ae50c097debb247182d6b21ebf73394c5d7",
+          "warnings": [],
+          "pythonFontReads": 0,
+          "nativeGlyphQueries": 0
+        }
+      ]
+    },
+    {
+      "pair": 2,
+      "label": "before",
+      "rows": [
+        {
+          "name": "chameleon_sample_level1_warmup",
+          "timings": [
+            {
+              "wallMs": 0.07745809853076935,
+              "cpuMs": 0.07599999999999274
+            },
+            {
+              "wallMs": 0.06641692016273737,
+              "cpuMs": 0.06599999999999662
+            },
+            {
+              "wallMs": 0.06445893086493015,
+              "cpuMs": 0.06299999999999362
+            },
+            {
+              "wallMs": 0.06150000263005495,
+              "cpuMs": 0.061000000000005494
+            },
+            {
+              "wallMs": 0.060292077250778675,
+              "cpuMs": 0.059999999999990616
+            },
+            {
+              "wallMs": 0.06170803681015968,
+              "cpuMs": 0.061000000000005494
+            }
+          ],
+          "outputSha256": "5553467cf7ae106de6c6502aec567c3f23c5a953d4a43c47a4ef5c98b8f4e23a",
+          "warnings": [],
+          "pythonFontReads": 0,
+          "nativeGlyphQueries": 0
+        },
+        {
+          "name": "chameleon_sample_level2_core",
+          "timings": [
+            {
+              "wallMs": 0.8330829441547394,
+              "cpuMs": 0.8319999999999994
+            },
+            {
+              "wallMs": 0.7454169681295753,
+              "cpuMs": 0.7439999999999947
+            },
+            {
+              "wallMs": 0.7519170176237822,
+              "cpuMs": 0.7520000000000027
+            },
+            {
+              "wallMs": 0.7178750820457935,
+              "cpuMs": 0.7179999999999964
+            },
+            {
+              "wallMs": 0.7056249305605888,
+              "cpuMs": 0.7049999999999973
+            },
+            {
+              "wallMs": 0.6973330164328218,
+              "cpuMs": 0.6969999999999893
+            }
+          ],
+          "outputSha256": "6c74bf04d6102e7c5bc6c68d62c647b49ec934ba5fcdaff08ed9cfa93ff427ff",
+          "warnings": [],
+          "pythonFontReads": 0,
+          "nativeGlyphQueries": 0
+        },
+        {
+          "name": "chameleon_sample_level3_advanced",
+          "timings": [
+            {
+              "wallMs": 33.449375070631504,
+              "cpuMs": 33.42899999999999
+            },
+            {
+              "wallMs": 33.992917044088244,
+              "cpuMs": 33.95000000000001
+            },
+            {
+              "wallMs": 34.421457909047604,
+              "cpuMs": 34.36799999999998
+            },
+            {
+              "wallMs": 33.575916080735624,
+              "cpuMs": 33.534000000000006
+            },
+            {
+              "wallMs": 34.65616691391915,
+              "cpuMs": 34.62399999999999
+            },
+            {
+              "wallMs": 36.65966691914946,
+              "cpuMs": 36.638000000000005
+            }
+          ],
+          "outputSha256": "77633c5be4f7b15c80ef89fe743fde35317c89d2a4021902bc342e3d6b59f8e1",
+          "warnings": [],
+          "pythonFontReads": 157,
+          "nativeGlyphQueries": 157
+        },
+        {
+          "name": "campaign-300x250",
+          "timings": [
+            {
+              "wallMs": 158.0817080102861,
+              "cpuMs": 157.93599999999998
+            },
+            {
+              "wallMs": 157.88475004956126,
+              "cpuMs": 157.70799999999997
+            },
+            {
+              "wallMs": 159.1628339374438,
+              "cpuMs": 159.01200000000003
+            },
+            {
+              "wallMs": 161.4040839485824,
+              "cpuMs": 161.21399999999997
+            },
+            {
+              "wallMs": 157.95566607266665,
+              "cpuMs": 157.86100000000002
+            },
+            {
+              "wallMs": 162.366250064224,
+              "cpuMs": 162.30100000000002
+            }
+          ],
+          "outputSha256": "f2021320c727643bd9c253b3cb6a840e834faaacaf6150feb4dfd6764e1df4c8",
+          "warnings": [],
+          "pythonFontReads": 507,
+          "nativeGlyphQueries": 507
+        },
+        {
+          "name": "campaign-301x251",
+          "timings": [
+            {
+              "wallMs": 156.94095799699426,
+              "cpuMs": 156.8060000000002
+            },
+            {
+              "wallMs": 162.59104199707508,
+              "cpuMs": 162.37699999999978
+            },
+            {
+              "wallMs": 156.71991708222777,
+              "cpuMs": 156.31899999999987
+            },
+            {
+              "wallMs": 158.59783301129937,
+              "cpuMs": 158.22099999999972
+            },
+            {
+              "wallMs": 160.05966602824628,
+              "cpuMs": 159.5620000000002
+            },
+            {
+              "wallMs": 157.4917499674484,
+              "cpuMs": 157.28100000000023
+            }
+          ],
+          "outputSha256": "8d62f9bc920919fba562c37d349cbe6e291fcd2532efa623180933d7d082fe4b",
+          "warnings": [],
+          "pythonFontReads": 507,
+          "nativeGlyphQueries": 507
+        },
+        {
+          "name": "campaign-320x250",
+          "timings": [
+            {
+              "wallMs": 174.8733330750838,
+              "cpuMs": 173.6909999999998
+            },
+            {
+              "wallMs": 178.17295901477337,
+              "cpuMs": 177.635
+            },
+            {
+              "wallMs": 178.06629091501236,
+              "cpuMs": 177.63899999999967
+            },
+            {
+              "wallMs": 177.7619159547612,
+              "cpuMs": 174.6620000000001
+            },
+            {
+              "wallMs": 166.69025004375726,
+              "cpuMs": 166.0560000000002
+            },
+            {
+              "wallMs": 183.97374998312443,
+              "cpuMs": 181.09099999999944
+            }
+          ],
+          "outputSha256": "3d48da398d675425f0ae1891a0da4a3446f2192be5398ed85f46e70c5d33f270",
+          "warnings": [],
+          "pythonFontReads": 504,
+          "nativeGlyphQueries": 504
+        },
+        {
+          "name": "campaign-250x300",
+          "timings": [
+            {
+              "wallMs": 204.1342919692397,
+              "cpuMs": 201.765
+            },
+            {
+              "wallMs": 207.83733297139406,
+              "cpuMs": 205.74000000000046
+            },
+            {
+              "wallMs": 192.74066691286862,
+              "cpuMs": 192.34499999999954
+            },
+            {
+              "wallMs": 204.15200002025813,
+              "cpuMs": 198.53900000000024
+            },
+            {
+              "wallMs": 197.6362499408424,
+              "cpuMs": 196.10799999999972
+            },
+            {
+              "wallMs": 205.40283399168402,
+              "cpuMs": 200.1950000000008
+            }
+          ],
+          "outputSha256": "bec4c41e2e835b2d913d6089eab427073f6a45d4ceabcc150e211e2b02b4b719",
+          "warnings": [],
+          "pythonFontReads": 747,
+          "nativeGlyphQueries": 747
+        },
+        {
+          "name": "campaign-600x500",
+          "timings": [
+            {
+              "wallMs": 95.27145803440362,
+              "cpuMs": 94.47000000000028
+            },
+            {
+              "wallMs": 90.44220799114555,
+              "cpuMs": 89.95500000000067
+            },
+            {
+              "wallMs": 100.00995791051537,
+              "cpuMs": 97.53699999999998
+            },
+            {
+              "wallMs": 94.94937502313405,
+              "cpuMs": 94.773
+            },
+            {
+              "wallMs": 104.23433303367347,
+              "cpuMs": 96.00000000000009
+            },
+            {
+              "wallMs": 100.96854204311967,
+              "cpuMs": 97.11399999999948
+            }
+          ],
+          "outputSha256": "e5aadfd8ce732891ca7f70c4bc4a311abcebae37c2ba4eed4d096e2a53d9ea2e",
+          "warnings": [],
+          "pythonFontReads": 309,
+          "nativeGlyphQueries": 309
+        },
+        {
+          "name": "campaign-20x20",
+          "timings": [
+            {
+              "wallMs": 283.46162498928607,
+              "cpuMs": 281.4240000000003
+            },
+            {
+              "wallMs": 476.80370905436575,
+              "cpuMs": 396.15899999999993
+            },
+            {
+              "wallMs": 1287.49308292754,
+              "cpuMs": 546.5970000000011
+            },
+            {
+              "wallMs": 554.8911669757217,
+              "cpuMs": 466.2109999999995
+            },
+            {
+              "wallMs": 690.1720000896603,
+              "cpuMs": 535.9569999999998
+            },
+            {
+              "wallMs": 451.10720803495497,
+              "cpuMs": 415.7460000000004
+            }
+          ],
+          "outputSha256": "f3c4429c64b434ec3699dce471976ee1dbda3d62595ce7be7090ea69f11b87bc",
+          "warnings": [
+            "text_fit: no candidate meets the floor for ids headline,subhead,legal_text"
+          ],
+          "pythonFontReads": 560,
+          "nativeGlyphQueries": 560
+        },
+        {
+          "name": "campaign-1080x1350",
+          "timings": [
+            {
+              "wallMs": 0.3552499692887068,
+              "cpuMs": 0.35299999999871545
+            },
+            {
+              "wallMs": 0.3427090123295784,
+              "cpuMs": 0.34199999999984243
+            },
+            {
+              "wallMs": 0.3826669417321682,
+              "cpuMs": 0.3810000000008529
+            },
+            {
+              "wallMs": 0.3450419753789902,
+              "cpuMs": 0.34399999999834563
+            },
+            {
+              "wallMs": 0.3405000315979123,
+              "cpuMs": 0.3399999999995629
+            },
+            {
+              "wallMs": 0.3344580763950944,
+              "cpuMs": 0.3329999999994726
+            }
+          ],
+          "outputSha256": "a06cebf2fc8a86ea66884d6e8b625ae50c097debb247182d6b21ebf73394c5d7",
+          "warnings": [],
+          "pythonFontReads": 0,
+          "nativeGlyphQueries": 0
+        }
+      ]
+    },
+    {
+      "pair": 2,
+      "label": "after",
+      "rows": [
+        {
+          "name": "chameleon_sample_level1_warmup",
+          "timings": [
+            {
+              "wallMs": 0.11100003030151129,
+              "cpuMs": 0.10899999999999799
+            },
+            {
+              "wallMs": 0.09983300697058439,
+              "cpuMs": 0.09800000000000086
+            },
+            {
+              "wallMs": 0.09383296128362417,
+              "cpuMs": 0.09300000000000974
+            },
+            {
+              "wallMs": 0.08404196705669165,
+              "cpuMs": 0.08400000000000074
+            },
+            {
+              "wallMs": 0.07929105777293444,
+              "cpuMs": 0.07799999999999474
+            },
+            {
+              "wallMs": 0.07841701153665781,
+              "cpuMs": 0.07799999999999474
+            }
+          ],
+          "outputSha256": "5553467cf7ae106de6c6502aec567c3f23c5a953d4a43c47a4ef5c98b8f4e23a",
+          "warnings": [],
+          "pythonFontReads": 0,
+          "nativeGlyphQueries": 0
+        },
+        {
+          "name": "chameleon_sample_level2_core",
+          "timings": [
+            {
+              "wallMs": 1.0414998978376389,
+              "cpuMs": 1.0400000000000131
+            },
+            {
+              "wallMs": 1.0159589583054185,
+              "cpuMs": 1.0109999999999841
+            },
+            {
+              "wallMs": 1.0252500651404262,
+              "cpuMs": 1.0239999999999971
+            },
+            {
+              "wallMs": 1.0309580247849226,
+              "cpuMs": 1.00900000000001
+            },
+            {
+              "wallMs": 0.9402909781783819,
+              "cpuMs": 0.9399999999999964
+            },
+            {
+              "wallMs": 0.9152920683845878,
+              "cpuMs": 0.9139999999999981
+            }
+          ],
+          "outputSha256": "6c74bf04d6102e7c5bc6c68d62c647b49ec934ba5fcdaff08ed9cfa93ff427ff",
+          "warnings": [],
+          "pythonFontReads": 0,
+          "nativeGlyphQueries": 0
+        },
+        {
+          "name": "chameleon_sample_level3_advanced",
+          "timings": [
+            {
+              "wallMs": 32.759041991084814,
+              "cpuMs": 32.663
+            },
+            {
+              "wallMs": 32.11158292833716,
+              "cpuMs": 32.01899999999999
+            },
+            {
+              "wallMs": 30.15320806298405,
+              "cpuMs": 30.12699999999996
+            },
+            {
+              "wallMs": 30.261665931902826,
+              "cpuMs": 30.191999999999997
+            },
+            {
+              "wallMs": 30.027834000065923,
+              "cpuMs": 29.953000000000007
+            },
+            {
+              "wallMs": 30.62795801088214,
+              "cpuMs": 30.523999999999994
+            }
+          ],
+          "outputSha256": "77633c5be4f7b15c80ef89fe743fde35317c89d2a4021902bc342e3d6b59f8e1",
+          "warnings": [],
+          "pythonFontReads": 3,
+          "nativeGlyphQueries": 69
+        },
+        {
+          "name": "campaign-300x250",
+          "timings": [
+            {
+              "wallMs": 147.33029203489423,
+              "cpuMs": 147.13299999999995
+            },
+            {
+              "wallMs": 148.3308750903234,
+              "cpuMs": 147.55999999999992
+            },
+            {
+              "wallMs": 152.92058396153152,
+              "cpuMs": 152.15100000000004
+            },
+            {
+              "wallMs": 152.55075006280094,
+              "cpuMs": 151.381
+            },
+            {
+              "wallMs": 148.20295805111527,
+              "cpuMs": 148.13999999999993
+            },
+            {
+              "wallMs": 149.93800001684576,
+              "cpuMs": 149.7139999999999
+            }
+          ],
+          "outputSha256": "f2021320c727643bd9c253b3cb6a840e834faaacaf6150feb4dfd6764e1df4c8",
+          "warnings": [],
+          "pythonFontReads": 3,
+          "nativeGlyphQueries": 329
+        },
+        {
+          "name": "campaign-301x251",
+          "timings": [
+            {
+              "wallMs": 149.52008402906358,
+              "cpuMs": 149.21300000000005
+            },
+            {
+              "wallMs": 153.37720897514373,
+              "cpuMs": 151.46300000000014
+            },
+            {
+              "wallMs": 158.67483301553875,
+              "cpuMs": 155.35500000000013
+            },
+            {
+              "wallMs": 169.96874997857958,
+              "cpuMs": 165.61400000000015
+            },
+            {
+              "wallMs": 158.9542080182582,
+              "cpuMs": 156.40400000000022
+            },
+            {
+              "wallMs": 153.38254196103662,
+              "cpuMs": 152.26200000000034
+            }
+          ],
+          "outputSha256": "8d62f9bc920919fba562c37d349cbe6e291fcd2532efa623180933d7d082fe4b",
+          "warnings": [],
+          "pythonFontReads": 3,
+          "nativeGlyphQueries": 329
+        },
+        {
+          "name": "campaign-320x250",
+          "timings": [
+            {
+              "wallMs": 185.98195805680007,
+              "cpuMs": 177.6810000000002
+            },
+            {
+              "wallMs": 186.70954194385558,
+              "cpuMs": 175.52900000000005
+            },
+            {
+              "wallMs": 172.87683300673962,
+              "cpuMs": 170.33500000000012
+            },
+            {
+              "wallMs": 169.12358393892646,
+              "cpuMs": 166.4060000000003
+            },
+            {
+              "wallMs": 175.79487501643598,
+              "cpuMs": 170.5190000000001
+            },
+            {
+              "wallMs": 158.23179099243134,
+              "cpuMs": 156.4739999999998
+            }
+          ],
+          "outputSha256": "3d48da398d675425f0ae1891a0da4a3446f2192be5398ed85f46e70c5d33f270",
+          "warnings": [],
+          "pythonFontReads": 3,
+          "nativeGlyphQueries": 329
+        },
+        {
+          "name": "campaign-250x300",
+          "timings": [
+            {
+              "wallMs": 172.47633403167129,
+              "cpuMs": 171.05899999999963
+            },
+            {
+              "wallMs": 190.42100000660866,
+              "cpuMs": 186.88099999999963
+            },
+            {
+              "wallMs": 174.63837494142354,
+              "cpuMs": 173.06000000000043
+            },
+            {
+              "wallMs": 177.8891250723973,
+              "cpuMs": 176.42200000000054
+            },
+            {
+              "wallMs": 176.55387497507036,
+              "cpuMs": 175.21399999999954
+            },
+            {
+              "wallMs": 186.03591597639024,
+              "cpuMs": 184.58600000000035
+            }
+          ],
+          "outputSha256": "bec4c41e2e835b2d913d6089eab427073f6a45d4ceabcc150e211e2b02b4b719",
+          "warnings": [],
+          "pythonFontReads": 3,
+          "nativeGlyphQueries": 528
+        },
+        {
+          "name": "campaign-600x500",
+          "timings": [
+            {
+              "wallMs": 98.72354206163436,
+              "cpuMs": 96.67600000000043
+            },
+            {
+              "wallMs": 104.28349999710917,
+              "cpuMs": 102.47100000000043
+            },
+            {
+              "wallMs": 109.04666606802493,
+              "cpuMs": 107.4010000000003
+            },
+            {
+              "wallMs": 102.29341604281217,
+              "cpuMs": 101.11200000000053
+            },
+            {
+              "wallMs": 100.47295899130404,
+              "cpuMs": 99.48399999999947
+            },
+            {
+              "wallMs": 92.53658400848508,
+              "cpuMs": 92.04100000000004
+            }
+          ],
+          "outputSha256": "e5aadfd8ce732891ca7f70c4bc4a311abcebae37c2ba4eed4d096e2a53d9ea2e",
+          "warnings": [],
+          "pythonFontReads": 3,
+          "nativeGlyphQueries": 237
+        },
+        {
+          "name": "campaign-20x20",
+          "timings": [
+            {
+              "wallMs": 301.2110000709072,
+              "cpuMs": 289.8260000000006
+            },
+            {
+              "wallMs": 328.0646250350401,
+              "cpuMs": 303.28200000000027
+            },
+            {
+              "wallMs": 238.37799998000264,
+              "cpuMs": 235.62000000000083
+            },
+            {
+              "wallMs": 236.13291594665498,
+              "cpuMs": 231.93799999999953
+            },
+            {
+              "wallMs": 218.79504201933742,
+              "cpuMs": 218.45499999999961
+            },
+            {
+              "wallMs": 362.7262080553919,
+              "cpuMs": 294.7500000000005
+            }
+          ],
+          "outputSha256": "f3c4429c64b434ec3699dce471976ee1dbda3d62595ce7be7090ea69f11b87bc",
+          "warnings": [
+            "text_fit: no candidate meets the floor for ids headline,subhead,legal_text"
+          ],
+          "pythonFontReads": 3,
+          "nativeGlyphQueries": 62
+        },
+        {
+          "name": "campaign-1080x1350",
+          "timings": [
+            {
+              "wallMs": 0.9147090604528785,
+              "cpuMs": 0.8099999999995333
+            },
+            {
+              "wallMs": 0.7516250479966402,
+              "cpuMs": 0.5699999999997374
+            },
+            {
+              "wallMs": 0.6639170460402966,
+              "cpuMs": 0.5530000000000257
+            },
+            {
+              "wallMs": 0.9963749907910824,
+              "cpuMs": 0.8060000000007506
+            },
+            {
+              "wallMs": 0.9031660156324506,
+              "cpuMs": 0.6719999999997839
+            },
+            {
+              "wallMs": 0.6177079631015658,
+              "cpuMs": 0.5930000000002877
+            }
+          ],
+          "outputSha256": "a06cebf2fc8a86ea66884d6e8b625ae50c097debb247182d6b21ebf73394c5d7",
+          "warnings": [],
+          "pythonFontReads": 0,
+          "nativeGlyphQueries": 0
+        }
+      ]
+    }
+  ]
+}

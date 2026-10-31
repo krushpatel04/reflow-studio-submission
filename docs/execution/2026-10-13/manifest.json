@@ -1,0 +1,603 @@
+{
+  "baseline": "42ce59805744b037b3dd6b9e4c069d96c7d9913d",
+  "deadline": "2026-10-13T12:30:00Z",
+  "drain": "2026-10-13T12:00:00Z",
+  "plans": [
+    {
+      "id": "RF-01",
+      "file": "rf-01.md",
+      "sha256": "78dab1105fde75a51ba54925576e6ef018ef612f0f8ec7048abaab001ae6de0b",
+      "title": "Prove text bounds against the real renderer",
+      "lane": "reflow",
+      "owner": "Typography 4",
+      "parent": 3,
+      "target_date": "2026-10-09",
+      "dependencies": [],
+      "requirements": [
+        {
+          "id": "RF-01-D1",
+          "type": "D",
+          "evidence": [
+            "RF-01-E1"
+          ]
+        },
+        {
+          "id": "RF-01-H1",
+          "type": "H",
+          "evidence": [
+            "RF-01-E1"
+          ]
+        },
+        {
+          "id": "RF-01-V1",
+          "type": "V",
+          "evidence": [
+            "RF-01-E1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "RF-01-E1",
+          "path": "docs/evidence/rf-01/README.md",
+          "assertions": [
+            "Build an independent Skia pixel/bounds probe for brand-font fixtures: fractional sizes, kerning, word wrapping, rotation and deliberately clipped text. Pair each failure with a valid control; record unsupported shaping. Do not import Pillow wrapping helpers as the oracle. A BASIC hash match or font-byte match alone is insufficient.",
+            "Exact SHA, positive/negative controls, independent review and honest limits"
+          ]
+        }
+      ],
+      "owned_paths": [
+        "scripts/quality/text_ink.py",
+        "tests_python/test_text_ink.py",
+        "docs/plans/rf-01-2026-10-13.md",
+        "docs/evidence/rf-01/**",
+        "reports/rf-01/**",
+        "scripts/quality/__init__.py"
+      ],
+      "issue": "https://github.com/kj-squared-labs/reflow-studio/issues/95"
+    },
+    {
+      "id": "RF-02",
+      "file": "rf-02.md",
+      "sha256": "dab3e9110d65f0fa61a5c32d38a330c6005b553609bf08aa1008182f23eb597d",
+      "title": "Improve one wide Level 2 composition",
+      "lane": "reflow",
+      "owner": "Engine 3",
+      "parent": 5,
+      "target_date": "2026-10-10",
+      "dependencies": [
+        "RF-01"
+      ],
+      "requirements": [
+        {
+          "id": "RF-02-D1",
+          "type": "D",
+          "evidence": [
+            "RF-02-E1"
+          ]
+        },
+        {
+          "id": "RF-02-H1",
+          "type": "H",
+          "evidence": [
+            "RF-02-E1"
+          ]
+        },
+        {
+          "id": "RF-02-V1",
+          "type": "V",
+          "evidence": [
+            "RF-02-E1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "RF-02-E1",
+          "path": "docs/evidence/rf-02/README.md",
+          "assertions": [
+            "Reproduce central compression on the official Level 2 wide target; compare unchanged source, current output and candidate through the same real renderer. Implement one source-derived grouping/reflow change without role sidecars. Preserve every protected field and legitimate overlap; use identity and nearby-size controls. Record measured and visual tradeoffs, never call less whitespace universally better.",
+            "Exact SHA, positive/negative controls, independent review and honest limits"
+          ]
+        }
+      ],
+      "owned_paths": [
+        "engine/**",
+        "tests_python/test_wide_composition.py",
+        "docs/plans/rf-02-2026-10-13.md",
+        "docs/evidence/rf-02/**",
+        "reports/rf-02/**"
+      ],
+      "issue": "https://github.com/kj-squared-labs/reflow-studio/issues/96"
+    },
+    {
+      "id": "RF-03",
+      "file": "rf-03.md",
+      "sha256": "63b84330b920f80871a9cc3241c690d195531d72008b765b1c32c74c5ce03c27",
+      "title": "Improve one extreme Level 3 layout failure",
+      "lane": "reflow",
+      "owner": "Engine 3",
+      "parent": 12,
+      "target_date": "2026-10-11",
+      "dependencies": [
+        "RF-02"
+      ],
+      "requirements": [
+        {
+          "id": "RF-03-D1",
+          "type": "D",
+          "evidence": [
+            "RF-03-E1"
+          ]
+        },
+        {
+          "id": "RF-03-H1",
+          "type": "H",
+          "evidence": [
+            "RF-03-E1"
+          ]
+        },
+        {
+          "id": "RF-03-V1",
+          "type": "V",
+          "evidence": [
+            "RF-03-E1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "RF-03-E1",
+          "path": "docs/evidence/rf-03/README.md",
+          "assertions": [
+            "Choose one reproduced Level 3 visibility/overlap failure using fixed copy/assets. Preserve group/rotation/paint invariants and verify rendered text, including small legal copy. Include impossible-fit, valid-overlap and nearby-size controls. Report unsatisfied constraints explicitly; do not hide failure by inventing assets or shrinking text without accounting.",
+            "Exact SHA, positive/negative controls, independent review and honest limits"
+          ]
+        }
+      ],
+      "owned_paths": [
+        "engine/**",
+        "tests_python/test_extreme_composition.py",
+        "docs/plans/rf-03-2026-10-13.md",
+        "docs/evidence/rf-03/**",
+        "reports/rf-03/**"
+      ],
+      "issue": "https://github.com/kj-squared-labs/reflow-studio/issues/97"
+    },
+    {
+      "id": "RF-04",
+      "file": "rf-04.md",
+      "sha256": "2c3e120f581e18d6dfed71ff65de32bbb4542612d9f2fba337a2992836499ba8",
+      "title": "Produce an independent development quality report",
+      "lane": "reflow",
+      "owner": "CLI 2",
+      "parent": 33,
+      "target_date": "2026-10-12",
+      "dependencies": [
+        "RF-01",
+        "KR-01"
+      ],
+      "requirements": [
+        {
+          "id": "RF-04-D1",
+          "type": "D",
+          "evidence": [
+            "RF-04-E1"
+          ]
+        },
+        {
+          "id": "RF-04-H1",
+          "type": "H",
+          "evidence": [
+            "RF-04-E1"
+          ]
+        },
+        {
+          "id": "RF-04-V1",
+          "type": "V",
+          "evidence": [
+            "RF-04-E1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "RF-04-E1",
+          "path": "docs/evidence/rf-04/README.md",
+          "assertions": [
+            "Consume the frozen approved development bundle read-only. Report all tasks, real/fallback rendering, measured/unmeasured counts, source fidelity, clipping and geometry separately. Missing inputs are blocked, not passed. Preserve exact bytes/split provenance. Create blind review pairs for Krush; validation runs once only after reviewed engine selection, without tuning on results.",
+            "Exact SHA, positive/negative controls, independent review and honest limits"
+          ]
+        }
+      ],
+      "owned_paths": [
+        "scripts/quality/dev_report.py",
+        "tests_python/test_dev_report.py",
+        "docs/plans/rf-04-2026-10-13.md",
+        "docs/evidence/rf-04/**",
+        "reports/rf-04/**"
+      ],
+      "issue": "https://github.com/kj-squared-labs/reflow-studio/issues/98"
+    },
+    {
+      "id": "OF-01",
+      "file": "of-01.md",
+      "sha256": "dab6af881acf94dc1bf58bdea7dbee2ce66ee829f2f9ad614d373cfa918aa677",
+      "title": "Qualify the Python image on hosted Docker",
+      "lane": "reflow-offline",
+      "owner": "Offline Engineer 2",
+      "parent": 8,
+      "target_date": "2026-10-09",
+      "dependencies": [],
+      "requirements": [
+        {
+          "id": "OF-01-D1",
+          "type": "D",
+          "evidence": [
+            "OF-01-E1"
+          ]
+        },
+        {
+          "id": "OF-01-H1",
+          "type": "H",
+          "evidence": [
+            "OF-01-E1"
+          ]
+        },
+        {
+          "id": "OF-01-V1",
+          "type": "V",
+          "evidence": [
+            "OF-01-E1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "OF-01-E1",
+          "path": "docs/evidence/of-01/README.md",
+          "assertions": [
+            "Use the existing assembler, fingerprint and offline smoke with --runtime docker on a GitHub-hosted Ubuntu runner. Build one clean exact SHA; prove three real renders, zero fallback, blocked network, read-only unchanged inputs and fingerprint agreement. Require renderer-absent, mutated-input, zero-input and write-attempt controls to fail for the intended reason. Never inherit a historical image proof or weaken host security. Persist build/image/platform/exit logs and ledgers as CI artifacts.",
+            "Exact SHA, positive/negative controls, independent review and honest limits"
+          ]
+        }
+      ],
+      "owned_paths": [
+        ".github/workflows/python-submission.yml",
+        "scripts/qualify_python_submission.py",
+        "tests_python/test_qualification.py",
+        "docs/plans/of-01-2026-10-13.md",
+        "docs/evidence/of-01/**",
+        "reports/of-01/**",
+        "scripts/offline_submission_smoke.py",
+        "tests_python/test_offline_smoke.py"
+      ],
+      "issue": "https://github.com/kj-squared-labs/reflow-studio/issues/99"
+    },
+    {
+      "id": "OF-02",
+      "file": "of-02.md",
+      "sha256": "a88efebe87293fde74954e09c60c4fcab9d84849ad7d3a928c479b3ed3aa5ae1",
+      "title": "Rehearse the submission from a clean clone",
+      "lane": "reflow-offline",
+      "owner": "Offline Engineer 2",
+      "parent": 35,
+      "target_date": "2026-10-12",
+      "dependencies": [
+        "OF-01"
+      ],
+      "requirements": [
+        {
+          "id": "OF-02-D1",
+          "type": "D",
+          "evidence": [
+            "OF-02-E1"
+          ]
+        },
+        {
+          "id": "OF-02-H1",
+          "type": "H",
+          "evidence": [
+            "OF-02-E1"
+          ]
+        },
+        {
+          "id": "OF-02-V1",
+          "type": "V",
+          "evidence": [
+            "OF-02-E1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "OF-02-E1",
+          "path": "docs/evidence/of-02/README.md",
+          "assertions": [
+            "Run the documented Python entry point from a new checkout and assembled context, with no contributor caches or paths. Resolve root legacy Dockerfile versus Python submission invocation explicitly in a proposed README patch handed to the coordinator. Verify JSON/PNG completeness, assets/fonts and repeat output hashes within the same image; add a missing-resource failure control. Record current SHA and commands; do not submit forms or claim organizer acceptance.",
+            "Exact SHA, positive/negative controls, independent review and honest limits"
+          ]
+        }
+      ],
+      "owned_paths": [
+        "submission/**",
+        "Dockerfile.python-submission",
+        "requirements-python-submission.txt",
+        "constraints-python-submission.txt",
+        "docs/submission-rehearsal.md",
+        "docs/plans/of-02-2026-10-13.md",
+        "docs/evidence/of-02/**",
+        "reports/of-02/**",
+        "tests_python/test_submission_files.py"
+      ],
+      "issue": "https://github.com/kj-squared-labs/reflow-studio/issues/100"
+    },
+    {
+      "id": "ST-01",
+      "file": "st-01.md",
+      "sha256": "9af422c9787495d3a6e76e129f7e21770285eac045d3a217a8b4beae2d3d5a0c",
+      "title": "Coordinate reviewed publication and the Tuesday stop",
+      "lane": "reflow",
+      "owner": "Codex Release Steward 6",
+      "parent": 11,
+      "target_date": "2026-10-13",
+      "dependencies": [],
+      "requirements": [
+        {
+          "id": "ST-01-D1",
+          "type": "D",
+          "evidence": [
+            "ST-01-E1"
+          ]
+        },
+        {
+          "id": "ST-01-H1",
+          "type": "H",
+          "evidence": [
+            "ST-01-E1"
+          ]
+        },
+        {
+          "id": "ST-01-V1",
+          "type": "V",
+          "evidence": [
+            "ST-01-E1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ST-01-E1",
+          "path": "docs/evidence/st-01/README.md",
+          "assertions": [
+            "Reconcile current main, collaborators and pending PRs; publish only independently reviewed exact integrated heads with required CI. Maintain non-overlapping claims and one heavy validation lock. Install and test Reflow-only remote drain/stop guards before production activation; verify deadline, guard process, readback and owner identity. No Capstone mutation. Snapshot final work, stop new slices at drain, stop agents/pools at cutoff, publish actual completion versus blockers and pause the existing monitor.",
+            "Exact SHA, positive/negative controls, independent review and honest limits"
+          ]
+        }
+      ],
+      "owned_paths": [
+        "docs/execution/2026-10-13/**",
+        "runtime run-control and publication metadata only",
+        "docs/plans/st-01-2026-10-13.md",
+        "docs/evidence/st-01/**",
+        "reports/st-01/**"
+      ],
+      "issue": "https://github.com/kj-squared-labs/reflow-studio/issues/101"
+    },
+    {
+      "id": "KR-01",
+      "file": "kr-01.md",
+      "sha256": "986492b617b23b269f9fcb5880243e428d57a6137bd59689c256dab99e99c7e7",
+      "title": "Freeze a source-faithful development review bundle",
+      "lane": "collaborator",
+      "owner": "Human claimant \u2014 Package A",
+      "parent": 34,
+      "target_date": "2026-10-10",
+      "dependencies": [],
+      "requirements": [
+        {
+          "id": "KR-01-D1",
+          "type": "D",
+          "evidence": [
+            "KR-01-E1"
+          ]
+        },
+        {
+          "id": "KR-01-H1",
+          "type": "H",
+          "evidence": [
+            "KR-01-E1"
+          ]
+        },
+        {
+          "id": "KR-01-V1",
+          "type": "V",
+          "evidence": [
+            "KR-01-E1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "KR-01-E1",
+          "path": "docs/evidence/kr-01/README.md",
+          "assertions": [
+            "Audit the admitted public development sources and conversion ledgers against original copy/assets, hashes, fonts and crop semantics. Resolve or explicitly exclude unsupported cases with accounting and positive controls. Freeze a versioned bundle for RF-04; no source substitution or changing labels to match engine output. Do not access/publish sealed material or change frozen family assignments. Hand off source-fidelity evidence for independent parent #34 closure review; GitHub assignees do not assign the reviewer.",
+            "Exact SHA, positive/negative controls, independent review and honest limits"
+          ]
+        }
+      ],
+      "owned_paths": [
+        "scripts/lica_official/**",
+        "tests_python/test_lica_*",
+        "tests_python/test_render_font_binding.py",
+        "corpus admission metadata",
+        "docs/collaborators/krush-evidence/**",
+        "docs/plans/kr-01-2026-10-13.md",
+        "docs/evidence/kr-01/**",
+        "reports/kr-01/**"
+      ],
+      "issue": "https://github.com/kj-squared-labs/reflow-studio/issues/102"
+    },
+    {
+      "id": "KR-02",
+      "file": "kr-02.md",
+      "sha256": "2c9e79078c348c633f2ba2c7d6b5cdbffc69f1427bd2abe3aece5c176f1e3192",
+      "title": "Run an independent blind quality review",
+      "lane": "collaborator",
+      "owner": "Human claimant \u2014 Package A",
+      "parent": 7,
+      "target_date": "2026-10-12",
+      "dependencies": [
+        "KR-01",
+        "RF-04"
+      ],
+      "requirements": [
+        {
+          "id": "KR-02-D1",
+          "type": "D",
+          "evidence": [
+            "KR-02-E1"
+          ]
+        },
+        {
+          "id": "KR-02-H1",
+          "type": "H",
+          "evidence": [
+            "KR-02-E1"
+          ]
+        },
+        {
+          "id": "KR-02-V1",
+          "type": "V",
+          "evidence": [
+            "KR-02-E1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "KR-02-E1",
+          "path": "docs/evidence/kr-02/README.md",
+          "assertions": [
+            "Define a compact rubric before viewing candidates: fidelity, readable text, hierarchy, intended relationships and severe defects. Blind baseline/candidate identity and randomize order on development cases. Record reviewer identity, missing judgments and ties, keep objective checks separate. Unblind only after decisions. Human work is not silently reassigned to an AI channel; do not claim sealed generalization.",
+            "Exact SHA, positive/negative controls, independent review and honest limits"
+          ]
+        }
+      ],
+      "owned_paths": [
+        "docs/evaluation/rubric.md",
+        "docs/evaluation/blind-review/**",
+        "docs/plans/kr-02-2026-10-13.md",
+        "docs/evidence/kr-02/**",
+        "reports/kr-02/**"
+      ],
+      "issue": "https://github.com/kj-squared-labs/reflow-studio/issues/103"
+    },
+    {
+      "id": "JH-01",
+      "file": "jh-01.md",
+      "sha256": "e2ff5c7e9d36dfd4de60fbde3caefb609139542bb3db822a0e49ed09af337d00",
+      "title": "Verify the native Express and viewer contract",
+      "lane": "collaborator",
+      "owner": "Human claimant \u2014 Package B",
+      "parent": 4,
+      "target_date": "2026-10-11",
+      "dependencies": [],
+      "requirements": [
+        {
+          "id": "JH-01-D1",
+          "type": "D",
+          "evidence": [
+            "JH-01-E1"
+          ]
+        },
+        {
+          "id": "JH-01-H1",
+          "type": "H",
+          "evidence": [
+            "JH-01-E1"
+          ]
+        },
+        {
+          "id": "JH-01-V1",
+          "type": "V",
+          "evidence": [
+            "JH-01-E1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "JH-01-E1",
+          "path": "docs/evidence/jh-01/README.md",
+          "assertions": [
+            "Read current official Adobe SDK and challenge/viewer wording. Prepare a minimal native editable-object round-trip probe in the reserved experimental folder, or document exact access/schema blocker. Capture observed editable IDs, text and assets before/after. Keep the unresolved Stage 1 viewer discrepancy visible; no broad UI rewrite or authenticated submission. Runtime access requiring the collaborator stays a named blocker.",
+            "Exact SHA, positive/negative controls, independent review and honest limits"
+          ]
+        }
+      ],
+      "owned_paths": [
+        "docs/express/**",
+        "experimental/addon/**",
+        "docs/plans/jh-01-2026-10-13.md",
+        "docs/evidence/jh-01/**",
+        "reports/jh-01/**"
+      ],
+      "issue": "https://github.com/kj-squared-labs/reflow-studio/issues/104"
+    },
+    {
+      "id": "JH-02",
+      "file": "jh-02.md",
+      "sha256": "e55b2d4960145c94010d3f1fd6ba181de0618e6f8e7270dd6c9cd57dbf32d710",
+      "title": "Independently inspect typography and source fidelity",
+      "lane": "collaborator",
+      "owner": "Human claimant \u2014 Package B",
+      "parent": 3,
+      "target_date": "2026-10-12",
+      "dependencies": [
+        "RF-01"
+      ],
+      "requirements": [
+        {
+          "id": "JH-02-D1",
+          "type": "D",
+          "evidence": [
+            "JH-02-E1"
+          ]
+        },
+        {
+          "id": "JH-02-H1",
+          "type": "H",
+          "evidence": [
+            "JH-02-E1"
+          ]
+        },
+        {
+          "id": "JH-02-V1",
+          "type": "V",
+          "evidence": [
+            "JH-02-E1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "JH-02-E1",
+          "path": "docs/evidence/jh-02/README.md",
+          "assertions": [
+            "Inspect source/output PNGs and RF-01 evidence at native and presentation scales. Verify actual legal-copy visibility, wrapping, rotations and supplied-face rendering; distinguish font-byte correspondence from glyph/line parity. Record reproducible defects with input hashes and images; do not edit engine/helpers to agree with the report. Review the Package A source-fidelity handoff separately for parent #34.",
+            "Exact SHA, positive/negative controls, independent review and honest limits"
+          ]
+        }
+      ],
+      "owned_paths": [
+        "docs/evaluation/typography/**",
+        "docs/plans/jh-02-2026-10-13.md",
+        "docs/evidence/jh-02/**",
+        "reports/jh-02/**"
+      ],
+      "issue": "https://github.com/kj-squared-labs/reflow-studio/issues/105"
+    }
+  ]
+}

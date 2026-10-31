@@ -1,0 +1,8 @@
+[C1_l3_120x600.json] OK in 0.08s -> C1_l3_120x600_output.json, C1_l3_120x600_output.png
+exit 0
+events ['REAL']
+
+STDERR:
+Fontconfig error: Cannot load default config file
+
+EXIT:0

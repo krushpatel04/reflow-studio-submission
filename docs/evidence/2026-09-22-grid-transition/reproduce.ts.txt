@@ -1,0 +1,63 @@
+import assert from 'node:assert/strict';
+import { execFileSync } from 'node:child_process';
+import { mkdirSync, writeFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import { reflow, compareCandidates } from '../src/engine';
+import { rankingTerms } from '../src/ranking';
+import { FIXTURES } from '../src/fixtures';
+import { TARGETS } from '../src/model';
+import { measure, renderPng } from '../scripts/native';
+import { productShelf, longHeadlineProductShelf } from '../tests/support/product-designs';
+import type { Design } from '../src/model';
+
+const base='63393d5';
+const oldPath='reports/transition-old-engine.ts';
+writeFileSync(oldPath,execFileSync('git',['show',`${base}:src/engine.ts`],{encoding:'utf8'}).replaceAll("from './","from '../src/"));
+const { reflow: previous } = await import('./transition-old-engine');
+const out='reports/grid-transition'; mkdirSync(`${out}/images`,{recursive:true});
+const sources=[productShelf(),longHeadlineProductShelf()];
+const pairs=sources.flatMap(source=>[[863,1080],[864,1080],[1350,1080],[1351,1080],[1080,1920],[1920,1080],[2200,500],[-1,0],[1,0]].map(([w,h])=>({source,w:w<0?source.width+w:w,h:h===0?source.height:h})));
+const cases=[...pairs,...FIXTURES.flatMap(source=>TARGETS.map(t=>({source,w:t.width,h:t.height})))];
+const centerMove=(a:Design,b:Design)=>Math.max(...a.elements.map(e=>{const f=b.elements.find(x=>x.id===e.id)!;return Math.hypot((e.x+e.width/2)/a.width-(f.x+f.width/2)/b.width,(e.y+e.height/2)/a.height-(f.y+f.height/2)/b.height)}));
+const rows=cases.map(({source,w,h})=>{
+  const target={id:'review',label:'Review',width:w,height:h};
+  const a=previous(source,target,measure),b=reflow(source,target,measure);
+  if(FIXTURES.includes(source))assert.deepEqual(b.selected,a.selected,'Original selected output must be unchanged');
+  const older=b.candidates.filter(c=>c.strategy!=='group-grid-4');
+  assert.deepEqual(older,a.candidates.filter(c=>c.strategy!=='group-grid-4'));
+  const withoutRow=[...older].sort((x,y)=>compareCandidates(x,y,source))[0];
+  const selected=c=>({strategy:c.strategy,errors:c.metrics.errors,warnings:c.metrics.warnings,minReadingSize:c.metrics.minReadingSize,score:rankingTerms(source,c.design).score,images:c.design.elements.filter(e=>e.type==='image').map(e=>({id:e.id,width:e.width,height:e.height,fit:e.fit}))});
+  return {source:source.id,w,h,previous:selected(a.selected),current:selected(b.selected),ablation:selected(withoutRow),
+    selectedMovement:centerMove(a.selected.design,b.selected.design),candidates:b.candidates.map(selected),currentElapsedMs:b.elapsedMs};
+});
+for(const source of sources)for(const w of [1350,1351]){
+  const t={id:'review',label:'Review',width:w,height:1080};
+  const a=previous(source,t,measure),b=reflow(source,t,measure);
+  const name=`${source.id}-${w}`;
+  writeFileSync(`${out}/images/${name}-before.png`,renderPng(a.selected.design));
+  writeFileSync(`${out}/images/${name}-after.png`,renderPng(b.selected.design));
+}
+const runtime=[];
+for(const {source,w,h} of cases){const t={id:'review',label:'Review',width:w,height:h}; previous(source,t,measure);reflow(source,t,measure)}
+for(let round=0;round<3;round++)for(const [i,{source,w,h}] of cases.entries()){
+  const t={id:'review',label:'Review',width:w,height:h};
+  const run=(engine:typeof reflow)=>{let calls=0;const r=engine(source,t,(s,e)=>{calls++;return measure(s,e)});return {ms:r.elapsedMs,calls}};
+  const oldFirst=(round+i)%2===0;
+  const first=run(oldFirst?previous:reflow),second=run(oldFirst?reflow:previous);
+  runtime.push({source:source.id,w,h,round,previous:oldFirst?first:second,current:oldFirst?second:first});
+}
+const median=a=>[...a].sort((x,y)=>x-y)[Math.floor(a.length/2)];
+const summary={caseCount:rows.length,originalCases:rows.filter(r=>FIXTURES.some(f=>f.id===r.source)).length,
+  changes:rows.filter(r=>r.previous.strategy!==r.current.strategy).map(r=>({source:r.source,w:r.w,h:r.h,from:r.previous.strategy,to:r.current.strategy,movement:r.selectedMovement,warnings:[r.previous.warnings,r.current.warnings]})),
+  originalErrors:rows.filter(r=>FIXTURES.some(f=>f.id===r.source)).reduce((n,r)=>n+r.current.errors,0),
+  originalWarnings:rows.filter(r=>FIXTURES.some(f=>f.id===r.source)).reduce((n,r)=>n+r.current.warnings,0),
+  adjacent:sources.flatMap(source=>[[863,864],[1350,1351]].map(([left,right])=>{
+    const t=w=>({id:'review',label:'Review',width:w,height:1080});
+    const oldA=previous(source,t(left),measure),oldB=previous(source,t(right),measure);
+    const newA=reflow(source,t(left),measure),newB=reflow(source,t(right),measure);
+    return {source:source.id,widths:[left,right],previousStrategies:[oldA.selected.strategy,oldB.selected.strategy],currentStrategies:[newA.selected.strategy,newB.selected.strategy],
+      previousMovement:centerMove(oldA.selected.design,oldB.selected.design),currentMovement:centerMove(newA.selected.design,newB.selected.design)};
+  })),
+  runtime:{pairs:runtime.length,previousMedianMs:median(runtime.map(r=>r.previous.ms)),currentMedianMs:median(runtime.map(r=>r.current.ms)),previousCalls:runtime.reduce((n,r)=>n+r.previous.calls,0),currentCalls:runtime.reduce((n,r)=>n+r.current.calls,0)}};
+writeFileSync(`${out}/review.json`,JSON.stringify({base,generatedAt:new Date().toISOString(),node:process.version,method:'Paired old/current native measurement after one warmup and 3 alternating rounds; report generation and font load excluded. Original fixtures plus two authored development cases. Ablation removes the newly enabled grid row; no held-out or human quality claims.',summary,rows,runtime},null,2));
+console.log(JSON.stringify(summary,null,2));

@@ -1,0 +1,28 @@
+{
+  "head": "2fd7a89afbde50ae2e2ae886861adb2b7d4cbf1a",
+  "platform": "macOS-15.4-arm64-arm-64bit",
+  "python": "3.11.11 (main, Dec  3 2024, 17:20:40) [Clang 16.0.0 (clang-1600.0.26.4)]",
+  "modules": {
+    "committed": {
+      "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "composition.py": "fceda32e0f0169bc9a9874c46d2f90353a8d55e9145e7596ce67c5bc3afa9414",
+      "resize.py": "3cf5e555f6f54f39a21dce5bffd373a29bfe5d25da4d388b783f08c2963929e8",
+      "text_fit.py": "330b4bd1e86675f6fd4d532f7073ceb4c195a97f63a0701a385ebd4f2fb1a249"
+    },
+    "candidate": {
+      "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "composition.py": "fceda32e0f0169bc9a9874c46d2f90353a8d55e9145e7596ce67c5bc3afa9414",
+      "resize.py": "3cf5e555f6f54f39a21dce5bffd373a29bfe5d25da4d388b783f08c2963929e8",
+      "text_fit.py": "fede1c58a8f04d605a1c15543f7ae99787f58ebe5cc6d2eca1000a0e868dae18"
+    },
+    "floor_stop": {
+      "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "composition.py": "fceda32e0f0169bc9a9874c46d2f90353a8d55e9145e7596ce67c5bc3afa9414",
+      "resize.py": "3cf5e555f6f54f39a21dce5bffd373a29bfe5d25da4d388b783f08c2963929e8",
+      "text_fit.py": "0bab2e390f9d35d0cd7c8f777f52b45ddc8d83bc96cbd3828b733a56f69efc3d"
+    }
+  },
+  "scope": "Local native Python resize only; per-call Pillow cache cleared, Python/native libraries warmed. No Docker/startup/render included. Floor-stop is an isolated diagnostic prototype, not production.",
+  "timings": {},
+  "quality": []
+}

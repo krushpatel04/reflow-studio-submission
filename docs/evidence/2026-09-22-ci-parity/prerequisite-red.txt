@@ -1,0 +1,30 @@
+✖ browser command generates current native parity data in a clean checkout and replaces stale data (771.151542ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1180.26275
+
+✖ failing tests:
+
+test at tests/browser-prerequisites.test.ts:7:1
+✖ browser command generates current native parity data in a clean checkout and replaces stale data (771.151542ms)
+  AssertionError [ERR_ASSERTION]: browser command must generate its native reference from empty reports
+      at TestContext.<anonymous> (/Users/ojeda/Documents/ChatGPT/Reflow/tests/browser-prerequisites.test.ts:23:12)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '',
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+npm notice
+npm notice New major version of npm available! 11.19.0 -> 12.0.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2
+npm notice To update run: npm install -g npm@12.0.2
+npm notice

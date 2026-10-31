@@ -1,0 +1,342 @@
+[
+  {
+    "variant": "candidate",
+    "instrumented_s": 39.22777112503536,
+    "output_hash": "fd9eac2e933c586aff7553d9bc98bb474d397415d73aaba2ed35f38ca2c465ac",
+    "warnings": [
+      "text_fit: no candidate meets the floor for ids text-000,text-001,text-002,text-003,text-004,text-005,text-006,text-007,text-008,text-009,text-010,text-011,text-012,text-013,text-014,text-015,text-016,text-017,text-018,text-019,text-020,text-021,text-022,text-023,text-024,text-025,text-026,text-027,text-028,text-029,text-030,text-031,text-032,text-033,text-034,text-035,text-036,text-037,text-038,text-039,text-040,text-041,text-042,text-043,text-044,text-045,text-046,text-047,text-048,text-049,text-050,text-051,text-052,text-053,text-054,text-055,text-056,text-057,text-058,text-059,text-060,text-061,text-062,text-063,text-064,text-065,text-066,text-067,text-068,text-069,text-070,text-071,text-072,text-073,text-074,text-075,text-076,text-077,text-078,text-079,text-080,text-081,text-082,text-083,text-084,text-085,text-086,text-087,text-088,text-089,text-090,text-091,text-092,text-093,text-094,text-095,text-096,text-097,text-098,text-099"
+    ],
+    "top": [
+      {
+        "file": "resize.py",
+        "line": 122,
+        "function": "resize",
+        "calls": 1,
+        "self_s": 0.00027990700000000003,
+        "cumulative_s": 39.227723125000004
+      },
+      {
+        "file": "text_fit.py",
+        "line": 536,
+        "function": "refit",
+        "calls": 1,
+        "self_s": 9.795600000000001e-05,
+        "cumulative_s": 39.223416291
+      },
+      {
+        "file": "text_fit.py",
+        "line": 239,
+        "function": "_texts",
+        "calls": 1,
+        "self_s": 0.31012016200000003,
+        "cumulative_s": 39.220840875
+      },
+      {
+        "file": "text_fit.py",
+        "line": 124,
+        "function": "_block_widths",
+        "calls": 97600,
+        "self_s": 23.788198783000002,
+        "cumulative_s": 25.104454938
+      },
+      {
+        "file": "text_fit.py",
+        "line": 118,
+        "function": "_block",
+        "calls": 48800,
+        "self_s": 0.410660277,
+        "cumulative_s": 21.967317121
+      },
+      {
+        "file": "text_fit.py",
+        "line": 120,
+        "function": "<dictcomp>",
+        "calls": 48800,
+        "self_s": 0.165442679,
+        "cumulative_s": 7.275308569000001
+      },
+      {
+        "file": "ImageFont.py",
+        "line": 326,
+        "function": "getlength",
+        "calls": 771528,
+        "self_s": 0.27734863800000004,
+        "cumulative_s": 7.10986589
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<method 'getlength' of 'Font' objects>",
+        "calls": 771528,
+        "self_s": 6.644741649,
+        "cumulative_s": 6.644741649
+      },
+      {
+        "file": "text_fit.py",
+        "line": 148,
+        "function": "_renderer_widths",
+        "calls": 24400,
+        "self_s": 0.171686797,
+        "cumulative_s": 4.179974564
+      },
+      {
+        "file": "text_fit.py",
+        "line": 121,
+        "function": "<listcomp>",
+        "calls": 48800,
+        "self_s": 1.6799545930000002,
+        "cumulative_s": 1.6799545930000002
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<built-in method skia.MakeFromData>",
+        "calls": 24400,
+        "self_s": 1.3847647410000001,
+        "cumulative_s": 1.3847647410000001
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<built-in method builtins.sum>",
+        "calls": 1654576,
+        "self_s": 0.756674929,
+        "cumulative_s": 1.2393928410000001
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<built-in method skia.getWidths>",
+        "calls": 24400,
+        "self_s": 1.1378196250000001,
+        "cumulative_s": 1.1378196250000001
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<built-in method skia.textToGlyphs>",
+        "calls": 24400,
+        "self_s": 0.580898236,
+        "cumulative_s": 0.580898236
+      },
+      {
+        "file": "text_fit.py",
+        "line": 133,
+        "function": "<genexpr>",
+        "calls": 4893026,
+        "self_s": 0.482717912,
+        "cumulative_s": 0.482717912
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<built-in method io.open>",
+        "calls": 24400,
+        "self_s": 0.45153692,
+        "cumulative_s": 0.45153692
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<method 'read' of '_io.BufferedReader' objects>",
+        "calls": 24427,
+        "self_s": 0.29018682,
+        "cumulative_s": 0.29018682
+      },
+      {
+        "file": "ImageFont.py",
+        "line": 73,
+        "function": "_string_length_check",
+        "calls": 771528,
+        "self_s": 0.14598443800000002,
+        "cumulative_s": 0.187775603
+      },
+      {
+        "file": "<frozen importlib._bootstrap>",
+        "line": 1165,
+        "function": "_find_and_load",
+        "calls": 41,
+        "self_s": 0.000129591,
+        "cumulative_s": 0.17375041600000002
+      },
+      {
+        "file": "<frozen importlib._bootstrap>",
+        "line": 1120,
+        "function": "_find_and_load_unlocked",
+        "calls": 41,
+        "self_s": 7.4542e-05,
+        "cumulative_s": 0.173677042
+      }
+    ]
+  },
+  {
+    "variant": "floor_stop",
+    "instrumented_s": 5.19214199995622,
+    "output_hash": "fd9eac2e933c586aff7553d9bc98bb474d397415d73aaba2ed35f38ca2c465ac",
+    "warnings": [
+      "text_fit: no candidate meets the floor for ids text-000,text-001,text-002,text-003,text-004,text-005,text-006,text-007,text-008,text-009,text-010,text-011,text-012,text-013,text-014,text-015,text-016,text-017,text-018,text-019,text-020,text-021,text-022,text-023,text-024,text-025,text-026,text-027,text-028,text-029,text-030,text-031,text-032,text-033,text-034,text-035,text-036,text-037,text-038,text-039,text-040,text-041,text-042,text-043,text-044,text-045,text-046,text-047,text-048,text-049,text-050,text-051,text-052,text-053,text-054,text-055,text-056,text-057,text-058,text-059,text-060,text-061,text-062,text-063,text-064,text-065,text-066,text-067,text-068,text-069,text-070,text-071,text-072,text-073,text-074,text-075,text-076,text-077,text-078,text-079,text-080,text-081,text-082,text-083,text-084,text-085,text-086,text-087,text-088,text-089,text-090,text-091,text-092,text-093,text-094,text-095,text-096,text-097,text-098,text-099"
+    ],
+    "top": [
+      {
+        "file": "resize.py",
+        "line": 122,
+        "function": "resize",
+        "calls": 1,
+        "self_s": 0.000312176,
+        "cumulative_s": 5.191948416000001
+      },
+      {
+        "file": "text_fit.py",
+        "line": 540,
+        "function": "refit",
+        "calls": 1,
+        "self_s": 0.000105791,
+        "cumulative_s": 5.1861070830000005
+      },
+      {
+        "file": "text_fit.py",
+        "line": 239,
+        "function": "_texts",
+        "calls": 1,
+        "self_s": 0.041690782,
+        "cumulative_s": 5.183459791000001
+      },
+      {
+        "file": "text_fit.py",
+        "line": 124,
+        "function": "_block_widths",
+        "calls": 12800,
+        "self_s": 3.1196174950000004,
+        "cumulative_s": 3.329882125
+      },
+      {
+        "file": "text_fit.py",
+        "line": 118,
+        "function": "_block",
+        "calls": 6400,
+        "self_s": 0.053167172000000006,
+        "cumulative_s": 2.9037033730000004
+      },
+      {
+        "file": "text_fit.py",
+        "line": 120,
+        "function": "<dictcomp>",
+        "calls": 6400,
+        "self_s": 0.022300142000000002,
+        "cumulative_s": 0.959082796
+      },
+      {
+        "file": "ImageFont.py",
+        "line": 326,
+        "function": "getlength",
+        "calls": 101184,
+        "self_s": 0.036121419,
+        "cumulative_s": 0.936782654
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<method 'getlength' of 'Font' objects>",
+        "calls": 101184,
+        "self_s": 0.8759936150000001,
+        "cumulative_s": 0.8759936150000001
+      },
+      {
+        "file": "text_fit.py",
+        "line": 148,
+        "function": "_renderer_widths",
+        "calls": 3200,
+        "self_s": 0.023058762,
+        "cumulative_s": 0.5300753380000001
+      },
+      {
+        "file": "text_fit.py",
+        "line": 121,
+        "function": "<listcomp>",
+        "calls": 6400,
+        "self_s": 0.21779056100000002,
+        "cumulative_s": 0.21779056100000002
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<built-in method builtins.sum>",
+        "calls": 302228,
+        "self_s": 0.11749644100000001,
+        "cumulative_s": 0.198613957
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<built-in method skia.MakeFromData>",
+        "calls": 3200,
+        "self_s": 0.176259315,
+        "cumulative_s": 0.176259315
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<built-in method skia.getWidths>",
+        "calls": 3200,
+        "self_s": 0.14601775,
+        "cumulative_s": 0.14601775
+      },
+      {
+        "file": "text_fit.py",
+        "line": 133,
+        "function": "<genexpr>",
+        "calls": 852306,
+        "self_s": 0.081117516,
+        "cumulative_s": 0.081117516
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<built-in method skia.textToGlyphs>",
+        "calls": 3200,
+        "self_s": 0.075823655,
+        "cumulative_s": 0.075823655
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<built-in method io.open>",
+        "calls": 3200,
+        "self_s": 0.062094794,
+        "cumulative_s": 0.062094794
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<method 'read' of '_io.BufferedReader' objects>",
+        "calls": 3201,
+        "self_s": 0.044662047,
+        "cumulative_s": 0.044662047
+      },
+      {
+        "file": "ImageFont.py",
+        "line": 73,
+        "function": "_string_length_check",
+        "calls": 101184,
+        "self_s": 0.018885989000000002,
+        "cumulative_s": 0.02466762
+      },
+      {
+        "file": "text_fit.py",
+        "line": 35,
+        "function": "_font",
+        "calls": 8,
+        "self_s": 4.8583000000000006e-05,
+        "cumulative_s": 0.02241604
+      },
+      {
+        "file": "ImageFont.py",
+        "line": 808,
+        "function": "truetype",
+        "calls": 8,
+        "self_s": 6.750000000000001e-06,
+        "cumulative_s": 0.022357999
+      }
+    ]
+  }
+]

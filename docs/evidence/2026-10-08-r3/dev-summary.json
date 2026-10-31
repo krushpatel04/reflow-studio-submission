@@ -1,0 +1,17 @@
+{
+  "absent_face_warning_tasks": 0,
+  "bound": 224,
+  "exceptions": 0,
+  "geometry_changed_vs_a305c22": 49,
+  "geometry_unchanged_vs_a305c22": 175,
+  "hash_differs_over_measured": 0,
+  "hash_equal_over_measured": 52,
+  "max_abs_geometry_delta": 1464.205966,
+  "measured_nonempty_metrics": 52,
+  "not_measured": 172,
+  "note": "geometry delta is an engine-to-engine difference (engine changes since a305c22), not a regression or improvement",
+  "old_run_tasks_with_metrics": 52,
+  "real_render_success": 224,
+  "split": "development",
+  "tasks": 224
+}

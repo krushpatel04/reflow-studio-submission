@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "long-headline",
+  "name": "A headline with more to say",
+  "description": "A long title needs real wrapping without losing words or flattening the hierarchy.",
+  "provenance": "synthetic",
+  "width": 1200,
+  "height": 900,
+  "background": "#f4ddcf",
+  "elements": [
+    {
+      "id": "eyebrow",
+      "type": "text",
+      "role": "content",
+      "text": "IDEAS WORTH BUILDING",
+      "x": 65,
+      "y": 50,
+      "width": 1060,
+      "height": 48,
+      "fontSize": 30,
+      "color": "#172b25",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "headline",
+      "type": "text",
+      "role": "content",
+      "text": "The future belongs to people who make things together.",
+      "x": 65,
+      "y": 142,
+      "width": 1060,
+      "height": 330,
+      "fontSize": 84,
+      "color": "#382922",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "body",
+      "type": "text",
+      "role": "content",
+      "text": "An evening of stories, experiments, and unfinished ideas. Bring something you are curious about.",
+      "x": 65,
+      "y": 545,
+      "width": 615,
+      "height": 160,
+      "fontSize": 35,
+      "color": "#382922",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "hero",
+      "type": "image",
+      "role": "content",
+      "assetId": "orbit",
+      "x": 760,
+      "y": 525,
+      "width": 365,
+      "height": 285,
+      "fit": "cover",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "details",
+      "type": "text",
+      "role": "content",
+      "text": "THURSDAY · 6:30 PM\nTHE DESIGN LAB",
+      "x": 65,
+      "y": 756,
+      "width": 620,
+      "height": 92,
+      "fontSize": 29,
+      "color": "#382922",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    }
+  ],
+  "groups": []
+}

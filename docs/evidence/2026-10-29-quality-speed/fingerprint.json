@@ -1,0 +1,22 @@
+{
+  "base_image_digest": "sha256:e529028263dbe6910a2d96f7d2b8f5266385e917fd45d286ef166977c094a51e",
+  "files": {
+    "Dockerfile.python-submission": "27408ff506d4dc1b63e254895c0b78dad9ea21709098d5b7f381365c40366b92",
+    "constraints-python-submission.txt": "77d3fe8e375b3616a5e4fd09e0c6dacab5571df0de25c25230d9a5dc2a00b26b",
+    "engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "engine/composition.py": "fceda32e0f0169bc9a9874c46d2f90353a8d55e9145e7596ce67c5bc3afa9414",
+    "engine/resize.py": "3cf5e555f6f54f39a21dce5bffd373a29bfe5d25da4d388b783f08c2963929e8",
+    "engine/text_fit.py": "fede1c58a8f04d605a1c15543f7ae99787f58ebe5cc6d2eca1000a0e868dae18",
+    "requirements-python-submission.txt": "b7fb1a494511fa37c79753fc82e4f222d9666da5813610c6bb2b85c80d7a96e1",
+    "submission/assemble_context.sh": "0f1fbd7e3762e92bee92f5c2718515d9abbaf5e3a3376276e6b5ab8271bedc87"
+  },
+  "git_dirty": true,
+  "git_head": "2fd7a89afbde50ae2e2ae886861adb2b7d4cbf1a",
+  "inputs": {
+    "chameleon_sample_level1_warmup.json": "79f889a1b0ec616b3f75de7b0d7fe4b92dcfb027e99b512a019a7aa941000ea6",
+    "chameleon_sample_level2_core.json": "c37407fa20aefb8e1c53a3476b99973000657c3c1d93fc9637e462703955a04b",
+    "chameleon_sample_level3_advanced.json": "fd99e3972c9c11c506d98897f3cb9520a5caea10b358d30e6853b9efca58cf33"
+  },
+  "schema_version": 1,
+  "upstream_pin": "a44a06046b0413f0785e7203955c3822e0acbc32"
+}

@@ -1,0 +1,35 @@
+FF
+======================================================================
+FAIL: test_l3_728x90_labels_inside_plates (tests_python.test_text_fit.GroupContainment.test_l3_728x90_labels_inside_plates)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py", line 166, in test_l3_728x90_labels_inside_plates
+    self.assertEqual(self.inside(resize(t["source"], t["target_canvas"])), [])
+AssertionError: Lists differ: ['badge1_label', 'badge2_label', 'badge3_label', 'cta_label', 'ribbon_label'] != []
+
+First list contains 5 additional elements.
+First extra element 0:
+'badge1_label'
+
+- ['badge1_label', 'badge2_label', 'badge3_label', 'cta_label', 'ribbon_label']
++ []
+
+======================================================================
+FAIL: test_l3_narrow_target_labels_inside_plates (tests_python.test_text_fit.GroupContainment.test_l3_narrow_target_labels_inside_plates)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py", line 170, in test_l3_narrow_target_labels_inside_plates
+    self.assertEqual(self.inside(resize(t["source"], {"width": 120, "height": 600})), [])
+AssertionError: Lists differ: ['badge1_label', 'badge2_label', 'badge3_label', 'cta_label', 'ribbon_label'] != []
+
+First list contains 5 additional elements.
+First extra element 0:
+'badge1_label'
+
+- ['badge1_label', 'badge2_label', 'badge3_label', 'cta_label', 'ribbon_label']
++ []
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.103s
+
+FAILED (failures=2)

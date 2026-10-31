@@ -1,0 +1,16 @@
+F
+======================================================================
+FAIL: test_retry_cap_is_pinned_to_tw_minus_3_over_1_02 (tests_python.test_text_fit.WrapCapPadding.test_retry_cap_is_pinned_to_tw_minus_3_over_1_02)
+P13: constant-width fake font (1px per char at any size). A forces the padded-cap retry (first attempt box > tw); B sits between the
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py", line 562, in test_retry_cap_is_pinned_to_tw_minus_3_over_1_02
+    self.assertAlmostEqual(b["height"], 1 * FLOOR * LINE_H)          # B one line: exact retry cap
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 14.399999999999999 != 7.199999999999999 within 7 places (7.199999999999999 difference)
+
+----------------------------------------------------------------------
+Ran 1 test in 0.011s
+
+FAILED (failures=1)
+exit 1

@@ -1,0 +1,67 @@
+{
+  "id": "UB-ACCEPTANCE-01",
+  "algorithm": "SHA256",
+  "local_files": [
+    {
+      "path": "plan.md",
+      "bytes": 6991,
+      "sha256": "fecad691be9663f8bdf5d3e9528b0ec0fe59fc9bccf3009bb58baf37c3efbe31",
+      "verification": "locally computed exact file bytes; contents/provenance not implied"
+    },
+    {
+      "path": "provenance-readiness.md",
+      "bytes": 8563,
+      "sha256": "1e26779fed5dd942084cfe8e4414c90ba849ab4033143de7b639fb802b47aef7",
+      "verification": "locally computed exact file bytes; contents/provenance not implied"
+    },
+    {
+      "path": "rebuild-contract.json",
+      "bytes": 6341,
+      "sha256": "edf2452728470af62dcecc32019c82ce6150f4fdba0c2e8e8f3dd62f00e456a3",
+      "verification": "locally computed exact file bytes; contents/provenance not implied"
+    }
+  ],
+  "self_hash_note": "evidence-hashes.json excluded to avoid self-reference; exact hash supplied separately in review handoff",
+  "sender_reported_not_reverified": {
+    "UB01_packet_sha256": "743a9c7424ca6e58570102c6a9027eb754eaa9395a69828bd2728424e1159b03",
+    "archive_sha256": "5a57c941aeee7da7e5629703732e39eef5ebacdbb3910d7bbbb9313554c54d51",
+    "original_inputs": [
+      {
+        "source_id": "0qOFrrbBaTnaYeRoIlZE",
+        "sha256": "b515df44fca7bbf35db2f77092ce237f13495aafd01dc017a18b2cddf61e412d"
+      },
+      {
+        "source_id": "0vxUdcOKbvrSVNSxRY4w",
+        "sha256": "a69e7db5a24f4bbe3bda682115afe92d2c1e8c794026d4c0cad77a0f4619b518"
+      },
+      {
+        "source_id": "3jmFr3CGhibT4vc3KjI1",
+        "sha256": "b82319b5bf5aca7c8b0ffa2dcedc50e0ab84c33ef060f30a08b0e59c1e999990"
+      }
+    ]
+  },
+  "unknown_hashes": [
+    "21-task manifest",
+    "converted JSON",
+    "raster/renderer outputs",
+    "complete box/alias mapping",
+    "34 resource blob manifest",
+    "font/runtime manifest",
+    "human acceptance receipts",
+    "future rebuilt outputs"
+  ],
+  "source_labels": {
+    "current_local_HEAD": "bb829dbc7e261231dbcdbf4e1acde1b94d7536b9",
+    "historical_tested_source": "75f0ac1218b00a62f44b2b0aca4884b1e0f2a677",
+    "historical_main_observed": "1fc3667af08c6b23d33dae972cef8eba448854c3; resource/rasterizer/batch/test parity verified",
+    "owner_reported_bootstrap": "source/bootstrap and coordinator ACK complete; independent scoped-export readback",
+    "operational_receipts_locally_reproduced": false
+  },
+  "private_source_packet": {
+    "id": "UB-ACCEPTANCE-02",
+    "bytes": 2555,
+    "sha256": "c42f6390237aad37dc2f5904eb83038a49ce487a8e0ea538830a4674f8ccdcf2",
+    "included_in_public_snapshot": false,
+    "verification": "exact private source packet bytes locally checked; provenance reference only"
+  }
+}

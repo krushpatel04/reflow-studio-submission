@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "cli-example",
+  "name": "CLI example",
+  "description": "Small provisional editable design",
+  "provenance": "authored example",
+  "width": 600,
+  "height": 400,
+  "background": "#ffffff",
+  "groups": [],
+  "elements": [
+    {
+      "id": "headline",
+      "type": "text",
+      "role": "content",
+      "text": "A new size, same message",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 44,
+      "lineHeight": 1.15,
+      "color": "#172b25",
+      "x": 32,
+      "y": 120,
+      "width": 536,
+      "height": 120
+    }
+  ]
+}

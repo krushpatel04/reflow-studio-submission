@@ -1,0 +1,22 @@
+{
+  "run_id": 38754766602,
+  "url": "https://github.com/kj-squared-labs/reflow-studio/actions/runs/38754766602",
+  "source": "3fdd1b38ebd6dec6003068d88a01e067b222d5a8",
+  "platform": "ubuntu-24.04 github-hosted; Python3.11",
+  "python_tests": 436,
+  "python_failures": 1,
+  "python_failure": "test_submission_files.ContextEngineInterface.test_engine_imports_are_stdlib_plus_declared_requirements rejects direct skia import",
+  "legal_and_wrap_tests": "all pass, including all14 public text elements unclipped",
+  "L3_Linux_expected_hash": "f00cb4a1b724f6fb64eaa653e687ac79f3d0ebb91717a6881b30c31099d9646b passed",
+  "workbench_job": "success",
+  "container_smoke_job": "success; TypeScript image, not canonical Python qualification",
+  "artifact_hashes": {
+    "tests.log": "0e5ac20dedd07fcdbb864d9b909a5a763d97b630ec5a319d1a3e0cbddf3a60a1",
+    "features.log": "a84ccf4bab9c1843c41d98facaaa84b40fd8f7f5b476bcd2d14131ac212388df"
+  },
+  "limits": [
+    "Full Python gate failed",
+    "No Python submission-image qualification in this workflow",
+    "Linux actual PNG retention awaits B qualification"
+  ]
+}

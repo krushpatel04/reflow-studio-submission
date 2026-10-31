@@ -1,0 +1,57 @@
+{
+  "canvas": {
+    "width": 300,
+    "height": 250
+  },
+  "elements": [
+    {
+      "id": "bg",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "x": 0,
+      "y": 0,
+      "width": 300,
+      "height": 250,
+      "fill_color": "rgba(255,255,255,1)"
+    },
+    {
+      "id": "ribbon_bg",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "x": 50.0,
+      "y": 75.0,
+      "width": 200.0,
+      "height": 50.0,
+      "fill_color": "rgba(200,50,50,1)",
+      "group_id": "ribbon",
+      "rotation": -12
+    },
+    {
+      "id": "ribbon_label",
+      "type": "text",
+      "x": 52.5,
+      "y": 77.5,
+      "width": 195.0,
+      "height": 45.0,
+      "content": "Rotated Group Ribbon",
+      "font_family": "Solstice Sans",
+      "font_size": 12.0,
+      "color": "rgba(0,0,0,1)",
+      "group_id": "ribbon",
+      "rotation": -12,
+      "font_weight": "bold"
+    },
+    {
+      "id": "h",
+      "type": "text",
+      "x": 50.0,
+      "y": 150.0,
+      "width": 200.0,
+      "height": 37.5,
+      "content": "Ungrouped headline text",
+      "font_family": "Solstice Sans",
+      "font_size": 15.0,
+      "color": "rgba(0,0,0,1)"
+    }
+  ]
+}

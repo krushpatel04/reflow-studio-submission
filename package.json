@@ -1,0 +1,48 @@
+{
+  "name": "reflow-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "test": "tsx --test tests/*.test.ts",
+    "benchmark": "tsx scripts/benchmark.ts",
+    "verify": "tsx scripts/verify.ts",
+    "font-parity": "tsx scripts/font-parity.ts",
+    "crop-parity": "tsx scripts/crop-parity.ts",
+    "defect-pack": "tsx scripts/defect-pack.ts",
+    "preverify:browser": "npm run font-parity && npm run crop-parity && npm run defect-pack",
+    "verify:browser": "playwright test",
+    "ci:environment": "node scripts/ci-environment.mjs",
+    "review:probes": "tsx scripts/adversarial-probes.ts",
+    "review:stability": "tsx scripts/stability.ts",
+    "review:stability-runtime": "tsx scripts/stability-runtime.ts",
+    "review:stress": "tsx scripts/adversarial-stress.ts",
+    "review:measurements": "tsx scripts/measurement-review.ts",
+    "review:products": "tsx scripts/product-grid-review.ts",
+    "corpus:check": "tsx scripts/corpus-check.ts",
+    "corpus:preflight": "tsx scripts/corpus-preflight.ts",
+    "corpus:import-lica": "tsx scripts/lica-import.ts",
+    "reflow:cli": "node --import tsx scripts/reflow-cli.ts",
+    "official:cli": "node --import tsx scripts/official-cli.ts",
+    "assist": "tsx scripts/copilot-assist.ts"
+  },
+  "engines": {
+    "node": ">=22.12"
+  },
+  "dependencies": {
+    "@fontsource/inter": "5.3.0",
+    "@fontsource/source-serif-4": "5.3.0",
+    "@napi-rs/canvas": "1.0.9",
+    "@spectrum-web-components/button": "1.12.2",
+    "@spectrum-web-components/theme": "1.12.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/node": "26.6.0",
+    "tsx": "4.23.13",
+    "typescript": "7.0.2",
+    "vite": "8.3.5"
+  }
+}

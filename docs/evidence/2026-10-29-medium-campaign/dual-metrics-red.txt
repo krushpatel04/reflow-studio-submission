@@ -1,0 +1,148 @@
+======================================================================
+FAIL: test_all_medium_text_fits_independent_basic_metrics (tests_python.test_campaign_medium.MediumCampaign.test_all_medium_text_fits_independent_basic_metrics) (target=(300, 250), element='headline')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 46, in test_all_medium_text_fits_independent_basic_metrics
+    self.assertFalse(overflow(e), 'independent BASIC metric overflow')
+AssertionError: True is not false : independent BASIC metric overflow
+
+======================================================================
+FAIL: test_all_medium_text_fits_independent_basic_metrics (tests_python.test_campaign_medium.MediumCampaign.test_all_medium_text_fits_independent_basic_metrics) (target=(300, 250), element='subhead')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 46, in test_all_medium_text_fits_independent_basic_metrics
+    self.assertFalse(overflow(e), 'independent BASIC metric overflow')
+AssertionError: True is not false : independent BASIC metric overflow
+
+======================================================================
+FAIL: test_all_medium_text_fits_independent_basic_metrics (tests_python.test_campaign_medium.MediumCampaign.test_all_medium_text_fits_independent_basic_metrics) (target=(300, 250), element='badge1_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 46, in test_all_medium_text_fits_independent_basic_metrics
+    self.assertFalse(overflow(e), 'independent BASIC metric overflow')
+AssertionError: True is not false : independent BASIC metric overflow
+
+======================================================================
+FAIL: test_all_medium_text_fits_independent_basic_metrics (tests_python.test_campaign_medium.MediumCampaign.test_all_medium_text_fits_independent_basic_metrics) (target=(300, 250), element='badge2_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 46, in test_all_medium_text_fits_independent_basic_metrics
+    self.assertFalse(overflow(e), 'independent BASIC metric overflow')
+AssertionError: True is not false : independent BASIC metric overflow
+
+======================================================================
+FAIL: test_all_medium_text_fits_independent_basic_metrics (tests_python.test_campaign_medium.MediumCampaign.test_all_medium_text_fits_independent_basic_metrics) (target=(300, 250), element='badge3_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 46, in test_all_medium_text_fits_independent_basic_metrics
+    self.assertFalse(overflow(e), 'independent BASIC metric overflow')
+AssertionError: True is not false : independent BASIC metric overflow
+
+======================================================================
+FAIL: test_all_medium_text_fits_independent_basic_metrics (tests_python.test_campaign_medium.MediumCampaign.test_all_medium_text_fits_independent_basic_metrics) (target=(300, 250), element='cta_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 46, in test_all_medium_text_fits_independent_basic_metrics
+    self.assertFalse(overflow(e), 'independent BASIC metric overflow')
+AssertionError: True is not false : independent BASIC metric overflow
+
+======================================================================
+FAIL: test_all_medium_text_fits_independent_basic_metrics (tests_python.test_campaign_medium.MediumCampaign.test_all_medium_text_fits_independent_basic_metrics) (target=(300, 250), element='ribbon_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 46, in test_all_medium_text_fits_independent_basic_metrics
+    self.assertFalse(overflow(e), 'independent BASIC metric overflow')
+AssertionError: True is not false : independent BASIC metric overflow
+
+======================================================================
+FAIL: test_all_medium_text_fits_independent_basic_metrics (tests_python.test_campaign_medium.MediumCampaign.test_all_medium_text_fits_independent_basic_metrics) (target=(320, 250), element='headline')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 46, in test_all_medium_text_fits_independent_basic_metrics
+    self.assertFalse(overflow(e), 'independent BASIC metric overflow')
+AssertionError: True is not false : independent BASIC metric overflow
+
+======================================================================
+FAIL: test_all_medium_text_fits_independent_basic_metrics (tests_python.test_campaign_medium.MediumCampaign.test_all_medium_text_fits_independent_basic_metrics) (target=(320, 250), element='badge1_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 46, in test_all_medium_text_fits_independent_basic_metrics
+    self.assertFalse(overflow(e), 'independent BASIC metric overflow')
+AssertionError: True is not false : independent BASIC metric overflow
+
+======================================================================
+FAIL: test_all_medium_text_fits_independent_basic_metrics (tests_python.test_campaign_medium.MediumCampaign.test_all_medium_text_fits_independent_basic_metrics) (target=(320, 250), element='badge2_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 46, in test_all_medium_text_fits_independent_basic_metrics
+    self.assertFalse(overflow(e), 'independent BASIC metric overflow')
+AssertionError: True is not false : independent BASIC metric overflow
+
+======================================================================
+FAIL: test_all_medium_text_fits_independent_basic_metrics (tests_python.test_campaign_medium.MediumCampaign.test_all_medium_text_fits_independent_basic_metrics) (target=(320, 250), element='badge3_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 46, in test_all_medium_text_fits_independent_basic_metrics
+    self.assertFalse(overflow(e), 'independent BASIC metric overflow')
+AssertionError: True is not false : independent BASIC metric overflow
+
+======================================================================
+FAIL: test_all_medium_text_fits_independent_basic_metrics (tests_python.test_campaign_medium.MediumCampaign.test_all_medium_text_fits_independent_basic_metrics) (target=(320, 250), element='cta_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 46, in test_all_medium_text_fits_independent_basic_metrics
+    self.assertFalse(overflow(e), 'independent BASIC metric overflow')
+AssertionError: True is not false : independent BASIC metric overflow
+
+======================================================================
+FAIL: test_all_medium_text_fits_independent_basic_metrics (tests_python.test_campaign_medium.MediumCampaign.test_all_medium_text_fits_independent_basic_metrics) (target=(320, 250), element='ribbon_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 46, in test_all_medium_text_fits_independent_basic_metrics
+    self.assertFalse(overflow(e), 'independent BASIC metric overflow')
+AssertionError: True is not false : independent BASIC metric overflow
+
+======================================================================
+FAIL: test_all_medium_text_fits_independent_basic_metrics (tests_python.test_campaign_medium.MediumCampaign.test_all_medium_text_fits_independent_basic_metrics) (target=(250, 300), element='badge1_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 46, in test_all_medium_text_fits_independent_basic_metrics
+    self.assertFalse(overflow(e), 'independent BASIC metric overflow')
+AssertionError: True is not false : independent BASIC metric overflow
+
+======================================================================
+FAIL: test_all_medium_text_fits_independent_basic_metrics (tests_python.test_campaign_medium.MediumCampaign.test_all_medium_text_fits_independent_basic_metrics) (target=(250, 300), element='badge2_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 46, in test_all_medium_text_fits_independent_basic_metrics
+    self.assertFalse(overflow(e), 'independent BASIC metric overflow')
+AssertionError: True is not false : independent BASIC metric overflow
+
+======================================================================
+FAIL: test_all_medium_text_fits_independent_basic_metrics (tests_python.test_campaign_medium.MediumCampaign.test_all_medium_text_fits_independent_basic_metrics) (target=(250, 300), element='badge3_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 46, in test_all_medium_text_fits_independent_basic_metrics
+    self.assertFalse(overflow(e), 'independent BASIC metric overflow')
+AssertionError: True is not false : independent BASIC metric overflow
+
+======================================================================
+FAIL: test_all_medium_text_fits_independent_basic_metrics (tests_python.test_campaign_medium.MediumCampaign.test_all_medium_text_fits_independent_basic_metrics) (target=(250, 300), element='cta_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 46, in test_all_medium_text_fits_independent_basic_metrics
+    self.assertFalse(overflow(e), 'independent BASIC metric overflow')
+AssertionError: True is not false : independent BASIC metric overflow
+
+======================================================================
+FAIL: test_all_medium_text_fits_independent_basic_metrics (tests_python.test_campaign_medium.MediumCampaign.test_all_medium_text_fits_independent_basic_metrics) (target=(250, 300), element='ribbon_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 46, in test_all_medium_text_fits_independent_basic_metrics
+    self.assertFalse(overflow(e), 'independent BASIC metric overflow')
+AssertionError: True is not false : independent BASIC metric overflow
+
+----------------------------------------------------------------------
+Ran 1 test in 0.674s
+
+FAILED (failures=18)

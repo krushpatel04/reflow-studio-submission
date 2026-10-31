@@ -1,0 +1,52 @@
+{
+  "source": "5020706b9e56eef543731feedd8c67323ca02ba9",
+  "files": {
+    "engine/text_fit.py": "e4c494c7662a75ec7a324d49495660c0d2a6871f25795a5d9c35422f56d7cd1c",
+    "engine/composition.py": "70e0a7893d10cf69fe2b05329b5cf4e41b34e35791a9000632103c2182ee3a4d",
+    "src/main.ts": "1c843977fb9c1a294fbd1523b49a644037580ec82c44def02088dafe1312fe55",
+    "src/style.css": "ccbb16186eb9309c7bed5414b2480994809cef5337a09349ca0e5b4e7dcc0310",
+    "tests_python/test_font_cache.py": "5e7cb07b0f968cdb71300eb5e37759a320fb775e006d541aa0bdfeffe84adbcd",
+    "tests_python/test_measurement_reuse.py": "6b9b11be2aa42ef19d608600c0bd05f22a17fd913ebcce1a2d26a03a02c54054",
+    "tests/browser/inspector.spec.ts": "d68402c4f80a6f69e28a975fe833000d71c586b86c3eb8700a7c1f5efa567daf"
+  },
+  "python": {
+    "pass": true,
+    "tests": 544,
+    "skips": 0,
+    "seconds": 168.062
+  },
+  "node": {
+    "pass": true,
+    "tests": 741,
+    "skips": 0
+  },
+  "playwright": {
+    "pass": true,
+    "tests": 29
+  },
+  "verify_page": {
+    "pass": true,
+    "checks": 20
+  },
+  "build": true,
+  "native_layouts": 30,
+  "benchmark_exports": 70,
+  "limitations": [
+    "Local Apple Silicon and emulated Linux/amd64; not hosted CI or Adobe hardware.",
+    "Exposed sample/development evidence, not a blind preference result or ranking guarantee."
+  ],
+  "qualification": {
+    "pass": true,
+    "clean_source": true,
+    "git_sha": "5020706b9e56eef543731feedd8c67323ca02ba9",
+    "image": {
+      "id": "sha256:b1a97aa438e85db7971e2ffccf0702ff359bfaee5cef308d80bd14645e3f0fe4",
+      "arch": "amd64",
+      "os": "linux"
+    },
+    "controls": 4,
+    "failure_matrix": 6,
+    "resource_profile": true,
+    "public_outputs_unchanged": 6
+  }
+}

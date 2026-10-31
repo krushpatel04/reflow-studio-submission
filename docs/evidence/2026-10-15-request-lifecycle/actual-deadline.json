@@ -1,0 +1,7 @@
+{
+  "deliberateBusyWorkMs": 20000,
+  "deadlineMs": 10000,
+  "observedWorkerCloseMs": 12045.042959000002,
+  "retainedExportEqual": true,
+  "retryRecovered": true
+}

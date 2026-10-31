@@ -1,0 +1,29 @@
+STEP 1/11: FROM --platform=linux/amd64 python:3.11-slim
+Resolving "python" using unqualified-search registries (/tmp/r5-podman2/home/.config/containers/registries.conf)
+Trying to pull docker.io/library/python:3.11-slim...
+Getting image source signatures
+Copying blob sha256:496c1a902b3a93cea3e54b90b79dbcaa0e58ad90c3fe9dd0a43c9557dc47f17d
+Copying blob sha256:ecc510c1e359bdc007b39802570bb7e4dec7d6ebccf357c3201a74299113e05e
+Copying blob sha256:0f752a1982d6f819fc2c9e78ac1514c63f2f2e1dec7885ffd4cb6809ba4a26ca
+Copying blob sha256:759a7f30c31818dda4c97b407b24d93da479c306568d185ced927e1a749164f1
+Copying config sha256:541096ae9b05d3b850341b78790e2ed31e94d5aa0ea086933c6ff0c09ffa2e63
+Writing manifest to image destination
+STEP 2/11: WORKDIR /app
+--> d37d27c21f40
+STEP 3/11: RUN apt-get update && apt-get install -y --no-install-recommends     git     libgl1     libegl1     libglib2.0-0     fontconfig     && rm -rf /var/lib/apt/lists/*
+E: setgroups 65534 failed - setgroups (1: Operation not permitted)
+E: setegid 65534 failed - setegid (22: Invalid argument)
+E: seteuid 42 failed - seteuid (22: Invalid argument)
+E: setgroups 0 failed - setgroups (1: Operation not permitted)
+Reading package lists...
+W: chown to _apt:root of directory /var/lib/apt/lists/partial failed - SetupAPTPartialDirectory (22: Invalid argument)
+W: chown to _apt:root of directory /var/lib/apt/lists/auxfiles failed - SetupAPTPartialDirectory (22: Invalid argument)
+E: setgroups 65534 failed - setgroups (1: Operation not permitted)
+E: setegid 65534 failed - setegid (22: Invalid argument)
+E: seteuid 42 failed - seteuid (22: Invalid argument)
+E: setgroups 0 failed - setgroups (1: Operation not permitted)
+E: Method gave invalid 400 URI Failure message: Failed to setgroups - setgroups (1: Operation not permitted)
+E: Method http has died unexpectedly!
+E: Sub-process http returned an error code (112)
+Error: building at STEP "RUN apt-get update && apt-get install -y --no-install-recommends     git     libgl1     libegl1     libglib2.0-0     fontconfig     && rm -rf /var/lib/apt/lists/*": while running runtime: exit status 100
+exit=100

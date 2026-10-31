@@ -1,0 +1,330 @@
+{
+  "base": "f6b919f3481c64da6b8bb80fe28fc4f0136fd781",
+  "candidate": "Exact engine bytes are identified by engine_sha256; match the final qualification fingerprint.",
+  "engine_sha256": {
+    "engine/text_fit.py": "330b4bd1e86675f6fd4d532f7073ceb4c195a97f63a0701a385ebd4f2fb1a249",
+    "engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "engine/resize.py": "3cf5e555f6f54f39a21dce5bffd373a29bfe5d25da4d388b783f08c2963929e8",
+    "engine/composition.py": "aada07387f7c93ff3c221e80b0ac798289497b1f692ff2a0f3ca92c4120a31a8"
+  },
+  "manifest_sha256": "67e8c30f01e004682537f6228d18a70c56bef3ea6177b770b7d3f004254e7356",
+  "tasks": [
+    {
+      "task": "lica-4WR6DyGuWK7GRAxLeJjl-1080x1080",
+      "output_sha256": "7304e9bd98395eeebded101a589bf914819d7978d25aee6ed9b8bed86fa8fa35",
+      "png_sha256": "e33edaca2958bec207fef02bca0d4390bec224198214de95ee9b193ef7c395f3",
+      "source_sha256": "7304e9bd98395eeebded101a589bf914819d7978d25aee6ed9b8bed86fa8fa35",
+      "target": {
+        "width": 1080,
+        "height": 1080
+      },
+      "real_renders": 1,
+      "fallbacks": 0,
+      "png_changed": false,
+      "before_min_text_px": 18,
+      "after_min_text_px": 18
+    },
+    {
+      "task": "lica-4WR6DyGuWK7GRAxLeJjl-1080x1920",
+      "output_sha256": "a1876c5e74ffbcd4dff3b4d24361dab5425ece64f396afa30545239483853b3c",
+      "png_sha256": "311e12370468a6bd970d8a3dd40615a6d54846e8e803d13ec9c16c60d310e045",
+      "source_sha256": "7304e9bd98395eeebded101a589bf914819d7978d25aee6ed9b8bed86fa8fa35",
+      "target": {
+        "width": 1080,
+        "height": 1920
+      },
+      "real_renders": 1,
+      "fallbacks": 0,
+      "png_changed": false,
+      "before_min_text_px": 18,
+      "after_min_text_px": 18
+    },
+    {
+      "task": "lica-4WR6DyGuWK7GRAxLeJjl-1920x1080",
+      "output_sha256": "a67c258d444c4a9fa568b83938b5c1e69451f670b8f5ebe7e66dd34399122ba0",
+      "png_sha256": "346e17b9305623145407f342515c7f88ec28f119a5e4f06165602017123495e0",
+      "source_sha256": "7304e9bd98395eeebded101a589bf914819d7978d25aee6ed9b8bed86fa8fa35",
+      "target": {
+        "width": 1920,
+        "height": 1080
+      },
+      "real_renders": 1,
+      "fallbacks": 0,
+      "png_changed": false,
+      "before_min_text_px": 18,
+      "after_min_text_px": 18
+    },
+    {
+      "task": "lica-4WR6DyGuWK7GRAxLeJjl-1080x1350",
+      "output_sha256": "3973c0ae329bcccc04deda24f578d08d5f53f27e57be1d7e2ec1357a1c945fdf",
+      "png_sha256": "4423c422fb65a46cc4d5ae2122c95a903e0fc364d62093f92919f82ed0d7ed41",
+      "source_sha256": "7304e9bd98395eeebded101a589bf914819d7978d25aee6ed9b8bed86fa8fa35",
+      "target": {
+        "width": 1080,
+        "height": 1350
+      },
+      "real_renders": 1,
+      "fallbacks": 0,
+      "png_changed": false,
+      "before_min_text_px": 18,
+      "after_min_text_px": 18
+    },
+    {
+      "task": "lica-4WR6DyGuWK7GRAxLeJjl-1500x500",
+      "output_sha256": "f7ca44a543dad4d69e07854ec49113cde2a67e1cda627fc2642fe8100af010c4",
+      "png_sha256": "f0c7fc0a72d6ee74988532caa155405b34c897a9d24d9c53d1db876a9a356249",
+      "source_sha256": "7304e9bd98395eeebded101a589bf914819d7978d25aee6ed9b8bed86fa8fa35",
+      "target": {
+        "width": 1500,
+        "height": 500
+      },
+      "real_renders": 1,
+      "fallbacks": 0,
+      "png_changed": false,
+      "before_min_text_px": 8,
+      "after_min_text_px": 8
+    },
+    {
+      "task": "lica-4WR6DyGuWK7GRAxLeJjl-728x90",
+      "output_sha256": "972aa421a8efac8b248c0100dd3cd5472b8ee6a4e16c5aba392a9109604e202d",
+      "png_sha256": "fd8e6e618bddd532d031fd24874602382a567d12bf8da6c15c0ca19cef7ad7d7",
+      "source_sha256": "7304e9bd98395eeebded101a589bf914819d7978d25aee6ed9b8bed86fa8fa35",
+      "target": {
+        "width": 728,
+        "height": 90
+      },
+      "real_renders": 1,
+      "fallbacks": 0,
+      "png_changed": false,
+      "before_min_text_px": 7,
+      "after_min_text_px": 7
+    },
+    {
+      "task": "lica-4WR6DyGuWK7GRAxLeJjl-160x600",
+      "output_sha256": "e0b2f66b8e5aac24bcec8094763606aa569773367187531b4cf8b7d7bfcdcd11",
+      "png_sha256": "4733f38a75e58fd9aa1a5009fe93de0580c2b943a4ffe1e26d478f4ffa060443",
+      "source_sha256": "7304e9bd98395eeebded101a589bf914819d7978d25aee6ed9b8bed86fa8fa35",
+      "target": {
+        "width": 160,
+        "height": 600
+      },
+      "real_renders": 1,
+      "fallbacks": 0,
+      "png_changed": false,
+      "before_min_text_px": 9,
+      "after_min_text_px": 9
+    },
+    {
+      "task": "lica-6lTuObn2CUHywDvwyuY5-1080x1080",
+      "output_sha256": "2758b66d164fe9d9eba59ada3d680a9a12d0acdf822e79d0e2c115ea615da396",
+      "png_sha256": "9cba9b3da015e1020c92e49ce6121c245ba7bf91c2afbb251774e5773199fc21",
+      "source_sha256": "2c935bf5dc9dfdbd4e71e6f1740ac7603ebe8600b939ee7be9433deeed3b2a26",
+      "target": {
+        "width": 1080,
+        "height": 1080
+      },
+      "real_renders": 1,
+      "fallbacks": 0,
+      "png_changed": false,
+      "before_min_text_px": null,
+      "after_min_text_px": null
+    },
+    {
+      "task": "lica-6lTuObn2CUHywDvwyuY5-1080x1920",
+      "output_sha256": "feb57f8afc879584ee5d69f38d2ba21bc4a3305c5152eec9f7569e3dcb29e80c",
+      "png_sha256": "1513c39e17a4f1337f71b558a7b225600c04942510ea2d69e4dd976a626dec23",
+      "source_sha256": "2c935bf5dc9dfdbd4e71e6f1740ac7603ebe8600b939ee7be9433deeed3b2a26",
+      "target": {
+        "width": 1080,
+        "height": 1920
+      },
+      "real_renders": 1,
+      "fallbacks": 0,
+      "png_changed": false,
+      "before_min_text_px": null,
+      "after_min_text_px": null
+    },
+    {
+      "task": "lica-6lTuObn2CUHywDvwyuY5-1920x1080",
+      "output_sha256": "734e7276d0efe5c12a8b3f8f31f5a9bedbb767dc093b1dee5405be024c6e8e82",
+      "png_sha256": "0686577ec0abf55179d7383bade3959d467ec6d6aa4b594248dc85e52c61e07f",
+      "source_sha256": "2c935bf5dc9dfdbd4e71e6f1740ac7603ebe8600b939ee7be9433deeed3b2a26",
+      "target": {
+        "width": 1920,
+        "height": 1080
+      },
+      "real_renders": 1,
+      "fallbacks": 0,
+      "png_changed": true,
+      "before_min_text_px": null,
+      "after_min_text_px": null
+    },
+    {
+      "task": "lica-6lTuObn2CUHywDvwyuY5-1080x1350",
+      "output_sha256": "087d326a48d334286c9b1986757e66e4abd027b4cdb7b5af49b4e35aca7a841d",
+      "png_sha256": "04e189ce14d80d976fb41d8e19e8108f7e80c7c89a8a658c0f6477f4db2d7f2b",
+      "source_sha256": "2c935bf5dc9dfdbd4e71e6f1740ac7603ebe8600b939ee7be9433deeed3b2a26",
+      "target": {
+        "width": 1080,
+        "height": 1350
+      },
+      "real_renders": 1,
+      "fallbacks": 0,
+      "png_changed": false,
+      "before_min_text_px": null,
+      "after_min_text_px": null
+    },
+    {
+      "task": "lica-6lTuObn2CUHywDvwyuY5-1500x500",
+      "output_sha256": "ece447ae495f2b6afb9999ecf15051d9cd9fb3f4684e96991097157470371748",
+      "png_sha256": "5ae16cb9a08770a78739d86ebd28ae607b17bc9ea47ecf2ce99f424efd43056d",
+      "source_sha256": "2c935bf5dc9dfdbd4e71e6f1740ac7603ebe8600b939ee7be9433deeed3b2a26",
+      "target": {
+        "width": 1500,
+        "height": 500
+      },
+      "real_renders": 1,
+      "fallbacks": 0,
+      "png_changed": true,
+      "before_min_text_px": null,
+      "after_min_text_px": null
+    },
+    {
+      "task": "lica-6lTuObn2CUHywDvwyuY5-728x90",
+      "output_sha256": "0a53c93a59831f60f07d59058fef870c6374ef33918d3a02feea8e2052223038",
+      "png_sha256": "37e5ad0900a096840c76c3bc31ee9beeea5ed346ab55bda82ecec1c465c2f529",
+      "source_sha256": "2c935bf5dc9dfdbd4e71e6f1740ac7603ebe8600b939ee7be9433deeed3b2a26",
+      "target": {
+        "width": 728,
+        "height": 90
+      },
+      "real_renders": 1,
+      "fallbacks": 0,
+      "png_changed": true,
+      "before_min_text_px": null,
+      "after_min_text_px": null
+    },
+    {
+      "task": "lica-6lTuObn2CUHywDvwyuY5-160x600",
+      "output_sha256": "8b13aecab73d723c0383dff1909fff3042b81175bd2e69a23deb24279e34af9f",
+      "png_sha256": "9cf282f418d19090218f9aa30cab1ccde410885749f8b17ac3812168bda9b689",
+      "source_sha256": "2c935bf5dc9dfdbd4e71e6f1740ac7603ebe8600b939ee7be9433deeed3b2a26",
+      "target": {
+        "width": 160,
+        "height": 600
+      },
+      "real_renders": 1,
+      "fallbacks": 0,
+      "png_changed": true,
+      "before_min_text_px": null,
+      "after_min_text_px": null
+    },
+    {
+      "task": "lica-58KCTYpSufDKLTfdYrbJ-1080x1080",
+      "output_sha256": "263405338ee600108e814649df167ff172bf9f6c8c7e8d080a365fbce9984e83",
+      "png_sha256": "462c275f20f7225d430caed91b40987e82bb22ec99151cd3924df0bad530982d",
+      "source_sha256": "d04c2278868f706cb58d1eb6230aa41b477ad661e962fdc58a841843ed2f13b6",
+      "target": {
+        "width": 1080,
+        "height": 1080
+      },
+      "real_renders": 1,
+      "fallbacks": 0,
+      "png_changed": false,
+      "before_min_text_px": 11,
+      "after_min_text_px": 11
+    },
+    {
+      "task": "lica-58KCTYpSufDKLTfdYrbJ-1080x1920",
+      "output_sha256": "0cc70ce76e3fabf81452efbe5e48df2588b4f3798d606e08dd0de395bd194a92",
+      "png_sha256": "33f2d6e9aad72b8e876a93b6431d90a1094fa4be503516b79ea03fc938678402",
+      "source_sha256": "d04c2278868f706cb58d1eb6230aa41b477ad661e962fdc58a841843ed2f13b6",
+      "target": {
+        "width": 1080,
+        "height": 1920
+      },
+      "real_renders": 1,
+      "fallbacks": 0,
+      "png_changed": true,
+      "before_min_text_px": 11,
+      "after_min_text_px": 33
+    },
+    {
+      "task": "lica-58KCTYpSufDKLTfdYrbJ-1920x1080",
+      "output_sha256": "d04c2278868f706cb58d1eb6230aa41b477ad661e962fdc58a841843ed2f13b6",
+      "png_sha256": "60a5027ac3db8900eb76698981ebaaeb35d98d925463ed357c0f82f0c44e03de",
+      "source_sha256": "d04c2278868f706cb58d1eb6230aa41b477ad661e962fdc58a841843ed2f13b6",
+      "target": {
+        "width": 1920,
+        "height": 1080
+      },
+      "real_renders": 1,
+      "fallbacks": 0,
+      "png_changed": false,
+      "before_min_text_px": 20,
+      "after_min_text_px": 20
+    },
+    {
+      "task": "lica-58KCTYpSufDKLTfdYrbJ-1080x1350",
+      "output_sha256": "f8ee6526c3592090577272e95e39beb03b7b6b1ea26c676d84e6cb09660886a5",
+      "png_sha256": "1f94b663e2ff9fbf509fe21a3d0b86f9b21c7b949bac52aa8440264c3b1fae57",
+      "source_sha256": "d04c2278868f706cb58d1eb6230aa41b477ad661e962fdc58a841843ed2f13b6",
+      "target": {
+        "width": 1080,
+        "height": 1350
+      },
+      "real_renders": 1,
+      "fallbacks": 0,
+      "png_changed": true,
+      "before_min_text_px": 11,
+      "after_min_text_px": 20
+    },
+    {
+      "task": "lica-58KCTYpSufDKLTfdYrbJ-1500x500",
+      "output_sha256": "22e06f22af18b5b3e025ad1917858bdfc542b2a2df76e8755f117b0738276452",
+      "png_sha256": "900b58fc77881d35394ec37112a98ba001d86662bf39dcb204c23af29274764f",
+      "source_sha256": "d04c2278868f706cb58d1eb6230aa41b477ad661e962fdc58a841843ed2f13b6",
+      "target": {
+        "width": 1500,
+        "height": 500
+      },
+      "real_renders": 1,
+      "fallbacks": 0,
+      "png_changed": false,
+      "before_min_text_px": 9,
+      "after_min_text_px": 9
+    },
+    {
+      "task": "lica-58KCTYpSufDKLTfdYrbJ-728x90",
+      "output_sha256": "330a1fe83139cb5d1aede7b654986db27bcf5c5a8298e1305afd8a03bad49830",
+      "png_sha256": "659006750bc3561ce8333fe28af802b86f29c94061cee3ccf621d4eef45f20a8",
+      "source_sha256": "d04c2278868f706cb58d1eb6230aa41b477ad661e962fdc58a841843ed2f13b6",
+      "target": {
+        "width": 728,
+        "height": 90
+      },
+      "real_renders": 1,
+      "fallbacks": 0,
+      "png_changed": true,
+      "before_min_text_px": 6,
+      "after_min_text_px": 8
+    },
+    {
+      "task": "lica-58KCTYpSufDKLTfdYrbJ-160x600",
+      "output_sha256": "6d0e253ee06033159382d30b000679e3158216093f4b3fc84f43781fae8d02d4",
+      "png_sha256": "e9333eca80ceb5367e76e1b23e20751078b3ac5da5a12c91011474e7d90492b0",
+      "source_sha256": "d04c2278868f706cb58d1eb6230aa41b477ad661e962fdc58a841843ed2f13b6",
+      "target": {
+        "width": 160,
+        "height": 600
+      },
+      "real_renders": 1,
+      "fallbacks": 0,
+      "png_changed": true,
+      "before_min_text_px": 6,
+      "after_min_text_px": 10
+    }
+  ],
+  "source_invariant_failures": 0,
+  "limitation": "Exposed development review; no hidden score, blind result, or human acceptance."
+}

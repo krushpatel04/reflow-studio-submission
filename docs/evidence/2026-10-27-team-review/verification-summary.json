@@ -1,0 +1,109 @@
+{
+  "sourceCommit": "f51f92873a48db432d44b5d916ea95f9c0ce4a8d",
+  "scope": "Retained TypeScript workbench; no new Python qualification",
+  "productionSourceChanged": false,
+  "environment": {
+    "cpu": "Apple M1",
+    "memoryBytes": 8589934592,
+    "os": "24.4.0",
+    "chromium": "153.0.8010.12",
+    "node": "v24.20.0"
+  },
+  "build": "PASS; existing >500 kB chunk warning retained",
+  "headlessDevelopment": {
+    "startTime": "2026-10-27T22:33:01.587Z",
+    "duration": 79362.64700000001,
+    "expected": 27,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "verificationPage": {
+    "passed": 20,
+    "total": 20,
+    "errors": []
+  },
+  "production": {
+    "raw": 1625723,
+    "gzip": 1156507,
+    "startups": [
+      479.8941669999999,
+      247.04366700000014,
+      239.6096660000003
+    ],
+    "feedbacks": [
+      0.8999999761581421,
+      0.6000000238418579,
+      0.5,
+      1,
+      0.6000000238418579,
+      1.0999999046325684,
+      0.7000000476837158,
+      0.8000000715255737,
+      0.5999999046325684,
+      1,
+      0.7000000476837158,
+      0.5,
+      0.6000000238418579,
+      0.5,
+      0.5999999046325684,
+      0.5999999046325684,
+      0.3999999761581421,
+      0.5,
+      0.5,
+      0.5,
+      0.6000000238418579,
+      0.5
+    ],
+    "heapGrowth": 83048,
+    "maxHeap": 15424616,
+    "maxSummedRss": 473415680,
+    "exports": {
+      "jsonVariants": 3,
+      "svgBytes": 96219,
+      "embeddedFonts": true
+    },
+    "functionalExternalRequests": [],
+    "forbiddenNetworkControl": [
+      {
+        "url": "https://example.invalid/qualification-probe",
+        "error": "net::ERR_PROXY_CONNECTION_FAILED"
+      }
+    ],
+    "missingAssetReferenceRecovered": true,
+    "missingFontRestartRecovered": true,
+    "missingWorkerRecovered": true,
+    "violations": []
+  },
+  "visualSmoke": {
+    "browser": "153.0.8010.12",
+    "desktop": {
+      "width": 1440,
+      "height": 1000
+    },
+    "mobile": {
+      "width": 390,
+      "documentWidth": 390,
+      "cards": 4
+    },
+    "errors": [],
+    "external": [],
+    "failed": []
+  },
+  "initialAttempt": "BLOCKED before browser launch: explicitly selected local .cache/ms-playwright lacked headless shell. Corrected run used already installed default browser cache, without test or product changes.",
+  "limits": [
+    "Three startup observations and bounded memory samples are descriptive, not percentiles or Adobe hardware guarantees.",
+    "No new human visual acceptance, hidden-family evaluation or native Express validation."
+  ],
+  "rawReceiptSha256": {
+    "reports/ci/playwright.json": "0e2463c9be19635854f58c7db2c9982f7bb7ad230ec53635787a2ada0e35a098",
+    "reports/ci/browser/report.json": "fc6e21f80e5679881ac5dca358fd7935b7508289e3e1f7b702912bdf3df5fa3c",
+    "reports/completion/C/production/report.json": "9efcfa89c95759f7e164860c60a2909bc08a121c849f6d8e72b99a5f4e3edc82",
+    "reports/team-review-2026-10-27/visual-smoke.json": "72b76d45ee86e8980563e3ddea2631baa0bbec5e38764bb04e5ec01d3589c82b"
+  },
+  "screenshotSha256": {
+    "desktop.png": "7164a1bf11c4dc0353180f5869fc993769c22f92c14da08cb8b3abe791494735",
+    "mobile-preview.png": "3d9abb3a33fa874e97189b48b83691d05f909086a02718d5019fa5ffa3451d1b",
+    "mobile-dark.png": "b0433977a97cb49c816b9b47eff59f557ded00975f2c710df70c3b7e91b398e5"
+  }
+}

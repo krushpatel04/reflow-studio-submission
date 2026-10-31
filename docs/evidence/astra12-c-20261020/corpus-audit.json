@@ -1,0 +1,522 @@
+{
+  "source": "b37354ef7fac6143cf0c439c1e890975704bf85e",
+  "environment": {
+    "node": "v24.20.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "os": "24.4.0",
+    "cpu": "Apple M1"
+  },
+  "ledger": {
+    "total": 1148,
+    "counts": {
+      "supported": 0,
+      "adapted": 21,
+      "unsupported": 878,
+      "unavailable": 20,
+      "not-selected": 229
+    },
+    "errors": [],
+    "metadata": {
+      "sha256": "06d478a08e8b64b598413c59cac821c43ba514a5058d96e25ebd762578bc7df0",
+      "total": 1148,
+      "entriesSha256": "44b3f3357a17720c70db5e4df671166ff6d1a71a5b25df20555f66fae8c1075e"
+    }
+  },
+  "manifestSha256": "213a4fdba7eda5cb6ad5e5d63d46cc1cbe5589a67a9863d4e66ef4062f953eb7",
+  "ledgerSha256": "85983788023df14fe7df1f4248dd111b344c8bf3b7cbdd2d4c5598a13658d425",
+  "summary": {
+    "layouts": 21,
+    "templates": 10,
+    "withOverlap": 21,
+    "translucent": 8,
+    "textOverImage": 21,
+    "categories": {
+      "Business Documents": 3,
+      "Presentations": 10,
+      "Art & Design": 1,
+      "Flyers": 2,
+      "Instagram Posts": 1,
+      "Education": 4
+    },
+    "coverage": {
+      "assessedLayouts": 21,
+      "unassessedLayouts": 0,
+      "withContentGroups": 0,
+      "withTextOverSvg": 12,
+      "withTextOverRaster": 13,
+      "withTextOverUnknown": 0,
+      "busyPhotoText": "unverified",
+      "uncovered": [
+        "grouped-content"
+      ]
+    }
+  },
+  "entries": [
+    {
+      "layoutId": "fey9nqkL7Kfsad6zkf0C",
+      "templateId": "69a274dd-7f45-4883-8965-f27390a27179",
+      "category": "Business Documents",
+      "width": 816,
+      "height": 1056,
+      "status": "adapted",
+      "available": true,
+      "features": {
+        "overlaps": 25,
+        "translucent": 1,
+        "textOverImage": 3,
+        "elements": 54,
+        "coverage": {
+          "contentGroups": 0,
+          "textOverSvg": 0,
+          "textOverRaster": 3,
+          "textOverUnknown": 0
+        }
+      }
+    },
+    {
+      "layoutId": "hH81rzxZ8FfIWQ6ThmmT",
+      "templateId": "203e4c31-a5c4-463c-83fc-9b511c6e07a7",
+      "category": "Business Documents",
+      "width": 816,
+      "height": 1056,
+      "status": "adapted",
+      "available": true,
+      "features": {
+        "overlaps": 32,
+        "translucent": 1,
+        "textOverImage": 5,
+        "elements": 61,
+        "coverage": {
+          "contentGroups": 0,
+          "textOverSvg": 0,
+          "textOverRaster": 5,
+          "textOverUnknown": 0
+        }
+      }
+    },
+    {
+      "layoutId": "YGhFPi34EQR0HK9fk5mI",
+      "templateId": "821bd959-68c9-4a92-8ac3-2eb77d968a1e",
+      "category": "Business Documents",
+      "width": 816,
+      "height": 1056,
+      "status": "adapted",
+      "available": true,
+      "features": {
+        "overlaps": 29,
+        "translucent": 1,
+        "textOverImage": 3,
+        "elements": 49,
+        "coverage": {
+          "contentGroups": 0,
+          "textOverSvg": 0,
+          "textOverRaster": 3,
+          "textOverUnknown": 0
+        }
+      }
+    },
+    {
+      "layoutId": "3OcbtlfEs722hNRt0W1P",
+      "templateId": "af4e202d-aa8d-a10c-a721-a0b77deda08c",
+      "category": "Presentations",
+      "width": 1920,
+      "height": 1080,
+      "status": "adapted",
+      "available": true,
+      "features": {
+        "overlaps": 65,
+        "translucent": 0,
+        "textOverImage": 22,
+        "elements": 55,
+        "coverage": {
+          "contentGroups": 0,
+          "textOverSvg": 22,
+          "textOverRaster": 0,
+          "textOverUnknown": 0
+        }
+      }
+    },
+    {
+      "layoutId": "09udskj3Rw8KDeDaF27g",
+      "templateId": "af4e202d-aa8d-a10c-a721-a0b77deda08c",
+      "category": "Presentations",
+      "width": 1920,
+      "height": 1080,
+      "status": "adapted",
+      "available": true,
+      "features": {
+        "overlaps": 25,
+        "translucent": 0,
+        "textOverImage": 12,
+        "elements": 29,
+        "coverage": {
+          "contentGroups": 0,
+          "textOverSvg": 12,
+          "textOverRaster": 0,
+          "textOverUnknown": 0
+        }
+      }
+    },
+    {
+      "layoutId": "KL2ivTudig6nuaXNWKMb",
+      "templateId": "af4e202d-aa8d-a10c-a721-a0b77deda08c",
+      "category": "Presentations",
+      "width": 1920,
+      "height": 1080,
+      "status": "adapted",
+      "available": true,
+      "features": {
+        "overlaps": 16,
+        "translucent": 0,
+        "textOverImage": 5,
+        "elements": 24,
+        "coverage": {
+          "contentGroups": 0,
+          "textOverSvg": 5,
+          "textOverRaster": 0,
+          "textOverUnknown": 0
+        }
+      }
+    },
+    {
+      "layoutId": "A5ijgpumOCZpbBwUaoE0",
+      "templateId": "af4e202d-aa8d-a10c-a721-a0b77deda08c",
+      "category": "Presentations",
+      "width": 1920,
+      "height": 1080,
+      "status": "adapted",
+      "available": true,
+      "features": {
+        "overlaps": 13,
+        "translucent": 0,
+        "textOverImage": 6,
+        "elements": 22,
+        "coverage": {
+          "contentGroups": 0,
+          "textOverSvg": 6,
+          "textOverRaster": 0,
+          "textOverUnknown": 0
+        }
+      }
+    },
+    {
+      "layoutId": "9m0vuy2AiVnEq09YLKmA",
+      "templateId": "920c5b53-8e0d-431a-bc2a-afd5f36f5a6c",
+      "category": "Art & Design",
+      "width": 944,
+      "height": 755,
+      "status": "adapted",
+      "available": true,
+      "features": {
+        "overlaps": 18,
+        "translucent": 0,
+        "textOverImage": 13,
+        "elements": 39,
+        "coverage": {
+          "contentGroups": 0,
+          "textOverSvg": 0,
+          "textOverRaster": 13,
+          "textOverUnknown": 0
+        }
+      }
+    },
+    {
+      "layoutId": "B97PvhvRYj5UbiIgPavx",
+      "templateId": "2e4cd7af-488c-4483-b3d4-9d305ccef400",
+      "category": "Flyers",
+      "width": 816,
+      "height": 1056,
+      "status": "adapted",
+      "available": true,
+      "features": {
+        "overlaps": 36,
+        "translucent": 0,
+        "textOverImage": 18,
+        "elements": 32,
+        "coverage": {
+          "contentGroups": 0,
+          "textOverSvg": 0,
+          "textOverRaster": 18,
+          "textOverUnknown": 0
+        }
+      }
+    },
+    {
+      "layoutId": "eFlnAlIZr2D7QARKljAg",
+      "templateId": "2e4cd7af-488c-4483-b3d4-9d305ccef400",
+      "category": "Flyers",
+      "width": 816,
+      "height": 1056,
+      "status": "adapted",
+      "available": true,
+      "features": {
+        "overlaps": 36,
+        "translucent": 0,
+        "textOverImage": 18,
+        "elements": 32,
+        "coverage": {
+          "contentGroups": 0,
+          "textOverSvg": 0,
+          "textOverRaster": 18,
+          "textOverUnknown": 0
+        }
+      }
+    },
+    {
+      "layoutId": "GLkvpJGsVXVWUZtFfQnz",
+      "templateId": "00efc51e-f6b6-411b-a0cd-3227703b1129",
+      "category": "Instagram Posts",
+      "width": 1080,
+      "height": 1080,
+      "status": "adapted",
+      "available": true,
+      "features": {
+        "overlaps": 24,
+        "translucent": 1,
+        "textOverImage": 4,
+        "elements": 13,
+        "coverage": {
+          "contentGroups": 0,
+          "textOverSvg": 0,
+          "textOverRaster": 4,
+          "textOverUnknown": 0
+        }
+      }
+    },
+    {
+      "layoutId": "3ptehNaHfKmudzDJ5qLD",
+      "templateId": "a902e896-7baa-4f3e-b5ab-aba3173990e7",
+      "category": "Presentations",
+      "width": 1920,
+      "height": 1080,
+      "status": "adapted",
+      "available": true,
+      "features": {
+        "overlaps": 12,
+        "translucent": 1,
+        "textOverImage": 4,
+        "elements": 13,
+        "coverage": {
+          "contentGroups": 0,
+          "textOverSvg": 4,
+          "textOverRaster": 4,
+          "textOverUnknown": 0
+        }
+      }
+    },
+    {
+      "layoutId": "ja6KK5GYIQ6dwWR0vo6y",
+      "templateId": "a902e896-7baa-4f3e-b5ab-aba3173990e7",
+      "category": "Presentations",
+      "width": 1920,
+      "height": 1080,
+      "status": "adapted",
+      "available": true,
+      "features": {
+        "overlaps": 10,
+        "translucent": 1,
+        "textOverImage": 2,
+        "elements": 8,
+        "coverage": {
+          "contentGroups": 0,
+          "textOverSvg": 2,
+          "textOverRaster": 2,
+          "textOverUnknown": 0
+        }
+      }
+    },
+    {
+      "layoutId": "2GagOUPHI9oByZN8oNry",
+      "templateId": "a902e896-7baa-4f3e-b5ab-aba3173990e7",
+      "category": "Presentations",
+      "width": 1920,
+      "height": 1080,
+      "status": "adapted",
+      "available": true,
+      "features": {
+        "overlaps": 7,
+        "translucent": 1,
+        "textOverImage": 2,
+        "elements": 6,
+        "coverage": {
+          "contentGroups": 0,
+          "textOverSvg": 2,
+          "textOverRaster": 2,
+          "textOverUnknown": 0
+        }
+      }
+    },
+    {
+      "layoutId": "fGpZ7YM2q4gCM0xjwDTT",
+      "templateId": "a902e896-7baa-4f3e-b5ab-aba3173990e7",
+      "category": "Presentations",
+      "width": 1920,
+      "height": 1080,
+      "status": "adapted",
+      "available": true,
+      "features": {
+        "overlaps": 7,
+        "translucent": 1,
+        "textOverImage": 2,
+        "elements": 6,
+        "coverage": {
+          "contentGroups": 0,
+          "textOverSvg": 2,
+          "textOverRaster": 2,
+          "textOverUnknown": 0
+        }
+      }
+    },
+    {
+      "layoutId": "1ibPxEGwrCdKqRYTMH0V",
+      "templateId": "a0a00d69-8655-4fb5-8a02-8027c3d5bd7e",
+      "category": "Education",
+      "width": 816,
+      "height": 1056,
+      "status": "adapted",
+      "available": true,
+      "features": {
+        "overlaps": 40,
+        "translucent": 0,
+        "textOverImage": 4,
+        "elements": 26,
+        "coverage": {
+          "contentGroups": 0,
+          "textOverSvg": 4,
+          "textOverRaster": 0,
+          "textOverUnknown": 0
+        }
+      }
+    },
+    {
+      "layoutId": "2TyQpLjSXRSknj0xWwPe",
+      "templateId": "a0a00d69-8655-4fb5-8a02-8027c3d5bd7e",
+      "category": "Education",
+      "width": 816,
+      "height": 1056,
+      "status": "adapted",
+      "available": true,
+      "features": {
+        "overlaps": 40,
+        "translucent": 0,
+        "textOverImage": 4,
+        "elements": 26,
+        "coverage": {
+          "contentGroups": 0,
+          "textOverSvg": 4,
+          "textOverRaster": 0,
+          "textOverUnknown": 0
+        }
+      }
+    },
+    {
+      "layoutId": "8toUKdhqTxtp3TCIqJtO",
+      "templateId": "a0a00d69-8655-4fb5-8a02-8027c3d5bd7e",
+      "category": "Education",
+      "width": 816,
+      "height": 1056,
+      "status": "adapted",
+      "available": true,
+      "features": {
+        "overlaps": 40,
+        "translucent": 0,
+        "textOverImage": 4,
+        "elements": 26,
+        "coverage": {
+          "contentGroups": 0,
+          "textOverSvg": 4,
+          "textOverRaster": 0,
+          "textOverUnknown": 0
+        }
+      }
+    },
+    {
+      "layoutId": "AEW2PipJY2mEx67hLU4l",
+      "templateId": "a0a00d69-8655-4fb5-8a02-8027c3d5bd7e",
+      "category": "Education",
+      "width": 816,
+      "height": 1056,
+      "status": "adapted",
+      "available": true,
+      "features": {
+        "overlaps": 40,
+        "translucent": 0,
+        "textOverImage": 4,
+        "elements": 26,
+        "coverage": {
+          "contentGroups": 0,
+          "textOverSvg": 4,
+          "textOverRaster": 0,
+          "textOverUnknown": 0
+        }
+      }
+    },
+    {
+      "layoutId": "S2R6nZIgKSiOrWmgzs60",
+      "templateId": "14d370ee-8144-48d7-beff-3376a627bc13",
+      "category": "Presentations",
+      "width": 1024,
+      "height": 768,
+      "status": "adapted",
+      "available": true,
+      "features": {
+        "overlaps": 44,
+        "translucent": 0,
+        "textOverImage": 8,
+        "elements": 24,
+        "coverage": {
+          "contentGroups": 0,
+          "textOverSvg": 0,
+          "textOverRaster": 8,
+          "textOverUnknown": 0
+        }
+      }
+    },
+    {
+      "layoutId": "Bv3tdlM47qjXGpmlKOHJ",
+      "templateId": "14d370ee-8144-48d7-beff-3376a627bc13",
+      "category": "Presentations",
+      "width": 1024,
+      "height": 768,
+      "status": "adapted",
+      "available": true,
+      "features": {
+        "overlaps": 34,
+        "translucent": 0,
+        "textOverImage": 2,
+        "elements": 22,
+        "coverage": {
+          "contentGroups": 0,
+          "textOverSvg": 0,
+          "textOverRaster": 2,
+          "textOverUnknown": 0
+        }
+      }
+    }
+  ],
+  "sourceHashes": {
+    "lica/designs/fey9nqkL7Kfsad6zkf0C.json": "b4145c6b95663e0f8253565e3409f2d3e3800c362839cbe501ebd015a782a443",
+    "lica/designs/hH81rzxZ8FfIWQ6ThmmT.json": "3731ba16fdb8dd9c6982777f437dec148b126c0efafc0c721bad116ee12b6b2f",
+    "lica/designs/YGhFPi34EQR0HK9fk5mI.json": "1e2b0d94a635c21835b8b413f4af026026034fcc08cf22b07d809193f12dcb0d",
+    "lica/designs/3OcbtlfEs722hNRt0W1P.json": "be10a18e34af06bffdc8617d24a0464163f89b50047bbbd7fafff98a9762f9eb",
+    "lica/designs/09udskj3Rw8KDeDaF27g.json": "2b2273438e2bc7afb982c090613243198acecbe9cad02efec1656037def4331a",
+    "lica/designs/KL2ivTudig6nuaXNWKMb.json": "12f99a9174fbd2258e931a5ac688a013a95bcb99aabecc3cddda26edff64c939",
+    "lica/designs/A5ijgpumOCZpbBwUaoE0.json": "90b94c6d73a4d1dcb0d13071bf41eccecc4ecad197ad292fbb3757ec3beae365",
+    "lica/designs/9m0vuy2AiVnEq09YLKmA.json": "fcfc693d2c12acbb31920d223cddd859d6d390745daa655c5088a90d49bb4dc5",
+    "lica/designs/B97PvhvRYj5UbiIgPavx.json": "3b51f5359a14397a2482dabba6a6b3dbee9bb744e0143c63c1b8e60708405cfb",
+    "lica/designs/eFlnAlIZr2D7QARKljAg.json": "28e8378ceea3f5deb07376a3ad1a36027700d946c4cadb07532ff7c511eed3f3",
+    "lica/designs/GLkvpJGsVXVWUZtFfQnz.json": "82e5b0bacd02e59493c593e521b3b72d904a989b1b63fa9305f7974060979272",
+    "lica/designs/3ptehNaHfKmudzDJ5qLD.json": "dd84baf49bb6e0442cc0134d841561803560cb7f7af51e095673249eb918a36c",
+    "lica/designs/ja6KK5GYIQ6dwWR0vo6y.json": "3a91fa0d131dac48ad777d2db1aba878845bc19cc56134b0b6df8705f5ed3fb0",
+    "lica/designs/2GagOUPHI9oByZN8oNry.json": "c2d60d9190879bd558446c2f9f269de964aa42774fa4f5cdbb83398349c9a0bf",
+    "lica/designs/fGpZ7YM2q4gCM0xjwDTT.json": "923476cb808a92d40064e2cf71e9e692c8570119db18239ec98a3eb94965c6d4",
+    "lica/designs/1ibPxEGwrCdKqRYTMH0V.json": "f936c74fe4dfab0df4abeab7c8160655c6513b773e1198f6345466a731eb4285",
+    "lica/designs/2TyQpLjSXRSknj0xWwPe.json": "0c447216443c37f51672fde6f7bf09e991cbc7c23ecf00e8b833850d3f37bf3d",
+    "lica/designs/8toUKdhqTxtp3TCIqJtO.json": "194850768b39dd82d39e9b105f50f3483686a9ed630cedf77e8610049a15663e",
+    "lica/designs/AEW2PipJY2mEx67hLU4l.json": "c5288cd0868a339d84834282e92ab47a61f69ec3b9df6235882b30da4b7e2332",
+    "lica/designs/S2R6nZIgKSiOrWmgzs60.json": "831a6619cd3149fc0ac9757dc9ae57cee693f87599ed216541f8d2c5989057b0",
+    "lica/designs/Bv3tdlM47qjXGpmlKOHJ.json": "ab33d8c756d20e581e2185db07da1065b22bb4230763f9d733b05bca7c458287"
+  },
+  "limits": "Read-only committed corpus; no new admission or visual review. Format candidates are not photo/busyness evidence. Source status is existing manifest status, not a renewed permission finding."
+}

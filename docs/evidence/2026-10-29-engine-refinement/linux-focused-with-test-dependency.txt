@@ -1,0 +1,7 @@
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/05-reset-dirs-sample.conf", line 6: unknown element "reset-dirs"
+.................
+----------------------------------------------------------------------
+Ran 17 tests in 16.677s
+
+OK

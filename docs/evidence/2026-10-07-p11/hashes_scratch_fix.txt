@@ -1,0 +1,8 @@
+level1_warmup 5553467cf7ae
+level2_core b6d53add9e1a
+level3_advanced 65e0278b151f
+C1_l3_120x600 5cc345fb1861
+C2a_ribbon_728x90 051efb586bd9
+C2b_ribbon_300x250 7334cbf3b921
+C3a_extreme_1000x60 d710ce29ab82
+C3b_extreme_60x1000 70e52580a08d

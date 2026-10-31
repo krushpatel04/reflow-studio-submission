@@ -1,0 +1,33 @@
+✔ a valid long-headline square shelf gives four backed products readable labels and prices (118.741708ms)
+✔ healthy short-copy shelf and three-product fixture remain feasible and source-sized output stays exact (612.566916ms)
+✖ tall product variants retain adequately sized images instead of using a narrow four-column row (59.944083ms)
+✔ dense four-product candidates keep price backing and copy attached at square and extreme sizes (230.629042ms)
+✔ ambiguous associations and malformed targets do not gain a four-product row (72.15025ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 4
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2012.11275
+
+✖ failing tests:
+
+test at tests/four-product-row.test.ts:53:1
+✖ tall product variants retain adequately sized images instead of using a narrow four-column row (59.944083ms)
+  AssertionError [ERR_ASSERTION]: four-product-shelf: product photo uses only 214.65000000000003px on a 1080px canvas
+      at TestContext.<anonymous> (/Users/ojeda/Documents/ChatGPT/Reflow/tests/four-product-row.test.ts:58:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

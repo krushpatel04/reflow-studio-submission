@@ -1,0 +1,7 @@
+../Users/ojeda/Documents/ChatGPT/Reflow/reports/finalist-candidate/engine/text_fit.py:601: RuntimeWarning: text_fit: no candidate meets the floor for ids headline,subhead,legal_text
+  warnings.warn("text_fit: no candidate meets the floor for ids " + ",".join(free), RuntimeWarning)
+......
+----------------------------------------------------------------------
+Ran 8 tests in 10.316s
+
+OK

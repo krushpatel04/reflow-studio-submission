@@ -1,0 +1,376 @@
+{
+  "baseline_git_sha": "2c118f05027d7959be9e471b1182014f8d6a1496",
+  "platform": "macOS-15.4-arm64-arm-64bit",
+  "python": "3.11.11 (main, Dec  3 2024, 17:20:40) [Clang 16.0.0 (clang-1600.0.26.4)]",
+  "method": "Five alternating layout-only trials after one untimed warmup per variant/case; per-call font cache cleared; inputs copied before call; full dict and warning equality asserted. No concurrent-work control or container timing.",
+  "sources": {
+    "baseline": {
+      "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "composition.py": "70e0a7893d10cf69fe2b05329b5cf4e41b34e35791a9000632103c2182ee3a4d",
+      "resize.py": "3cf5e555f6f54f39a21dce5bffd373a29bfe5d25da4d388b783f08c2963929e8",
+      "text_fit.py": "649e9db5221d91aa342b8d2936e3dc1fb82ce437857be773bbae7d72fe0058a1"
+    },
+    "candidate": {
+      "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "composition.py": "70e0a7893d10cf69fe2b05329b5cf4e41b34e35791a9000632103c2182ee3a4d",
+      "resize.py": "3cf5e555f6f54f39a21dce5bffd373a29bfe5d25da4d388b783f08c2963929e8",
+      "text_fit.py": "c49b5270d8e969e462bd4a332e805ac64a5d43884d1d5c76f40f463c94345020"
+    }
+  },
+  "fonts": {
+    "SolsticeSans-Bold.ttf": "609a215925701021b97578c71702bfc492882556ce05602b670aaa74a32a1156",
+    "SolsticeSans-BoldItalic.ttf": "e47af214406befc181508cf7ff87b774a955a670f7a54d8563a9757d45b2167d",
+    "SolsticeSans-Italic.ttf": "848a0433face0f273e313e4fdb3497a764f3c96b3b6670dffcc3cc38dcc83f2a",
+    "SolsticeSans-Regular.ttf": "4500567b25fc1af2983cee01c1e57e01a0108b8b3844c182936d14c7dec7f69c",
+    "SolsticeSerif-Bold.ttf": "837d42cc1b336364b69714c73288a0ec7ceded41c137d5f62943df5f0745551a",
+    "SolsticeSerif-Italic.ttf": "07526ca6ef70e5a7853abcdd614aeb62cdb958ed0cabc0f771f85094b4c67ccf",
+    "SolsticeSerif-Regular.ttf": "b7eb2a832ae91824a7c670469f4a4e0c4910a3ceedc1d31aad07ea2bc336d2a7"
+  },
+  "cases": {
+    "public-level1": {
+      "input_sha256": "a1f528012f3d3ea86976d043c255727d018ee30297552f2cb0a4110a6419ed4a",
+      "output_sha256": "b283606a22cce179a27c235bd8a4e64cba34d31860d0d78c74e390abca49c4aa",
+      "warnings": [],
+      "source_and_target_unchanged": true,
+      "exact_output_and_warnings_equal": true,
+      "seconds": {
+        "baseline": [
+          7.670803461223841e-05,
+          5.6333024986088276e-05,
+          5.708297248929739e-05,
+          5.6165968999266624e-05,
+          5.545897874981165e-05
+        ],
+        "candidate": [
+          6.333296187222004e-05,
+          5.88749535381794e-05,
+          5.766702815890312e-05,
+          5.666597280651331e-05,
+          5.5416952818632126e-05
+        ]
+      },
+      "median_seconds": {
+        "baseline": 5.6333024986088276e-05,
+        "candidate": 5.766702815890312e-05
+      }
+    },
+    "public-level2": {
+      "input_sha256": "bd6e954e78d3cbef933f51b3718921b168f8d0468258e400414ff15a2239cd2a",
+      "output_sha256": "30bfa0b4fe7757eab489728f95588ef223ea870e0315bcea8abb68b18b4d49f5",
+      "warnings": [],
+      "source_and_target_unchanged": true,
+      "exact_output_and_warnings_equal": true,
+      "seconds": {
+        "baseline": [
+          0.0011754579609259963,
+          0.001113042002543807,
+          0.001102540991269052,
+          0.0010962500236928463,
+          0.0010635409271344543
+        ],
+        "candidate": [
+          0.0011577080003917217,
+          0.0011524169240146875,
+          0.0011081659467890859,
+          0.0010817908914759755,
+          0.0010735830292105675
+        ]
+      },
+      "median_seconds": {
+        "baseline": 0.001102540991269052,
+        "candidate": 0.0011081659467890859
+      }
+    },
+    "public-level3": {
+      "input_sha256": "0a1cd1361a81225566aa9751173a25175e2edd9842bc1c69749d876f559b8c6a",
+      "output_sha256": "1684049d5376d0b231804cb2cae6085b4b4be8daacf401a89e67a5564559611a",
+      "warnings": [],
+      "source_and_target_unchanged": true,
+      "exact_output_and_warnings_equal": true,
+      "seconds": {
+        "baseline": [
+          0.06442058400716633,
+          0.046769917011260986,
+          0.048092582961544394,
+          0.04955029208213091,
+          0.052281124982982874
+        ],
+        "candidate": [
+          0.04960699996445328,
+          0.03841925004962832,
+          0.0395517919678241,
+          0.04281525011174381,
+          0.03980508306995034
+        ]
+      },
+      "median_seconds": {
+        "baseline": 0.04955029208213091,
+        "candidate": 0.03980508306995034
+      }
+    },
+    "dense16": {
+      "input_sha256": "411587c4b46c091ee6195727b3baa0fb76c05cd5ef839343be940d5f0fa5da02",
+      "output_sha256": "a635f245238eeb736425ea61cb7e985a32bf02a8deff926396aa812cbdaf1842",
+      "warnings": [],
+      "source_and_target_unchanged": true,
+      "exact_output_and_warnings_equal": true,
+      "seconds": {
+        "baseline": [
+          0.01600904099177569,
+          0.012971291900612414,
+          0.013085750048048794,
+          0.012798417010344565,
+          0.01283504196908325
+        ],
+        "candidate": [
+          0.009574374998919666,
+          0.009280083933845162,
+          0.009318709024228156,
+          0.009313957998529077,
+          0.009148082928732038
+        ]
+      },
+      "median_seconds": {
+        "baseline": 0.012971291900612414,
+        "candidate": 0.009313957998529077
+      }
+    },
+    "dense100": {
+      "input_sha256": "228938e02c8cda1d71672d9b005692b9c8b41372f9954706c4884802f044444b",
+      "output_sha256": "8f2b10e79dd01907f43350077c0ad745a59e51484e58a7ed7e939604c6305c15",
+      "warnings": [
+        [
+          "RuntimeWarning",
+          "text_fit: no candidate meets the floor for ids text-000,text-001,text-002,text-003,text-004,text-005,text-006,text-007,text-008,text-009,text-010,text-011,text-012,text-013,text-014,text-015,text-016,text-017,text-018,text-019,text-020,text-021,text-022,text-023,text-024,text-025,text-026,text-027,text-028,text-029,text-030,text-031,text-032,text-033,text-034,text-035,text-036,text-037,text-038,text-039,text-040,text-041,text-042,text-043,text-044,text-045,text-046,text-047,text-048,text-049,text-050,text-051,text-052,text-053,text-054,text-055,text-056,text-057,text-058,text-059,text-060,text-061,text-062,text-063,text-064,text-065,text-066,text-067,text-068,text-069,text-070,text-071,text-072,text-073,text-074,text-075,text-076,text-077,text-078,text-079,text-080,text-081,text-082,text-083,text-084,text-085,text-086,text-087,text-088,text-089,text-090,text-091,text-092,text-093,text-094,text-095,text-096,text-097,text-098,text-099"
+        ]
+      ],
+      "source_and_target_unchanged": true,
+      "exact_output_and_warnings_equal": true,
+      "seconds": {
+        "baseline": [
+          1.3728301669470966,
+          6.172715374967083,
+          5.617457417072728,
+          2.3992975410073996,
+          2.365508332964964
+        ],
+        "candidate": [
+          1.9070854160236195,
+          5.359978458029218,
+          2.707215040922165,
+          2.1431111249839887,
+          1.9367385000223294
+        ]
+      },
+      "median_seconds": {
+        "baseline": 2.3992975410073996,
+        "candidate": 2.1431111249839887
+      }
+    },
+    "infeasible": {
+      "input_sha256": "06061e54513a170bfc5be6871362e5d91ee1aeb677922c9a74859c48f1f0c7ef",
+      "output_sha256": "6370ae1412d4ae560ebaf2b370b50acae50e1d5769667dced7dd326b8898571d",
+      "warnings": [
+        [
+          "RuntimeWarning",
+          "text_fit: no candidate meets the floor for ids headline,cta"
+        ]
+      ],
+      "source_and_target_unchanged": true,
+      "exact_output_and_warnings_equal": true,
+      "seconds": {
+        "baseline": [
+          0.09053862502332777,
+          0.09091625001747161,
+          0.0913815830135718,
+          0.09722908399999142,
+          0.08857054193504155
+        ],
+        "candidate": [
+          0.06455875001847744,
+          0.06870533304754645,
+          0.06815920898225158,
+          0.0673874580534175,
+          0.06549579196143895
+        ]
+      },
+      "median_seconds": {
+        "baseline": 0.09091625001747161,
+        "candidate": 0.0673874580534175
+      }
+    },
+    "unicode-wrapped": {
+      "input_sha256": "9e5f49a0eced9f2760f8df5675efd83989a7a9070206a80a6c712a4184bc86a8",
+      "output_sha256": "302e8a8758def82c70d8a8beee4e7a80e633d0d821e81afbbfc13f2e024cba4f",
+      "warnings": [],
+      "source_and_target_unchanged": true,
+      "exact_output_and_warnings_equal": true,
+      "seconds": {
+        "baseline": [
+          0.00826012494508177,
+          0.010713084018789232,
+          0.011331749963574111,
+          0.010335874976590276,
+          0.010118084028363228
+        ],
+        "candidate": [
+          0.006680999998934567,
+          0.006797500071115792,
+          0.012585791992023587,
+          0.0074016249272972345,
+          0.008580708061344922
+        ]
+      },
+      "median_seconds": {
+        "baseline": 0.010335874976590276,
+        "candidate": 0.0074016249272972345
+      }
+    },
+    "empty": {
+      "input_sha256": "bad360c8907af086ff0174c1caafbf785d8269ed59c9336b1d8c8f5fe518e65d",
+      "output_sha256": "6167a417d0e33933695725cbb9f9cb1d8a982b79871248f814b662743b88dac5",
+      "warnings": [],
+      "source_and_target_unchanged": true,
+      "exact_output_and_warnings_equal": true,
+      "seconds": {
+        "baseline": [
+          0.000278332969173789,
+          0.0002276659943163395,
+          0.00022145896218717098,
+          0.00021245796233415604,
+          0.00020825001411139965
+        ],
+        "candidate": [
+          0.00025045801885426044,
+          0.00023154192604124546,
+          0.00022245803847908974,
+          0.00021441606804728508,
+          0.00021379196550697088
+        ]
+      },
+      "median_seconds": {
+        "baseline": 0.00022145896218717098,
+        "candidate": 0.00022245803847908974
+      }
+    },
+    "unicode-infeasible": {
+      "input_sha256": "f390010e340848b81b0ad2de9f7fd4cd08754fb9d48dee747a2b2d43707f84f1",
+      "output_sha256": "56112baa83c116ad9e13c3a8cb5674fc09e629b6de64f403c0a3e7916aff1e7e",
+      "warnings": [
+        [
+          "RuntimeWarning",
+          "text_fit: no candidate meets the floor for ids copy"
+        ]
+      ],
+      "source_and_target_unchanged": true,
+      "exact_output_and_warnings_equal": true,
+      "seconds": {
+        "baseline": [
+          0.012569667072966695,
+          0.01273429102730006,
+          0.013608957990072668,
+          0.01278233400080353,
+          0.012906832969747484
+        ],
+        "candidate": [
+          0.011440583039075136,
+          0.010999957914464176,
+          0.011442459071986377,
+          0.011428874917328358,
+          0.010539582930505276
+        ]
+      },
+      "median_seconds": {
+        "baseline": 0.01278233400080353,
+        "candidate": 0.011428874917328358
+      }
+    }
+  },
+  "profile_dense100": {
+    "baseline": [
+      {
+        "file": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/.cache/venv/lib/python3.11/site-packages/PIL/ImageFont.py",
+        "line": 326,
+        "function": "getlength",
+        "primitive_calls": 50592,
+        "calls": 50592,
+        "self_seconds": 0.028564049,
+        "cumulative_seconds": 0.761478615
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<method 'getlength' of 'Font' objects>",
+        "primitive_calls": 50592,
+        "calls": 50592,
+        "self_seconds": 0.71459139,
+        "cumulative_seconds": 0.71459139
+      },
+      {
+        "file": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/reports/text-measurement-reuse-20261029/comparison/baseline/text_fit.py",
+        "line": 124,
+        "function": "_block_widths",
+        "primitive_calls": 6400,
+        "calls": 6400,
+        "self_seconds": 2.2883611370000003,
+        "cumulative_seconds": 2.4479286630000003
+      },
+      {
+        "file": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/reports/text-measurement-reuse-20261029/comparison/baseline/text_fit.py",
+        "line": 239,
+        "function": "_texts",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_seconds": 0.039030771000000006,
+        "cumulative_seconds": 4.0368914170000005
+      }
+    ],
+    "candidate": [
+      {
+        "file": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/reports/text-measurement-reuse-20261029/comparison/candidate/text_fit.py",
+        "line": 118,
+        "function": "_pillow_widths",
+        "primitive_calls": 1600,
+        "calls": 1600,
+        "self_seconds": 0.016090398000000002,
+        "cumulative_seconds": 0.426800893
+      },
+      {
+        "file": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/.cache/venv/lib/python3.11/site-packages/PIL/ImageFont.py",
+        "line": 326,
+        "function": "getlength",
+        "primitive_calls": 25296,
+        "calls": 25296,
+        "self_seconds": 0.012193199,
+        "cumulative_seconds": 0.328422647
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<method 'getlength' of 'Font' objects>",
+        "primitive_calls": 25296,
+        "calls": 25296,
+        "self_seconds": 0.308208478,
+        "cumulative_seconds": 0.308208478
+      },
+      {
+        "file": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/reports/text-measurement-reuse-20261029/comparison/candidate/text_fit.py",
+        "line": 128,
+        "function": "_block_widths",
+        "primitive_calls": 6400,
+        "calls": 6400,
+        "self_seconds": 1.936915595,
+        "cumulative_seconds": 2.0696356320000002
+      },
+      {
+        "file": "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/reports/text-measurement-reuse-20261029/comparison/candidate/text_fit.py",
+        "line": 243,
+        "function": "_texts",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_seconds": 0.034329671,
+        "cumulative_seconds": 2.9304970000000004
+      }
+    ]
+  }
+}

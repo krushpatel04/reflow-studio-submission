@@ -1,0 +1,497 @@
+{
+ "upstream": "a44a06046b0413f0785e7203955c3822e0acbc32",
+ "controls": {
+  "clip_failure_flagged": true,
+  "clip_control_clean": true
+ },
+ "samples": {
+  "level1_warmup": {
+   "input_sha256": "79f889a1b0ec616b3f75de7b0d7fe4b92dcfb027e99b512a019a7aa941000ea6",
+   "output_json_sha256": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+   "output_png_sha256": "73e1ff8869c295f8f6e88746a574ce939b35a699d42632bb98c14aac144f1f2b",
+   "canvas": [
+    1080,
+    1350
+   ],
+   "texts": [
+    {
+     "id": "headline",
+     "content": "Chase the Light",
+     "family": "Solstice Serif",
+     "weight": "bold",
+     "font_size": 60.0,
+     "drawn_size": 60,
+     "box": [
+      140.0,
+      555.0,
+      800.0,
+      160.0
+     ],
+     "rotation": 0,
+     "lines": [
+      "Chase the Light"
+     ],
+     "clipped": false,
+     "lost_px": 0,
+     "overflow": false,
+     "overflow_px": 0,
+     "ink_bbox": [
+      141,
+      569,
+      590,
+      632
+     ],
+     "notes": [
+      "kerning-not-applied: renderer positions glyphs by advance only; face GPOS features=['kern', 'mark', 'mkmk']"
+     ],
+     "pinned_face_used": true
+    },
+    {
+     "id": "cta",
+     "content": "Shop the Summer Line",
+     "family": "Solstice Sans",
+     "weight": "bold",
+     "font_size": 30.0,
+     "drawn_size": 30,
+     "box": [
+      140.0,
+      755.0,
+      800.0,
+      60.0
+     ],
+     "rotation": 0,
+     "lines": [
+      "Shop the Summer Line"
+     ],
+     "clipped": false,
+     "lost_px": 0,
+     "overflow": false,
+     "overflow_px": 0,
+     "ink_bbox": [
+      141,
+      762,
+      483,
+      795
+     ],
+     "notes": [
+      "kerning-not-applied: renderer positions glyphs by advance only; face GPOS features=['abvm', 'blwm'] (no kern feature)"
+     ],
+     "pinned_face_used": true
+    }
+   ]
+  },
+  "level2_core": {
+   "input_sha256": "c37407fa20aefb8e1c53a3476b99973000657c3c1d93fc9637e462703955a04b",
+   "output_json_sha256": "b31edc4e04c91f01f1395b6693d3f9f9f5a89bd4e45713abd7831f3d8e3f34cd",
+   "output_png_sha256": "9434f7dd9229509484a313b504e3175b4ff802a806d466275e83f2d50f4a6ed7",
+   "canvas": [
+    1600,
+    400
+   ],
+   "texts": [
+    {
+     "id": "headline",
+     "content": "Chase the Light",
+     "family": "Solstice Serif",
+     "weight": "bold",
+     "font_size": 56.0,
+     "drawn_size": 56,
+     "box": [
+      1069.7,
+      136.6,
+      433.0,
+      67.2
+     ],
+     "rotation": 0,
+     "lines": [
+      "Chase the Light"
+     ],
+     "clipped": false,
+     "lost_px": 0,
+     "overflow": true,
+     "overflow_px": 66,
+     "ink_bbox": [
+      1071,
+      150,
+      1490,
+      209
+     ],
+     "notes": [
+      "kerning-not-applied: renderer positions glyphs by advance only; face GPOS features=['kern', 'mark', 'mkmk']"
+     ],
+     "pinned_face_used": true
+    },
+    {
+     "id": "subhead",
+     "content": "Botanical sparkling infusions, crafted for golden hour.",
+     "family": "Solstice Sans",
+     "weight": "regular",
+     "font_size": 24.0,
+     "drawn_size": 24,
+     "box": [
+      995.2,
+      205.8,
+      582.0,
+      57.6
+     ],
+     "rotation": 0,
+     "lines": [
+      "Botanical sparkling infusions, crafted for golden",
+      "hour."
+     ],
+     "clipped": false,
+     "lost_px": 0,
+     "overflow": false,
+     "overflow_px": 0,
+     "ink_bbox": [
+      996,
+      212,
+      1563,
+      261
+     ],
+     "notes": [
+      "kerning-not-applied: renderer positions glyphs by advance only; face GPOS features=['abvm', 'blwm'] (no kern feature)"
+     ],
+     "pinned_face_used": true
+    },
+    {
+     "id": "badge_label",
+     "content": "NEW FLAVOR",
+     "family": "Solstice Sans",
+     "weight": "bold",
+     "font_size": 6.667,
+     "drawn_size": 6,
+     "box": [
+      614.8,
+      19.3,
+      81.5,
+      11.9
+     ],
+     "rotation": 0,
+     "lines": [
+      "NEW FLAVOR"
+     ],
+     "clipped": false,
+     "lost_px": 0,
+     "overflow": false,
+     "overflow_px": 0,
+     "ink_bbox": [
+      615,
+      21,
+      654,
+      27
+     ],
+     "notes": [
+      "size-truncated: renderer draws int(6.666666666666666)=6; wrap is measured at 6.666666666666666",
+      "kerning-not-applied: renderer positions glyphs by advance only; face GPOS features=['abvm', 'blwm'] (no kern feature)"
+     ],
+     "pinned_face_used": true
+    },
+    {
+     "id": "cta_label",
+     "content": "Shop the Summer Line",
+     "family": "Solstice Sans",
+     "weight": "bold",
+     "font_size": 8.148,
+     "drawn_size": 8,
+     "box": [
+      722.2,
+      361.1,
+      155.6,
+      16.3
+     ],
+     "rotation": 0,
+     "lines": [
+      "Shop the Summer Line"
+     ],
+     "clipped": false,
+     "lost_px": 0,
+     "overflow": false,
+     "overflow_px": 0,
+     "ink_bbox": [
+      722,
+      363,
+      814,
+      373
+     ],
+     "notes": [
+      "size-truncated: renderer draws int(8.148148148148147)=8; wrap is measured at 8.148148148148147",
+      "kerning-not-applied: renderer positions glyphs by advance only; face GPOS features=['abvm', 'blwm'] (no kern feature)"
+     ],
+     "pinned_face_used": true
+    }
+   ]
+  },
+  "level3_advanced": {
+   "input_sha256": "fd99e3972c9c11c506d98897f3cb9520a5caea10b358d30e6853b9efca58cf33",
+   "output_json_sha256": "f4f9c3a4e733b307294493d027b627a83c7c9265bdc0b74ceb28504bb9be789c",
+   "output_png_sha256": "509957703b18c77be9e20de8fa26c2ab94a598e392d737368846177e645fdfa8",
+   "canvas": [
+    728,
+    90
+   ],
+   "texts": [
+    {
+     "id": "headline",
+     "content": "Introducing the All-New Limited-Batch Solstice Chase the Light Botanical Sparkling Collection — Crafted Exclusively for Golden Hour Gatherings",
+     "family": "Solstice Serif",
+     "weight": "bold",
+     "font_size": 11.297,
+     "drawn_size": 11,
+     "box": [
+      0.0,
+      42.0,
+      712.0,
+      27.1
+     ],
+     "rotation": 0,
+     "lines": [
+      "Introducing the All-New Limited-Batch Solstice Chase the Light Botanical Sparkling Collection — Crafted Exclusively for Golden",
+      "Hour Gatherings"
+     ],
+     "clipped": false,
+     "lost_px": 0,
+     "overflow": false,
+     "overflow_px": 0,
+     "ink_bbox": [
+      0,
+      44,
+      676,
+      70
+     ],
+     "notes": [
+      "size-truncated: renderer draws int(11.297181459240004)=11; wrap is measured at 11.297181459240004",
+      "kerning-not-applied: renderer positions glyphs by advance only; face GPOS features=['kern', 'mark', 'mkmk']"
+     ],
+     "pinned_face_used": true
+    },
+    {
+     "id": "subhead",
+     "content": "Small-batch botanical infusions blended with wild honey, blood orange zest, and a whisper of smoked rosemary, bottled at the peak of golden hour for a taste that lingers long after sunset.",
+     "family": "Solstice Sans",
+     "weight": "regular",
+     "font_size": 6.213,
+     "drawn_size": 6,
+     "box": [
+      0.0,
+      71.1,
+      585.0,
+      7.5
+     ],
+     "rotation": 0,
+     "lines": [
+      "Small-batch botanical infusions blended with wild honey, blood orange zest, and a whisper of smoked rosemary, bottled at the peak of golden hour for a taste that lingers long after sunset."
+     ],
+     "clipped": false,
+     "lost_px": 0,
+     "overflow": false,
+     "overflow_px": 0,
+     "ink_bbox": [
+      0,
+      72,
+      563,
+      79
+     ],
+     "notes": [
+      "size-truncated: renderer draws int(6.213449802582002)=6; wrap is measured at 6.213449802582002",
+      "kerning-not-applied: renderer positions glyphs by advance only; face GPOS features=['abvm', 'blwm'] (no kern feature)"
+     ],
+     "pinned_face_used": true
+    },
+    {
+     "id": "badge1_label",
+     "content": "LIMITED EDITION",
+     "family": "Solstice Sans",
+     "weight": "bold",
+     "font_size": 6.0,
+     "drawn_size": 6,
+     "box": [
+      93.4,
+      4.8,
+      116.0,
+      10.4
+     ],
+     "rotation": 0,
+     "lines": [
+      "LIMITED EDITION"
+     ],
+     "clipped": false,
+     "lost_px": 0,
+     "overflow": false,
+     "overflow_px": 0,
+     "ink_bbox": [
+      93,
+      6,
+      142,
+      12
+     ],
+     "notes": [
+      "kerning-not-applied: renderer positions glyphs by advance only; face GPOS features=['abvm', 'blwm'] (no kern feature)"
+     ],
+     "pinned_face_used": true
+    },
+    {
+     "id": "badge2_label",
+     "content": "AWARD WINNING 2026",
+     "family": "Solstice Sans",
+     "weight": "bold",
+     "font_size": 6.0,
+     "drawn_size": 6,
+     "box": [
+      211.4,
+      4.8,
+      136.0,
+      10.4
+     ],
+     "rotation": 0,
+     "lines": [
+      "AWARD WINNING 2026"
+     ],
+     "clipped": false,
+     "lost_px": 0,
+     "overflow": false,
+     "overflow_px": 0,
+     "ink_bbox": [
+      211,
+      6,
+      280,
+      12
+     ],
+     "notes": [
+      "kerning-not-applied: renderer positions glyphs by advance only; face GPOS features=['abvm', 'blwm'] (no kern feature)"
+     ],
+     "pinned_face_used": true
+    },
+    {
+     "id": "badge3_label",
+     "content": "SMALL BATCH",
+     "family": "Solstice Sans",
+     "weight": "bold",
+     "font_size": 6.0,
+     "drawn_size": 6,
+     "box": [
+      379.3,
+      4.8,
+      104.0,
+      10.4
+     ],
+     "rotation": 0,
+     "lines": [
+      "SMALL BATCH"
+     ],
+     "clipped": false,
+     "lost_px": 0,
+     "overflow": false,
+     "overflow_px": 0,
+     "ink_bbox": [
+      379,
+      6,
+      421,
+      12
+     ],
+     "notes": [
+      "kerning-not-applied: renderer positions glyphs by advance only; face GPOS features=['abvm', 'blwm'] (no kern feature)"
+     ],
+     "pinned_face_used": true
+    },
+    {
+     "id": "cta_label",
+     "content": "Shop the Summer Line",
+     "family": "Solstice Sans",
+     "weight": "bold",
+     "font_size": 6.0,
+     "drawn_size": 6,
+     "box": [
+      485.3,
+      6.8,
+      114.5,
+      12.0
+     ],
+     "rotation": 0,
+     "lines": [
+      "Shop the Summer Line"
+     ],
+     "clipped": false,
+     "lost_px": 0,
+     "overflow": false,
+     "overflow_px": 0,
+     "ink_bbox": [
+      485,
+      8,
+      554,
+      15
+     ],
+     "notes": [
+      "kerning-not-applied: renderer positions glyphs by advance only; face GPOS features=['abvm', 'blwm'] (no kern feature)"
+     ],
+     "pinned_face_used": true
+    },
+    {
+     "id": "ribbon_label",
+     "content": "SUNSET SALE",
+     "family": "Solstice Sans",
+     "weight": "bold",
+     "font_size": 6.0,
+     "drawn_size": 6,
+     "box": [
+      0.7,
+      12.2,
+      90.0,
+      10.2
+     ],
+     "rotation": -12,
+     "lines": [
+      "SUNSET SALE"
+     ],
+     "clipped": false,
+     "lost_px": 0,
+     "overflow": false,
+     "overflow_px": 0,
+     "ink_bbox": [
+      1,
+      15,
+      39,
+      28
+     ],
+     "notes": [
+      "kerning-not-applied: renderer positions glyphs by advance only; face GPOS features=['abvm', 'blwm'] (no kern feature)"
+     ],
+     "pinned_face_used": true
+    },
+    {
+     "id": "legal_text",
+     "content": "Please drink responsibly. Botanical Sparkling Co., 2026. Void where prohibited. See solstice.com/terms for full details.",
+     "family": "Solstice Sans",
+     "weight": "regular",
+     "font_size": 6.0,
+     "drawn_size": 6,
+     "box": [
+      0.0,
+      80.6,
+      344.0,
+      7.2
+     ],
+     "rotation": 0,
+     "lines": [
+      "Please drink responsibly. Botanical Sparkling Co., 2026. Void where prohibited. See solstice.com/terms for full",
+      "details."
+     ],
+     "clipped": true,
+     "lost_px": 84,
+     "overflow": true,
+     "overflow_px": 90,
+     "ink_bbox": [
+      0,
+      81,
+      324,
+      95
+     ],
+     "notes": [
+      "kerning-not-applied: renderer positions glyphs by advance only; face GPOS features=['abvm', 'blwm'] (no kern feature)"
+     ],
+     "pinned_face_used": true
+    }
+   ]
+  }
+ }
+}

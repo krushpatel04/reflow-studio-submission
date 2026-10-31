@@ -1,0 +1,492 @@
+{
+ "after-dark@1001x1000": {
+  "hash": "116b5cadecd88755",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "after-dark@600x1200": {
+  "hash": "ea51e62dbf7ec7ca",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "after-dark@1600x400": {
+  "hash": "34520a917d5231c8",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "after-dark@80x3000": {
+  "hash": "4fe16810009eb378",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "after-dark@1080x1350": {
+  "hash": "2073ad3c7915c07d",
+  "selected": "identity",
+  "ungroupedBackground": false
+ },
+ "after-dark@728x90": {
+  "hash": "2351113cce3794c5",
+  "selected": "split",
+  "ungroupedBackground": false
+ },
+ "after-dark@1000x1000": {
+  "hash": "871002e5107231e4",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "long-headline@1001x1000": {
+  "hash": "dbdcada031236c11",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "long-headline@600x1200": {
+  "hash": "e7c62837a569ab27",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "long-headline@1600x400": {
+  "hash": "ee72da9539064502",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "long-headline@80x3000": {
+  "hash": "aa3e6ead4df20000",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "long-headline@1080x1350": {
+  "hash": "3b46ca1574d1bd6b",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "long-headline@728x90": {
+  "hash": "a60d90e5a6f7b35e",
+  "selected": "split",
+  "ungroupedBackground": false
+ },
+ "long-headline@1000x1000": {
+  "hash": "5bb21648f8ae2674",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "dense-program@1001x1000": {
+  "hash": "d00d91dc15cebab2",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "dense-program@600x1200": {
+  "hash": "5daebe540addb5b0",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "dense-program@1600x400": {
+  "hash": "37f5d773c8e126ce",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "dense-program@80x3000": {
+  "hash": "339b7b4599571ae0",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "dense-program@1080x1350": {
+  "hash": "f64c516d6f6ffac2",
+  "selected": "identity",
+  "ungroupedBackground": false
+ },
+ "dense-program@728x90": {
+  "hash": "70a04d1c09d030d7",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "dense-program@1000x1000": {
+  "hash": "ca7d1d66af6cc504",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "grouped-details@1001x1000": {
+  "hash": "1baa1d284eef435d",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "grouped-details@600x1200": {
+  "hash": "09793dbb5bd32201",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "grouped-details@1600x400": {
+  "hash": "e196326758cb7833",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "grouped-details@80x3000": {
+  "hash": "776ce7b1860df46f",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "grouped-details@1080x1350": {
+  "hash": "d337995b0ece419d",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "grouped-details@728x90": {
+  "hash": "e80796bec9273e03",
+  "selected": "split",
+  "ungroupedBackground": false
+ },
+ "grouped-details@1000x1000": {
+  "hash": "b101d91584c17a86",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "intentional-overlap@1001x1000": {
+  "hash": "a4f4498ccd270a75",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "intentional-overlap@600x1200": {
+  "hash": "122ac12c771a5bd1",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "intentional-overlap@1600x400": {
+  "hash": "7b9d60e1b2ff863b",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "intentional-overlap@80x3000": {
+  "hash": "5f39007f9131fb92",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "intentional-overlap@1080x1350": {
+  "hash": "e7c51e840c0d922b",
+  "selected": "identity",
+  "ungroupedBackground": false
+ },
+ "intentional-overlap@728x90": {
+  "hash": "9a30a0826d478e0a",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "intentional-overlap@1000x1000": {
+  "hash": "3d3094a6face059f",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "layered-art@1001x1000": {
+  "hash": "0fb12ae7e5d00640",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "layered-art@600x1200": {
+  "hash": "57f54fe38864ac07",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "layered-art@1600x400": {
+  "hash": "b835a54803205d3f",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "layered-art@80x3000": {
+  "hash": "4e00a5b8a28af592",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "layered-art@1080x1350": {
+  "hash": "332b4c8b11dbed5c",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "layered-art@728x90": {
+  "hash": "2d81bd1a3d884871",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "layered-art@1000x1000": {
+  "hash": "fdfe0e21109964ed",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "product-pairs@1001x1000": {
+  "hash": "8856ddeb8d007567",
+  "selected": "group-grid-3",
+  "ungroupedBackground": false
+ },
+ "product-pairs@600x1200": {
+  "hash": "3f737af0edf8aa19",
+  "selected": "group-grid-3",
+  "ungroupedBackground": false
+ },
+ "product-pairs@1600x400": {
+  "hash": "16ea092fcbf3309d",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "product-pairs@80x3000": {
+  "hash": "b57de51c5d81cfce",
+  "selected": "group-grid-2",
+  "ungroupedBackground": false
+ },
+ "product-pairs@1080x1350": {
+  "hash": "95801ffbf542dcd7",
+  "selected": "group-grid-3",
+  "ungroupedBackground": false
+ },
+ "product-pairs@728x90": {
+  "hash": "c3d9114c6187dbf4",
+  "selected": "group-grid-3",
+  "ungroupedBackground": false
+ },
+ "product-pairs@1000x1000": {
+  "hash": "463291d3cf7b5c0f",
+  "selected": "group-grid-3",
+  "ungroupedBackground": false
+ },
+ "quiet-brand@1001x1000": {
+  "hash": "378380fb8443de92",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "quiet-brand@600x1200": {
+  "hash": "2be210a4a1ecd365",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "quiet-brand@1600x400": {
+  "hash": "33456b2e40712218",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "quiet-brand@80x3000": {
+  "hash": "0f3cc769bbf677e4",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "quiet-brand@1080x1350": {
+  "hash": "c6bb900aaec923f2",
+  "selected": "identity",
+  "ungroupedBackground": false
+ },
+ "quiet-brand@728x90": {
+  "hash": "8ae659d48bc91bb7",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "quiet-brand@1000x1000": {
+  "hash": "cf1d085a60994aed",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "edge-subject@1001x1000": {
+  "hash": "03165ba151065e02",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "edge-subject@600x1200": {
+  "hash": "fffaf4ada6ab452e",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "edge-subject@1600x400": {
+  "hash": "f21faaba9ce9d5e3",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "edge-subject@80x3000": {
+  "hash": "b1054f367060e4a5",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "edge-subject@1080x1350": {
+  "hash": "bff01c28f2c07e58",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "edge-subject@728x90": {
+  "hash": "ef2f4b4688a08cfb",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "edge-subject@1000x1000": {
+  "hash": "951012f8e57b453a",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "type-pairing@1001x1000": {
+  "hash": "06205f7eefcaf613",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "type-pairing@600x1200": {
+  "hash": "1cc63786e12f6d75",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "type-pairing@1600x400": {
+  "hash": "72d118ad340e1eeb",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "type-pairing@80x3000": {
+  "hash": "066a843819b0ee6e",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "type-pairing@1080x1350": {
+  "hash": "d00c0ccc68f36e45",
+  "selected": "identity",
+  "ungroupedBackground": false
+ },
+ "type-pairing@728x90": {
+  "hash": "3c4b85ef94e48bdf",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "type-pairing@1000x1000": {
+  "hash": "43eea79014600e44",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "badge-decoration-content@1001x1000": {
+  "hash": "0009c2c18c37a788",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "badge-decoration-content@600x1200": {
+  "hash": "80bb08e98ea80139",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "badge-decoration-content@1600x400": {
+  "hash": "03de69b85197ef87",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "badge-decoration-content@80x3000": {
+  "hash": "d02050c40abefe93",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "badge-decoration-content@1080x1350": {
+  "hash": "db9a145c05b974a8",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "badge-decoration-content@728x90": {
+  "hash": "3d90dd07e3601ac3",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "badge-decoration-content@1000x1000": {
+  "hash": "4b91b7bc21950cf8",
+  "selected": "identity",
+  "ungroupedBackground": false
+ },
+ "badge-background-content@1001x1000": {
+  "hash": "a0ed1e6764a0e176",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "badge-background-content@600x1200": {
+  "hash": "8d1d6ad18aec81d3",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "badge-background-content@1600x400": {
+  "hash": "bbbb5116f40b9b3a",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "badge-background-content@80x3000": {
+  "hash": "a91fb10453365f17",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "badge-background-content@1080x1350": {
+  "hash": "5229987d0e24df47",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "badge-background-content@728x90": {
+  "hash": "c6e2d23aa3424a41",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "badge-background-content@1000x1000": {
+  "hash": "ab9882aef23f4342",
+  "selected": "identity",
+  "ungroupedBackground": false
+ },
+ "badge-background-decoration@1001x1000": {
+  "hash": "0d8185d9a57716a4",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "badge-background-decoration@600x1200": {
+  "hash": "bcd349530f488924",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "badge-background-decoration@1600x400": {
+  "hash": "f4402b0f48480767",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "badge-background-decoration@80x3000": {
+  "hash": "56a71cd63c4d5395",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "badge-background-decoration@1080x1350": {
+  "hash": "a73f413381a6ec07",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "badge-background-decoration@728x90": {
+  "hash": "5bf7ebfc058cedf3",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "badge-background-decoration@1000x1000": {
+  "hash": "295c9f66a26787b9",
+  "selected": "identity",
+  "ungroupedBackground": false
+ },
+ "image-price@1001x1000": {
+  "hash": "ffa988fcbd7d50be",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "image-price@600x1200": {
+  "hash": "ff06ff5235c2db0f",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "image-price@1600x400": {
+  "hash": "9683a5b3fd2f4186",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "image-price@80x3000": {
+  "hash": "3489ef953a378628",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "image-price@1080x1350": {
+  "hash": "54f57d4ca6d8f209",
+  "selected": "uniform",
+  "ungroupedBackground": false
+ },
+ "image-price@728x90": {
+  "hash": "83a3bce0415d2a95",
+  "selected": "stack",
+  "ungroupedBackground": false
+ },
+ "image-price@1000x1000": {
+  "hash": "2d448b7cbe7d24c0",
+  "selected": "identity",
+  "ungroupedBackground": false
+ }
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "slight-overlap",
+  "name": "slight-overlap",
+  "description": "Defect-control case",
+  "provenance": "synthetic",
+  "width": 1600,
+  "height": 900,
+  "background": "#ffffff",
+  "groups": [],
+  "elements": [
+    {
+      "id": "headline",
+      "type": "text",
+      "role": "content",
+      "x": 440,
+      "y": 90,
+      "width": 720,
+      "height": 108,
+      "text": "A clear headline here",
+      "fontFamily": "Inter",
+      "fontSize": 57.6,
+      "fontWeight": 700,
+      "lineHeight": 1.1,
+      "color": "#111111"
+    },
+    {
+      "id": "sticker",
+      "type": "rect",
+      "role": "decoration",
+      "x": 404,
+      "y": 81,
+      "width": 72,
+      "height": 126,
+      "color": "#e34850"
+    }
+  ]
+}

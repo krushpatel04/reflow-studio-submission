@@ -1,0 +1,820 @@
+{
+  "budgets": {
+    "raw": 2097152,
+    "gzip": 1572864,
+    "startup": 3000,
+    "feedback": 100,
+    "interactionLongTask": 50,
+    "heap": 67108864,
+    "heapGrowth": 5242880,
+    "summedRss": 1073741824
+  },
+  "sourceCommit": "64fe972a15091a954a8fa1ee139aa87d53820e6f",
+  "environment": {
+    "cpu": "Apple M1",
+    "memoryBytes": 8589934592,
+    "os": "24.4.0",
+    "chromium": "153.0.8010.12",
+    "node": "v24.20.0"
+  },
+  "methods": {
+    "network": "Browser context proxy http://127.0.0.1:9; loopback bypass; no request interception during measurements",
+    "startup": "Node monotonic time around navigation/reload through html[data-ready=true], including Playwright overhead",
+    "memory": "250ms requested sampling; page JS heap excludes workers/native/browser; owned Chromium summed RSS double-counts shared pages; sampled maximum only",
+    "pairedGrowth": "GC before baseline and after20 edits; same fixture/copy/mode/overlay restored",
+    "package": "Raw and sum-of-per-file gzip bytes, not transferred bytes; embedded image bytes are part of JS totals"
+  },
+  "files": [
+    {
+      "path": "assets/focus-visible-C9_cNLNA.js",
+      "bytes": 3076,
+      "gzip": 1031,
+      "sha256": "7577117ac7201bd7324f3c2db0eb3a14bad52bffe99312c17f9fe4071be48bf9"
+    },
+    {
+      "path": "assets/index-C5jRu14Y.css",
+      "bytes": 19992,
+      "gzip": 3911,
+      "sha256": "16093dc0c6ab714471a6d7c5d27659ccb85fa40136badf1a9e7bbb4cec7d830a"
+    },
+    {
+      "path": "assets/index-DsxZhCrQ.js",
+      "bytes": 510527,
+      "gzip": 81330,
+      "sha256": "8fdb1c41dafbc4cb27f62001734cc10a14a5435a494f6ad68cf61627c7641d0f"
+    },
+    {
+      "path": "assets/inter-cyrillic-400-normal-HOLc17fK.woff",
+      "bytes": 9780,
+      "gzip": 9760,
+      "sha256": "6e441a6c94788318fa02b6d0a633aa29eebe27b69c6567eb1e59b4edc68ed70e"
+    },
+    {
+      "path": "assets/inter-cyrillic-400-normal-obahsSVq.woff2",
+      "bytes": 7712,
+      "gzip": 7735,
+      "sha256": "f0bb586459ce8f09b238285040f17e3e9e9538b2c5a7aae0775194e33c36c3c3"
+    },
+    {
+      "path": "assets/inter-cyrillic-500-normal-BasfLYem.woff2",
+      "bytes": 7900,
+      "gzip": 7923,
+      "sha256": "b77a86ec16aadc157f4a99e8898d71cd75ea264753d9bdf13f962f8c3988cbb0"
+    },
+    {
+      "path": "assets/inter-cyrillic-500-normal-CxZf_p3X.woff",
+      "bytes": 9940,
+      "gzip": 9920,
+      "sha256": "5be18e0345781cb882a267798518553c0e915174fc70731ab5f085ca64ba1ebc"
+    },
+    {
+      "path": "assets/inter-cyrillic-600-normal-4D_pXhcN.woff",
+      "bytes": 9936,
+      "gzip": 9916,
+      "sha256": "cc190ed1b64eb650a4ad7e97c7a668cb8b34acd9c4c7f7bf4372c0cbacd35795"
+    },
+    {
+      "path": "assets/inter-cyrillic-600-normal-CWCymEST.woff2",
+      "bytes": 7972,
+      "gzip": 7995,
+      "sha256": "6c2a37f82a676bcd441b735e4e2cda4edb8873a059ab9c362a84f0711f257041"
+    },
+    {
+      "path": "assets/inter-cyrillic-700-normal-CjBOestx.woff2",
+      "bytes": 7904,
+      "gzip": 7927,
+      "sha256": "5917871d3cc970d8ce195101cbf65c1f68ec948022eb6070030342bb7edfb3bb"
+    },
+    {
+      "path": "assets/inter-cyrillic-700-normal-DrXBdSj3.woff",
+      "bytes": 9912,
+      "gzip": 9894,
+      "sha256": "72b6daa49173e531027d8a260ef128e142a165811cab6a2875eefe0c3c58fa0e"
+    },
+    {
+      "path": "assets/inter-cyrillic-ext-400-normal-BQZuk6qB.woff2",
+      "bytes": 10232,
+      "gzip": 10255,
+      "sha256": "ef572f9187a8be018d9d9c2c6b77c1f6cb2af4199f02fc16c292ea10ab25a2cc"
+    },
+    {
+      "path": "assets/inter-cyrillic-ext-400-normal-DQukG94-.woff",
+      "bytes": 13336,
+      "gzip": 13311,
+      "sha256": "5cb2f1cc0936f89a42ceae34f5a5720248dc5b8114c12b1c33a7d2ef01a9b6b9"
+    },
+    {
+      "path": "assets/inter-cyrillic-ext-500-normal-B0yAr1jD.woff2",
+      "bytes": 10432,
+      "gzip": 10455,
+      "sha256": "1c2db92d3cd9b237ca7c9c07af556d542f28ded1db54cd4382cf776501c5291f"
+    },
+    {
+      "path": "assets/inter-cyrillic-ext-500-normal-BmqWE9Dz.woff",
+      "bytes": 13452,
+      "gzip": 13427,
+      "sha256": "e250c05aebcf49971e0b25f476992dd463c28c0292ebb204d9db542fb5066ca7"
+    },
+    {
+      "path": "assets/inter-cyrillic-ext-600-normal-Bcila6Z-.woff",
+      "bytes": 13464,
+      "gzip": 13437,
+      "sha256": "a5073285409443f4653c858de58c5dc0bfc2fd33e60d8747388345e7c5ab1ab3"
+    },
+    {
+      "path": "assets/inter-cyrillic-ext-600-normal-Dfes3d0z.woff2",
+      "bytes": 10484,
+      "gzip": 10507,
+      "sha256": "509fca9c59564f9a846fa69bc647f9b050fc11abf1c9f6f3da71fb2d5ed425bd"
+    },
+    {
+      "path": "assets/inter-cyrillic-ext-700-normal-BjwYoWNd.woff2",
+      "bytes": 10496,
+      "gzip": 10519,
+      "sha256": "a46b99781170971e2c99a87ff7ee9f5cf90a9dfcd18175e1be6300201d030123"
+    },
+    {
+      "path": "assets/inter-cyrillic-ext-700-normal-LO58E6JB.woff",
+      "bytes": 13408,
+      "gzip": 13383,
+      "sha256": "0f3d4be2bd7018f78fa3484a5f6e9d8ce567689426643b84a47e8cabb91e5f16"
+    },
+    {
+      "path": "assets/inter-greek-400-normal-B4URO6DV.woff2",
+      "bytes": 7776,
+      "gzip": 7799,
+      "sha256": "c15ddd00a9927b56f5c655a41f976f79bd848a20cce91fc14227751872a1cc27"
+    },
+    {
+      "path": "assets/inter-greek-400-normal-q2sYcFCs.woff",
+      "bytes": 9924,
+      "gzip": 9909,
+      "sha256": "bdae9d28729e8c68587d5d54e216d771a40d7a6800e824586a6e2f570c2f10df"
+    },
+    {
+      "path": "assets/inter-greek-500-normal-BIZE56-Y.woff2",
+      "bytes": 7920,
+      "gzip": 7943,
+      "sha256": "cc197d79d33a3615a047baae85f4d1957f6f98b8898313658e160b1d519b1b6f"
+    },
+    {
+      "path": "assets/inter-greek-500-normal-Xzm54t5V.woff",
+      "bytes": 9980,
+      "gzip": 9968,
+      "sha256": "86d55a4b1b9cbced7e61e76d5d44cf49d0bd1c814d3df2de67b7136ab4fdcece"
+    },
+    {
+      "path": "assets/inter-greek-600-normal-BZpKdvQh.woff",
+      "bytes": 10032,
+      "gzip": 10014,
+      "sha256": "090b24e22fc4ddf41450d13bdec81c8a74808b9fc7edaf8df06c909b177a8992"
+    },
+    {
+      "path": "assets/inter-greek-600-normal-plRanbMR.woff2",
+      "bytes": 7944,
+      "gzip": 7967,
+      "sha256": "9c5a897f9d9fcfe60d90631d766ae62b4bf1edd76633fa7a4b2f8c87e036789b"
+    },
+    {
+      "path": "assets/inter-greek-700-normal-BUv2fZ6O.woff",
+      "bytes": 9980,
+      "gzip": 9969,
+      "sha256": "53368f53d5fc43381dcc45c8533ba2476f80337136313525f96dcbdc736616a5"
+    },
+    {
+      "path": "assets/inter-greek-700-normal-C3JjAnD8.woff2",
+      "bytes": 7920,
+      "gzip": 7943,
+      "sha256": "737c6c91cd60372d30e6540096ada83c89c9b4613cd7472e3366bf2e07ad99f1"
+    },
+    {
+      "path": "assets/inter-greek-ext-400-normal-DGGRlc-M.woff2",
+      "bytes": 5264,
+      "gzip": 5287,
+      "sha256": "eadedd9e13c2582430a9fb1519eb86152fdabb483a6f66d90f8d8a52e977a1b7"
+    },
+    {
+      "path": "assets/inter-greek-ext-400-normal-KugGGMne.woff",
+      "bytes": 7064,
+      "gzip": 6980,
+      "sha256": "4f2b6f92ddfece8812e79774d446218aa6e0773ff8c2d31130fe2bdc23bd22d0"
+    },
+    {
+      "path": "assets/inter-greek-ext-500-normal-2j5mBUwD.woff",
+      "bytes": 7192,
+      "gzip": 7099,
+      "sha256": "c85d11bde719108cc9a4f6f5b008087f6c36493b47395580d4f5336182b0f0c7"
+    },
+    {
+      "path": "assets/inter-greek-ext-500-normal-C4iEst2y.woff2",
+      "bytes": 5428,
+      "gzip": 5451,
+      "sha256": "75a9ec9383a3b7a7bf7cfb94f64edf38d9cfdc5f7ffa0cbed2733627a6e4426d"
+    },
+    {
+      "path": "assets/inter-greek-ext-600-normal-B8X0CLgF.woff",
+      "bytes": 7212,
+      "gzip": 7119,
+      "sha256": "efc7aa9cce5c505dd8cc4c4daf00247fa805f37bcda96079239ba3358ab27dfb"
+    },
+    {
+      "path": "assets/inter-greek-ext-600-normal-DRtmH8MT.woff2",
+      "bytes": 5432,
+      "gzip": 5455,
+      "sha256": "399f94d75aa73403e40e2353e8c0cc75c38f7362a6ca263b3b02d9723157ffe5"
+    },
+    {
+      "path": "assets/inter-greek-ext-700-normal-BoQ6DsYi.woff",
+      "bytes": 7216,
+      "gzip": 7117,
+      "sha256": "b26ed64c9135a750ad580b92152bedeef90771e74e18f6f7759a6d7adb0f1b5d"
+    },
+    {
+      "path": "assets/inter-greek-ext-700-normal-qfdV9bQt.woff2",
+      "bytes": 5444,
+      "gzip": 5467,
+      "sha256": "b7b2732ebc981b30a5463ffc850407649dba41e625aee124cc63293da4547629"
+    },
+    {
+      "path": "assets/inter-latin-400-normal-C38fXH4l.woff2",
+      "bytes": 23664,
+      "gzip": 23666,
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+    },
+    {
+      "path": "assets/inter-latin-400-normal-CyCys3Eg.woff",
+      "bytes": 30696,
+      "gzip": 30546,
+      "sha256": "e20fa0b4fd2dd26e4d14b3ac3cc922509c3a63fa5e910e90c614544aa042dd45"
+    },
+    {
+      "path": "assets/inter-latin-500-normal-BL9OpVg8.woff",
+      "bytes": 31284,
+      "gzip": 31095,
+      "sha256": "9b42c108da48b5ed55a3072e815ffee2d271562e6c0dd6998910e8f9c09e0a3d"
+    },
+    {
+      "path": "assets/inter-latin-500-normal-Cerq10X2.woff2",
+      "bytes": 24272,
+      "gzip": 24254,
+      "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+    },
+    {
+      "path": "assets/inter-latin-600-normal-CiBQ2DWP.woff",
+      "bytes": 31260,
+      "gzip": 31101,
+      "sha256": "6a9cb3a509b4eeaf12b7dda6c4aacac3e85d07f4201bf4dd716e332e692b87bd"
+    },
+    {
+      "path": "assets/inter-latin-600-normal-LgqL8muc.woff2",
+      "bytes": 24452,
+      "gzip": 24443,
+      "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+    },
+    {
+      "path": "assets/inter-latin-700-normal-BLAVimhd.woff",
+      "bytes": 31320,
+      "gzip": 31171,
+      "sha256": "7c5ed5655730de337704d3fc94628515cd7e3d8d32368871709bf56ac0397e7a"
+    },
+    {
+      "path": "assets/inter-latin-700-normal-Yt3aPRUw.woff2",
+      "bytes": 24356,
+      "gzip": 24314,
+      "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+    },
+    {
+      "path": "assets/inter-latin-ext-400-normal-77YHD8bZ.woff",
+      "bytes": 47560,
+      "gzip": 47427,
+      "sha256": "22ae8360fbad24d2af7c6c9898a346c881774dc87f7cf94bd262c48ad58d7116"
+    },
+    {
+      "path": "assets/inter-latin-ext-400-normal-C1nco2VV.woff2",
+      "bytes": 35000,
+      "gzip": 35025,
+      "sha256": "6744a7f509ebc6ab220a6cd4ea77e898adf014f03d88dcda5d45d8a9feefb4e9"
+    },
+    {
+      "path": "assets/inter-latin-ext-500-normal-BxGbmqWO.woff",
+      "bytes": 48492,
+      "gzip": 48336,
+      "sha256": "30d2903ce97f8a89ea0e9c083b42cb8bf97e7bbb5607e7f00352815f19cb0d5b"
+    },
+    {
+      "path": "assets/inter-latin-ext-500-normal-CV4jyFjo.woff2",
+      "bytes": 36024,
+      "gzip": 36051,
+      "sha256": "2c6fbc42d315528beb06c1096df45487bf4186c4b78b8111d12c9c951f8acca2"
+    },
+    {
+      "path": "assets/inter-latin-ext-600-normal-CIVaiw4L.woff",
+      "bytes": 48668,
+      "gzip": 48507,
+      "sha256": "22ff20a6170674fb9637c2a072227be86303bb6ec52b829b9d7077405f7196a6"
+    },
+    {
+      "path": "assets/inter-latin-ext-600-normal-D2bJ5OIk.woff2",
+      "bytes": 36260,
+      "gzip": 36280,
+      "sha256": "e4bdf67b0cd15ca9e184509275be95db942195d3cc2b17f6a0452f2adf75d0bf"
+    },
+    {
+      "path": "assets/inter-latin-ext-700-normal-Ca8adRJv.woff2",
+      "bytes": 36244,
+      "gzip": 36262,
+      "sha256": "143f9504f1377012aa3e39c90c4354ef429cb0494b9ac0e1437f1a81e5412236"
+    },
+    {
+      "path": "assets/inter-latin-ext-700-normal-TidjK2hL.woff",
+      "bytes": 48632,
+      "gzip": 48401,
+      "sha256": "1761edba32014180deab3dbbe3f7156c64ef6f34bc76313ba31ce227fc9ff391"
+    },
+    {
+      "path": "assets/inter-vietnamese-400-normal-Bbgyi5SW.woff",
+      "bytes": 6500,
+      "gzip": 6466,
+      "sha256": "54aa42d325bcdfd623ecb9eac4a5e3c6420c63d7b86e9d8545fb479f653beb57"
+    },
+    {
+      "path": "assets/inter-vietnamese-400-normal-DMkecbls.woff2",
+      "bytes": 4972,
+      "gzip": 4995,
+      "sha256": "547ad9fdaeb0ae43487f4b8a02e47c36553c0c0cb73c8aa98f93b7b615f6b55d"
+    },
+    {
+      "path": "assets/inter-vietnamese-500-normal-DOriooB6.woff2",
+      "bytes": 5112,
+      "gzip": 5135,
+      "sha256": "44e36aa5a8f12130029a29bb0e6695d0262b67446ce321e878b1fb56162b5de6"
+    },
+    {
+      "path": "assets/inter-vietnamese-500-normal-mJboJaSs.woff",
+      "bytes": 6596,
+      "gzip": 6556,
+      "sha256": "18a4a09f751671cd8929d7c66e8fe7d820b511c36e51cf6047ffceab88eec4a4"
+    },
+    {
+      "path": "assets/inter-vietnamese-600-normal-BuLX-rYi.woff",
+      "bytes": 6640,
+      "gzip": 6604,
+      "sha256": "24a01e7bd947aeef91ae8f7b8edeb23fadaf5ceda34a610ce62d2bbdaea57e83"
+    },
+    {
+      "path": "assets/inter-vietnamese-600-normal-Cc8MFFhd.woff2",
+      "bytes": 5100,
+      "gzip": 5123,
+      "sha256": "1aeb94ae9db052a4a2fe6f3046f928cff1fdbd7abdf870a9a01c13cae6faeba5"
+    },
+    {
+      "path": "assets/inter-vietnamese-700-normal-BZaoP0fm.woff",
+      "bytes": 6632,
+      "gzip": 6596,
+      "sha256": "412023ab2f41333b373e2c6eb2a3ebab806fddd610015d2ae8cd4f4314c7ba92"
+    },
+    {
+      "path": "assets/inter-vietnamese-700-normal-DlLaEgI2.woff2",
+      "bytes": 5104,
+      "gzip": 5127,
+      "sha256": "5fafa3829a16d9ea5ac3a67c51e54186353122790b604a3e361f96cab188da8b"
+    },
+    {
+      "path": "assets/layout-worker-aOa873hO.js",
+      "bytes": 29977,
+      "gzip": 11220,
+      "sha256": "55b1d50001a55bfd39cc3bd902e31375fb84776d174c0ad7dee0d6d5d022b53e"
+    },
+    {
+      "path": "assets/source-serif-4-cyrillic-600-normal-BDP5YDHD.woff2",
+      "bytes": 14776,
+      "gzip": 14799,
+      "sha256": "881a5cd61ba36255b82c4e99ca68a21dab3fc62fd91d780501c597f82cae477a"
+    },
+    {
+      "path": "assets/source-serif-4-cyrillic-600-normal-DFnC3vAY.woff",
+      "bytes": 16400,
+      "gzip": 16378,
+      "sha256": "24511459a9f34fbde9ee6a056894728159edec82188b2289e2bf3f8728a138c2"
+    },
+    {
+      "path": "assets/source-serif-4-cyrillic-ext-600-normal-D_E8FDgP.woff2",
+      "bytes": 7288,
+      "gzip": 7311,
+      "sha256": "424aad3c02eafc047e2ed438ef02ddfec38e72e97291865ba27399fc25ef3002"
+    },
+    {
+      "path": "assets/source-serif-4-cyrillic-ext-600-normal-DiT2IGQm.woff",
+      "bytes": 8228,
+      "gzip": 8197,
+      "sha256": "43392576c7c843f29479513d18fcb75084d48801b11d8665fcd2dec845476282"
+    },
+    {
+      "path": "assets/source-serif-4-greek-600-normal-DdRkKr-1.woff2",
+      "bytes": 8132,
+      "gzip": 8155,
+      "sha256": "9682fb04de1d693e4bfc03cec8e847e51e92e77fd8e79c151d0a6f6d7f1fbee6"
+    },
+    {
+      "path": "assets/source-serif-4-greek-600-normal-DhXQw1Kl.woff",
+      "bytes": 9480,
+      "gzip": 9448,
+      "sha256": "ebd852ff220d76958ecc5600c569aabe09b1f12c5bc6c71417cf829ec623d252"
+    },
+    {
+      "path": "assets/source-serif-4-latin-600-normal-DMD1h6_f.woff",
+      "bytes": 25624,
+      "gzip": 25608,
+      "sha256": "3ac34ff6959df1a23563cdf83fb5f532fb3838ca910b400f2e6b1dda0cf3fd48"
+    },
+    {
+      "path": "assets/source-serif-4-latin-600-normal-DouSKlru.woff2",
+      "bytes": 21532,
+      "gzip": 21560,
+      "sha256": "f2b7e1cf1d277b7608231868135648f8ad8e2b58d8e97ca088bee15dc357bee7"
+    },
+    {
+      "path": "assets/source-serif-4-latin-ext-600-normal-0sIUyHMO.woff2",
+      "bytes": 18376,
+      "gzip": 18404,
+      "sha256": "351f7c7a0db5732b008c62d26a8e2b1d2d110449026b8168d4240d07985a7e49"
+    },
+    {
+      "path": "assets/source-serif-4-latin-ext-600-normal-C6NNqpJh.woff",
+      "bytes": 22476,
+      "gzip": 22423,
+      "sha256": "3431d8d75c68a32a4ed6cfe697f2fb4da717674d7abd8eaf2cf70975129fa0a7"
+    },
+    {
+      "path": "assets/source-serif-4-vietnamese-600-normal-B0WJbuqT.woff",
+      "bytes": 8136,
+      "gzip": 8091,
+      "sha256": "d1947b4a1b1f623e90fbd32cdadedc951d1c394c9b47a1b38f8f9ea0fa417103"
+    },
+    {
+      "path": "assets/source-serif-4-vietnamese-600-normal-CznyfUKR.woff2",
+      "bytes": 6444,
+      "gzip": 6467,
+      "sha256": "c42f67589974674a03cd1aece3e18123ad858642ecd8561cedaaeb282dc7a7d1"
+    },
+    {
+      "path": "index.html",
+      "bytes": 497,
+      "gzip": 327,
+      "sha256": "a7c3c29c5abfc5571857b5f2a3bc91e1cfcbc926c691e67410848a2130ab9984"
+    }
+  ],
+  "raw": 1623889,
+  "gzip": 1155992,
+  "startups": [
+    375.52370799999994,
+    82.13312500000006,
+    98.6092500000002
+  ],
+  "startupLongTasks": [
+    [
+      {
+        "startTime": 71.60000002384186,
+        "duration": 107
+      },
+      {
+        "startTime": 209.89999997615814,
+        "duration": 95
+      }
+    ],
+    [],
+    []
+  ],
+  "longTaskWindow": "last reload through the post-ready interaction window; each startup separately retained above",
+  "startupDefinitions": [
+    "new context, HTTP cache cleared before navigation",
+    "same-context reload",
+    "same-context reload"
+  ],
+  "feedbacks": [
+    0.7999999523162842,
+    0.5,
+    0.5,
+    0.5,
+    0.3999999761581421,
+    0.3999999761581421,
+    0.30000007152557373,
+    0.3999999761581421,
+    0.5,
+    0.5,
+    0.5,
+    0.3999999761581421,
+    0.3999999761581421,
+    0.3999999761581421,
+    0.5999999046325684,
+    0.3999999761581421,
+    0.3999999761581421,
+    0.30000007152557373,
+    0.3999999761581421,
+    0.3999999761581421,
+    0.30000007152557373,
+    0.3999999761581421
+  ],
+  "memoryCheckpoints": [
+    {
+      "at": 4731.437041,
+      "heap": 3888508,
+      "summedRss": 403881984,
+      "nodes": 1210
+    },
+    {
+      "at": 5249.765916,
+      "heap": 3898532,
+      "summedRss": 402653184,
+      "nodes": 1203
+    },
+    {
+      "at": 6003.079,
+      "heap": 3919180,
+      "summedRss": 393084928,
+      "nodes": 1208
+    },
+    {
+      "at": 6533.231125,
+      "heap": 3932432,
+      "summedRss": 372719616,
+      "nodes": 1213
+    },
+    {
+      "at": 7024.406,
+      "heap": 3951980,
+      "summedRss": 369623040,
+      "nodes": 1218
+    }
+  ],
+  "pairedMemory": {
+    "before": {
+      "at": 4731.437041,
+      "heap": 3888508,
+      "summedRss": 403881984,
+      "nodes": 1210
+    },
+    "after": {
+      "at": 7142.617333,
+      "heap": 3950824,
+      "summedRss": 368459776,
+      "nodes": 1231
+    },
+    "iterations": 20,
+    "restoredCopy": "Memory sample",
+    "fixture": "type-pairing",
+    "mode": "selected",
+    "overlay": false
+  },
+  "exports": {
+    "jsonVariants": 3,
+    "svgBytes": 96219,
+    "embeddedFonts": true
+  },
+  "longTasks": [],
+  "interactionStart": 100.70000004768372,
+  "interactionEnd": 5557.300000071526,
+  "interactionLongTasks": [],
+  "samples": [
+    {
+      "at": 1732.144583,
+      "heap": 3145628,
+      "summedRss": 378667008,
+      "nodes": 1447
+    },
+    {
+      "at": 1912.221916,
+      "heap": 11314316,
+      "summedRss": 481673216,
+      "nodes": 4300
+    },
+    {
+      "at": 2132.302916,
+      "heap": 8748732,
+      "summedRss": 516456448,
+      "nodes": 4466
+    },
+    {
+      "at": 2393.06025,
+      "heap": 10494076,
+      "summedRss": 510377984,
+      "nodes": 5718
+    },
+    {
+      "at": 2633.631791,
+      "heap": 12080152,
+      "summedRss": 462241792,
+      "nodes": 6881
+    },
+    {
+      "at": 2884.033666,
+      "heap": 9359984,
+      "summedRss": 448954368,
+      "nodes": 7624
+    },
+    {
+      "at": 3132.785333,
+      "heap": 12636100,
+      "summedRss": 445005824,
+      "nodes": 8549
+    },
+    {
+      "at": 3414.804083,
+      "heap": 8791080,
+      "summedRss": 471040000,
+      "nodes": 8897
+    },
+    {
+      "at": 3652.469625,
+      "heap": 13623236,
+      "summedRss": 443039744,
+      "nodes": 10389
+    },
+    {
+      "at": 3903.553833,
+      "heap": 9936364,
+      "summedRss": 429604864,
+      "nodes": 10990
+    },
+    {
+      "at": 4156.56825,
+      "heap": 12403672,
+      "summedRss": 383352832,
+      "nodes": 11557
+    },
+    {
+      "at": 4460.703833,
+      "heap": 9590864,
+      "summedRss": 381583360,
+      "nodes": 12578
+    },
+    {
+      "at": 4659.194125,
+      "heap": 11900128,
+      "summedRss": 392986624,
+      "nodes": 12859
+    },
+    {
+      "at": 4731.437041,
+      "heap": 3888508,
+      "summedRss": 403881984,
+      "nodes": 1210
+    },
+    {
+      "at": 4915.862375,
+      "heap": 4559380,
+      "summedRss": 412073984,
+      "nodes": 1836
+    },
+    {
+      "at": 5160.765041,
+      "heap": 4932956,
+      "summedRss": 411140096,
+      "nodes": 1825
+    },
+    {
+      "at": 5249.765916,
+      "heap": 3898532,
+      "summedRss": 402653184,
+      "nodes": 1203
+    },
+    {
+      "at": 5407.137958,
+      "heap": 5490840,
+      "summedRss": 408813568,
+      "nodes": 1829
+    },
+    {
+      "at": 5659.935208,
+      "heap": 4544864,
+      "summedRss": 407060480,
+      "nodes": 3076
+    },
+    {
+      "at": 5912.690416,
+      "heap": 5572628,
+      "summedRss": 401391616,
+      "nodes": 1830
+    },
+    {
+      "at": 6003.079,
+      "heap": 3919180,
+      "summedRss": 393084928,
+      "nodes": 1208
+    },
+    {
+      "at": 6161.79625,
+      "heap": 4583196,
+      "summedRss": 395640832,
+      "nodes": 1834
+    },
+    {
+      "at": 6407.924666,
+      "heap": 5113904,
+      "summedRss": 382910464,
+      "nodes": 1833
+    },
+    {
+      "at": 6533.231125,
+      "heap": 3932432,
+      "summedRss": 372719616,
+      "nodes": 1213
+    },
+    {
+      "at": 6661.6395,
+      "heap": 4357264,
+      "summedRss": 376733696,
+      "nodes": 1839
+    },
+    {
+      "at": 6909.349666,
+      "heap": 4529988,
+      "summedRss": 370130944,
+      "nodes": 1489
+    },
+    {
+      "at": 7024.406,
+      "heap": 3951980,
+      "summedRss": 369623040,
+      "nodes": 1218
+    },
+    {
+      "at": 7142.617333,
+      "heap": 3950824,
+      "summedRss": 368459776,
+      "nodes": 1231
+    },
+    {
+      "at": 7158.951333,
+      "heap": 4260496,
+      "summedRss": 368394240,
+      "nodes": 1231
+    },
+    {
+      "at": 7410.476958,
+      "heap": 5004284,
+      "summedRss": 381468672,
+      "nodes": 2505
+    }
+  ],
+  "maxHeap": 13623236,
+  "maxSummedRss": 516456448,
+  "heapGrowth": 62316,
+  "functionalExternalRequests": [],
+  "forbiddenNetworkControl": [
+    {
+      "url": "https://example.invalid/qualification-probe",
+      "error": "net::ERR_PROXY_CONNECTION_FAILED"
+    }
+  ],
+  "missingAssetReferenceRecovered": true,
+  "missingFontRestartRecovered": true,
+  "missingWorkerRecovered": true,
+  "intentionalBudgetControl": {
+    "exceededRawDetected": true,
+    "restoredRawPasses": true
+  },
+  "violations": [],
+  "networkFailures": [
+    {
+      "url": "https://example.invalid/qualification-probe",
+      "error": "net::ERR_PROXY_CONNECTION_FAILED"
+    },
+    {
+      "url": "http://127.0.0.1:4188/assets/inter-latin-400-normal-C38fXH4l.woff2",
+      "error": "net::ERR_FAILED"
+    },
+    {
+      "url": "http://127.0.0.1:4188/assets/inter-latin-400-normal-CyCys3Eg.woff",
+      "error": "net::ERR_FAILED"
+    },
+    {
+      "url": "http://127.0.0.1:4188/assets/inter-latin-500-normal-Cerq10X2.woff2",
+      "error": "net::ERR_FAILED"
+    },
+    {
+      "url": "http://127.0.0.1:4188/assets/inter-latin-600-normal-LgqL8muc.woff2",
+      "error": "net::ERR_FAILED"
+    },
+    {
+      "url": "http://127.0.0.1:4188/assets/inter-latin-700-normal-Yt3aPRUw.woff2",
+      "error": "net::ERR_FAILED"
+    },
+    {
+      "url": "http://127.0.0.1:4188/assets/inter-latin-500-normal-BL9OpVg8.woff",
+      "error": "net::ERR_FAILED"
+    },
+    {
+      "url": "http://127.0.0.1:4188/assets/inter-latin-600-normal-CiBQ2DWP.woff",
+      "error": "net::ERR_FAILED"
+    },
+    {
+      "url": "http://127.0.0.1:4188/assets/inter-latin-700-normal-BLAVimhd.woff",
+      "error": "net::ERR_FAILED"
+    },
+    {
+      "url": "http://127.0.0.1:4188/assets/layout-worker-aOa873hO.js",
+      "error": "net::ERR_ABORTED"
+    }
+  ]
+}

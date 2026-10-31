@@ -1,0 +1,16 @@
+✔ ASCII selects only the used weight and latin subset once across duplicate elements (3.300959ms)
+✔ supported Latin, extended Latin, Greek, Cyrillic, Vietnamese: Inter 400 (0.595ms)
+✔ supported Latin, extended Latin, Greek, Cyrillic, Vietnamese: Inter 500 (0.36775ms)
+✔ supported Latin, extended Latin, Greek, Cyrillic, Vietnamese: Inter 600 (0.296708ms)
+✔ supported Latin, extended Latin, Greek, Cyrillic, Vietnamese: Inter 700 (0.364625ms)
+✔ supported Latin, extended Latin, Greek, Cyrillic, Vietnamese: Source Serif 4 600 (0.344708ms)
+✔ missing face, unsupported text/weight, invalid bytes and missing asset fail explicitly (0.950083ms)
+✔ no text needs no fonts; embedded bundled asset remains byte-preserved (0.414125ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 226.236667

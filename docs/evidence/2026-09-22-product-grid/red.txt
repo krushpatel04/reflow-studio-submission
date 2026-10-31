@@ -1,0 +1,70 @@
+✖ square products gain readable labels and prices without losing headline hierarchy (50.820375ms)
+✖ four backed product groups can occupy two columns with readable text and legal overlaps (30.913125ms)
+✖ bookend space follows measured wrapping before group space is allocated (50.07325ms)
+✔ grid candidates preserve all source content and rigid geometry: product-pairs (104.37125ms)
+✔ grid candidates preserve all source content and rigid geometry: four-product-shelf (110.519167ms)
+✔ identity and healthy nearby product composition remain stable (85.876834ms)
+✔ ambiguous associations and cross-group overlaps keep the existing conservative alternatives (78.10825ms)
+✔ invalid product input fails before requesting native measurements (0.454875ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 5
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1206.939709
+
+✖ failing tests:
+
+test at tests/product-grid.test.ts:16:1
+✖ square products gain readable labels and prices without losing headline hierarchy (50.820375ms)
+  AssertionError [ERR_ASSERTION]: Expected at least four of six product warnings resolved, found 6
+      at TestContext.<anonymous> (/Users/ojeda/Documents/ChatGPT/Reflow/tests/product-grid.test.ts:19:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.start (node:internal/test_runner/test:1257:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/product-grid.test.ts:26:1
+✖ four backed product groups can occupy two columns with readable text and legal overlaps (30.913125ms)
+  AssertionError [ERR_ASSERTION]: No two-column whole-group alternative was generated
+      at TestContext.<anonymous> (/Users/ojeda/Documents/ChatGPT/Reflow/tests/product-grid.test.ts:33:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/product-grid.test.ts:40:1
+✖ bookend space follows measured wrapping before group space is allocated (50.07325ms)
+  AssertionError [ERR_ASSERTION]: Expected alternatives for both supported shelves
+      at TestContext.<anonymous> (/Users/ojeda/Documents/ChatGPT/Reflow/tests/product-grid.test.ts:44:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

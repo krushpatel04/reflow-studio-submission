@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "long-headline",
+  "name": "A headline with more to say",
+  "description": "A long title needs real wrapping without losing words or flattening the hierarchy.",
+  "provenance": "synthetic",
+  "width": 1080,
+  "height": 1920,
+  "background": "#f4ddcf",
+  "elements": [
+    {
+      "id": "eyebrow",
+      "type": "text",
+      "role": "content",
+      "text": "IDEAS WORTH BUILDING",
+      "x": 58.5,
+      "y": 600,
+      "width": 954,
+      "height": 43.2,
+      "fontSize": 27,
+      "color": "#172b25",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "headline",
+      "type": "text",
+      "role": "content",
+      "text": "The future belongs to people who make things together.",
+      "x": 58.5,
+      "y": 682.8,
+      "width": 954,
+      "height": 297,
+      "fontSize": 75.60000000000001,
+      "color": "#382922",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "body",
+      "type": "text",
+      "role": "content",
+      "text": "An evening of stories, experiments, and unfinished ideas. Bring something you are curious about.",
+      "x": 58.5,
+      "y": 1045.5,
+      "width": 553.5,
+      "height": 144,
+      "fontSize": 31.5,
+      "color": "#382922",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "hero",
+      "type": "image",
+      "role": "content",
+      "assetId": "orbit",
+      "x": 684,
+      "y": 1027.5,
+      "width": 328.5,
+      "height": 256.5,
+      "fit": "cover",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "details",
+      "type": "text",
+      "role": "content",
+      "text": "THURSDAY · 6:30 PM\nTHE DESIGN LAB",
+      "x": 58.5,
+      "y": 1235.4,
+      "width": 558,
+      "height": 82.8,
+      "fontSize": 26.1,
+      "color": "#382922",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    }
+  ],
+  "groups": []
+}

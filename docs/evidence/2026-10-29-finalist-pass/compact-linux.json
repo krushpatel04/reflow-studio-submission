@@ -1,0 +1,90 @@
+{
+  "image": "reflow-finalist-8b0485a",
+  "arch": "x86_64",
+  "cases_attempted": 5,
+  "inputs_sha256_before": {
+    "medium-250x300.json": "6eb252fef19cdf5d0c71004cc54cd0af6a08c0316f6051ec5999fefa1b50efbe",
+    "medium-300x250.json": "bc3a3ed0f3204266904dbf299ed36a89ba1f69577df2e25accfb09c900344ba9",
+    "medium-301x251.json": "0ee9e319cb0e51d72d2fdbe1d95de4af01e7032e172a1c8e39d2f2355c747927",
+    "medium-320x250.json": "5dfe2876c24d51c56dbe61e99f75aa566b970a99f002d3a660eb6b9ce17512db",
+    "medium-600x500.json": "6e6ce124bc8918bf812c564fab9af768123277f7a737bc8d49a81808c4d7092a"
+  },
+  "inputs_sha256_after": {
+    "medium-250x300.json": "6eb252fef19cdf5d0c71004cc54cd0af6a08c0316f6051ec5999fefa1b50efbe",
+    "medium-300x250.json": "bc3a3ed0f3204266904dbf299ed36a89ba1f69577df2e25accfb09c900344ba9",
+    "medium-301x251.json": "0ee9e319cb0e51d72d2fdbe1d95de4af01e7032e172a1c8e39d2f2355c747927",
+    "medium-320x250.json": "5dfe2876c24d51c56dbe61e99f75aa566b970a99f002d3a660eb6b9ce17512db",
+    "medium-600x500.json": "6e6ce124bc8918bf812c564fab9af768123277f7a737bc8d49a81808c4d7092a"
+  },
+  "outputs_sha256": {
+    "medium-250x300_output.json": "ad352c4e2bcd54f7487e341453317ae37e711068ae2a7a07b708d52629936c5b",
+    "medium-250x300_output.png": "78e364f78e3a6acb0e58e8ab0c5d5c99be0929859b6050f9edcba2456056f354",
+    "medium-300x250_output.json": "b0db5c61665f500d93ed7491b672aedad60c01d4286b87b60c94fef59e492816",
+    "medium-300x250_output.png": "59382c41f6c41663d71de4974c4971193d05a5001711a35627d6503d878f5ee2",
+    "medium-301x251_output.json": "f2f30beb44f38a8420d43e9f8bd9e48f5f269a2985971bfbbd024db83bfb5dc7",
+    "medium-301x251_output.png": "fb009659ab73de716ada85064835c920a6519ad5e759be3efd0d9bdaa7c80e80",
+    "medium-320x250_output.json": "8c5ace24cc20a0bfb727f947e3ae261d34a23fb3a63d756965ae4d3131c98d22",
+    "medium-320x250_output.png": "dfbc6615ade3dd8f5684924d4506d307ce750cede4e95fb5f26b348d56def5f7",
+    "medium-600x500_output.json": "664c0ee5d0928100544aa5982c65e3a296f240a851563ec3ab3324b446d3dc7f",
+    "medium-600x500_output.png": "f5c40736e30c651d4bb9e7711e41a5d8917c80661ce8a2af7b1af198713c6ce7"
+  },
+  "probe": {
+    "rc": 0,
+    "net": "blocked",
+    "events": [
+      [
+        "REAL",
+        "output/medium-250x300_output.png"
+      ],
+      [
+        "REAL",
+        "output/medium-300x250_output.png"
+      ],
+      [
+        "REAL",
+        "output/medium-301x251_output.png"
+      ],
+      [
+        "REAL",
+        "output/medium-320x250_output.png"
+      ],
+      [
+        "REAL",
+        "output/medium-600x500_output.png"
+      ]
+    ]
+  },
+  "entrypoint_exit": 0,
+  "network_inspect": [
+    "none",
+    "none"
+  ],
+  "write_attempt": {
+    "refused": true,
+    "exit": 1,
+    "stderr_tail": "(linux/arm64/v8) and no specific platform was requested\nTraceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nOSError: [Errno 30] Read-only file system: '/app/input/.write-attempt'"
+  },
+  "repeat": {
+    "status": "identical",
+    "image_id_before": "sha256:424c0eea2c0651e685e61694b2261fd14bef9096b2e19d9609bab6127ce9e51d",
+    "image_id_after": "sha256:424c0eea2c0651e685e61694b2261fd14bef9096b2e19d9609bab6127ce9e51d",
+    "entrypoint_exit": 0,
+    "network_inspect": [
+      "none"
+    ],
+    "outputs_sha256_second": {
+      "medium-250x300_output.json": "ad352c4e2bcd54f7487e341453317ae37e711068ae2a7a07b708d52629936c5b",
+      "medium-250x300_output.png": "78e364f78e3a6acb0e58e8ab0c5d5c99be0929859b6050f9edcba2456056f354",
+      "medium-300x250_output.json": "b0db5c61665f500d93ed7491b672aedad60c01d4286b87b60c94fef59e492816",
+      "medium-300x250_output.png": "59382c41f6c41663d71de4974c4971193d05a5001711a35627d6503d878f5ee2",
+      "medium-301x251_output.json": "f2f30beb44f38a8420d43e9f8bd9e48f5f269a2985971bfbbd024db83bfb5dc7",
+      "medium-301x251_output.png": "fb009659ab73de716ada85064835c920a6519ad5e759be3efd0d9bdaa7c80e80",
+      "medium-320x250_output.json": "8c5ace24cc20a0bfb727f947e3ae261d34a23fb3a63d756965ae4d3131c98d22",
+      "medium-320x250_output.png": "dfbc6615ade3dd8f5684924d4506d307ce750cede4e95fb5f26b348d56def5f7",
+      "medium-600x500_output.json": "664c0ee5d0928100544aa5982c65e3a296f240a851563ec3ab3324b446d3dc7f",
+      "medium-600x500_output.png": "f5c40736e30c651d4bb9e7711e41a5d8917c80661ce8a2af7b1af198713c6ce7"
+    }
+  },
+  "failures": [],
+  "pass": true
+}

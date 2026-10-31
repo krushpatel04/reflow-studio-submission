@@ -1,0 +1,35 @@
+{
+  "id": "UB-ACCEPTANCE-02-lineage-documentation",
+  "algorithm": "SHA256",
+  "local_files": [
+    {
+      "path": "lineage-02-plan.md",
+      "bytes": 4665,
+      "sha256": "afcf800b6602372216b0c5ebefe4d695159fa6c7307c2de09374faefc913c715",
+      "verification": "locally computed document bytes only"
+    },
+    {
+      "path": "lineage-02.md",
+      "bytes": 5857,
+      "sha256": "194be7d3ef8cc6d6d90d19683a885e0af05c58d5b9c8561100d8fa758301329a",
+      "verification": "locally computed document bytes only"
+    },
+    {
+      "path": "lineage-02.json",
+      "bytes": 14202,
+      "sha256": "0c7420ac9ff720a6c7bf8e114cadaa3c9998ec4145b6ffefc28ef25168afbbc3",
+      "verification": "locally computed document bytes only"
+    }
+  ],
+  "self_hash_note": "lineage-02-hashes.json excluded from self-reference; digest supplied in handoff",
+  "named_input": {
+    "expected_sha256_root_reported": "243fdbc371989620c2d6f2108e69faff7e84cb78643bea860f8194ea49c39e79",
+    "expected_git_blob_root_reported": "6c0a3e1950e0816946aa32adae3a8fa2d5040e98",
+    "expected_bytes_root_reported": 12166,
+    "locally_verified_sha256": "243fdbc371989620c2d6f2108e69faff7e84cb78643bea860f8194ea49c39e79",
+    "locally_verified_git_blob": "6c0a3e1950e0816946aa32adae3a8fa2d5040e98",
+    "locally_verified_bytes": 12166,
+    "reason": "owner-provided base64 restored exact original transfer bytes including terminal newline; no provenance reproduction"
+  },
+  "provenance_reproduced": false
+}

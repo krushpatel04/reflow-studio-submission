@@ -1,0 +1,47 @@
+✔ after-dark: nearby width/height sweep retains composition (31.361459ms)
+✔ long-headline: nearby width/height sweep retains composition (12.658416ms)
+✔ dense-program: nearby width/height sweep retains composition (27.805542ms)
+✔ grouped-details: nearby width/height sweep retains composition (8.972916ms)
+✔ intentional-overlap: nearby width/height sweep retains composition (8.709125ms)
+✔ layered-art: nearby width/height sweep retains composition (5.431167ms)
+✔ product-pairs: nearby width/height sweep retains composition (18.773917ms)
+✔ quiet-brand: nearby width/height sweep retains composition (10.437625ms)
+✔ edge-subject: nearby width/height sweep retains composition (4.434375ms)
+✔ type-pairing: nearby width/height sweep retains composition (8.649042ms)
+✔ large format change can trade composition for materially better reading size (1.3155ms)
+✖ wide gallery becomes readable at a tall aspect ratio instead of retaining a tiny letterboxed caption (35.767708ms)
+✔ scale, metadata and ID changes do not change a nearby composition decision (1.581584ms)
+✔ text-free design preserves its composition instead of maximizing coverage (1.209041ms)
+✔ source-aware ranking prefers established relations over unnecessary font enlargement (0.631ms)
+✔ hard preservation errors outrank a composition-perfect candidate (0.704041ms)
+✔ uniform scaling and letterboxing introduce no source-relation loss at any supported ratio (4.836958ms)
+✔ additional readable or empty text cannot hide an unreadable caption (0.1875ms)
+✔ candidate order does not change a source-aware selection (2.734792ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 18
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1151.785458
+
+✖ failing tests:
+
+test at tests/stability.test.ts:47:1
+✖ wide gallery becomes readable at a tall aspect ratio instead of retaining a tiny letterboxed caption (35.767708ms)
+  AssertionError [ERR_ASSERTION]: Materially different format should use a feasible readable arrangement
+      at TestContext.<anonymous> (/Users/ojeda/Documents/ChatGPT/Reflow/tests/stability.test.ts:52:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

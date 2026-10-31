@@ -1,0 +1,99 @@
+{
+ "task_id": "C3a_extreme_1000x60",
+ "difficulty": "synthetic",
+ "difficulty_label": "C3a_extreme_1000x60",
+ "source": {
+  "canvas": {
+   "width": 1200,
+   "height": 1200
+  },
+  "elements": [
+   {
+    "id": "bg",
+    "type": "shape",
+    "shape_type": "rectangle",
+    "x": 0,
+    "y": 0,
+    "width": 1200,
+    "height": 1200,
+    "fill_color": "rgba(255,255,255,1)"
+   },
+   {
+    "id": "card",
+    "type": "shape",
+    "shape_type": "rectangle",
+    "x": 0,
+    "y": 0,
+    "width": 300,
+    "height": 300,
+    "fill_color": "rgba(200,50,50,1)"
+   },
+   {
+    "id": "dot",
+    "type": "shape",
+    "shape_type": "ellipse",
+    "x": 400,
+    "y": 0,
+    "width": 300,
+    "height": 300,
+    "fill_color": "rgba(50,50,200,1)"
+   },
+   {
+    "id": "h",
+    "type": "text",
+    "x": 100,
+    "y": 100,
+    "width": 1000,
+    "height": 160,
+    "content": "A rather long headline for a tiny strip banner",
+    "font_family": "Solstice Serif",
+    "font_size": 64,
+    "color": "rgba(0,0,0,1)",
+    "font_weight": "bold"
+   },
+   {
+    "id": "s",
+    "type": "text",
+    "x": 100,
+    "y": 300,
+    "width": 1000,
+    "height": 100,
+    "content": "Subline that also has to survive",
+    "font_family": "Solstice Sans",
+    "font_size": 36,
+    "color": "rgba(0,0,0,1)"
+   },
+   {
+    "id": "cta_bg",
+    "type": "shape",
+    "shape_type": "rectangle",
+    "x": 100,
+    "y": 450,
+    "width": 500,
+    "height": 120,
+    "fill_color": "rgba(20,20,20,1)",
+    "group_id": "cta",
+    "rotation": 0
+   },
+   {
+    "id": "cta_label",
+    "type": "text",
+    "x": 110,
+    "y": 460,
+    "width": 480,
+    "height": 100,
+    "content": "Shop now",
+    "font_family": "Solstice Sans",
+    "font_size": 40,
+    "color": "rgba(0,0,0,1)",
+    "group_id": "cta",
+    "rotation": 0,
+    "font_weight": "bold"
+   }
+  ]
+ },
+ "target_canvas": {
+  "width": 1000,
+  "height": 60
+ }
+}

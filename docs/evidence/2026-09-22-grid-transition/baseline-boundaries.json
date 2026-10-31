@@ -1,0 +1,1668 @@
+{
+  "base": "63393d5",
+  "method": "5px width steps across 600-2200 with every integer in observed changed-strategy brackets, heights 1080/1350/1920 for two authored four-product designs and product-pairs. Values use native fonts. Not exhaustive when both coarse bracket endpoints have the same strategy.",
+  "transitions": [
+    {
+      "source": "four-product-shelf",
+      "from": [
+        863,
+        1080,
+        "group-grid-3"
+      ],
+      "to": [
+        864,
+        1080,
+        "group-grid-4"
+      ],
+      "beforeCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 9,
+          "minReadingSize": 6,
+          "score": 0.8888888888888891,
+          "movementFromSource": 0.22659850823045258
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 3.295480880648899,
+          "score": 3.3203710287897543,
+          "movementFromSource": 0.6092333020953478
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 4,
+          "minReadingSize": 8.49316338354577,
+          "score": 0.13687162956149068,
+          "movementFromSource": 0.6936572137088587
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 5.564774044032444,
+          "score": 1.2590093859564482,
+          "movementFromSource": 0.529295493156123
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.51749710312862,
+          "score": 0.07625446109666584,
+          "movementFromSource": 0.41823700991513507
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.51749710312862,
+          "score": 0.06111823260207812,
+          "movementFromSource": 0.4259485978810435
+        }
+      ],
+      "afterCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 9,
+          "minReadingSize": 5.999999999999999,
+          "score": 0.8888888888888897,
+          "movementFromSource": 0.22638888888888886
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 3.2916666666666665,
+          "score": 3.3247201615441027,
+          "movementFromSource": 0.609210990506055
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 4,
+          "minReadingSize": 8.479166666666668,
+          "score": 0.13836158754523373,
+          "movementFromSource": 0.6936421791291064
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 5.558333333333333,
+          "score": 1.2634414751776726,
+          "movementFromSource": 0.5291810397476372
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.516666666666666,
+          "score": 0.07631827321103196,
+          "movementFromSource": 0.418247825316306
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.516666666666666,
+          "score": 0.06117418345463371,
+          "movementFromSource": 0.42595921747967047
+        },
+        {
+          "strategy": "group-grid-4",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 9.725,
+          "score": 0.030313988767667496,
+          "movementFromSource": 0.09739951400227201
+        }
+      ]
+    },
+    {
+      "source": "four-product-shelf",
+      "from": [
+        1350,
+        1080,
+        "group-grid-4"
+      ],
+      "to": [
+        1351,
+        1080,
+        "group-grid-3"
+      ],
+      "beforeCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 5,
+          "minReadingSize": 7.5,
+          "score": 0.22222222222222218,
+          "movementFromSource": 0.12451388888888881
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 2.6333333333333333,
+          "score": 4.157331895157099,
+          "movementFromSource": 0.6044016584055242
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 6.253333333333334,
+          "score": 0.9195529571013169,
+          "movementFromSource": 0.6943525648470249
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 4.446666666666666,
+          "score": 2.1927442252118023,
+          "movementFromSource": 0.5589939676619983
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.636666666666667,
+          "score": 0.12337696498166309,
+          "movementFromSource": 0.4424686663746705
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.636666666666667,
+          "score": 0.10467568620854323,
+          "movementFromSource": 0.40938970611418285
+        },
+        {
+          "strategy": "group-grid-4",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.516666666666666,
+          "score": 0.029171321603639597,
+          "movementFromSource": 0.06398221194790157
+        }
+      ],
+      "afterCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 5,
+          "minReadingSize": 7.5055555555555555,
+          "score": 0.22057918000304846,
+          "movementFromSource": 0.12430426954732521
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 2.6333333333333333,
+          "score": 4.1574813827472745,
+          "movementFromSource": 0.6044016584055242
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 6.253333333333334,
+          "score": 0.9197383464374452,
+          "movementFromSource": 0.6943642471798491
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 4.446666666666666,
+          "score": 2.1928888051081246,
+          "movementFromSource": 0.5589939676619983
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.636666666666667,
+          "score": 0.12350869417213403,
+          "movementFromSource": 0.4424810050053652
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.636666666666667,
+          "score": 0.1047903123952775,
+          "movementFromSource": 0.40938970611418285
+        }
+      ]
+    },
+    {
+      "source": "four-product-shelf",
+      "from": [
+        1426,
+        1080,
+        "group-grid-3"
+      ],
+      "to": [
+        1427,
+        1080,
+        "uniform"
+      ],
+      "beforeCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 5,
+          "minReadingSize": 7.922222222222224,
+          "score": 0.1147264136564545,
+          "movementFromSource": 0.10858281893004118
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 2.6333333333333333,
+          "score": 4.168895312065415,
+          "movementFromSource": 0.6044016584055242
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 6.253333333333334,
+          "score": 0.9338935179666026,
+          "movementFromSource": 0.6951939415510703
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 4.446666666666666,
+          "score": 2.2039085331078905,
+          "movementFromSource": 0.5589939676619983
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.636666666666667,
+          "score": 0.1335756317082731,
+          "movementFromSource": 0.44335759769392213
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.636666666666667,
+          "score": 0.1135549977082238,
+          "movementFromSource": 0.40938970611418285
+        }
+      ],
+      "afterCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 5,
+          "minReadingSize": 7.927777777777778,
+          "score": 0.11354671543971959,
+          "movementFromSource": 0.10837319958847735
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 2.6333333333333333,
+          "score": 4.169049943265185,
+          "movementFromSource": 0.6044016584055242
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 6.253333333333334,
+          "score": 0.9340897743086708,
+          "movementFromSource": 0.6952044176837054
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 4.446666666666666,
+          "score": 2.2040578150185515,
+          "movementFromSource": 0.5589939676619983
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.636666666666667,
+          "score": 0.13371236135085326,
+          "movementFromSource": 0.4433686695974676
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.636666666666667,
+          "score": 0.11367409884307435,
+          "movementFromSource": 0.40938970611418296
+        }
+      ]
+    },
+    {
+      "source": "four-product-shelf",
+      "from": [
+        1079,
+        1350,
+        "group-grid-3"
+      ],
+      "to": [
+        1080,
+        1350,
+        "group-grid-4"
+      ],
+      "beforeCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 9,
+          "minReadingSize": 6,
+          "score": 0.8888888888888891,
+          "movementFromSource": 0.22655658436213977
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 3.8468952734012976,
+          "score": 2.72705554512404,
+          "movementFromSource": 0.609228839743722
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 4,
+          "minReadingSize": 8.491195551436515,
+          "score": 0.1370832770214582,
+          "movementFromSource": 0.6936542067351029
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 6.195736793327154,
+          "score": 0.8718733440741017,
+          "movementFromSource": 0.5293199351508091
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.517330861909176,
+          "score": 0.07626274983272509,
+          "movementFromSource": 0.4181328292289113
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.517330861909176,
+          "score": 0.06113428880509789,
+          "movementFromSource": 0.4258463037916941
+        }
+      ],
+      "afterCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 9,
+          "minReadingSize": 6,
+          "score": 0.8888888888888891,
+          "movementFromSource": 0.22638888888888886
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 3.8433333333333337,
+          "score": 2.7310042914832953,
+          "movementFromSource": 0.6092109905060551
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 4,
+          "minReadingSize": 8.48,
+          "score": 0.13827743335403056,
+          "movementFromSource": 0.6936421791291064
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 6.1866666666666665,
+          "score": 0.8769443510016368,
+          "movementFromSource": 0.5292239687270796
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.516666666666666,
+          "score": 0.07630698210377328,
+          "movementFromSource": 0.4181515362888318
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.516666666666666,
+          "score": 0.06117134703031544,
+          "movementFromSource": 0.42586467202009637
+        },
+        {
+          "strategy": "group-grid-4",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 9.856666666666667,
+          "score": 0.030566385332652116,
+          "movementFromSource": 0.09752096404959967
+        }
+      ]
+    },
+    {
+      "source": "four-product-shelf",
+      "from": [
+        1687,
+        1350,
+        "group-grid-4"
+      ],
+      "to": [
+        1688,
+        1350,
+        "group-grid-3"
+      ],
+      "beforeCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 9,
+          "minReadingSize": 7.497777777777777,
+          "score": 0.222881146166743,
+          "movementFromSource": 0.12459773662551432
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 2.5893333333333337,
+          "score": 4.212993361534047,
+          "movementFromSource": 0.6044016584055242
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 6.4479999999999995,
+          "score": 0.8181180333892293,
+          "movementFromSource": 0.6943478870901717
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 4.925333333333334,
+          "score": 1.7874670079984858,
+          "movementFromSource": 0.5589397976159651
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.664000000000001,
+          "score": 0.12339249674388579,
+          "movementFromSource": 0.44237721897240734
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.664000000000001,
+          "score": 0.10468292750072664,
+          "movementFromSource": 0.4094990136320727
+        },
+        {
+          "strategy": "group-grid-4",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.517333333333333,
+          "score": 0.029199818355908964,
+          "movementFromSource": 0.06388975605468876
+        }
+      ],
+      "afterCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 5,
+          "minReadingSize": 7.502222222222223,
+          "score": 0.2215642737387594,
+          "movementFromSource": 0.12443004115226342
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 2.5893333333333337,
+          "score": 4.213113043174058,
+          "movementFromSource": 0.6044016584055242
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 6.4479999999999995,
+          "score": 0.8186621775124535,
+          "movementFromSource": 0.6943572398462463
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 4.925333333333334,
+          "score": 1.7875842271498013,
+          "movementFromSource": 0.5589397976159651
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.664000000000001,
+          "score": 0.12349788953418278,
+          "movementFromSource": 0.442387099040362
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.664000000000001,
+          "score": 0.10477463429377386,
+          "movementFromSource": 0.4094990136320726
+        }
+      ]
+    },
+    {
+      "source": "four-product-shelf",
+      "from": [
+        1783,
+        1350,
+        "group-grid-3"
+      ],
+      "to": [
+        1784,
+        1350,
+        "uniform"
+      ],
+      "beforeCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 5,
+          "minReadingSize": 7.924444444444444,
+          "score": 0.11425380277396739,
+          "movementFromSource": 0.10849897119341567
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 2.5893333333333337,
+          "score": 4.2246895015459565,
+          "movementFromSource": 0.6044016584055242
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 6.4479999999999995,
+          "score": 0.8330585553690865,
+          "movementFromSource": 0.6951981337586679
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 4.925333333333334,
+          "score": 1.7989005026412648,
+          "movementFromSource": 0.5589397976159651
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.664000000000001,
+          "score": 0.1337019173247754,
+          "movementFromSource": 0.4432756967191071
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.664000000000001,
+          "score": 0.11365852135142074,
+          "movementFromSource": 0.40949901363207275
+        }
+      ],
+      "afterCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 5,
+          "minReadingSize": 7.928888888888889,
+          "score": 0.11331150739216583,
+          "movementFromSource": 0.10833127572016443
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 2.5893333333333337,
+          "score": 4.224813336810133,
+          "movementFromSource": 0.6044016584055242
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 6.4479999999999995,
+          "score": 0.8332149970808871,
+          "movementFromSource": 0.6952065111566681
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 4.925333333333334,
+          "score": 1.7990215228312572,
+          "movementFromSource": 0.5589397976159651
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.664000000000001,
+          "score": 0.13381135201045352,
+          "movementFromSource": 0.4432845522801808
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.664000000000001,
+          "score": 0.11375384570212839,
+          "movementFromSource": 0.4094990136320727
+        }
+      ]
+    },
+    {
+      "source": "four-product-shelf",
+      "from": [
+        1535,
+        1920,
+        "group-grid-3"
+      ],
+      "to": [
+        1536,
+        1920,
+        "group-grid-4"
+      ],
+      "beforeCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 9,
+          "minReadingSize": 6,
+          "score": 0.8888888888888891,
+          "movementFromSource": 0.2265067997685185
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 3.752442996742671,
+          "score": 2.824725649162327,
+          "movementFromSource": 0.6092235407230949
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 4,
+          "minReadingSize": 8.48755700325733,
+          "score": 0.13748380895331513,
+          "movementFromSource": 0.6936506359913069
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 6.095374592833876,
+          "score": 0.9283549498923842,
+          "movementFromSource": 0.529247038126215
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.517654723127034,
+          "score": 0.07628157162808945,
+          "movementFromSource": 0.41824247114630775
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.517654723127034,
+          "score": 0.06114183621686954,
+          "movementFromSource": 0.4259539602405924
+        }
+      ],
+      "afterCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 9,
+          "minReadingSize": 6,
+          "score": 0.8888888888888891,
+          "movementFromSource": 0.22638888888888886
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 3.74765625,
+          "score": 2.8297230953911434,
+          "movementFromSource": 0.6092109905060551
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 4,
+          "minReadingSize": 8.479687499999999,
+          "score": 0.13833017788560464,
+          "movementFromSource": 0.6936421791291064
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 6.0914062499999995,
+          "score": 0.9306664823156858,
+          "movementFromSource": 0.5291826608494069
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.51953125,
+          "score": 0.07631813784056928,
+          "movementFromSource": 0.41824855392264315
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.51953125,
+          "score": 0.061173980386041486,
+          "movementFromSource": 0.42595993289563766
+        },
+        {
+          "strategy": "group-grid-4",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 9.855468749999998,
+          "score": 0.030578358670298605,
+          "movementFromSource": 0.09739951267874077
+        }
+      ]
+    },
+    {
+      "source": "four-product-shelf-long-headline-valid-source",
+      "from": [
+        863,
+        1080,
+        "group-grid-3"
+      ],
+      "to": [
+        864,
+        1080,
+        "group-grid-4"
+      ],
+      "beforeCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 9,
+          "minReadingSize": 6,
+          "score": 0.8888888888888891,
+          "movementFromSource": 0.22659850823045258
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 2.5404403244495946,
+          "score": 4.2282786777696035,
+          "movementFromSource": 0.6068627567125151
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 4,
+          "minReadingSize": 8.49316338354577,
+          "score": 0.13646577737945015,
+          "movementFromSource": 0.6936572137088587
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 4.409269988412515,
+          "score": 2.170192964552103,
+          "movementFromSource": 0.5262083118238308
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.08667439165701,
+          "score": 0.07489902943791968,
+          "movementFromSource": 0.45184637936390815
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.08667439165701,
+          "score": 0.05865971191961342,
+          "movementFromSource": 0.45899364060773973
+        }
+      ],
+      "afterCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 9,
+          "minReadingSize": 5.999999999999999,
+          "score": 0.8888888888888897,
+          "movementFromSource": 0.22638888888888886
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 2.5375,
+          "score": 4.232082486921588,
+          "movementFromSource": 0.6068411924987539
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 4,
+          "minReadingSize": 8.479166666666668,
+          "score": 0.13795629581348218,
+          "movementFromSource": 0.6936421791291064
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 4.375,
+          "score": 2.2012966858989267,
+          "movementFromSource": 0.526197635531189
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.075,
+          "score": 0.0749590680087679,
+          "movementFromSource": 0.4518995686453144
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.075,
+          "score": 0.05872145683629819,
+          "movementFromSource": 0.4590460017426306
+        },
+        {
+          "strategy": "group-grid-4",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 9.725,
+          "score": 0.03660175772388507,
+          "movementFromSource": 0.17116069867844136
+        }
+      ]
+    },
+    {
+      "source": "four-product-shelf-long-headline-valid-source",
+      "from": [
+        1350,
+        1080,
+        "group-grid-4"
+      ],
+      "to": [
+        1351,
+        1080,
+        "uniform"
+      ],
+      "beforeCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 5,
+          "minReadingSize": 7.5,
+          "score": 0.22222222222222218,
+          "movementFromSource": 0.12451388888888881
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 1.5699999999999998,
+          "score": 5.608524678707138,
+          "movementFromSource": 0.6021927822631891
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 6.253333333333334,
+          "score": 0.9189791330268673,
+          "movementFromSource": 0.6943525648470249
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 3.2066666666666666,
+          "score": 3.4518467602276677,
+          "movementFromSource": 0.5113777273959892
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 7.463333333333334,
+          "score": 0.35506143605843893,
+          "movementFromSource": 0.44523379021700255
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 7.463333333333334,
+          "score": 0.33469530119416224,
+          "movementFromSource": 0.4485527119061986
+        },
+        {
+          "strategy": "group-grid-4",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.516666666666666,
+          "score": 0.038861183543493556,
+          "movementFromSource": 0.12538555140485935
+        }
+      ],
+      "afterCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 5,
+          "minReadingSize": 7.5055555555555555,
+          "score": 0.22057918000304846,
+          "movementFromSource": 0.12430426954732521
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 1.5699999999999998,
+          "score": 5.608676126659897,
+          "movementFromSource": 0.6021927822631891
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 6.253333333333334,
+          "score": 0.9191685429490706,
+          "movementFromSource": 0.6943642471798491
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 3.2066666666666666,
+          "score": 3.4519850111039467,
+          "movementFromSource": 0.5113777273959892
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 7.463333333333334,
+          "score": 0.3551922267849955,
+          "movementFromSource": 0.4452456643191858
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 7.463333333333334,
+          "score": 0.3348083215118399,
+          "movementFromSource": 0.4485527119061986
+        }
+      ]
+    },
+    {
+      "source": "four-product-shelf-long-headline-valid-source",
+      "from": [
+        1079,
+        1350,
+        "group-grid-3"
+      ],
+      "to": [
+        1080,
+        1350,
+        "group-grid-4"
+      ],
+      "beforeCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 9,
+          "minReadingSize": 6,
+          "score": 0.8888888888888891,
+          "movementFromSource": 0.22655658436213977
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 2.121964782205746,
+          "score": 4.778458857201789,
+          "movementFromSource": 0.6068584438377194
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 4,
+          "minReadingSize": 8.491195551436515,
+          "score": 0.13667729813732699,
+          "movementFromSource": 0.6936542067351029
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 4.450787766450417,
+          "score": 2.133190842988619,
+          "movementFromSource": 0.526036225099191
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.139388322520853,
+          "score": 0.07487826782822748,
+          "movementFromSource": 0.45173783395629147
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.139388322520853,
+          "score": 0.05864823981209587,
+          "movementFromSource": 0.45888678582150955
+        }
+      ],
+      "afterCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 9,
+          "minReadingSize": 6,
+          "score": 0.8888888888888891,
+          "movementFromSource": 0.22638888888888886
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 2.1166666666666667,
+          "score": 4.7852228581320215,
+          "movementFromSource": 0.606841192498754
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 4,
+          "minReadingSize": 8.48,
+          "score": 0.1378708299778737,
+          "movementFromSource": 0.6936421791291064
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 4.446666666666666,
+          "score": 2.1369796688167955,
+          "movementFromSource": 0.5260437968244511
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.120000000000001,
+          "score": 0.0749143506664984,
+          "movementFromSource": 0.4517916493807851
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.120000000000001,
+          "score": 0.058684833987510496,
+          "movementFromSource": 0.45893976295836936
+        },
+        {
+          "strategy": "group-grid-4",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 9.856666666666667,
+          "score": 0.03685394520223521,
+          "movementFromSource": 0.17103747331560537
+        }
+      ]
+    },
+    {
+      "source": "four-product-shelf-long-headline-valid-source",
+      "from": [
+        1687,
+        1350,
+        "group-grid-4"
+      ],
+      "to": [
+        1688,
+        1350,
+        "uniform"
+      ],
+      "beforeCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 9,
+          "minReadingSize": 7.497777777777777,
+          "score": 0.222881146166743,
+          "movementFromSource": 0.12459773662551432
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 1.624,
+          "score": 5.529517852828952,
+          "movementFromSource": 0.6021927822631888
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 6.4479999999999995,
+          "score": 0.8179296277272727,
+          "movementFromSource": 0.6943478870901717
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 3.3946666666666667,
+          "score": 3.241495884569732,
+          "movementFromSource": 0.5115677947479852
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 7.416,
+          "score": 0.3691813647029212,
+          "movementFromSource": 0.4453595403337924
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 7.416,
+          "score": 0.348808119220373,
+          "movementFromSource": 0.448682249797411
+        },
+        {
+          "strategy": "group-grid-4",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 11.517333333333333,
+          "score": 0.038890385873234894,
+          "movementFromSource": 0.12556899206753355
+        }
+      ],
+      "afterCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 5,
+          "minReadingSize": 7.502222222222223,
+          "score": 0.2215642737387594,
+          "movementFromSource": 0.12443004115226342
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 1.624,
+          "score": 5.5296389982681005,
+          "movementFromSource": 0.6021927822631888
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 6.4479999999999995,
+          "score": 0.8180817298844345,
+          "movementFromSource": 0.6943572398462463
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 3.3946666666666667,
+          "score": 3.241607255616131,
+          "movementFromSource": 0.5115677947479852
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 7.416,
+          "score": 0.36928571818764516,
+          "movementFromSource": 0.44536904377681935
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 7.416,
+          "score": 0.3488982518590613,
+          "movementFromSource": 0.4486822497974109
+        }
+      ]
+    },
+    {
+      "source": "four-product-shelf-long-headline-valid-source",
+      "from": [
+        1535,
+        1920,
+        "group-grid-3"
+      ],
+      "to": [
+        1536,
+        1920,
+        "group-grid-4"
+      ],
+      "beforeCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 9,
+          "minReadingSize": 6,
+          "score": 0.8888888888888891,
+          "movementFromSource": 0.2265067997685185
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 2.4859934853420196,
+          "score": 4.297352833638419,
+          "movementFromSource": 0.6068533223197086
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 4,
+          "minReadingSize": 8.48755700325733,
+          "score": 0.13569500048861785,
+          "movementFromSource": 0.6936506359913069
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 4.664755700325733,
+          "score": 1.9461132174219058,
+          "movementFromSource": 0.5262056335720794
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.138631921824103,
+          "score": 0.07489898886789001,
+          "movementFromSource": 0.45187046710122764
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.138631921824103,
+          "score": 0.05866027114539297,
+          "movementFromSource": 0.45901735328019533
+        }
+      ],
+      "afterCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 9,
+          "minReadingSize": 6,
+          "score": 0.8888888888888891,
+          "movementFromSource": 0.22638888888888886
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 10,
+          "minReadingSize": 2.48203125,
+          "score": 4.302491310678147,
+          "movementFromSource": 0.6068411924987539
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 4,
+          "minReadingSize": 8.479687499999999,
+          "score": 0.13654208217956998,
+          "movementFromSource": 0.6936421791291064
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 4.65703125,
+          "score": 1.9527769956010408,
+          "movementFromSource": 0.5261996266114564
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.12734375,
+          "score": 0.07493018516681955,
+          "movementFromSource": 0.4519003859923974
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.12734375,
+          "score": 0.058692430438364675,
+          "movementFromSource": 0.4590468063652679
+        },
+        {
+          "strategy": "group-grid-4",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 9.855468749999998,
+          "score": 0.03686612776114786,
+          "movementFromSource": 0.17116070166580707
+        }
+      ]
+    },
+    {
+      "source": "product-pairs",
+      "from": [
+        1377,
+        1080,
+        "group-grid-3"
+      ],
+      "to": [
+        1378,
+        1080,
+        "uniform"
+      ],
+      "beforeCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 1,
+          "minReadingSize": 8.60625,
+          "score": 0.015312500000000048,
+          "movementFromSource": 0.018998842592592546
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 3.8433333333333337,
+          "score": 2.823286906358985,
+          "movementFromSource": 0.584474699087214
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 6,
+          "minReadingSize": 5.983333333333333,
+          "score": 1.160472649139896,
+          "movementFromSource": 0.6154884599899364
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 6,
+          "minReadingSize": 4.253333333333334,
+          "score": 2.4206854603193024,
+          "movementFromSource": 0.5172306629112703
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 6,
+          "minReadingSize": 6.653333333333333,
+          "score": 0.7145203425621313,
+          "movementFromSource": 0.383017964839966
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.33,
+          "score": 0.015014640218279428,
+          "movementFromSource": 0.017413303437056382
+        }
+      ],
+      "afterCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 1,
+          "minReadingSize": 8.6125,
+          "score": 0.014830246913580225,
+          "movementFromSource": 0.018697273662551472
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 3.8433333333333337,
+          "score": 2.823490643851829,
+          "movementFromSource": 0.584474699087214
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 6,
+          "minReadingSize": 5.983333333333333,
+          "score": 1.160639726492962,
+          "movementFromSource": 0.6155004386831283
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 6,
+          "minReadingSize": 4.253333333333334,
+          "score": 2.4208895285870757,
+          "movementFromSource": 0.5172306629112703
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 6,
+          "minReadingSize": 6.653333333333333,
+          "score": 0.7147111909773087,
+          "movementFromSource": 0.3830269138607125
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.33,
+          "score": 0.01494976737878428,
+          "movementFromSource": 0.017413303437056382
+        }
+      ]
+    },
+    {
+      "source": "product-pairs",
+      "from": [
+        1722,
+        1350,
+        "group-grid-3"
+      ],
+      "to": [
+        1723,
+        1350,
+        "uniform"
+      ],
+      "beforeCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 1,
+          "minReadingSize": 8.61,
+          "score": 0.015022222222222352,
+          "movementFromSource": 0.018817901234567946
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 3.5573333333333332,
+          "score": 3.124100240463153,
+          "movementFromSource": 0.584474699087214
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 6,
+          "minReadingSize": 5.986666666666666,
+          "score": 1.1589988605565673,
+          "movementFromSource": 0.6154956492855461
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 6,
+          "minReadingSize": 4.248,
+          "score": 2.4282110846658944,
+          "movementFromSource": 0.517376065631153
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 6,
+          "minReadingSize": 6.648,
+          "score": 0.717040409618499,
+          "movementFromSource": 0.3832417894496866
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.330666666666668,
+          "score": 0.014958119487787153,
+          "movementFromSource": 0.017695941840277674
+        }
+      ],
+      "afterCandidates": [
+        {
+          "strategy": "uniform",
+          "errors": 0,
+          "warnings": 1,
+          "minReadingSize": 8.615000000000002,
+          "score": 0.014639506172839439,
+          "movementFromSource": 0.018576646090534776
+        },
+        {
+          "strategy": "stack",
+          "errors": 0,
+          "warnings": 8,
+          "minReadingSize": 3.5573333333333332,
+          "score": 3.1242640196859464,
+          "movementFromSource": 0.584474699087214
+        },
+        {
+          "strategy": "split",
+          "errors": 0,
+          "warnings": 6,
+          "minReadingSize": 5.986666666666666,
+          "score": 1.1591048007315894,
+          "movementFromSource": 0.6155052253105913
+        },
+        {
+          "strategy": "group-grid-1",
+          "errors": 0,
+          "warnings": 6,
+          "minReadingSize": 4.248,
+          "score": 2.428375782437637,
+          "movementFromSource": 0.517376065631153
+        },
+        {
+          "strategy": "group-grid-2",
+          "errors": 0,
+          "warnings": 6,
+          "minReadingSize": 6.648,
+          "score": 0.7171930995046192,
+          "movementFromSource": 0.3832489395429458
+        },
+        {
+          "strategy": "group-grid-3",
+          "errors": 0,
+          "warnings": 0,
+          "minReadingSize": 10.330666666666668,
+          "score": 0.014906215642953349,
+          "movementFromSource": 0.017695941840277674
+        }
+      ]
+    }
+  ]
+}

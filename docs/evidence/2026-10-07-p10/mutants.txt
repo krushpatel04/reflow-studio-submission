@@ -1,0 +1,3 @@
+height-fit-dropped: KILLED (2 tests)
+width-fit-dropped: SURVIVED
+margin-1-removed: SURVIVED

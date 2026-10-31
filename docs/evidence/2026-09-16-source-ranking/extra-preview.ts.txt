@@ -1,0 +1,10 @@
+import { writeFile } from 'node:fs/promises';
+import { FIXTURES } from '../../src/fixtures';
+import { reflow } from '../../src/engine';
+import { measure, renderPng } from '../../scripts/native';
+const s = FIXTURES.find(s => s.id === 'product-pairs')!;
+for (const width of [936, 937]) {
+  const r = reflow(s, { id: 'transition', label: 'Transition', width, height: 1080 }, measure);
+  await writeFile(`reports/stability/images/product-transition-${width}.png`, renderPng(r.selected.design));
+  await writeFile(`reports/stability/images/product-transition-${width}.json`, JSON.stringify(r, null, 2));
+}

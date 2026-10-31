@@ -1,0 +1,21 @@
+{
+  "README.md": "a837e201b5ec072ad4405aeacbb2ff72c7763fa6cce6db76bc27b247d2072154",
+  "benchmark-comparison.json": "37858e66d549bb144142687a246197808a965529a4371b7d4181f968f91ef76f",
+  "benchmark.txt": "87c7d75d311f68cbbb9465b3c9aeb9fcf226b76caadbed05d7182c6f695fc058",
+  "browser.json": "d49ac63db5d396d6329fae22a8962f9e6ceb345500867be633cddafcda90e00e",
+  "build.txt": "1ba4bf4e565ba365837ed2194642dbce183c43cdec6d6aa48a864ce753bea318",
+  "green.txt": "2c560aa57add9bb994335ea55bf2f91b988426a12b301c39cc1ac50d4e8a8773",
+  "hosted-ci.txt": "75fd97b3e69dd31b338cc7d91f89402943f64eb43ae791b173ed1a2b1dcea735",
+  "images/browser-badge.png": "25997e83d409641b197000cdbca8d2f5c20b578b85e4003ad4271cd1a8f661be",
+  "images/dense-program-landscape-selected.png": "a5db756b773cfcc6feb0b6877048e0f726371c09c1f82c7fcdecdcb56e63b268",
+  "images/product-pairs-square-selected.png": "7ae601315b30e0b060dad690715410087f4d03066c1e554d885bc26bf749386d",
+  "images/quiet-brand-story-selected.png": "8b0064326e289addfc28eef4f8ae37079f5c018ad5e3e9734d9a07a33fa345a4",
+  "images/type-pairing-square-selected.png": "fdf4efa0e4ffa8faccf4ed0bed573de00736bb7c51e8abfb2c23a9ec83eed45c",
+  "profile-before.json": "16d8faa663808a661031d029e83cfa75f740d0e4d38464d808141426e873e72f",
+  "profile-before.txt": "ac34586ecdb7026f0af05425a20f643ad02e37952a3d5951743e40b2e9659577",
+  "red.txt": "1507e565b6af890d26c0caabc68e35de6f3f389f4370bb9ece703912996c03a5",
+  "runtime-first.json": "189960b489f4aaa3d139f2bebeaea62194bc48f5246b0604739368166394077b",
+  "runtime.json": "fcc2c31c1c68457b1fdf3417a54a7f35a058bec76ec26713187998d210283e89",
+  "tests.txt": "0dd026104f766beb9d2d5942493b10316c97e13c665326920da41dcfde11d660",
+  "verify.txt": "36a9bbeeff34e85d44cf5d431e9f698bb8a4f9074d7333298757287ff8afe6e3"
+}

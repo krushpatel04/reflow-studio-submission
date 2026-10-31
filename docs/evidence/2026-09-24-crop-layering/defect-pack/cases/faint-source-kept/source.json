@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "faint-label",
+  "name": "faint-label",
+  "description": "Defect-control case",
+  "provenance": "synthetic",
+  "width": 1000,
+  "height": 1000,
+  "background": "#ffffff",
+  "groups": [],
+  "elements": [
+    {
+      "id": "plate",
+      "type": "rect",
+      "role": "decoration",
+      "x": 100,
+      "y": 100,
+      "width": 500,
+      "height": 200,
+      "color": "#000000",
+      "opacity": 0.25
+    },
+    {
+      "id": "label",
+      "type": "text",
+      "role": "content",
+      "x": 140,
+      "y": 160,
+      "width": 420,
+      "height": 70,
+      "text": "CALL TODAY",
+      "fontFamily": "Inter",
+      "fontSize": 40,
+      "fontWeight": 700,
+      "lineHeight": 1.1,
+      "color": "#ffffffee"
+    }
+  ]
+}

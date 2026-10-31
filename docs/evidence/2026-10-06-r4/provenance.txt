@@ -1,0 +1,34 @@
+## 4c86006 engine
+f5f37aa654d3dcadd5dddcd7daba1987f7d85f3aaefa1759dd868026ccf4c2c3  -
+engine/__init__.py e3b0c44298fc1c14
+engine/resize.py f5f37aa654d3dcad
+## 79b18b3 engine
+365283570544301f9b4b895bd5a4cf0f4406713c9fbc3df9bd60e2f9518f2f17  -
+engine/__init__.py e3b0c44298fc1c14
+engine/resize.py 862bf15c52750b22
+engine/text_fit.py c600dcaf37faf6a4
+## d48a548 engine
+908e1ea1e2642fecda8c1be8a14de7193f22caa4ce042933e49a6892116205b6  -
+engine/__init__.py e3b0c44298fc1c14
+engine/resize.py 862bf15c52750b22
+engine/text_fit.py a877bcdfc55322e4
+## shared (upstream a44a060, same for all variants)
+8d939377652be45c30673df4b17d920b8dc00d22e190ae00ace475357cb13f1b  -
+fonts:
+609a215925701021b97578c71702bfc492882556ce05602b670aaa74a32a1156  brand_kit/fonts/SolsticeSans-Bold.ttf
+e47af214406befc181508cf7ff87b774a955a670f7a54d8563a9757d45b2167d  brand_kit/fonts/SolsticeSans-BoldItalic.ttf
+848a0433face0f273e313e4fdb3497a764f3c96b3b6670dffcc3cc38dcc83f2a  brand_kit/fonts/SolsticeSans-Italic.ttf
+4500567b25fc1af2983cee01c1e57e01a0108b8b3844c182936d14c7dec7f69c  brand_kit/fonts/SolsticeSans-Regular.ttf
+837d42cc1b336364b69714c73288a0ec7ceded41c137d5f62943df5f0745551a  brand_kit/fonts/SolsticeSerif-Bold.ttf
+07526ca6ef70e5a7853abcdd614aeb62cdb958ed0cabc0f771f85094b4c67ccf  brand_kit/fonts/SolsticeSerif-Italic.ttf
+b7eb2a832ae91824a7c670469f4a4e0c4910a3ceedc1d31aad07ea2bc336d2a7  brand_kit/fonts/SolsticeSerif-Regular.ttf
+input:
+79f889a1b0ec616b3f75de7b0d7fe4b92dcfb027e99b512a019a7aa941000ea6  input/chameleon_sample_level1_warmup.json
+c37407fa20aefb8e1c53a3476b99973000657c3c1d93fc9637e462703955a04b  input/chameleon_sample_level2_core.json
+fd99e3972c9c11c506d98897f3cb9520a5caea10b358d30e6853b9efca58cf33  input/chameleon_sample_level3_advanced.json
+renderer:
+89db4442fc6034b7905903ee334d6361c600610f27296ef68313f212cb3a6687  -
+__init__.py
+__pycache__
+converter
+commit a44a06046b0413f0785e7203955c3822e0acbc32

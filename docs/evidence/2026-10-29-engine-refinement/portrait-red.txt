@@ -1,0 +1,13 @@
+F
+======================================================================
+FAIL: test_portraits_keep_existing_supporting_copy_size (tests_python.test_campaign_robustness.CampaignRobustness.test_portraits_keep_existing_supporting_copy_size)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 124, in test_portraits_keep_existing_supporting_copy_size
+    self.assertGreaterEqual(min(e['font_size'] for e in o['elements'] if e['type']=='text'), floor)
+AssertionError: 9.0 not greater than or equal to 10
+
+----------------------------------------------------------------------
+Ran 1 test in 0.337s
+
+FAILED (failures=1)

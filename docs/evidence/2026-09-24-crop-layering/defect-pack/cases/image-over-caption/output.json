@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "image-over-caption",
+  "name": "image-over-caption",
+  "description": "Defect-control case",
+  "provenance": "synthetic",
+  "width": 1000,
+  "height": 1000,
+  "background": "#ffffff",
+  "groups": [],
+  "elements": [
+    {
+      "id": "caption",
+      "type": "text",
+      "role": "content",
+      "x": 100,
+      "y": 100,
+      "width": 800,
+      "height": 90,
+      "text": "Meet at the north gate",
+      "fontFamily": "Inter",
+      "fontSize": 48,
+      "fontWeight": 700,
+      "lineHeight": 1.1,
+      "color": "#111111"
+    },
+    {
+      "id": "photo",
+      "type": "image",
+      "role": "content",
+      "assetId": "landscape",
+      "fit": "cover",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "x": 100,
+      "y": 60,
+      "width": 800,
+      "height": 500
+    }
+  ]
+}

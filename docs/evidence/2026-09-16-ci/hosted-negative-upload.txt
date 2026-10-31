@@ -1,0 +1,54 @@
+Retain evidence, including failed assertions
+2s
+Error:
+1
+Wed, 16 Sep 2026 04:39:20 GMT
+Run actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f
+18
+Wed, 16 Sep 2026 04:39:21 GMT
+Multiple search paths detected. Calculating the least common ancestor of all paths
+19
+Wed, 16 Sep 2026 04:39:21 GMT
+The least common ancestor is /home/runner/work/reflow-studio/reflow-studio/reports. This will be the root directory of the artifact
+20
+Wed, 16 Sep 2026 04:39:21 GMT
+With the provided path, there will be 229 files uploaded
+21
+Wed, 16 Sep 2026 04:39:21 GMT
+Artifact name is valid!
+22
+Wed, 16 Sep 2026 04:39:21 GMT
+Root directory input is valid!
+23
+Wed, 16 Sep 2026 04:39:21 GMT
+Uploading artifact: reflow-ci-35056385226-1.zip
+24
+Wed, 16 Sep 2026 04:39:21 GMT
+Beginning upload of artifact content to blob storage
+25
+Wed, 16 Sep 2026 04:39:21 GMT
+Uploaded bytes 8388608
+26
+Wed, 16 Sep 2026 04:39:22 GMT
+Uploaded bytes 12357512
+27
+Wed, 16 Sep 2026 04:39:22 GMT
+Finished uploading artifact content to blob storage!
+28
+Wed, 16 Sep 2026 04:39:22 GMT
+SHA256 digest of uploaded artifact is dd23188d2fb1463075f74be24b7d37bd69d1a8039db38fa62c757bf81c1e64f8
+29
+Wed, 16 Sep 2026 04:39:22 GMT
+Finalizing artifact upload
+30
+Wed, 16 Sep 2026 04:39:22 GMT
+Artifact reflow-ci-35056385226-1 successfully finalized. Artifact ID 10430986564
+31
+Wed, 16 Sep 2026 04:39:22 GMT
+Artifact reflow-ci-35056385226-1 has been successfully uploaded! Final size is 12357512 bytes. Artifact ID is 10430986564
+32
+Wed, 16 Sep 2026 04:39:22 GMT
+Artifact download URL: https://github.com/ojedaJD/reflow-studio/actions/runs/35056385226/artifacts/10430986564
+This step has been truncated due to its large size. View the raw logs from the
+menu once
+the workflow run has completed.

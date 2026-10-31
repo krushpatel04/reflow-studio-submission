@@ -1,0 +1,206 @@
+✖ after-dark: nearby width/height sweep retains composition (6.660833ms)
+✖ long-headline: nearby width/height sweep retains composition (1.082875ms)
+✖ dense-program: nearby width/height sweep retains composition (1.739083ms)
+✔ grouped-details: nearby width/height sweep retains composition (6.429375ms)
+✖ intentional-overlap: nearby width/height sweep retains composition (0.670625ms)
+✖ layered-art: nearby width/height sweep retains composition (0.465042ms)
+✔ product-pairs: nearby width/height sweep retains composition (8.149833ms)
+✖ quiet-brand: nearby width/height sweep retains composition (0.932208ms)
+✖ edge-subject: nearby width/height sweep retains composition (0.344125ms)
+✖ type-pairing: nearby width/height sweep retains composition (0.551083ms)
+✔ large format change can trade composition for materially better reading size (0.685125ms)
+✔ scale, metadata and ID changes do not change a nearby composition decision (0.709417ms)
+✖ text-free design preserves its composition instead of maximizing coverage (6.080792ms)
+✖ source-aware ranking prefers established relations over unnecessary font enlargement (0.347708ms)
+✔ hard preservation errors outrank a composition-perfect candidate (0.399917ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 5
+ℹ fail 10
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 230.603541
+
+✖ failing tests:
+
+test at tests/stability.test.ts:20:32
+✖ after-dark: nearby width/height sweep retains composition (6.660833ms)
+  AssertionError [ERR_ASSERTION]: -8,0: stack moved content by 0.043436014913440735
+      at TestContext.<anonymous> (/Users/ojeda/Documents/ChatGPT/Reflow/tests/stability.test.ts:25:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.start (node:internal/test_runner/test:1257:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/stability.test.ts:20:32
+✖ long-headline: nearby width/height sweep retains composition (1.082875ms)
+  AssertionError [ERR_ASSERTION]: -8,0: split moved content by 0.5757736206562325
+      at TestContext.<anonymous> (/Users/ojeda/Documents/ChatGPT/Reflow/tests/stability.test.ts:25:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/stability.test.ts:20:32
+✖ dense-program: nearby width/height sweep retains composition (1.739083ms)
+  AssertionError [ERR_ASSERTION]: -8,0: stack moved content by 0.10098000951596675
+      at TestContext.<anonymous> (/Users/ojeda/Documents/ChatGPT/Reflow/tests/stability.test.ts:25:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/stability.test.ts:20:32
+✖ intentional-overlap: nearby width/height sweep retains composition (0.670625ms)
+  AssertionError [ERR_ASSERTION]: -8,0: stack moved content by 0.04630202016571172
+      at TestContext.<anonymous> (/Users/ojeda/Documents/ChatGPT/Reflow/tests/stability.test.ts:25:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/stability.test.ts:20:32
+✖ layered-art: nearby width/height sweep retains composition (0.465042ms)
+  AssertionError [ERR_ASSERTION]: -8,0: stack moved content by 0.10899884233232988
+      at TestContext.<anonymous> (/Users/ojeda/Documents/ChatGPT/Reflow/tests/stability.test.ts:25:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/stability.test.ts:20:32
+✖ quiet-brand: nearby width/height sweep retains composition (0.932208ms)
+  AssertionError [ERR_ASSERTION]: -8,0: stack moved content by 0.09097447000115048
+      at TestContext.<anonymous> (/Users/ojeda/Documents/ChatGPT/Reflow/tests/stability.test.ts:25:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/stability.test.ts:20:32
+✖ edge-subject: nearby width/height sweep retains composition (0.344125ms)
+  AssertionError [ERR_ASSERTION]: -8,0: split moved content by 0.5662512680679291
+      at TestContext.<anonymous> (/Users/ojeda/Documents/ChatGPT/Reflow/tests/stability.test.ts:25:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/stability.test.ts:20:32
+✖ type-pairing: nearby width/height sweep retains composition (0.551083ms)
+  AssertionError [ERR_ASSERTION]: -8,0: stack moved content by 0.0579339840387505
+      at TestContext.<anonymous> (/Users/ojeda/Documents/ChatGPT/Reflow/tests/stability.test.ts:25:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/stability.test.ts:54:1
+✖ text-free design preserves its composition instead of maximizing coverage (6.080792ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+    assert.ok(drift(source, r.selected.design) < .002)
+
+      at TestContext.<anonymous> (/Users/ojeda/Documents/ChatGPT/Reflow/tests/stability.test.ts:62:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/stability.test.ts:66:1
+✖ source-aware ranking prefers established relations over unnecessary font enlargement (0.347708ms)
+  AssertionError [ERR_ASSERTION]: spacing
+      at TestContext.<anonymous> (/Users/ojeda/Documents/ChatGPT/Reflow/tests/stability.test.ts:78:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

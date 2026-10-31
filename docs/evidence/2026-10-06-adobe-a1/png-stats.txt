@@ -1,0 +1,6 @@
+run-fault/output/chameleon_sample_level1_warmup_output.png (1080, 1350) 9116 bytes distinct_colors=138
+run-fault/output/chameleon_sample_level2_core_output.png (1600, 400) 8715 bytes distinct_colors=353
+run-fault/output/chameleon_sample_level3_advanced_output.png (728, 90) 5356 bytes distinct_colors=460
+run-real/output/chameleon_sample_level1_warmup_output.png (1080, 1350) 113157 bytes distinct_colors=3969
+run-real/output/chameleon_sample_level2_core_output.png (1600, 400) 52510 bytes distinct_colors=2132
+run-real/output/chameleon_sample_level3_advanced_output.png (728, 90) 12504 bytes distinct_colors=860

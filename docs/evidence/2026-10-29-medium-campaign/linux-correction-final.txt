@@ -1,0 +1,8 @@
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/05-reset-dirs-sample.conf", line 6: unknown element "reset-dirs"
+/app/engine/text_fit.py:563: RuntimeWarning: text_fit: no candidate meets the floor for ids headline,subhead,legal_text
+  warnings.warn("text_fit: no candidate meets the floor for ids " + ",".join(free), RuntimeWarning)
+----------------------------------------------------------------------
+Ran 19 tests in 22.559s
+
+OK

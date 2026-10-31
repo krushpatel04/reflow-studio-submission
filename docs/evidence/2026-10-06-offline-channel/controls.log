@@ -1,0 +1,15 @@
+== control 1: renderer absent (empty renderer/ in context) -> smoke must exit nonzero
+control build exit 0
+FAIL: no probe result; entrypoint and probe outputs differ
+control1 smoke exit 1
+== control 2: input altered after run -> smoke must exit nonzero
+FAIL: input bytes changed
+control2 smoke exit 1
+== control 3: container cannot write to :ro input mount
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+OSError: [Errno 30] Read-only file system: '/app/input/x'
+ro-write exit 1
+== control 4: zero input cases -> smoke must exit nonzero
+FAIL: zero input cases; entrypoint exit 1; probe exit 1
+control4 smoke exit 1

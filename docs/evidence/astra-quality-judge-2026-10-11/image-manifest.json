@@ -1,0 +1,78 @@
+{
+  "checkout_commit": "f08a7951a4e6a8b84fcf8589f33d0e4c954c67d5",
+  "images": [
+    {
+      "producer_commit": "0655ec8971dde1026ac87e0eb5ae5f394eb1f80a",
+      "member": "reports/kr-01/development-v4/revision-2/references/58KCTYpSufDKLTfdYrbJ.png",
+      "sha256": "1c5a6bff4de61d86332c7f82f75284e72bc6ff5adb73e9cd1b8ad77f153d1838",
+      "archive_sha256": "6b5788299da1cb94762b2cfc5ee28d02d782e826a4ff3caf8a293d46bcff7d83",
+      "inspected_path": "reports/astra-color-fidelity/inputs/financial/references.png",
+      "width_height": [
+        1920,
+        1080
+      ],
+      "local_retained_path": "docs/evidence/astra-quality-judge-2026-10-11/images/financial/references.png"
+    },
+    {
+      "producer_commit": "0655ec8971dde1026ac87e0eb5ae5f394eb1f80a",
+      "member": "reports/kr-01/development-v4/revision-2/renders/58KCTYpSufDKLTfdYrbJ.png",
+      "sha256": "266aecb30aa96e83e35b75ee73d00791b7403ec2798f02bdd4eeb2b5acc451e3",
+      "archive_sha256": "6b5788299da1cb94762b2cfc5ee28d02d782e826a4ff3caf8a293d46bcff7d83",
+      "inspected_path": "reports/astra-color-fidelity/inputs/financial/renders.png",
+      "width_height": [
+        1920,
+        1080
+      ],
+      "local_retained_path": "docs/evidence/astra-quality-judge-2026-10-11/images/financial/renders.png"
+    },
+    {
+      "producer_commit": "0655ec8971dde1026ac87e0eb5ae5f394eb1f80a",
+      "member": "reports/kr-01/development-v4/revision-2/references/6lTuObn2CUHywDvwyuY5.png",
+      "sha256": "8e60d7da96a0e8b016e87f9c6f37e500d2d90ee4ac07d13804c26b1afbb94f2b",
+      "archive_sha256": "6b5788299da1cb94762b2cfc5ee28d02d782e826a4ff3caf8a293d46bcff7d83",
+      "inspected_path": "reports/astra-color-fidelity/inputs/flowers/references.png",
+      "width_height": [
+        1536,
+        1920
+      ],
+      "local_retained_path": "docs/evidence/astra-quality-judge-2026-10-11/images/flowers/references.png"
+    },
+    {
+      "producer_commit": "0655ec8971dde1026ac87e0eb5ae5f394eb1f80a",
+      "member": "reports/kr-01/development-v4/revision-2/renders/6lTuObn2CUHywDvwyuY5.png",
+      "sha256": "d2129e4c15851066352d1bb499b1fe5536a0661a99b077387de8243869c9e1f3",
+      "archive_sha256": "6b5788299da1cb94762b2cfc5ee28d02d782e826a4ff3caf8a293d46bcff7d83",
+      "inspected_path": "reports/astra-color-fidelity/inputs/flowers/renders.png",
+      "width_height": [
+        1536,
+        1920
+      ],
+      "local_retained_path": "docs/evidence/astra-quality-judge-2026-10-11/images/flowers/renders.png"
+    },
+    {
+      "producer_commit": "354f62730996810fcc961d98616c6030332c297b",
+      "member": "reports/kr-01/development-v3/references/4WR6DyGuWK7GRAxLeJjl.png",
+      "sha256": "5e3d04239645a66b661d340e8df383f67be669ee052f3320ed04ef2112585121",
+      "archive_sha256": "38b7bd359c328e812a6fade4fe60ebe13a31e69c88e95cab9d99e2e3116afd88",
+      "inspected_path": "reports/astra-color-fidelity/inputs/inspiring/references.png",
+      "width_height": [
+        1080,
+        1080
+      ],
+      "local_retained_path": "docs/evidence/astra-quality-judge-2026-10-11/images/inspiring/references.png"
+    },
+    {
+      "producer_commit": "354f62730996810fcc961d98616c6030332c297b",
+      "member": "reports/kr-01/development-v3/renders/4WR6DyGuWK7GRAxLeJjl.png",
+      "sha256": "ad52b2b62db14d7a1493ac0bdce40c045fbc5f46c4f7749ee565cf06c16dcf4a",
+      "archive_sha256": "38b7bd359c328e812a6fade4fe60ebe13a31e69c88e95cab9d99e2e3116afd88",
+      "inspected_path": "reports/astra-color-fidelity/inputs/inspiring/renders.png",
+      "width_height": [
+        1080,
+        1080
+      ],
+      "local_retained_path": "docs/evidence/astra-quality-judge-2026-10-11/images/inspiring/renders.png"
+    }
+  ],
+  "publication_scope": "Metadata only; images retained locally, not included in this publication."
+}

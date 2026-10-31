@@ -1,0 +1,260 @@
+{
+  "source_commit": "d23cea0384dbd33274cb09fc530487f46c078c24",
+  "runtime_matches_qualified_engine": "4da7bb45962dbe96403a8b15622e72251e064349",
+  "date": "2026-10-29",
+  "image": {
+    "Id": "sha256:a0d2a46313b7d76d6815e496a2b2559f38b2729f61ce0ba0269b38e3ba9af79d",
+    "Architecture": "amd64",
+    "Os": "linux",
+    "Created": "2026-10-27T22:02:28.276040258Z"
+  },
+  "host": {
+    "cpu": "Apple M1",
+    "memoryBytes": 8589934592,
+    "os": "24.4.0",
+    "chromium": "153.0.8010.12",
+    "node": "v24.20.0"
+  },
+  "python_smoke": {
+    "image": "reflow-live:20261029-d23cea0",
+    "arch": "x86_64",
+    "cases_attempted": 3,
+    "inputs_sha256_before": {
+      "chameleon_sample_level1_warmup.json": "79f889a1b0ec616b3f75de7b0d7fe4b92dcfb027e99b512a019a7aa941000ea6",
+      "chameleon_sample_level2_core.json": "c37407fa20aefb8e1c53a3476b99973000657c3c1d93fc9637e462703955a04b",
+      "chameleon_sample_level3_advanced.json": "fd99e3972c9c11c506d98897f3cb9520a5caea10b358d30e6853b9efca58cf33"
+    },
+    "inputs_sha256_after": {
+      "chameleon_sample_level1_warmup.json": "79f889a1b0ec616b3f75de7b0d7fe4b92dcfb027e99b512a019a7aa941000ea6",
+      "chameleon_sample_level2_core.json": "c37407fa20aefb8e1c53a3476b99973000657c3c1d93fc9637e462703955a04b",
+      "chameleon_sample_level3_advanced.json": "fd99e3972c9c11c506d98897f3cb9520a5caea10b358d30e6853b9efca58cf33"
+    },
+    "outputs_sha256": {
+      "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+      "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+      "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+      "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+      "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64",
+      "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475"
+    },
+    "probe": {
+      "rc": 0,
+      "net": "blocked",
+      "events": [
+        [
+          "REAL",
+          "output/chameleon_sample_level1_warmup_output.png"
+        ],
+        [
+          "REAL",
+          "output/chameleon_sample_level2_core_output.png"
+        ],
+        [
+          "REAL",
+          "output/chameleon_sample_level3_advanced_output.png"
+        ]
+      ]
+    },
+    "entrypoint_exit": 0,
+    "network_inspect": [
+      "none",
+      "none"
+    ],
+    "write_attempt": {
+      "refused": true,
+      "exit": 1,
+      "stderr_tail": "(linux/arm64/v8) and no specific platform was requested\nTraceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nOSError: [Errno 30] Read-only file system: '/app/input/.write-attempt'"
+    },
+    "repeat": {
+      "status": "identical",
+      "image_id_before": "sha256:a0d2a46313b7d76d6815e496a2b2559f38b2729f61ce0ba0269b38e3ba9af79d",
+      "image_id_after": "sha256:a0d2a46313b7d76d6815e496a2b2559f38b2729f61ce0ba0269b38e3ba9af79d",
+      "entrypoint_exit": 0,
+      "network_inspect": [
+        "none"
+      ],
+      "outputs_sha256_second": {
+        "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+        "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+        "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+        "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+        "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64",
+        "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475"
+      }
+    },
+    "failures": [],
+    "pass": true
+  },
+  "preservation": [
+    {
+      "case": "chameleon_sample_level1_warmup.json",
+      "elements": 4,
+      "target": {
+        "width": 1080,
+        "height": 1350
+      },
+      "ids_order_copy_styles_assets_preserved": true
+    },
+    {
+      "case": "chameleon_sample_level2_core.json",
+      "elements": 11,
+      "target": {
+        "width": 1600,
+        "height": 400
+      },
+      "ids_order_copy_styles_assets_preserved": true
+    },
+    {
+      "case": "chameleon_sample_level3_advanced.json",
+      "elements": 17,
+      "target": {
+        "width": 728,
+        "height": 90
+      },
+      "ids_order_copy_styles_assets_preserved": true
+    }
+  ],
+  "qualified_output_hashes_identical": true,
+  "browser_stats": {
+    "startTime": "2026-10-29T13:57:29.868Z",
+    "duration": 90323.629,
+    "expected": 27,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "verify_page": {
+    "generatedAt": "2026-10-29T13:57:51.219Z",
+    "passed": 20,
+    "total": 20,
+    "checks": [
+      {
+        "name": "All ten fixtures render four preview cards",
+        "passed": true
+      },
+      {
+        "name": "Baseline toggle changes comparison mode and selected state",
+        "passed": true
+      },
+      {
+        "name": "Edited copy reaches every variant and the JSON export",
+        "passed": true
+      },
+      {
+        "name": "Custom dimensions reject zero and accept 1600 \u00d7 600",
+        "passed": true
+      },
+      {
+        "name": "Theme toggle updates both workspace and Spectrum theme",
+        "passed": true
+      },
+      {
+        "name": "Issue overlay renders diagnostics for oversized source copy",
+        "passed": true
+      },
+      {
+        "name": "Findings stay open across display toggles for the same design",
+        "passed": true
+      },
+      {
+        "name": "Selecting a finding locates only its affected preview element",
+        "passed": true
+      },
+      {
+        "name": "Browser benchmark completes all thirty rows",
+        "passed": true
+      },
+      {
+        "name": "Benchmark reports failed cases and continues successful siblings (#56)",
+        "passed": true
+      },
+      {
+        "name": "Benchmark recovers on next normal run without stale failure rows (#56)",
+        "passed": true
+      },
+      {
+        "name": "Nearby resizes preserve composition and image frames with browser fonts",
+        "passed": true
+      },
+      {
+        "name": "Mixed-role badge glyphs remain inside their dark backing",
+        "passed": true
+      },
+      {
+        "name": "Independent SVG glyph bounds remain inside selected text boxes",
+        "passed": true
+      },
+      {
+        "name": "Browser and native font engines agree on layoutText line breaks for the font-parity probe corpus",
+        "passed": true
+      },
+      {
+        "name": "Browser SVG and native PNG crops agree on hand-computed image samples and clip to the frame",
+        "passed": true
+      },
+      {
+        "name": "Browser and native rendered visibility reach the same verdict on every defect-pack case",
+        "passed": true
+      },
+      {
+        "name": "Viewer retains one committed revision after second-target failure and recovers (#28 partial)",
+        "passed": true,
+        "detail": "{\"healthyBaseline\":{\"jsonFilename\":\"grouped-details-reflow.json\",\"svgFilename\":\"grouped-details-Original.svg\",\"headline\":\"A little roomfor big ideas.\"},\"k1\":690,\"k2\":690,\"geometryErrors\":\"0 geometry/content errors\",\"secondTarget\":{\"calls\":691,\"throws\":1,\"at\":691,\"inWorker\":true},\"retained\":{\"source\":\"A little room\\nfor big ideas.\",\"variants\":[\"A little room\\nfor big ideas.\",\"A little room\\nfor big ideas.\",\"A little room\\nfor big ideas.\",\"A little room\\nfor big ideas.\"],\"filename\":\"grouped-details-Original.svg\",\"pageErrorsBefore\":0,\"pageErrorsAfter\":0,\"problems\":[]},\"modeFault\":{\"calls\":1,\"throws\":1,\"at\":1,\"inWorker\":false},\"fixtureFault\":{\"calls\":1,\"throws\":1,\"at\":1,\"inWorker\":true},\"allProblems\":[]}"
+      },
+      {
+        "name": "Ordinary SVG exports preserve committed artwork without preview diagnostics",
+        "passed": true,
+        "detail": "{\"healthyActualCapture\":true,\"generatedOutlines\":1,\"exportedGeneratedOutlines\":0,\"controls\":[{\"filename\":\"grouped-details-reflow.json\",\"bytes\":16053,\"type\":\"application/json\",\"previewUnchanged\":true},{\"filename\":\"grouped-details-Original.svg\",\"bytes\":97234,\"type\":\"image/svg+xml\",\"previewUnchanged\":true},{\"filename\":\"grouped-details-Square.svg\",\"bytes\":97292,\"type\":\"image/svg+xml\",\"previewUnchanged\":true},{\"filename\":\"grouped-details-Square.svg\",\"bytes\":97292,\"type\":\"image/svg+xml\",\"previewUnchanged\":true},{\"filename\":\"grouped-details-reflow.json\",\"bytes\":19255,\"type\":\"application/json\",\"previewUnchanged\":true},{\"filename\":\"grouped-details-Original.svg\",\"bytes\":98459,\"type\":\"image/svg+xml\",\"previewUnchanged\":true},{\"filename\":\"grouped-details-Original.svg\",\"bytes\":98459,\"type\":\"image/svg+xml\",\"previewUnchanged\":true},{\"filename\":\"grouped-details-Square.svg\",\"bytes\":98155,\"type\":\"image/svg+xml\",\"previewUnchanged\":true},{\"filename\":\"grouped-details-Square.svg\",\"bytes\":98629,\"type\":\"image/svg+xml\",\"previewUnchanged\":true},{\"filename\":\"grouped-details-reflow.json\",\"bytes\":16968,\"type\":\"application/json\",\"previewUnchanged\":true},{\"filename\":\"grouped-details-Original.svg\",\"bytes\":97368,\"type\":\"image/svg+xml\",\"previewUnchanged\":true}],\"literalTextOnly\":true}"
+      },
+      {
+        "name": "No startup errors, uncaught exceptions, or error overlay",
+        "passed": true
+      }
+    ],
+    "errors": []
+  },
+  "production": {
+    "sourceCommit": "d23cea0384dbd33274cb09fc530487f46c078c24",
+    "violations": [],
+    "startups": [
+      440.35637500000007,
+      94.31225000000018,
+      115.10958400000004
+    ],
+    "exports": {
+      "jsonVariants": 3,
+      "svgBytes": 96219,
+      "embeddedFonts": true
+    },
+    "functionalExternalRequests": [],
+    "missingAssetReferenceRecovered": true,
+    "missingFontRestartRecovered": true,
+    "missingWorkerRecovered": true,
+    "forbiddenNetworkControl": [
+      {
+        "url": "https://example.invalid/qualification-probe",
+        "error": "net::ERR_PROXY_CONNECTION_FAILED"
+      }
+    ]
+  },
+  "live_browser": {
+    "url": "http://127.0.0.1:4190/",
+    "errors": [],
+    "external": [],
+    "failed": [],
+    "mobileWidth": {
+      "viewport": 390,
+      "document": 390
+    },
+    "invalidSizeError": "Enter whole-number dimensions from 1 to 8000.",
+    "exportedVariants": 3,
+    "editedHeadlinePreserved": true,
+    "validCustomSizeAccepted": true
+  },
+  "limits": [
+    "Public samples and synthetic workbench fixtures; not hidden-design or Adobe acceptance.",
+    "Python and TypeScript are separate paths; native Express integration unverified.",
+    "Dense 728x90 banner text remains small; source intentionally references a missing badge asset.",
+    "Full Python unit suite, failure matrix and resource profile not rerun; this is a fresh build/smoke/browser check."
+  ]
+}

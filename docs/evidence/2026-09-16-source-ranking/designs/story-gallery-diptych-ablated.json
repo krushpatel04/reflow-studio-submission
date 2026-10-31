@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "gallery-diptych",
+  "name": "gallery-diptych",
+  "description": "Frozen ranking validation family",
+  "provenance": "synthetic",
+  "width": 1080,
+  "height": 1920,
+  "background": "#f3eee4",
+  "groups": [],
+  "elements": [
+    {
+      "id": "title",
+      "type": "text",
+      "role": "content",
+      "text": "Two ways of seeing",
+      "x": 70.2,
+      "y": 70.2,
+      "width": 939.6,
+      "height": 87.1076923076923,
+      "fontSize": 71.99,
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "lineHeight": 1.14,
+      "color": "#172b25"
+    },
+    {
+      "id": "left",
+      "type": "image",
+      "role": "content",
+      "assetId": "orbit",
+      "x": 70.2,
+      "y": 184.30769230769232,
+      "width": 939.6,
+      "height": 762.1923076923076,
+      "fit": "cover",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "right",
+      "type": "image",
+      "role": "content",
+      "assetId": "landscape",
+      "x": 70.2,
+      "y": 973.5,
+      "width": 939.6,
+      "height": 762.1923076923076,
+      "fit": "cover",
+      "focalPoint": {
+        "x": 0.9,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "caption",
+      "type": "text",
+      "role": "content",
+      "text": "A study in light and distance.",
+      "x": 70.2,
+      "y": 1762.6923076923076,
+      "width": 939.6,
+      "height": 87.1076923076923,
+      "fontSize": 51.83,
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "lineHeight": 1.14,
+      "color": "#172b25"
+    }
+  ]
+}

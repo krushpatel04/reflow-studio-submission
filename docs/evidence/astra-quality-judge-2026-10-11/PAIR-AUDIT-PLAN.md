@@ -1,0 +1,5 @@
+# RF04 pair-availability audit plan
+
+2026-10-11, before viewing any resized candidate. Evidence-only in this owned directory. Check current main and available public-development RF04 manifests/receipts for approved source-bound baseline/engine images. Preserve quarantines, all declared targets and missing pairs. Risks: confusing synthetic viewer fixtures or original-size conversions with real engine A/B; treating historical code as current compatible code; exposing method identity before judgments.
+
+Acceptance checks: record current checkout/live-head and exact artifact hashes; inspect only public-development metadata until eligibility verified; identify real producer receipts, source/task/image bindings and code compatibility. If genuine eligible pairs exist, freeze a separate randomized method-blind AI protocol and concealed mapping before image viewing, then retain A/B/tie/neither/uncertain/missing outcomes. If absent, issue no votes and name the missing producer artifact and acceptance boundary. No sealed/validation images, production edits, publication or human-vote fabrication.

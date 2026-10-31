@@ -1,0 +1,382 @@
+{
+ "schemaVersion": "reflow.design.v0",
+ "id": "lica-KL2ivTudig6nuaXNWKMb",
+ "name": "LICA Presentations KL2ivTudig6nuaXNWKMb",
+ "description": "Converted from LICA layout KL2ivTudig6nuaXNWKMb (template af4e202d-aa8d-a10c-a721-a0b77deda08c).",
+ "provenance": "LICA dataset (LICA WORLD), CC BY 4.0, https://github.com/purvanshi/lica-dataset; converted and modified for Reflow evaluation",
+ "width": 1920,
+ "height": 1080,
+ "background": "#fcf5f0",
+ "groups": [],
+ "elements": [
+  {
+   "id": "image-0",
+   "type": "image",
+   "role": "content",
+   "x": 1689.6,
+   "y": 264.7,
+   "width": 230.8,
+   "height": 2.1,
+   "assetId": "7e106b00-26fc-4214-bd38-81dbfed85560.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-1",
+   "type": "image",
+   "role": "content",
+   "x": 1319.6,
+   "y": 0,
+   "width": 1.9,
+   "height": 146.4,
+   "assetId": "93d0c379-cf70-4a2c-b525-cc3649b79ce2.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-2",
+   "type": "image",
+   "role": "content",
+   "x": 1813.2,
+   "y": 264.7,
+   "width": 0.8,
+   "height": 364.4,
+   "assetId": "dcd76ef4-2328-4cac-a677-b5f27963a3de.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-3",
+   "type": "image",
+   "role": "content",
+   "x": 1505.9,
+   "y": 718,
+   "width": 414.3,
+   "height": 2.1,
+   "assetId": "b2132f9b-4451-4e2a-b542-4806dff308fe.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-4",
+   "type": "image",
+   "role": "content",
+   "x": 91,
+   "y": 570.1,
+   "width": 401.9,
+   "height": 412.7,
+   "assetId": "ca57e068-d674-41ac-a0a3-b1d9aecd3563.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-5",
+   "type": "image",
+   "role": "content",
+   "x": 1137,
+   "y": 714.3,
+   "width": 286.5,
+   "height": 268.6,
+   "assetId": "a513040f-eb07-4faa-a23f-406f46efa914.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-6",
+   "type": "image",
+   "role": "content",
+   "x": 1444,
+   "y": 832.6,
+   "width": 286.8,
+   "height": 150.2,
+   "assetId": "fc79ff3d-9a2e-491a-85ea-0afc2e8cceda.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-7",
+   "type": "image",
+   "role": "content",
+   "x": 546.8,
+   "y": 188.4,
+   "width": 536.3,
+   "height": 794.4,
+   "assetId": "538f0e74-c585-4325-a40d-3ecf7e6676f1.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-8",
+   "type": "image",
+   "role": "content",
+   "x": 198,
+   "y": 620.4,
+   "width": 187.8,
+   "height": 187.4,
+   "assetId": "e216bd47-e9ac-4ff4-b721-00e11fce681f.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-9",
+   "type": "image",
+   "role": "content",
+   "x": 198,
+   "y": 620.8,
+   "width": 177.8,
+   "height": 187.4,
+   "assetId": "114a728a-3ded-4565-99c9-a754b62ee7a6.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-10",
+   "type": "image",
+   "role": "content",
+   "x": 1466.7,
+   "y": 673.7,
+   "width": 84.3,
+   "height": 88.2,
+   "assetId": "86589e88-677e-47df-bf5e-f7b46d42960f.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-11",
+   "type": "image",
+   "role": "content",
+   "x": 1656.8,
+   "y": 697.2,
+   "width": 39.7,
+   "height": 41.5,
+   "assetId": "db8259da-5f55-470f-8b84-62efbf7224c9.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-12",
+   "type": "image",
+   "role": "content",
+   "x": 1658.9,
+   "y": 233.4,
+   "width": 60.7,
+   "height": 61.1,
+   "assetId": "900cd9de-3cbc-44ea-9f98-958af63d30ad.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-13",
+   "type": "image",
+   "role": "content",
+   "x": 1298.5,
+   "y": 126.9,
+   "width": 39.7,
+   "height": 41.9,
+   "assetId": "1c2e79f4-24ac-490d-afb6-309818c5acb1.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-14",
+   "type": "image",
+   "role": "content",
+   "x": 1804.2,
+   "y": 610.3,
+   "width": 18.2,
+   "height": 18.8,
+   "assetId": "6b010b2e-c286-4f2f-98d8-d3403adba959.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "text-15",
+   "type": "text",
+   "role": "content",
+   "x": 1148.9,
+   "y": 188,
+   "width": 627.1,
+   "height": 313,
+   "text": "Potential Regulatory Development",
+   "fontFamily": "Manrope",
+   "fontWeight": 700,
+   "fontSize": 95,
+   "lineHeight": 1.1,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-16",
+   "type": "text",
+   "role": "content",
+   "x": 1148.9,
+   "y": 550,
+   "width": 510,
+   "height": 102,
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-17",
+   "type": "text",
+   "role": "content",
+   "x": 1169.1,
+   "y": 762,
+   "width": 221,
+   "height": 96,
+   "text": "$39M",
+   "fontFamily": "Manrope",
+   "fontWeight": 700,
+   "fontSize": 80,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-18",
+   "type": "text",
+   "role": "content",
+   "x": 1474.9,
+   "y": 859,
+   "width": 221,
+   "height": 60,
+   "text": "$12M",
+   "fontFamily": "Manrope",
+   "fontWeight": 700,
+   "fontSize": 50,
+   "lineHeight": 1.2,
+   "color": "#fff",
+   "align": "left"
+  },
+  {
+   "id": "text-19",
+   "type": "text",
+   "role": "content",
+   "x": 1199,
+   "y": 868,
+   "width": 162,
+   "height": 70,
+   "text": "Projection\nRevenue",
+   "fontFamily": "Manrope",
+   "fontWeight": 800,
+   "fontSize": 27,
+   "lineHeight": 1.3,
+   "color": "#000000",
+   "align": "center"
+  },
+  {
+   "id": "text-20",
+   "type": "text",
+   "role": "content",
+   "x": 1473,
+   "y": 919,
+   "width": 177,
+   "height": 37,
+   "text": "2024 Income",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 25,
+   "lineHeight": 1.5,
+   "color": "#fff",
+   "align": "left"
+  },
+  {
+   "id": "text-21",
+   "type": "text",
+   "role": "content",
+   "x": 102,
+   "y": 290,
+   "width": 293,
+   "height": 73,
+   "text": "Internal Risk Development Info",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 28,
+   "lineHeight": 1.32,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-22",
+   "type": "text",
+   "role": "content",
+   "x": 102,
+   "y": 392,
+   "width": 342.9,
+   "height": 136,
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-23",
+   "type": "text",
+   "role": "content",
+   "x": 145.9,
+   "y": 847,
+   "width": 291.1,
+   "height": 68,
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18,
+   "lineHeight": 1.2,
+   "color": "#fff",
+   "align": "center"
+  }
+ ]
+}

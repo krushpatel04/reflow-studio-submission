@@ -1,0 +1,7 @@
+      1 FAIL: test_font_below_schema_minimum_floors_at_one 
+      1 FAIL: test_l3_728x90_labels_inside_plates 
+      1 FAIL: test_l3_narrow_target_labels_inside_plates 
+      5 FAIL: test_sample_groups_keep_relative_layout 
+      1 FAIL: test_shape_and_text_aspect_never_changes 
+      1 FAILED (failures=9)
+      1 Ran 72 tests in 0.392s

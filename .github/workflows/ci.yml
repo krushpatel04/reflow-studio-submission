@@ -1,0 +1,182 @@
+name: Reflow CI
+run-name: CI / ${{ github.event_name }} / ${{ inputs.fault || 'none' }}
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      fault:
+        description: Test-only negative control (every injected fault is expected to fail)
+        type: choice
+        options: [none, separate-badge, font-parity-mismatch, crop-mismatch, rendered-mismatch]
+        default: none
+      container_smoke_fault:
+        description: Test-only container negative control (expected to fail the smoke job)
+        type: choice
+        options: [none, missing-content]
+        default: none
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}-${{ github.event_name }}-${{ inputs.fault || 'none' }}
+  cancel-in-progress: true
+
+jobs:
+  python-verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    defaults:
+      run:
+        shell: bash
+    env:
+      CHAMELEON_UPSTREAM: ${{ github.workspace }}/.cache/chameleon
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
+        with:
+          node-version-file: .node-version
+      - name: Install pinned starter and test prerequisites
+        run: |
+          mkdir -p reports/ci/python
+          git clone https://github.com/jhaaj08/chameleon.git "$CHAMELEON_UPSTREAM"
+          git -C "$CHAMELEON_UPSTREAM" checkout --detach a44a06046b0413f0785e7203955c3822e0acbc32
+          test "$(git -C "$CHAMELEON_UPSTREAM" rev-parse HEAD)" = a44a06046b0413f0785e7203955c3822e0acbc32
+          sudo apt-get update
+          sudo apt-get install -y libgl1 libegl1 libglib2.0-0 libfontconfig1
+          python -m pip install -r requirements-python-test.txt
+          npm ci
+          npx playwright install --with-deps chromium --only-shell
+      - name: Python engine, renderer and packaging regression checks (no skipped tests)
+        run: |
+          python -c 'from PIL import features; print("Pillow RAQM available:", features.check_feature("raqm")); print("FreeType:", features.version_module("freetype2"))' | tee reports/ci/python/features.log
+          python scripts/verify_python.py 2>&1 | tee reports/ci/python/tests.log
+      - name: Retain Python verification evidence
+        id: retain_evidence
+        continue-on-error: true
+        if: ${{ always() }}
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
+        with:
+          name: reflow-python-${{ github.run_id }}-${{ github.run_attempt }}
+          path: reports/ci/python/
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Recover python evidence in job log
+        if: ${{ always() && steps.retain_evidence.outcome == 'failure' }}
+        timeout-minutes: 2
+        run: node .github/scripts/ci-evidence.mjs emit --name python reports/ci/python
+
+  container-smoke:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    env:
+      REFLOW_CONTAINER_SMOKE_FAULT: ${{ inputs.container_smoke_fault || 'none' }}
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
+        with:
+          node-version-file: .node-version
+      - name: Build and run network-disabled container smoke
+        timeout-minutes: 7
+        run: node scripts/container-smoke.mjs
+      - name: Retain container smoke evidence, including failed assertions
+        id: retain_evidence
+        continue-on-error: true
+        if: ${{ always() }}
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
+        with:
+          name: reflow-container-smoke-${{ github.run_id }}-${{ github.run_attempt }}
+          path: reports/ci/container-smoke/
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Recover container evidence in job log
+        if: ${{ always() && steps.retain_evidence.outcome == 'failure' }}
+        timeout-minutes: 2
+        run: node .github/scripts/ci-evidence.mjs emit --name container reports/ci/container-smoke
+
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    defaults:
+      run:
+        shell: bash
+    env:
+      CI: 'true'
+      REFLOW_BROWSER_FAULT: ${{ inputs.fault || 'none' }}
+      PLAYWRIGHT_BROWSERS_PATH: ${{ github.workspace }}/.cache/ms-playwright
+      npm_config_cache: ${{ github.workspace }}/.cache/npm
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - name: Prepare evidence directory
+        run: mkdir -p reports/ci
+      - name: Locked dependency install
+        id: install
+        timeout-minutes: 3
+        run: npm ci 2>&1 | tee reports/ci/install.log
+      - name: Record runtime and dependency versions
+        if: ${{ !cancelled() }}
+        run: npm run ci:environment 2>&1 | tee reports/ci/environment.log
+      - name: Tests (preservation, visibility, malformed input, stability)
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        timeout-minutes: 5
+        run: npm test 2>&1 | tee reports/ci/tests.log
+      - name: Type check and build
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        timeout-minutes: 3
+        run: npm run build 2>&1 | tee reports/ci/build.log
+      - name: Native verification
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        timeout-minutes: 3
+        run: npm run verify 2>&1 | tee reports/ci/native.log
+      - name: Native comparison artifacts (diagnostic, not aesthetic gate)
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        timeout-minutes: 3
+        run: npm run benchmark 2>&1 | tee reports/ci/benchmark.log
+      - name: Install pinned Chromium and OS dependencies
+        id: browser_install
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        timeout-minutes: 10
+        run: npx playwright install --with-deps chromium --only-shell 2>&1 | tee reports/ci/browser-install.log
+      - name: Browser acceptance and real glyph assertions
+        if: ${{ !cancelled() && steps.browser_install.outcome == 'success' }}
+        timeout-minutes: 4
+        run: npm run verify:browser 2>&1 | tee reports/ci/browser.log
+      - name: Retain evidence, including failed assertions
+        id: retain_evidence
+        continue-on-error: true
+        if: ${{ always() }}
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
+        with:
+          name: reflow-ci-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            reports/ci/
+            reports/latest/
+            reports/font-parity/
+            reports/crop-parity/
+            reports/defect-pack/
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Recover viewer evidence in job log
+        if: ${{ always() && steps.retain_evidence.outcome == 'failure' }}
+        timeout-minutes: 2
+        run: node .github/scripts/ci-evidence.mjs emit --name viewer reports/ci reports/latest reports/font-parity reports/crop-parity reports/defect-pack

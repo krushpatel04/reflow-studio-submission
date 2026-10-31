@@ -1,0 +1,21 @@
+{
+ "provenance": {
+  "source_path": "/tmp/chameleon-current/brand_kit/assets",
+  "starter_git_pin": "a44a060",
+  "method": "width/height read from each PNG IHDR header only; no image bytes are committed"
+ },
+ "assets": {
+  "solstice_bg_gradient.png": {
+   "width": 1200,
+   "height": 1500
+  },
+  "solstice_bottle.png": {
+   "width": 800,
+   "height": 800
+  },
+  "solstice_logo_lockup.png": {
+   "width": 900,
+   "height": 300
+  }
+ }
+}

@@ -1,0 +1,66 @@
+{
+  "source": "8b0485acd90b0c23d1335c285f63a147117d44fa",
+  "python": {
+    "fullTests": 559,
+    "skips": 0,
+    "additionalFocusedSuite": 8,
+    "note": "One additional full-output comparison added after full suite discovery; all eight focused resource tests then passed."
+  },
+  "browserTests": 37,
+  "verificationChecks": 20,
+  "production": {
+    "sourceCommit": "8b0485acd90b0c23d1335c285f63a147117d44fa",
+    "startups": [
+      362.046791,
+      130.27812500000005,
+      138.14829200000008
+    ],
+    "maxHeap": 11310312,
+    "heapGrowth": 107484,
+    "functionalExternalRequests": [],
+    "violations": [],
+    "exports": {
+      "jsonVariants": 3,
+      "svgBytes": 96219,
+      "embeddedFonts": true
+    }
+  },
+  "audit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "benchmark": {
+    "cases": 30,
+    "sourceErrors": 0,
+    "baselineErrors": 0,
+    "selectedErrors": 0,
+    "baselineWarnings": 45,
+    "selectedWarnings": 8,
+    "selectedCasesWithErrors": 0,
+    "medianLayoutMs": 33.015041999999994,
+    "p95LayoutMs": 85.67487499999999,
+    "selections": {
+      "identity": 1,
+      "uniform": 17,
+      "stack": 10,
+      "split": 0,
+      "group-grid-1": 0,
+      "group-grid-2": 0,
+      "group-grid-3": 2,
+      "group-grid-4": 0
+    }
+  },
+  "nodeTests": 744,
+  "cleanLinuxQualification": true,
+  "publicArtifactHashesPreserved": 6,
+  "compactArtifactHashesPreserved": 10,
+  "image": {
+    "id": "sha256:424c0eea2c0651e685e61694b2261fd14bef9096b2e19d9609bab6127ce9e51d",
+    "arch": "amd64",
+    "os": "linux"
+  }
+}

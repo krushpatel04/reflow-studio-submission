@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "after-dark",
+  "name": "Design after dark",
+  "description": "An event poster with a headline, hero image, event details, and a grouped ticket button.",
+  "provenance": "synthetic",
+  "width": 1080,
+  "height": 1080,
+  "background": "#f3f0e5",
+  "elements": [
+    {
+      "id": "eyebrow",
+      "type": "text",
+      "role": "content",
+      "text": "THE CAMPUS CREATIVE SERIES",
+      "x": 70.2,
+      "y": 70.2,
+      "width": 939.6,
+      "height": 52.3419810369175,
+      "fontSize": 32.39,
+      "color": "#172b25",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "headline",
+      "type": "text",
+      "role": "content",
+      "text": "Design\nafter dark.",
+      "x": 70.2,
+      "y": 149.5419810369175,
+      "width": 939.6,
+      "height": 192.92717369376643,
+      "fontSize": 79.72,
+      "color": "#172b25",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "hero",
+      "type": "image",
+      "role": "content",
+      "assetId": "orbit",
+      "x": 70.2,
+      "y": 369.46915473068395,
+      "width": 939.6,
+      "height": 414.37401654226346,
+      "fit": "cover",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "date",
+      "type": "text",
+      "role": "content",
+      "text": "Friday, October 16 · 7 PM",
+      "x": 212.86261851926565,
+      "y": 810.8431712729474,
+      "width": 654.2747629614687,
+      "height": 36.34859794230382,
+      "fontSize": 30.04,
+      "color": "#172b25",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "event-details"
+    },
+    {
+      "id": "venue",
+      "type": "text",
+      "role": "content",
+      "text": "The student union · Everyone welcome",
+      "x": 212.86261851926565,
+      "y": 856.9779301997177,
+      "width": 654.2747629614687,
+      "height": 33.552551946741985,
+      "fontSize": 27.73,
+      "color": "#172b25",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "event-details"
+    },
+    {
+      "id": "ticket-background",
+      "type": "rect",
+      "role": "content",
+      "x": 212.8626185192656,
+      "y": 917.5304821464597,
+      "width": 654.2747629614688,
+      "height": 92.26951785354046,
+      "color": "#172b25",
+      "groupId": "ticket",
+      "radius": 46.13475892677023
+    },
+    {
+      "id": "ticket-label",
+      "type": "text",
+      "role": "content",
+      "text": "SAVE YOUR SEAT  →",
+      "x": 233.83296348597935,
+      "y": 946.1899536009686,
+      "width": 612.3340730280413,
+      "height": 34.950574944522906,
+      "fontSize": 28.85,
+      "color": "#ffffff",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "ticket",
+      "align": "center"
+    }
+  ],
+  "groups": [
+    {
+      "id": "event-details",
+      "label": "event details"
+    },
+    {
+      "id": "ticket",
+      "label": "ticket"
+    }
+  ]
+}

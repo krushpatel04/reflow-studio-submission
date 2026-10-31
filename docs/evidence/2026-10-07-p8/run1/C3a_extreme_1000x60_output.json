@@ -1,0 +1,70 @@
+{
+  "canvas": {
+    "width": 1000,
+    "height": 60
+  },
+  "elements": [
+    {
+      "id": "bg",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "x": 0,
+      "y": 0,
+      "width": 1000,
+      "height": 60,
+      "fill_color": "rgba(255,255,255,1)"
+    },
+    {
+      "id": "h",
+      "type": "text",
+      "x": 77.0,
+      "y": 0.0,
+      "width": 685.0,
+      "height": 36.733201920000006,
+      "content": "A rather long headline for a tiny strip banner",
+      "font_family": "Solstice Serif",
+      "font_size": 30.611001600000005,
+      "color": "rgba(0,0,0,1)",
+      "font_weight": "bold"
+    },
+    {
+      "id": "s",
+      "type": "text",
+      "x": 0.0,
+      "y": 38.733201920000006,
+      "width": 278.0,
+      "height": 20.66242608,
+      "content": "Subline that also has to survive",
+      "font_family": "Solstice Sans",
+      "font_size": 17.2186884,
+      "color": "rgba(0,0,0,1)"
+    },
+    {
+      "id": "cta_bg",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "x": 0.0,
+      "y": 0.0,
+      "width": 75.0,
+      "height": 18.0,
+      "fill_color": "rgba(20,20,20,1)",
+      "group_id": "cta",
+      "rotation": 0
+    },
+    {
+      "id": "cta_label",
+      "type": "text",
+      "x": 1.5,
+      "y": 1.5,
+      "width": 72.0,
+      "height": 15.0,
+      "content": "Shop now",
+      "font_family": "Solstice Sans",
+      "font_size": 6.0,
+      "color": "rgba(0,0,0,1)",
+      "group_id": "cta",
+      "rotation": 0,
+      "font_weight": "bold"
+    }
+  ]
+}

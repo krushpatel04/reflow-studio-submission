@@ -1,0 +1,982 @@
+{
+  "generatedAt": "2026-09-22T16:55:05.100Z",
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+  "passed": 12,
+  "total": 12,
+  "checks": [
+    {
+      "name": "All ten fixtures render four preview cards",
+      "passed": true
+    },
+    {
+      "name": "Baseline toggle changes comparison mode and selected state",
+      "passed": true
+    },
+    {
+      "name": "Edited copy reaches every variant and the JSON export",
+      "passed": true
+    },
+    {
+      "name": "Custom dimensions reject zero and accept 1600 × 600",
+      "passed": true
+    },
+    {
+      "name": "Theme toggle updates both workspace and Spectrum theme",
+      "passed": true
+    },
+    {
+      "name": "Issue overlay renders diagnostics for oversized source copy",
+      "passed": true
+    },
+    {
+      "name": "Browser benchmark completes all thirty rows",
+      "passed": true
+    },
+    {
+      "name": "Nearby resizes preserve composition and image frames with browser fonts",
+      "passed": true
+    },
+    {
+      "name": "Mixed-role badge glyphs remain inside their dark backing",
+      "passed": true
+    },
+    {
+      "name": "Independent SVG glyph bounds remain inside selected text boxes",
+      "passed": true
+    },
+    {
+      "name": "Browser and native font engines agree on layoutText line breaks for the font-parity probe corpus",
+      "passed": true
+    },
+    {
+      "name": "No startup errors, uncaught exceptions, or error overlay",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "inkFindings": [],
+  "lineBreakFindings": [],
+  "fontParityDeltas": [
+    {
+      "id": "after-dark/square/eyebrow",
+      "widthDelta": 0.237575683593775,
+      "ascentDelta": 0.3780000000000001,
+      "descentDelta": 0.18700000000000028
+    },
+    {
+      "id": "after-dark/square/headline",
+      "widthDelta": 290.198935546875,
+      "ascentDelta": 0.2289999999999992,
+      "descentDelta": 0.2289999999999992
+    },
+    {
+      "id": "after-dark/square/date",
+      "widthDelta": 1.032009277343775,
+      "ascentDelta": 0.10099999999999909,
+      "descentDelta": 0.24600000000000044
+    },
+    {
+      "id": "after-dark/square/venue",
+      "widthDelta": 0.21221679687505457,
+      "ascentDelta": 0.13700000000000045,
+      "descentDelta": 0.31099999999999994
+    },
+    {
+      "id": "after-dark/square/ticket-label",
+      "widthDelta": 9.979562988281259,
+      "ascentDelta": 0.0519999999999996,
+      "descentDelta": 0.04100000000000037
+    },
+    {
+      "id": "after-dark/story/eyebrow",
+      "widthDelta": 0.0033593750000022737,
+      "ascentDelta": 0.1559999999999988,
+      "descentDelta": 0.4870000000000001
+    },
+    {
+      "id": "after-dark/story/headline",
+      "widthDelta": 407.69218750000005,
+      "ascentDelta": 0.5,
+      "descentDelta": 0.015999999999998238
+    },
+    {
+      "id": "after-dark/story/date",
+      "widthDelta": 1.1735546874999727,
+      "ascentDelta": 0.1869999999999976,
+      "descentDelta": 0.16600000000000037
+    },
+    {
+      "id": "after-dark/story/venue",
+      "widthDelta": 0.002617187500050022,
+      "ascentDelta": 0.06299999999999883,
+      "descentDelta": 0.23599999999999977
+    },
+    {
+      "id": "after-dark/story/ticket-label",
+      "widthDelta": 10.995000000000005,
+      "ascentDelta": 0,
+      "descentDelta": 0.2809999999999997
+    },
+    {
+      "id": "after-dark/landscape/eyebrow",
+      "widthDelta": 0.237575683593775,
+      "ascentDelta": 0.3780000000000001,
+      "descentDelta": 0.18700000000000028
+    },
+    {
+      "id": "after-dark/landscape/headline",
+      "widthDelta": 290.198935546875,
+      "ascentDelta": 0.2289999999999992,
+      "descentDelta": 0.2289999999999992
+    },
+    {
+      "id": "after-dark/landscape/date",
+      "widthDelta": 1.032009277343775,
+      "ascentDelta": 0.10099999999999909,
+      "descentDelta": 0.24600000000000044
+    },
+    {
+      "id": "after-dark/landscape/venue",
+      "widthDelta": 0.21221679687505457,
+      "ascentDelta": 0.13700000000000045,
+      "descentDelta": 0.31099999999999994
+    },
+    {
+      "id": "after-dark/landscape/ticket-label",
+      "widthDelta": 9.979562988281259,
+      "ascentDelta": 0.0519999999999996,
+      "descentDelta": 0.04100000000000037
+    },
+    {
+      "id": "long-headline/square/eyebrow",
+      "widthDelta": 0.0005273437499795364,
+      "ascentDelta": 0.1559999999999988,
+      "descentDelta": 0.4870000000000001
+    },
+    {
+      "id": "long-headline/square/headline",
+      "widthDelta": 0.1672558593750182,
+      "ascentDelta": 0.23699999999999477,
+      "descentDelta": 0.23600000000000065
+    },
+    {
+      "id": "long-headline/square/body",
+      "widthDelta": 0.9710058593750546,
+      "ascentDelta": 0.48400000000000176,
+      "descentDelta": 0.40200000000000014
+    },
+    {
+      "id": "long-headline/square/details",
+      "widthDelta": 221.35883544921876,
+      "ascentDelta": 0.2839999999999989,
+      "descentDelta": 0.29600000000000026
+    },
+    {
+      "id": "long-headline/story/eyebrow",
+      "widthDelta": 0.0005273437499795364,
+      "ascentDelta": 0.1559999999999988,
+      "descentDelta": 0.4870000000000001
+    },
+    {
+      "id": "long-headline/story/headline",
+      "widthDelta": 0.1672558593750182,
+      "ascentDelta": 0.23699999999999477,
+      "descentDelta": 0.23600000000000065
+    },
+    {
+      "id": "long-headline/story/body",
+      "widthDelta": 0.9710058593750546,
+      "ascentDelta": 0.48400000000000176,
+      "descentDelta": 0.40200000000000014
+    },
+    {
+      "id": "long-headline/story/details",
+      "widthDelta": 221.35883544921876,
+      "ascentDelta": 0.2839999999999989,
+      "descentDelta": 0.29600000000000026
+    },
+    {
+      "id": "long-headline/landscape/eyebrow",
+      "widthDelta": 0.0007031249999727152,
+      "ascentDelta": 0.125,
+      "descentDelta": 0.3160000000000007
+    },
+    {
+      "id": "long-headline/landscape/headline",
+      "widthDelta": 0.08650390625007276,
+      "ascentDelta": 0.3499999999999943,
+      "descentDelta": 0.31400000000000006
+    },
+    {
+      "id": "long-headline/landscape/body",
+      "widthDelta": 1.2880078124999272,
+      "ascentDelta": 0.3119999999999976,
+      "descentDelta": 0.13100000000000023
+    },
+    {
+      "id": "long-headline/landscape/details",
+      "widthDelta": 295.0851953125,
+      "ascentDelta": 0.2879999999999967,
+      "descentDelta": 0.39400000000000013
+    },
+    {
+      "id": "dense-program/square/headline",
+      "widthDelta": 432.86187500000005,
+      "ascentDelta": 0.347999999999999,
+      "descentDelta": 0.06599999999999895
+    },
+    {
+      "id": "dense-program/square/session-0",
+      "widthDelta": 0.07461914062503183,
+      "ascentDelta": 0.22800000000000153,
+      "descentDelta": 0.40499999999999936
+    },
+    {
+      "id": "dense-program/square/detail-0",
+      "widthDelta": 0.10046875000000455,
+      "ascentDelta": 0.053000000000000824,
+      "descentDelta": 0.23399999999999999
+    },
+    {
+      "id": "dense-program/square/session-1",
+      "widthDelta": 0.07990234374994998,
+      "ascentDelta": 0.22800000000000153,
+      "descentDelta": 0.40499999999999936
+    },
+    {
+      "id": "dense-program/square/detail-1",
+      "widthDelta": 0.4192822265624727,
+      "ascentDelta": 0.053000000000000824,
+      "descentDelta": 0.23399999999999999
+    },
+    {
+      "id": "dense-program/square/session-2",
+      "widthDelta": 0.08493896484378638,
+      "ascentDelta": 0.22800000000000153,
+      "descentDelta": 0.40499999999999936
+    },
+    {
+      "id": "dense-program/square/detail-2",
+      "widthDelta": 0.09482421874997726,
+      "ascentDelta": 0.053000000000000824,
+      "descentDelta": 0.23399999999999999
+    },
+    {
+      "id": "dense-program/square/session-3",
+      "widthDelta": 0.09185791015625,
+      "ascentDelta": 0.22800000000000153,
+      "descentDelta": 0.40499999999999936
+    },
+    {
+      "id": "dense-program/square/detail-3",
+      "widthDelta": 0.42072265624995,
+      "ascentDelta": 0.053000000000000824,
+      "descentDelta": 0.23399999999999999
+    },
+    {
+      "id": "dense-program/square/footer",
+      "widthDelta": 0.13850097656245453,
+      "ascentDelta": 0.027999999999998693,
+      "descentDelta": 0.028999999999999915
+    },
+    {
+      "id": "dense-program/story/headline",
+      "widthDelta": 403.4665625,
+      "ascentDelta": 0.09399999999999409,
+      "descentDelta": 0.43299999999999983
+    },
+    {
+      "id": "dense-program/story/session-0",
+      "widthDelta": 0.0030468749999954525,
+      "ascentDelta": 0.2190000000000012,
+      "descentDelta": 0.40700000000000003
+    },
+    {
+      "id": "dense-program/story/detail-0",
+      "widthDelta": 0.0037499999999681677,
+      "ascentDelta": 0.06299999999999883,
+      "descentDelta": 0.23599999999999977
+    },
+    {
+      "id": "dense-program/story/session-1",
+      "widthDelta": 0.0015039062500363798,
+      "ascentDelta": 0.2190000000000012,
+      "descentDelta": 0.40700000000000003
+    },
+    {
+      "id": "dense-program/story/detail-1",
+      "widthDelta": 0.3091015625000182,
+      "ascentDelta": 0.06299999999999883,
+      "descentDelta": 0.23599999999999977
+    },
+    {
+      "id": "dense-program/story/session-2",
+      "widthDelta": 0.0007031249999727152,
+      "ascentDelta": 0.2190000000000012,
+      "descentDelta": 0.40700000000000003
+    },
+    {
+      "id": "dense-program/story/detail-2",
+      "widthDelta": 0.0010937499999954525,
+      "ascentDelta": 0.06299999999999883,
+      "descentDelta": 0.23599999999999977
+    },
+    {
+      "id": "dense-program/story/session-3",
+      "widthDelta": 0.001699218749990905,
+      "ascentDelta": 0.2190000000000012,
+      "descentDelta": 0.40700000000000003
+    },
+    {
+      "id": "dense-program/story/detail-3",
+      "widthDelta": 0.30652343750000455,
+      "ascentDelta": 0.06299999999999883,
+      "descentDelta": 0.23599999999999977
+    },
+    {
+      "id": "dense-program/story/footer",
+      "widthDelta": 0.00005859375005456968,
+      "ascentDelta": 0.030999999999998806,
+      "descentDelta": 0.47799999999999976
+    },
+    {
+      "id": "dense-program/landscape/headline",
+      "widthDelta": 432.86187500000005,
+      "ascentDelta": 0.347999999999999,
+      "descentDelta": 0.06599999999999895
+    },
+    {
+      "id": "dense-program/landscape/session-0",
+      "widthDelta": 0.07461914062503183,
+      "ascentDelta": 0.22800000000000153,
+      "descentDelta": 0.40499999999999936
+    },
+    {
+      "id": "dense-program/landscape/detail-0",
+      "widthDelta": 0.10046875000000455,
+      "ascentDelta": 0.053000000000000824,
+      "descentDelta": 0.23399999999999999
+    },
+    {
+      "id": "dense-program/landscape/session-1",
+      "widthDelta": 0.07990234374994998,
+      "ascentDelta": 0.22800000000000153,
+      "descentDelta": 0.40499999999999936
+    },
+    {
+      "id": "dense-program/landscape/detail-1",
+      "widthDelta": 0.4192822265624727,
+      "ascentDelta": 0.053000000000000824,
+      "descentDelta": 0.23399999999999999
+    },
+    {
+      "id": "dense-program/landscape/session-2",
+      "widthDelta": 0.08493896484378638,
+      "ascentDelta": 0.22800000000000153,
+      "descentDelta": 0.40499999999999936
+    },
+    {
+      "id": "dense-program/landscape/detail-2",
+      "widthDelta": 0.09482421874997726,
+      "ascentDelta": 0.053000000000000824,
+      "descentDelta": 0.23399999999999999
+    },
+    {
+      "id": "dense-program/landscape/session-3",
+      "widthDelta": 0.09185791015625,
+      "ascentDelta": 0.22800000000000153,
+      "descentDelta": 0.40499999999999936
+    },
+    {
+      "id": "dense-program/landscape/detail-3",
+      "widthDelta": 0.42072265624995,
+      "ascentDelta": 0.053000000000000824,
+      "descentDelta": 0.23399999999999999
+    },
+    {
+      "id": "dense-program/landscape/footer",
+      "widthDelta": 0.13850097656245453,
+      "ascentDelta": 0.027999999999998693,
+      "descentDelta": 0.028999999999999915
+    },
+    {
+      "id": "grouped-details/square/headline",
+      "widthDelta": 464.2973266601563,
+      "ascentDelta": 0.45699999999999363,
+      "descentDelta": 0.277000000000001
+    },
+    {
+      "id": "grouped-details/square/date",
+      "widthDelta": 0.0716955566406341,
+      "ascentDelta": 0.4309999999999974,
+      "descentDelta": 0.4090000000000007
+    },
+    {
+      "id": "grouped-details/square/venue",
+      "widthDelta": 195.52056396484375,
+      "ascentDelta": 0.3880000000000017,
+      "descentDelta": 0.1849999999999996
+    },
+    {
+      "id": "grouped-details/square/cta",
+      "widthDelta": 0.04396484375001819,
+      "ascentDelta": 0.10000000000000142,
+      "descentDelta": 0.052999999999999936
+    },
+    {
+      "id": "grouped-details/story/headline",
+      "widthDelta": 464.2973266601563,
+      "ascentDelta": 0.45699999999999363,
+      "descentDelta": 0.277000000000001
+    },
+    {
+      "id": "grouped-details/story/date",
+      "widthDelta": 0.0716955566406341,
+      "ascentDelta": 0.4309999999999974,
+      "descentDelta": 0.4090000000000007
+    },
+    {
+      "id": "grouped-details/story/venue",
+      "widthDelta": 195.52056396484375,
+      "ascentDelta": 0.3880000000000017,
+      "descentDelta": 0.1849999999999996
+    },
+    {
+      "id": "grouped-details/story/cta",
+      "widthDelta": 0.04396484375001819,
+      "ascentDelta": 0.10000000000000142,
+      "descentDelta": 0.052999999999999936
+    },
+    {
+      "id": "grouped-details/landscape/headline",
+      "widthDelta": 619.092939453125,
+      "ascentDelta": 0.058000000000006935,
+      "descentDelta": 0.036000000000001364
+    },
+    {
+      "id": "grouped-details/landscape/date",
+      "widthDelta": 0.03894775390625682,
+      "ascentDelta": 0.42499999999999716,
+      "descentDelta": 0.21199999999999974
+    },
+    {
+      "id": "grouped-details/landscape/venue",
+      "widthDelta": 260.7008740234375,
+      "ascentDelta": 0.14999999999999858,
+      "descentDelta": 0.41999999999999993
+    },
+    {
+      "id": "grouped-details/landscape/cta",
+      "widthDelta": 0.13870117187502728,
+      "ascentDelta": 0.20000000000000284,
+      "descentDelta": 0.2629999999999999
+    },
+    {
+      "id": "intentional-overlap/square/headline",
+      "widthDelta": 332.98205810546875,
+      "ascentDelta": 0.3859999999999957,
+      "descentDelta": 0.01899999999999835
+    },
+    {
+      "id": "intentional-overlap/square/description",
+      "widthDelta": 461.88505859375005,
+      "ascentDelta": 0.23700000000000188,
+      "descentDelta": 0.39899999999999913
+    },
+    {
+      "id": "intentional-overlap/square/footer",
+      "widthDelta": 0.12371582031255457,
+      "ascentDelta": 0.134999999999998,
+      "descentDelta": 0.31900000000000084
+    },
+    {
+      "id": "intentional-overlap/story/headline",
+      "widthDelta": 375.81533203125,
+      "ascentDelta": 0.2189999999999941,
+      "descentDelta": 0.46799999999999997
+    },
+    {
+      "id": "intentional-overlap/story/description",
+      "widthDelta": 460.70005859375,
+      "ascentDelta": 0.3440000000000012,
+      "descentDelta": 0.3719999999999999
+    },
+    {
+      "id": "intentional-overlap/story/footer",
+      "widthDelta": 0.00199218750003638,
+      "ascentDelta": 0.06299999999999883,
+      "descentDelta": 0.23599999999999977
+    },
+    {
+      "id": "intentional-overlap/landscape/headline",
+      "widthDelta": 332.98205810546875,
+      "ascentDelta": 0.3859999999999957,
+      "descentDelta": 0.01899999999999835
+    },
+    {
+      "id": "intentional-overlap/landscape/description",
+      "widthDelta": 461.88505859375005,
+      "ascentDelta": 0.23700000000000188,
+      "descentDelta": 0.39899999999999913
+    },
+    {
+      "id": "intentional-overlap/landscape/footer",
+      "widthDelta": 0.12371582031255457,
+      "ascentDelta": 0.134999999999998,
+      "descentDelta": 0.31900000000000084
+    },
+    {
+      "id": "layered-art/square/eyebrow",
+      "widthDelta": 0.00144531249998181,
+      "ascentDelta": 0.06299999999999883,
+      "descentDelta": 0.23599999999999977
+    },
+    {
+      "id": "layered-art/square/headline",
+      "widthDelta": 883.7692578125,
+      "ascentDelta": 0.3119999999999976,
+      "descentDelta": 0.4319999999999986
+    },
+    {
+      "id": "layered-art/square/footer",
+      "widthDelta": 0.00099609375001819,
+      "ascentDelta": 0.030999999999998806,
+      "descentDelta": 0.040000000000000036
+    },
+    {
+      "id": "layered-art/story/eyebrow",
+      "widthDelta": 0.00144531249998181,
+      "ascentDelta": 0.06299999999999883,
+      "descentDelta": 0.23599999999999977
+    },
+    {
+      "id": "layered-art/story/headline",
+      "widthDelta": 883.7692578125,
+      "ascentDelta": 0.3119999999999976,
+      "descentDelta": 0.4319999999999986
+    },
+    {
+      "id": "layered-art/story/footer",
+      "widthDelta": 0.00099609375001819,
+      "ascentDelta": 0.030999999999998806,
+      "descentDelta": 0.040000000000000036
+    },
+    {
+      "id": "layered-art/landscape/eyebrow",
+      "widthDelta": 0.00144531249998181,
+      "ascentDelta": 0.06299999999999883,
+      "descentDelta": 0.23599999999999977
+    },
+    {
+      "id": "layered-art/landscape/headline",
+      "widthDelta": 883.7692578125,
+      "ascentDelta": 0.3119999999999976,
+      "descentDelta": 0.4319999999999986
+    },
+    {
+      "id": "layered-art/landscape/footer",
+      "widthDelta": 0.00099609375001819,
+      "ascentDelta": 0.030999999999998806,
+      "descentDelta": 0.040000000000000036
+    },
+    {
+      "id": "product-pairs/square/headline",
+      "widthDelta": 0.08510742187490905,
+      "ascentDelta": 0.0660000000000025,
+      "descentDelta": 0.2049999999999983
+    },
+    {
+      "id": "product-pairs/square/label-0",
+      "widthDelta": 0.04470520019532387,
+      "ascentDelta": 0.021999999999998465,
+      "descentDelta": 0.47499999999999964
+    },
+    {
+      "id": "product-pairs/square/price-0",
+      "widthDelta": 0.0036230468749991473,
+      "ascentDelta": 0.4529999999999994,
+      "descentDelta": 0.3570000000000002
+    },
+    {
+      "id": "product-pairs/square/label-1",
+      "widthDelta": 0.04927001953126364,
+      "ascentDelta": 0.021999999999998465,
+      "descentDelta": 0.47499999999999964
+    },
+    {
+      "id": "product-pairs/square/price-1",
+      "widthDelta": 0.000615234374997442,
+      "ascentDelta": 0.4529999999999994,
+      "descentDelta": 0.3570000000000002
+    },
+    {
+      "id": "product-pairs/square/label-2",
+      "widthDelta": 0.09857666015625455,
+      "ascentDelta": 0.3460000000000001,
+      "descentDelta": 0.05799999999999983
+    },
+    {
+      "id": "product-pairs/square/price-2",
+      "widthDelta": 0.0014843749999968736,
+      "ascentDelta": 0.4529999999999994,
+      "descentDelta": 0.3570000000000002
+    },
+    {
+      "id": "product-pairs/square/footer",
+      "widthDelta": 0.6174023437499727,
+      "ascentDelta": 0.3780000000000001,
+      "descentDelta": 0.18700000000000028
+    },
+    {
+      "id": "product-pairs/story/headline",
+      "widthDelta": 0.08510742187490905,
+      "ascentDelta": 0.0660000000000025,
+      "descentDelta": 0.2049999999999983
+    },
+    {
+      "id": "product-pairs/story/label-0",
+      "widthDelta": 0.04470520019532387,
+      "ascentDelta": 0.021999999999998465,
+      "descentDelta": 0.47499999999999964
+    },
+    {
+      "id": "product-pairs/story/price-0",
+      "widthDelta": 0.0036230468749991473,
+      "ascentDelta": 0.4529999999999994,
+      "descentDelta": 0.3570000000000002
+    },
+    {
+      "id": "product-pairs/story/label-1",
+      "widthDelta": 0.04927001953126364,
+      "ascentDelta": 0.021999999999998465,
+      "descentDelta": 0.47499999999999964
+    },
+    {
+      "id": "product-pairs/story/price-1",
+      "widthDelta": 0.000615234374997442,
+      "ascentDelta": 0.4529999999999994,
+      "descentDelta": 0.3570000000000002
+    },
+    {
+      "id": "product-pairs/story/label-2",
+      "widthDelta": 0.09857666015625455,
+      "ascentDelta": 0.3460000000000001,
+      "descentDelta": 0.05799999999999983
+    },
+    {
+      "id": "product-pairs/story/price-2",
+      "widthDelta": 0.0014843749999968736,
+      "ascentDelta": 0.4529999999999994,
+      "descentDelta": 0.3570000000000002
+    },
+    {
+      "id": "product-pairs/story/footer",
+      "widthDelta": 0.6174023437499727,
+      "ascentDelta": 0.3780000000000001,
+      "descentDelta": 0.18700000000000028
+    },
+    {
+      "id": "product-pairs/landscape/headline",
+      "widthDelta": 0.0010961914063045697,
+      "ascentDelta": 0.43600000000000705,
+      "descentDelta": 0.16499999999999915
+    },
+    {
+      "id": "product-pairs/landscape/label-0",
+      "widthDelta": 0.0012890625000068212,
+      "ascentDelta": 0.030999999999998806,
+      "descentDelta": 0.47799999999999976
+    },
+    {
+      "id": "product-pairs/landscape/price-0",
+      "widthDelta": 0.0034570312500008527,
+      "ascentDelta": 0.030999999999998806,
+      "descentDelta": 0.040000000000000036
+    },
+    {
+      "id": "product-pairs/landscape/label-1",
+      "widthDelta": 0.004121093749972715,
+      "ascentDelta": 0.030999999999998806,
+      "descentDelta": 0.47799999999999976
+    },
+    {
+      "id": "product-pairs/landscape/price-1",
+      "widthDelta": 0.0022851562499965894,
+      "ascentDelta": 0.030999999999998806,
+      "descentDelta": 0.040000000000000036
+    },
+    {
+      "id": "product-pairs/landscape/label-2",
+      "widthDelta": 0.004199218749988631,
+      "ascentDelta": 0.030999999999998806,
+      "descentDelta": 0.47799999999999976
+    },
+    {
+      "id": "product-pairs/landscape/price-2",
+      "widthDelta": 0.002656250000001137,
+      "ascentDelta": 0.030999999999998806,
+      "descentDelta": 0.040000000000000036
+    },
+    {
+      "id": "product-pairs/landscape/footer",
+      "widthDelta": 0.2744531250000364,
+      "ascentDelta": 0.1559999999999988,
+      "descentDelta": 0.4870000000000001
+    },
+    {
+      "id": "quiet-brand/square/eyebrow",
+      "widthDelta": 0.49692626953122954,
+      "ascentDelta": 0.3780000000000001,
+      "descentDelta": 0.18700000000000028
+    },
+    {
+      "id": "quiet-brand/square/headline",
+      "widthDelta": 349.37089355468754,
+      "ascentDelta": 0.014999999999986358,
+      "descentDelta": 0.3810000000000002
+    },
+    {
+      "id": "quiet-brand/square/body",
+      "widthDelta": 621.952060546875,
+      "ascentDelta": 0.48499999999999943,
+      "descentDelta": 0.1609999999999996
+    },
+    {
+      "id": "quiet-brand/square/footer",
+      "widthDelta": 0.20472656250001364,
+      "ascentDelta": 0.46000000000000085,
+      "descentDelta": 0.10200000000000031
+    },
+    {
+      "id": "quiet-brand/story/eyebrow",
+      "widthDelta": 0.2775195312499932,
+      "ascentDelta": 0.1559999999999988,
+      "descentDelta": 0.4870000000000001
+    },
+    {
+      "id": "quiet-brand/story/headline",
+      "widthDelta": 291.1508471679688,
+      "ascentDelta": 0.0040000000000048885,
+      "descentDelta": 0.18500000000000227
+    },
+    {
+      "id": "quiet-brand/story/body",
+      "widthDelta": 518.2994921875,
+      "ascentDelta": 0.06199999999999761,
+      "descentDelta": 0.2010000000000005
+    },
+    {
+      "id": "quiet-brand/story/footer",
+      "widthDelta": 0.0023437500000227374,
+      "ascentDelta": 0.125,
+      "descentDelta": 0.24600000000000044
+    },
+    {
+      "id": "quiet-brand/landscape/eyebrow",
+      "widthDelta": 0.49692626953122954,
+      "ascentDelta": 0.3780000000000001,
+      "descentDelta": 0.18700000000000028
+    },
+    {
+      "id": "quiet-brand/landscape/headline",
+      "widthDelta": 349.37089355468754,
+      "ascentDelta": 0.014999999999986358,
+      "descentDelta": 0.3810000000000002
+    },
+    {
+      "id": "quiet-brand/landscape/body",
+      "widthDelta": 621.952060546875,
+      "ascentDelta": 0.48499999999999943,
+      "descentDelta": 0.1609999999999996
+    },
+    {
+      "id": "quiet-brand/landscape/footer",
+      "widthDelta": 0.20472656250001364,
+      "ascentDelta": 0.46000000000000085,
+      "descentDelta": 0.10200000000000031
+    },
+    {
+      "id": "edge-subject/square/headline",
+      "widthDelta": 0.028205566406199978,
+      "ascentDelta": 0.09999999999999432,
+      "descentDelta": 0.20899999999999963
+    },
+    {
+      "id": "edge-subject/square/footer",
+      "widthDelta": 0.058596191406252274,
+      "ascentDelta": 0.02499999999999858,
+      "descentDelta": 0.017999999999999794
+    },
+    {
+      "id": "edge-subject/story/headline",
+      "widthDelta": 0.028205566406199978,
+      "ascentDelta": 0.09999999999999432,
+      "descentDelta": 0.20899999999999963
+    },
+    {
+      "id": "edge-subject/story/footer",
+      "widthDelta": 0.058596191406252274,
+      "ascentDelta": 0.02499999999999858,
+      "descentDelta": 0.017999999999999794
+    },
+    {
+      "id": "edge-subject/landscape/headline",
+      "widthDelta": 0.0013281249999863576,
+      "ascentDelta": 0.375,
+      "descentDelta": 0.26200000000000045
+    },
+    {
+      "id": "edge-subject/landscape/footer",
+      "widthDelta": 0.00146484375,
+      "ascentDelta": 0.030999999999998806,
+      "descentDelta": 0.47799999999999976
+    },
+    {
+      "id": "type-pairing/square/eyebrow",
+      "widthDelta": 0.20701904296879547,
+      "ascentDelta": 0.46000000000000085,
+      "descentDelta": 0.10200000000000031
+    },
+    {
+      "id": "type-pairing/square/headline",
+      "widthDelta": 814.1118115234375,
+      "ascentDelta": 0.1529999999999916,
+      "descentDelta": 0.08599999999999852
+    },
+    {
+      "id": "type-pairing/square/body",
+      "widthDelta": 685.1220947265625,
+      "ascentDelta": 0.3470000000000013,
+      "descentDelta": 0.1349999999999998
+    },
+    {
+      "id": "type-pairing/square/footer",
+      "widthDelta": 429.3353466796875,
+      "ascentDelta": 0.48499999999999943,
+      "descentDelta": 0.1609999999999996
+    },
+    {
+      "id": "type-pairing/story/eyebrow",
+      "widthDelta": 0.0032812499999863576,
+      "ascentDelta": 0.125,
+      "descentDelta": 0.24600000000000044
+    },
+    {
+      "id": "type-pairing/story/headline",
+      "widthDelta": 855.3618359375,
+      "ascentDelta": 0.24799999999999045,
+      "descentDelta": 0.21999999999999886
+    },
+    {
+      "id": "type-pairing/story/body",
+      "widthDelta": 571.0178125,
+      "ascentDelta": 0.2809999999999988,
+      "descentDelta": 0.10999999999999943
+    },
+    {
+      "id": "type-pairing/story/footer",
+      "widthDelta": 357.781328125,
+      "ascentDelta": 0.06199999999999761,
+      "descentDelta": 0.2010000000000005
+    },
+    {
+      "id": "type-pairing/landscape/eyebrow",
+      "widthDelta": 0.20701904296879547,
+      "ascentDelta": 0.46000000000000085,
+      "descentDelta": 0.10200000000000031
+    },
+    {
+      "id": "type-pairing/landscape/headline",
+      "widthDelta": 814.1118115234375,
+      "ascentDelta": 0.1529999999999916,
+      "descentDelta": 0.08599999999999852
+    },
+    {
+      "id": "type-pairing/landscape/body",
+      "widthDelta": 685.1220947265625,
+      "ascentDelta": 0.3470000000000013,
+      "descentDelta": 0.1349999999999998
+    },
+    {
+      "id": "type-pairing/landscape/footer",
+      "widthDelta": 429.3353466796875,
+      "ascentDelta": 0.48499999999999943,
+      "descentDelta": 0.1609999999999996
+    },
+    {
+      "id": "probe/long-unbroken-word",
+      "widthDelta": 0.0024999999999977263,
+      "ascentDelta": 0,
+      "descentDelta": 0.2809999999999997
+    },
+    {
+      "id": "probe/explicit-line-breaks",
+      "widthDelta": 275.291875,
+      "ascentDelta": 0,
+      "descentDelta": 0.2809999999999997
+    },
+    {
+      "id": "probe/repeated-whitespace",
+      "widthDelta": 0.0024999999999977263,
+      "ascentDelta": 0,
+      "descentDelta": 0.2809999999999997
+    },
+    {
+      "id": "probe/combining-mark",
+      "widthDelta": 0.0049999999999954525,
+      "ascentDelta": 0,
+      "descentDelta": 0.2809999999999997
+    },
+    {
+      "id": "probe/emoji-zwj-sequence",
+      "widthDelta": 10.002499999999998,
+      "ascentDelta": 0,
+      "descentDelta": 0.2809999999999997
+    },
+    {
+      "id": "probe/cyrillic-sample",
+      "widthDelta": 0.007499999999993179,
+      "ascentDelta": 0,
+      "descentDelta": 0.2809999999999997
+    },
+    {
+      "id": "probe/greek-sample",
+      "widthDelta": 0.0049999999999954525,
+      "ascentDelta": 0,
+      "descentDelta": 0.2809999999999997
+    },
+    {
+      "id": "probe/vietnamese-sample",
+      "widthDelta": 0.0006250000000136424,
+      "ascentDelta": 0,
+      "descentDelta": 0.2809999999999997
+    },
+    {
+      "id": "probe/arabic-sample",
+      "widthDelta": 119.61672973632812,
+      "ascentDelta": 0,
+      "descentDelta": 4.5486315307617184
+    }
+  ],
+  "fontParitySummary": {
+    "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+    "maxWidthDelta": {
+      "id": "layered-art/square/headline",
+      "widthDelta": 883.7692578125,
+      "ascentDelta": 0.3119999999999976,
+      "descentDelta": 0.4319999999999986
+    },
+    "maxAscentDelta": {
+      "id": "after-dark/story/headline",
+      "widthDelta": 407.69218750000005,
+      "ascentDelta": 0.5,
+      "descentDelta": 0.015999999999998238
+    },
+    "maxDescentDelta": {
+      "id": "probe/arabic-sample",
+      "widthDelta": 119.61672973632812,
+      "ascentDelta": 0,
+      "descentDelta": 4.5486315307617184
+    }
+  }
+}

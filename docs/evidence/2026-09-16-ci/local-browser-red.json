@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-09-16T04:31:33.295Z",
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+  "passed": 10,
+  "total": 11,
+  "checks": [
+    {
+      "name": "All ten fixtures render four preview cards",
+      "passed": true
+    },
+    {
+      "name": "Baseline toggle changes comparison mode and selected state",
+      "passed": true
+    },
+    {
+      "name": "Edited copy reaches every variant and the JSON export",
+      "passed": true
+    },
+    {
+      "name": "Custom dimensions reject zero and accept 1600 × 600",
+      "passed": true
+    },
+    {
+      "name": "Theme toggle updates both workspace and Spectrum theme",
+      "passed": true
+    },
+    {
+      "name": "Issue overlay renders diagnostics for oversized source copy",
+      "passed": true
+    },
+    {
+      "name": "Browser benchmark completes all thirty rows",
+      "passed": true
+    },
+    {
+      "name": "Nearby resizes preserve composition and image frames with browser fonts",
+      "passed": true
+    },
+    {
+      "name": "Mixed-role badge glyphs remain inside their dark backing",
+      "passed": false,
+      "detail": "Error: uniform: actual glyph bounds separated from the dark backing"
+    },
+    {
+      "name": "Independent SVG glyph bounds remain inside selected text boxes",
+      "passed": true
+    },
+    {
+      "name": "No startup errors, uncaught exceptions, or error overlay",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "inkFindings": []
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- Paste into the Code Playground "HTML" tab (Add-on Mode). A fragment without
+     <html>/<head>/<body> left the panel blank (observed October 8, 2026). -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Reflow JH-01 probe</title>
+    <style>
+      .probe { display: flex; flex-direction: column; gap: 8px; font: 13px sans-serif; }
+      .probe label { display: flex; flex-direction: column; gap: 2px; }
+      .probe pre { max-height: 320px; overflow: auto; user-select: all; background: #f4f4f4; padding: 6px; }
+    </style>
+  </head>
+  <body>
+    <div class="probe">
+      <h2>Reflow JH-01 probe</h2>
+      <p id="status" role="status">Loading…</p>
+      <button id="create">Create probe text</button>
+      <label>Snapshot label <input id="label" value="A-created"></label>
+      <button id="snapshot">Snapshot</button>
+      <label>Operation ID <input id="op" value="move-1"></label>
+      <button id="move">Apply move</button>
+      <button id="copy">Copy JSON</button>
+      <pre id="out"></pre>
+    </div>
+  </body>
+</html>

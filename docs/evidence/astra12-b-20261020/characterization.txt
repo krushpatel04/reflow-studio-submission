@@ -1,0 +1,15 @@
+test_all_pairs_and_both_controls_use_distinct_raw_directories (tests_python.test_submission_workload_profile.DriverCoverage.test_all_pairs_and_both_controls_use_distinct_raw_directories) ... ok
+test_actual_pid_exit_and_missing_resource_mount_checks (tests_python.test_submission_workload_profile.PairOracle.test_actual_pid_exit_and_missing_resource_mount_checks) ... ok
+test_byte_change_missing_phase_bad_metric_or_cleanup_fail (tests_python.test_submission_workload_profile.PairOracle.test_byte_change_missing_phase_bad_metric_or_cleanup_fail) ... ok
+test_delay_control_wrong_attribution_rejected (tests_python.test_submission_workload_profile.PairOracle.test_delay_control_wrong_attribution_rejected) ... ok
+test_matched_positive (tests_python.test_submission_workload_profile.PairOracle.test_matched_positive) ... ok
+test_missing_resource_silent_success_is_gap_not_accepted_failure (tests_python.test_submission_workload_profile.PairOracle.test_missing_resource_silent_success_is_gap_not_accepted_failure) ... ok
+test_exception_retains_partial_profile_and_error (tests_python.test_submission_workload_profile.PhaseTiming.test_exception_retains_partial_profile_and_error) ... ok
+test_real_delay_is_attributed_to_named_function_and_nested_time_not_summed (tests_python.test_submission_workload_profile.PhaseTiming.test_real_delay_is_attributed_to_named_function_and_nested_time_not_summed) ... ok
+test_instrumentation_failure_is_not_merely_a_behavioral_finding (tests_python.test_submission_workload_profile.ReportEvidence.test_instrumentation_failure_is_not_merely_a_behavioral_finding) ... ok
+test_families_are_deterministic_bounded_and_preserve_seed (tests_python.test_submission_workload_profile.WorkloadFamilies.test_families_are_deterministic_bounded_and_preserve_seed) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.189s
+
+OK

@@ -1,0 +1,35 @@
+import { readFile, writeFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+import { execFileSync } from 'node:child_process';
+import os from 'node:os';
+import { designFeatures, summarize, type PoolEntry } from '../../scripts/lica-batch';
+import { checkImportLedger, LICA_METADATA } from '../../scripts/lica-outcomes';
+const manifestBytes = await readFile('corpus/manifest.json');
+const ledgerBytes = await readFile('corpus/lica/import-outcomes.json');
+const manifest = JSON.parse(manifestBytes.toString());
+const ledger = JSON.parse(ledgerBytes.toString());
+const errors = checkImportLedger(ledger, manifest, LICA_METADATA);
+if (errors.length) throw new Error(errors.join('; '));
+const hashes: Record<string, string> = {};
+const pool: PoolEntry[] = [];
+for (const source of manifest.sources) {
+ if (!source.id.startsWith('lica-')) continue;
+ const bytes = await readFile('corpus/' + source.file);
+ const hash = createHash('sha256').update(bytes).digest('hex');
+ if (hash !== source.sha256) throw new Error('source hash mismatch: ' + source.id);
+ hashes[source.file] = hash;
+ const design = JSON.parse(bytes.toString());
+ const outcome = ledger.entries.find((e: any) => 'lica-' + e.layoutId === source.id);
+ pool.push({ layoutId: outcome.layoutId, templateId: outcome.templateId, category: outcome.category, width: design.width, height: design.height, status: source.conversion.status, available: true, features: designFeatures(design) });
+}
+const report = {
+ source: execFileSync('git', ['rev-parse', 'HEAD'], { encoding: 'utf8' }).trim(),
+ environment: { node: process.version, platform: process.platform, arch: process.arch, os: os.release(), cpu: os.cpus()[0].model },
+ ledger: { total: ledger.total, counts: ledger.counts, errors, metadata: LICA_METADATA },
+ manifestSha256: createHash('sha256').update(manifestBytes).digest('hex'),
+ ledgerSha256: createHash('sha256').update(ledgerBytes).digest('hex'),
+ summary: summarize(pool), entries: pool, sourceHashes: hashes,
+ limits: 'Read-only committed corpus; no new admission or visual review. Format candidates are not photo/busyness evidence. Source status is existing manifest status, not a renewed permission finding.'
+};
+await writeFile('reports/astra12-c/corpus-audit.json', JSON.stringify(report, null, 2) + '\n');
+console.log(JSON.stringify({ ledger: report.ledger, summary: report.summary }, null, 2));

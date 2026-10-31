@@ -1,0 +1,56 @@
+.........................................................................................................................................Fontconfig error: Cannot load default config file
+......................../home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.........../home/nala/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/lib/python3.11/unittest/case.py:579: ResourceWarning: unclosed file <_io.BufferedReader name=3>
+  if method() is not None:
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/nala/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/lib/python3.11/unittest/case.py:579: ResourceWarning: unclosed file <_io.BufferedReader name=5>
+  if method() is not None:
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.............................................../home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_text_fit.py:369: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C1_l3_120x600_input.json' mode='r' encoding='UTF-8'>
+  c1 = json.load(open('docs/evidence/2026-10-07-p8/run3/C1_l3_120x600_input.json'))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_text_fit.py:374: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C3b_extreme_60x1000_input.json' mode='r' encoding='UTF-8'>
+  c3b = json.load(open('docs/evidence/2026-10-07-p8/run3/C3b_extreme_60x1000_input.json'))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+......./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_text_fit.py:384: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C1_l3_120x600_input.json' mode='r' encoding='UTF-8'>
+  c = json.load(open(f"docs/evidence/2026-10-07-p8/run3/{name}_input.json"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_text_fit.py:384: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C3b_extreme_60x1000_input.json' mode='r' encoding='UTF-8'>
+  c = json.load(open(f"docs/evidence/2026-10-07-p8/run3/{name}_input.json"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+............
+----------------------------------------------------------------------
+Ran 244 tests in 10.496s
+
+OK
+FAIL: REAL 0 != cases 3; FALLBACK 3
+FAIL: RuntimeWarning in stderr
+FAIL: network reachable
+FAIL: no probe result
+FAIL: arch 'aarch64', want x86_64
+FAIL: a_output.png is not a PNG; b_output.png is not a PNG; c_output.png is not a PNG
+FAIL: 0 outputs, want 6; missing a_output.json; missing a_output.png; missing b_output.json; missing b_output.png; missing c_output.json; missing c_output.png; entrypoint output dir had no files
+FAIL: input bytes changed
+FAIL: entrypoint exit 3
+PASS
+FAIL: zero input cases; no cases; entrypoint output dir had no files

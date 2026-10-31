@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "quiet-brand",
+  "name": "Room to breathe",
+  "description": "Sparse, asymmetric editorial composition tests whether reflow overfills deliberate whitespace.",
+  "provenance": "synthetic",
+  "width": 1081,
+  "height": 1350,
+  "background": "#f0ede5",
+  "elements": [
+    {
+      "id": "eyebrow",
+      "type": "text",
+      "role": "content",
+      "text": "FIELD NOTES / VOL. 04",
+      "x": 70.265,
+      "y": 70.265,
+      "width": 940.47,
+      "height": 141.34292494116278,
+      "fontSize": 32.42,
+      "color": "#413a30",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "headline",
+      "type": "text",
+      "role": "content",
+      "text": "Less,\nbut better.",
+      "x": 70.265,
+      "y": 238.6329249411628,
+      "width": 940.47,
+      "height": 595.3302545076149,
+      "fontSize": 133.32,
+      "color": "#413a30",
+      "fontWeight": 600,
+      "fontFamily": "Source Serif 4",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "rule",
+      "type": "rect",
+      "role": "decoration",
+      "x": 82.5,
+      "y": 740,
+      "width": 125,
+      "height": 5,
+      "color": "#413a30"
+    },
+    {
+      "id": "body",
+      "type": "text",
+      "role": "content",
+      "text": "A conversation about attention,\ncraft, and choosing what matters.",
+      "x": 70.265,
+      "y": 860.9881794487776,
+      "width": 940.47,
+      "height": 250.37889561005971,
+      "fontSize": 40.83,
+      "color": "#413a30",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "footer",
+      "type": "text",
+      "role": "content",
+      "text": "OCTOBER 22 · THE READING ROOM",
+      "x": 70.265,
+      "y": 1138.3920750588372,
+      "width": 940.47,
+      "height": 141.34292494116278,
+      "fontSize": 33.63,
+      "color": "#413a30",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    }
+  ],
+  "groups": []
+}

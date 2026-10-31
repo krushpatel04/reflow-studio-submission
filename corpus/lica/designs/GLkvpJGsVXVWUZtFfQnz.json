@@ -1,0 +1,178 @@
+{
+ "schemaVersion": "reflow.design.v0",
+ "id": "lica-GLkvpJGsVXVWUZtFfQnz",
+ "name": "LICA Instagram Posts GLkvpJGsVXVWUZtFfQnz",
+ "description": "Converted from LICA layout GLkvpJGsVXVWUZtFfQnz (template 00efc51e-f6b6-411b-a0cd-3227703b1129).",
+ "provenance": "LICA dataset (LICA WORLD), CC BY 4.0, https://github.com/purvanshi/lica-dataset; converted and modified for Reflow evaluation",
+ "width": 1080,
+ "height": 1080,
+ "background": "#a04c40",
+ "groups": [],
+ "elements": [
+  {
+   "id": "image-0",
+   "type": "image",
+   "role": "background",
+   "x": 0,
+   "y": 0,
+   "width": 1080,
+   "height": 1080,
+   "assetId": "background_image_c479f1c0-025e-42ee-b405-ae8c21193fcb.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "opacity": 0.25
+  },
+  {
+   "id": "group-1",
+   "type": "rect",
+   "role": "decoration",
+   "x": 530.031,
+   "y": 461.037,
+   "width": 254.443264,
+   "height": 646.9488345330001,
+   "color": "#f8edd2"
+  },
+  {
+   "id": "group-2",
+   "type": "rect",
+   "role": "decoration",
+   "x": 365.961,
+   "y": 540,
+   "width": 113.74403664000002,
+   "height": 77.54752,
+   "color": "#dfa8a5"
+  },
+  {
+   "id": "group-3",
+   "type": "rect",
+   "role": "decoration",
+   "x": 313.635,
+   "y": 171.181,
+   "width": 218.396416,
+   "height": 400.333427193,
+   "color": "#dfa8a5"
+  },
+  {
+   "id": "group-4",
+   "type": "rect",
+   "role": "decoration",
+   "x": 313.635,
+   "y": -306.886,
+   "width": 218.396416,
+   "height": 478.06719529099996,
+   "color": "#f8edd2"
+  },
+  {
+   "id": "group-5",
+   "type": "rect",
+   "role": "decoration",
+   "x": 775.377,
+   "y": 652.175,
+   "width": 162.712064,
+   "height": 455.810516754,
+   "color": "#dfa8a5"
+  },
+  {
+   "id": "group-6",
+   "type": "rect",
+   "role": "decoration",
+   "x": 149.207,
+   "y": 652.175,
+   "width": 153.787904,
+   "height": 455.80992617,
+   "color": "#6a2c22"
+  },
+  {
+   "id": "group-7",
+   "type": "rect",
+   "role": "decoration",
+   "x": 149.207,
+   "y": 857.208,
+   "width": 153.787904,
+   "height": 427.418636596,
+   "color": "#dfa8a5"
+  },
+  {
+   "id": "image-8",
+   "type": "image",
+   "role": "content",
+   "x": 313.635,
+   "y": 88.532,
+   "width": 218.396,
+   "height": 232.028,
+   "assetId": "f3ef703a-6109-4f58-a4b3-82d98eb88e39.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "text-9",
+   "type": "text",
+   "role": "content",
+   "x": 33.2005,
+   "y": 366.96564,
+   "width": 1013.6,
+   "height": 100.943,
+   "text": "VALENTINE'S",
+   "fontFamily": "Montserrat",
+   "fontWeight": 700,
+   "fontSize": 84,
+   "lineHeight": 1,
+   "color": "#f8edd2",
+   "align": "center"
+  },
+  {
+   "id": "text-10",
+   "type": "text",
+   "role": "content",
+   "x": 33.2005,
+   "y": 361.7699,
+   "width": 507.807,
+   "height": 333.392,
+   "text": "LO",
+   "fontFamily": "Montserrat",
+   "fontWeight": 900,
+   "fontSize": 278,
+   "lineHeight": 1.3992805755395683,
+   "color": "#f8edd2",
+   "align": "right"
+  },
+  {
+   "id": "text-11",
+   "type": "text",
+   "role": "content",
+   "x": 464.199,
+   "y": 361.7699,
+   "width": 372.147,
+   "height": 333.392,
+   "text": "V",
+   "fontFamily": "Montserrat",
+   "fontWeight": 900,
+   "fontSize": 278,
+   "lineHeight": 1.3992805755395683,
+   "color": "#6a2c22",
+   "align": "center"
+  },
+  {
+   "id": "text-12",
+   "type": "text",
+   "role": "content",
+   "x": 759.545,
+   "y": 361.7699,
+   "width": 287.254,
+   "height": 333.392,
+   "text": "E",
+   "fontFamily": "Montserrat",
+   "fontWeight": 900,
+   "fontSize": 278,
+   "lineHeight": 1.3992805755395683,
+   "color": "#f8edd2",
+   "align": "left"
+  }
+ ]
+}

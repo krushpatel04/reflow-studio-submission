@@ -1,0 +1,266 @@
+.E.F...........E...........FFFFF.FFFFF.....F
+======================================================================
+ERROR: test_input_not_mutated_and_output_not_aliased (tests_python.test_contract.Identity.test_input_not_mutated_and_output_not_aliased)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 48, in test_input_not_mutated_and_output_not_aliased
+    out["elements"][0]["style_runs"][0]["color"] = "x"
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+KeyError: 'style_runs'
+
+======================================================================
+ERROR: test_text_fields_verbatim (tests_python.test_contract.Preservation.test_text_fields_verbatim)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 66, in test_text_fields_verbatim
+    self.assertEqual(out[k], TEXT[k], k)
+                     ~~~^^^
+KeyError: 'style_runs'
+
+======================================================================
+FAIL: test_same_canvas_is_identity (tests_python.test_contract.Identity.test_same_canvas_is_identity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 29, in test_same_canvas_is_identity
+    self.assertEqual(out, s)
+AssertionError: {'can[83 chars]: 100.0, 'y': 200.0, 'width': 400.0, 'height':[647 chars].0}]} != {'can[83 chars]: 100, 'y': 200, 'width': 400, 'height': 80, '[704 chars] 8}]}
+Diff is 2663 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_identity_target_is_deep_equal (tests_python.test_fields.FieldMatrix.test_identity_target_is_deep_equal) [text/base]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 105, in test_identity_target_is_deep_equal
+    self.assertEqual(resize(src(el), {"width": 1000, "height": 1000})["elements"][0], el)
+AssertionError: {'typ[26 chars]': 40.0, 'y': 60.0, 'width': 200.0, 'height': [306 chars]': 2} != {'typ[26 chars]': 40, 'y': 60, 'width': 200, 'height': 100, '[407 chars]c'}]}
+Diff is 858 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_identity_target_is_deep_equal (tests_python.test_fields.FieldMatrix.test_identity_target_is_deep_equal) [text/font_weight=bold]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 105, in test_identity_target_is_deep_equal
+    self.assertEqual(resize(src(el), {"width": 1000, "height": 1000})["elements"][0], el)
+AssertionError: {'typ[26 chars]': 40.0, 'y': 60.0, 'width': 200.0, 'height': [303 chars]': 2} != {'typ[26 chars]': 40, 'y': 60, 'width': 200, 'height': 100, '[404 chars]c'}]}
+Diff is 855 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_identity_target_is_deep_equal (tests_python.test_fields.FieldMatrix.test_identity_target_is_deep_equal) [text/font_style=italic]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 105, in test_identity_target_is_deep_equal
+    self.assertEqual(resize(src(el), {"width": 1000, "height": 1000})["elements"][0], el)
+AssertionError: {'typ[26 chars]': 40.0, 'y': 60.0, 'width': 200.0, 'height': [306 chars]': 2} != {'typ[26 chars]': 40, 'y': 60, 'width': 200, 'height': 100, '[407 chars]c'}]}
+Diff is 858 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_identity_target_is_deep_equal (tests_python.test_fields.FieldMatrix.test_identity_target_is_deep_equal) [text/text_align=center]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 105, in test_identity_target_is_deep_equal
+    self.assertEqual(resize(src(el), {"width": 1000, "height": 1000})["elements"][0], el)
+AssertionError: {'typ[26 chars]': 40.0, 'y': 60.0, 'width': 200.0, 'height': [308 chars]': 2} != {'typ[26 chars]': 40, 'y': 60, 'width': 200, 'height': 100, '[409 chars]c'}]}
+Diff is 860 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_identity_target_is_deep_equal (tests_python.test_fields.FieldMatrix.test_identity_target_is_deep_equal) [text/text_align=right]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 105, in test_identity_target_is_deep_equal
+    self.assertEqual(resize(src(el), {"width": 1000, "height": 1000})["elements"][0], el)
+AssertionError: {'typ[26 chars]': 40.0, 'y': 60.0, 'width': 200.0, 'height': [307 chars]': 2} != {'typ[26 chars]': 40, 'y': 60, 'width': 200, 'height': 100, '[408 chars]c'}]}
+Diff is 859 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_non_geometry_fields_preserved_verbatim (tests_python.test_fields.FieldMatrix.test_non_geometry_fields_preserved_verbatim) [text/base]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 87, in test_non_geometry_fields_preserved_verbatim
+    self.assertEqual(rest(out), rest(el))
+AssertionError: {'typ[280 chars]s': 2} != {'typ[280 chars]s': 2, 'style_runs': [{'start': 0, 'end': 3, '[68 chars]c'}]}
+  {'color': 'rgba(1,2,3,0.5)',
+   'content': 'Café ☕ مرحبا',
+   'font_family': 'Solstice Sans',
+   'font_style': 'normal',
+   'font_weight': 'regular',
+   'group_id': 'grp',
+   'id': 'e1',
+   'line_height': 1.4,
+   'max_lines': 2,
+   'opacity': 0.4,
+   'rotation': -12.5,
++  'style_runs': [{'color': 'rgba(5,5,5,1)',
++                  'end': 3,
++                  'font_style': 'italic',
++                  'font_weight': 'bold',
++                  'start': 0}],
+   'text_align': 'left',
+   'type': 'text',
+   'z_index': 7}
+
+======================================================================
+FAIL: test_non_geometry_fields_preserved_verbatim (tests_python.test_fields.FieldMatrix.test_non_geometry_fields_preserved_verbatim) [text/font_weight=bold]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 87, in test_non_geometry_fields_preserved_verbatim
+    self.assertEqual(rest(out), rest(el))
+AssertionError: {'typ[277 chars]s': 2} != {'typ[277 chars]s': 2, 'style_runs': [{'start': 0, 'end': 3, '[68 chars]c'}]}
+  {'color': 'rgba(1,2,3,0.5)',
+   'content': 'Café ☕ مرحبا',
+   'font_family': 'Solstice Sans',
+   'font_style': 'normal',
+   'font_weight': 'bold',
+   'group_id': 'grp',
+   'id': 'e1',
+   'line_height': 1.4,
+   'max_lines': 2,
+   'opacity': 0.4,
+   'rotation': -12.5,
++  'style_runs': [{'color': 'rgba(5,5,5,1)',
++                  'end': 3,
++                  'font_style': 'italic',
++                  'font_weight': 'bold',
++                  'start': 0}],
+   'text_align': 'left',
+   'type': 'text',
+   'z_index': 7}
+
+======================================================================
+FAIL: test_non_geometry_fields_preserved_verbatim (tests_python.test_fields.FieldMatrix.test_non_geometry_fields_preserved_verbatim) [text/font_style=italic]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 87, in test_non_geometry_fields_preserved_verbatim
+    self.assertEqual(rest(out), rest(el))
+AssertionError: {'typ[280 chars]s': 2} != {'typ[280 chars]s': 2, 'style_runs': [{'start': 0, 'end': 3, '[68 chars]c'}]}
+  {'color': 'rgba(1,2,3,0.5)',
+   'content': 'Café ☕ مرحبا',
+   'font_family': 'Solstice Sans',
+   'font_style': 'italic',
+   'font_weight': 'regular',
+   'group_id': 'grp',
+   'id': 'e1',
+   'line_height': 1.4,
+   'max_lines': 2,
+   'opacity': 0.4,
+   'rotation': -12.5,
++  'style_runs': [{'color': 'rgba(5,5,5,1)',
++                  'end': 3,
++                  'font_style': 'italic',
++                  'font_weight': 'bold',
++                  'start': 0}],
+   'text_align': 'left',
+   'type': 'text',
+   'z_index': 7}
+
+======================================================================
+FAIL: test_non_geometry_fields_preserved_verbatim (tests_python.test_fields.FieldMatrix.test_non_geometry_fields_preserved_verbatim) [text/text_align=center]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 87, in test_non_geometry_fields_preserved_verbatim
+    self.assertEqual(rest(out), rest(el))
+AssertionError: {'typ[282 chars]s': 2} != {'typ[282 chars]s': 2, 'style_runs': [{'start': 0, 'end': 3, '[68 chars]c'}]}
+  {'color': 'rgba(1,2,3,0.5)',
+   'content': 'Café ☕ مرحبا',
+   'font_family': 'Solstice Sans',
+   'font_style': 'normal',
+   'font_weight': 'regular',
+   'group_id': 'grp',
+   'id': 'e1',
+   'line_height': 1.4,
+   'max_lines': 2,
+   'opacity': 0.4,
+   'rotation': -12.5,
++  'style_runs': [{'color': 'rgba(5,5,5,1)',
++                  'end': 3,
++                  'font_style': 'italic',
++                  'font_weight': 'bold',
++                  'start': 0}],
+   'text_align': 'center',
+   'type': 'text',
+   'z_index': 7}
+
+======================================================================
+FAIL: test_non_geometry_fields_preserved_verbatim (tests_python.test_fields.FieldMatrix.test_non_geometry_fields_preserved_verbatim) [text/text_align=right]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 87, in test_non_geometry_fields_preserved_verbatim
+    self.assertEqual(rest(out), rest(el))
+AssertionError: {'typ[281 chars]s': 2} != {'typ[281 chars]s': 2, 'style_runs': [{'start': 0, 'end': 3, '[68 chars]c'}]}
+  {'color': 'rgba(1,2,3,0.5)',
+   'content': 'Café ☕ مرحبا',
+   'font_family': 'Solstice Sans',
+   'font_style': 'normal',
+   'font_weight': 'regular',
+   'group_id': 'grp',
+   'id': 'e1',
+   'line_height': 1.4,
+   'max_lines': 2,
+   'opacity': 0.4,
+   'rotation': -12.5,
++  'style_runs': [{'color': 'rgba(5,5,5,1)',
++                  'end': 3,
++                  'font_style': 'italic',
++                  'font_weight': 'bold',
++                  'start': 0}],
+   'text_align': 'right',
+   'type': 'text',
+   'z_index': 7}
+
+======================================================================
+FAIL: test_samples_per_element_invariants (tests_python.test_fields.PublicSamples.test_samples_per_element_invariants) [chameleon_sample_level2_core.json]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 187, in test_samples_per_element_invariants
+    self.assertEqual({k: v for k, v in b.items() if k not in GEOMETRIC}, {k: v for k, v in a.items() if k not in GEOMETRIC})
+AssertionError: {'id'[179 chars]nter'} != {'id'[179 chars]nter', 'style_runs': [{'start': 6, 'end': 16, [27 chars])'}]}
+  {'color': 'rgba(255,255,255,1)',
+   'content': 'Chase the Light',
+   'font_family': 'Solstice Serif',
+   'font_weight': 'bold',
+   'id': 'headline',
++  'style_runs': [{'color': 'rgba(240,178,66,1)', 'end': 16, 'start': 6}],
+   'text_align': 'center',
+   'type': 'text',
+   'z_index': 4}
+
+----------------------------------------------------------------------
+Ran 36 tests in 0.009s
+
+FAILED (failures=12, errors=2)
+........F......................FFF....
+======================================================================
+FAIL: test_font_and_scalars_scale_uniformly (tests_python.test_contract.Layout.test_font_and_scalars_scale_uniformly)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_contract.py", line 97, in test_font_and_scalars_scale_uniformly
+    self.assertAlmostEqual(o["s"]["corner_radius"], 4)
+AssertionError: 8 != 4 within 7 places (4 difference)
+
+======================================================================
+FAIL: test_only_declared_geometry_changes_and_scalars_scale_by_s (tests_python.test_fields.FieldMatrix.test_only_declared_geometry_changes_and_scalars_scale_by_s) [shape/base]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 98, in test_only_declared_geometry_changes_and_scalars_scale_by_s
+    self.assertAlmostEqual(out[k], max(1.0, el[k] * 0.5) if k == "font_size" else el[k] * 0.5, msg=k)
+AssertionError: 10 != 5.0 within 7 places (5.0 difference) : corner_radius
+
+======================================================================
+FAIL: test_only_declared_geometry_changes_and_scalars_scale_by_s (tests_python.test_fields.FieldMatrix.test_only_declared_geometry_changes_and_scalars_scale_by_s) [shape/shape_type=ellipse]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 98, in test_only_declared_geometry_changes_and_scalars_scale_by_s
+    self.assertAlmostEqual(out[k], max(1.0, el[k] * 0.5) if k == "font_size" else el[k] * 0.5, msg=k)
+AssertionError: 10 != 5.0 within 7 places (5.0 difference) : corner_radius
+
+======================================================================
+FAIL: test_only_declared_geometry_changes_and_scalars_scale_by_s (tests_python.test_fields.FieldMatrix.test_only_declared_geometry_changes_and_scalars_scale_by_s) [shape/shape_type=line]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 98, in test_only_declared_geometry_changes_and_scalars_scale_by_s
+    self.assertAlmostEqual(out[k], max(1.0, el[k] * 0.5) if k == "font_size" else el[k] * 0.5, msg=k)
+AssertionError: 10 != 5.0 within 7 places (5.0 difference) : corner_radius
+
+----------------------------------------------------------------------
+Ran 36 tests in 0.005s
+
+FAILED (failures=4)

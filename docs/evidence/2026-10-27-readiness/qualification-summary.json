@@ -1,0 +1,212 @@
+{
+  "reviewed_date": "2026-10-27",
+  "source_commit": "4da7bb45962dbe96403a8b15622e72251e064349",
+  "host": "macOS arm64, Docker Desktop Linux VM running linux/amd64; not hosted CI or Adobe reference hardware",
+  "qualification": {
+    "pass": true,
+    "failures": [],
+    "image": {
+      "id": "sha256:80a78acf1578af5f4d12a05c03377c4fc22144652d1ebf0c7673869fed00e7b4",
+      "arch": "amd64",
+      "os": "linux"
+    },
+    "controls": {
+      "renderer-absent": {
+        "ok": true,
+        "why": "probe stderr: ModuleNotFoundError: No module named 'renderer.converter'"
+      },
+      "mutated-input": {
+        "ok": true,
+        "why": "input bytes changed"
+      },
+      "zero-input": {
+        "ok": true,
+        "why": "zero input cases"
+      },
+      "write-attempt": {
+        "ok": true,
+        "why": "write to :ro input was not refused with Read-only file system"
+      }
+    },
+    "fingerprint_verify_exit": 0
+  },
+  "offline_smoke": {
+    "image": "of01-4da7bb45962d",
+    "arch": "x86_64",
+    "cases_attempted": 3,
+    "inputs_sha256_before": {
+      "chameleon_sample_level1_warmup.json": "79f889a1b0ec616b3f75de7b0d7fe4b92dcfb027e99b512a019a7aa941000ea6",
+      "chameleon_sample_level2_core.json": "c37407fa20aefb8e1c53a3476b99973000657c3c1d93fc9637e462703955a04b",
+      "chameleon_sample_level3_advanced.json": "fd99e3972c9c11c506d98897f3cb9520a5caea10b358d30e6853b9efca58cf33"
+    },
+    "inputs_sha256_after": {
+      "chameleon_sample_level1_warmup.json": "79f889a1b0ec616b3f75de7b0d7fe4b92dcfb027e99b512a019a7aa941000ea6",
+      "chameleon_sample_level2_core.json": "c37407fa20aefb8e1c53a3476b99973000657c3c1d93fc9637e462703955a04b",
+      "chameleon_sample_level3_advanced.json": "fd99e3972c9c11c506d98897f3cb9520a5caea10b358d30e6853b9efca58cf33"
+    },
+    "outputs_sha256": {
+      "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+      "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+      "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+      "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+      "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64",
+      "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475"
+    },
+    "probe": {
+      "rc": 0,
+      "net": "blocked",
+      "events": [
+        [
+          "REAL",
+          "output/chameleon_sample_level1_warmup_output.png"
+        ],
+        [
+          "REAL",
+          "output/chameleon_sample_level2_core_output.png"
+        ],
+        [
+          "REAL",
+          "output/chameleon_sample_level3_advanced_output.png"
+        ]
+      ]
+    },
+    "entrypoint_exit": 0,
+    "network_inspect": [
+      "none",
+      "none"
+    ],
+    "write_attempt": {
+      "refused": true,
+      "exit": 1,
+      "stderr_tail": "(linux/arm64/v8) and no specific platform was requested\nTraceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nOSError: [Errno 30] Read-only file system: '/app/input/.write-attempt'"
+    },
+    "repeat": {
+      "status": "identical",
+      "image_id_before": "sha256:80a78acf1578af5f4d12a05c03377c4fc22144652d1ebf0c7673869fed00e7b4",
+      "image_id_after": "sha256:80a78acf1578af5f4d12a05c03377c4fc22144652d1ebf0c7673869fed00e7b4",
+      "entrypoint_exit": 0,
+      "network_inspect": [
+        "none"
+      ],
+      "outputs_sha256_second": {
+        "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+        "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+        "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+        "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+        "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64",
+        "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475"
+      }
+    },
+    "failures": [],
+    "pass": true
+  },
+  "failure_matrix": {
+    "pass": true,
+    "failures": [],
+    "cases": {
+      "valid": {
+        "pass": true,
+        "exit": 0,
+        "state_exit": 0,
+        "timed_out": false,
+        "absent": true,
+        "failures": []
+      },
+      "malformed": {
+        "pass": true,
+        "exit": 1,
+        "state_exit": 1,
+        "timed_out": false,
+        "absent": true,
+        "failures": []
+      },
+      "unsupported": {
+        "pass": true,
+        "exit": 1,
+        "state_exit": 1,
+        "timed_out": false,
+        "absent": true,
+        "failures": []
+      },
+      "invalid-target": {
+        "pass": true,
+        "exit": 1,
+        "state_exit": 1,
+        "timed_out": false,
+        "absent": true,
+        "failures": []
+      },
+      "timeout": {
+        "pass": true,
+        "exit": -9,
+        "state_exit": 137,
+        "timed_out": true,
+        "absent": true,
+        "failures": []
+      },
+      "oom": {
+        "pass": true,
+        "exit": 0,
+        "state_exit": 0,
+        "timed_out": false,
+        "absent": true,
+        "failures": []
+      }
+    }
+  },
+  "resource_profile": {
+    "pass": true,
+    "failures": [],
+    "limitations": [
+      "Five fresh containers may use host caches; no cold-cache or percentile claim",
+      "Warm first iteration is warmup; nine steady-process repeats",
+      "RSS and cgroup peak cumulative over process lifetime, not per-iteration peaks",
+      "Entry timer excludes imports/hash/copy instrumentation; outer timer includes it",
+      "No parse/font/layout phase breakdown; no dense/extreme workload or official budget claim"
+    ]
+  },
+  "preserved_first_attempt": {
+    "source_commit": "4da7bb45962dbe96403a8b15622e72251e064349",
+    "image": {
+      "id": "sha256:9e6c69fa6245507d05255d0845b21455f55bf88a31ce9f49765e7bc18444b2b2",
+      "arch": "amd64",
+      "os": "linux"
+    },
+    "pass": false,
+    "failures": [
+      "failure matrix exit 1, timed_out False",
+      "failure matrix evidence rejected: ['timeout: timeout did not observe running parent and child']"
+    ],
+    "resolution": "One isolated unchanged-gate retry observed both readiness markers and passed termination/cleanup; no assertion or deadline was relaxed."
+  },
+  "checks": {
+    "python": {
+      "passed": 518,
+      "skipped": 0,
+      "seconds": 551.137
+    },
+    "linux_focused_python": {
+      "passed": 29,
+      "skipped": 0,
+      "seconds": 108.711
+    },
+    "node": {
+      "passed": 741,
+      "skipped": 0
+    },
+    "build": "pass",
+    "native_layouts": 30,
+    "benchmark_artifact_sets": 70,
+    "benchmark_selected_errors": 0,
+    "benchmark_selected_warnings": 8,
+    "accepted_development_tasks": 21,
+    "development_pngs_changed_since_2445e72": 0
+  },
+  "artifact_sha256": {
+    "docs/evidence/2026-10-27-readiness/banner-before-linux.png": "7cf964ebe1f183eb580ca23e52d98bbfe09ee12ddb77ea4917c5bea7f800d6f4",
+    "docs/evidence/2026-10-27-readiness/banner-after-linux.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475"
+  },
+  "scope": "Technical qualification and exposed development review only; requirements/participant answers and actual submission remain separate.",
+  "fingerprint_path": "package-fingerprint.json",
+  "fingerprint_started_clean": true
+}

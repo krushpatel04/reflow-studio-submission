@@ -1,0 +1,173 @@
+[WebServer] 
+[WebServer] > reflow-studio@0.1.0 dev
+[WebServer] > vite --host 127.0.0.1 --config tests/vite-browser.config.ts --port 4184 --strictPort
+[WebServer] 
+[WebServer] (node:75764) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer]   VITE v8.3.0  ready in 183 ms
+[WebServer] 
+[WebServer]   ➜  Local:   http://127.0.0.1:4184/
+
+Running 26 tests using 1 worker
+
+(node:75770) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 12:38:13 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:38:13 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓   1 tests/browser/acceptance.spec.ts:5:1 › real browser acceptance report is complete and all checks pass (8.8s)
+[WebServer] 12:38:22 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:38:22 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓   2 tests/browser/request-lifecycle.spec.ts:4:1 › presentation toggles reuse layouts while real copy edits recompute (801ms)
+[WebServer] 12:38:23 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:38:23 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓   3 tests/browser/request-lifecycle.spec.ts:52:1 › worker canvas matches main-thread bundled font metrics before request migration (463ms)
+[WebServer] 12:38:23 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:38:23 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓   4 tests/browser/request-lifecycle.spec.ts:97:1 › layout edits offer keyboard cancellation and preserve the committed export (729ms)
+[WebServer] 12:38:24 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:38:24 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓   5 tests/browser/request-lifecycle.spec.ts:110:1 › actual layout worker preserves supported serif and non-Latin results (591ms)
+[WebServer] 12:38:24 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:38:24 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓   6 tests/browser/request-lifecycle.spec.ts:138:1 › dense request cancellation destroys the computing worker and keeps controls responsive (7.0s)
+[WebServer] 12:38:31 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:38:31 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓   7 tests/browser/request-lifecycle.spec.ts:186:1 › worker destruction clock has an idle and busy control independent of layout (2.3s)
+[WebServer] 12:38:34 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:38:34 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓   8 tests/browser/request-lifecycle.spec.ts:208:1 › no-terminate negative control acknowledges cancel but keeps computing (3.7s)
+[WebServer] 12:38:37 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:38:37 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓   9 tests/browser/request-lifecycle.spec.ts:258:1 › healthy first and repeated requests record latency and latest revision wins (1.7s)
+[WebServer] 12:38:39 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:38:39 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓  10 tests/browser/request-lifecycle.spec.ts:282:1 › failed requests retry with the keyboard and cancelled edits revert all controls (763ms)
+[WebServer] 12:38:40 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:38:40 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓  11 tests/browser/request-lifecycle.spec.ts:308:1 › newly loaded font subsets leave a reusable committed presentation cache (585ms)
+[WebServer] 12:38:40 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:38:40 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓  12 tests/browser/request-lifecycle.spec.ts:330:1 › real worker deadline stops busy computation, retains export, and retries (12.7s)
+[WebServer] 12:38:53 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:38:53 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓  13 tests/browser/request-lifecycle.spec.ts:364:1 › HTTP-cache-cleared and repeated healthy request latencies are recorded (1.5s)
+[WebServer] 12:38:55 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:38:55 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓  14 tests/browser/svg-export.spec.ts:7:1 › actual UI download preserves glyph geometry with no app CSS or network (752ms)
+[WebServer] 12:38:55 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:38:55 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓  15 tests/browser/svg-export.spec.ts:53:1 › missing used font is visible and creates no download; available font remains a positive control (479ms)
+[WebServer] 12:38:56 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:38:56 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓  16 tests/browser/svg-export.spec.ts:76:1 › a delayed font load retains the clicked source filename and artwork (782ms)
+[WebServer] 12:38:57 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:38:57 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓  17 tests/browser/svg-export.spec.ts:156:1 › actual baseline and selected downloads retain assets and are overlay-independent (2.7s)
+[WebServer] 12:38:59 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:38:59 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓  18 tests/browser/svg-export.spec.ts:192:3 › actual offline Unicode download: Inter 400 (777ms)
+[WebServer] 12:39:00 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:39:00 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓  19 tests/browser/svg-export.spec.ts:192:3 › actual offline Unicode download: Inter 500 (696ms)
+[WebServer] 12:39:01 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:39:01 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓  20 tests/browser/svg-export.spec.ts:192:3 › actual offline Unicode download: Inter 600 (706ms)
+[WebServer] 12:39:02 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:39:02 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓  21 tests/browser/svg-export.spec.ts:192:3 › actual offline Unicode download: Inter 700 (824ms)
+[WebServer] 12:39:02 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:39:02 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓  22 tests/browser/svg-export.spec.ts:192:3 › actual offline Unicode download: Source Serif 4 600 (720ms)
+[WebServer] 12:39:03 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:39:03 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓  23 tests/browser/svg-export.spec.ts:217:1 › unsupported default glyph fails visibly and switching to supported design recovers (635ms)
+[WebServer] 12:39:04 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:39:04 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓  24 tests/browser/svg-export.spec.ts:235:3 › unavailable bytes (404) fail visibly without download (621ms)
+[WebServer] 12:39:04 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:39:04 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓  25 tests/browser/svg-export.spec.ts:235:3 › unavailable bytes (invalid-font) fail visibly without download (652ms)
+[WebServer] 12:39:05 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:39:05 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓  26 tests/browser/svg-export.spec.ts:250:1 › missing asset after preview fails visibly without download and can recover (530ms)
+
+  26 passed (54.2s)

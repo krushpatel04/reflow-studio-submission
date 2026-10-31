@@ -1,0 +1,765 @@
+{
+  "main": "d8656f4a37614d3163d65c57f5dcc808e00eb58d",
+  "artifacts": [
+    {
+      "path": "docs/plans/astra-offline-takeover-2026-10-09.md",
+      "bytes": 7963,
+      "sha256": "5adb9359fb6c6ba4f238cae26bae6268287cd3ec9c4897f490d109e077f5ba41"
+    },
+    {
+      "path": "docs/evidence/astra-offline-takeover/README.md",
+      "bytes": 5258,
+      "sha256": "7ee48bf64c016181cb74867d3fa2172ac0af49233e783e0673f1450e64ed4004"
+    },
+    {
+      "path": "docs/evidence/astra-offline-takeover/capability.json",
+      "bytes": 385,
+      "sha256": "c3be84ed527b98b07b9e6aa59196bd93836b0a794288e9aa55b5b7adb6037195"
+    },
+    {
+      "path": "docs/evidence/astra-offline-takeover/fingerprint.json",
+      "bytes": 1343,
+      "sha256": "9a31adafd3f262c62f466cf2417dea32b015b21522ed61707fc03ebbf9ea020e"
+    },
+    {
+      "path": "docs/evidence/astra-offline-takeover/github-artifacts.json",
+      "bytes": 1531,
+      "sha256": "72c5f7c072e899baae13775d2227e3d37906b389f6738a8b95c3ebfc72c6c46e"
+    },
+    {
+      "path": "docs/evidence/astra-offline-takeover/qualification.json",
+      "bytes": 4220,
+      "sha256": "48808c4e7b0c8e6d046531891f4a9a601a8b92bc5d08a1a4f0c86ea0f7ce4167"
+    },
+    {
+      "path": "docs/evidence/astra-offline-takeover/qualified-synthetic-commit.json",
+      "bytes": 2943,
+      "sha256": "dbe82e1c1a0cbefdb1bfb3717e834eb3595b7633d7b69e068b5610bded245d75"
+    },
+    {
+      "path": "docs/evidence/astra-offline-takeover/tree-comparison.json",
+      "bytes": 330,
+      "sha256": "af044480f00eda5ec9848cd3b7b127ecf3bdf27af5803ff4221f215af7e4f1cf"
+    },
+    {
+      "path": "docs/evidence/astra-offline-takeover/verification.json",
+      "bytes": 2083,
+      "sha256": "bc97448b7d83a3156afb36cd79bdcd49ad442990d9d28f9ed2b957751569d2c8"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/artifacts.json",
+      "bytes": 1531,
+      "sha256": "72c5f7c072e899baae13775d2227e3d37906b389f6738a8b95c3ebfc72c6c46e"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/capability/capability.json",
+      "bytes": 385,
+      "sha256": "c3be84ed527b98b07b9e6aa59196bd93836b0a794288e9aa55b5b7adb6037195"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/capability/info.json",
+      "bytes": 141,
+      "sha256": "cf9af05f81b94d5accda93cb3d5d1330ef6f1596e3aacaaea108e0497a516237"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/capability/info.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/capability/info.stdout",
+      "bytes": 1491,
+      "sha256": "c7ddd5f70460555454ffb855f1567a3f29ffcad3a4206dffb405817ac3a6be66"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/capability/version.json",
+      "bytes": 147,
+      "sha256": "35dc04c3d4d2e5a05d31156b5ae99520c741ebfa9141c9553bf0ba20c030ef74"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/capability/version.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/capability/version.stdout",
+      "bytes": 769,
+      "sha256": "58d5180149fd3334dbb3ff73de521946336e4052a1b769cb475f72486c934b1b"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/assemble.json",
+      "bytes": 312,
+      "sha256": "51e36ae97f6b215180b5e758348b1e3a3fb3146bb366adb311061498f51d7dda"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/assemble.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/assemble.stdout",
+      "bytes": 137,
+      "sha256": "7284700c34ab8ddbb230fea5b5d73dd6bbceed6b86717d12efe7149ed47b4730"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/build-norenderer.json",
+      "bytes": 302,
+      "sha256": "0e76a5e1d82f7134cb57c7b524bb517072d120d4da6a4e3bff83e45538929ed5"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/build-norenderer.stderr",
+      "bytes": 1908,
+      "sha256": "ca9d240b9f9895fa5c3b4cdc4f84215342672b3b7eea5dbc703254cee6b1b96f"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/build-norenderer.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/build.json",
+      "bytes": 279,
+      "sha256": "57a7a15ab1af4799f1c4b4212850ff7dc6671d48db70575de8ff18d43e2991cc"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/build.stderr",
+      "bytes": 61999,
+      "sha256": "fc52f65630fc8048d3d5fce7255e378a8e696c443ab3d763704617187a36a7e4"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/build.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/fingerprint-verify.json",
+      "bytes": 369,
+      "sha256": "5499910b175d26eb97a81e560f3c2bed0fe68a189746d714414a25cbbf0ed408"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/fingerprint-verify.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/fingerprint-verify.stdout",
+      "bytes": 3,
+      "sha256": "a12b7cb43c9d9134b5bb1b35e9096b66775d9e92e7611d1cc92b02edd6782a87"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/fingerprint-write.json",
+      "bytes": 367,
+      "sha256": "9885eaa7378b5111c573006039ebef7b361286dc17f22952a4953f31e6db7fa4"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/fingerprint-write.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/fingerprint-write.stdout",
+      "bytes": 43,
+      "sha256": "70450278172fdf2318491271cf2b6ac2bee843f3b282ccdb70d7c5c4fd71a68c"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/fingerprint.json",
+      "bytes": 1343,
+      "sha256": "9a31adafd3f262c62f466cf2417dea32b015b21522ed61707fc03ebbf9ea020e"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/git-head.json",
+      "bytes": 222,
+      "sha256": "2a6dd6e86fe5233d1529b9a82eb0009e84c4cbfa2566cf0352e4983200943339"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/git-head.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/git-head.stdout",
+      "bytes": 41,
+      "sha256": "654a6d8ca0997037b5fd5f27ef4d42405950e9da7087f9efd9fc3206c3bf9fac"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/git-status.json",
+      "bytes": 228,
+      "sha256": "b30ae90469dd8fcbbc4b4e6b1fb361281c00715b4a59abe1e534e55e3ac54064"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/git-status.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/git-status.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/image-inspect.json",
+      "bytes": 248,
+      "sha256": "0b29cec8723643b40fee611cee8eb6a106cc5fb484e87037214003a1b8283bd0"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/image-inspect.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/image-inspect.stdout",
+      "bytes": 84,
+      "sha256": "9a14dd140f13809a94aae144ea23d029563d620b9fa48ac70344a7faf9372230"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/qualification.json",
+      "bytes": 4220,
+      "sha256": "48808c4e7b0c8e6d046531891f4a9a601a8b92bc5d08a1a4f0c86ea0f7ce4167"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/rmi-of01-f0150ac5010e-norenderer.json",
+      "bytes": 215,
+      "sha256": "5f75f6516846d17fdfe95457b4ab862283def8cd87bf6c42a82d43878b3e9a00"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/rmi-of01-f0150ac5010e-norenderer.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/rmi-of01-f0150ac5010e-norenderer.stdout",
+      "bytes": 127,
+      "sha256": "87db79726165284019503a296a43ef63a95db7b5a8fd9ff0e48d32188e020d89"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/rmi-of01-f0150ac5010e.json",
+      "bytes": 193,
+      "sha256": "9c8f7edd746e482392de82986e16e6dfd47cbae50c3d9515abcd579f48456063"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/rmi-of01-f0150ac5010e.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/rmi-of01-f0150ac5010e.stdout",
+      "bytes": 116,
+      "sha256": "7852437cc7c202e6afb602464c4020ebf0ab9e3dd5507c0c83d8757fd0e6f7e6"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main/case-ledger.json",
+      "bytes": 3295,
+      "sha256": "774d57c33db0a15eaa3d2ffe1a11371d2a043be842fb6e7c27857e5b04675bcc"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main/out-entrypoint/chameleon_sample_level1_warmup_output.json",
+      "bytes": 1226,
+      "sha256": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main/out-entrypoint/chameleon_sample_level1_warmup_output.png",
+      "bytes": 112232,
+      "sha256": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main/out-entrypoint/chameleon_sample_level2_core_output.json",
+      "bytes": 4095,
+      "sha256": "b31edc4e04c91f01f1395b6693d3f9f9f5a89bd4e45713abd7831f3d8e3f34cd"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main/out-entrypoint/chameleon_sample_level2_core_output.png",
+      "bytes": 68877,
+      "sha256": "5d36066283eabea41af914e2199992fe0f8cfd5c982ead622adad5d439b2e218"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main/out-entrypoint/chameleon_sample_level3_advanced_output.json",
+      "bytes": 6406,
+      "sha256": "f4f9c3a4e733b307294493d027b627a83c7c9265bdc0b74ceb28504bb9be789c"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main/out-entrypoint/chameleon_sample_level3_advanced_output.png",
+      "bytes": 31800,
+      "sha256": "72f1745050c75a74e2a4b9c89cd792bb02841cf148f1c12b270cd772d9d33e11"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main/out-probe/chameleon_sample_level1_warmup_output.json",
+      "bytes": 1226,
+      "sha256": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main/out-probe/chameleon_sample_level1_warmup_output.png",
+      "bytes": 112232,
+      "sha256": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main/out-probe/chameleon_sample_level2_core_output.json",
+      "bytes": 4095,
+      "sha256": "b31edc4e04c91f01f1395b6693d3f9f9f5a89bd4e45713abd7831f3d8e3f34cd"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main/out-probe/chameleon_sample_level2_core_output.png",
+      "bytes": 68877,
+      "sha256": "5d36066283eabea41af914e2199992fe0f8cfd5c982ead622adad5d439b2e218"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main/out-probe/chameleon_sample_level3_advanced_output.json",
+      "bytes": 6406,
+      "sha256": "f4f9c3a4e733b307294493d027b627a83c7c9265bdc0b74ceb28504bb9be789c"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main/out-probe/chameleon_sample_level3_advanced_output.png",
+      "bytes": 31800,
+      "sha256": "72f1745050c75a74e2a4b9c89cd792bb02841cf148f1c12b270cd772d9d33e11"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main/out-repeat/chameleon_sample_level1_warmup_output.json",
+      "bytes": 1226,
+      "sha256": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main/out-repeat/chameleon_sample_level1_warmup_output.png",
+      "bytes": 112232,
+      "sha256": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main/out-repeat/chameleon_sample_level2_core_output.json",
+      "bytes": 4095,
+      "sha256": "b31edc4e04c91f01f1395b6693d3f9f9f5a89bd4e45713abd7831f3d8e3f34cd"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main/out-repeat/chameleon_sample_level2_core_output.png",
+      "bytes": 68877,
+      "sha256": "5d36066283eabea41af914e2199992fe0f8cfd5c982ead622adad5d439b2e218"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main/out-repeat/chameleon_sample_level3_advanced_output.json",
+      "bytes": 6406,
+      "sha256": "f4f9c3a4e733b307294493d027b627a83c7c9265bdc0b74ceb28504bb9be789c"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main/out-repeat/chameleon_sample_level3_advanced_output.png",
+      "bytes": 31800,
+      "sha256": "72f1745050c75a74e2a4b9c89cd792bb02841cf148f1c12b270cd772d9d33e11"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main/run.log",
+      "bytes": 1491,
+      "sha256": "613ca10568b2ad31e5986ddc19beea4806c36321313a8d70f0d6ade0da244591"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main/tmp2i8pvac3.py",
+      "bytes": 602,
+      "sha256": "d7d07cfc2c3dd09a6da6d70ba6ab26e8965dd150ff191aa6ad1ee68817a8aec7"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main.json",
+      "bytes": 465,
+      "sha256": "dd13d65a5f7868ba3b1e96b63c26785e5e66b121b1b4d53d82c95d5cb0e5d874"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-main.stdout",
+      "bytes": 5,
+      "sha256": "c26de83abdc9496cd1301470918ec39ecca1cf389ef0ae1c6504da1800d1c431"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input/case-ledger.json",
+      "bytes": 3325,
+      "sha256": "1d36f6a7852210ee673d50001adeea49fcf13e2a6c07f36c0ac23ba4817a3456"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input/out-entrypoint/chameleon_sample_level1_warmup_output.json",
+      "bytes": 1226,
+      "sha256": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input/out-entrypoint/chameleon_sample_level1_warmup_output.png",
+      "bytes": 112232,
+      "sha256": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input/out-entrypoint/chameleon_sample_level2_core_output.json",
+      "bytes": 4095,
+      "sha256": "b31edc4e04c91f01f1395b6693d3f9f9f5a89bd4e45713abd7831f3d8e3f34cd"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input/out-entrypoint/chameleon_sample_level2_core_output.png",
+      "bytes": 68877,
+      "sha256": "5d36066283eabea41af914e2199992fe0f8cfd5c982ead622adad5d439b2e218"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input/out-entrypoint/chameleon_sample_level3_advanced_output.json",
+      "bytes": 6406,
+      "sha256": "f4f9c3a4e733b307294493d027b627a83c7c9265bdc0b74ceb28504bb9be789c"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input/out-entrypoint/chameleon_sample_level3_advanced_output.png",
+      "bytes": 31800,
+      "sha256": "72f1745050c75a74e2a4b9c89cd792bb02841cf148f1c12b270cd772d9d33e11"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input/out-probe/chameleon_sample_level1_warmup_output.json",
+      "bytes": 1226,
+      "sha256": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input/out-probe/chameleon_sample_level1_warmup_output.png",
+      "bytes": 112232,
+      "sha256": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input/out-probe/chameleon_sample_level2_core_output.json",
+      "bytes": 4095,
+      "sha256": "b31edc4e04c91f01f1395b6693d3f9f9f5a89bd4e45713abd7831f3d8e3f34cd"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input/out-probe/chameleon_sample_level2_core_output.png",
+      "bytes": 68877,
+      "sha256": "5d36066283eabea41af914e2199992fe0f8cfd5c982ead622adad5d439b2e218"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input/out-probe/chameleon_sample_level3_advanced_output.json",
+      "bytes": 6406,
+      "sha256": "f4f9c3a4e733b307294493d027b627a83c7c9265bdc0b74ceb28504bb9be789c"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input/out-probe/chameleon_sample_level3_advanced_output.png",
+      "bytes": 31800,
+      "sha256": "72f1745050c75a74e2a4b9c89cd792bb02841cf148f1c12b270cd772d9d33e11"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input/out-repeat/chameleon_sample_level1_warmup_output.json",
+      "bytes": 1226,
+      "sha256": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input/out-repeat/chameleon_sample_level1_warmup_output.png",
+      "bytes": 112232,
+      "sha256": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input/out-repeat/chameleon_sample_level2_core_output.json",
+      "bytes": 4095,
+      "sha256": "b31edc4e04c91f01f1395b6693d3f9f9f5a89bd4e45713abd7831f3d8e3f34cd"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input/out-repeat/chameleon_sample_level2_core_output.png",
+      "bytes": 68877,
+      "sha256": "5d36066283eabea41af914e2199992fe0f8cfd5c982ead622adad5d439b2e218"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input/out-repeat/chameleon_sample_level3_advanced_output.json",
+      "bytes": 6406,
+      "sha256": "f4f9c3a4e733b307294493d027b627a83c7c9265bdc0b74ceb28504bb9be789c"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input/out-repeat/chameleon_sample_level3_advanced_output.png",
+      "bytes": 31800,
+      "sha256": "72f1745050c75a74e2a4b9c89cd792bb02841cf148f1c12b270cd772d9d33e11"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input/run.log",
+      "bytes": 1491,
+      "sha256": "af6a2c1c10af0c18f5664c2ac4d4cecf4f609fe793526305a6c53fa0fb2fdc7a"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input/tmpdf0qk2fj.py",
+      "bytes": 602,
+      "sha256": "d7d07cfc2c3dd09a6da6d70ba6ab26e8965dd150ff191aa6ad1ee68817a8aec7"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input.json",
+      "bytes": 515,
+      "sha256": "339bdcf838ee373afe84540c9984b5f960802214bf732fb7ad8d0ec2e4656594"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-mutated-input.stdout",
+      "bytes": 26,
+      "sha256": "1b63af309d7226c5996fb0eb9c14c96dc5122783c1966bf902e02461e7039da5"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-renderer-absent/case-ledger.json",
+      "bytes": 3121,
+      "sha256": "46672a0f9db424f334b16c19273121fce259b9c9448b56132b39686485267b9a"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-renderer-absent/out-entrypoint/chameleon_sample_level1_warmup_output.json",
+      "bytes": 1226,
+      "sha256": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-renderer-absent/out-entrypoint/chameleon_sample_level1_warmup_output.png",
+      "bytes": 9116,
+      "sha256": "485c53fd164b81b878de5a3ff83a7602d7f77a1a3bcc8a3080ec2a6761c0815a"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-renderer-absent/out-entrypoint/chameleon_sample_level2_core_output.json",
+      "bytes": 4095,
+      "sha256": "b31edc4e04c91f01f1395b6693d3f9f9f5a89bd4e45713abd7831f3d8e3f34cd"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-renderer-absent/out-entrypoint/chameleon_sample_level2_core_output.png",
+      "bytes": 8985,
+      "sha256": "24138c8c87ff9eb2e20bb7397f7fb9b38be8ff642ae5d7a536f067c55fb3355f"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-renderer-absent/out-entrypoint/chameleon_sample_level3_advanced_output.json",
+      "bytes": 6406,
+      "sha256": "f4f9c3a4e733b307294493d027b627a83c7c9265bdc0b74ceb28504bb9be789c"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-renderer-absent/out-entrypoint/chameleon_sample_level3_advanced_output.png",
+      "bytes": 5347,
+      "sha256": "0fc1b0d448820c1f97bbb973c909971ff29a141330bdb3078522f1b7f18306e4"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-renderer-absent/out-repeat/chameleon_sample_level1_warmup_output.json",
+      "bytes": 1226,
+      "sha256": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-renderer-absent/out-repeat/chameleon_sample_level1_warmup_output.png",
+      "bytes": 9116,
+      "sha256": "485c53fd164b81b878de5a3ff83a7602d7f77a1a3bcc8a3080ec2a6761c0815a"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-renderer-absent/out-repeat/chameleon_sample_level2_core_output.json",
+      "bytes": 4095,
+      "sha256": "b31edc4e04c91f01f1395b6693d3f9f9f5a89bd4e45713abd7831f3d8e3f34cd"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-renderer-absent/out-repeat/chameleon_sample_level2_core_output.png",
+      "bytes": 8985,
+      "sha256": "24138c8c87ff9eb2e20bb7397f7fb9b38be8ff642ae5d7a536f067c55fb3355f"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-renderer-absent/out-repeat/chameleon_sample_level3_advanced_output.json",
+      "bytes": 6406,
+      "sha256": "f4f9c3a4e733b307294493d027b627a83c7c9265bdc0b74ceb28504bb9be789c"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-renderer-absent/out-repeat/chameleon_sample_level3_advanced_output.png",
+      "bytes": 5347,
+      "sha256": "0fc1b0d448820c1f97bbb973c909971ff29a141330bdb3078522f1b7f18306e4"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-renderer-absent/run.log",
+      "bytes": 708,
+      "sha256": "3e2e2b02025177fe20e35c815bd69484959389eaefe6b07f42d2e87bc1dae37d"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-renderer-absent/tmp27xq5r8a.py",
+      "bytes": 602,
+      "sha256": "d7d07cfc2c3dd09a6da6d70ba6ab26e8965dd150ff191aa6ad1ee68817a8aec7"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-renderer-absent.json",
+      "bytes": 500,
+      "sha256": "c1b57275352ac9188ab6012bcdb6c00ad1bbcc5eebdd0c04d023d5ac8377555b"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-renderer-absent.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-renderer-absent.stdout",
+      "bytes": 132,
+      "sha256": "3722cc88ca8086aad877292141b12cf19ce71be50b721952e05558630702ae3f"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/case-ledger.json",
+      "bytes": 3220,
+      "sha256": "85894636abb877d8d82e8abbcb91967696b92a4998ec5e5ba6ab70c706c0c3de"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/out-entrypoint/chameleon_sample_level1_warmup_output.json",
+      "bytes": 1226,
+      "sha256": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/out-entrypoint/chameleon_sample_level1_warmup_output.png",
+      "bytes": 112232,
+      "sha256": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/out-entrypoint/chameleon_sample_level2_core_output.json",
+      "bytes": 4095,
+      "sha256": "b31edc4e04c91f01f1395b6693d3f9f9f5a89bd4e45713abd7831f3d8e3f34cd"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/out-entrypoint/chameleon_sample_level2_core_output.png",
+      "bytes": 68877,
+      "sha256": "5d36066283eabea41af914e2199992fe0f8cfd5c982ead622adad5d439b2e218"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/out-entrypoint/chameleon_sample_level3_advanced_output.json",
+      "bytes": 6406,
+      "sha256": "f4f9c3a4e733b307294493d027b627a83c7c9265bdc0b74ceb28504bb9be789c"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/out-entrypoint/chameleon_sample_level3_advanced_output.png",
+      "bytes": 31800,
+      "sha256": "72f1745050c75a74e2a4b9c89cd792bb02841cf148f1c12b270cd772d9d33e11"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/out-probe/chameleon_sample_level1_warmup_output.json",
+      "bytes": 1226,
+      "sha256": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/out-probe/chameleon_sample_level1_warmup_output.png",
+      "bytes": 112232,
+      "sha256": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/out-probe/chameleon_sample_level2_core_output.json",
+      "bytes": 4095,
+      "sha256": "b31edc4e04c91f01f1395b6693d3f9f9f5a89bd4e45713abd7831f3d8e3f34cd"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/out-probe/chameleon_sample_level2_core_output.png",
+      "bytes": 68877,
+      "sha256": "5d36066283eabea41af914e2199992fe0f8cfd5c982ead622adad5d439b2e218"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/out-probe/chameleon_sample_level3_advanced_output.json",
+      "bytes": 6406,
+      "sha256": "f4f9c3a4e733b307294493d027b627a83c7c9265bdc0b74ceb28504bb9be789c"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/out-probe/chameleon_sample_level3_advanced_output.png",
+      "bytes": 31800,
+      "sha256": "72f1745050c75a74e2a4b9c89cd792bb02841cf148f1c12b270cd772d9d33e11"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/out-repeat/chameleon_sample_level1_warmup_output.json",
+      "bytes": 1226,
+      "sha256": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/out-repeat/chameleon_sample_level1_warmup_output.png",
+      "bytes": 112232,
+      "sha256": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/out-repeat/chameleon_sample_level2_core_output.json",
+      "bytes": 4095,
+      "sha256": "b31edc4e04c91f01f1395b6693d3f9f9f5a89bd4e45713abd7831f3d8e3f34cd"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/out-repeat/chameleon_sample_level2_core_output.png",
+      "bytes": 68877,
+      "sha256": "5d36066283eabea41af914e2199992fe0f8cfd5c982ead622adad5d439b2e218"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/out-repeat/chameleon_sample_level3_advanced_output.json",
+      "bytes": 6406,
+      "sha256": "f4f9c3a4e733b307294493d027b627a83c7c9265bdc0b74ceb28504bb9be789c"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/out-repeat/chameleon_sample_level3_advanced_output.png",
+      "bytes": 31800,
+      "sha256": "72f1745050c75a74e2a4b9c89cd792bb02841cf148f1c12b270cd772d9d33e11"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/run.log",
+      "bytes": 1491,
+      "sha256": "613ca10568b2ad31e5986ddc19beea4806c36321313a8d70f0d6ade0da244591"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/rw-input-copy/chameleon_sample_level1_warmup.json",
+      "bytes": 1243,
+      "sha256": "cf0eb343440c092e99aa20a3653a642374c14237183bbf74ea96912896ec3833"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/rw-input-copy/chameleon_sample_level2_core.json",
+      "bytes": 3244,
+      "sha256": "c37407fa20aefb8e1c53a3476b99973000657c3c1d93fc9637e462703955a04b"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/rw-input-copy/chameleon_sample_level3_advanced.json",
+      "bytes": 5449,
+      "sha256": "fd99e3972c9c11c506d98897f3cb9520a5caea10b358d30e6853b9efca58cf33"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt/tmpkmdoxv4a.py",
+      "bytes": 602,
+      "sha256": "d7d07cfc2c3dd09a6da6d70ba6ab26e8965dd150ff191aa6ad1ee68817a8aec7"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt.json",
+      "bytes": 510,
+      "sha256": "7615ffbf243c95bbcebfef4ef5e7d6d9a78c7a6f5e9cbc889114c79db77d1b0c"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-write-attempt.stdout",
+      "bytes": 68,
+      "sha256": "22c80135319a39dd3f67f15939ec45b480a4b8d203f775eb642fbee80879278b"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-zero-input/case-ledger.json",
+      "bytes": 1102,
+      "sha256": "0cbf10475af00d4518c4a6a05dec9646580e6c704a802a13853801c5bf5167a9"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-zero-input/run.log",
+      "bytes": 141,
+      "sha256": "37ba817d8bfce399837c38cfc88dadd3ea73f683d484ed4b54dacd3bceedca91"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-zero-input/tmp5opfsa7f.py",
+      "bytes": 602,
+      "sha256": "d7d07cfc2c3dd09a6da6d70ba6ab26e8965dd150ff191aa6ad1ee68817a8aec7"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-zero-input.json",
+      "bytes": 479,
+      "sha256": "03caaa3800b6fc7cc0fb2273c0d2e83888d2a2760eb068a96b584217f2968173"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-zero-input.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/image/smoke-zero-input.stdout",
+      "bytes": 147,
+      "sha256": "d93d7cf38ca5a768bafb17111869c99be6686a2a8389970d37a698d2072ac54a"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/pr120.json",
+      "bytes": 1746,
+      "sha256": "9a06b7d22dff088d5fc30957b5ae1d89bbab45e5dd7c4e209b34945a3919d006"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/qualified-synthetic-commit.json",
+      "bytes": 2943,
+      "sha256": "dbe82e1c1a0cbefdb1bfb3717e834eb3595b7633d7b69e068b5610bded245d75"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/run37988945072.json",
+      "bytes": 183,
+      "sha256": "e0db20f2af3fcfce31279435c0fd80d2022c1549bdf530fdbaf231bf4d7d19ae"
+    },
+    {
+      "path": "reports/astra-offline-takeover/final/tree-comparison.json",
+      "bytes": 330,
+      "sha256": "af044480f00eda5ec9848cd3b7b127ecf3bdf27af5803ff4221f215af7e4f1cf"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+skip-sha-verify: KILLED (1 tests)
+weight-600-to-800: KILLED (2 tests)
+distinct-bytes-silently-first: KILLED (2 tests)
+identical-sha-dup-ambiguous: KILLED (1 tests)
+no-reset-on-exit: KILLED (2 tests)
+reset-only-on-success: KILLED (1 tests)
+cache-not-cleared: SURVIVED
+cache-not-cleared-on-exit: SURVIVED
+last-word-weight-skipped-resolve: KILLED (1 tests)
+italic-rule-inverted: KILLED (8 tests)
+bold-ignored-in-resolve: KILLED (2 tests)
+family-normalize-skipped: KILLED (1 tests)
+absent-not-warned: KILLED (3 tests)
+unmeasured-ignored-in-texts: KILLED (3 tests)
+cache-never-cleared: SURVIVED
+cache-never-cleared-both: KILLED (2 tests)
+restored
+done

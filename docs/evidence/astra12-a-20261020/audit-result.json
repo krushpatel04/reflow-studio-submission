@@ -1,0 +1,20 @@
+{
+  "audit_host": "macOS-15.4-arm64-arm-64bit",
+  "manifest_files": 22,
+  "results": {
+    "linux": {
+      "rows": 50,
+      "verified_2x_views": 50,
+      "fractional_integer_controls": 20,
+      "archive_sha256": "dfaea3db263ace5fd1e2218159059a77fbca177db42f69074b482ed6ebf93203"
+    },
+    "macos": {
+      "rows": 50,
+      "verified_2x_views": 50,
+      "fractional_integer_controls": 20,
+      "archive_sha256": "7f208c398197d014927a9bbf42a3023660466208eb40340a8be97f378556450e"
+    }
+  },
+  "fresh_renders": 0,
+  "human_verdict": null
+}

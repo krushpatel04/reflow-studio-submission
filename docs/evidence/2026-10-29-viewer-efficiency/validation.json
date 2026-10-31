@@ -1,0 +1,57 @@
+{
+  "baseline": "f14d8312e1206a030593f4115062b78b78efb9fc",
+  "source_sha256": {
+    "src/layout-worker.ts": "c9ab36c12d79f3ce506ed1b4287b0184c666ae50f7a5445753355ea4402180c0",
+    "src/main.ts": "ddf0eaa9a77a3ddd453050ad85884ec747381768954e9103d4f4a49c8c6c70a9",
+    "src/style.css": "b96c89c813291c1091e4f07bf5a9508947213937d86b1a3141f4359853680a28",
+    "src/svg-export.ts": "0ca644aefd25c097b307d8f92ce8fe84120ac33a89c7398eaf3def2891e7f5ed",
+    "src/typography.ts": "5f0d597efc4fb1fc7c07e80f5832b69f392cde82d0fd1226972bbac69e3620eb"
+  },
+  "node": {
+    "passed": 744,
+    "skipped": 0
+  },
+  "build": "pass; existing main-bundle size warning retained",
+  "native_verify": 30,
+  "benchmark": {
+    "cases": 30,
+    "selected_errors": 0,
+    "warnings": 8,
+    "artifact_sets": 70
+  },
+  "browser": {
+    "passed": 34,
+    "verify_page_checks": 20,
+    "final_narrow_followup": 4,
+    "narrow_width": 320
+  },
+  "production_browser": {
+    "built": true,
+    "external_network_blocked": true,
+    "local_http_server_required": true,
+    "local_server_disconnect": {
+      "failure_visible": true,
+      "retained_headline": "Designafter dark.",
+      "retry_recovered": true
+    },
+    "edit": true,
+    "inspection": true,
+    "actual_size": true,
+    "escape_focus": true,
+    "export": "after-dark-reflow.json",
+    "export_copy_preserved": true,
+    "page_errors": [],
+    "external_requests": []
+  },
+  "adversarial_review": {
+    "reviewer": "Astra",
+    "status": "pass",
+    "scope": "font subset semantics, fallback/reference metrics, inspector interaction, desktop/mobile screenshots, live mobile 200% navigation, keyboard focus and overflow",
+    "human_acceptance": false
+  },
+  "limits": [
+    "Chromium only",
+    "timing varies with host load; font counts and output hashes are the stable oracle",
+    "Python runtime qualification is separate"
+  ]
+}

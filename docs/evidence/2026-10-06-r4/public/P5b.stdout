@@ -1,0 +1,16 @@
+engine.resize.__file__ = /tmp/tmp.8R1lUQROUM/engine/resize.py
+[chameleon_sample_level1_warmup.json] OK in 0.00s -> chameleon_sample_level1_warmup_output.json, chameleon_sample_level1_warmup_output.png
+[chameleon_sample_level2_core.json] 1 self-check warning(s) in 0.00s -> chameleon_sample_level2_core_output.json, chameleon_sample_level2_core_output.png
+    - element 'deco_circle_1' is off-canvas (1600x400)
+[chameleon_sample_level3_advanced.json] OK in 0.12s -> chameleon_sample_level3_advanced_output.json, chameleon_sample_level3_advanced_output.png
+exit 0
+events [["REAL", "/tmp/tmp.8R1lUQROUM/renderer/converter/convert.py", "/home/nala/.local/share/reflow-runtime/chameleon-venv311/lib/python3.11/site-packages/cr_renderer/__init__.py", "output/chameleon_sample_level1_warmup_output.png"], ["REAL", "/tmp/tmp.8R1lUQROUM/renderer/converter/convert.py", "/home/nala/.local/share/reflow-runtime/chameleon-venv311/lib/python3.11/site-packages/cr_renderer/__init__.py", "output/chameleon_sample_level2_core_output.png"], ["REAL", "/tmp/tmp.8R1lUQROUM/renderer/converter/convert.py", "/home/nala/.local/share/reflow-runtime/chameleon-venv311/lib/python3.11/site-packages/cr_renderer/__init__.py", "output/chameleon_sample_level3_advanced_output.png"]]
+PROOF real renderer x3, 0 fallback
+total 228
+-rw-rw-r-- 1 nala nala   1226 Oct  6 16:04 chameleon_sample_level1_warmup_output.json
+-rw-rw-r-- 1 nala nala 112232 Oct  6 16:04 chameleon_sample_level1_warmup_output.png
+-rw-rw-r-- 1 nala nala   4181 Oct  6 16:04 chameleon_sample_level2_core_output.json
+-rw-rw-r-- 1 nala nala  53516 Oct  6 16:04 chameleon_sample_level2_core_output.png
+-rw-rw-r-- 1 nala nala   6495 Oct  6 16:04 chameleon_sample_level3_advanced_output.json
+-rw-rw-r-- 1 nala nala  33168 Oct  6 16:04 chameleon_sample_level3_advanced_output.png
+-rw-rw-r-- 1 nala nala   1289 Oct  6 16:04 run.log

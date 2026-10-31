@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "tint-over-text",
+  "name": "tint-over-text",
+  "description": "Defect-control case",
+  "provenance": "synthetic",
+  "width": 1080,
+  "height": 1920,
+  "background": "#ffffff",
+  "groups": [],
+  "elements": [
+    {
+      "id": "headline",
+      "type": "text",
+      "role": "content",
+      "x": 108,
+      "y": 528,
+      "width": 864,
+      "height": 129.60000000000002,
+      "text": "A clear headline here",
+      "fontFamily": "Inter",
+      "fontSize": 69.12,
+      "fontWeight": 700,
+      "lineHeight": 1.1,
+      "color": "#111111"
+    },
+    {
+      "id": "tint",
+      "type": "rect",
+      "role": "decoration",
+      "x": 108,
+      "y": 528,
+      "width": 864,
+      "height": 129.60000000000002,
+      "color": "#00000033"
+    }
+  ]
+}

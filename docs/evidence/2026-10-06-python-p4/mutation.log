@@ -1,0 +1,24 @@
+== M1: ignore group_id in bleed rule
+111c111
+<     return kind and not e.get("group_id") and e["x"] <= 0 and e["y"] <= 0 \
+---
+>     return kind and e["x"] <= 0 and e["y"] <= 0 \
+FAIL: test_grouped_full_canvas_shape_is_not_stretched (tests_python.test_layout.Groups.test_grouped_full_canvas_shape_is_not_stretched)
+Ran 14 tests in 0.002s
+FAILED (failures=1)
+== M2: drop non-finite scaled-geometry check
+131c131
+<             if k in e and not _num(e[k]):  # scaling overflowed to inf; off-canvas placement is legal and not checked
+---
+>             if False and k in e and not _num(e[k]):  # scaling overflowed to inf; off-canvas placement is legal and not checked
+FAIL: test_overflowing_geometry_raises_naming_id (tests_python.test_layout.Impossible.test_overflowing_geometry_raises_naming_id)
+Ran 14 tests in 0.002s
+FAILED (failures=1)
+== M3: bleed also stretches contain images (aspect)
+110c110
+<     kind = (e.get("type") == "image" and e.get("fit") == "cover") or (e.get("type") == "shape" and e.get("shape_type") == "rectangle")
+---
+>     kind = (e.get("type") == "image") or (e.get("type") == "shape" and e.get("shape_type") == "rectangle")
+FAIL: test_contain_image_covering_canvas_is_not_stretched (tests_python.test_layout.Aspect.test_contain_image_covering_canvas_is_not_stretched)
+Ran 14 tests in 0.002s
+FAILED (failures=1)

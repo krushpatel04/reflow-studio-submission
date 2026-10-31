@@ -1,0 +1,26 @@
+✔ reuses all metrics for empty, ordinary and Unicode queries without conflating elements (1.966667ms)
+✔ retained and returned metrics cannot be mutated through callback or caller aliases (0.133791ms)
+✔ entry capacity includes empty strings and evicts old queries across element contexts (0.144417ms)
+✔ query text ceiling counts UTF-16 units and bypasses oversized entries without flushing useful data (0.1085ms)
+✔ zero capacity disables caching: {"entries":0,"codeUnits":100} (0.101458ms)
+✔ zero capacity disables caching: {"entries":10,"codeUnits":0} (0.058417ms)
+✔ invalid capacity rejected: -1 (0.4145ms)
+✔ invalid capacity rejected: 0.5 (0.086083ms)
+✔ invalid capacity rejected: NaN (0.091875ms)
+✔ invalid capacity rejected: Infinity (0.139208ms)
+✔ invalid capacity rejected: 9007199254740992 (0.088708ms)
+✔ measurement exceptions propagate and are not cached (0.130875ms)
+✔ nonfinite or negative metrics pass through without poisoning later measurements (0.265666ms)
+✔ reflow avoids redundant calls to the font measurer during repeated-copy fitting (7.142458ms)
+✔ each invocation measures fresh font state, preserves content and leaves inputs unchanged (8.228541ms)
+✔ malformed or unresolved input is still rejected before font measurement (0.678333ms)
+✔ equivalent stack/split arrangements are measured once and returned as independent candidates (0.799917ms)
+✔ mixed image/text units retain a genuinely different split candidate (2.729041ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 302.585958

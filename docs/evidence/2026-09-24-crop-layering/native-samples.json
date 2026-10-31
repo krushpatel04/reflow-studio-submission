@@ -1,0 +1,219 @@
+{
+  "schemaVersion": "reflow.crop-parity.v1",
+  "generatedAt": "2026-09-24T05:01:33.082Z",
+  "probes": [
+    {
+      "id": "cover-tall-edge-subject",
+      "samples": [
+        {
+          "label": "figure head (950, 390)",
+          "x": 166,
+          "y": 196,
+          "expected": "#1a2b30",
+          "native": [
+            26,
+            43,
+            48
+          ]
+        },
+        {
+          "label": "figure body (950, 580)",
+          "x": 166,
+          "y": 268,
+          "expected": "#1a2b30",
+          "native": [
+            26,
+            43,
+            48
+          ]
+        },
+        {
+          "label": "sun (980, 210)",
+          "x": 177,
+          "y": 129,
+          "expected": "#f7b27f",
+          "native": [
+            247,
+            178,
+            127
+          ]
+        },
+        {
+          "label": "sky (800, 100)",
+          "x": 110,
+          "y": 88,
+          "expected": "#d4dcf1",
+          "native": [
+            212,
+            220,
+            241
+          ]
+        },
+        {
+          "label": "outside left",
+          "x": 96,
+          "y": 200,
+          "expected": "#ff0000",
+          "native": [
+            255,
+            0,
+            0
+          ]
+        },
+        {
+          "label": "outside right",
+          "x": 204,
+          "y": 200,
+          "expected": "#ff0000",
+          "native": [
+            255,
+            0,
+            0
+          ]
+        },
+        {
+          "label": "outside above",
+          "x": 150,
+          "y": 46,
+          "expected": "#ff0000",
+          "native": [
+            255,
+            0,
+            0
+          ]
+        },
+        {
+          "label": "outside below",
+          "x": 150,
+          "y": 354,
+          "expected": "#ff0000",
+          "native": [
+            255,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contain-wide-product",
+      "samples": [
+        {
+          "label": "label dot (300, 418)",
+          "x": 145,
+          "y": 284,
+          "expected": "#cb6e49",
+          "native": [
+            203,
+            110,
+            73
+          ]
+        },
+        {
+          "label": "product backdrop (40, 40)",
+          "x": 93,
+          "y": 208,
+          "expected": "#ddd5c9",
+          "native": [
+            221,
+            213,
+            201
+          ]
+        },
+        {
+          "label": "left letterbox",
+          "x": 50,
+          "y": 280,
+          "expected": "#ff0000",
+          "native": [
+            255,
+            0,
+            0
+          ]
+        },
+        {
+          "label": "right letterbox",
+          "x": 300,
+          "y": 280,
+          "expected": "#ff0000",
+          "native": [
+            255,
+            0,
+            0
+          ]
+        },
+        {
+          "label": "outside above",
+          "x": 150,
+          "y": 196,
+          "expected": "#ff0000",
+          "native": [
+            255,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cover-wide-intermediate-y",
+      "samples": [
+        {
+          "label": "sun (980, 210)",
+          "x": 327,
+          "y": 125,
+          "expected": "#f7b27f",
+          "native": [
+            247,
+            178,
+            127
+          ]
+        },
+        {
+          "label": "sky (200, 150)",
+          "x": 67,
+          "y": 105,
+          "expected": "#d4dcf1",
+          "native": [
+            212,
+            220,
+            241
+          ]
+        },
+        {
+          "label": "mountain (270, 400)",
+          "x": 90,
+          "y": 188,
+          "expected": "#667ca4",
+          "native": [
+            102,
+            124,
+            164
+          ]
+        },
+        {
+          "label": "clipped above",
+          "x": 200,
+          "y": 96,
+          "expected": "#ff0000",
+          "native": [
+            255,
+            0,
+            0
+          ]
+        },
+        {
+          "label": "clipped below",
+          "x": 200,
+          "y": 204,
+          "expected": "#ff0000",
+          "native": [
+            255,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

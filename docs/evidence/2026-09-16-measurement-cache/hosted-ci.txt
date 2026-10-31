@@ -1,0 +1,117 @@
+https://github.com/ojedaJD/reflow-studio/actions/runs/35092538387/job/104782013148
+CI / push / none · ojedaJD/reflow-studio@90bc454
+
+Skip to content
+ojedaJD
+reflow-studio
+Type / to search
+Repository navigation
+Code
+Issues
+11
+ (11)
+Pull requests
+Agents
+Actions
+Projects
+Wiki
+Security and quality
+Insights
+Settings
+Reflow CI
+CI / push / none #7
+Re-run all jobs
+verify
+succeeded  in 54s
+Set up job
+1s
+Run actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+2s
+Run actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f
+3s
+Prepare evidence directory
+0s
+Locked dependency install
+3s
+Record runtime and dependency versions
+0s
+Tests (preservation, visibility, malformed input, stability)
+5s
+Type check and build
+2s
+Native verification
+2s
+Native comparison artifacts (diagnostic, not aesthetic gate)
+3s
+Install pinned Chromium and OS dependencies
+19s
+Browser acceptance and real glyph assertions
+7s
+1
+Run npm run verify:browser 2>&1 | tee reports/ci/browser.log
+
+9
+
+
+10
+> reflow-studio@0.1.0 verify:browser
+
+11
+> playwright test
+
+12
+
+
+13
+[WebServer]
+
+14
+[WebServer] > reflow-studio@0.1.0 dev
+
+15
+[WebServer] > vite --host 127.0.0.1 --port 4173 --strictPort
+
+16
+[WebServer]
+
+17
+[WebServer]
+
+18
+[WebServer]   VITE v8.3.0  ready in 211 ms
+
+19
+[WebServer]
+
+20
+[WebServer]   ➜  Local:   http://127.0.0.1:4173/
+
+21
+
+
+22
+Running 1 test using 1 worker
+
+23
+
+
+24
+[WebServer] 11:51:53 AM [vite] (client) page reload reports/ci/browser-results/.playwright-artifacts-0/traces/resources/1faac0b142fe5a3deb5ba971f3cfd1b9c51742c4.html
+
+25
+  ✓  1 tests/browser/acceptance.spec.ts:5:1 › real browser acceptance report is complete and all checks pass (3.9s)
+
+26
+
+
+27
+  1 passed (5.8s)
+
+Retain evidence, including failed assertions
+3s
+Post Run actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f
+0s
+Post Run actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+0s
+Complete job
+0s

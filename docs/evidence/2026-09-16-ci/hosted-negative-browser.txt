@@ -1,0 +1,150 @@
+Browser acceptance and real glyph assertions
+6s
+Error:
+1
+Wed, 16 Sep 2026 04:39:14 GMT
+Run npm run verify:browser 2>&1 | tee reports/ci/browser.log
+9
+Wed, 16 Sep 2026 04:39:14 GMT
+10
+Wed, 16 Sep 2026 04:39:14 GMT
+> reflow-studio@0.1.0 verify:browser
+11
+Wed, 16 Sep 2026 04:39:14 GMT
+> playwright test
+12
+Wed, 16 Sep 2026 04:39:14 GMT
+13
+Wed, 16 Sep 2026 04:39:15 GMT
+[WebServer]
+14
+Wed, 16 Sep 2026 04:39:15 GMT
+[WebServer] > reflow-studio@0.1.0 dev
+15
+Wed, 16 Sep 2026 04:39:15 GMT
+[WebServer] > vite --host 127.0.0.1 --port 4173 --strictPort
+16
+Wed, 16 Sep 2026 04:39:15 GMT
+[WebServer]
+17
+Wed, 16 Sep 2026 04:39:15 GMT
+[WebServer]
+18
+Wed, 16 Sep 2026 04:39:15 GMT
+[WebServer]   VITE v8.3.0  ready in 193 ms
+19
+Wed, 16 Sep 2026 04:39:15 GMT
+[WebServer]
+20
+Wed, 16 Sep 2026 04:39:15 GMT
+[WebServer]   ➜  Local:   http://127.0.0.1:4173/
+21
+Wed, 16 Sep 2026 04:39:15 GMT
+22
+Wed, 16 Sep 2026 04:39:15 GMT
+Running 1 test using 1 worker
+23
+Wed, 16 Sep 2026 04:39:15 GMT
+24
+Wed, 16 Sep 2026 04:39:16 GMT
+[WebServer] 4:39:16 AM [vite] (client) page reload reports/ci/browser-results/.playwright-artifacts-0/traces/resources/1faac0b142fe5a3deb5ba971f3cfd1b9c51742c4.html
+25
+Wed, 16 Sep 2026 04:39:20 GMT
+✘  1 tests/browser/acceptance.spec.ts:5:1 › real browser acceptance report is complete and all checks pass (3.9s)
+26
+Wed, 16 Sep 2026 04:39:20 GMT
+27
+Wed, 16 Sep 2026 04:39:20 GMT
+28
+Wed, 16 Sep 2026 04:39:20 GMT
+1) tests/browser/acceptance.spec.ts:5:1 › real browser acceptance report is complete and all checks pass
+29
+Wed, 16 Sep 2026 04:39:20 GMT
+30
+Wed, 16 Sep 2026 04:39:20 GMT
+AssertionError: Browser acceptance failed: [{"name":"Mixed-role badge glyphs remain inside their dark backing","passed":false,"detail":"Error: uniform: actual glyph bounds separated from the dark backing"}]
+31
+Wed, 16 Sep 2026 04:39:20 GMT
+32
+Wed, 16 Sep 2026 04:39:20 GMT
+at ../support/browser-report.ts:27
+33
+Wed, 16 Sep 2026 04:39:20 GMT
+34
+Wed, 16 Sep 2026 04:39:20 GMT
+25 |   assert.ok(typeof report.browser === 'string' && report.browser.length > 0, 'Missing browser identity');
+35
+Wed, 16 Sep 2026 04:39:20 GMT
+26 |   assert.ok(Array.isArray(report.checks), 'Missing browser checks');
+36
+Wed, 16 Sep 2026 04:39:20 GMT
+> 27 |   assert.ok(report.checks.every(c => c && typeof c.name === 'string' && c.passed === true),
+37
+Wed, 16 Sep 2026 04:39:20 GMT
+|          ^
+38
+Wed, 16 Sep 2026 04:39:20 GMT
+28 |     `Browser acceptance failed: ${JSON.stringify(report.checks.filter(c => !c || c.passed !== true))}`);
+39
+Wed, 16 Sep 2026 04:39:20 GMT
+29 |   const names = report.checks.map(c => c.name);
+40
+Wed, 16 Sep 2026 04:39:20 GMT
+30 |   assert.equal(new Set(names).size, names.length, 'Duplicate browser checks');
+41
+Wed, 16 Sep 2026 04:39:20 GMT
+at assertBrowserReport (/home/runner/work/reflow-studio/reflow-studio/tests/support/browser-report.ts:27:10)
+42
+Wed, 16 Sep 2026 04:39:20 GMT
+at /home/runner/work/reflow-studio/reflow-studio/tests/browser/acceptance.spec.ts:22:5
+43
+Wed, 16 Sep 2026 04:39:20 GMT
+44
+Wed, 16 Sep 2026 04:39:20 GMT
+attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+45
+Wed, 16 Sep 2026 04:39:20 GMT
+reports/ci/browser-results/acceptance-real-browser-ac-2e247-omplete-and-all-checks-pass/test-failed-1.png
+46
+Wed, 16 Sep 2026 04:39:20 GMT
+────────────────────────────────────────────────────────────────────────────────────────────────
+47
+Wed, 16 Sep 2026 04:39:20 GMT
+48
+Wed, 16 Sep 2026 04:39:20 GMT
+Error Context: reports/ci/browser-results/acceptance-real-browser-ac-2e247-omplete-and-all-checks-pass/error-context.md
+49
+Wed, 16 Sep 2026 04:39:20 GMT
+50
+Wed, 16 Sep 2026 04:39:20 GMT
+attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+51
+Wed, 16 Sep 2026 04:39:20 GMT
+reports/ci/browser-results/acceptance-real-browser-ac-2e247-omplete-and-all-checks-pass/trace.zip
+52
+Wed, 16 Sep 2026 04:39:20 GMT
+Usage:
+53
+Wed, 16 Sep 2026 04:39:20 GMT
+54
+Wed, 16 Sep 2026 04:39:20 GMT
+npx playwright show-trace reports/ci/browser-results/acceptance-real-browser-ac-2e247-omplete-and-all-checks-pass/trace.zip
+55
+Wed, 16 Sep 2026 04:39:20 GMT
+56
+Wed, 16 Sep 2026 04:39:20 GMT
+────────────────────────────────────────────────────────────────────────────────────────────────
+57
+Wed, 16 Sep 2026 04:39:20 GMT
+58
+Wed, 16 Sep 2026 04:39:20 GMT
+1 failed
+59
+Wed, 16 Sep 2026 04:39:20 GMT
+tests/browser/acceptance.spec.ts:5:1 › real browser acceptance report is complete and all checks pass
+60
+Wed, 16 Sep 2026 04:39:20 GMT
+Error: Process completed with exit code 1.
+This step has been truncated due to its large size. View the raw logs from the
+menu once
+the workflow run has completed.

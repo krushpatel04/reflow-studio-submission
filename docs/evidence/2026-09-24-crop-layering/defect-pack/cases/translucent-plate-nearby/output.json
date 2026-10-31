@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "label-on-translucent-plate",
+  "name": "label-on-translucent-plate",
+  "description": "Defect-control case",
+  "provenance": "synthetic",
+  "width": 999,
+  "height": 1001,
+  "background": "#ffffff",
+  "groups": [],
+  "elements": [
+    {
+      "id": "plate",
+      "type": "rect",
+      "role": "decoration",
+      "x": 99.9,
+      "y": 100.9,
+      "width": 499.5,
+      "height": 199.8,
+      "color": "#000000",
+      "opacity": 0.6
+    },
+    {
+      "id": "label",
+      "type": "text",
+      "role": "content",
+      "x": 139.86,
+      "y": 160.84,
+      "width": 419.58,
+      "height": 69.93,
+      "text": "CALL TODAY",
+      "fontFamily": "Inter",
+      "fontSize": 39.96,
+      "fontWeight": 700,
+      "lineHeight": 1.1,
+      "color": "#ffffff"
+    }
+  ]
+}

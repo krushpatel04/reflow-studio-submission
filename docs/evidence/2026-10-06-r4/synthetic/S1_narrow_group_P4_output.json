@@ -1,0 +1,42 @@
+{
+  "canvas": {
+    "width": 120,
+    "height": 600
+  },
+  "elements": [
+    {
+      "id": "bg",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "x": 0,
+      "y": 0,
+      "width": 120,
+      "height": 600,
+      "fill_color": "rgba(240,240,240,1)"
+    },
+    {
+      "id": "plate",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "x": 24.0,
+      "y": 288.0,
+      "width": 72.0,
+      "height": 18.0,
+      "fill_color": "rgba(20,20,20,1)",
+      "group_id": "g1"
+    },
+    {
+      "id": "label",
+      "type": "text",
+      "x": 26.4,
+      "y": 291.6,
+      "width": 67.2,
+      "height": 10.799999999999999,
+      "content": "Grouped Plate and Label",
+      "font_family": "Solstice Sans",
+      "font_size": 5.76,
+      "color": "rgba(255,255,255,1)",
+      "group_id": "g1"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+[WebServer] 
+[WebServer] > reflow-studio@0.1.0 dev
+[WebServer] > vite --host 127.0.0.1 --port 4173 --strictPort
+[WebServer] 
+[WebServer] (node:7630) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer]   VITE v8.3.0  ready in 181 ms
+[WebServer] 
+[WebServer]   ➜  Local:   http://127.0.0.1:4173/
+
+Running 1 test using 1 worker
+
+(node:7632) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 10:47:23 AM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 10:47:23 AM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✘  1 tests/browser/svg-export.spec.ts:74:1 › a delayed font load retains the clicked source filename and artwork (977ms)
+
+
+  1) tests/browser/svg-export.spec.ts:74:1 › a delayed font load retains the clicked source filename and artwork 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "type-pairing-Original.svg"
+    Received: "quiet-brand-Original.svg"
+
+      89 |   release();
+      90 |   const download = await pending;
+    > 91 |   expect(download.suggestedFilename()).toBe('type-pairing-Original.svg');
+         |                                        ^
+      92 |   const path = await download.path();
+      93 |   const svg = await readFile(path!, 'utf8');
+      94 |   expect(svg).toContain('Words');
+        at <repo>/tests/browser/svg-export.spec.ts:91:40
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/reflow-C-delay-red/svg-export-a-delayed-font--2ccf3-source-filename-and-artwork/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/reflow-C-delay-red/svg-export-a-delayed-font--2ccf3-source-filename-and-artwork/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/reflow-C-delay-red/svg-export-a-delayed-font--2ccf3-source-filename-and-artwork/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/reflow-C-delay-red/svg-export-a-delayed-font--2ccf3-source-filename-and-artwork/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests/browser/svg-export.spec.ts:74:1 › a delayed font load retains the clicked source filename and artwork 

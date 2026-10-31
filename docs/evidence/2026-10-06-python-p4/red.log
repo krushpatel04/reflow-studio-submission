@@ -1,0 +1,6 @@
+      1 FAIL: test_font_below_schema_minimum_raises_naming_id (tests_python.test_layout.Impossible.test_font_below_schema_minimum_raises_naming_id)
+      1 FAIL: test_overflowing_geometry_raises_naming_id (tests_python.test_layout.Impossible.test_overflowing_geometry_raises_naming_id)
+      1 FAIL: test_ungrouped_full_canvas_shape_fills_target (tests_python.test_layout.Bleed.test_ungrouped_full_canvas_shape_fills_target)
+      1 FAILED (failures=3)
+      1 Ran 13 tests in 0.002s
+note: Aspect/Groups/Inside/Identity/Deterministic tests already pass on P1 uniform scale (regression guards); 3 RED: bleed shape, font floor, overflow

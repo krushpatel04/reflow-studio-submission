@@ -1,0 +1,14 @@
+{
+  "label": "A-created",
+  "takenAt": "2026-10-09T00:09:16.651Z",
+  "nodes": [
+    {
+      "id": "cd4df617-275e-432e-bf26-44be534a3022",
+      "type": "Text",
+      "text": "Reflow probe JH-01",
+      "bounds": { "x": -545.267578125, "y": -110.66691589355469, "width": 1090.53515625, "height": 154.13208770751953 },
+      "rotation": 0,
+      "addOnData": { "reflow.sourceId": "probe-1" }
+    }
+  ]
+}

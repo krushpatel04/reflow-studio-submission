@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "label-on-plate",
+  "name": "label-on-plate",
+  "description": "Defect-control case",
+  "provenance": "synthetic",
+  "width": 1000,
+  "height": 3000,
+  "background": "#ffffff",
+  "groups": [],
+  "elements": [
+    {
+      "id": "plate",
+      "type": "rect",
+      "role": "decoration",
+      "x": 100,
+      "y": 1100,
+      "width": 500,
+      "height": 200,
+      "color": "#16362a"
+    },
+    {
+      "id": "label",
+      "type": "text",
+      "role": "content",
+      "x": 140,
+      "y": 1160,
+      "width": 420,
+      "height": 70,
+      "text": "CALL TODAY",
+      "fontFamily": "Inter",
+      "fontSize": 40,
+      "fontWeight": 700,
+      "lineHeight": 1.1,
+      "color": "#ffffff"
+    }
+  ]
+}

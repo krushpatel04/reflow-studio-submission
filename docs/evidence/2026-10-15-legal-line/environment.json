@@ -1,0 +1,13 @@
+{
+  "base": "8ac29a0103bdb8c092c59ab88160a5a58952181a",
+  "host": "macOS-15.4-arm64-arm-64bit-Mach-O",
+  "architecture": "arm64",
+  "python": "Python 3.11.11",
+  "upstream": "a44a06046b0413f0785e7203955c3822e0acbc32",
+  "cr_renderer": "a17e1fb9a732959dd6c21ae168d5ee09d74bd64f",
+  "skia": "144.0.post2",
+  "pillow": "12.3.0",
+  "numpy": "2.4.6",
+  "status": "macOS candidate; Linux not yet run",
+  "temp_contexts": "assemble_context.sh requires output outside source repo; /tmp/reflow-two-hour-A-{baseline,candidate}"
+}

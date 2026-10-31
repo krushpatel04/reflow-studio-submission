@@ -1,0 +1,25 @@
+270 text Retain evidence, including failed assertions
+271 text 3s
+274 text Run actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f
+276 text Multiple search paths detected. Calculating the least common ancestor of all paths
+278 text The least common ancestor is /home/runner/work/reflow-studio/reflow-studio/reports. This will be the root directory of the artifact
+280 text With the provided path, there will be 226 files uploaded
+282 text Artifact name is valid!
+284 text Root directory input is valid!
+286 text Uploading artifact: reflow-ci-35056493606-1.zip
+288 text Beginning upload of artifact content to blob storage
+290 text Uploaded bytes 8388608
+292 text Uploaded bytes 11635276
+294 text Finished uploading artifact content to blob storage!
+296 text SHA256 digest of uploaded artifact is 320337872029a707f997424e5047aec9fd48e43668992f43947636dc1a6de046
+298 text Finalizing artifact upload
+300 text Artifact reflow-ci-35056493606-1 successfully finalized. Artifact ID 10430324696
+302 text Artifact reflow-ci-35056493606-1 has been successfully uploaded! Final size is 11635276 bytes. Artifact ID is 10430324696
+304 text Artifact download URL:
+305 link Description: https://github.com/ojedaJD/reflow-studio/actions/runs/35056493606/artifacts/10430324696, Value: …
+156 text Post Run actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f
+157 text 0s
+158 text Post Run actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+159 text 0s
+160 text Complete job
+161 text 0s

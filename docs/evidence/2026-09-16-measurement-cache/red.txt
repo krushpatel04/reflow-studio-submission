@@ -1,0 +1,55 @@
+✖ reflow avoids redundant calls to the font measurer during repeated-copy fitting (8.183292ms)
+✔ each invocation measures fresh font state, preserves content and leaves inputs unchanged (7.077375ms)
+✔ malformed or unresolved input is still rejected before font measurement (0.678917ms)
+✖ equivalent stack/split arrangements are measured once and returned as independent candidates (1.32525ms)
+✔ mixed image/text units retain a genuinely different split candidate (2.557666ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 3
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 293.715916
+
+✖ failing tests:
+
+test at tests/measurement-reuse.test.ts:11:1
+✖ reflow avoids redundant calls to the font measurer during repeated-copy fitting (8.183292ms)
+  AssertionError [ERR_ASSERTION]: Repeated requests for unchanged text and element should reuse metrics
+
+  36 !== 0
+
+      at TestContext.<anonymous> (<repo>/tests/measurement-reuse.test.ts:29:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.start (node:internal/test_runner/test:1257:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 36,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/measurement-reuse.test.ts:57:1
+✖ equivalent stack/split arrangements are measured once and returned as independent candidates (1.32525ms)
+  AssertionError [ERR_ASSERTION]: Identical completed arrangements should not repeat fitting/evaluation
+
+  85 !== 0
+
+      at TestContext.<anonymous> (<repo>/tests/measurement-reuse.test.ts:78:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 85,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

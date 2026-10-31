@@ -1,0 +1,23 @@
+{
+  "base": "0757de5",
+  "rows": [
+    {
+      "elements": 7,
+      "calls": 1250,
+      "repeats": 240,
+      "repeatFraction": 0.192,
+      "nativeMs": 49.10860099999741,
+      "instrumentedMs": 60.36937499999999,
+      "selected": "uniform"
+    },
+    {
+      "elements": 100,
+      "calls": 465300,
+      "repeats": 54700,
+      "repeatFraction": 0.117558564367075,
+      "nativeMs": 32731.744583998952,
+      "instrumentedMs": 33505.97275,
+      "selected": "stack"
+    }
+  ]
+}

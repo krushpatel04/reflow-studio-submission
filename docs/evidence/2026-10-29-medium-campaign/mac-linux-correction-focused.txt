@@ -1,0 +1,46 @@
+/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_text_fit.py:381: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C1_l3_120x600_input.json' mode='r' encoding='UTF-8'>
+  c1 = json.load(open('docs/evidence/2026-10-07-p8/run3/C1_l3_120x600_input.json'))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_text_fit.py:386: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C3b_extreme_60x1000_input.json' mode='r' encoding='UTF-8'>
+  c3b = json.load(open('docs/evidence/2026-10-07-p8/run3/C3b_extreme_60x1000_input.json'))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_text_fit.py:406: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C1_l3_120x600_input.json' mode='r' encoding='UTF-8'>
+  c = json.load(open(f"docs/evidence/2026-10-07-p8/run3/{name}_input.json"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_text_fit.py:423: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p10/run/C1_l3_120x600_output.json' mode='r' encoding='UTF-8'>
+  historical = json.load(open(f"docs/evidence/2026-10-07-p10/run/{name}_output.json"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_text_fit.py:406: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C3b_extreme_60x1000_input.json' mode='r' encoding='UTF-8'>
+  c = json.load(open(f"docs/evidence/2026-10-07-p8/run3/{name}_input.json"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_text_fit.py:423: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p10/run/C3b_extreme_60x1000_output.json' mode='r' encoding='UTF-8'>
+  historical = json.load(open(f"docs/evidence/2026-10-07-p10/run/{name}_output.json"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_text_fit.py:573: ResourceWarning: unclosed file <_io.BufferedReader name='/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/.cache/chameleon/renderer/converter/wrap.py'>
+  self.assertEqual(hashlib.sha256(open(spec.origin, "rb").read()).hexdigest(),
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_text_fit.py:590: ResourceWarning: unclosed file <_io.BufferedReader name='/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/.cache/chameleon/brand_kit/fonts/SolsticeSerif-Bold.ttf'>
+  data = open(os.path.join(FONTS, f"{family}-{suffix}.ttf"), "rb").read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_text_fit.py:590: ResourceWarning: unclosed file <_io.BufferedReader name='/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/.cache/chameleon/brand_kit/fonts/SolsticeSans-Regular.ttf'>
+  data = open(os.path.join(FONTS, f"{family}-{suffix}.ttf"), "rb").read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/engine/text_fit.py:563: RuntimeWarning: text_fit: no candidate meets the floor for ids headline,subhead,legal_text
+  warnings.warn("text_fit: no candidate meets the floor for ids " + ",".join(free), RuntimeWarning)
+======================================================================
+FAIL: test_nonoverlapping_decoration_and_label_plates_are_preserved (tests_python.test_campaign_medium.MediumCampaign.test_nonoverlapping_decoration_and_label_plates_are_preserved)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 84, in test_nonoverlapping_decoration_and_label_plates_are_preserved
+    out = self.checked(s,300,250)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_medium.py", line 24, in checked
+    checks.CampaignRobustness.clear(self, out)
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 54, in clear
+    self.assertFalse(overlaps(a, b), (a['id'], b['id']))
+AssertionError: True is not false : ('holiday_watermark', 'legal_text')
+
+----------------------------------------------------------------------
+Ran 61 tests in 19.020s
+
+FAILED (failures=1)

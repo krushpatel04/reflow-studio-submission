@@ -1,0 +1,38 @@
+test_clip_probe_rejects_same_copy_off_canvas (tests_python.test_legal_line_fit.LegalLineFit.test_clip_probe_rejects_same_copy_off_canvas) ... ok
+test_public_legal_copy_is_fully_visible (tests_python.test_legal_line_fit.LegalLineFit.test_public_legal_copy_is_fully_visible) ... ok
+test_same_copy_with_ample_width_is_clean_positive_control (tests_python.test_legal_line_fit.LegalLineFit.test_same_copy_with_ample_width_is_clean_positive_control) ... ok
+test_source_and_protected_fields_are_preserved (tests_python.test_legal_line_fit.LegalLineFit.test_source_and_protected_fields_are_preserved) ... ok
+test_edge_straddling_text_loses_ink_to_canvas (tests_python.test_text_ink.Clipping.test_edge_straddling_text_loses_ink_to_canvas) ... ok
+test_inside_canvas_text_loses_nothing (tests_python.test_text_ink.Clipping.test_inside_canvas_text_loses_nothing) ... ok
+test_blank_text_is_not_an_error (tests_python.test_text_ink.FarOffCanvas.test_blank_text_is_not_an_error) ... ok
+test_border_guard_raises_when_ink_touches_padded_edge_and_not_otherwise (tests_python.test_text_ink.FarOffCanvas.test_border_guard_raises_when_ink_touches_padded_edge_and_not_otherwise) ... ok
+test_same_text_on_canvas_is_not_clipped (tests_python.test_text_ink.FarOffCanvas.test_same_text_on_canvas_is_not_clipped) ... ok
+test_text_far_above_or_below_canvas_reports_all_ink_lost (tests_python.test_text_ink.FarOffCanvas.test_text_far_above_or_below_canvas_reports_all_ink_lost) ... ok
+test_text_far_off_canvas_reports_all_ink_lost (tests_python.test_text_ink.FarOffCanvas.test_text_far_off_canvas_reports_all_ink_lost) ... ok
+test_integer_size_has_no_truncation_note (tests_python.test_text_ink.Fractional.test_integer_size_has_no_truncation_note) ... ok
+test_upstream_truncates_fractional_size (tests_python.test_text_ink.Fractional.test_upstream_truncates_fractional_size) ... ok
+test_same_text_in_a_tall_box_is_clean_with_identical_ink (tests_python.test_text_ink.MultilineHeight.test_same_text_in_a_tall_box_is_clean_with_identical_ink) ... ok
+test_wrapped_text_overflows_a_short_box (tests_python.test_text_ink.MultilineHeight.test_wrapped_text_overflows_a_short_box) ... ok
+test_all_seven_brand_faces_pinned_and_loadable (tests_python.test_text_ink.Pinning.test_all_seven_brand_faces_pinned_and_loadable) ... ok
+test_substituted_bytes_rejected (tests_python.test_text_ink.Pinning.test_substituted_bytes_rejected) ... ok
+test_rotated_text_inside_its_own_box_is_not_overflow (tests_python.test_text_ink.RotatedFrame.test_rotated_text_inside_its_own_box_is_not_overflow) ... ok
+test_rotated_text_wider_than_its_box_overflows (tests_python.test_text_ink.RotatedFrame.test_rotated_text_wider_than_its_box_overflows) ... ok
+test_rotated_text_off_canvas_is_clipped_but_unrotated_is_not (tests_python.test_text_ink.Rotation.test_rotated_text_off_canvas_is_clipped_but_unrotated_is_not) ... ok
+test_rotation_preserved_ink_moves_and_bounds_checked (tests_python.test_text_ink.Rotation.test_rotation_preserved_ink_moves_and_bounds_checked) ... ok
+test_text_that_fits_its_rotated_box_is_clean_at_non_right_angles (tests_python.test_text_ink.RotationSign.test_text_that_fits_its_rotated_box_is_clean_at_non_right_angles) ... ok
+test_text_too_long_for_the_same_rotated_box_overflows (tests_python.test_text_ink.RotationSign.test_text_too_long_for_the_same_rotated_box_overflows) ... ok
+test_serif_regular_and_bold_render_with_exactly_the_pinned_bytes (tests_python.test_text_ink.SerifFaces.test_serif_regular_and_bold_render_with_exactly_the_pinned_bytes) ... ok
+test_av_advances_are_summed_without_kerning (tests_python.test_text_ink.Shaping.test_av_advances_are_summed_without_kerning) ... ok
+test_codepoint_absent_from_face_is_missing_glyph (tests_python.test_text_ink.Shaping.test_codepoint_absent_from_face_is_missing_glyph) ... ok
+test_complex_script_recorded_even_when_glyphs_exist (tests_python.test_text_ink.Shaping.test_complex_script_recorded_even_when_glyphs_exist) ... ok
+test_latin_text_has_no_script_or_glyph_notes (tests_python.test_text_ink.Shaping.test_latin_text_has_no_script_or_glyph_notes) ... ok
+test_no_kern_feature_and_no_kerning_applied_recorded (tests_python.test_text_ink.Shaping.test_no_kern_feature_and_no_kerning_applied_recorded) ... ok
+test_capitalised_and_lowercase_bold_read_the_bold_face (tests_python.test_text_ink.Weights.test_capitalised_and_lowercase_bold_read_the_bold_face) ... ok
+test_int_and_unpinned_weights_are_rejected_explicitly (tests_python.test_text_ink.Weights.test_int_and_unpinned_weights_are_rejected_explicitly) ... ok
+test_same_text_in_wide_box_is_clean (tests_python.test_text_ink.Wrapping.test_same_text_in_wide_box_is_clean) ... ok
+test_unbreakable_word_in_narrow_box_overflows (tests_python.test_text_ink.Wrapping.test_unbreakable_word_in_narrow_box_overflows) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 20.244s
+
+OK

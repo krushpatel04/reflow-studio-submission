@@ -1,0 +1,64 @@
+Browser acceptance and real glyph assertions
+6s
+Error:
+1
+Wed, 16 Sep 2026 04:41:02 GMT
+Run npm run verify:browser 2>&1 | tee reports/ci/browser.log
+9
+Wed, 16 Sep 2026 04:41:02 GMT
+10
+Wed, 16 Sep 2026 04:41:02 GMT
+> reflow-studio@0.1.0 verify:browser
+11
+Wed, 16 Sep 2026 04:41:02 GMT
+> playwright test
+12
+Wed, 16 Sep 2026 04:41:02 GMT
+13
+Wed, 16 Sep 2026 04:41:03 GMT
+[WebServer]
+14
+Wed, 16 Sep 2026 04:41:03 GMT
+[WebServer] > reflow-studio@0.1.0 dev
+15
+Wed, 16 Sep 2026 04:41:03 GMT
+[WebServer] > vite --host 127.0.0.1 --port 4173 --strictPort
+16
+Wed, 16 Sep 2026 04:41:03 GMT
+[WebServer]
+17
+Wed, 16 Sep 2026 04:41:03 GMT
+[WebServer]
+18
+Wed, 16 Sep 2026 04:41:03 GMT
+[WebServer]   VITE v8.3.0  ready in 215 ms
+19
+Wed, 16 Sep 2026 04:41:03 GMT
+[WebServer]
+20
+Wed, 16 Sep 2026 04:41:03 GMT
+[WebServer]   ➜  Local:   http://127.0.0.1:4173/
+21
+Wed, 16 Sep 2026 04:41:03 GMT
+22
+Wed, 16 Sep 2026 04:41:03 GMT
+Running 1 test using 1 worker
+23
+Wed, 16 Sep 2026 04:41:03 GMT
+24
+Wed, 16 Sep 2026 04:41:04 GMT
+[WebServer] 4:41:04 AM [vite] (client) page reload reports/ci/browser-results/.playwright-artifacts-0/traces/resources/1faac0b142fe5a3deb5ba971f3cfd1b9c51742c4.html
+25
+Wed, 16 Sep 2026 04:41:04 GMT
+[WebServer] 4:41:04 AM [vite] (client) page reload reports/ci/browser-results/.playwright-artifacts-0/traces/resources/1faac0b142fe5a3deb5ba971f3cfd1b9c51742c4.html
+26
+Wed, 16 Sep 2026 04:41:08 GMT
+✓  1 tests/browser/acceptance.spec.ts:5:1 › real browser acceptance report is complete and all checks pass (3.8s)
+27
+Wed, 16 Sep 2026 04:41:08 GMT
+28
+Wed, 16 Sep 2026 04:41:08 GMT
+1 passed (5.5s)
+This step has been truncated due to its large size. View the raw logs from the
+menu once
+the workflow run has completed.

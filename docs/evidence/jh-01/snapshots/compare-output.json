@@ -1,0 +1,83 @@
+{
+  "ok": true,
+  "findings": [],
+  "transitions": [
+    {
+      "from": "A-created",
+      "to": "B-edited",
+      "changes": [
+        {
+          "sourceId": "probe-1",
+          "field": "text",
+          "before": "Reflow probe JH-01",
+          "after": "Reflow probe edited"
+        },
+        {
+          "sourceId": "probe-1",
+          "field": "bounds",
+          "before": {
+            "x": -545.267578125,
+            "y": -110.66691589355469,
+            "width": 1090.53515625,
+            "height": 154.13208770751953
+          },
+          "after": {
+            "x": -560.9347534179688,
+            "y": 205.3330841064453,
+            "width": 1121.8695068359375,
+            "height": 154.13209533691406
+          }
+        }
+      ]
+    },
+    {
+      "from": "B-edited",
+      "to": "C-reopened",
+      "changes": []
+    },
+    {
+      "from": "C-reopened",
+      "to": "D-retried",
+      "changes": [
+        {
+          "sourceId": "probe-1",
+          "field": "bounds",
+          "before": {
+            "x": -560.9347534179688,
+            "y": 205.3330841064453,
+            "width": 1121.8695068359375,
+            "height": 154.13209533691406
+          },
+          "after": {
+            "x": -520.9347534179688,
+            "y": 205.3330841064453,
+            "width": 1121.8695068359375,
+            "height": 154.13209533691406
+          }
+        }
+      ]
+    },
+    {
+      "from": "D-retried",
+      "to": "E-undo",
+      "changes": [
+        {
+          "sourceId": "probe-1",
+          "field": "bounds",
+          "before": {
+            "x": -520.9347534179688,
+            "y": 205.3330841064453,
+            "width": 1121.8695068359375,
+            "height": 154.13209533691406
+          },
+          "after": {
+            "x": -560.9347534179688,
+            "y": 205.3330841064453,
+            "width": 1121.8695068359375,
+            "height": 154.13209533691406
+          }
+        }
+      ]
+    }
+  ]
+}

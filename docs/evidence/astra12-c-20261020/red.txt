@@ -1,0 +1,114 @@
+✔ ratio classes switch at r = 1.5 and r = 4 (0.635083ms)
+✔ 16:9, 1:1 and 4:5 sources each get near, far and extreme targets (0.47075ms)
+✔ features count overlaps between non-background elements, translucency and text over images (0.178916ms)
+✔ the same pool and seed give the same batch (0.475792ms)
+✔ unsupported layouts and layouts with unavailable fonts or images are never chosen (0.105166ms)
+✔ limits hold: templates, layouts, layouts per template and category share (8.172417ms)
+✔ at least three text-over-image layouts are chosen even when they rank low (0.195167ms)
+✔ the seed breaks ties between equal templates (0.215875ms)
+✔ pinned sources survive growth while total layout, template and category caps hold (0.347584ms)
+✔ batch cap arguments reject fractions, nonpositive values and excessive bounds (0.389625ms)
+✔ splits are two thirds development, one third validation, never test, independent of input order (0.233542ms)
+✔ the assembled manifest passes checkManifest with only readiness warnings (0.684333ms)
+✔ manifest assembly refuses unsupported sources and templates without a split (0.113125ms)
+✔ manifest merge retains old records exactly and adds only new sources (0.252875ms)
+✔ CSV parsing handles quotes, escaped quotes and CRLF (0.14075ms)
+✔ summaries count features, templates and categories (0.0725ms)
+✔ attribution and visual-check files list every layout (0.15325ms)
+✔ expansion appends pending visual checks without changing human notes or duplicating rows (0.079833ms)
+✖ coverage separates SVG overlap from raster candidates without asserting busy photos (0.862792ms)
+✖ coverage groups require declared multi-member content, not group-shaped decoration (0.174667ms)
+✖ coverage respects paint order and positive area, and does not inflate overlapping image counts (0.117ms)
+✖ legacy feature records are unassessed and cannot establish missing or present coverage (0.084209ms)
+✔ coverage reporting does not change deterministic selection or pinning across expansion (0.222083ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 19
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 186.395375
+
+✖ failing tests:
+
+test at tests/lica-batch.test.ts:195:1
+✖ coverage separates SVG overlap from raster candidates without asserting busy photos (0.862792ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + undefined
+  - {
+  -   contentGroups: 0,
+  -   textOverRaster: 0,
+  -   textOverSvg: 1,
+  -   textOverUnknown: 0
+  - }
+  
+      at TestContext.<anonymous> (/Users/ojeda/.codex/reflow-issue-loop/cycle-20261020/C/tests/lica-batch.test.ts:200:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: { contentGroups: 0, textOverSvg: 1, textOverRaster: 0, textOverUnknown: 0 },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/lica-batch.test.ts:211:1
+✖ coverage groups require declared multi-member content, not group-shaped decoration (0.174667ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  undefined !== 1
+  
+      at TestContext.<anonymous> (/Users/ojeda/.codex/reflow-issue-loop/cycle-20261020/C/tests/lica-batch.test.ts:215:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/lica-batch.test.ts:226:1
+✖ coverage respects paint order and positive area, and does not inflate overlapping image counts (0.117ms)
+  AssertionError [ERR_ASSERTION]: count text elements once per format
+  
+  undefined !== 1
+  
+      at TestContext.<anonymous> (/Users/ojeda/.codex/reflow-issue-loop/cycle-20261020/C/tests/lica-batch.test.ts:229:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/lica-batch.test.ts:238:1
+✖ legacy feature records are unassessed and cannot establish missing or present coverage (0.084209ms)
+  TypeError: Cannot read properties of undefined (reading 'unassessedLayouts')
+      at TestContext.<anonymous> (/Users/ojeda/.codex/reflow-issue-loop/cycle-20261020/C/tests/lica-batch.test.ts:240:33)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7)

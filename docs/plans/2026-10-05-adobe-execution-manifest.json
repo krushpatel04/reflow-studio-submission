@@ -1,0 +1,126 @@
+{
+  "plans": [
+    {
+      "id": "ADOBE-A1-A4",
+      "file": "2026-10-05-adobe-execution.md",
+      "sha256": "87264521e3ca2f164b0903ba7b73c4585f1f815a94f173898c65d638a6944c6d",
+      "dependencies": [],
+      "requirements": [
+        {
+          "id": "R1",
+          "type": "V",
+          "evidence": [
+            "E1"
+          ]
+        },
+        {
+          "id": "R2",
+          "type": "V",
+          "evidence": [
+            "E2"
+          ]
+        },
+        {
+          "id": "R3",
+          "type": "V",
+          "evidence": [
+            "E3"
+          ]
+        },
+        {
+          "id": "R4",
+          "type": "V",
+          "evidence": [
+            "E4"
+          ]
+        },
+        {
+          "id": "R5",
+          "type": "V",
+          "evidence": [
+            "E5"
+          ]
+        },
+        {
+          "id": "R6",
+          "type": "V",
+          "evidence": [
+            "E6"
+          ]
+        },
+        {
+          "id": "R7",
+          "type": "V",
+          "evidence": [
+            "E7"
+          ]
+        },
+        {
+          "id": "R8",
+          "type": "V",
+          "evidence": [
+            "E8"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "E1",
+          "path": "reports/adobe-A1/ (proposed)",
+          "assertions": [
+            "See corresponding R1 contract assertion and DoD in plan; not yet executed"
+          ]
+        },
+        {
+          "id": "E2",
+          "path": "reports/adobe-A2/ (proposed)",
+          "assertions": [
+            "See corresponding R2 contract assertion and DoD in plan; not yet executed"
+          ]
+        },
+        {
+          "id": "E3",
+          "path": "reports/adobe-A3/ (proposed)",
+          "assertions": [
+            "See corresponding R3 contract assertion and DoD in plan; not yet executed"
+          ]
+        },
+        {
+          "id": "E4",
+          "path": "reports/adobe-A4/ (proposed)",
+          "assertions": [
+            "See corresponding R4 contract assertion and DoD in plan; not yet executed"
+          ]
+        },
+        {
+          "id": "E5",
+          "path": "reports/adobe-A5/ (proposed)",
+          "assertions": [
+            "See corresponding R5 contract assertion and DoD in plan; not yet executed"
+          ]
+        },
+        {
+          "id": "E6",
+          "path": "reports/adobe-A6/ (proposed)",
+          "assertions": [
+            "See corresponding R6 contract assertion and DoD in plan; not yet executed"
+          ]
+        },
+        {
+          "id": "E7",
+          "path": "reports/adobe-A7/ (proposed)",
+          "assertions": [
+            "See corresponding R7 contract assertion and DoD in plan; not yet executed"
+          ]
+        },
+        {
+          "id": "E8",
+          "path": "reports/adobe-A8/ (proposed)",
+          "assertions": [
+            "See corresponding R8 contract assertion and DoD in plan; not yet executed"
+          ]
+        }
+      ]
+    }
+  ]
+}

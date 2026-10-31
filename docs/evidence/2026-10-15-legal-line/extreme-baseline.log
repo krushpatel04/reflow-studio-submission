@@ -1,0 +1,59 @@
+BASELINE ENGINE /tmp/reflow-two-hour-A-baseline/engine/text_fit.py
+test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink (tests_python.test_extreme_composition.RenderedFloor.test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink) ... 
+  test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink (tests_python.test_extreme_composition.RenderedFloor.test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink) (target='728x90', text='cta_label') ... FAIL
+  test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink (tests_python.test_extreme_composition.RenderedFloor.test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink) (target='2000x300', text='cta_label') ... FAIL
+  test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink (tests_python.test_extreme_composition.RenderedFloor.test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink) (target='1600x400', text='ribbon_label') ... FAIL
+  test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink (tests_python.test_extreme_composition.RenderedFloor.test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink) (target='160x600', text='ribbon_label') ... FAIL
+test_small_legal_copy_renders_at_floor (tests_python.test_extreme_composition.RenderedFloor.test_small_legal_copy_renders_at_floor) ... FAIL
+
+======================================================================
+FAIL: test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink (tests_python.test_extreme_composition.RenderedFloor.test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink) (target='728x90', text='cta_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/A/tests_python/test_extreme_composition.py", line 131, in test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink
+    self.assertEqual(r["ink_px"], ink)
+AssertionError: 281 != 271
+
+======================================================================
+FAIL: test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink (tests_python.test_extreme_composition.RenderedFloor.test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink) (target='2000x300', text='cta_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/A/tests_python/test_extreme_composition.py", line 131, in test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink
+    self.assertEqual(r["ink_px"], ink)
+AssertionError: 281 != 271
+
+======================================================================
+FAIL: test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink (tests_python.test_extreme_composition.RenderedFloor.test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink) (target='1600x400', text='ribbon_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/A/tests_python/test_extreme_composition.py", line 131, in test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink
+    self.assertEqual(r["ink_px"], ink)
+AssertionError: 181 != 180
+
+======================================================================
+FAIL: test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink (tests_python.test_extreme_composition.RenderedFloor.test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink) (target='160x600', text='ribbon_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/A/tests_python/test_extreme_composition.py", line 131, in test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink
+    self.assertEqual(r["ink_px"], ink)
+AssertionError: 181 != 180
+
+======================================================================
+FAIL: test_small_legal_copy_renders_at_floor (tests_python.test_extreme_composition.RenderedFloor.test_small_legal_copy_renders_at_floor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/A/tests_python/test_extreme_composition.py", line 137, in test_small_legal_copy_renders_at_floor
+    self.assertEqual((r["ink_px"], r["lost_px"], r["overflow"]), (889, 0, False))
+AssertionError: Tuples differ: (1385, 84, True) != (889, 0, False)
+
+First differing element 0:
+1385
+889
+
+- (1385, 84, True)
++ (889, 0, False)
+
+----------------------------------------------------------------------
+Ran 2 tests in 3.582s
+
+FAILED (failures=5)

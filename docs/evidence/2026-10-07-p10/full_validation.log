@@ -1,0 +1,20 @@
+.................................................................................................................................Fontconfig error: Cannot load default config file
+.........................................../home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py:369: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C1_l3_120x600_input.json' mode='r' encoding='UTF-8'>
+  c1 = json.load(open('docs/evidence/2026-10-07-p8/run3/C1_l3_120x600_input.json'))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py:374: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C3b_extreme_60x1000_input.json' mode='r' encoding='UTF-8'>
+  c3b = json.load(open('docs/evidence/2026-10-07-p8/run3/C3b_extreme_60x1000_input.json'))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+......./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py:384: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C1_l3_120x600_input.json' mode='r' encoding='UTF-8'>
+  c = json.load(open(f"docs/evidence/2026-10-07-p8/run3/{name}_input.json"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py:384: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C3b_extreme_60x1000_input.json' mode='r' encoding='UTF-8'>
+  c = json.load(open(f"docs/evidence/2026-10-07-p8/run3/{name}_input.json"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.........
+----------------------------------------------------------------------
+Ran 188 tests in 5.964s
+
+OK
+EXIT:0
+validated code SHA: 52a02cb829d87e2a94c604ccef4c811c5c673b3c (log committed after; no code change)

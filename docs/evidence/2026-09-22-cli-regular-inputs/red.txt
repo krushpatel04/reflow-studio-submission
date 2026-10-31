@@ -1,0 +1,48 @@
+✔ CLI emits deterministic editable output with diagnostics and retained content (1129.101125ms)
+✔ CLI rejects malformed JSON, bad dimensions and unsupported resources with structured errors (707.242458ms)
+✔ CLI enforces external deadline and reports explicit failure (68.057708ms)
+✔ CLI stops dense synchronous layout at the process deadline (578.91ms)
+✔ CLI accepts bundled image resources and reports findings at an extreme valid target (421.227708ms)
+✔ CLI rejects an oversized input before starting layout (175.514125ms)
+✖ CLI rejects a FIFO without a writer before a blocking read (2013.423291ms)
+✖ CLI accepts a regular file through a symlink and rejects a directory (1114.779417ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 6
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6397.9225
+
+✖ failing tests:
+
+test at tests/offline-cli.test.ts:131:1
+✖ CLI rejects a FIFO without a writer before a blocking read (2013.423291ms)
+  Error: CLI did not reject the FIFO before the independent 2000ms test timeout.
+      at Timeout.<anonymous> (/Users/ojeda/Documents/ChatGPT/Reflow/tests/offline-cli.test.ts:50:18)
+      at listOnTimeout (node:internal/timers:685:17)
+      at process.processTimers (node:internal/timers:618:7)
+
+test at tests/offline-cli.test.ts:146:1
+✖ CLI accepts a regular file through a symlink and rejects a directory (1114.779417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+
+  + 'input-read-failed'
+  - 'unsupported-input-type'
+
+      at TestContext.<anonymous> (/Users/ojeda/Documents/ChatGPT/Reflow/tests/offline-cli.test.ts:160:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'input-read-failed',
+    expected: 'unsupported-input-type',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

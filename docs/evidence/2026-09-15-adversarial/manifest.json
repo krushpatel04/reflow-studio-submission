@@ -1,0 +1,41 @@
+{
+  "reviewedCodeCommit": "fd780591ecf48cd91d4c481002b18a4c67bad452",
+  "recordedDate": "2026-09-15",
+  "runtime": {
+    "node": "v24.20.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "canvas": "1.0.9"
+  },
+  "scope": "Synthetic adversarial probes and single local native stress measurements; not an Adobe score or general performance estimate.",
+  "files": {
+    "hidden-content.png": {
+      "bytes": 4510,
+      "sha256": "a24fc3a801552b4e9583d887fb73c5e4cf236c3fb8353e1e300c15077839ada1"
+    },
+    "mixed-role-selected.png": {
+      "bytes": 3522,
+      "sha256": "5938673a410623371580f067d6364c5993a9cc09fc9be2eb7b61d58a038e2d12"
+    },
+    "mixed-role-source.png": {
+      "bytes": 7191,
+      "sha256": "219e4c0d6bbd67a838c66b46e5554916aab1e5396156af4bf45cc833b88303d5"
+    },
+    "one-pixel-selected.png": {
+      "bytes": 32410,
+      "sha256": "2c6611d0dfb9c21664940bc2b1ab3b523183b56314dbb66a67a52bfd1223370e"
+    },
+    "one-pixel-source.png": {
+      "bytes": 34993,
+      "sha256": "cd707fc27e788544084bf6cff122c0cddd7b5f66d1671a968db5f3c1689fd28d"
+    },
+    "results.json": {
+      "bytes": 3926,
+      "sha256": "edd38183b398540569acf2a267e8aee90cbb305c27006edfc75b8ce55e8034a6"
+    },
+    "stress.json": {
+      "bytes": 640,
+      "sha256": "a1444ef31561bfa624c7c25545476153bd61acca97ddcd0af8f789fefb0777d7"
+    }
+  }
+}

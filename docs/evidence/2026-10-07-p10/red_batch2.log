@@ -1,0 +1,62 @@
+..................../home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py:369: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C1_l3_120x600_input.json' mode='r' encoding='UTF-8'>
+  c1 = json.load(open('docs/evidence/2026-10-07-p8/run3/C1_l3_120x600_input.json'))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+FF.F./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py:384: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C1_l3_120x600_input.json' mode='r' encoding='UTF-8'>
+  c = json.load(open(f"docs/evidence/2026-10-07-p8/run3/{name}_input.json"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+F/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py:384: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C3b_extreme_60x1000_input.json' mode='r' encoding='UTF-8'>
+  c = json.load(open(f"docs/evidence/2026-10-07-p8/run3/{name}_input.json"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+FF...
+======================================================================
+FAIL: test_c1_badge2_and_c3b_cta_raised_to_floor (tests_python.test_text_fit.SubFloorLabelRaise.test_c1_badge2_and_c3b_cta_raised_to_floor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py", line 372, in test_c1_badge2_and_c3b_cta_raised_to_floor
+    self.assertEqual(b2['font_size'], FLOOR)
+AssertionError: 4.860000000000001 != 6.0
+
+======================================================================
+FAIL: test_fitting_label_raised_geometry_equals_uniform (tests_python.test_text_fit.SubFloorLabelRaise.test_fitting_label_raised_geometry_equals_uniform)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py", line 417, in test_fitting_label_raised_geometry_equals_uniform
+    self.assertEqual(o["l"]["font_size"], FLOOR)
+AssertionError: 2.0 != 6.0
+
+======================================================================
+FAIL: test_label_not_fitting_its_scaled_box_stays_p5b (tests_python.test_text_fit.SubFloorLabelRaise.test_label_not_fitting_its_scaled_box_stays_p5b)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py", line 427, in test_label_not_fitting_its_scaled_box_stays_p5b
+    self.assertEqual(o["l"]["font_size"], FLOOR)
+AssertionError: 2.0 != 6.0
+
+======================================================================
+FAIL: test_only_label_font_changes_everything_else_equals_main (tests_python.test_text_fit.SubFloorLabelRaise.test_only_label_font_changes_everything_else_equals_main) [C1_l3_120x600]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py", line 394, in test_only_label_font_changes_everything_else_equals_main
+    self.assertEqual(e["font_size"], FLOOR)
+AssertionError: 4.860000000000001 != 6.0
+
+======================================================================
+FAIL: test_only_label_font_changes_everything_else_equals_main (tests_python.test_text_fit.SubFloorLabelRaise.test_only_label_font_changes_everything_else_equals_main) [C3b_extreme_60x1000]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py", line 394, in test_only_label_font_changes_everything_else_equals_main
+    self.assertEqual(e["font_size"], FLOOR)
+AssertionError: 4.3740000000000006 != 6.0
+
+======================================================================
+FAIL: test_rotated_group_label_stays_inside_plate_rotated_frame (tests_python.test_text_fit.SubFloorLabelRaise.test_rotated_group_label_stays_inside_plate_rotated_frame)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py", line 444, in test_rotated_group_label_stays_inside_plate_rotated_frame
+    self.assertEqual(l["font_size"], FLOOR)
+AssertionError: 2.324522934000001 != 6.0
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.930s
+
+FAILED (failures=6)

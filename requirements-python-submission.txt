@@ -1,0 +1,9 @@
+# Python submission dependencies for the Adobe Chameleon starter contract.
+# Provenance: upstream https://github.com/jhaaj08/chameleon @ a44a06046b0413f0785e7203955c3822e0acbc32 declares
+# `Pillow>=10.0` and an unpinned `git+https://github.com/CyberAgentAILab/cr-renderer`. These are the exact versions
+# resolved by the A1 reproduction on 2026-10-06 (docs/evidence/2026-10-06-adobe-a1/versions.txt); skia-python
+# 144.0.post2 was originally transitive from cr-renderer and is now declared directly
+# because engine text fitting imports Skia for renderer-matched character advances.
+Pillow==12.3.0
+skia-python==144.0.post2
+git+https://github.com/CyberAgentAILab/cr-renderer@a17e1fb9a732959dd6c21ae168d5ee09d74bd64f

@@ -1,0 +1,23 @@
+[WebServer] 
+[WebServer] > reflow-studio@0.1.0 dev
+[WebServer] > vite --host 127.0.0.1 --port 4187 --strictPort
+[WebServer] 
+[WebServer] (node:56039) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer]   VITE v8.3.0  ready in 166 ms
+[WebServer] 
+[WebServer]   ➜  Local:   http://127.0.0.1:4187/
+
+Running 1 test using 1 worker
+
+(node:56040) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 12:19:40 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:19:40 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✓  1 tests/browser/request-lifecycle.spec.ts:280:1 › failed requests retry with the keyboard and cancelled edits revert all controls (1.0s)
+
+  1 passed (2.2s)

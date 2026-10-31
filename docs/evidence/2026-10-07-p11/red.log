@@ -1,0 +1,62 @@
+..................../home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py:369: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C1_l3_120x600_input.json' mode='r' encoding='UTF-8'>
+  c1 = json.load(open('docs/evidence/2026-10-07-p8/run3/C1_l3_120x600_input.json'))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py:374: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C3b_extreme_60x1000_input.json' mode='r' encoding='UTF-8'>
+  c3b = json.load(open('docs/evidence/2026-10-07-p8/run3/C3b_extreme_60x1000_input.json'))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+......./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py:384: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C1_l3_120x600_input.json' mode='r' encoding='UTF-8'>
+  c = json.load(open(f"docs/evidence/2026-10-07-p8/run3/{name}_input.json"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py:384: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C3b_extreme_60x1000_input.json' mode='r' encoding='UTF-8'>
+  c = json.load(open(f"docs/evidence/2026-10-07-p8/run3/{name}_input.json"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.........FFF
+======================================================================
+FAIL: test_l3_narrow_targets_survive_without_sub_floor_or_warning (tests_python.test_text_fit.WrapCapPadding.test_l3_narrow_targets_survive_without_sub_floor_or_warning) (tc={'width': 300, 'height': 250})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py", line 510, in test_l3_narrow_targets_survive_without_sub_floor_or_warning
+    self.assertEqual([str(x.message) for x in w if issubclass(x.category, RuntimeWarning)], [])
+AssertionError: Lists differ: ['text_fit: no candidate meets the floor for ids headline,subhead,legal_text'] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+'text_fit: no candidate meets the floor for ids headline,subhead,legal_text'
+
+- ['text_fit: no candidate meets the floor for ids headline,subhead,legal_text']
++ []
+
+======================================================================
+FAIL: test_l3_narrow_targets_survive_without_sub_floor_or_warning (tests_python.test_text_fit.WrapCapPadding.test_l3_narrow_targets_survive_without_sub_floor_or_warning) (tc={'width': 160, 'height': 600})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py", line 510, in test_l3_narrow_targets_survive_without_sub_floor_or_warning
+    self.assertEqual([str(x.message) for x in w if issubclass(x.category, RuntimeWarning)], [])
+AssertionError: Lists differ: ['text_fit: no candidate meets the floor for ids headline,subhead,legal_text'] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+'text_fit: no candidate meets the floor for ids headline,subhead,legal_text'
+
+- ['text_fit: no candidate meets the floor for ids headline,subhead,legal_text']
++ []
+
+======================================================================
+FAIL: test_l3_narrow_targets_survive_without_sub_floor_or_warning (tests_python.test_text_fit.WrapCapPadding.test_l3_narrow_targets_survive_without_sub_floor_or_warning) (tc={'width': 300, 'height': 600})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py", line 510, in test_l3_narrow_targets_survive_without_sub_floor_or_warning
+    self.assertEqual([str(x.message) for x in w if issubclass(x.category, RuntimeWarning)], [])
+AssertionError: Lists differ: ['text_fit: no candidate meets the floor for ids headline,subhead,legal_text'] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+'text_fit: no candidate meets the floor for ids headline,subhead,legal_text'
+
+- ['text_fit: no candidate meets the floor for ids headline,subhead,legal_text']
++ []
+
+----------------------------------------------------------------------
+Ran 37 tests in 6.975s
+
+FAILED (failures=3)

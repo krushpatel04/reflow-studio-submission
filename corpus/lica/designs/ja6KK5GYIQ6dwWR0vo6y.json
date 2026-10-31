@@ -1,0 +1,126 @@
+{
+ "schemaVersion": "reflow.design.v0",
+ "id": "lica-ja6KK5GYIQ6dwWR0vo6y",
+ "name": "LICA Presentations ja6KK5GYIQ6dwWR0vo6y",
+ "description": "Converted from LICA layout ja6KK5GYIQ6dwWR0vo6y (template a902e896-7baa-4f3e-b5ab-aba3173990e7).",
+ "provenance": "LICA dataset (LICA WORLD), CC BY 4.0, https://github.com/purvanshi/lica-dataset; converted and modified for Reflow evaluation",
+ "width": 1920,
+ "height": 1080,
+ "background": "#0e213c",
+ "groups": [],
+ "elements": [
+  {
+   "id": "image-0",
+   "type": "image",
+   "role": "background",
+   "x": 0,
+   "y": -100,
+   "width": 1920,
+   "height": 1280,
+   "assetId": "b30f83a9-b26f-4815-9605-c3c221c22ac8.jpg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "opacity": 0.3
+  },
+  {
+   "id": "image-1",
+   "type": "image",
+   "role": "content",
+   "x": 1024.74,
+   "y": 108,
+   "width": 787.256,
+   "height": 1049.67,
+   "assetId": "6ac916f2-ef89-40aa-9405-09e43bce39be.jpg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "group-2",
+   "type": "rect",
+   "role": "decoration",
+   "x": 152.43,
+   "y": 561.692,
+   "width": 888.25244312,
+   "height": 379.20512,
+   "color": "#060b31"
+  },
+  {
+   "id": "image-3",
+   "type": "image",
+   "role": "content",
+   "x": 152.43,
+   "y": 561.692,
+   "width": 888.252,
+   "height": 379.205,
+   "assetId": "216cec9f-62ef-4df7-8edf-7f2576b40f44.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "group-4",
+   "type": "rect",
+   "role": "decoration",
+   "x": 152.43,
+   "y": 139.103,
+   "width": 888.2510122499999,
+   "height": 378.816,
+   "color": "#060b31"
+  },
+  {
+   "id": "image-5",
+   "type": "image",
+   "role": "content",
+   "x": 152.43,
+   "y": 139.103,
+   "width": 888.252,
+   "height": 378.816,
+   "assetId": "512f9fa7-f209-40ba-ad3e-25425826a9aa.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "text-6",
+   "type": "text",
+   "role": "content",
+   "x": 201.676,
+   "y": 170.25,
+   "width": 789.76,
+   "height": 316.522,
+   "text": "STORE YOUR DATA",
+   "fontFamily": "Roboto",
+   "fontWeight": 400,
+   "fontSize": 133,
+   "lineHeight": 1.1954887218045114,
+   "color": "#f8c24b",
+   "align": "center"
+  },
+  {
+   "id": "text-7",
+   "type": "text",
+   "role": "content",
+   "x": 199.658,
+   "y": 657.381,
+   "width": 789.76,
+   "height": 187.826,
+   "text": "There are distinct ways to record data, such as graphs, diagrams, and maps.",
+   "fontFamily": "Open Sans",
+   "fontWeight": 400,
+   "fontSize": 53,
+   "lineHeight": 1.1886792452830188,
+   "color": "#fcfcfc",
+   "align": "center"
+  }
+ ]
+}

@@ -1,0 +1,717 @@
+........FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF..
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='rotation', bad='nan', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='rotation', bad='nan', type='shape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='rotation', bad='nan', type='image')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='rotation', bad='inf', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='rotation', bad='inf', type='shape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='rotation', bad='inf', type='image')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='rotation', bad='True', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='rotation', bad='True', type='shape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='rotation', bad='True', type='image')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='rotation', bad="'1'", type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='rotation', bad="'1'", type='shape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='rotation', bad="'1'", type='image')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='rotation', bad='None', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='rotation', bad='None', type='shape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='rotation', bad='None', type='image')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='opacity', bad='-0.1', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='opacity', bad='-0.1', type='shape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='opacity', bad='-0.1', type='image')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='opacity', bad='1.1', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='opacity', bad='1.1', type='shape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='opacity', bad='1.1', type='image')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='opacity', bad='nan', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='opacity', bad='nan', type='shape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='opacity', bad='nan', type='image')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='opacity', bad='True', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='opacity', bad='True', type='shape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='opacity', bad='True', type='image')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='opacity', bad="'1'", type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='opacity', bad="'1'", type='shape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='opacity', bad="'1'", type='image')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='z_index', bad='1.5', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='z_index', bad='1.5', type='shape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='z_index', bad='1.5', type='image')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='z_index', bad='True', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='z_index', bad='True', type='shape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='z_index', bad='True', type='image')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='z_index', bad="'1'", type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='z_index', bad="'1'", type='shape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='z_index', bad="'1'", type='image')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='z_index', bad='nan', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='z_index', bad='nan', type='shape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='z_index', bad='nan', type='image')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='group_id', bad='5', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='group_id', bad='5', type='shape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='group_id', bad='5', type='image')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='group_id', bad="''", type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='group_id', bad="''", type='shape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='group_id', bad="''", type='image')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='group_id', bad='True', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='group_id', bad='True', type='shape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='group_id', bad='True', type='image')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='font_size', bad='0', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='font_size', bad='0.5', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='font_size', bad='-3', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='line_height', bad='nan', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='line_height', bad='True', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='line_height', bad="'1'", type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='font_weight', bad="'heavy'", type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='font_weight', bad='700', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='font_style', bad="'oblique'", type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='text_align', bad="'justify'", type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='fit', bad="'stretch'", type='image')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='shape_type', bad="'triangle'", type='shape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='style_runs', bad="'x'", type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='style_runs', bad='{}', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='style_runs', bad='[1]', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='style_runs', bad="[{'start': -1, 'end': 2}]", type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='style_runs', bad="[{'start': 1.5, 'end': 2}]", type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='max_lines', bad='1.5', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='max_lines', bad='True', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='max_lines', bad="'2'", type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='content', bad='5', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='content', bad='None', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='type', bad="'video'", type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='type', bad="'video'", type='shape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='type', bad="'video'", type='image')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='type', bad='None', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='type', bad='None', type='shape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='type', bad='None', type='image')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='type', bad='5', type='text')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='type', bad='5', type='shape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) (field='type', bad='5', type='image')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 150, in test_each_bad_value_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_missing_required_type_fields_rejected (tests_python.test_fields.NegativeFields.test_missing_required_type_fields_rejected) (typ='text', field='content')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 161, in test_missing_required_type_fields_rejected
+    with self.subTest(typ=typ, field=n), self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_missing_required_type_fields_rejected (tests_python.test_fields.NegativeFields.test_missing_required_type_fields_rejected) (typ='text', field='font_family')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 161, in test_missing_required_type_fields_rejected
+    with self.subTest(typ=typ, field=n), self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_missing_required_type_fields_rejected (tests_python.test_fields.NegativeFields.test_missing_required_type_fields_rejected) (typ='text', field='font_size')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 161, in test_missing_required_type_fields_rejected
+    with self.subTest(typ=typ, field=n), self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_missing_required_type_fields_rejected (tests_python.test_fields.NegativeFields.test_missing_required_type_fields_rejected) (typ='text', field='color')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 161, in test_missing_required_type_fields_rejected
+    with self.subTest(typ=typ, field=n), self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_missing_required_type_fields_rejected (tests_python.test_fields.NegativeFields.test_missing_required_type_fields_rejected) (typ='image', field='asset_id')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 161, in test_missing_required_type_fields_rejected
+    with self.subTest(typ=typ, field=n), self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_missing_required_type_fields_rejected (tests_python.test_fields.NegativeFields.test_missing_required_type_fields_rejected) (typ='shape', field='shape_type')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 161, in test_missing_required_type_fields_rejected
+    with self.subTest(typ=typ, field=n), self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_missing_required_type_fields_rejected (tests_python.test_fields.NegativeFields.test_missing_required_type_fields_rejected) (typ='shape', field='fill_color')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_fields.py", line 161, in test_missing_required_type_fields_rejected
+    with self.subTest(typ=typ, field=n), self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.007s
+
+FAILED (failures=89)

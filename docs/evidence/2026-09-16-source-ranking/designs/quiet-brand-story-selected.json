@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "quiet-brand",
+  "name": "Room to breathe",
+  "description": "Sparse, asymmetric editorial composition tests whether reflow overfills deliberate whitespace.",
+  "provenance": "synthetic",
+  "width": 1080,
+  "height": 1920,
+  "background": "#f0ede5",
+  "elements": [
+    {
+      "id": "eyebrow",
+      "type": "text",
+      "role": "content",
+      "text": "FIELD NOTES / VOL. 04",
+      "x": 80,
+      "y": 359,
+      "width": 910,
+      "height": 45,
+      "fontSize": 27,
+      "color": "#413a30",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "headline",
+      "type": "text",
+      "role": "content",
+      "text": "Less,\nbut better.",
+      "x": 80,
+      "y": 650,
+      "width": 920,
+      "height": 310,
+      "fontSize": 111,
+      "color": "#413a30",
+      "fontWeight": 600,
+      "fontFamily": "Source Serif 4",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "rule",
+      "type": "rect",
+      "role": "decoration",
+      "x": 82,
+      "y": 1025,
+      "width": 125,
+      "height": 5,
+      "color": "#413a30"
+    },
+    {
+      "id": "body",
+      "type": "text",
+      "role": "content",
+      "text": "A conversation about attention,\ncraft, and choosing what matters.",
+      "x": 80,
+      "y": 1090,
+      "width": 875,
+      "height": 124,
+      "fontSize": 34,
+      "color": "#413a30",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "footer",
+      "type": "text",
+      "role": "content",
+      "text": "OCTOBER 22 · THE READING ROOM",
+      "x": 80,
+      "y": 1475,
+      "width": 915,
+      "height": 66,
+      "fontSize": 28,
+      "color": "#413a30",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    }
+  ],
+  "groups": []
+}

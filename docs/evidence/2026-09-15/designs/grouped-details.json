@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "grouped-details",
+  "name": "Keep the details together",
+  "description": "Two semantic clusters must retain their internal arrangement.",
+  "provenance": "synthetic",
+  "width": 1200,
+  "height": 900,
+  "background": "#e6ebdf",
+  "elements": [
+    {
+      "id": "headline",
+      "type": "text",
+      "role": "content",
+      "text": "A little room\nfor big ideas.",
+      "x": 68,
+      "y": 65,
+      "width": 690,
+      "height": 239,
+      "fontSize": 82,
+      "color": "#283929",
+      "fontWeight": 600,
+      "fontFamily": "Source Serif 4",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "hero",
+      "type": "image",
+      "role": "content",
+      "assetId": "orbit",
+      "x": 810,
+      "y": 64,
+      "width": 320,
+      "height": 405,
+      "fit": "cover",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "date",
+      "type": "text",
+      "role": "content",
+      "text": "SAT 24 OCT",
+      "x": 70,
+      "y": 415,
+      "width": 640,
+      "height": 78,
+      "fontSize": 58,
+      "color": "#283929",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "when-where"
+    },
+    {
+      "id": "venue",
+      "type": "text",
+      "role": "content",
+      "text": "12:00–16:00\nNorth campus workshop",
+      "x": 70,
+      "y": 515,
+      "width": 640,
+      "height": 112,
+      "fontSize": 36,
+      "color": "#283929",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "when-where"
+    },
+    {
+      "id": "cta-bg",
+      "type": "rect",
+      "role": "content",
+      "x": 70,
+      "y": 727,
+      "width": 1060,
+      "height": 110,
+      "color": "#283929",
+      "groupId": "cta",
+      "radius": 16
+    },
+    {
+      "id": "cta",
+      "type": "text",
+      "role": "content",
+      "text": "RESERVE YOUR WORKBENCH",
+      "x": 90,
+      "y": 758,
+      "width": 1020,
+      "height": 52,
+      "fontSize": 32,
+      "color": "#ffffff",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "cta",
+      "align": "center"
+    }
+  ],
+  "groups": [
+    {
+      "id": "when-where",
+      "label": "when where"
+    },
+    {
+      "id": "cta",
+      "label": "cta"
+    }
+  ]
+}

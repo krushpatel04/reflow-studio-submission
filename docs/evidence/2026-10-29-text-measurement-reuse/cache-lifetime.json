@@ -1,0 +1,42 @@
+[
+  {
+    "stage": "warmed imports; cleared font cache",
+    "cache": {
+      "hits": 0,
+      "misses": 0,
+      "maxsize": null,
+      "currsize": 0
+    },
+    "rss_highwater_bytes_macos": 40271872
+  },
+  {
+    "stage": "20 repeated same tasks",
+    "cache": {
+      "hits": 114,
+      "misses": 6,
+      "maxsize": null,
+      "currsize": 6
+    },
+    "rss_highwater_bytes_macos": 43057152
+  },
+  {
+    "stage": "20 additional distinct font-size tasks",
+    "cache": {
+      "hits": 127,
+      "misses": 140,
+      "maxsize": null,
+      "currsize": 140
+    },
+    "rss_highwater_bytes_macos": 57720832
+  },
+  {
+    "stage": "after explicit cache clear; highwater cannot fall",
+    "cache": {
+      "hits": 0,
+      "misses": 0,
+      "maxsize": null,
+      "currsize": 0
+    },
+    "rss_highwater_bytes_macos": 57720832
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "file": "l3-1080x1920-output.json",
+    "render_s": 0.32260700000915676,
+    "warnings": [
+      "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+    ]
+  },
+  {
+    "file": "l3-300x250-output.json",
+    "render_s": 0.049586334032937884,
+    "warnings": [
+      "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+    ]
+  },
+  {
+    "file": "l3-970x250-output.json",
+    "render_s": 0.07964691706001759,
+    "warnings": [
+      "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+    ]
+  },
+  {
+    "file": "l3-singleton-group-output.json",
+    "render_s": 0.04892862506676465,
+    "warnings": [
+      "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+    ]
+  },
+  {
+    "file": "l3-small-decor-output.json",
+    "render_s": 0.049591417075134814,
+    "warnings": [
+      "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+    ]
+  },
+  {
+    "file": "public-l3-output.json",
+    "render_s": 0.04940550005994737,
+    "warnings": [
+      "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+    ]
+  }
+]

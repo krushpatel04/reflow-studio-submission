@@ -1,0 +1,34 @@
+ok 1 - cover crops a wide asset continuously at left, center, right and intermediate focal points
+ok 2 - contain letterboxes and positions the whole asset by its focal point without cropping
+ok 3 - scaling is uniform and a cover focal point is always inside the visible source region
+ok 4 - the edge-subject figure stays in view for cover frames from 1:4 to 2:1
+ok 5 - intrinsic asset dimensions are read from bundled SVG and PNG data URIs and match decoded images
+not ok 6 - native PNG shows the hand-computed asset features inside each frame and clips to the element rectangle
+  error: 'cover-tall-edge-subject figure head (950, 390) (166,196): 212,220,241 vs #1a2b30'
+not ok 7 - SVG draws the same unstretched rectangle as the shared crop, clipped to its frame
+  error: 'image: expected explicit geometry'
+ok 8 - an asset without readable dimensions still renders with the nearest alignment fallback
+not ok 9 - an opaque decoration moved over content is occlusion; the same decoration left clear is not
+  error: '[]'
+not ok 10 - an originally slight overlap that becomes substantially more obstructive is detected; the same slight overlap is legal
+  error: |-
+not ok 11 - the opaque full-canvas decorative cover fault injection reports hidden content, not only an inventory change
+  error: 'eyebrow not reported hidden'
+not ok 12 - semi-transparent layering: a legal translucent overlay is retained, a moved one that hides most of the text is reported
+  error: |-
+not ok 13 - text that ends up under a later-painted image is occluded
+  error: '[{"kind":"collision","severity":"error","elementIds":["headline","photo"],"message":"headline overlaps photo."}]'
+not ok 14 - white text that leaves its dark backing is reported as low contrast; text kept on its backing is not
+  error: '[]'
+not ok 15 - the grouped mixed-role separation is reported as invisible text, independently of the group check
+  error: '[{"kind":"group-geometry","severity":"error","elementIds":["plate","label"],"message":"Group \\"button\\": member rectangles no longer share a uniform scale and translation."}]'
+not ok 16 - contrast is computed against a composited semi-transparent backing at nearby and extreme ratios
+  error: |-
+not ok 17 - an intended overlap that grows substantially becomes a collision; the unchanged intentional overlap stays legal
+  error: '[]'
+not ok 18 - an extreme cover crop reports the retained share of the source-visible image; matching frames and contain do not
+  error: |-
+ok 19 - unreadable asset dimensions skip crop diagnostics instead of guessing
+ok 20 - positive controls: fixtures and grouped designs add no occlusion or contrast errors across formats, nearby and extreme sizes
+# pass 8
+# fail 12

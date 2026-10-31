@@ -1,0 +1,43 @@
+test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink (tests_python.test_extreme_composition.RenderedFloor.test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink) ... 
+  test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink (tests_python.test_extreme_composition.RenderedFloor.test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink) (target='728x90', text='cta_label') ... FAIL
+  test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink (tests_python.test_extreme_composition.RenderedFloor.test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink) (target='2000x300', text='cta_label') ... FAIL
+  test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink (tests_python.test_extreme_composition.RenderedFloor.test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink) (target='1600x400', text='ribbon_label') ... FAIL
+  test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink (tests_python.test_extreme_composition.RenderedFloor.test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink) (target='160x600', text='ribbon_label') ... FAIL
+
+======================================================================
+FAIL: test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink (tests_python.test_extreme_composition.RenderedFloor.test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink) (target='728x90', text='cta_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/A/tests_python/test_extreme_composition.py", line 141, in test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink
+    self.assertEqual(r["ink_px"], six["ink_px"])
+AssertionError: 193 != 281
+
+======================================================================
+FAIL: test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink (tests_python.test_extreme_composition.RenderedFloor.test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink) (target='2000x300', text='cta_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/A/tests_python/test_extreme_composition.py", line 141, in test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink
+    self.assertEqual(r["ink_px"], six["ink_px"])
+AssertionError: 191 != 281
+
+======================================================================
+FAIL: test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink (tests_python.test_extreme_composition.RenderedFloor.test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink) (target='1600x400', text='ribbon_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/A/tests_python/test_extreme_composition.py", line 141, in test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink
+    self.assertEqual(r["ink_px"], six["ink_px"])
+AssertionError: 133 != 181
+
+======================================================================
+FAIL: test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink (tests_python.test_extreme_composition.RenderedFloor.test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink) (target='160x600', text='ribbon_label')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/A/tests_python/test_extreme_composition.py", line 141, in test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink
+    self.assertEqual(r["ink_px"], six["ink_px"])
+AssertionError: 133 != 181
+
+----------------------------------------------------------------------
+Ran 1 test in 6.487s
+
+FAILED (failures=4)
+EXPECTED MUTANT REJECTION True

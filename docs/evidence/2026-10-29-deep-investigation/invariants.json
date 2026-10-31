@@ -1,0 +1,44 @@
+[
+  {
+    "case": "l3-1080x1920-input.json",
+    "target_exact": true,
+    "ordered_ids_equal": true,
+    "non_geometry_fields_equal": true,
+    "output_json_sha256": "64da746cf095a38e4c8fd3f4c1ae5d500a7de7a39cbfc114e263431b7b4c9dfe"
+  },
+  {
+    "case": "l3-300x250-input.json",
+    "target_exact": true,
+    "ordered_ids_equal": true,
+    "non_geometry_fields_equal": true,
+    "output_json_sha256": "72e9031443f9eb63a2c606042201277da5b6a8fc33fab930d7afa7af986f967b"
+  },
+  {
+    "case": "l3-970x250-input.json",
+    "target_exact": true,
+    "ordered_ids_equal": true,
+    "non_geometry_fields_equal": true,
+    "output_json_sha256": "721461dc5e0c4c80e0123daeeb24dd9b75e78d1cb9c336fdc2582198d702e8c1"
+  },
+  {
+    "case": "l3-singleton-group-input.json",
+    "target_exact": true,
+    "ordered_ids_equal": true,
+    "non_geometry_fields_equal": true,
+    "output_json_sha256": "f931860c4e3b10fdef6aea4c063ed40d4936e89150ad62212ae75239242fce8b"
+  },
+  {
+    "case": "l3-small-decor-input.json",
+    "target_exact": true,
+    "ordered_ids_equal": true,
+    "non_geometry_fields_equal": true,
+    "output_json_sha256": "a249e3adb0af3f3e3a56271bbaa697f40e67528c8dc3d39eb08f66693cc01f4a"
+  },
+  {
+    "case": "public-l3-input.json",
+    "target_exact": true,
+    "ordered_ids_equal": true,
+    "non_geometry_fields_equal": true,
+    "output_json_sha256": "4d3d47f40b93e099eec037558156d4830badf9f9cc41ff59bbb2139ea7ac0425"
+  }
+]

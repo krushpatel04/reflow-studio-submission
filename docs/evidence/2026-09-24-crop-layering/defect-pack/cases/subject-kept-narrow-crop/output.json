@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "edge-subject-photo",
+  "name": "edge-subject-photo",
+  "description": "Defect-control case",
+  "provenance": "synthetic",
+  "width": 1000,
+  "height": 1000,
+  "background": "#ffffff",
+  "groups": [],
+  "elements": [
+    {
+      "id": "photo",
+      "type": "image",
+      "role": "content",
+      "assetId": "landscape",
+      "fit": "cover",
+      "focalPoint": {
+        "x": 0.83,
+        "y": 0.55
+      },
+      "x": 100,
+      "y": 100,
+      "width": 200,
+      "height": 400
+    }
+  ]
+}

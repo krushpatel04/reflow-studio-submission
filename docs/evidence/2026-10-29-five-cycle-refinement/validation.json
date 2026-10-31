@@ -1,0 +1,56 @@
+{
+  "sourceCommit": "aa692404da2083c4a25a38226b1fef9ff6fbec4c",
+  "baseline": "13e68161ddbd0ff21c036278e216f771c2c19a54",
+  "cycles": 5,
+  "node": {
+    "passed": 744,
+    "failed": 0,
+    "skipped": 0
+  },
+  "browser": {
+    "passed": 43,
+    "failed": 0
+  },
+  "verifyPage": {
+    "passed": 20,
+    "total": 20
+  },
+  "nativeLayouts": 30,
+  "benchmark": {
+    "cases": 30,
+    "sourceErrors": 0,
+    "baselineErrors": 0,
+    "selectedErrors": 0,
+    "baselineWarnings": 45,
+    "selectedWarnings": 8,
+    "selectedCasesWithErrors": 0,
+    "medianLayoutMs": 28.038832999999954,
+    "p95LayoutMs": 83.94158300000004,
+    "selections": {
+      "identity": 1,
+      "uniform": 17,
+      "stack": 10,
+      "split": 0,
+      "group-grid-1": 0,
+      "group-grid-2": 0,
+      "group-grid-3": 2,
+      "group-grid-4": 0
+    }
+  },
+  "production": "production.json",
+  "npmAudit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "runtimeSha256": {
+    "src/main.ts": "a87f139abb4ead24c82663b09660701756907e0e3fbe2260db786b79f4f091af",
+    "src/typography.ts": "c608bfb16c7760710aefe0993aa9940bf23f1367bff133dc889aca79c65d8fdf",
+    "src/style.css": "192c5d7add48368e554ca070e9e112ec832162792ed24e363cd99a101f39e594",
+    "tests/browser-checks.ts": "ffe35acec99c89ef8e916c57178dd2ca2481ce67e26959c2e000611d485d6132"
+  },
+  "python": "Engine, requirements and packaging unchanged from qualified 8b0485a; existing image retained; no new Python qualification claimed."
+}

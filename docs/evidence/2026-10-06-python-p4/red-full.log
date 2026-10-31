@@ -1,0 +1,36 @@
+......F...FF.
+======================================================================
+FAIL: test_ungrouped_full_canvas_shape_fills_target (tests_python.test_layout.Bleed.test_ungrouped_full_canvas_shape_fills_target)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_layout.py", line 79, in test_ungrouped_full_canvas_shape_fills_target
+    self.assertEqual((o["x"], o["y"], o["width"], o["height"]), (0, 0, w, h))
+AssertionError: Tuples differ: (0.5, 0.0, 1000.0, 1000.0) != (0, 0, 1001, 1000)
+
+First differing element 0:
+0.5
+0
+
+- (0.5, 0.0, 1000.0, 1000.0)
++ (0, 0, 1001, 1000)
+
+======================================================================
+FAIL: test_font_below_schema_minimum_raises_naming_id (tests_python.test_layout.Impossible.test_font_below_schema_minimum_raises_naming_id)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_layout.py", line 97, in test_font_below_schema_minimum_raises_naming_id
+    with self.assertRaisesRegex(ValueError, "'t'"):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_overflowing_geometry_raises_naming_id (tests_python.test_layout.Impossible.test_overflowing_geometry_raises_naming_id)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_layout.py", line 102, in test_overflowing_geometry_raises_naming_id
+    with self.assertRaisesRegex(ValueError, "'s'"):
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.002s
+
+FAILED (failures=3)

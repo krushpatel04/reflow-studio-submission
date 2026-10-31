@@ -1,0 +1,126 @@
+{
+  "plans": [
+    {
+      "id": "PY-MIGRATION-2026-10-06",
+      "file": "2026-10-06-python-migration.md",
+      "sha256": "629033c24f549b8f7dc3afdd9285e6a9ba8e07145b625a27646060a3c91f8851",
+      "dependencies": [],
+      "requirements": [
+        {
+          "id": "M1",
+          "type": "V",
+          "evidence": [
+            "E1"
+          ]
+        },
+        {
+          "id": "M2",
+          "type": "V",
+          "evidence": [
+            "E2"
+          ]
+        },
+        {
+          "id": "M3",
+          "type": "V",
+          "evidence": [
+            "E3"
+          ]
+        },
+        {
+          "id": "M4",
+          "type": "V",
+          "evidence": [
+            "E4"
+          ]
+        },
+        {
+          "id": "M5",
+          "type": "V",
+          "evidence": [
+            "E5"
+          ]
+        },
+        {
+          "id": "M6",
+          "type": "V",
+          "evidence": [
+            "E6"
+          ]
+        },
+        {
+          "id": "M7",
+          "type": "V",
+          "evidence": [
+            "E7"
+          ]
+        },
+        {
+          "id": "M8",
+          "type": "V",
+          "evidence": [
+            "E8"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "E1",
+          "path": "runtime/results/python-migration/M1 (proposed)",
+          "assertions": [
+            "Corresponding M1 acceptance and evidence in plan; not yet executed"
+          ]
+        },
+        {
+          "id": "E2",
+          "path": "runtime/results/python-migration/M2 (proposed)",
+          "assertions": [
+            "Corresponding M2 acceptance and evidence in plan; not yet executed"
+          ]
+        },
+        {
+          "id": "E3",
+          "path": "runtime/results/python-migration/M3 (proposed)",
+          "assertions": [
+            "Corresponding M3 acceptance and evidence in plan; not yet executed"
+          ]
+        },
+        {
+          "id": "E4",
+          "path": "runtime/results/python-migration/M4 (proposed)",
+          "assertions": [
+            "Corresponding M4 acceptance and evidence in plan; not yet executed"
+          ]
+        },
+        {
+          "id": "E5",
+          "path": "runtime/results/python-migration/M5 (proposed)",
+          "assertions": [
+            "Corresponding M5 acceptance and evidence in plan; not yet executed"
+          ]
+        },
+        {
+          "id": "E6",
+          "path": "runtime/results/python-migration/M6 (proposed)",
+          "assertions": [
+            "Corresponding M6 acceptance and evidence in plan; not yet executed"
+          ]
+        },
+        {
+          "id": "E7",
+          "path": "runtime/results/python-migration/M7 (proposed)",
+          "assertions": [
+            "Corresponding M7 acceptance and evidence in plan; not yet executed"
+          ]
+        },
+        {
+          "id": "E8",
+          "path": "runtime/results/python-migration/M8 (proposed)",
+          "assertions": [
+            "Corresponding M8 acceptance and evidence in plan; not yet executed"
+          ]
+        }
+      ]
+    }
+  ]
+}

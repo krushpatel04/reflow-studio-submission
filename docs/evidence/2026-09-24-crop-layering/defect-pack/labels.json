@@ -1,0 +1,3664 @@
+{
+  "schemaVersion": "reflow.defect-pack.v1",
+  "status": "author-labelled by the implementer; independent review pending (#7/#20). Not ground truth for model fitting or scoring.",
+  "generatedAt": "2026-09-24T05:20:48.536Z",
+  "frozen": {
+    "engineCommit": "e10c9731da9c28a4f2cc9a81363d88093c6fc4b9",
+    "node": "v22.23.2",
+    "renderer": "@napi-rs/canvas@1.0.9",
+    "raster": "min(1, 720/width, 900/height)",
+    "fonts": [
+      {
+        "family": "Inter",
+        "weight": 500,
+        "subset": "latin",
+        "unicodeRange": "U+0-FF,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+304,U+308,U+329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "package": "@fontsource/inter@5.3.0",
+        "path": "node_modules/@fontsource/inter/files/inter-latin-500-normal.woff2",
+        "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+      },
+      {
+        "family": "Inter",
+        "weight": 700,
+        "subset": "latin",
+        "unicodeRange": "U+0-FF,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+304,U+308,U+329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "package": "@fontsource/inter@5.3.0",
+        "path": "node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2",
+        "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+      }
+    ],
+    "assets": [
+      {
+        "id": "orbit",
+        "sha256": "8f8774c3db12424195bf867f2c6ae227e7dc6e6d81be1aaf065d325b1308cffa"
+      },
+      {
+        "id": "landscape",
+        "sha256": "632d6a4cc7282444de882d660ffcc9f056776c3b0994f81275b7481864d2b955"
+      },
+      {
+        "id": "product",
+        "sha256": "0d22700b8db6f8e206d3151eeeae9dff2c7a0d66979254022fdd1e4306efba2f"
+      }
+    ]
+  },
+  "thresholds": {
+    "renderedDrop": 0.1,
+    "subjectKept": 0.9,
+    "evaluatorFlags": "any error, or a crop-loss/unsupported-glyph warning, naming an affected element"
+  },
+  "cases": [
+    {
+      "id": "opaque-decoration-over-headline",
+      "category": "occlusion",
+      "label": "defect",
+      "attractive": false,
+      "note": "A decoration-role sticker moves on top of the headline.",
+      "elements": [
+        "headline"
+      ],
+      "method": "pixels",
+      "source": {
+        "id": "opaque-decoration-over-headline",
+        "sha256": "2c12831262e1f8447e60373c0696ed078f4ecf3f8e5bc923277d814e2f135f08"
+      },
+      "output": {
+        "id": "opaque-decoration-over-headline",
+        "sha256": "d9bbda22e721ce43fff4617902844073ea712b0b119f0440af2e3e42b04fa546"
+      },
+      "evaluator": {
+        "verdict": "flagged",
+        "findings": [
+          {
+            "kind": "occlusion",
+            "severity": "error",
+            "elementIds": [
+              "headline",
+              "sticker"
+            ],
+            "region": {
+              "x": 120.61124992370605,
+              "y": 102.419921875,
+              "width": 618.3374977111816,
+              "height": 72.59765625
+            },
+            "message": "headline is 100% obscured by later layers (sticker); 0% in the source."
+          }
+        ]
+      },
+      "rendered": {
+        "verdict": "defect",
+        "elements": [
+          {
+            "id": "headline",
+            "source": 1,
+            "output": 0,
+            "verdict": "defect",
+            "region": {
+              "x": 102.77777777777779,
+              "y": 112.5,
+              "width": 654.1666666666667,
+              "height": 50
+            }
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "opaque-decoration-over-headline",
+          "name": "opaque-decoration-over-headline",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "headline",
+              "type": "text",
+              "role": "content",
+              "x": 100,
+              "y": 100,
+              "width": 800,
+              "height": 120,
+              "text": "A clear headline here",
+              "fontFamily": "Inter",
+              "fontSize": 64,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#111111"
+            },
+            {
+              "id": "body",
+              "type": "text",
+              "role": "content",
+              "x": 100,
+              "y": 300,
+              "width": 800,
+              "height": 60,
+              "text": "Quiet supporting copy",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": 500,
+              "lineHeight": 1.1,
+              "color": "#333333"
+            },
+            {
+              "id": "sticker",
+              "type": "rect",
+              "role": "decoration",
+              "x": 700,
+              "y": 700,
+              "width": 200,
+              "height": 200,
+              "color": "#e34850"
+            }
+          ]
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "opaque-decoration-over-headline",
+          "name": "opaque-decoration-over-headline",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "headline",
+              "type": "text",
+              "role": "content",
+              "x": 100,
+              "y": 100,
+              "width": 800,
+              "height": 120,
+              "text": "A clear headline here",
+              "fontFamily": "Inter",
+              "fontSize": 64,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#111111"
+            },
+            {
+              "id": "body",
+              "type": "text",
+              "role": "content",
+              "x": 100,
+              "y": 300,
+              "width": 800,
+              "height": 60,
+              "text": "Quiet supporting copy",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": 500,
+              "lineHeight": 1.1,
+              "color": "#333333"
+            },
+            {
+              "id": "sticker",
+              "type": "rect",
+              "role": "decoration",
+              "x": 90,
+              "y": 90,
+              "width": 820,
+              "height": 140,
+              "color": "#e34850"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "camouflaged-cover",
+      "category": "occlusion",
+      "label": "defect",
+      "attractive": true,
+      "note": "A background-coloured panel hides the headline; the result looks like a clean, sparse layout.",
+      "elements": [
+        "headline"
+      ],
+      "method": "pixels",
+      "source": {
+        "id": "camouflaged-cover",
+        "sha256": "809ee54b1a094379e20fc5a859e31d81cf4d0df5f46060e9a7bdad6e865d0200"
+      },
+      "output": {
+        "id": "camouflaged-cover",
+        "sha256": "345cd7b12c280a6f266f217b025a5c01e41b6938c47cc929d6952a0d5b8433e6"
+      },
+      "evaluator": {
+        "verdict": "flagged",
+        "findings": [
+          {
+            "kind": "occlusion",
+            "severity": "error",
+            "elementIds": [
+              "headline",
+              "panel"
+            ],
+            "region": {
+              "x": 120.61124992370605,
+              "y": 102.419921875,
+              "width": 618.3374977111816,
+              "height": 72.59765625
+            },
+            "message": "headline is 100% obscured by later layers (panel); 0% in the source."
+          }
+        ]
+      },
+      "rendered": {
+        "verdict": "defect",
+        "elements": [
+          {
+            "id": "headline",
+            "source": 1,
+            "output": 0,
+            "verdict": "defect",
+            "region": {
+              "x": 102.77777777777779,
+              "y": 112.5,
+              "width": 654.1666666666667,
+              "height": 50
+            }
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "camouflaged-cover",
+          "name": "camouflaged-cover",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "headline",
+              "type": "text",
+              "role": "content",
+              "x": 100,
+              "y": 100,
+              "width": 800,
+              "height": 120,
+              "text": "A clear headline here",
+              "fontFamily": "Inter",
+              "fontSize": 64,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#111111"
+            },
+            {
+              "id": "body",
+              "type": "text",
+              "role": "content",
+              "x": 100,
+              "y": 300,
+              "width": 800,
+              "height": 60,
+              "text": "Quiet supporting copy",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": 500,
+              "lineHeight": 1.1,
+              "color": "#333333"
+            },
+            {
+              "id": "panel",
+              "type": "rect",
+              "role": "decoration",
+              "x": 800,
+              "y": 800,
+              "width": 100,
+              "height": 100,
+              "color": "#ffffff"
+            }
+          ]
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "camouflaged-cover",
+          "name": "camouflaged-cover",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "headline",
+              "type": "text",
+              "role": "content",
+              "x": 100,
+              "y": 100,
+              "width": 800,
+              "height": 120,
+              "text": "A clear headline here",
+              "fontFamily": "Inter",
+              "fontSize": 64,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#111111"
+            },
+            {
+              "id": "body",
+              "type": "text",
+              "role": "content",
+              "x": 100,
+              "y": 300,
+              "width": 800,
+              "height": 60,
+              "text": "Quiet supporting copy",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": 500,
+              "lineHeight": 1.1,
+              "color": "#333333"
+            },
+            {
+              "id": "panel",
+              "type": "rect",
+              "role": "decoration",
+              "x": 90,
+              "y": 90,
+              "width": 820,
+              "height": 140,
+              "color": "#ffffff"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "veil-over-text",
+      "category": "occlusion",
+      "label": "defect",
+      "attractive": false,
+      "note": "An 80% opaque dark veil moves over dark text.",
+      "elements": [
+        "headline"
+      ],
+      "method": "pixels",
+      "source": {
+        "id": "veil-over-text",
+        "sha256": "eaffd94c8a83ef5d501b491ecc172156edc15f008fcc889559a2e23aa3141d2e"
+      },
+      "output": {
+        "id": "veil-over-text",
+        "sha256": "78c170cf1734abdd1f210249827e86128ba99bf3ef97be0000e0c0744f169b57"
+      },
+      "evaluator": {
+        "verdict": "flagged",
+        "findings": [
+          {
+            "kind": "occlusion",
+            "severity": "error",
+            "elementIds": [
+              "headline",
+              "veil"
+            ],
+            "region": {
+              "x": 120.61124992370605,
+              "y": 102.419921875,
+              "width": 618.3374977111816,
+              "height": 72.59765625
+            },
+            "message": "headline is 80% obscured by later layers (veil); 0% in the source."
+          }
+        ]
+      },
+      "rendered": {
+        "verdict": "defect",
+        "elements": [
+          {
+            "id": "headline",
+            "source": 1,
+            "output": 0,
+            "verdict": "defect",
+            "region": {
+              "x": 102.77777777777779,
+              "y": 112.5,
+              "width": 654.1666666666667,
+              "height": 50
+            }
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "veil-over-text",
+          "name": "veil-over-text",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "headline",
+              "type": "text",
+              "role": "content",
+              "x": 100,
+              "y": 100,
+              "width": 800,
+              "height": 120,
+              "text": "A clear headline here",
+              "fontFamily": "Inter",
+              "fontSize": 64,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#111111"
+            },
+            {
+              "id": "veil",
+              "type": "rect",
+              "role": "decoration",
+              "x": 700,
+              "y": 700,
+              "width": 200,
+              "height": 200,
+              "color": "#16362a",
+              "opacity": 0.8
+            }
+          ]
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "veil-over-text",
+          "name": "veil-over-text",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "headline",
+              "type": "text",
+              "role": "content",
+              "x": 100,
+              "y": 100,
+              "width": 800,
+              "height": 120,
+              "text": "A clear headline here",
+              "fontFamily": "Inter",
+              "fontSize": 64,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#111111"
+            },
+            {
+              "id": "veil",
+              "type": "rect",
+              "role": "decoration",
+              "x": 90,
+              "y": 90,
+              "width": 820,
+              "height": 140,
+              "color": "#16362a",
+              "opacity": 0.8
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "image-over-caption",
+      "category": "occlusion",
+      "label": "defect",
+      "attractive": false,
+      "note": "A later-painted photograph moves over earlier text.",
+      "elements": [
+        "caption"
+      ],
+      "method": "pixels",
+      "source": {
+        "id": "image-over-caption",
+        "sha256": "34b20fe9ee22951f3a2146f3d97504076d97a13d383496e339b074d9e8d5553e"
+      },
+      "output": {
+        "id": "image-over-caption",
+        "sha256": "e1ec3a21bbcc36ab5c0d9dc74dee18c9b210531a7724d00f4b7877bacfcd5983"
+      },
+      "evaluator": {
+        "verdict": "flagged",
+        "findings": [
+          {
+            "kind": "occlusion",
+            "severity": "error",
+            "elementIds": [
+              "caption",
+              "photo"
+            ],
+            "region": {
+              "x": 116.18281173706055,
+              "y": 101.83056640625,
+              "width": 485.4843521118164,
+              "height": 54.9169921875
+            },
+            "message": "caption is 100% obscured by later layers (photo); 0% in the source."
+          },
+          {
+            "kind": "collision",
+            "severity": "error",
+            "elementIds": [
+              "caption",
+              "photo"
+            ],
+            "message": "caption overlaps photo.",
+            "region": {
+              "x": 100,
+              "y": 100,
+              "width": 800,
+              "height": 90
+            }
+          }
+        ]
+      },
+      "rendered": {
+        "verdict": "defect",
+        "elements": [
+          {
+            "id": "caption",
+            "source": 1,
+            "output": 0,
+            "verdict": "defect",
+            "region": {
+              "x": 104.16666666666667,
+              "y": 112.5,
+              "width": 511.11111111111114,
+              "height": 44.44444444444444
+            }
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "image-over-caption",
+          "name": "image-over-caption",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "caption",
+              "type": "text",
+              "role": "content",
+              "x": 100,
+              "y": 100,
+              "width": 800,
+              "height": 90,
+              "text": "Meet at the north gate",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#111111"
+            },
+            {
+              "id": "photo",
+              "type": "image",
+              "role": "content",
+              "assetId": "landscape",
+              "fit": "cover",
+              "focalPoint": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "x": 100,
+              "y": 400,
+              "width": 800,
+              "height": 500
+            }
+          ]
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "image-over-caption",
+          "name": "image-over-caption",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "caption",
+              "type": "text",
+              "role": "content",
+              "x": 100,
+              "y": 100,
+              "width": 800,
+              "height": 90,
+              "text": "Meet at the north gate",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#111111"
+            },
+            {
+              "id": "photo",
+              "type": "image",
+              "role": "content",
+              "assetId": "landscape",
+              "fit": "cover",
+              "focalPoint": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "x": 100,
+              "y": 60,
+              "width": 800,
+              "height": 500
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "paint-order-reversed",
+      "category": "paint-order",
+      "label": "defect",
+      "attractive": false,
+      "note": "The label is painted before its opaque plate.",
+      "elements": [
+        "label"
+      ],
+      "method": "pixels",
+      "source": {
+        "id": "label-on-plate",
+        "sha256": "bb99bbdd816b376fb23a742a80c2c6f3a8bb3e263a93ca1b35c065ddf5b5c882"
+      },
+      "output": {
+        "id": "label-on-plate",
+        "sha256": "a4667eb32627c119cc3eca8049d1233948e7954b889fe1401393aeffd7b95b1b"
+      },
+      "evaluator": {
+        "verdict": "flagged",
+        "findings": [
+          {
+            "kind": "preservation",
+            "severity": "error",
+            "elementIds": [
+              "label",
+              "plate"
+            ],
+            "message": "$.elements: paint order changed."
+          },
+          {
+            "kind": "occlusion",
+            "severity": "error",
+            "elementIds": [
+              "label",
+              "plate"
+            ],
+            "region": {
+              "x": 147.8899998664856,
+              "y": 161.512451171875,
+              "width": 236.69999599456787,
+              "height": 45.37353515625
+            },
+            "message": "label is 100% obscured by later layers (plate); 0% in the source."
+          },
+          {
+            "kind": "low-contrast",
+            "severity": "error",
+            "elementIds": [
+              "label"
+            ],
+            "region": {
+              "x": 147.8899998664856,
+              "y": 161.512451171875,
+              "width": 236.69999599456787,
+              "height": 45.37353515625
+            },
+            "message": "label keeps 3:1 contrast over 0% of its text area against its backing; 100% in the source."
+          }
+        ]
+      },
+      "rendered": {
+        "verdict": "defect",
+        "elements": [
+          {
+            "id": "label",
+            "source": 1,
+            "output": 0,
+            "verdict": "defect",
+            "region": {
+              "x": 141.66666666666669,
+              "y": 169.44444444444446,
+              "width": 248.61111111111111,
+              "height": 29.166666666666668
+            }
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "label-on-plate",
+          "name": "label-on-plate",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "plate",
+              "type": "rect",
+              "role": "decoration",
+              "x": 100,
+              "y": 100,
+              "width": 500,
+              "height": 200,
+              "color": "#16362a"
+            },
+            {
+              "id": "label",
+              "type": "text",
+              "role": "content",
+              "x": 140,
+              "y": 160,
+              "width": 420,
+              "height": 70,
+              "text": "CALL TODAY",
+              "fontFamily": "Inter",
+              "fontSize": 40,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#ffffff"
+            }
+          ]
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "label-on-plate",
+          "name": "label-on-plate",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "label",
+              "type": "text",
+              "role": "content",
+              "x": 140,
+              "y": 160,
+              "width": 420,
+              "height": 70,
+              "text": "CALL TODAY",
+              "fontFamily": "Inter",
+              "fontSize": 40,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#ffffff"
+            },
+            {
+              "id": "plate",
+              "type": "rect",
+              "role": "decoration",
+              "x": 100,
+              "y": 100,
+              "width": 500,
+              "height": 200,
+              "color": "#16362a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "zero-opacity-label",
+      "category": "opacity",
+      "label": "defect",
+      "attractive": true,
+      "note": "The label becomes fully transparent; the plate looks like a clean empty button.",
+      "elements": [
+        "label"
+      ],
+      "method": "pixels",
+      "source": {
+        "id": "label-on-plate",
+        "sha256": "bb99bbdd816b376fb23a742a80c2c6f3a8bb3e263a93ca1b35c065ddf5b5c882"
+      },
+      "output": {
+        "id": "label-on-plate",
+        "sha256": "71324f4e158c6829204fa80394299c921f2302e633760cd92abff516716ac223"
+      },
+      "evaluator": {
+        "verdict": "flagged",
+        "findings": [
+          {
+            "kind": "preservation",
+            "severity": "error",
+            "elementIds": [
+              "label"
+            ],
+            "message": "$.elements[1].opacity: protected source value changed or missing."
+          },
+          {
+            "kind": "low-contrast",
+            "severity": "error",
+            "elementIds": [
+              "label"
+            ],
+            "region": {
+              "x": 147.8899998664856,
+              "y": 161.512451171875,
+              "width": 236.69999599456787,
+              "height": 45.37353515625
+            },
+            "message": "label keeps 3:1 contrast over 0% of its text area against its backing; 100% in the source."
+          }
+        ]
+      },
+      "rendered": {
+        "verdict": "defect",
+        "elements": [
+          {
+            "id": "label",
+            "source": 1,
+            "output": 0,
+            "verdict": "defect",
+            "region": {
+              "x": 141.66666666666669,
+              "y": 169.44444444444446,
+              "width": 248.61111111111111,
+              "height": 29.166666666666668
+            }
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "label-on-plate",
+          "name": "label-on-plate",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "plate",
+              "type": "rect",
+              "role": "decoration",
+              "x": 100,
+              "y": 100,
+              "width": 500,
+              "height": 200,
+              "color": "#16362a"
+            },
+            {
+              "id": "label",
+              "type": "text",
+              "role": "content",
+              "x": 140,
+              "y": 160,
+              "width": 420,
+              "height": 70,
+              "text": "CALL TODAY",
+              "fontFamily": "Inter",
+              "fontSize": 40,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#ffffff"
+            }
+          ]
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "label-on-plate",
+          "name": "label-on-plate",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "plate",
+              "type": "rect",
+              "role": "decoration",
+              "x": 100,
+              "y": 100,
+              "width": 500,
+              "height": 200,
+              "color": "#16362a"
+            },
+            {
+              "id": "label",
+              "type": "text",
+              "role": "content",
+              "x": 140,
+              "y": 160,
+              "width": 420,
+              "height": 70,
+              "text": "CALL TODAY",
+              "fontFamily": "Inter",
+              "fontSize": 40,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#ffffff",
+              "opacity": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "label-off-plate",
+      "category": "contrast",
+      "label": "defect",
+      "attractive": true,
+      "note": "White text leaves its dark plate and lands on white canvas.",
+      "elements": [
+        "label"
+      ],
+      "method": "pixels",
+      "source": {
+        "id": "label-on-plate",
+        "sha256": "bb99bbdd816b376fb23a742a80c2c6f3a8bb3e263a93ca1b35c065ddf5b5c882"
+      },
+      "output": {
+        "id": "label-on-plate",
+        "sha256": "967d624e481881c37d77a0446088eb4f364045da2a7d99632a31f949aaca8351"
+      },
+      "evaluator": {
+        "verdict": "flagged",
+        "findings": [
+          {
+            "kind": "low-contrast",
+            "severity": "error",
+            "elementIds": [
+              "label"
+            ],
+            "region": {
+              "x": 147.8899998664856,
+              "y": 601.512451171875,
+              "width": 236.69999599456787,
+              "height": 45.37353515625
+            },
+            "message": "label keeps 3:1 contrast over 0% of its text area against its backing; 100% in the source."
+          }
+        ]
+      },
+      "rendered": {
+        "verdict": "defect",
+        "elements": [
+          {
+            "id": "label",
+            "source": 1,
+            "output": 0,
+            "verdict": "defect",
+            "region": {
+              "x": 141.66666666666669,
+              "y": 609.7222222222223,
+              "width": 248.61111111111111,
+              "height": 29.166666666666668
+            }
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "label-on-plate",
+          "name": "label-on-plate",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "plate",
+              "type": "rect",
+              "role": "decoration",
+              "x": 100,
+              "y": 100,
+              "width": 500,
+              "height": 200,
+              "color": "#16362a"
+            },
+            {
+              "id": "label",
+              "type": "text",
+              "role": "content",
+              "x": 140,
+              "y": 160,
+              "width": 420,
+              "height": 70,
+              "text": "CALL TODAY",
+              "fontFamily": "Inter",
+              "fontSize": 40,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#ffffff"
+            }
+          ]
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "label-on-plate",
+          "name": "label-on-plate",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "plate",
+              "type": "rect",
+              "role": "decoration",
+              "x": 100,
+              "y": 100,
+              "width": 500,
+              "height": 200,
+              "color": "#16362a"
+            },
+            {
+              "id": "label",
+              "type": "text",
+              "role": "content",
+              "x": 140,
+              "y": 600,
+              "width": 420,
+              "height": 70,
+              "text": "CALL TODAY",
+              "fontFamily": "Inter",
+              "fontSize": 40,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#ffffff"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "label-half-off-translucent-plate",
+      "category": "contrast",
+      "label": "defect",
+      "attractive": false,
+      "note": "White text half leaves a 60% black plate.",
+      "elements": [
+        "label"
+      ],
+      "method": "pixels",
+      "source": {
+        "id": "label-on-translucent-plate",
+        "sha256": "03d78e1aa02014097c77472517fc151c28e7d0ec718d52fdcacdd97e5518882d"
+      },
+      "output": {
+        "id": "label-on-translucent-plate",
+        "sha256": "437178313e1bc1c89878795e9fbc18047a527e81a19da30ff847e35dceb92cfa"
+      },
+      "evaluator": {
+        "verdict": "flagged",
+        "findings": [
+          {
+            "kind": "low-contrast",
+            "severity": "error",
+            "elementIds": [
+              "label"
+            ],
+            "region": {
+              "x": 606.7899985313416,
+              "y": 161.512451171875,
+              "width": 157.7999973297119,
+              "height": 45.37353515625
+            },
+            "message": "label keeps 3:1 contrast over 31% of its text area against its backing; 100% in the source."
+          }
+        ]
+      },
+      "rendered": {
+        "verdict": "defect",
+        "elements": [
+          {
+            "id": "label",
+            "source": 1,
+            "output": 0.3249607535321821,
+            "verdict": "defect",
+            "region": {
+              "x": 604.1666666666667,
+              "y": 169.44444444444446,
+              "width": 166.66666666666669,
+              "height": 29.166666666666668
+            }
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "label-on-translucent-plate",
+          "name": "label-on-translucent-plate",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "plate",
+              "type": "rect",
+              "role": "decoration",
+              "x": 100,
+              "y": 100,
+              "width": 500,
+              "height": 200,
+              "color": "#000000",
+              "opacity": 0.6
+            },
+            {
+              "id": "label",
+              "type": "text",
+              "role": "content",
+              "x": 140,
+              "y": 160,
+              "width": 420,
+              "height": 70,
+              "text": "CALL TODAY",
+              "fontFamily": "Inter",
+              "fontSize": 40,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#ffffff"
+            }
+          ]
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "label-on-translucent-plate",
+          "name": "label-on-translucent-plate",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "plate",
+              "type": "rect",
+              "role": "decoration",
+              "x": 100,
+              "y": 100,
+              "width": 500,
+              "height": 200,
+              "color": "#000000",
+              "opacity": 0.6
+            },
+            {
+              "id": "label",
+              "type": "text",
+              "role": "content",
+              "x": 520,
+              "y": 160,
+              "width": 420,
+              "height": 70,
+              "text": "CALL TODAY",
+              "fontFamily": "Inter",
+              "fontSize": 40,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#ffffff"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "caption-onto-matching-photo-region",
+      "category": "contrast-over-image",
+      "label": "defect",
+      "attractive": true,
+      "note": "Dark caption moves within the photo from pale sky onto the dark foreground of the same colour. The overlap share is unchanged and the backing is an image, so the geometric evaluator has no contrast verdict.",
+      "elements": [
+        "caption"
+      ],
+      "method": "pixels",
+      "source": {
+        "id": "caption-on-photo",
+        "sha256": "90cbaa0842546545a1998b18e6a5d867a3f58753329d121674c24e85fea92648"
+      },
+      "output": {
+        "id": "caption-on-photo",
+        "sha256": "c7a52ac3b4c1674570dcc27c8b6053646bb963fc41a51f12da8680e5d0564834"
+      },
+      "evaluator": {
+        "verdict": "clean",
+        "findings": []
+      },
+      "rendered": {
+        "verdict": "defect",
+        "elements": [
+          {
+            "id": "caption",
+            "source": 1,
+            "output": 0,
+            "verdict": "defect",
+            "region": {
+              "x": 111.11111111111111,
+              "y": 569.4444444444445,
+              "width": 275,
+              "height": 25
+            }
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "caption-on-photo",
+          "name": "caption-on-photo",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "photo",
+              "type": "image",
+              "role": "content",
+              "assetId": "landscape",
+              "fit": "cover",
+              "focalPoint": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "x": 100,
+              "y": 100,
+              "width": 800,
+              "height": 533.333
+            },
+            {
+              "id": "caption",
+              "type": "text",
+              "role": "content",
+              "x": 120,
+              "y": 110,
+              "width": 300,
+              "height": 60,
+              "text": "WALKING CLUB",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#21394c"
+            }
+          ]
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "caption-on-photo",
+          "name": "caption-on-photo",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "photo",
+              "type": "image",
+              "role": "content",
+              "assetId": "landscape",
+              "fit": "cover",
+              "focalPoint": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "x": 100,
+              "y": 100,
+              "width": 800,
+              "height": 533.333
+            },
+            {
+              "id": "caption",
+              "type": "text",
+              "role": "content",
+              "x": 110,
+              "y": 560,
+              "width": 300,
+              "height": 60,
+              "text": "WALKING CLUB",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#21394c"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "headline-clipped-by-box",
+      "category": "clipping",
+      "label": "defect",
+      "attractive": false,
+      "note": "The headline box shrinks below its line height and clips the glyphs.",
+      "elements": [
+        "headline"
+      ],
+      "method": "pixels",
+      "source": {
+        "id": "headline-box",
+        "sha256": "c8b36638f5b38fe5a04ef410b56f6cb5ec93f958f7c33b0ed9f28d55cead2a4e"
+      },
+      "output": {
+        "id": "headline-box",
+        "sha256": "c687e740802b3dce00fcf13743172891aaff6786ec3e84b41849a989cf1ab416"
+      },
+      "evaluator": {
+        "verdict": "flagged",
+        "findings": [
+          {
+            "kind": "text-overflow",
+            "severity": "error",
+            "elementIds": [
+              "headline"
+            ],
+            "message": "headline clips its text box."
+          }
+        ]
+      },
+      "rendered": {
+        "verdict": "defect",
+        "elements": [
+          {
+            "id": "headline",
+            "source": 1,
+            "output": 0.4223756417064967,
+            "verdict": "defect",
+            "region": {
+              "x": 102.77777777777779,
+              "y": 140.27777777777777,
+              "width": 654.1666666666667,
+              "height": 22.22222222222222
+            }
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "headline-box",
+          "name": "headline-box",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "headline",
+              "type": "text",
+              "role": "content",
+              "x": 100,
+              "y": 100,
+              "width": 800,
+              "height": 120,
+              "text": "A clear headline here",
+              "fontFamily": "Inter",
+              "fontSize": 64,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#111111"
+            },
+            {
+              "id": "body",
+              "type": "text",
+              "role": "content",
+              "x": 100,
+              "y": 300,
+              "width": 800,
+              "height": 60,
+              "text": "Quiet supporting copy",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": 500,
+              "lineHeight": 1.1,
+              "color": "#333333"
+            }
+          ]
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "headline-box",
+          "name": "headline-box",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "headline",
+              "type": "text",
+              "role": "content",
+              "x": 100,
+              "y": 100,
+              "width": 800,
+              "height": 40,
+              "text": "A clear headline here",
+              "fontFamily": "Inter",
+              "fontSize": 64,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#111111"
+            },
+            {
+              "id": "body",
+              "type": "text",
+              "role": "content",
+              "x": 100,
+              "y": 300,
+              "width": 800,
+              "height": 60,
+              "text": "Quiet supporting copy",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": 500,
+              "lineHeight": 1.1,
+              "color": "#333333"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "subject-cropped-out",
+      "category": "crop",
+      "label": "defect",
+      "attractive": false,
+      "note": "A 1:8 frame keeps the focal point but cuts the figure.",
+      "elements": [
+        "photo"
+      ],
+      "method": "subject",
+      "source": {
+        "id": "edge-subject-photo",
+        "sha256": "fe61bd77b04b7a000346bc552285ff1f88abd11fce05db85c10fb003cf1b97d1"
+      },
+      "output": {
+        "id": "edge-subject-photo",
+        "sha256": "298b3221473a669b6b3e49d1de7e0658cad7c246d891d035e2833147ab4325e4"
+      },
+      "evaluator": {
+        "verdict": "flagged",
+        "findings": [
+          {
+            "kind": "crop-loss",
+            "severity": "warning",
+            "elementIds": [
+              "photo"
+            ],
+            "region": {
+              "x": 100,
+              "y": 100,
+              "width": 50,
+              "height": 400
+            },
+            "message": "photo shows 8% of the image region visible in the source."
+          }
+        ]
+      },
+      "rendered": {
+        "verdict": "defect",
+        "elements": [
+          {
+            "id": "photo",
+            "source": 35563.27160493827,
+            "output": 28773.14814814815,
+            "verdict": "defect",
+            "region": {
+              "x": 100,
+              "y": 100,
+              "width": 50,
+              "height": 400
+            }
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "edge-subject-photo",
+          "name": "edge-subject-photo",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "photo",
+              "type": "image",
+              "role": "content",
+              "assetId": "landscape",
+              "fit": "cover",
+              "focalPoint": {
+                "x": 0.83,
+                "y": 0.55
+              },
+              "x": 100,
+              "y": 100,
+              "width": 600,
+              "height": 400
+            }
+          ]
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "edge-subject-photo",
+          "name": "edge-subject-photo",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "photo",
+              "type": "image",
+              "role": "content",
+              "assetId": "landscape",
+              "fit": "cover",
+              "focalPoint": {
+                "x": 0.83,
+                "y": 0.55
+              },
+              "x": 100,
+              "y": 100,
+              "width": 50,
+              "height": 400
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "uncovered-glyph",
+      "category": "glyph",
+      "label": "defect",
+      "attractive": false,
+      "note": "The CJK characters are outside the bundled Inter coverage and each renderer substitutes its own fallback. Present in the source, so not a reflow change.",
+      "elements": [
+        "greeting"
+      ],
+      "method": "none",
+      "source": {
+        "id": "uncovered-glyph",
+        "sha256": "1e5776d7ec4570c8c745550c1358feb42dccdb5cf91e9065995b9939330c9ba4"
+      },
+      "output": {
+        "id": "uncovered-glyph",
+        "sha256": "1a6152361c508ae6fd29164b5a2d371807d266d0aebe30b279ef701bc8972e80"
+      },
+      "evaluator": {
+        "verdict": "flagged",
+        "findings": [
+          {
+            "kind": "unsupported-glyph",
+            "severity": "warning",
+            "elementIds": [
+              "greeting"
+            ],
+            "message": "Element \"greeting\" uses 2 character(s) not in \"Inter\"'s declared coverage (e.g. U+4F60); renderers will substitute a fallback glyph."
+          }
+        ]
+      },
+      "rendered": {
+        "verdict": "not-measured",
+        "elements": []
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "uncovered-glyph",
+          "name": "uncovered-glyph",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "greeting",
+              "type": "text",
+              "role": "content",
+              "x": 100,
+              "y": 100,
+              "width": 800,
+              "height": 120,
+              "text": "你好 — hello",
+              "fontFamily": "Inter",
+              "fontSize": 64,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#111111"
+            }
+          ]
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "uncovered-glyph",
+          "name": "uncovered-glyph",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1080,
+          "height": 1080,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "greeting",
+              "type": "text",
+              "role": "content",
+              "x": 108,
+              "y": 108,
+              "width": 864,
+              "height": 129.60000000000002,
+              "text": "你好 — hello",
+              "fontFamily": "Inter",
+              "fontSize": 69.12,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#111111"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "intentional-overlap-story",
+      "category": "legal-overlay",
+      "label": "legal",
+      "attractive": false,
+      "note": "Headline on its panel over a photograph, uniformly scaled.",
+      "elements": [
+        "headline",
+        "description"
+      ],
+      "method": "pixels",
+      "source": {
+        "id": "intentional-overlap",
+        "sha256": "f7a191cb7aa0fa36ee519d52efde7d81fbefd11a527337ad75e968f5f5a4fd5c"
+      },
+      "output": {
+        "id": "intentional-overlap",
+        "sha256": "5b6338947e9e231e4faf3c0a95fb7d1c41f2eca61ac1663f54f8692761407269"
+      },
+      "evaluator": {
+        "verdict": "clean",
+        "findings": []
+      },
+      "rendered": {
+        "verdict": "ok",
+        "elements": [
+          {
+            "id": "headline",
+            "source": 1,
+            "output": 1,
+            "verdict": "ok"
+          },
+          {
+            "id": "description",
+            "source": 1,
+            "output": 1,
+            "verdict": "ok"
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "intentional-overlap",
+          "name": "Designed to overlap",
+          "description": "Text intentionally overlays artwork; that overlap should not be scored as a collision.",
+          "provenance": "synthetic",
+          "width": 1080,
+          "height": 1350,
+          "background": "#f7f3e9",
+          "elements": [
+            {
+              "id": "hero",
+              "type": "image",
+              "role": "content",
+              "assetId": "landscape",
+              "x": 60,
+              "y": 65,
+              "width": 960,
+              "height": 845,
+              "fit": "cover",
+              "focalPoint": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "groupId": "hero-composition"
+            },
+            {
+              "id": "title-panel",
+              "type": "rect",
+              "role": "content",
+              "x": 98,
+              "y": 515,
+              "width": 840,
+              "height": 286,
+              "color": "#f7f3e9",
+              "groupId": "hero-composition",
+              "radius": 14
+            },
+            {
+              "id": "headline",
+              "type": "text",
+              "role": "content",
+              "text": "Find your\noutside.",
+              "x": 132,
+              "y": 555,
+              "width": 765,
+              "height": 222,
+              "fontSize": 89,
+              "color": "#22394b",
+              "fontWeight": 700,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14,
+              "groupId": "hero-composition"
+            },
+            {
+              "id": "description",
+              "type": "text",
+              "role": "content",
+              "text": "A walk, a sketchbook,\nand a different perspective.",
+              "x": 72,
+              "y": 980,
+              "width": 936,
+              "height": 142,
+              "fontSize": 43,
+              "color": "#22394b",
+              "fontWeight": 500,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14
+            },
+            {
+              "id": "footer",
+              "type": "text",
+              "role": "content",
+              "text": "SUNDAY 09:00 · MEET AT THE NORTH GATE",
+              "x": 72,
+              "y": 1190,
+              "width": 936,
+              "height": 73,
+              "fontSize": 30,
+              "color": "#22394b",
+              "fontWeight": 700,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14
+            }
+          ],
+          "groups": [
+            {
+              "id": "hero-composition",
+              "label": "hero composition"
+            }
+          ]
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "intentional-overlap",
+          "name": "Designed to overlap",
+          "description": "Text intentionally overlays artwork; that overlap should not be scored as a collision.",
+          "provenance": "synthetic",
+          "width": 1080,
+          "height": 1920,
+          "background": "#f7f3e9",
+          "elements": [
+            {
+              "id": "hero",
+              "type": "image",
+              "role": "content",
+              "assetId": "landscape",
+              "x": 60,
+              "y": 350,
+              "width": 960,
+              "height": 845,
+              "fit": "cover",
+              "focalPoint": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "groupId": "hero-composition"
+            },
+            {
+              "id": "title-panel",
+              "type": "rect",
+              "role": "content",
+              "x": 98,
+              "y": 800,
+              "width": 840,
+              "height": 286,
+              "color": "#f7f3e9",
+              "groupId": "hero-composition",
+              "radius": 14
+            },
+            {
+              "id": "headline",
+              "type": "text",
+              "role": "content",
+              "text": "Find your\noutside.",
+              "x": 132,
+              "y": 840,
+              "width": 765,
+              "height": 222,
+              "fontSize": 89,
+              "color": "#22394b",
+              "fontWeight": 700,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14,
+              "groupId": "hero-composition"
+            },
+            {
+              "id": "description",
+              "type": "text",
+              "role": "content",
+              "text": "A walk, a sketchbook,\nand a different perspective.",
+              "x": 72,
+              "y": 1265,
+              "width": 936,
+              "height": 142,
+              "fontSize": 43,
+              "color": "#22394b",
+              "fontWeight": 500,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14
+            },
+            {
+              "id": "footer",
+              "type": "text",
+              "role": "content",
+              "text": "SUNDAY 09:00 · MEET AT THE NORTH GATE",
+              "x": 72,
+              "y": 1475,
+              "width": 936,
+              "height": 73,
+              "fontSize": 30,
+              "color": "#22394b",
+              "fontWeight": 700,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14
+            }
+          ],
+          "groups": [
+            {
+              "id": "hero-composition",
+              "label": "hero composition"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "layered-art-landscape",
+      "category": "transparency",
+      "label": "legal",
+      "attractive": false,
+      "note": "Translucent decorative orbs behind text.",
+      "elements": [
+        "headline",
+        "eyebrow",
+        "footer"
+      ],
+      "method": "pixels",
+      "source": {
+        "id": "layered-art",
+        "sha256": "5ddc2511137c45cf046a47f05467b81165b99d9538b10a328abe0a1610a3f99e"
+      },
+      "output": {
+        "id": "layered-art",
+        "sha256": "6d54f0694e165b31013a00e1e07e283424d77617c6a3ffa69da1de34ca21011c"
+      },
+      "evaluator": {
+        "verdict": "clean",
+        "findings": []
+      },
+      "rendered": {
+        "verdict": "ok",
+        "elements": [
+          {
+            "id": "headline",
+            "source": 1,
+            "output": 1,
+            "verdict": "ok"
+          },
+          {
+            "id": "eyebrow",
+            "source": 1,
+            "output": 1,
+            "verdict": "ok"
+          },
+          {
+            "id": "footer",
+            "source": 1,
+            "output": 1,
+            "verdict": "ok"
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "layered-art",
+          "name": "Layers of possibility",
+          "description": "Transparent decorative shapes preserve paint order and intentional overlap.",
+          "provenance": "synthetic",
+          "width": 1080,
+          "height": 1080,
+          "background": "#ece4f1",
+          "elements": [
+            {
+              "id": "orb-1",
+              "type": "ellipse",
+              "role": "decoration",
+              "x": 430,
+              "y": 110,
+              "width": 565,
+              "height": 565,
+              "color": "#8263bc",
+              "opacity": 0.55
+            },
+            {
+              "id": "orb-2",
+              "type": "ellipse",
+              "role": "decoration",
+              "x": 225,
+              "y": 300,
+              "width": 590,
+              "height": 590,
+              "color": "#e7aa6e",
+              "opacity": 0.65
+            },
+            {
+              "id": "eyebrow",
+              "type": "text",
+              "role": "content",
+              "text": "EXPERIMENT / 006",
+              "x": 68,
+              "y": 64,
+              "width": 900,
+              "height": 52,
+              "fontSize": 30,
+              "color": "#2b1e3d",
+              "fontWeight": 500,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14
+            },
+            {
+              "id": "headline",
+              "type": "text",
+              "role": "content",
+              "text": "Make\nsomething\nunexpected.",
+              "x": 68,
+              "y": 202,
+              "width": 940,
+              "height": 415,
+              "fontSize": 106,
+              "color": "#2b1e3d",
+              "fontWeight": 700,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14
+            },
+            {
+              "id": "footer",
+              "type": "text",
+              "role": "content",
+              "text": "OPEN LAB · WEDNESDAY · 18:00",
+              "x": 68,
+              "y": 902,
+              "width": 940,
+              "height": 92,
+              "fontSize": 33,
+              "color": "#2b1e3d",
+              "fontWeight": 700,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14
+            }
+          ],
+          "groups": []
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "layered-art",
+          "name": "Layers of possibility",
+          "description": "Transparent decorative shapes preserve paint order and intentional overlap.",
+          "provenance": "synthetic",
+          "width": 1920,
+          "height": 1080,
+          "background": "#ece4f1",
+          "elements": [
+            {
+              "id": "orb-1",
+              "type": "ellipse",
+              "role": "decoration",
+              "x": 850,
+              "y": 110,
+              "width": 565,
+              "height": 565,
+              "color": "#8263bc",
+              "opacity": 0.55
+            },
+            {
+              "id": "orb-2",
+              "type": "ellipse",
+              "role": "decoration",
+              "x": 645,
+              "y": 300,
+              "width": 590,
+              "height": 590,
+              "color": "#e7aa6e",
+              "opacity": 0.65
+            },
+            {
+              "id": "eyebrow",
+              "type": "text",
+              "role": "content",
+              "text": "EXPERIMENT / 006",
+              "x": 488,
+              "y": 64,
+              "width": 900,
+              "height": 52,
+              "fontSize": 30,
+              "color": "#2b1e3d",
+              "fontWeight": 500,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14
+            },
+            {
+              "id": "headline",
+              "type": "text",
+              "role": "content",
+              "text": "Make\nsomething\nunexpected.",
+              "x": 488,
+              "y": 202,
+              "width": 940,
+              "height": 415,
+              "fontSize": 106,
+              "color": "#2b1e3d",
+              "fontWeight": 700,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14
+            },
+            {
+              "id": "footer",
+              "type": "text",
+              "role": "content",
+              "text": "OPEN LAB · WEDNESDAY · 18:00",
+              "x": 488,
+              "y": 902,
+              "width": 940,
+              "height": 92,
+              "fontSize": 33,
+              "color": "#2b1e3d",
+              "fontWeight": 700,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14
+            }
+          ],
+          "groups": []
+        }
+      }
+    },
+    {
+      "id": "label-on-plate-extreme",
+      "category": "legal-overlay",
+      "label": "legal",
+      "attractive": false,
+      "note": "Text on its plate at an extreme ratio.",
+      "elements": [
+        "label"
+      ],
+      "method": "pixels",
+      "source": {
+        "id": "label-on-plate",
+        "sha256": "bb99bbdd816b376fb23a742a80c2c6f3a8bb3e263a93ca1b35c065ddf5b5c882"
+      },
+      "output": {
+        "id": "label-on-plate",
+        "sha256": "7aa58c9b089d598471ad3dce39f598dabb149257aa22f58b4997fb715dc0391f"
+      },
+      "evaluator": {
+        "verdict": "clean",
+        "findings": []
+      },
+      "rendered": {
+        "verdict": "ok",
+        "elements": [
+          {
+            "id": "label",
+            "source": 1,
+            "output": 1,
+            "verdict": "ok"
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "label-on-plate",
+          "name": "label-on-plate",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "plate",
+              "type": "rect",
+              "role": "decoration",
+              "x": 100,
+              "y": 100,
+              "width": 500,
+              "height": 200,
+              "color": "#16362a"
+            },
+            {
+              "id": "label",
+              "type": "text",
+              "role": "content",
+              "x": 140,
+              "y": 160,
+              "width": 420,
+              "height": 70,
+              "text": "CALL TODAY",
+              "fontFamily": "Inter",
+              "fontSize": 40,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#ffffff"
+            }
+          ]
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "label-on-plate",
+          "name": "label-on-plate",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 3000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "plate",
+              "type": "rect",
+              "role": "decoration",
+              "x": 100,
+              "y": 1100,
+              "width": 500,
+              "height": 200,
+              "color": "#16362a"
+            },
+            {
+              "id": "label",
+              "type": "text",
+              "role": "content",
+              "x": 140,
+              "y": 1160,
+              "width": 420,
+              "height": 70,
+              "text": "CALL TODAY",
+              "fontFamily": "Inter",
+              "fontSize": 40,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#ffffff"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "translucent-plate-nearby",
+      "category": "transparency",
+      "label": "legal",
+      "attractive": false,
+      "note": "Text on a 60% plate at a nearby size.",
+      "elements": [
+        "label"
+      ],
+      "method": "pixels",
+      "source": {
+        "id": "label-on-translucent-plate",
+        "sha256": "03d78e1aa02014097c77472517fc151c28e7d0ec718d52fdcacdd97e5518882d"
+      },
+      "output": {
+        "id": "label-on-translucent-plate",
+        "sha256": "aedc8d3f00d582147043f3f60c490beca0ef5b86d45d26174c2f2da8d9e1e64e"
+      },
+      "evaluator": {
+        "verdict": "clean",
+        "findings": []
+      },
+      "rendered": {
+        "verdict": "ok",
+        "elements": [
+          {
+            "id": "label",
+            "source": 1,
+            "output": 1,
+            "verdict": "ok"
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "label-on-translucent-plate",
+          "name": "label-on-translucent-plate",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "plate",
+              "type": "rect",
+              "role": "decoration",
+              "x": 100,
+              "y": 100,
+              "width": 500,
+              "height": 200,
+              "color": "#000000",
+              "opacity": 0.6
+            },
+            {
+              "id": "label",
+              "type": "text",
+              "role": "content",
+              "x": 140,
+              "y": 160,
+              "width": 420,
+              "height": 70,
+              "text": "CALL TODAY",
+              "fontFamily": "Inter",
+              "fontSize": 40,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#ffffff"
+            }
+          ]
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "label-on-translucent-plate",
+          "name": "label-on-translucent-plate",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 999,
+          "height": 1001,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "plate",
+              "type": "rect",
+              "role": "decoration",
+              "x": 99.9,
+              "y": 100.9,
+              "width": 499.5,
+              "height": 199.8,
+              "color": "#000000",
+              "opacity": 0.6
+            },
+            {
+              "id": "label",
+              "type": "text",
+              "role": "content",
+              "x": 139.86,
+              "y": 160.84,
+              "width": 419.58,
+              "height": 69.93,
+              "text": "CALL TODAY",
+              "fontFamily": "Inter",
+              "fontSize": 39.96,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#ffffff"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tint-over-text-kept",
+      "category": "transparency",
+      "label": "legal",
+      "attractive": false,
+      "note": "An intentional 20% tint over text is preserved.",
+      "elements": [
+        "headline"
+      ],
+      "method": "pixels",
+      "source": {
+        "id": "tint-over-text",
+        "sha256": "e7da327836b339d1aed43e4cadb3923134638c566c2e99cffa88a6f0bef41c8c"
+      },
+      "output": {
+        "id": "tint-over-text",
+        "sha256": "59ad8b995e6a565283843091560f66495e03d50ac00d1bef0d64e93ea612e643"
+      },
+      "evaluator": {
+        "verdict": "clean",
+        "findings": []
+      },
+      "rendered": {
+        "verdict": "ok",
+        "elements": [
+          {
+            "id": "headline",
+            "source": 1,
+            "output": 1,
+            "verdict": "ok"
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "tint-over-text",
+          "name": "tint-over-text",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "headline",
+              "type": "text",
+              "role": "content",
+              "x": 100,
+              "y": 100,
+              "width": 800,
+              "height": 120,
+              "text": "A clear headline here",
+              "fontFamily": "Inter",
+              "fontSize": 64,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#111111"
+            },
+            {
+              "id": "tint",
+              "type": "rect",
+              "role": "decoration",
+              "x": 100,
+              "y": 100,
+              "width": 800,
+              "height": 120,
+              "color": "#00000033"
+            }
+          ]
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "tint-over-text",
+          "name": "tint-over-text",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1080,
+          "height": 1920,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "headline",
+              "type": "text",
+              "role": "content",
+              "x": 108,
+              "y": 528,
+              "width": 864,
+              "height": 129.60000000000002,
+              "text": "A clear headline here",
+              "fontFamily": "Inter",
+              "fontSize": 69.12,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#111111"
+            },
+            {
+              "id": "tint",
+              "type": "rect",
+              "role": "decoration",
+              "x": 108,
+              "y": 528,
+              "width": 864,
+              "height": 129.60000000000002,
+              "color": "#00000033"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "slight-overlap-kept",
+      "category": "legal-overlay",
+      "label": "legal",
+      "attractive": false,
+      "note": "A slight source overlap is preserved under scaling.",
+      "elements": [
+        "headline"
+      ],
+      "method": "pixels",
+      "source": {
+        "id": "slight-overlap",
+        "sha256": "70a5d669e3289aaabb6d4f4f20863a569a063b4ef1dd76fa43b6d81171db08b7"
+      },
+      "output": {
+        "id": "slight-overlap",
+        "sha256": "e6d094e1cf7a4ef87d85526b48f6e420a397aeb69ad5a8665e88499ddf81a658"
+      },
+      "evaluator": {
+        "verdict": "clean",
+        "findings": []
+      },
+      "rendered": {
+        "verdict": "ok",
+        "elements": [
+          {
+            "id": "headline",
+            "source": 0.9196317932377412,
+            "output": 0.9173280423280423,
+            "verdict": "ok"
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "slight-overlap",
+          "name": "slight-overlap",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "headline",
+              "type": "text",
+              "role": "content",
+              "x": 100,
+              "y": 100,
+              "width": 800,
+              "height": 120,
+              "text": "A clear headline here",
+              "fontFamily": "Inter",
+              "fontSize": 64,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#111111"
+            },
+            {
+              "id": "sticker",
+              "type": "rect",
+              "role": "decoration",
+              "x": 60,
+              "y": 90,
+              "width": 80,
+              "height": 140,
+              "color": "#e34850"
+            }
+          ]
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "slight-overlap",
+          "name": "slight-overlap",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1600,
+          "height": 900,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "headline",
+              "type": "text",
+              "role": "content",
+              "x": 440,
+              "y": 90,
+              "width": 720,
+              "height": 108,
+              "text": "A clear headline here",
+              "fontFamily": "Inter",
+              "fontSize": 57.6,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#111111"
+            },
+            {
+              "id": "sticker",
+              "type": "rect",
+              "role": "decoration",
+              "x": 404,
+              "y": 81,
+              "width": 72,
+              "height": 126,
+              "color": "#e34850"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "faint-source-kept",
+      "category": "faint-source",
+      "label": "legal",
+      "attractive": false,
+      "note": "Faint by design in the source (about 1.7:1); preserving it is not a reflow defect.",
+      "elements": [
+        "label"
+      ],
+      "method": "pixels",
+      "source": {
+        "id": "faint-label",
+        "sha256": "024575f37774ec4b56c2acb24bd8ed996f5e75f3ec2d9310b2ffc380aa78028d"
+      },
+      "output": {
+        "id": "faint-label",
+        "sha256": "693be218cf5600a5ff2319fe14738063d8db0644061b21e44926692e78ba78cd"
+      },
+      "evaluator": {
+        "verdict": "clean",
+        "findings": []
+      },
+      "rendered": {
+        "verdict": "ok",
+        "elements": [
+          {
+            "id": "label",
+            "source": 0,
+            "output": 0,
+            "verdict": "ok"
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "faint-label",
+          "name": "faint-label",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "plate",
+              "type": "rect",
+              "role": "decoration",
+              "x": 100,
+              "y": 100,
+              "width": 500,
+              "height": 200,
+              "color": "#000000",
+              "opacity": 0.25
+            },
+            {
+              "id": "label",
+              "type": "text",
+              "role": "content",
+              "x": 140,
+              "y": 160,
+              "width": 420,
+              "height": 70,
+              "text": "CALL TODAY",
+              "fontFamily": "Inter",
+              "fontSize": 40,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#ffffffee"
+            }
+          ]
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "faint-label",
+          "name": "faint-label",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1920,
+          "height": 1080,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "plate",
+              "type": "rect",
+              "role": "decoration",
+              "x": 528,
+              "y": 108,
+              "width": 540,
+              "height": 216,
+              "color": "#000000",
+              "opacity": 0.25
+            },
+            {
+              "id": "label",
+              "type": "text",
+              "role": "content",
+              "x": 571.2,
+              "y": 172.8,
+              "width": 453.6,
+              "height": 75.60000000000001,
+              "text": "CALL TODAY",
+              "fontFamily": "Inter",
+              "fontSize": 43.2,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#ffffffee"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "caption-on-photo-kept",
+      "category": "legal-overlay",
+      "label": "legal",
+      "attractive": false,
+      "note": "Caption over photographic sky, uniformly scaled.",
+      "elements": [
+        "caption"
+      ],
+      "method": "pixels",
+      "source": {
+        "id": "caption-on-photo",
+        "sha256": "90cbaa0842546545a1998b18e6a5d867a3f58753329d121674c24e85fea92648"
+      },
+      "output": {
+        "id": "caption-on-photo",
+        "sha256": "eb9485290aaf2833fb12e7a28e1f2290534801bed5af58329c96d310698565df"
+      },
+      "evaluator": {
+        "verdict": "clean",
+        "findings": []
+      },
+      "rendered": {
+        "verdict": "ok",
+        "elements": [
+          {
+            "id": "caption",
+            "source": 1,
+            "output": 1,
+            "verdict": "ok"
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "caption-on-photo",
+          "name": "caption-on-photo",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "photo",
+              "type": "image",
+              "role": "content",
+              "assetId": "landscape",
+              "fit": "cover",
+              "focalPoint": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "x": 100,
+              "y": 100,
+              "width": 800,
+              "height": 533.333
+            },
+            {
+              "id": "caption",
+              "type": "text",
+              "role": "content",
+              "x": 120,
+              "y": 110,
+              "width": 300,
+              "height": 60,
+              "text": "WALKING CLUB",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#21394c"
+            }
+          ]
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "caption-on-photo",
+          "name": "caption-on-photo",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1080,
+          "height": 1350,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "photo",
+              "type": "image",
+              "role": "content",
+              "assetId": "landscape",
+              "fit": "cover",
+              "focalPoint": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "x": 108,
+              "y": 243,
+              "width": 864,
+              "height": 575.99964
+            },
+            {
+              "id": "caption",
+              "type": "text",
+              "role": "content",
+              "x": 129.60000000000002,
+              "y": 253.8,
+              "width": 324,
+              "height": 64.80000000000001,
+              "text": "WALKING CLUB",
+              "fontFamily": "Inter",
+              "fontSize": 38.88,
+              "fontWeight": 700,
+              "lineHeight": 1.1,
+              "color": "#21394c"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "subject-kept-narrow-crop",
+      "category": "legal-crop",
+      "label": "legal",
+      "attractive": false,
+      "note": "A 1:2 frame loses most of the image area but keeps the whole figure. crop-loss measures region, not subject.",
+      "elements": [
+        "photo"
+      ],
+      "method": "subject",
+      "source": {
+        "id": "edge-subject-photo",
+        "sha256": "fe61bd77b04b7a000346bc552285ff1f88abd11fce05db85c10fb003cf1b97d1"
+      },
+      "output": {
+        "id": "edge-subject-photo",
+        "sha256": "e9f939b4a93064349f28eef5a2c977ab058ca545df1818357924ec8da37c9e11"
+      },
+      "evaluator": {
+        "verdict": "flagged",
+        "findings": [
+          {
+            "kind": "crop-loss",
+            "severity": "warning",
+            "elementIds": [
+              "photo"
+            ],
+            "region": {
+              "x": 100,
+              "y": 100,
+              "width": 200,
+              "height": 400
+            },
+            "message": "photo shows 33% of the image region visible in the source."
+          }
+        ]
+      },
+      "rendered": {
+        "verdict": "ok",
+        "elements": [
+          {
+            "id": "photo",
+            "source": 35563.27160493827,
+            "output": 35586.41975308642,
+            "verdict": "ok"
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "edge-subject-photo",
+          "name": "edge-subject-photo",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "photo",
+              "type": "image",
+              "role": "content",
+              "assetId": "landscape",
+              "fit": "cover",
+              "focalPoint": {
+                "x": 0.83,
+                "y": 0.55
+              },
+              "x": 100,
+              "y": 100,
+              "width": 600,
+              "height": 400
+            }
+          ]
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "edge-subject-photo",
+          "name": "edge-subject-photo",
+          "description": "Defect-control case",
+          "provenance": "synthetic",
+          "width": 1000,
+          "height": 1000,
+          "background": "#ffffff",
+          "groups": [],
+          "elements": [
+            {
+              "id": "photo",
+              "type": "image",
+              "role": "content",
+              "assetId": "landscape",
+              "fit": "cover",
+              "focalPoint": {
+                "x": 0.83,
+                "y": 0.55
+              },
+              "x": 100,
+              "y": 100,
+              "width": 200,
+              "height": 400
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "engine-after-dark-square",
+      "category": "engine-output",
+      "label": "legal",
+      "attractive": false,
+      "note": "Engine-selected output for a development fixture; the implementer found no hidden or illegible listed content. ticket-label is excluded: its U+2192 is an uncovered glyph in the source.",
+      "elements": [
+        "headline",
+        "hero",
+        "date",
+        "venue"
+      ],
+      "method": "pixels",
+      "source": {
+        "id": "after-dark",
+        "sha256": "d1f3bd4d6d8d21393fcb05b785ad2fce063cb8d34cef90b387d165348165367e"
+      },
+      "output": {
+        "id": "after-dark",
+        "sha256": "3c1b7b97299e18f02bca31b714e76a2a64e0d69c9207277b99bc4e24ea1b7d8d"
+      },
+      "evaluator": {
+        "verdict": "clean",
+        "findings": []
+      },
+      "rendered": {
+        "verdict": "ok",
+        "elements": [
+          {
+            "id": "headline",
+            "source": 1,
+            "output": 1,
+            "verdict": "ok"
+          },
+          {
+            "id": "hero",
+            "source": 0.9296576650300055,
+            "output": 0.9368893827846461,
+            "verdict": "ok"
+          },
+          {
+            "id": "date",
+            "source": 1,
+            "output": 1,
+            "verdict": "ok"
+          },
+          {
+            "id": "venue",
+            "source": 1,
+            "output": 1,
+            "verdict": "ok"
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "after-dark",
+          "name": "Design after dark",
+          "description": "An event poster with a headline, hero image, event details, and a grouped ticket button.",
+          "provenance": "synthetic",
+          "width": 1080,
+          "height": 1350,
+          "background": "#f3f0e5",
+          "elements": [
+            {
+              "id": "eyebrow",
+              "type": "text",
+              "role": "content",
+              "text": "THE CAMPUS CREATIVE SERIES",
+              "x": 72,
+              "y": 62,
+              "width": 936,
+              "height": 45,
+              "fontSize": 27,
+              "color": "#172b25",
+              "fontWeight": 500,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14
+            },
+            {
+              "id": "headline",
+              "type": "text",
+              "role": "content",
+              "text": "Design\nafter dark.",
+              "x": 72,
+              "y": 138,
+              "width": 936,
+              "height": 276,
+              "fontSize": 112,
+              "color": "#172b25",
+              "fontWeight": 700,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14
+            },
+            {
+              "id": "hero",
+              "type": "image",
+              "role": "content",
+              "assetId": "orbit",
+              "x": 72,
+              "y": 418,
+              "width": 936,
+              "height": 494,
+              "fit": "cover",
+              "focalPoint": {
+                "x": 0.5,
+                "y": 0.5
+              }
+            },
+            {
+              "id": "date",
+              "type": "text",
+              "role": "content",
+              "text": "Friday, October 16 · 7 PM",
+              "x": 72,
+              "y": 970,
+              "width": 936,
+              "height": 52,
+              "fontSize": 38,
+              "color": "#172b25",
+              "fontWeight": 700,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14,
+              "groupId": "event-details"
+            },
+            {
+              "id": "venue",
+              "type": "text",
+              "role": "content",
+              "text": "The student union · Everyone welcome",
+              "x": 72,
+              "y": 1036,
+              "width": 936,
+              "height": 48,
+              "fontSize": 30,
+              "color": "#172b25",
+              "fontWeight": 500,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14,
+              "groupId": "event-details"
+            },
+            {
+              "id": "ticket-background",
+              "type": "rect",
+              "role": "content",
+              "x": 72,
+              "y": 1130,
+              "width": 936,
+              "height": 132,
+              "color": "#172b25",
+              "groupId": "ticket",
+              "radius": 66
+            },
+            {
+              "id": "ticket-label",
+              "type": "text",
+              "role": "content",
+              "text": "SAVE YOUR SEAT  →",
+              "x": 102,
+              "y": 1171,
+              "width": 876,
+              "height": 50,
+              "fontSize": 32,
+              "color": "#ffffff",
+              "fontWeight": 700,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14,
+              "groupId": "ticket",
+              "align": "center"
+            }
+          ],
+          "groups": [
+            {
+              "id": "event-details",
+              "label": "event details"
+            },
+            {
+              "id": "ticket",
+              "label": "ticket"
+            }
+          ]
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "after-dark",
+          "name": "Design after dark",
+          "description": "An event poster with a headline, hero image, event details, and a grouped ticket button.",
+          "provenance": "synthetic",
+          "width": 1080,
+          "height": 1080,
+          "background": "#f3f0e5",
+          "elements": [
+            {
+              "id": "eyebrow",
+              "type": "text",
+              "role": "content",
+              "text": "THE CAMPUS CREATIVE SERIES",
+              "x": 70.2,
+              "y": 70.2,
+              "width": 939.6,
+              "height": 52.3419810369175,
+              "fontSize": 32.39,
+              "color": "#172b25",
+              "fontWeight": 500,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14
+            },
+            {
+              "id": "headline",
+              "type": "text",
+              "role": "content",
+              "text": "Design\nafter dark.",
+              "x": 70.2,
+              "y": 149.5419810369175,
+              "width": 939.6,
+              "height": 192.92717369376643,
+              "fontSize": 79.72,
+              "color": "#172b25",
+              "fontWeight": 700,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14
+            },
+            {
+              "id": "hero",
+              "type": "image",
+              "role": "content",
+              "assetId": "orbit",
+              "x": 70.2,
+              "y": 369.46915473068395,
+              "width": 939.6,
+              "height": 414.37401654226346,
+              "fit": "cover",
+              "focalPoint": {
+                "x": 0.5,
+                "y": 0.5
+              }
+            },
+            {
+              "id": "date",
+              "type": "text",
+              "role": "content",
+              "text": "Friday, October 16 · 7 PM",
+              "x": 212.86261851926565,
+              "y": 810.8431712729474,
+              "width": 654.2747629614687,
+              "height": 36.34859794230382,
+              "fontSize": 30.04,
+              "color": "#172b25",
+              "fontWeight": 700,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14,
+              "groupId": "event-details"
+            },
+            {
+              "id": "venue",
+              "type": "text",
+              "role": "content",
+              "text": "The student union · Everyone welcome",
+              "x": 212.86261851926565,
+              "y": 856.9779301997177,
+              "width": 654.2747629614687,
+              "height": 33.552551946741985,
+              "fontSize": 27.73,
+              "color": "#172b25",
+              "fontWeight": 500,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14,
+              "groupId": "event-details"
+            },
+            {
+              "id": "ticket-background",
+              "type": "rect",
+              "role": "content",
+              "x": 212.8626185192656,
+              "y": 917.5304821464597,
+              "width": 654.2747629614688,
+              "height": 92.26951785354046,
+              "color": "#172b25",
+              "groupId": "ticket",
+              "radius": 46.13475892677023
+            },
+            {
+              "id": "ticket-label",
+              "type": "text",
+              "role": "content",
+              "text": "SAVE YOUR SEAT  →",
+              "x": 233.83296348597935,
+              "y": 946.1899536009686,
+              "width": 612.3340730280413,
+              "height": 34.950574944522906,
+              "fontSize": 28.85,
+              "color": "#ffffff",
+              "fontWeight": 700,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14,
+              "groupId": "ticket",
+              "align": "center"
+            }
+          ],
+          "groups": [
+            {
+              "id": "event-details",
+              "label": "event details"
+            },
+            {
+              "id": "ticket",
+              "label": "ticket"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "engine-intentional-overlap-landscape",
+      "category": "engine-output",
+      "label": "legal",
+      "attractive": false,
+      "note": "Engine-selected output for a development fixture; the implementer found no hidden or illegible listed content.",
+      "elements": [
+        "headline",
+        "description",
+        "footer"
+      ],
+      "method": "pixels",
+      "source": {
+        "id": "intentional-overlap",
+        "sha256": "f7a191cb7aa0fa36ee519d52efde7d81fbefd11a527337ad75e968f5f5a4fd5c"
+      },
+      "output": {
+        "id": "intentional-overlap",
+        "sha256": "651d02a2a65690f2d4a1b0d2fbe89efb00c52992a293ca30946e760c21918a98"
+      },
+      "evaluator": {
+        "verdict": "clean",
+        "findings": []
+      },
+      "rendered": {
+        "verdict": "ok",
+        "elements": [
+          {
+            "id": "headline",
+            "source": 1,
+            "output": 1,
+            "verdict": "ok"
+          },
+          {
+            "id": "description",
+            "source": 1,
+            "output": 1,
+            "verdict": "ok"
+          },
+          {
+            "id": "footer",
+            "source": 1,
+            "output": 1,
+            "verdict": "ok"
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "intentional-overlap",
+          "name": "Designed to overlap",
+          "description": "Text intentionally overlays artwork; that overlap should not be scored as a collision.",
+          "provenance": "synthetic",
+          "width": 1080,
+          "height": 1350,
+          "background": "#f7f3e9",
+          "elements": [
+            {
+              "id": "hero",
+              "type": "image",
+              "role": "content",
+              "assetId": "landscape",
+              "x": 60,
+              "y": 65,
+              "width": 960,
+              "height": 845,
+              "fit": "cover",
+              "focalPoint": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "groupId": "hero-composition"
+            },
+            {
+              "id": "title-panel",
+              "type": "rect",
+              "role": "content",
+              "x": 98,
+              "y": 515,
+              "width": 840,
+              "height": 286,
+              "color": "#f7f3e9",
+              "groupId": "hero-composition",
+              "radius": 14
+            },
+            {
+              "id": "headline",
+              "type": "text",
+              "role": "content",
+              "text": "Find your\noutside.",
+              "x": 132,
+              "y": 555,
+              "width": 765,
+              "height": 222,
+              "fontSize": 89,
+              "color": "#22394b",
+              "fontWeight": 700,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14,
+              "groupId": "hero-composition"
+            },
+            {
+              "id": "description",
+              "type": "text",
+              "role": "content",
+              "text": "A walk, a sketchbook,\nand a different perspective.",
+              "x": 72,
+              "y": 980,
+              "width": 936,
+              "height": 142,
+              "fontSize": 43,
+              "color": "#22394b",
+              "fontWeight": 500,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14
+            },
+            {
+              "id": "footer",
+              "type": "text",
+              "role": "content",
+              "text": "SUNDAY 09:00 · MEET AT THE NORTH GATE",
+              "x": 72,
+              "y": 1190,
+              "width": 936,
+              "height": 73,
+              "fontSize": 30,
+              "color": "#22394b",
+              "fontWeight": 700,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14
+            }
+          ],
+          "groups": [
+            {
+              "id": "hero-composition",
+              "label": "hero composition"
+            }
+          ]
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "intentional-overlap",
+          "name": "Designed to overlap",
+          "description": "Text intentionally overlays artwork; that overlap should not be scored as a collision.",
+          "provenance": "synthetic",
+          "width": 1920,
+          "height": 1080,
+          "background": "#f7f3e9",
+          "elements": [
+            {
+              "id": "hero",
+              "type": "image",
+              "role": "content",
+              "assetId": "landscape",
+              "x": 547.4404121009017,
+              "y": 70.2,
+              "width": 825.1191757981967,
+              "height": 726.2767745307044,
+              "fit": "cover",
+              "focalPoint": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "groupId": "hero-composition"
+            },
+            {
+              "id": "title-panel",
+              "type": "rect",
+              "role": "content",
+              "x": 580.101379476247,
+              "y": 456.9746136554047,
+              "width": 721.9792788234221,
+              "height": 245.8167544565461,
+              "color": "#f7f3e9",
+              "groupId": "hero-composition",
+              "radius": 12.032987980390368
+            },
+            {
+              "id": "headline",
+              "type": "text",
+              "role": "content",
+              "text": "Find your\noutside.",
+              "x": 609.3243502857664,
+              "y": 491.35457931366295,
+              "width": 657.516843214188,
+              "height": 190.808809403333,
+              "fontSize": 78.85,
+              "color": "#22394b",
+              "fontWeight": 700,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14,
+              "groupId": "hero-composition"
+            },
+            {
+              "id": "description",
+              "type": "text",
+              "role": "content",
+              "text": "A walk, a sketchbook,\nand a different perspective.",
+              "x": 70.2,
+              "y": 823.4767745307045,
+              "width": 1779.6,
+              "height": 104.31528041608256,
+              "fontSize": 43.11,
+              "color": "#22394b",
+              "fontWeight": 500,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14
+            },
+            {
+              "id": "footer",
+              "type": "text",
+              "role": "content",
+              "text": "SUNDAY 09:00 · MEET AT THE NORTH GATE",
+              "x": 70.2,
+              "y": 954.792054946787,
+              "width": 1779.6,
+              "height": 55.00794505321311,
+              "fontSize": 35.99,
+              "color": "#22394b",
+              "fontWeight": 700,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14
+            }
+          ],
+          "groups": [
+            {
+              "id": "hero-composition",
+              "label": "hero composition"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "engine-edge-subject-story",
+      "category": "engine-output",
+      "label": "legal",
+      "attractive": false,
+      "note": "Engine-selected output for a development fixture; the implementer found no hidden or illegible listed content. The footer is excluded: it is visible but very small (a small-text readability warning), which this visibility label does not judge.",
+      "elements": [
+        "headline",
+        "hero"
+      ],
+      "method": "pixels",
+      "source": {
+        "id": "edge-subject",
+        "sha256": "d12280bb46a4e1d359b1d9c5812866bd06c79b0a870372bcfbf4acd62fb469fb"
+      },
+      "output": {
+        "id": "edge-subject",
+        "sha256": "eb47769972e8179f2a4d79edeb030fed12befe9894fe63c774b3e3c8addeef0d"
+      },
+      "evaluator": {
+        "verdict": "clean",
+        "findings": []
+      },
+      "rendered": {
+        "verdict": "ok",
+        "elements": [
+          {
+            "id": "headline",
+            "source": 1,
+            "output": 1,
+            "verdict": "ok"
+          },
+          {
+            "id": "hero",
+            "source": 0.49991955724306586,
+            "output": 0.499476953252697,
+            "verdict": "ok"
+          }
+        ]
+      },
+      "designs": {
+        "source": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "edge-subject",
+          "name": "Keep the subject in view",
+          "description": "A synthetic figure near the image edge exercises focal-point cropping. This is not a photograph.",
+          "provenance": "synthetic",
+          "width": 1350,
+          "height": 1080,
+          "background": "#dce4ed",
+          "elements": [
+            {
+              "id": "hero",
+              "type": "image",
+              "role": "content",
+              "assetId": "landscape",
+              "x": 60,
+              "y": 60,
+              "width": 1230,
+              "height": 710,
+              "fit": "cover",
+              "focalPoint": {
+                "x": 0.83,
+                "y": 0.55
+              }
+            },
+            {
+              "id": "headline",
+              "type": "text",
+              "role": "content",
+              "text": "Take the long way.",
+              "x": 60,
+              "y": 825,
+              "width": 1230,
+              "height": 130,
+              "fontSize": 84,
+              "color": "#21394c",
+              "fontWeight": 700,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14
+            },
+            {
+              "id": "footer",
+              "type": "text",
+              "role": "content",
+              "text": "WALKING CLUB · EVERY SATURDAY",
+              "x": 60,
+              "y": 971,
+              "width": 1230,
+              "height": 65,
+              "fontSize": 31,
+              "color": "#21394c",
+              "fontWeight": 500,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14
+            }
+          ],
+          "groups": []
+        },
+        "output": {
+          "schemaVersion": "reflow.design.v0",
+          "id": "edge-subject",
+          "name": "Keep the subject in view",
+          "description": "A synthetic figure near the image edge exercises focal-point cropping. This is not a photograph.",
+          "provenance": "synthetic",
+          "width": 1080,
+          "height": 1920,
+          "background": "#dce4ed",
+          "elements": [
+            {
+              "id": "hero",
+              "type": "image",
+              "role": "content",
+              "assetId": "landscape",
+              "x": 48,
+              "y": 576,
+              "width": 984,
+              "height": 568,
+              "fit": "cover",
+              "focalPoint": {
+                "x": 0.83,
+                "y": 0.55
+              }
+            },
+            {
+              "id": "headline",
+              "type": "text",
+              "role": "content",
+              "text": "Take the long way.",
+              "x": 48,
+              "y": 1188,
+              "width": 984,
+              "height": 104,
+              "fontSize": 67.2,
+              "color": "#21394c",
+              "fontWeight": 700,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14
+            },
+            {
+              "id": "footer",
+              "type": "text",
+              "role": "content",
+              "text": "WALKING CLUB · EVERY SATURDAY",
+              "x": 48,
+              "y": 1304.8000000000002,
+              "width": 984,
+              "height": 52,
+              "fontSize": 24.8,
+              "color": "#21394c",
+              "fontWeight": 500,
+              "fontFamily": "Inter",
+              "lineHeight": 1.14
+            }
+          ],
+          "groups": []
+        }
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "id": "caption-onto-matching-photo-region",
+      "label": "defect",
+      "evaluator": "clean",
+      "rendered": "defect"
+    },
+    {
+      "id": "subject-kept-narrow-crop",
+      "label": "legal",
+      "evaluator": "flagged",
+      "rendered": "ok"
+    }
+  ]
+}

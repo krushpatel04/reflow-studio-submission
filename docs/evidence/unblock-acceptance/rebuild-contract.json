@@ -1,0 +1,165 @@
+{
+  "id": "UB-ACCEPTANCE-01",
+  "packet": {
+    "id": "UB-ACCEPTANCE-02",
+    "sha256": "c42f6390237aad37dc2f5904eb83038a49ce487a8e0ea538830a4674f8ccdcf2",
+    "bytes": 2555,
+    "included_in_public_snapshot": false,
+    "retention": "private exact source packet; provenance reference only"
+  },
+  "disposition": "blocked readiness; acceptance preparation only",
+  "execution_authorized": false,
+  "recovery": false,
+  "current_source_locally_verified": "bb829dbc7e261231dbcdbf4e1acde1b94d7536b9",
+  "scope": "docs/evidence/unblock-acceptance/**",
+  "claim_authority": "human ownership correction and finite acceptance handoff; coordinator scope ledger, not repository claims artifact",
+  "review_gate": "Reviewer4 precollection plan approved; exact artifact review pending",
+  "counts": {
+    "public_inputs": 3,
+    "quarantined_inputs": 3,
+    "excluded_counted_tasks": 21,
+    "eligible_sources": 0,
+    "eligible_tasks": 0,
+    "source_scoped_missing_links": 4,
+    "known_task_ids": 0
+  },
+  "task_accounting_note": "Only per-input task counts totaling 21 are supplied; all true task IDs/dimensions UNKNOWN/BLOCKED. No task rows or ordinal identities created.",
+  "sources": [
+    {
+      "source_id": "0qOFrrbBaTnaYeRoIlZE",
+      "status": "quarantined",
+      "original_sha256_reported": "b515df44fca7bbf35db2f77092ce237f13495aafd01dc017a18b2cddf61e412d",
+      "original_path": null,
+      "task_count_reported": 7,
+      "eligible_tasks": 0,
+      "exclusion": "quarantined; human/converter release receipt absent",
+      "additional_quarantine_cause": null,
+      "missing_svg_links": [
+        "0-1",
+        "0-3",
+        "0-8"
+      ]
+    },
+    {
+      "source_id": "0vxUdcOKbvrSVNSxRY4w",
+      "status": "quarantined",
+      "original_sha256_reported": "a69e7db5a24f4bbe3bda682115afe92d2c1e8c794026d4c0cad77a0f4619b518",
+      "original_path": null,
+      "task_count_reported": 7,
+      "eligible_tasks": 0,
+      "exclusion": "quarantined; human/converter release receipt absent",
+      "additional_quarantine_cause": null,
+      "missing_svg_links": [
+        "0-3"
+      ]
+    },
+    {
+      "source_id": "3jmFr3CGhibT4vc3KjI1",
+      "status": "quarantined",
+      "original_sha256_reported": "b82319b5bf5aca7c8b0ffa2dcedc50e0ab84c33ef060f30a08b0e59c1e999990",
+      "original_path": null,
+      "task_count_reported": 7,
+      "eligible_tasks": 0,
+      "exclusion": "quarantined; human/converter release receipt absent",
+      "additional_quarantine_cause": null,
+      "missing_svg_links": []
+    }
+  ],
+  "lineage": {
+    "UB01_superseded_sha256": "743a9c7424ca6e58570102c6a9027eb754eaa9395a69828bd2728424e1159b03",
+    "UB02_supersedes_only": "stale review hold; completed independent review retained under canonical owner decision",
+    "audit_commit_reported": "cbfd9fdf2eee03b870087d601961f6dd1375f6c9",
+    "evidence_commit_reported": "f113f173f3dad1b081aadc4382c6058109b445a9",
+    "tested_source_historical": "75f0ac1218b00a62f44b2b0aca4884b1e0f2a677",
+    "main_observed_historical": "1fc3667af08c6b23d33dae972cef8eba448854c3; resource/rasterizer/batch/test parity verified",
+    "git_ancestry_verified": false,
+    "mutation_policy": "append versioned artifacts; preserve prior bytes, links and exclusions"
+  },
+  "receipts": {
+    "technical_metadata": {
+      "origin": "sender-reported packet, not independently reproduced",
+      "archive_check": "81 safe entries;77 indexed +3 supplemental hashes/sizes and CRCs verified",
+      "resource_blobs_reported": 34,
+      "archive_path": null,
+      "resource_manifest_path": null,
+      "resource_manifest_sha256": null,
+      "complete_box_metadata": null,
+      "alias_mapping": null,
+      "missing_link_mechanism_reported": "Same original SHA + complete box + raster SHA; preceding same-source alias retains link"
+    },
+    "renderer": {
+      "origin": "sender-reported mocks only; not rerun",
+      "proposal_evidence": "19 baseline tests:10 semantic failures/0 errors; isolated19 PASS; independent24 order permutations PASS; mocks only",
+      "real_renderer_receipt": null,
+      "current_source_compatibility_receipt": null
+    },
+    "human": {
+      "status": "pending",
+      "converter_transfer": "pending #112 comment6071098172",
+      "converter_ACK": null,
+      "per_source_acceptance_receipts": [],
+      "quality_acceptance_receipt": null
+    }
+  },
+  "hash_boundaries": [
+    "packet transfer bytes",
+    "original input bytes",
+    "archive bytes",
+    "converted JSON bytes",
+    "raster output bytes",
+    "resource/font/runtime manifests",
+    "human receipt bytes",
+    "future rebuilt artifact bytes"
+  ],
+  "prerequisites": [
+    {
+      "requirement": "Exact public 21-task manifest with IDs/dimensions/version bindings",
+      "path": null,
+      "sha256": null,
+      "status": "missing"
+    },
+    {
+      "requirement": "Original/archive/resources/complete box and alias evidence paths with independent expected hashes",
+      "path": null,
+      "sha256": null,
+      "status": "missing"
+    },
+    {
+      "requirement": "Converted/raster artifact paths and hashes with renderer identity",
+      "path": null,
+      "sha256": null,
+      "status": "missing"
+    },
+    {
+      "requirement": "Human owner/converter ACK",
+      "reference": "https://github.com/kj-squared-labs/reflow-studio/issues/112#issuecomment-6071098172",
+      "status": "pending"
+    },
+    {
+      "requirement": "Later finite named source/rebuild task plus exact packet ACK and human owner ACK plus patch review",
+      "status": "not granted"
+    }
+  ],
+  "stop_conditions": [
+    "digest mismatch",
+    "missing required public path/receipt",
+    "conflicting claim",
+    "scope creep",
+    "validation/sealed access",
+    "pending quarantine/human converter gate",
+    "expired named authorization",
+    "Oct13 08:00 Eastern drain/08:30 stop"
+  ],
+  "prohibited": [
+    "Apply resources.py",
+    "Rewrite old links or exclusions",
+    "Run raster/browser/resize/full suites",
+    "View validation/sealed layouts",
+    "Claim human quality acceptance or RF04 ready",
+    "second publisher",
+    "production/human/routing edits",
+    "transfer of JD Astra 19 tests/proposal",
+    "new workers/runtime changes"
+  ],
+  "terminal": "Stop after accepted preparation milestone; exact lineage and execution blocked; fresh successor plan required"
+}

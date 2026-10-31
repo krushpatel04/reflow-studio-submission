@@ -1,0 +1,923 @@
+{
+  "baseline_git_sha": "f14d8312e1206a030593f4115062b78b78efb9fc",
+  "sources": {
+    "baseline": {
+      "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "composition.py": "70e0a7893d10cf69fe2b05329b5cf4e41b34e35791a9000632103c2182ee3a4d",
+      "resize.py": "3cf5e555f6f54f39a21dce5bffd373a29bfe5d25da4d388b783f08c2963929e8",
+      "text_fit.py": "e4c494c7662a75ec7a324d49495660c0d2a6871f25795a5d9c35422f56d7cd1c"
+    },
+    "candidate": {
+      "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "composition.py": "aa46e1fcf062390ac48ff753d58bdd3cb135bc12b8ce94044b85447c7d6ce1fb",
+      "resize.py": "3cf5e555f6f54f39a21dce5bffd373a29bfe5d25da4d388b783f08c2963929e8",
+      "text_fit.py": "e4c494c7662a75ec7a324d49495660c0d2a6871f25795a5d9c35422f56d7cd1c"
+    }
+  },
+  "cases": {
+    "chameleon_sample_level1_warmup": {
+      "baseline": {
+        "output_sha256": "b283606a22cce179a27c235bd8a4e64cba34d31860d0d78c74e390abca49c4aa",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 60.0,
+          "cta": 30.0
+        }
+      },
+      "candidate": {
+        "output_sha256": "b283606a22cce179a27c235bd8a4e64cba34d31860d0d78c74e390abca49c4aa",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 60.0,
+          "cta": 30.0
+        }
+      },
+      "changed": false,
+      "seconds": {
+        "baseline": [
+          8.041597902774811e-05,
+          5.737494211643934e-05,
+          5.945900920778513e-05,
+          5.6666089221835136e-05,
+          5.662499461323023e-05
+        ],
+        "candidate": [
+          6.516592111438513e-05,
+          6.200000643730164e-05,
+          5.866598803550005e-05,
+          5.8208941482007504e-05,
+          5.612510722130537e-05
+        ]
+      },
+      "median_seconds": {
+        "baseline": 5.737494211643934e-05,
+        "candidate": 5.866598803550005e-05
+      }
+    },
+    "chameleon_sample_level2_core": {
+      "baseline": {
+        "output_sha256": "c4cc75de175085899d3beff7df38857e6a3446f41158ea11300fbfd9ed806f8e",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 56.0,
+          "subhead": 24.0,
+          "badge_label": 9.0,
+          "cta_label": 11.0
+        }
+      },
+      "candidate": {
+        "output_sha256": "c4cc75de175085899d3beff7df38857e6a3446f41158ea11300fbfd9ed806f8e",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 56.0,
+          "subhead": 24.0,
+          "badge_label": 9.0,
+          "cta_label": 11.0
+        }
+      },
+      "changed": false,
+      "seconds": {
+        "baseline": [
+          0.0007654579821974039,
+          0.000698916963301599,
+          0.0006770829204469919,
+          0.0007559160003438592,
+          0.0007109169382601976
+        ],
+        "candidate": [
+          0.0007295000832527876,
+          0.0006992080016061664,
+          0.0006753340130671859,
+          0.0008017090149223804,
+          0.0008025419665500522
+        ]
+      },
+      "median_seconds": {
+        "baseline": 0.0007109169382601976,
+        "candidate": 0.0007295000832527876
+      }
+    },
+    "chameleon_sample_level3_advanced": {
+      "baseline": {
+        "output_sha256": "5a56016a464d0accbdb635362634f3fab1ba5ac8e0d7a9b9079cf4c5e17e3886",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 9.0,
+          "subhead": 9.0,
+          "badge1_label": 9.0,
+          "badge2_label": 9.0,
+          "badge3_label": 9.0,
+          "cta_label": 9.0,
+          "ribbon_label": 9.0,
+          "legal_text": 9.0
+        }
+      },
+      "candidate": {
+        "output_sha256": "5a56016a464d0accbdb635362634f3fab1ba5ac8e0d7a9b9079cf4c5e17e3886",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 9.0,
+          "subhead": 9.0,
+          "badge1_label": 9.0,
+          "badge2_label": 9.0,
+          "badge3_label": 9.0,
+          "cta_label": 9.0,
+          "ribbon_label": 9.0,
+          "legal_text": 9.0
+        }
+      },
+      "changed": false,
+      "seconds": {
+        "baseline": [
+          0.033699583960697055,
+          0.032683625002391636,
+          0.032552207936532795,
+          0.03310837491881102,
+          0.03545187506824732
+        ],
+        "candidate": [
+          0.03318566607777029,
+          0.032955083064734936,
+          0.0324768329737708,
+          0.03706099989358336,
+          0.031993041979148984
+        ]
+      },
+      "median_seconds": {
+        "baseline": 0.03310837491881102,
+        "candidate": 0.032955083064734936
+      }
+    },
+    "300x250": {
+      "baseline": {
+        "output_sha256": "ce9d6a026b4fa635cc45ac49acbe729eca1ad58fdd488b625167aa3e09bdc497",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 12.552423843600003,
+          "subhead": 6.903833113980001,
+          "badge1_label": 6.0,
+          "badge2_label": 6.0,
+          "badge3_label": 6.0,
+          "cta_label": 6.0,
+          "ribbon_label": 6.0,
+          "legal_text": 6.0
+        },
+        "renderer_warnings": [
+          "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+        ],
+        "png_sha256": "e3a227fec0320619f8ef6f21b05b468a8593f43b10cea8da20740e075d9cfa1e"
+      },
+      "candidate": {
+        "output_sha256": "a47af278dd0bd01852d55058665567435fb46724c5f656d553166a78e3c00c6c",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 13.0,
+          "subhead": 9.0,
+          "badge1_label": 9.0,
+          "badge2_label": 9.0,
+          "badge3_label": 9.0,
+          "cta_label": 9.0,
+          "ribbon_label": 9.0,
+          "legal_text": 9.0
+        },
+        "renderer_warnings": [
+          "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+        ],
+        "png_sha256": "a0ea2335c898a001c23e35db8536abd0880137fc950a7b54a459bf84187529f7"
+      },
+      "changed": true,
+      "seconds": {
+        "baseline": [
+          0.06707483297213912,
+          0.06598154199309647,
+          0.06339958298485726,
+          0.06658679200336337,
+          0.06620479107368737
+        ],
+        "candidate": [
+          0.14918316691182554,
+          0.14599362493027002,
+          0.1505787499481812,
+          0.14631204097531736,
+          0.14999116689432412
+        ]
+      },
+      "median_seconds": {
+        "baseline": 0.06620479107368737,
+        "candidate": 0.14918316691182554
+      }
+    },
+    "301x251": {
+      "baseline": {
+        "output_sha256": "eb7c4d52599d0f0f394208c571eea27e074565fb5d9d99e36db3b6fb31a13172",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 12.552423843600003,
+          "subhead": 6.903833113980001,
+          "badge1_label": 6.0,
+          "badge2_label": 6.0,
+          "badge3_label": 6.0,
+          "cta_label": 6.0,
+          "ribbon_label": 6.0,
+          "legal_text": 6.0
+        },
+        "renderer_warnings": [
+          "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+        ],
+        "png_sha256": "44252cb0ab7b0c4af87979328ed4150d73f619d79c0926cc9b36032549bf62fc"
+      },
+      "candidate": {
+        "output_sha256": "d7ec84ad6b156029e3426c689a41debbfe1af88c900455210d9390bdf4f89ef9",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 13.0,
+          "subhead": 9.0,
+          "badge1_label": 9.0,
+          "badge2_label": 9.0,
+          "badge3_label": 9.0,
+          "cta_label": 9.0,
+          "ribbon_label": 9.0,
+          "legal_text": 9.0
+        },
+        "renderer_warnings": [
+          "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+        ],
+        "png_sha256": "b0814ae40e92d4b5d4449bc1227785d3cb10ffb5af1664cbfc0d76912a4d806b"
+      },
+      "changed": true,
+      "seconds": {
+        "baseline": [
+          0.06856749998405576,
+          0.064319874974899,
+          0.06951179099269211,
+          0.06803016702178866,
+          0.06370679195970297
+        ],
+        "candidate": [
+          0.14532675000373274,
+          0.14925641706213355,
+          0.14612000004854053,
+          0.14589733304455876,
+          0.14673616597428918
+        ]
+      },
+      "median_seconds": {
+        "baseline": 0.06803016702178866,
+        "candidate": 0.14612000004854053
+      }
+    },
+    "320x250": {
+      "baseline": {
+        "output_sha256": "f1461d63556e32f0e7d79daef86d3cc759e54da1708c18f3967cbf2d962afc60",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 13.947137604000003,
+          "subhead": 7.670925682200002,
+          "badge1_label": 6.0,
+          "badge2_label": 6.0,
+          "badge3_label": 6.0,
+          "cta_label": 6.0,
+          "ribbon_label": 6.0,
+          "legal_text": 6.0
+        },
+        "renderer_warnings": [
+          "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+        ],
+        "png_sha256": "a375671407313f62640141aafa25adfab5bdd5d3f8d9bb14118c9aecd019b733"
+      },
+      "candidate": {
+        "output_sha256": "15daddae17e72f02255c9cc0879cbafb1a7c02b4e1099c8a0d8088ad4a55f5c9",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 14.0,
+          "subhead": 9.0,
+          "badge1_label": 9.0,
+          "badge2_label": 9.0,
+          "badge3_label": 9.0,
+          "cta_label": 9.0,
+          "ribbon_label": 9.0,
+          "legal_text": 9.0
+        },
+        "renderer_warnings": [
+          "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+        ],
+        "png_sha256": "ab85b8b72fc1b9cee4b66f673b52d31605270837f3f9e1db90a93d8c7e5977fc"
+      },
+      "changed": true,
+      "seconds": {
+        "baseline": [
+          0.06485216692090034,
+          0.06561004207469523,
+          0.06469937495421618,
+          0.06707583391107619,
+          0.07038175000343472
+        ],
+        "candidate": [
+          0.14984595798887312,
+          0.1469906250713393,
+          0.15253362501971424,
+          0.16312545794062316,
+          0.1514865419594571
+        ]
+      },
+      "median_seconds": {
+        "baseline": 0.06561004207469523,
+        "candidate": 0.1514865419594571
+      }
+    },
+    "250x300": {
+      "baseline": {
+        "output_sha256": "554d1f3a055c088f2b79120d0d86b05a30a3348428b186d784554fcb124e8a06",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 9.150716981984404,
+          "subhead": 6.0,
+          "badge1_label": 6.0,
+          "badge2_label": 6.0,
+          "badge3_label": 6.0,
+          "cta_label": 6.0,
+          "ribbon_label": 6.0,
+          "legal_text": 6.0
+        },
+        "renderer_warnings": [
+          "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+        ],
+        "png_sha256": "139bf76a415071f22bc6201f8b7942f33e48b2b17b1812bcd3c7b3c860ee6df0"
+      },
+      "candidate": {
+        "output_sha256": "6d485f52e8fedf39bce6e5cd87fb6d085983669521c6494b50db6585b9f12ac3",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 10.0,
+          "subhead": 9.0,
+          "badge1_label": 9.0,
+          "badge2_label": 9.0,
+          "badge3_label": 9.0,
+          "cta_label": 9.0,
+          "ribbon_label": 9.0,
+          "legal_text": 9.0
+        },
+        "renderer_warnings": [
+          "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+        ],
+        "png_sha256": "3caeb6175356c4830d4a2941009083ce0e00d89c38cc268065ac13ec9bfcec6b"
+      },
+      "changed": true,
+      "seconds": {
+        "baseline": [
+          0.02290908293798566,
+          0.020076333079487085,
+          0.01981141697615385,
+          0.020493875024840236,
+          0.020126124960370362
+        ],
+        "candidate": [
+          0.17774237494450063,
+          0.17601954203564674,
+          0.17763383290730417,
+          0.2416796669131145,
+          0.17730879201553762
+        ]
+      },
+      "median_seconds": {
+        "baseline": 0.020126124960370362,
+        "candidate": 0.17763383290730417
+      }
+    },
+    "600x500": {
+      "baseline": {
+        "output_sha256": "b6fd4f3cde6e6d70d4f83395604dee63000681907a40e86d21196cf28cf3c793",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 12.552423843600003,
+          "subhead": 6.903833113980001,
+          "badge1_label": 6.0,
+          "badge2_label": 6.0,
+          "badge3_label": 6.0,
+          "cta_label": 8.148148148148147,
+          "ribbon_label": 7.4074074074074066,
+          "legal_text": 6.0
+        },
+        "renderer_warnings": [
+          "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+        ],
+        "png_sha256": "cc63fe50f6c9f3bb0da9b19303db83ee80da43affd87be34ca7e75fb950b2a65"
+      },
+      "candidate": {
+        "output_sha256": "206b0ed07b8a6d03bc3a175f27a66478f9a1739b562383ffa9251f429c827e87",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 28.0,
+          "subhead": 19.0,
+          "badge1_label": 19.0,
+          "badge2_label": 19.0,
+          "badge3_label": 19.0,
+          "cta_label": 19.0,
+          "ribbon_label": 19.0,
+          "legal_text": 14.0
+        },
+        "renderer_warnings": [
+          "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+        ],
+        "png_sha256": "bf4cc315f2c5431d89a00e5e7a29c2300d736fa92a640b113475c807ed2694c9"
+      },
+      "changed": true,
+      "seconds": {
+        "baseline": [
+          0.017824333044700325,
+          0.016978209023363888,
+          0.020151332952082157,
+          0.018835708033293486,
+          0.017809291020967066
+        ],
+        "candidate": [
+          0.09184641600586474,
+          0.08939866698347032,
+          0.09132420795504004,
+          0.0908928751014173,
+          0.09001920802984387
+        ]
+      },
+      "median_seconds": {
+        "baseline": 0.017824333044700325,
+        "candidate": 0.0908928751014173
+      }
+    },
+    "970x250": {
+      "baseline": {
+        "output_sha256": "9f4d7175d3f12fababd837a3cd747b8084bc7751f3a01ecb30669a31af1912ea",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 24.0,
+          "subhead": 16.0,
+          "badge1_label": 16.0,
+          "badge2_label": 16.0,
+          "badge3_label": 16.0,
+          "cta_label": 16.0,
+          "ribbon_label": 16.0,
+          "legal_text": 12.0
+        }
+      },
+      "candidate": {
+        "output_sha256": "9f4d7175d3f12fababd837a3cd747b8084bc7751f3a01ecb30669a31af1912ea",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 24.0,
+          "subhead": 16.0,
+          "badge1_label": 16.0,
+          "badge2_label": 16.0,
+          "badge3_label": 16.0,
+          "cta_label": 16.0,
+          "ribbon_label": 16.0,
+          "legal_text": 12.0
+        }
+      },
+      "changed": false,
+      "seconds": {
+        "baseline": [
+          0.04129762505181134,
+          0.036404125043191016,
+          0.03990712505765259,
+          0.03774958406575024,
+          0.039832749986089766
+        ],
+        "candidate": [
+          0.03758424997795373,
+          0.03781574999447912,
+          0.03957095800433308,
+          0.033233624999411404,
+          0.03402033308520913
+        ]
+      },
+      "median_seconds": {
+        "baseline": 0.039832749986089766,
+        "candidate": 0.03758424997795373
+      }
+    },
+    "160x600": {
+      "baseline": {
+        "output_sha256": "4c74c767f7110b1ccefb77bab71e5a63f8cb6e711146f456c219370f1e6515a0",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 10.0,
+          "subhead": 10.0,
+          "badge1_label": 10.0,
+          "badge2_label": 10.0,
+          "badge3_label": 10.0,
+          "cta_label": 10.0,
+          "ribbon_label": 10.0,
+          "legal_text": 10.0
+        }
+      },
+      "candidate": {
+        "output_sha256": "4c74c767f7110b1ccefb77bab71e5a63f8cb6e711146f456c219370f1e6515a0",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 10.0,
+          "subhead": 10.0,
+          "badge1_label": 10.0,
+          "badge2_label": 10.0,
+          "badge3_label": 10.0,
+          "cta_label": 10.0,
+          "ribbon_label": 10.0,
+          "legal_text": 10.0
+        }
+      },
+      "changed": false,
+      "seconds": {
+        "baseline": [
+          0.09795816603582352,
+          0.10694012499880046,
+          0.10018545796629041,
+          0.0937092499807477,
+          0.0993290840415284
+        ],
+        "candidate": [
+          0.09681620798073709,
+          0.09790300007443875,
+          0.09745020803529769,
+          0.09562379191629589,
+          0.09646937495563179
+        ]
+      },
+      "median_seconds": {
+        "baseline": 0.0993290840415284,
+        "candidate": 0.09681620798073709
+      }
+    },
+    "300x900": {
+      "baseline": {
+        "output_sha256": "0adbc083d23f89c6d369a06b0bd63eaf4ac78fd4cb9fc1b5392f4bb4e2976283",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 18.0,
+          "subhead": 18.0,
+          "badge1_label": 18.0,
+          "badge2_label": 18.0,
+          "badge3_label": 18.0,
+          "cta_label": 18.0,
+          "ribbon_label": 18.0,
+          "legal_text": 18.0
+        }
+      },
+      "candidate": {
+        "output_sha256": "0adbc083d23f89c6d369a06b0bd63eaf4ac78fd4cb9fc1b5392f4bb4e2976283",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 18.0,
+          "subhead": 18.0,
+          "badge1_label": 18.0,
+          "badge2_label": 18.0,
+          "badge3_label": 18.0,
+          "cta_label": 18.0,
+          "ribbon_label": 18.0,
+          "legal_text": 18.0
+        }
+      },
+      "changed": false,
+      "seconds": {
+        "baseline": [
+          0.05476924998220056,
+          0.05778170900885016,
+          0.05474645795766264,
+          0.05352087505161762,
+          0.05473079194780439
+        ],
+        "candidate": [
+          0.055224333074875176,
+          0.05425212497357279,
+          0.05455233296379447,
+          0.05455470900051296,
+          0.05454725003801286
+        ]
+      },
+      "median_seconds": {
+        "baseline": 0.05474645795766264,
+        "candidate": 0.05455233296379447
+      }
+    },
+    "1080x1350": {
+      "baseline": {
+        "output_sha256": "e2ab9a7bc338f0d7999dba0c65eabd7bf08512c81dcffd17b99880bd13a94ffc",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 40.0,
+          "subhead": 22.0,
+          "badge1_label": 15.0,
+          "badge2_label": 15.0,
+          "badge3_label": 15.0,
+          "cta_label": 22.0,
+          "ribbon_label": 20.0,
+          "legal_text": 12.0
+        }
+      },
+      "candidate": {
+        "output_sha256": "e2ab9a7bc338f0d7999dba0c65eabd7bf08512c81dcffd17b99880bd13a94ffc",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 40.0,
+          "subhead": 22.0,
+          "badge1_label": 15.0,
+          "badge2_label": 15.0,
+          "badge3_label": 15.0,
+          "cta_label": 22.0,
+          "ribbon_label": 20.0,
+          "legal_text": 12.0
+        }
+      },
+      "changed": false,
+      "seconds": {
+        "baseline": [
+          0.00023491703905165195,
+          0.00024266703985631466,
+          0.00023833406157791615,
+          0.0002341660438105464,
+          0.00022570800501853228
+        ],
+        "candidate": [
+          0.0002322919899597764,
+          0.00023795804008841515,
+          0.0002393750473856926,
+          0.00022987497504800558,
+          0.00022616703063249588
+        ]
+      },
+      "median_seconds": {
+        "baseline": 0.00023491703905165195,
+        "candidate": 0.0002322919899597764
+      }
+    },
+    "samecanvas-smalltype": {
+      "baseline": {
+        "output_sha256": "8b9e9292f394cfbb92d763860d11ef92298504661310f81bc713f633365bb524",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 40.0,
+          "subhead": 22.0,
+          "badge1_label": 15.0,
+          "badge2_label": 15.0,
+          "badge3_label": 15.0,
+          "cta_label": 22.0,
+          "ribbon_label": 20.0,
+          "legal_text": 8.0
+        }
+      },
+      "candidate": {
+        "output_sha256": "8b9e9292f394cfbb92d763860d11ef92298504661310f81bc713f633365bb524",
+        "warnings": [],
+        "text_sizes": {
+          "headline": 40.0,
+          "subhead": 22.0,
+          "badge1_label": 15.0,
+          "badge2_label": 15.0,
+          "badge3_label": 15.0,
+          "cta_label": 22.0,
+          "ribbon_label": 20.0,
+          "legal_text": 8.0
+        }
+      },
+      "changed": false,
+      "seconds": {
+        "baseline": [
+          0.0002364999381825328,
+          0.00023687502834945917,
+          0.00023145903833210468,
+          0.00022862502373754978,
+          0.00023200002033263445
+        ],
+        "candidate": [
+          0.00023316696751862764,
+          0.00022816599812358618,
+          0.00022312498185783625,
+          0.00023212493397295475,
+          0.00023025006521493196
+        ]
+      },
+      "median_seconds": {
+        "baseline": 0.00023200002033263445,
+        "candidate": 0.00023025006521493196
+      }
+    }
+  },
+  "sweep": [
+    {
+      "width": 240,
+      "height": 200,
+      "changed": false,
+      "invariants_checked": false
+    },
+    {
+      "width": 240,
+      "height": 240,
+      "changed": false,
+      "invariants_checked": false
+    },
+    {
+      "width": 240,
+      "height": 250,
+      "changed": false,
+      "invariants_checked": false
+    },
+    {
+      "width": 240,
+      "height": 280,
+      "changed": true,
+      "invariants_checked": true
+    },
+    {
+      "width": 240,
+      "height": 300,
+      "changed": true,
+      "invariants_checked": true
+    },
+    {
+      "width": 240,
+      "height": 500,
+      "changed": false,
+      "invariants_checked": false
+    },
+    {
+      "width": 280,
+      "height": 200,
+      "changed": false,
+      "invariants_checked": false
+    },
+    {
+      "width": 280,
+      "height": 240,
+      "changed": false,
+      "invariants_checked": false
+    },
+    {
+      "width": 280,
+      "height": 250,
+      "changed": false,
+      "invariants_checked": false
+    },
+    {
+      "width": 280,
+      "height": 280,
+      "changed": true,
+      "invariants_checked": true
+    },
+    {
+      "width": 280,
+      "height": 300,
+      "changed": true,
+      "invariants_checked": true
+    },
+    {
+      "width": 280,
+      "height": 500,
+      "changed": true,
+      "invariants_checked": true
+    },
+    {
+      "width": 300,
+      "height": 200,
+      "changed": false,
+      "invariants_checked": false
+    },
+    {
+      "width": 300,
+      "height": 240,
+      "changed": false,
+      "invariants_checked": false
+    },
+    {
+      "width": 300,
+      "height": 250,
+      "changed": true,
+      "invariants_checked": true
+    },
+    {
+      "width": 300,
+      "height": 280,
+      "changed": true,
+      "invariants_checked": true
+    },
+    {
+      "width": 300,
+      "height": 300,
+      "changed": true,
+      "invariants_checked": true
+    },
+    {
+      "width": 300,
+      "height": 500,
+      "changed": false,
+      "invariants_checked": false
+    },
+    {
+      "width": 320,
+      "height": 200,
+      "changed": false,
+      "invariants_checked": false
+    },
+    {
+      "width": 320,
+      "height": 240,
+      "changed": true,
+      "invariants_checked": true
+    },
+    {
+      "width": 320,
+      "height": 250,
+      "changed": true,
+      "invariants_checked": true
+    },
+    {
+      "width": 320,
+      "height": 280,
+      "changed": true,
+      "invariants_checked": true
+    },
+    {
+      "width": 320,
+      "height": 300,
+      "changed": true,
+      "invariants_checked": true
+    },
+    {
+      "width": 320,
+      "height": 500,
+      "changed": false,
+      "invariants_checked": false
+    },
+    {
+      "width": 400,
+      "height": 200,
+      "changed": false,
+      "invariants_checked": false
+    },
+    {
+      "width": 400,
+      "height": 240,
+      "changed": false,
+      "invariants_checked": false
+    },
+    {
+      "width": 400,
+      "height": 250,
+      "changed": false,
+      "invariants_checked": false
+    },
+    {
+      "width": 400,
+      "height": 280,
+      "changed": false,
+      "invariants_checked": false
+    },
+    {
+      "width": 400,
+      "height": 300,
+      "changed": false,
+      "invariants_checked": false
+    },
+    {
+      "width": 400,
+      "height": 500,
+      "changed": true,
+      "invariants_checked": true
+    },
+    {
+      "width": 600,
+      "height": 200,
+      "changed": false,
+      "invariants_checked": false
+    },
+    {
+      "width": 600,
+      "height": 240,
+      "changed": true,
+      "invariants_checked": true
+    },
+    {
+      "width": 600,
+      "height": 250,
+      "changed": true,
+      "invariants_checked": true
+    },
+    {
+      "width": 600,
+      "height": 280,
+      "changed": true,
+      "invariants_checked": true
+    },
+    {
+      "width": 600,
+      "height": 300,
+      "changed": true,
+      "invariants_checked": true
+    },
+    {
+      "width": 600,
+      "height": 500,
+      "changed": true,
+      "invariants_checked": true
+    }
+  ],
+  "upstream_git_sha": "a44a06046b0413f0785e7203955c3822e0acbc32",
+  "upstream_git_dirty": false,
+  "renderer_file_sha256": "2d4f68984f1cdfe41a068d477270aedfd07f9d35a22ef61a1399ebd4774d0cde"
+}

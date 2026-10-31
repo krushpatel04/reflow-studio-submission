@@ -1,0 +1,26 @@
+✔ creates deterministic blank reviewer records without method or input-path leakage (11.074584ms)
+✔ assigns every eligible case to distinct reviewers with balanced primary workloads (0.441ms)
+✔ adds one hidden reversed control per reviewer and decodes A/B to the opposite outputs (0.252916ms)
+✔ keeps excluded and failed cases out of review while retaining their exact reasons in accounting (0.240333ms)
+✔ rejects malformed, duplicate, and impossible inputs while accepting valid sparse failures (0.522792ms)
+✔ CLI writes physically separate reviewer, private-decode, and accounting manifests (94.082917ms)
+✔ materialize copies pinned eligible PNGs including controls and never reads excluded/failed paths (263.70575ms)
+✔ materialize rejects hash before publishing any directory (122.87175ms)
+✔ materialize rejects missing before publishing any directory (106.656209ms)
+✔ materialize rejects non-png before publishing any directory (304.442375ms)
+✔ materialize rejects oversized before publishing any directory (98.951292ms)
+✔ CLI rejects unknown and duplicate options instead of silently ignoring intended mode (247.04425ms)
+✔ materialize rejects identity-bearing tEXt PNG metadata (80.860167ms)
+✔ materialize rejects identity-bearing zTXt PNG metadata (75.681459ms)
+✔ materialize rejects identity-bearing iTXt PNG metadata (77.933ms)
+✔ materialize rejects identity-bearing eXIf PNG metadata (85.237ms)
+✔ materialize rejects directories and FIFOs without blocking (172.712ms)
+✔ failed manifest write removes the newly created partial export (91.458667ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2224.486542

@@ -1,0 +1,28 @@
+2026-09-27 UTC validation (local execution; synthetic packaging tests)
+
+Command: npm test
+Exit: 0
+✔ occlusion, contrast, collision and crop findings name the affected region in design coordinates (2.699958ms)
+ℹ tests 465
+ℹ suites 0
+ℹ pass 465
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10176.404042
+
+Command: npm run build
+Exit: 0
+
+> reflow-studio@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v8.3.0 building client environment for production...
+transforming...
+✓ 103 modules transformed.
+
+✓ built in 361ms
+
+Command: git diff --check
+Exit: 0; no whitespace errors

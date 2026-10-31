@@ -1,0 +1,38 @@
+FROM --platform=linux/amd64 python:3.11-slim@sha256:e529028263dbe6910a2d96f7d2b8f5266385e917fd45d286ef166977c094a51e
+
+# Python-only submission image, modeled on the upstream starter Dockerfile
+# (jhaaj08/chameleon @ a44a06046b0413f0785e7203955c3822e0acbc32). No Node/npm.
+# Build context: sh submission/assemble_context.sh OUT [UPSTREAM_CHECKOUT]   (pinned upstream, nothing upstream committed here)
+# Build: docker build -f OUT/Dockerfile.python-submission -t reflow-python-submission OUT
+# Run:   docker run --rm --network none -v IN:/app/input:ro -v OUT:/app/output reflow-python-submission
+# Smoke: python3 scripts/offline_submission_smoke.py --image reflow-python-submission --input IN --work DIR
+# Evidence: docs/evidence/2026-10-06-r5b (unmodified file built under single-ID rootless podman) and
+# docs/evidence/2026-10-06-offline-channel. Rootless podman without newuidmap needs the apt sandbox disabled by the
+# BUILD INVOCATION (--volume apt-nosandbox.conf:/etc/apt/apt.conf.d/99nosandbox:ro), never by editing this file.
+# Base is digest-pinned (python:3.11.17-slim, Debian trixie, linux/amd64 manifest). Apt packages are NOT pinned (Debian drops old versions);
+# pip transitives are pinned by constraints-python-submission.txt. See docs/evidence/2026-10-06-offline-channel/limitations.md.
+# input/ and output/ are mounted at run time, never baked in.
+
+WORKDIR /app
+
+# System libs skia needs at import time (libEGL.so.1, libGL.so.1) plus git for the pinned pip install.
+# Without them python -m engine.main silently falls back to box rendering and still exits 0.
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    git \
+    libgl1 \
+    libegl1 \
+    libglib2.0-0 \
+    fontconfig \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY requirements-python-submission.txt constraints-python-submission.txt ./
+RUN pip install --no-cache-dir -c constraints-python-submission.txt -r requirements-python-submission.txt
+
+COPY chameleon_design_schema_v0.9.json ./
+COPY brand_kit/ ./brand_kit/
+COPY renderer/ ./renderer/
+COPY engine/ ./engine/
+
+RUN mkdir -p /app/input /app/output
+
+ENTRYPOINT ["python", "-m", "engine.main"]

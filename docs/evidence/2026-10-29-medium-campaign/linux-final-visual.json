@@ -1,0 +1,102 @@
+{
+  "git_sha": "14b973861faed93378a7b24f84e13931249df308",
+  "image": {
+    "id": "sha256:bc0e91a5f27efde05a26fc4f5672c3e5a545e0171d485a1a6a274d2b061169a4",
+    "arch": "amd64",
+    "os": "linux"
+  },
+  "cases": [
+    {
+      "target": [
+        300,
+        250
+      ],
+      "font_sizes": {
+        "headline": 13.0,
+        "subhead": 9.0,
+        "badge1_label": 9.0,
+        "badge2_label": 9.0,
+        "badge3_label": 9.0,
+        "cta_label": 9.0,
+        "ribbon_label": 9.0,
+        "legal_text": 9.0
+      },
+      "png_sha256": "59382c41f6c41663d71de4974c4971193d05a5001711a35627d6503d878f5ee2",
+      "identical_to_reviewed_provisional_png": true
+    },
+    {
+      "target": [
+        301,
+        251
+      ],
+      "font_sizes": {
+        "headline": 13.0,
+        "subhead": 9.0,
+        "badge1_label": 9.0,
+        "badge2_label": 9.0,
+        "badge3_label": 9.0,
+        "cta_label": 9.0,
+        "ribbon_label": 9.0,
+        "legal_text": 9.0
+      },
+      "png_sha256": "fb009659ab73de716ada85064835c920a6519ad5e759be3efd0d9bdaa7c80e80",
+      "identical_to_reviewed_provisional_png": true
+    },
+    {
+      "target": [
+        320,
+        250
+      ],
+      "font_sizes": {
+        "headline": 14.0,
+        "subhead": 9.0,
+        "badge1_label": 9.0,
+        "badge2_label": 9.0,
+        "badge3_label": 9.0,
+        "cta_label": 9.0,
+        "ribbon_label": 9.0,
+        "legal_text": 9.0
+      },
+      "png_sha256": "dfbc6615ade3dd8f5684924d4506d307ce750cede4e95fb5f26b348d56def5f7",
+      "identical_to_reviewed_provisional_png": true
+    },
+    {
+      "target": [
+        250,
+        300
+      ],
+      "font_sizes": {
+        "headline": 10.0,
+        "subhead": 9.0,
+        "badge1_label": 9.0,
+        "badge2_label": 9.0,
+        "badge3_label": 9.0,
+        "cta_label": 9.0,
+        "ribbon_label": 9.0,
+        "legal_text": 9.0
+      },
+      "png_sha256": "78e364f78e3a6acb0e58e8ab0c5d5c99be0929859b6050f9edcba2456056f354",
+      "identical_to_reviewed_provisional_png": true
+    },
+    {
+      "target": [
+        600,
+        500
+      ],
+      "font_sizes": {
+        "headline": 30.0,
+        "subhead": 20.0,
+        "badge1_label": 20.0,
+        "badge2_label": 20.0,
+        "badge3_label": 20.0,
+        "cta_label": 20.0,
+        "ribbon_label": 20.0,
+        "legal_text": 15.0
+      },
+      "png_sha256": "f5c40736e30c651d4bb9e7711e41a5d8917c80661ce8a2af7b1af198713c6ce7",
+      "identical_to_reviewed_provisional_png": true
+    }
+  ],
+  "runtime_pass": true,
+  "protected_fields_geometry_and_font_floor_pass": true
+}

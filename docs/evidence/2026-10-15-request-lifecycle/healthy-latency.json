@@ -1,0 +1,26 @@
+{
+  "freshContextStartupMs": 202.7311660000014,
+  "samples": [
+    {
+      "trial": 0,
+      "resourceCache": "first measured edit after app ready",
+      "elapsedMs": 284.24541699999827
+    },
+    {
+      "trial": 1,
+      "resourceCache": "repeated edit, same context, fresh worker",
+      "elapsedMs": 223.8837910000002
+    },
+    {
+      "trial": 2,
+      "resourceCache": "repeated edit, same context, fresh worker",
+      "elapsedMs": 229.64358300000094
+    },
+    {
+      "trial": 3,
+      "resourceCache": "repeated edit, same context, fresh worker",
+      "elapsedMs": 226.19879100000253
+    }
+  ],
+  "note": "Fresh Playwright context for startup; server/OS caches are not reset. Four edit samples after app ready; each creates a fresh worker. Repeated edits reuse the browser context; cache hits are not directly measured. Timing includes Playwright interaction/expect overhead. No percentile or general runtime guarantee."
+}

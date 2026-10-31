@@ -1,0 +1,343 @@
+[
+  {
+    "name": "chameleon_sample_level1_warmup",
+    "target": {
+      "width": 1080,
+      "height": 1350
+    },
+    "before": {
+      "json_sha256": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+      "png_sha256": "73e1ff8869c295f8f6e88746a574ce939b35a699d42632bb98c14aac144f1f2b",
+      "warnings": [],
+      "text_sizes": {
+        "headline": 60.0,
+        "cta": 30.0
+      }
+    },
+    "after": {
+      "json_sha256": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+      "png_sha256": "73e1ff8869c295f8f6e88746a574ce939b35a699d42632bb98c14aac144f1f2b",
+      "warnings": [],
+      "text_sizes": {
+        "headline": 60.0,
+        "cta": 30.0
+      }
+    }
+  },
+  {
+    "name": "chameleon_sample_level2_core",
+    "target": {
+      "width": 1600,
+      "height": 400
+    },
+    "before": {
+      "json_sha256": "730b063cd9b0e6cb0bddc97d6c43e0113106f580dc1794bf241ca327e8b3a310",
+      "png_sha256": "f05e78e6f32be4970118ad2ff7cd477d34047707d7ede8a85e6936d89a895f39",
+      "warnings": [],
+      "text_sizes": {
+        "headline": 56.0,
+        "subhead": 24.0,
+        "badge_label": 9.0,
+        "cta_label": 11.0
+      }
+    },
+    "after": {
+      "json_sha256": "730b063cd9b0e6cb0bddc97d6c43e0113106f580dc1794bf241ca327e8b3a310",
+      "png_sha256": "f05e78e6f32be4970118ad2ff7cd477d34047707d7ede8a85e6936d89a895f39",
+      "warnings": [],
+      "text_sizes": {
+        "headline": 56.0,
+        "subhead": 24.0,
+        "badge_label": 9.0,
+        "cta_label": 11.0
+      }
+    }
+  },
+  {
+    "name": "chameleon_sample_level3_advanced",
+    "target": {
+      "width": 728,
+      "height": 90
+    },
+    "before": {
+      "json_sha256": "4d3d47f40b93e099eec037558156d4830badf9f9cc41ff59bbb2139ea7ac0425",
+      "png_sha256": "273fb153dc5d9878d809d1f2a326d7f39566374993e34bdfe422d9b758bd4890",
+      "warnings": [
+        "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+      ],
+      "text_sizes": {
+        "headline": 9.0,
+        "subhead": 9.0,
+        "badge1_label": 9.0,
+        "badge2_label": 9.0,
+        "badge3_label": 9.0,
+        "cta_label": 9.0,
+        "ribbon_label": 9.0,
+        "legal_text": 9.0
+      }
+    },
+    "after": {
+      "json_sha256": "4d3d47f40b93e099eec037558156d4830badf9f9cc41ff59bbb2139ea7ac0425",
+      "png_sha256": "273fb153dc5d9878d809d1f2a326d7f39566374993e34bdfe422d9b758bd4890",
+      "warnings": [
+        "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+      ],
+      "text_sizes": {
+        "headline": 9.0,
+        "subhead": 9.0,
+        "badge1_label": 9.0,
+        "badge2_label": 9.0,
+        "badge3_label": 9.0,
+        "cta_label": 9.0,
+        "ribbon_label": 9.0,
+        "legal_text": 9.0
+      }
+    }
+  },
+  {
+    "name": "singleton",
+    "target": {
+      "width": 728,
+      "height": 90
+    },
+    "before": {
+      "json_sha256": "8e05bbc475c0b58bd23f9e67122f5ce0f7ffef37610499b101eb6224178e4c44",
+      "png_sha256": "d1a067f5559dd15e5462cf7c3358df1c306deb0569155dd4aabe4d160ef08c6d",
+      "warnings": [
+        "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+      ],
+      "text_sizes": {
+        "headline": 11.297181459240004,
+        "subhead": 6.213449802582002,
+        "badge1_label": 6.0,
+        "badge2_label": 6.0,
+        "badge3_label": 6.0,
+        "cta_label": 6.0,
+        "ribbon_label": 6.0,
+        "legal_text": 1.0
+      }
+    },
+    "after": {
+      "json_sha256": "e4786566bc7be10ffa927ca9c525269eb682b061dce06ab2a3fd174a2b8ce04e",
+      "png_sha256": "273fb153dc5d9878d809d1f2a326d7f39566374993e34bdfe422d9b758bd4890",
+      "warnings": [
+        "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+      ],
+      "text_sizes": {
+        "headline": 9.0,
+        "subhead": 9.0,
+        "badge1_label": 9.0,
+        "badge2_label": 9.0,
+        "badge3_label": 9.0,
+        "cta_label": 9.0,
+        "ribbon_label": 9.0,
+        "legal_text": 9.0
+      }
+    }
+  },
+  {
+    "name": "decoration",
+    "target": {
+      "width": 728,
+      "height": 90
+    },
+    "before": {
+      "json_sha256": "9436076061570c36c8c4c1c589d11c013745f0a6a11ee146fb1081183244d789",
+      "png_sha256": "87a664701df2ff560bbd47b62ba3f4fd0f1a9aba8bd1ed577cfbf33ac79ec0e4",
+      "warnings": [
+        "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+      ],
+      "text_sizes": {
+        "headline": 11.297181459240004,
+        "subhead": 6.213449802582002,
+        "badge1_label": 6.0,
+        "badge2_label": 6.0,
+        "badge3_label": 6.0,
+        "cta_label": 6.0,
+        "ribbon_label": 6.0,
+        "legal_text": 6.0
+      }
+    },
+    "after": {
+      "json_sha256": "c51e8303043982aac0570ad559355e905b3eaab0d922eeb07619783ba2b7873b",
+      "png_sha256": "273fb153dc5d9878d809d1f2a326d7f39566374993e34bdfe422d9b758bd4890",
+      "warnings": [
+        "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+      ],
+      "text_sizes": {
+        "headline": 9.0,
+        "subhead": 9.0,
+        "badge1_label": 9.0,
+        "badge2_label": 9.0,
+        "badge3_label": 9.0,
+        "cta_label": 9.0,
+        "ribbon_label": 9.0,
+        "legal_text": 9.0
+      }
+    }
+  },
+  {
+    "name": "roomy",
+    "target": {
+      "width": 970,
+      "height": 250
+    },
+    "before": {
+      "json_sha256": "721461dc5e0c4c80e0123daeeb24dd9b75e78d1cb9c336fdc2582198d702e8c1",
+      "png_sha256": "542496c3f42c685ec0fe3668250d006bb851bf669078567c1247dd973c117354",
+      "warnings": [
+        "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+      ],
+      "text_sizes": {
+        "headline": 16.0,
+        "subhead": 16.0,
+        "badge1_label": 16.0,
+        "badge2_label": 16.0,
+        "badge3_label": 16.0,
+        "cta_label": 16.0,
+        "ribbon_label": 16.0,
+        "legal_text": 16.0
+      }
+    },
+    "after": {
+      "json_sha256": "e0a48af4361a53a13d2f5bf406e077cd53caced06a7faa6c31a916f02d965fc8",
+      "png_sha256": "3890a4b80d641cb849cc50fb8c9641ae34a26ec2300647193e5b7632dc379160",
+      "warnings": [
+        "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+      ],
+      "text_sizes": {
+        "headline": 24.0,
+        "subhead": 16.0,
+        "badge1_label": 16.0,
+        "badge2_label": 16.0,
+        "badge3_label": 16.0,
+        "cta_label": 16.0,
+        "ribbon_label": 16.0,
+        "legal_text": 12.0
+      }
+    }
+  },
+  {
+    "name": "roomy-nearby",
+    "target": {
+      "width": 971,
+      "height": 251
+    },
+    "before": {
+      "json_sha256": "3508c98c7f01bc21cd6c9bd84e513d7dab6c2bf792ce4ec42d79b1d5f437fe55",
+      "png_sha256": "69cad1a72a0c77fafd364cd862377260848ef3be2fa513514a82c7471bb14cae",
+      "warnings": [
+        "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+      ],
+      "text_sizes": {
+        "headline": 16.0,
+        "subhead": 16.0,
+        "badge1_label": 16.0,
+        "badge2_label": 16.0,
+        "badge3_label": 16.0,
+        "cta_label": 16.0,
+        "ribbon_label": 16.0,
+        "legal_text": 16.0
+      }
+    },
+    "after": {
+      "json_sha256": "f1c7987187cba00f7f71fbdc8fe183179be935d0155bb1922555664468f1a738",
+      "png_sha256": "23f5b542c699ea69637202cc243ae54c0d11787195b1e8d38af2564d6081420a",
+      "warnings": [
+        "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+      ],
+      "text_sizes": {
+        "headline": 24.0,
+        "subhead": 16.0,
+        "badge1_label": 16.0,
+        "badge2_label": 16.0,
+        "badge3_label": 16.0,
+        "cta_label": 16.0,
+        "ribbon_label": 16.0,
+        "legal_text": 12.0
+      }
+    }
+  },
+  {
+    "name": "portrait",
+    "target": {
+      "width": 160,
+      "height": 600
+    },
+    "before": {
+      "json_sha256": "5f554b376aa30c4c8cbe04f4b7fb4a2b694a0b76af0fd29d4a6cc3a0732f7b29",
+      "png_sha256": "fa923db2238759701633c0989a0713f55bab6127922b34818936523d50602828",
+      "warnings": [
+        "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+      ],
+      "text_sizes": {
+        "headline": 10.0,
+        "subhead": 10.0,
+        "badge1_label": 10.0,
+        "badge2_label": 10.0,
+        "badge3_label": 10.0,
+        "cta_label": 10.0,
+        "ribbon_label": 10.0,
+        "legal_text": 10.0
+      }
+    },
+    "after": {
+      "json_sha256": "5f554b376aa30c4c8cbe04f4b7fb4a2b694a0b76af0fd29d4a6cc3a0732f7b29",
+      "png_sha256": "fa923db2238759701633c0989a0713f55bab6127922b34818936523d50602828",
+      "warnings": [
+        "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+      ],
+      "text_sizes": {
+        "headline": 10.0,
+        "subhead": 10.0,
+        "badge1_label": 10.0,
+        "badge2_label": 10.0,
+        "badge3_label": 10.0,
+        "cta_label": 10.0,
+        "ribbon_label": 10.0,
+        "legal_text": 10.0
+      }
+    }
+  },
+  {
+    "name": "short-banner",
+    "target": {
+      "width": 728,
+      "height": 101
+    },
+    "before": {
+      "json_sha256": "34e4e72cd5655f18fdecee0774e7d6f5e1e982ec913d1a62cb9c85dcc3f849c5",
+      "png_sha256": "b5a0841a7464d3787fdf10a378d75727ef7225e82638ee05ac4828d0010e0662",
+      "warnings": [
+        "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+      ],
+      "text_sizes": {
+        "headline": 9.0,
+        "subhead": 9.0,
+        "badge1_label": 9.0,
+        "badge2_label": 9.0,
+        "badge3_label": 9.0,
+        "cta_label": 9.0,
+        "ribbon_label": 9.0,
+        "legal_text": 9.0
+      }
+    },
+    "after": {
+      "json_sha256": "09be33f9220949cef16add84be912551a36d400873beaea393d6d377b18fdf86",
+      "png_sha256": "6b73baab0239e8784ec7a3bc29c099178cc9bd29b12cc70ea3be536f3252f5ff",
+      "warnings": [
+        "Missing asset 'solstice_holiday_badge_2025.png' for element 'holiday_watermark' - rendered a placeholder."
+      ],
+      "text_sizes": {
+        "headline": 13.0,
+        "subhead": 9.0,
+        "badge1_label": 9.0,
+        "badge2_label": 9.0,
+        "badge3_label": 9.0,
+        "cta_label": 9.0,
+        "ribbon_label": 9.0,
+        "legal_text": 9.0
+      }
+    }
+  }
+]

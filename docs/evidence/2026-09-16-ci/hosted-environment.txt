@@ -1,0 +1,73 @@
+Record runtime and dependency versions
+0s
+Error:
+1
+Wed, 16 Sep 2026 04:40:29 GMT
+Run npm run ci:environment 2>&1 | tee reports/ci/environment.log
+9
+Wed, 16 Sep 2026 04:40:29 GMT
+10
+Wed, 16 Sep 2026 04:40:29 GMT
+> reflow-studio@0.1.0 ci:environment
+11
+Wed, 16 Sep 2026 04:40:29 GMT
+> node scripts/ci-environment.mjs
+12
+Wed, 16 Sep 2026 04:40:29 GMT
+13
+Wed, 16 Sep 2026 04:40:29 GMT
+{
+14
+Wed, 16 Sep 2026 04:40:29 GMT
+"generatedAt": "2026-09-16T04:40:29.666Z",
+15
+Wed, 16 Sep 2026 04:40:29 GMT
+"commit": "56757a720ca97b3a87a0ac04b2ef22ab2ff56750",
+16
+Wed, 16 Sep 2026 04:40:29 GMT
+"node": "v24.20.0",
+17
+Wed, 16 Sep 2026 04:40:29 GMT
+"platform": "linux",
+18
+Wed, 16 Sep 2026 04:40:29 GMT
+"release": "6.17.0-1022-azure",
+19
+Wed, 16 Sep 2026 04:40:29 GMT
+"architecture": "x64",
+20
+Wed, 16 Sep 2026 04:40:29 GMT
+"cpu": "AMD EPYC 7763 64-Core Processor",
+21
+Wed, 16 Sep 2026 04:40:29 GMT
+"schemaVersion": "reflow.design.v0",
+22
+Wed, 16 Sep 2026 04:40:29 GMT
+"lockSha256": "fd107687b392d74de92033dbc92570dcce81600709662f8f1ad48ae77a07158e",
+23
+Wed, 16 Sep 2026 04:40:29 GMT
+"fonts": {
+24
+Wed, 16 Sep 2026 04:40:29 GMT
+"@fontsource/inter": "5.3.0",
+25
+Wed, 16 Sep 2026 04:40:29 GMT
+"@fontsource/source-serif-4": "5.3.0"
+26
+Wed, 16 Sep 2026 04:40:29 GMT
+},
+27
+Wed, 16 Sep 2026 04:40:29 GMT
+"nativeCanvas": "1.0.9",
+28
+Wed, 16 Sep 2026 04:40:29 GMT
+"playwright": "1.63.0",
+29
+Wed, 16 Sep 2026 04:40:29 GMT
+"scope": "Synthetic development corpus; no independent quality, Adobe renderer or offline-container certification."
+30
+Wed, 16 Sep 2026 04:40:29 GMT
+}
+This step has been truncated due to its large size. View the raw logs from the
+menu once
+the workflow run has completed.

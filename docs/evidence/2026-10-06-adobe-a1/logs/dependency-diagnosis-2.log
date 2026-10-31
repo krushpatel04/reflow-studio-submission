@@ -1,0 +1,9 @@
+so=$RUNTIME/chameleon-venv311/lib/python3.11/site-packages/skia.cpython-311-x86_64-linux-gnu.so
+	libEGL.so.1 => not found
+	libGL.so.1 => not found
+libEGL.so.1: ABSENT
+libGL.so.1: ABSENT
+libglib-2.0.so.0: /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+libfontconfig.so.1: ABSENT
+/usr/bin/apt-get
+/usr/bin/dpkg

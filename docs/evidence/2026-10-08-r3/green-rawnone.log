@@ -1,0 +1,33 @@
+Fontconfig error: Cannot load default config file
+/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.
+----------------------------------------------------------------------
+Ran 8 tests in 1.267s
+
+OK

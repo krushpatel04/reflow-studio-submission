@@ -1,0 +1,29 @@
+✔ after-dark: nearby width/height sweep retains composition (24.803917ms)
+✔ long-headline: nearby width/height sweep retains composition (11.71975ms)
+✔ dense-program: nearby width/height sweep retains composition (14.162458ms)
+✔ grouped-details: nearby width/height sweep retains composition (7.807333ms)
+✔ intentional-overlap: nearby width/height sweep retains composition (6.952125ms)
+✔ layered-art: nearby width/height sweep retains composition (3.069584ms)
+✔ product-pairs: nearby width/height sweep retains composition (34.49325ms)
+✔ quiet-brand: nearby width/height sweep retains composition (4.863917ms)
+✔ edge-subject: nearby width/height sweep retains composition (3.306417ms)
+✔ type-pairing: nearby width/height sweep retains composition (4.33575ms)
+✔ large format change can trade composition for materially better reading size (1.060875ms)
+✔ wide gallery becomes readable at a tall aspect ratio instead of retaining a tiny letterboxed caption (24.489458ms)
+✔ scale, metadata and ID changes do not change a nearby composition decision (1.15725ms)
+✔ text-free design preserves its composition instead of maximizing coverage (0.866542ms)
+✔ source-aware ranking prefers established relations over unnecessary font enlargement (0.481ms)
+✔ hard preservation errors outrank a composition-perfect candidate (0.580667ms)
+✔ uniform scaling and letterboxing introduce no source-relation loss at any supported ratio (2.854875ms)
+✔ additional readable or empty text cannot hide an unreadable caption (0.097875ms)
+✔ candidate order does not change a source-aware selection (2.150916ms)
+✔ a one-pixel move past square does not discard a healthy four-product row (273.473542ms)
+✔ four-product row still yields to a larger-photo story and a source-like wide format (146.1295ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1435.681042

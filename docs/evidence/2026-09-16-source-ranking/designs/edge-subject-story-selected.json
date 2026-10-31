@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "edge-subject",
+  "name": "Keep the subject in view",
+  "description": "A synthetic figure near the image edge exercises focal-point cropping. This is not a photograph.",
+  "provenance": "synthetic",
+  "width": 1080,
+  "height": 1920,
+  "background": "#dce4ed",
+  "elements": [
+    {
+      "id": "hero",
+      "type": "image",
+      "role": "content",
+      "assetId": "landscape",
+      "x": 48,
+      "y": 576,
+      "width": 984,
+      "height": 568,
+      "fit": "cover",
+      "focalPoint": {
+        "x": 0.83,
+        "y": 0.55
+      }
+    },
+    {
+      "id": "headline",
+      "type": "text",
+      "role": "content",
+      "text": "Take the long way.",
+      "x": 48,
+      "y": 1188,
+      "width": 984,
+      "height": 104,
+      "fontSize": 67.2,
+      "color": "#21394c",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "footer",
+      "type": "text",
+      "role": "content",
+      "text": "WALKING CLUB · EVERY SATURDAY",
+      "x": 48,
+      "y": 1304.8000000000002,
+      "width": 984,
+      "height": 52,
+      "fontSize": 24.8,
+      "color": "#21394c",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    }
+  ],
+  "groups": []
+}

@@ -1,0 +1,17 @@
+not ok 1 - tests/defect-pack.test.ts
+not ok 2 - tests/rendered-visibility.test.ts
+ok 3 - an opaque decoration moved over content is occlusion; the same decoration left clear is not
+ok 4 - an originally slight overlap that becomes substantially more obstructive is detected; the same slight overlap is legal
+ok 5 - the opaque full-canvas decorative cover fault injection reports hidden content, not only an inventory change
+ok 6 - semi-transparent layering: a legal translucent overlay is retained, a moved one that hides most of the text is reported
+ok 7 - text that ends up under a later-painted image is occluded
+ok 8 - white text that leaves its dark backing is reported as low contrast; text kept on its backing is not
+ok 9 - the grouped mixed-role separation is reported as invisible text, independently of the group check
+ok 10 - contrast is computed against a composited semi-transparent backing at nearby and extreme ratios
+ok 11 - an intended overlap that grows substantially becomes a collision; the unchanged intentional overlap stays legal
+ok 12 - an extreme cover crop reports the retained share of the source-visible image; matching frames and contain do not
+ok 13 - unreadable asset dimensions skip crop diagnostics instead of guessing
+ok 14 - positive controls: fixtures and grouped designs add no occlusion or contrast errors across formats, nearby and extreme sizes
+not ok 15 - occlusion, contrast, collision and crop findings name the affected region in design coordinates
+# pass 12
+# fail 3

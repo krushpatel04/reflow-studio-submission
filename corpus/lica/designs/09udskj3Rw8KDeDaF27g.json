@@ -1,0 +1,462 @@
+{
+ "schemaVersion": "reflow.design.v0",
+ "id": "lica-09udskj3Rw8KDeDaF27g",
+ "name": "LICA Presentations 09udskj3Rw8KDeDaF27g",
+ "description": "Converted from LICA layout 09udskj3Rw8KDeDaF27g (template af4e202d-aa8d-a10c-a721-a0b77deda08c).",
+ "provenance": "LICA dataset (LICA WORLD), CC BY 4.0, https://github.com/purvanshi/lica-dataset; converted and modified for Reflow evaluation",
+ "width": 1920,
+ "height": 1080,
+ "background": "#fcf5f0",
+ "groups": [],
+ "elements": [
+  {
+   "id": "image-0",
+   "type": "image",
+   "role": "content",
+   "x": 95,
+   "y": 541,
+   "width": 1729.2,
+   "height": 440.6,
+   "assetId": "49b199bd-b402-4419-b7f9-9b296061efc9.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-1",
+   "type": "image",
+   "role": "content",
+   "x": 541.1,
+   "y": 597.3,
+   "width": 1.9,
+   "height": 322.5,
+   "assetId": "02e910cd-1134-4405-819b-b1effcd774c5.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-2",
+   "type": "image",
+   "role": "content",
+   "x": 956.4,
+   "y": 597.3,
+   "width": 1.9,
+   "height": 322.5,
+   "assetId": "b610440e-599d-4299-945f-52827242076d.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-3",
+   "type": "image",
+   "role": "content",
+   "x": 1371.6,
+   "y": 597.3,
+   "width": 1.9,
+   "height": 322.5,
+   "assetId": "fcf516e4-8384-429b-94f7-05375bb7094d.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-4",
+   "type": "image",
+   "role": "content",
+   "x": 435.1,
+   "y": 615,
+   "width": 47.4,
+   "height": 50.9,
+   "assetId": "f6eace48-7df7-4308-8976-904ee0d32314.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-5",
+   "type": "image",
+   "role": "content",
+   "x": 1262.8,
+   "y": 610.2,
+   "width": 60.9,
+   "height": 60.5,
+   "assetId": "50e17d1a-4f67-49fa-91dd-3ebba787a547.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-6",
+   "type": "image",
+   "role": "content",
+   "x": 1116.1,
+   "y": 186.8,
+   "width": 366.3,
+   "height": 2.1,
+   "assetId": "f137b710-621d-407c-8e59-71362cd3b0ee.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-7",
+   "type": "image",
+   "role": "content",
+   "x": 1105.2,
+   "y": 0.2,
+   "width": 1.9,
+   "height": 185.7,
+   "assetId": "3d9e3c7c-7c08-4330-9ae9-df2e346ba87b.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-8",
+   "type": "image",
+   "role": "content",
+   "x": 898.9,
+   "y": 453.8,
+   "width": 905.7,
+   "height": 2.1,
+   "assetId": "b625f979-d52a-4c0d-8d54-e2f56845bc9e.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-9",
+   "type": "image",
+   "role": "content",
+   "x": 1796.2,
+   "y": 252.5,
+   "width": 1.9,
+   "height": 185.7,
+   "assetId": "2d4d2312-aaf0-4dad-93ac-7d450c37498c.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-10",
+   "type": "image",
+   "role": "content",
+   "x": 1796.2,
+   "y": 252.5,
+   "width": 121.7,
+   "height": 2.1,
+   "assetId": "38999991-ff3e-40e3-946a-2282ee7906ec.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-11",
+   "type": "image",
+   "role": "content",
+   "x": 1059.3,
+   "y": 137.4,
+   "width": 91.4,
+   "height": 96.6,
+   "assetId": "e9723fcc-7f61-486e-ae54-689e9ca7900f.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-12",
+   "type": "image",
+   "role": "content",
+   "x": 1764.7,
+   "y": 420.6,
+   "width": 60.9,
+   "height": 60.9,
+   "assetId": "9265b611-551c-44fc-b842-340ed39f579a.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-13",
+   "type": "image",
+   "role": "content",
+   "x": 1459.4,
+   "y": 164.4,
+   "width": 40.3,
+   "height": 43.5,
+   "assetId": "e4716bac-09d5-44d9-b871-3740c52c70b1.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-14",
+   "type": "image",
+   "role": "content",
+   "x": 862.7,
+   "y": 410.6,
+   "width": 77.4,
+   "height": 82.2,
+   "assetId": "076035fd-5f0c-4ece-ac64-136df7b2ab75.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "text-15",
+   "type": "text",
+   "role": "content",
+   "x": 97.9,
+   "y": 234,
+   "width": 1018,
+   "height": 209,
+   "text": "How the Gig Economy\nHas Evolved",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 95,
+   "lineHeight": 1.1,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-16",
+   "type": "text",
+   "role": "content",
+   "x": 1234,
+   "y": 277,
+   "width": 490.9,
+   "height": 171,
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-17",
+   "type": "text",
+   "role": "content",
+   "x": 168,
+   "y": 588,
+   "width": 119,
+   "height": 84,
+   "text": "01",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 70,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-18",
+   "type": "text",
+   "role": "content",
+   "x": 583.7,
+   "y": 588,
+   "width": 119,
+   "height": 84,
+   "text": "02",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 70,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-19",
+   "type": "text",
+   "role": "content",
+   "x": 999.9,
+   "y": 588,
+   "width": 119,
+   "height": 84,
+   "text": "03",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 70,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-20",
+   "type": "text",
+   "role": "content",
+   "x": 1416,
+   "y": 588,
+   "width": 119,
+   "height": 84,
+   "text": "04",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 70,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-21",
+   "type": "text",
+   "role": "content",
+   "x": 168,
+   "y": 783,
+   "width": 267.1,
+   "height": 171,
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-22",
+   "type": "text",
+   "role": "content",
+   "x": 583.7,
+   "y": 783,
+   "width": 267.1,
+   "height": 171,
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-23",
+   "type": "text",
+   "role": "content",
+   "x": 999.9,
+   "y": 783,
+   "width": 267.1,
+   "height": 171,
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-24",
+   "type": "text",
+   "role": "content",
+   "x": 1416,
+   "y": 783,
+   "width": 267.1,
+   "height": 171,
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-25",
+   "type": "text",
+   "role": "content",
+   "x": 168,
+   "y": 713,
+   "width": 165.7,
+   "height": 36,
+   "text": "Milestones",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 28,
+   "lineHeight": 1.32,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-26",
+   "type": "text",
+   "role": "content",
+   "x": 583.7,
+   "y": 713,
+   "width": 165.7,
+   "height": 36,
+   "text": "Milestones",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 28,
+   "lineHeight": 1.32,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-27",
+   "type": "text",
+   "role": "content",
+   "x": 999.9,
+   "y": 713,
+   "width": 165.7,
+   "height": 36,
+   "text": "Milestones",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 28,
+   "lineHeight": 1.32,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-28",
+   "type": "text",
+   "role": "content",
+   "x": 1416,
+   "y": 713,
+   "width": 165.7,
+   "height": 36,
+   "text": "Milestones",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 28,
+   "lineHeight": 1.32,
+   "color": "#000000",
+   "align": "left"
+  }
+ ]
+}

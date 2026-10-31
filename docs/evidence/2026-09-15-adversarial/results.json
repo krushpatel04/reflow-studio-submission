@@ -1,0 +1,172 @@
+[
+  {
+    "test": "invisible-headline",
+    "kind": "fault injection into evaluator",
+    "errors": 0,
+    "warnings": 0,
+    "findings": []
+  },
+  {
+    "test": "changed-brand-color",
+    "kind": "fault injection into evaluator",
+    "errors": 0,
+    "warnings": 0,
+    "findings": []
+  },
+  {
+    "test": "removed-group-membership",
+    "kind": "fault injection into evaluator",
+    "errors": 0,
+    "warnings": 0,
+    "findings": []
+  },
+  {
+    "test": "paint-order-reversed",
+    "kind": "fault injection into evaluator",
+    "errors": 0,
+    "warnings": 0,
+    "findings": []
+  },
+  {
+    "test": "extra-decorative-cover",
+    "kind": "fault injection into evaluator",
+    "errors": 0,
+    "warnings": 0,
+    "findings": []
+  },
+  {
+    "test": "missing-font-family",
+    "validation": "accepted",
+    "rendering": "rendered"
+  },
+  {
+    "test": "unknown-asset",
+    "validation": "accepted",
+    "rendering": "Error: Missing image customer-upload"
+  },
+  {
+    "test": "missing-focal-point",
+    "validation": "accepted",
+    "rendering": "TypeError: Cannot read properties of undefined (reading 'x')"
+  },
+  {
+    "test": "invalid-opacity",
+    "validation": "accepted",
+    "rendering": "rendered"
+  },
+  {
+    "test": "mixed-role-group",
+    "selected": "stack",
+    "metrics": {
+      "errors": 0,
+      "warnings": 0,
+      "minReadingSize": 17.274,
+      "contentCoverage": 0.81345,
+      "findings": []
+    },
+    "elements": [
+      {
+        "id": "badge",
+        "type": "rect",
+        "role": "decoration",
+        "groupId": "button",
+        "x": 60,
+        "y": 360,
+        "width": 300,
+        "height": 120,
+        "color": "#16362a"
+      },
+      {
+        "id": "label",
+        "type": "text",
+        "role": "content",
+        "groupId": "button",
+        "x": 39,
+        "y": 39,
+        "width": 522,
+        "height": 1122,
+        "text": "CALL TODAY",
+        "fontFamily": "Inter",
+        "fontSize": 28.79,
+        "fontWeight": 700,
+        "lineHeight": 1.1,
+        "color": "#ffffff"
+      }
+    ]
+  },
+  {
+    "test": "one-pixel-width-change",
+    "cases": [
+      {
+        "id": "after-dark",
+        "strategy": "stack",
+        "maxNormalizedOriginMovement": 0.05212216150246352,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "id": "long-headline",
+        "strategy": "split",
+        "maxNormalizedOriginMovement": 0.7813159268508648,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "id": "dense-program",
+        "strategy": "stack",
+        "maxNormalizedOriginMovement": 0.10059514212170899,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "id": "grouped-details",
+        "strategy": "uniform",
+        "maxNormalizedOriginMovement": 0.0003691368304191006,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "id": "intentional-overlap",
+        "strategy": "stack",
+        "maxNormalizedOriginMovement": 0.04916581025986635,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "id": "layered-art",
+        "strategy": "stack",
+        "maxNormalizedOriginMovement": 0.029828233216895858,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "id": "product-pairs",
+        "strategy": "uniform",
+        "maxNormalizedOriginMovement": 0.0003132469735523183,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "id": "quiet-brand",
+        "strategy": "stack",
+        "maxNormalizedOriginMovement": 0.09404403182867602,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "id": "edge-subject",
+        "strategy": "split",
+        "maxNormalizedOriginMovement": 0.8380616392989387,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "id": "type-pairing",
+        "strategy": "stack",
+        "maxNormalizedOriginMovement": 0.044381710080378486,
+        "errors": 0,
+        "warnings": 0
+      }
+    ]
+  }
+]

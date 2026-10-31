@@ -1,0 +1,226 @@
+
+> reflow-studio@0.1.0 review:probes
+> tsx scripts/adversarial-probes.ts
+
+[
+  {
+    "test": "invisible-headline",
+    "kind": "fault injection into evaluator",
+    "errors": 1,
+    "warnings": 0,
+    "findings": [
+      {
+        "kind": "preservation",
+        "severity": "error",
+        "elementIds": [
+          "headline"
+        ],
+        "message": "$.elements[1].opacity: protected source value changed or missing."
+      }
+    ]
+  },
+  {
+    "test": "changed-brand-color",
+    "kind": "fault injection into evaluator",
+    "errors": 1,
+    "warnings": 0,
+    "findings": [
+      {
+        "kind": "preservation",
+        "severity": "error",
+        "elementIds": [
+          "headline"
+        ],
+        "message": "$.elements[1].color: protected source value changed or missing."
+      }
+    ]
+  },
+  {
+    "test": "removed-group-membership",
+    "kind": "fault injection into evaluator",
+    "errors": 1,
+    "warnings": 0,
+    "findings": [
+      {
+        "kind": "preservation",
+        "severity": "error",
+        "elementIds": [
+          "ticket-label"
+        ],
+        "message": "$.elements[6].groupId: protected source value changed or missing."
+      }
+    ]
+  },
+  {
+    "test": "paint-order-reversed",
+    "kind": "fault injection into evaluator",
+    "errors": 1,
+    "warnings": 0,
+    "findings": [
+      {
+        "kind": "preservation",
+        "severity": "error",
+        "elementIds": [
+          "ticket-label",
+          "ticket-background",
+          "venue",
+          "hero",
+          "headline",
+          "eyebrow"
+        ],
+        "message": "$.elements: paint order changed."
+      }
+    ]
+  },
+  {
+    "test": "extra-decorative-cover",
+    "kind": "fault injection into evaluator",
+    "errors": 1,
+    "warnings": 0,
+    "findings": [
+      {
+        "kind": "missing-content",
+        "severity": "error",
+        "elementIds": [
+          "cover"
+        ],
+        "message": "$.elements: protected source value changed or missing."
+      }
+    ]
+  },
+  {
+    "test": "missing-font-family",
+    "validation": "DesignValidationError: $.elements[0].fontFamily: Expected a nonempty string.",
+    "rendering": "DesignValidationError: $.elements[0].fontFamily: Expected a nonempty string."
+  },
+  {
+    "test": "unknown-asset",
+    "validation": "accepted",
+    "rendering": "DesignValidationError: $.elements[2].assetId: Asset \"customer-upload\" is unavailable; supply it through resolveAsset."
+  },
+  {
+    "test": "missing-focal-point",
+    "validation": "DesignValidationError: $.elements[2].focalPoint: Expected a plain object.",
+    "rendering": "DesignValidationError: $.elements[2].focalPoint: Expected a plain object."
+  },
+  {
+    "test": "invalid-opacity",
+    "validation": "DesignValidationError: $.elements[0].opacity: Expected a finite number between 0 and 1.",
+    "rendering": "DesignValidationError: $.elements[0].opacity: Expected a finite number between 0 and 1."
+  },
+  {
+    "test": "mixed-role-group",
+    "selected": "uniform",
+    "metrics": {
+      "errors": 0,
+      "warnings": 0,
+      "minReadingSize": 14.4,
+      "contentCoverage": 0.0147,
+      "findings": []
+    },
+    "elements": [
+      {
+        "id": "badge",
+        "type": "rect",
+        "role": "decoration",
+        "groupId": "button",
+        "x": 60,
+        "y": 360,
+        "width": 300,
+        "height": 120,
+        "color": "#16362a"
+      },
+      {
+        "id": "label",
+        "type": "text",
+        "role": "content",
+        "groupId": "button",
+        "x": 84,
+        "y": 396,
+        "width": 252,
+        "height": 42,
+        "text": "CALL TODAY",
+        "fontFamily": "Inter",
+        "fontSize": 24,
+        "fontWeight": 700,
+        "lineHeight": 1.1,
+        "color": "#ffffff"
+      }
+    ]
+  },
+  {
+    "test": "one-pixel-width-change",
+    "cases": [
+      {
+        "id": "after-dark",
+        "strategy": "uniform",
+        "maxNormalizedOriginMovement": 0.0004008633980881887,
+        "errors": 0,
+        "warnings": 1
+      },
+      {
+        "id": "long-headline",
+        "strategy": "uniform",
+        "maxNormalizedOriginMovement": 0.00037121842908686975,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "id": "dense-program",
+        "strategy": "uniform",
+        "maxNormalizedOriginMovement": 0.0004008633980881887,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "id": "grouped-details",
+        "strategy": "uniform",
+        "maxNormalizedOriginMovement": 0.0003691368304191006,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "id": "intentional-overlap",
+        "strategy": "uniform",
+        "maxNormalizedOriginMovement": 0.0004111419467571209,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "id": "layered-art",
+        "strategy": "uniform",
+        "maxNormalizedOriginMovement": 0.0004042895809778374,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "id": "product-pairs",
+        "strategy": "uniform",
+        "maxNormalizedOriginMovement": 0.0003132469735523183,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "id": "quiet-brand",
+        "strategy": "uniform",
+        "maxNormalizedOriginMovement": 0.0003940110323089052,
+        "errors": 0,
+        "warnings": 1
+      },
+      {
+        "id": "edge-subject",
+        "strategy": "uniform",
+        "maxNormalizedOriginMovement": 0.0003371987827946385,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "id": "type-pairing",
+        "strategy": "uniform",
+        "maxNormalizedOriginMovement": 0.0004008633980881887,
+        "errors": 0,
+        "warnings": 0
+      }
+    ]
+  }
+]

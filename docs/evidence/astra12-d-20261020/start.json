@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-20T16:47:16.825377+00:00",
+  "source": "b7e8eab86df265580fa3ffab9ccda335ee8f6ef3",
+  "branch": "jo/astra12-20261020-d",
+  "host": "macOS-15.4-arm64-arm-64bit-Mach-O",
+  "node": "v24.20.0",
+  "lock_sha256": "fd107687b392d74de92033dbc92570dcce81600709662f8f1ad48ae77a07158e",
+  "runtime_only_loader": "/Users/ojeda/.codex/reflow-issue-loop/worktrees/C/node_modules/tsx/dist/loader.mjs",
+  "issue_sha256": "39c8bd295230b4e55bc570db3992986c6bc54848de019d3ed34a82e9e1764961"
+}

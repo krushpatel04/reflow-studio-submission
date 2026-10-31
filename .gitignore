@@ -1,0 +1,13 @@
+node_modules/
+dist/
+reports/
+.cache/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+*.pyc

@@ -1,0 +1,862 @@
+{
+ "schemaVersion": "reflow.design.v0",
+ "id": "lica-3OcbtlfEs722hNRt0W1P",
+ "name": "LICA Presentations 3OcbtlfEs722hNRt0W1P",
+ "description": "Converted from LICA layout 3OcbtlfEs722hNRt0W1P (template af4e202d-aa8d-a10c-a721-a0b77deda08c).",
+ "provenance": "LICA dataset (LICA WORLD), CC BY 4.0, https://github.com/purvanshi/lica-dataset; converted and modified for Reflow evaluation",
+ "width": 1920,
+ "height": 1080,
+ "background": "#fcf5f0",
+ "groups": [],
+ "elements": [
+  {
+   "id": "image-0",
+   "type": "image",
+   "role": "content",
+   "x": 92,
+   "y": 188.5,
+   "width": 817.3,
+   "height": 793.8,
+   "assetId": "36913b85-a7ac-4611-8d98-43064096c68e.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-1",
+   "type": "image",
+   "role": "content",
+   "x": 1009.5,
+   "y": 540,
+   "width": 267.8,
+   "height": 442.2,
+   "assetId": "1bc3d4ae-1993-4b15-8795-66c098c14cb4.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-2",
+   "type": "image",
+   "role": "content",
+   "x": 1319.8,
+   "y": 540,
+   "width": 267.8,
+   "height": 442.2,
+   "assetId": "d1317cfc-541d-4179-820c-927f15ae565f.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-3",
+   "type": "image",
+   "role": "content",
+   "x": 1059.6,
+   "y": 588,
+   "width": 165.9,
+   "height": 166.3,
+   "assetId": "4242c79e-02d3-4ab4-a95a-b2c62f3988d8.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-4",
+   "type": "image",
+   "role": "content",
+   "x": 1059.6,
+   "y": 588,
+   "width": 165.9,
+   "height": 166.3,
+   "assetId": "240f01dd-d775-4fea-acee-78b143702eeb.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-5",
+   "type": "image",
+   "role": "content",
+   "x": 1087.3,
+   "y": 615.5,
+   "width": 110.8,
+   "height": 110.8,
+   "assetId": "cae1ef60-b95a-49d6-bfc8-5ae9a5679762.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-6",
+   "type": "image",
+   "role": "content",
+   "x": 1370.5,
+   "y": 588,
+   "width": 166.3,
+   "height": 166.3,
+   "assetId": "761c05a9-ff5d-435e-a83b-a97ab8a02464.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-7",
+   "type": "image",
+   "role": "content",
+   "x": 1370.5,
+   "y": 588,
+   "width": 166.3,
+   "height": 166.3,
+   "assetId": "90219bcb-29f7-4727-935b-a3f2b18defa0.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-8",
+   "type": "image",
+   "role": "content",
+   "x": 1398.3,
+   "y": 615.5,
+   "width": 110.8,
+   "height": 110.8,
+   "assetId": "619e0256-8e71-4c74-9983-6409a2efb4be.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-9",
+   "type": "image",
+   "role": "content",
+   "x": 1814,
+   "y": 632.8,
+   "width": 105.4,
+   "height": 2.6,
+   "assetId": "c7949607-33af-4363-83e6-000c2cbd823f.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-10",
+   "type": "image",
+   "role": "content",
+   "x": 1810.6,
+   "y": 623.2,
+   "width": 2.7,
+   "height": 456.8,
+   "assetId": "0e5b7577-d40e-4085-90ad-34afc71e830e.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-11",
+   "type": "image",
+   "role": "content",
+   "x": 1705.3,
+   "y": 752.8,
+   "width": 105.2,
+   "height": 2.6,
+   "assetId": "80992584-5de5-41e4-a430-9d8ce0fc5191.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-12",
+   "type": "image",
+   "role": "content",
+   "x": 1711.5,
+   "y": 623.2,
+   "width": 2.7,
+   "height": 128.4,
+   "assetId": "b2b36396-afd6-42ac-993a-642fd5b613fc.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-13",
+   "type": "image",
+   "role": "content",
+   "x": 1693.8,
+   "y": 615.5,
+   "width": 33.2,
+   "height": 33.6,
+   "assetId": "99283f59-88e2-4133-8768-bc733d86c2bd.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-14",
+   "type": "image",
+   "role": "content",
+   "x": 1685.2,
+   "y": 724.6,
+   "width": 50.1,
+   "height": 53.7,
+   "assetId": "95b3140a-36b7-49c0-88fa-69725e0525bf.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-15",
+   "type": "image",
+   "role": "content",
+   "x": 1801.5,
+   "y": 622.5,
+   "width": 17.9,
+   "height": 19.2,
+   "assetId": "7e42f326-7a58-4966-9d8e-700fd60259d1.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-17",
+   "type": "image",
+   "role": "content",
+   "x": 1261.1,
+   "y": 0,
+   "width": 2.7,
+   "height": 115,
+   "assetId": "aa94ed9c-bda4-4fe5-a4c1-0c8f9f0fd42b.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-18",
+   "type": "image",
+   "role": "content",
+   "x": 1009.5,
+   "y": 84.9,
+   "width": 54.1,
+   "height": 58.5,
+   "assetId": "24f4849e-ed27-4d3f-bea8-fddaddc2d330.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-19",
+   "type": "image",
+   "role": "content",
+   "x": 1617.2,
+   "y": 261.4,
+   "width": 302.2,
+   "height": 2.6,
+   "assetId": "77e3d940-3aa9-439c-bd49-a966c84ce981.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-20",
+   "type": "image",
+   "role": "content",
+   "x": 1806.1,
+   "y": 261.4,
+   "width": 2.7,
+   "height": 186.1,
+   "assetId": "1636bf46-d73d-4566-b29b-7369b2e751e0.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-21",
+   "type": "image",
+   "role": "content",
+   "x": 1789.6,
+   "y": 430.7,
+   "width": 130.2,
+   "height": 0.1,
+   "assetId": "505924ef-0794-4783-9a65-8446a7352689.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-22",
+   "type": "image",
+   "role": "content",
+   "x": 1575.2,
+   "y": 214.1,
+   "width": 88.1,
+   "height": 94.7,
+   "assetId": "efd57618-a346-483e-8957-0f83a60bc43d.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-23",
+   "type": "image",
+   "role": "content",
+   "x": 1789.2,
+   "y": 413.9,
+   "width": 33.2,
+   "height": 33.6,
+   "assetId": "576bf434-246e-4900-8bad-daf460c439c1.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-24",
+   "type": "image",
+   "role": "content",
+   "x": 192.7,
+   "y": 332,
+   "width": 630.1,
+   "height": 414.9,
+   "assetId": "41d1ecfa-359a-4378-abbc-d034bfbdda79.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-25",
+   "type": "image",
+   "role": "content",
+   "x": 192.5,
+   "y": 373.2,
+   "width": 630.1,
+   "height": 443.1,
+   "assetId": "860aa558-7044-4e37-a86d-09cfd75953e0.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-26",
+   "type": "image",
+   "role": "content",
+   "x": 192.5,
+   "y": 428.8,
+   "width": 630.1,
+   "height": 387.6,
+   "assetId": "99303942-b87d-4cd5-9e62-283855dede4c.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-27",
+   "type": "image",
+   "role": "content",
+   "x": 192.7,
+   "y": 816.2,
+   "width": 630.1,
+   "height": 2.6,
+   "assetId": "4b58b138-29b6-4ce4-978a-4a124931d09e.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-28",
+   "type": "image",
+   "role": "content",
+   "x": 192.7,
+   "y": 816.2,
+   "width": 630.1,
+   "height": 6.6,
+   "assetId": "513e4b1e-11bd-4983-b047-82dad4eaad2b.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "text-29",
+   "type": "text",
+   "role": "content",
+   "x": 161,
+   "y": 803.6,
+   "width": 12.1,
+   "height": 24.7,
+   "text": "0",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18.8,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-30",
+   "type": "text",
+   "role": "content",
+   "x": 161.6,
+   "y": 734.4,
+   "width": 11.2,
+   "height": 24.7,
+   "text": "5",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18.8,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-31",
+   "type": "text",
+   "role": "content",
+   "x": 153.5,
+   "y": 665.1,
+   "width": 19.1,
+   "height": 24.7,
+   "text": "10",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18.8,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-32",
+   "type": "text",
+   "role": "content",
+   "x": 154.1,
+   "y": 595.9,
+   "width": 18.6,
+   "height": 24.7,
+   "text": "15",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18.8,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-33",
+   "type": "text",
+   "role": "content",
+   "x": 150,
+   "y": 526.7,
+   "width": 22.8,
+   "height": 24.7,
+   "text": "20",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18.8,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-34",
+   "type": "text",
+   "role": "content",
+   "x": 150.6,
+   "y": 457.5,
+   "width": 22.4,
+   "height": 24.7,
+   "text": "25",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18.8,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-35",
+   "type": "text",
+   "role": "content",
+   "x": 150.3,
+   "y": 388.2,
+   "width": 22.4,
+   "height": 24.7,
+   "text": "30",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18.8,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-36",
+   "type": "text",
+   "role": "content",
+   "x": 150.9,
+   "y": 319,
+   "width": 21.9,
+   "height": 24.7,
+   "text": "35",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18.8,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-37",
+   "type": "text",
+   "role": "content",
+   "x": 164.5,
+   "y": 830.5,
+   "width": 55.9,
+   "height": 24.7,
+   "text": "5/1/02",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18.8,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-38",
+   "type": "text",
+   "role": "content",
+   "x": 321.6,
+   "y": 830.5,
+   "width": 56.9,
+   "height": 24.7,
+   "text": "6/1/02",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18.8,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-39",
+   "type": "text",
+   "role": "content",
+   "x": 480.3,
+   "y": 830.5,
+   "width": 54.5,
+   "height": 24.7,
+   "text": "7/1/02",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18.8,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-40",
+   "type": "text",
+   "role": "content",
+   "x": 637,
+   "y": 830.5,
+   "width": 55.9,
+   "height": 24.7,
+   "text": "8/1/02",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18.8,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-41",
+   "type": "text",
+   "role": "content",
+   "x": 794.1,
+   "y": 830.5,
+   "width": 56.9,
+   "height": 24.7,
+   "text": "9/1/02",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18.8,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-42",
+   "type": "text",
+   "role": "content",
+   "x": 449.3,
+   "y": 278,
+   "width": 113.7,
+   "height": 30,
+   "text": "Chart Title",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18.8,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "image-43",
+   "type": "image",
+   "role": "content",
+   "x": 414.4,
+   "y": 879.9,
+   "width": 11.7,
+   "height": 11,
+   "assetId": "67bea783-5c91-4ef5-b8c7-6bff3e20dc44.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "text-44",
+   "type": "text",
+   "role": "content",
+   "x": 431.3,
+   "y": 872.8,
+   "width": 67.1,
+   "height": 24.7,
+   "text": "Series 1",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18.8,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "image-45",
+   "type": "image",
+   "role": "content",
+   "x": 517.3,
+   "y": 879.9,
+   "width": 12.1,
+   "height": 11,
+   "assetId": "10832b7a-8e86-4be3-b443-deae0c60e389.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "text-46",
+   "type": "text",
+   "role": "content",
+   "x": 534.4,
+   "y": 872.8,
+   "width": 70.4,
+   "height": 24.7,
+   "text": "Series 2",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18.8,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-47",
+   "type": "text",
+   "role": "content",
+   "x": 1009.9,
+   "y": 188,
+   "width": 522,
+   "height": 104,
+   "text": "Chart Data",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 95,
+   "lineHeight": 1.1,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-48",
+   "type": "text",
+   "role": "content",
+   "x": 1018.9,
+   "y": 354,
+   "width": 677,
+   "height": 102,
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-49",
+   "type": "text",
+   "role": "content",
+   "x": 1049.1,
+   "y": 778,
+   "width": 201,
+   "height": 45,
+   "text": "External Risk",
+   "fontFamily": "Manrope",
+   "fontWeight": 800,
+   "fontSize": 30,
+   "lineHeight": 1.5,
+   "color": "#fff",
+   "align": "left"
+  },
+  {
+   "id": "text-50",
+   "type": "text",
+   "role": "content",
+   "x": 1361.1,
+   "y": 778,
+   "width": 201,
+   "height": 45,
+   "text": "Internal Risk",
+   "fontFamily": "Manrope",
+   "fontWeight": 800,
+   "fontSize": 30,
+   "lineHeight": 1.5,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-51",
+   "type": "text",
+   "role": "content",
+   "x": 1110,
+   "y": 648,
+   "width": 66,
+   "height": 45,
+   "text": "70%",
+   "fontFamily": "Manrope",
+   "fontWeight": 800,
+   "fontSize": 30,
+   "lineHeight": 1.5,
+   "color": "#fff",
+   "align": "left"
+  },
+  {
+   "id": "text-52",
+   "type": "text",
+   "role": "content",
+   "x": 1422,
+   "y": 647,
+   "width": 66,
+   "height": 45,
+   "text": "70%",
+   "fontFamily": "Manrope",
+   "fontWeight": 800,
+   "fontSize": 30,
+   "lineHeight": 1.5,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "id": "text-53",
+   "type": "text",
+   "role": "content",
+   "x": 1045.1,
+   "y": 833,
+   "width": 192,
+   "height": 102,
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18,
+   "lineHeight": 1.2,
+   "color": "#fff",
+   "align": "center"
+  },
+  {
+   "id": "text-54",
+   "type": "text",
+   "role": "content",
+   "x": 1357.1,
+   "y": 833,
+   "width": 192,
+   "height": 102,
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+   "fontFamily": "Manrope",
+   "fontWeight": 400,
+   "fontSize": 18,
+   "lineHeight": 1.2,
+   "color": "#000000",
+   "align": "center"
+  },
+  {
+   "id": "image-55",
+   "type": "image",
+   "role": "content",
+   "x": 1357.1,
+   "y": 78,
+   "width": 65.1,
+   "height": 65.9,
+   "assetId": "4fb53276-fa7e-4cab-99df-1e213f01c6e2.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  }
+ ]
+}

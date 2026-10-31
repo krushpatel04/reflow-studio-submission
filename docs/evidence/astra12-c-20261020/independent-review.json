@@ -1,0 +1,23 @@
+{
+  "candidate": "b37354ef7fac6143cf0c439c1e890975704bf85e",
+  "base": "b7e8eab86df265580fa3ffab9ccda335ee8f6ef3",
+  "verdict": "ACCEPT scoped static review",
+  "findings": [],
+  "reviewed": [
+    "Exact production and test diff",
+    "Issue 32 full original acceptance and current amendment",
+    "Plan and working-tree evidence README/audit source"
+  ],
+  "basis": [
+    "Coverage annotations are additive; priority, selection, pinning, targets and split logic unchanged.",
+    "Format and structural signals are explicitly candidates; busyPhotoText remains unverified.",
+    "Tests include declared group positive controls, decoration/single-member/undeclared negatives, paint-order, zero-area and deduplication controls, and selection invariance.",
+    "Evidence preserves overlapping counts and separates 1148-row accounting from real reviewed coverage and permissions."
+  ],
+  "limits": [
+    "Static review only; no duplicate test suite run while serialized heavy slot occupied.",
+    "Evidence README and audit source inspected in C working tree, outside four-file exact implementation commit.",
+    "Full validation pending separately.",
+    "Issue 32 remains open: reviewed real grouped content, busy-photo evidence and permissions/intake not supplied."
+  ]
+}

@@ -1,0 +1,29 @@
+..F...FF
+======================================================================
+FAIL: test_group_without_source_overlap_avoids_shape_and_with_overlap_is_exempt (tests_python.test_shape_obstacles.ShapeObstacles.test_group_without_source_overlap_avoids_shape_and_with_overlap_is_exempt)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_shape_obstacles.py", line 63, in test_group_without_source_overlap_avoids_shape_and_with_overlap_is_exempt
+    self.assertFalse(hit(aabb(o[g]), aabb(o["blk"])), g)
+AssertionError: True is not false : g_bg
+
+======================================================================
+FAIL: test_red_text_does_not_land_on_rectangle_or_ellipse_it_was_clear_of (tests_python.test_shape_obstacles.ShapeObstacles.test_red_text_does_not_land_on_rectangle_or_ellipse_it_was_clear_of)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_shape_obstacles.py", line 43, in test_red_text_does_not_land_on_rectangle_or_ellipse_it_was_clear_of
+    self.assertFalse(hit(aabb(o[t]), aabb(o[s])), f"{t} covers {s}")
+AssertionError: True is not false : h covers box
+
+======================================================================
+FAIL: test_union_box_overlap_alone_does_not_exempt_a_shape (tests_python.test_shape_obstacles.ShapeObstacles.test_union_box_overlap_alone_does_not_exempt_a_shape)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_shape_obstacles.py", line 77, in test_union_box_overlap_alone_does_not_exempt_a_shape
+    self.assertFalse(hit(aabb(o[g]), aabb(o["mid"])), g)
+AssertionError: True is not false : g_l
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.177s
+
+FAILED (failures=3)

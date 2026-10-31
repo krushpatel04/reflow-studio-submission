@@ -1,0 +1,109 @@
+✔ creates deterministic blank reviewer records without method or input-path leakage (11.856708ms)
+✔ assigns every eligible case to distinct reviewers with balanced primary workloads (0.445958ms)
+✔ adds one hidden reversed control per reviewer and decodes A/B to the opposite outputs (0.276917ms)
+✔ keeps excluded and failed cases out of review while retaining their exact reasons in accounting (0.260833ms)
+✔ rejects malformed, duplicate, and impossible inputs while accepting valid sparse failures (0.535334ms)
+✔ CLI writes physically separate reviewer, private-decode, and accounting manifests (86.6005ms)
+✖ materialize copies pinned eligible PNGs including controls and never reads excluded/failed paths (82.372375ms)
+✖ materialize rejects hash before publishing any directory (87.975834ms)
+✖ materialize rejects missing before publishing any directory (80.028625ms)
+✖ materialize rejects non-png before publishing any directory (99.9875ms)
+✖ materialize rejects oversized before publishing any directory (101.65225ms)
+✖ CLI rejects unknown and duplicate options instead of silently ignoring intended mode (85.072167ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 6
+ℹ fail 6
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 817.673167
+
+✖ failing tests:
+
+test at tests/issue7-review-bundle.test.ts:1:8757
+✖ materialize copies pinned eligible PNGs including controls and never reads excluded/failed paths (82.372375ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /\.png$/. Input:
+  
+  'source-50326c7d32d02f7eb4a5.artifact'
+  
+      at TestContext.<anonymous> (<repo>/tests/issue7-review-bundle.test.ts:230:16)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'source-50326c7d32d02f7eb4a5.artifact',
+    expected: /\.png$/,
+    operator: 'match',
+    diff: 'simple'
+  }
+
+test at tests/issue7-review-bundle.test.ts:1:10345
+✖ materialize rejects hash before publishing any directory (87.975834ms)
+  AssertionError [ERR_ASSERTION]: invalid input must fail
+      at TestContext.<anonymous> (<repo>/tests/issue7-review-bundle.test.ts:262:14)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 0,
+    operator: 'notStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/issue7-review-bundle.test.ts:1:10345
+✖ materialize rejects missing before publishing any directory (80.028625ms)
+  AssertionError [ERR_ASSERTION]: invalid input must fail
+      at TestContext.<anonymous> (<repo>/tests/issue7-review-bundle.test.ts:262:14)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 0,
+    operator: 'notStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/issue7-review-bundle.test.ts:1:10345
+✖ materialize rejects non-png before publishing any directory (99.9875ms)
+  AssertionError [ERR_ASSERTION]: invalid input must fail
+      at TestContext.<anonymous> (<repo>/tests/issue7-review-bundle.test.ts:262:14)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 0,
+    operator: 'notStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/issue7-review-bundle.test.ts:1:10345
+✖ materialize rejects oversized before publishing any directory (101.65225ms)
+  AssertionError [ERR_ASSERTION]: invalid input must fail
+      at TestContext.<anonymous> (<repo>/tests/issue7-review-bundle.test.ts:262:14)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 0,
+    operator: 'notStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/issue7-review-bundle.test.ts:1:11487
+✖ CLI rejects unknown and duplicate options instead of silently ignoring intended mode (85.072167ms)
+  AssertionError [ERR_ASSERTION]: Expected "actual" to be strictly unequal to: 0
+      at TestContext.<anonymous> (<repo>/tests/issue7-review-bundle.test.ts:276:14)
+      at async Test.run (node:internal/test_runner/test:1404:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 0,
+    operator: 'notStrictEqual',
+    diff: 'simple'
+  }

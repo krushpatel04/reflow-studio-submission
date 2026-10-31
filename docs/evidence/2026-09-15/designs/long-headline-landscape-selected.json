@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "long-headline",
+  "name": "A headline with more to say",
+  "description": "A long title needs real wrapping without losing words or flattening the hierarchy.",
+  "provenance": "synthetic",
+  "width": 1920,
+  "height": 1080,
+  "background": "#f4ddcf",
+  "elements": [
+    {
+      "id": "eyebrow",
+      "type": "text",
+      "role": "content",
+      "text": "IDEAS WORTH BUILDING",
+      "x": 963.6852,
+      "y": 70.2,
+      "width": 886.1148000000001,
+      "height": 85.87390587102529,
+      "fontSize": 43.19,
+      "color": "#172b25",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "headline",
+      "type": "text",
+      "role": "content",
+      "text": "The future belongs to people who make things together.",
+      "x": 963.6852,
+      "y": 183.0739058710253,
+      "width": 886.1148000000001,
+      "height": 334.17911482828237,
+      "fontSize": 90.9,
+      "color": "#382922",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "body",
+      "type": "text",
+      "role": "content",
+      "text": "An evening of stories, experiments, and unfinished ideas. Bring something you are curious about.",
+      "x": 963.6852,
+      "y": 544.2530206993076,
+      "width": 886.1148000000001,
+      "height": 279.2647345399197,
+      "fontSize": 50.39,
+      "color": "#382922",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "hero",
+      "type": "image",
+      "role": "content",
+      "assetId": "orbit",
+      "x": 70.2,
+      "y": 70.2,
+      "width": 851.3652,
+      "height": 939.6,
+      "fit": "cover",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "details",
+      "type": "text",
+      "role": "content",
+      "text": "THURSDAY · 6:30 PM\nTHE DESIGN LAB",
+      "x": 963.6852,
+      "y": 850.5177552392273,
+      "width": 886.1148000000001,
+      "height": 159.2822447607727,
+      "fontSize": 41.75,
+      "color": "#382922",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    }
+  ],
+  "groups": []
+}

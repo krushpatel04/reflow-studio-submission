@@ -1,0 +1,220 @@
+test_condition_specific_findings_are_valid_on_either_ordinary_stream (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_condition_specific_findings_are_valid_on_either_ordinary_stream) ... ok
+test_probe_only_findings_and_unfinished_invocations_are_not_visible_success (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_probe_only_findings_and_unfinished_invocations_are_not_visible_success) ... FAIL
+test_report_cannot_hide_one_diagnostic_gap_behind_another (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_report_cannot_hide_one_diagnostic_gap_behind_another) ... FAIL
+test_report_preserves_consistent_bounded_timeouts_as_behavioral_gaps (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_report_preserves_consistent_bounded_timeouts_as_behavioral_gaps) ... ok
+test_report_rejects_invented_or_duplicate_behavioral_findings (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_report_rejects_invented_or_duplicate_behavioral_findings) ... FAIL
+test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) ... 
+  test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='missing-assets', message='Fontconfig warning: "05-reset-dirs-sample.conf", line 6: unknown element "reset-dirs"') ... FAIL
+  test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='missing-assets', message='warning: diagnostics enabled') ... FAIL
+  test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='missing-assets', message='Error loading optional telemetry') ... FAIL
+  test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='missing-fonts', message='Fontconfig warning: "05-reset-dirs-sample.conf", line 6: unknown element "reset-dirs"') ... FAIL
+  test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='missing-fonts', message='warning: diagnostics enabled') ... FAIL
+  test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='missing-fonts', message='Error loading optional telemetry') ... FAIL
+  test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='invalid-target', message='Fontconfig warning: "05-reset-dirs-sample.conf", line 6: unknown element "reset-dirs"') ... FAIL
+  test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='invalid-target', message='warning: diagnostics enabled') ... FAIL
+  test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='invalid-target', message='Error loading optional telemetry') ... FAIL
+  test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='infeasible', message='Fontconfig warning: "05-reset-dirs-sample.conf", line 6: unknown element "reset-dirs"') ... FAIL
+  test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='infeasible', message='warning: diagnostics enabled') ... FAIL
+  test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='infeasible', message='Error loading optional telemetry') ... FAIL
+test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) ... FAIL
+test_all_pairs_and_both_controls_use_distinct_raw_directories (tests_python.test_submission_workload_profile.DriverCoverage.test_all_pairs_and_both_controls_use_distinct_raw_directories) ... ok
+test_actual_pid_exit_and_missing_resource_mount_checks (tests_python.test_submission_workload_profile.PairOracle.test_actual_pid_exit_and_missing_resource_mount_checks) ... ok
+test_byte_change_missing_phase_bad_metric_or_cleanup_fail (tests_python.test_submission_workload_profile.PairOracle.test_byte_change_missing_phase_bad_metric_or_cleanup_fail) ... ok
+test_delay_control_wrong_attribution_rejected (tests_python.test_submission_workload_profile.PairOracle.test_delay_control_wrong_attribution_rejected) ... ok
+test_matched_positive (tests_python.test_submission_workload_profile.PairOracle.test_matched_positive) ... ok
+test_missing_resource_silent_success_is_gap_not_accepted_failure (tests_python.test_submission_workload_profile.PairOracle.test_missing_resource_silent_success_is_gap_not_accepted_failure) ... ok
+test_exception_retains_partial_profile_and_error (tests_python.test_submission_workload_profile.PhaseTiming.test_exception_retains_partial_profile_and_error) ... ok
+test_real_delay_is_attributed_to_named_function_and_nested_time_not_summed (tests_python.test_submission_workload_profile.PhaseTiming.test_real_delay_is_attributed_to_named_function_and_nested_time_not_summed) ... ok
+test_instrumentation_failure_is_not_merely_a_behavioral_finding (tests_python.test_submission_workload_profile.ReportEvidence.test_instrumentation_failure_is_not_merely_a_behavioral_finding) ... ok
+test_families_are_deterministic_bounded_and_preserve_seed (tests_python.test_submission_workload_profile.WorkloadFamilies.test_families_are_deterministic_bounded_and_preserve_seed) ... ok
+
+======================================================================
+FAIL: test_probe_only_findings_and_unfinished_invocations_are_not_visible_success (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_probe_only_findings_and_unfinished_invocations_are_not_visible_success)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/.codex/reflow-issue-loop/cycle-20261020/B/tests_python/test_submission_workload_profile.py", line 113, in test_probe_only_findings_and_unfinished_invocations_are_not_visible_success
+    self.assertEqual(m.diagnostic_verdict('missing-assets', {'exit': None}, probe), 'unclassified')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'silent-success-unaccepted' != 'unclassified'
+- silent-success-unaccepted
++ unclassified
+
+
+======================================================================
+FAIL: test_report_cannot_hide_one_diagnostic_gap_behind_another (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_report_cannot_hide_one_diagnostic_gap_behind_another)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/.codex/reflow-issue-loop/cycle-20261020/B/tests_python/test_submission_workload_profile.py", line 122, in test_report_cannot_hide_one_diagnostic_gap_behind_another
+    self.assertTrue(m.evaluate_report(report), 'remaining findings must not conceal the removed asset gap')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [] is not true : remaining findings must not conceal the removed asset gap
+
+======================================================================
+FAIL: test_report_rejects_invented_or_duplicate_behavioral_findings (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_report_rejects_invented_or_duplicate_behavioral_findings)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/.codex/reflow-issue-loop/cycle-20261020/B/tests_python/test_submission_workload_profile.py", line 130, in test_report_rejects_invented_or_duplicate_behavioral_findings
+    self.assertTrue(m.evaluate_report(report), mutation)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [] is not true : duplicate
+
+======================================================================
+FAIL: test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='missing-assets', message='Fontconfig warning: "05-reset-dirs-sample.conf", line 6: unknown element "reset-dirs"')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/.codex/reflow-issue-loop/cycle-20261020/B/tests_python/test_submission_workload_profile.py", line 92, in test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic
+    self.assertEqual(m.diagnostic_verdict(family, ordinary, {}), 'silent-success-unaccepted')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'visible-findings' != 'silent-success-unaccepted'
+- visible-findings
++ silent-success-unaccepted
+
+
+======================================================================
+FAIL: test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='missing-assets', message='warning: diagnostics enabled')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/.codex/reflow-issue-loop/cycle-20261020/B/tests_python/test_submission_workload_profile.py", line 92, in test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic
+    self.assertEqual(m.diagnostic_verdict(family, ordinary, {}), 'silent-success-unaccepted')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'visible-findings' != 'silent-success-unaccepted'
+- visible-findings
++ silent-success-unaccepted
+
+
+======================================================================
+FAIL: test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='missing-assets', message='Error loading optional telemetry')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/.codex/reflow-issue-loop/cycle-20261020/B/tests_python/test_submission_workload_profile.py", line 92, in test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic
+    self.assertEqual(m.diagnostic_verdict(family, ordinary, {}), 'silent-success-unaccepted')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'visible-findings' != 'silent-success-unaccepted'
+- visible-findings
++ silent-success-unaccepted
+
+
+======================================================================
+FAIL: test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='missing-fonts', message='Fontconfig warning: "05-reset-dirs-sample.conf", line 6: unknown element "reset-dirs"')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/.codex/reflow-issue-loop/cycle-20261020/B/tests_python/test_submission_workload_profile.py", line 92, in test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic
+    self.assertEqual(m.diagnostic_verdict(family, ordinary, {}), 'silent-success-unaccepted')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'visible-findings' != 'silent-success-unaccepted'
+- visible-findings
++ silent-success-unaccepted
+
+
+======================================================================
+FAIL: test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='missing-fonts', message='warning: diagnostics enabled')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/.codex/reflow-issue-loop/cycle-20261020/B/tests_python/test_submission_workload_profile.py", line 92, in test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic
+    self.assertEqual(m.diagnostic_verdict(family, ordinary, {}), 'silent-success-unaccepted')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'visible-findings' != 'silent-success-unaccepted'
+- visible-findings
++ silent-success-unaccepted
+
+
+======================================================================
+FAIL: test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='missing-fonts', message='Error loading optional telemetry')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/.codex/reflow-issue-loop/cycle-20261020/B/tests_python/test_submission_workload_profile.py", line 92, in test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic
+    self.assertEqual(m.diagnostic_verdict(family, ordinary, {}), 'silent-success-unaccepted')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'visible-findings' != 'silent-success-unaccepted'
+- visible-findings
++ silent-success-unaccepted
+
+
+======================================================================
+FAIL: test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='invalid-target', message='Fontconfig warning: "05-reset-dirs-sample.conf", line 6: unknown element "reset-dirs"')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/.codex/reflow-issue-loop/cycle-20261020/B/tests_python/test_submission_workload_profile.py", line 92, in test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic
+    self.assertEqual(m.diagnostic_verdict(family, ordinary, {}), 'silent-success-unaccepted')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'visible-findings' != 'silent-success-unaccepted'
+- visible-findings
++ silent-success-unaccepted
+
+
+======================================================================
+FAIL: test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='invalid-target', message='warning: diagnostics enabled')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/.codex/reflow-issue-loop/cycle-20261020/B/tests_python/test_submission_workload_profile.py", line 92, in test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic
+    self.assertEqual(m.diagnostic_verdict(family, ordinary, {}), 'silent-success-unaccepted')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'visible-findings' != 'silent-success-unaccepted'
+- visible-findings
++ silent-success-unaccepted
+
+
+======================================================================
+FAIL: test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='invalid-target', message='Error loading optional telemetry')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/.codex/reflow-issue-loop/cycle-20261020/B/tests_python/test_submission_workload_profile.py", line 92, in test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic
+    self.assertEqual(m.diagnostic_verdict(family, ordinary, {}), 'silent-success-unaccepted')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'visible-findings' != 'silent-success-unaccepted'
+- visible-findings
++ silent-success-unaccepted
+
+
+======================================================================
+FAIL: test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='infeasible', message='Fontconfig warning: "05-reset-dirs-sample.conf", line 6: unknown element "reset-dirs"')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/.codex/reflow-issue-loop/cycle-20261020/B/tests_python/test_submission_workload_profile.py", line 92, in test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic
+    self.assertEqual(m.diagnostic_verdict(family, ordinary, {}), 'silent-success-unaccepted')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'visible-findings' != 'silent-success-unaccepted'
+- visible-findings
++ silent-success-unaccepted
+
+
+======================================================================
+FAIL: test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='infeasible', message='warning: diagnostics enabled')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/.codex/reflow-issue-loop/cycle-20261020/B/tests_python/test_submission_workload_profile.py", line 92, in test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic
+    self.assertEqual(m.diagnostic_verdict(family, ordinary, {}), 'silent-success-unaccepted')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'visible-findings' != 'silent-success-unaccepted'
+- visible-findings
++ silent-success-unaccepted
+
+
+======================================================================
+FAIL: test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic) (family='infeasible', message='Error loading optional telemetry')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/.codex/reflow-issue-loop/cycle-20261020/B/tests_python/test_submission_workload_profile.py", line 92, in test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic
+    self.assertEqual(m.diagnostic_verdict(family, ordinary, {}), 'silent-success-unaccepted')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'visible-findings' != 'silent-success-unaccepted'
+- visible-findings
++ silent-success-unaccepted
+
+
+======================================================================
+FAIL: test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic (tests_python.test_submission_workload_profile.DiagnosticSpecificity.test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/.codex/reflow-issue-loop/cycle-20261020/B/tests_python/test_submission_workload_profile.py", line 94, in test_unrelated_warning_or_wrong_condition_never_satisfies_diagnostic
+    self.assertEqual(m.diagnostic_verdict('missing-assets', ordinary, {}), 'silent-success-unaccepted')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'visible-findings' != 'silent-success-unaccepted'
+- visible-findings
++ silent-success-unaccepted
+
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.115s
+
+FAILED (failures=16)

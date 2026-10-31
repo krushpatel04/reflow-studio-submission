@@ -1,0 +1,7 @@
+# Stabilize generated font bytes across wall-clock boundaries
+
+CI at documentation-only SHA `1378c14` failed `test_raw_none_skips_references_and_sources_sheet`: two identical constructed faces had different hashes. The fixture builds a new TTF twice, and fontTools writes creation/modification timestamps. Preserve the hash-equality assertion and production behavior; make only the synthetic fixture deterministic.
+
+Scope: coordinator temporarily owns `tests_python/render_font_fixture.py` and new `tests_python/test_font_fixture_determinism.py`; these paths are outside the reserved KR-01 test files. No corpus or renderer code changes. First reproduce different bytes under two mocked wall clocks; use a different-width positive control. Pin fixture timestamps and disable timestamp recalculation. Run the focused test, existing renderer-binding test, full Python gate and required Node checks; seek independent review of the exact diff before integration. Record current CI failure rather than retrying until green.
+
+Evidence: the clock-controlled regression failed before the fixture change while the distinct-width control passed. After the three-line fixture correction, the focused suite passed 10/10; the full Python gate passed 269/269 with zero skips, Node tests passed 685/685 and the build passed. Production engine, original binding assertions and source corpus are unchanged. Independent review and hosted verification remain separate gates.

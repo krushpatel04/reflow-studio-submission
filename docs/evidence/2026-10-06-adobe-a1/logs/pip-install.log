@@ -1,0 +1,160 @@
+Using Python 3.11.16 environment at: $RUNTIME/chameleon-venv311
+INFO add_decision: Id::<PubGrubPackage>(0) @ 0a0.dev0 without checking dependencies    
+INFO add_decision: Id::<PubGrubPackage>(2) @ 0.1.0 without checking dependencies    
+INFO add_decision: Id::<PubGrubPackage>(1) @ 12.3.0 without checking dependencies    
+INFO add_decision: Id::<PubGrubPackage>(3) @ 5.1.0 without checking dependencies    
+INFO add_decision: Id::<PubGrubPackage>(4) @ 5.1.0 without checking dependencies    
+INFO add_decision: Id::<PubGrubPackage>(7) @ 5.1.0 without checking dependencies    
+INFO add_decision: Id::<PubGrubPackage>(5) @ 2.13.5 without checking dependencies    
+INFO add_decision: Id::<PubGrubPackage>(22) @ 2.46.5 without checking dependencies    
+INFO add_decision: Id::<PubGrubPackage>(6) @ 144.0.post2 without checking dependencies    
+INFO add_decision: Id::<PubGrubPackage>(10) @ 4.0.12 without checking dependencies    
+INFO Start conflict resolution because incompat satisfied:
+   Python >=3.12 is forbidden    
+INFO prior cause: numpy >2.5.2 is forbidden    
+INFO backtrack to DecisionLevel(5)    
+INFO Start conflict resolution because incompat satisfied:
+   Python >=3.12 is forbidden    
+INFO prior cause: numpy >2.5.1 is forbidden    
+INFO backtrack to DecisionLevel(5)    
+INFO Start conflict resolution because incompat satisfied:
+   Python >=3.12 is forbidden    
+INFO prior cause: numpy >2.5.0 is forbidden    
+INFO backtrack to DecisionLevel(5)    
+INFO Start conflict resolution because incompat satisfied:
+   Python >=3.12 is forbidden    
+INFO prior cause: numpy >2.5.0rc1 is forbidden    
+INFO backtrack to DecisionLevel(5)    
+INFO adding decision: Id::<PubGrubPackage>(11) @ 2.4.6    
+INFO adding decision: Id::<PubGrubPackage>(12) @ 25.0.1    
+INFO adding decision: Id::<PubGrubPackage>(13) @ 0.4.1    
+INFO adding decision: Id::<PubGrubPackage>(14) @ 3.0.6    
+INFO Start conflict resolution because incompat satisfied:
+   Python >=3.12 is forbidden    
+INFO prior cause: numpy{python_full_version < '3.14'} >2.5.2 is forbidden    
+INFO backtrack to DecisionLevel(14)    
+INFO Start conflict resolution because incompat satisfied:
+   Python >=3.12 is forbidden    
+INFO prior cause: numpy{python_full_version < '3.14'} >2.5.1 is forbidden    
+INFO backtrack to DecisionLevel(14)    
+INFO Start conflict resolution because incompat satisfied:
+   Python >=3.12 is forbidden    
+INFO prior cause: numpy{python_full_version < '3.14'} >2.5.0 is forbidden    
+INFO backtrack to DecisionLevel(14)    
+INFO Start conflict resolution because incompat satisfied:
+   Python >=3.12 is forbidden    
+INFO prior cause: numpy{python_full_version < '3.14'} >2.5.0rc1 is forbidden    
+INFO backtrack to DecisionLevel(14)    
+INFO adding decision: Id::<PubGrubPackage>(27) @ 2.4.6    
+INFO adding decision: Id::<PubGrubPackage>(29) @ 2.4.6    
+INFO adding decision: Id::<PubGrubPackage>(15) @ 4.70.1    
+INFO adding decision: Id::<PubGrubPackage>(16) @ 4.0.1    
+INFO adding decision: Id::<PubGrubPackage>(17) @ 0.70.19    
+INFO adding decision: Id::<PubGrubPackage>(8) @ 2026.7.0    
+INFO adding decision: Id::<PubGrubPackage>(9) @ 2026.7.0    
+INFO adding decision: Id::<PubGrubPackage>(30) @ 2026.7.0    
+INFO adding decision: Id::<PubGrubPackage>(18) @ 2.1.1    
+INFO adding decision: Id::<PubGrubPackage>(19) @ 26.3    
+INFO adding decision: Id::<PubGrubPackage>(20) @ 6.0.3    
+INFO adding decision: Id::<PubGrubPackage>(21) @ 0.8.0    
+INFO adding decision: Id::<PubGrubPackage>(23) @ 4.16.0    
+INFO adding decision: Id::<PubGrubPackage>(24) @ 0.4.4    
+INFO adding decision: Id::<PubGrubPackage>(25) @ 3.1.0    
+INFO adding decision: Id::<PubGrubPackage>(28) @ 2.9.0.post0    
+INFO adding decision: Id::<PubGrubPackage>(31) @ 3.14.4    
+INFO adding decision: Id::<PubGrubPackage>(37) @ 4.16.0    
+INFO adding decision: Id::<PubGrubPackage>(45) @ 4.16.0    
+INFO adding decision: Id::<PubGrubPackage>(34) @ 8.5.0    
+INFO adding decision: Id::<PubGrubPackage>(32) @ 1.6.0    
+INFO adding decision: Id::<PubGrubPackage>(33) @ 1.6.0    
+INFO adding decision: Id::<PubGrubPackage>(46) @ 1.6.0    
+INFO adding decision: Id::<PubGrubPackage>(35) @ 2.13.1    
+INFO adding decision: Id::<PubGrubPackage>(49) @ 2.13.1    
+INFO adding decision: Id::<PubGrubPackage>(50) @ 2.13.1    
+INFO adding decision: Id::<PubGrubPackage>(54) @ 2.13.1    
+INFO adding decision: Id::<PubGrubPackage>(36) @ 1.17.0    
+INFO adding decision: Id::<PubGrubPackage>(38) @ 2.7.1    
+INFO adding decision: Id::<PubGrubPackage>(39) @ 1.4.0    
+INFO adding decision: Id::<PubGrubPackage>(40) @ 26.1.0    
+INFO adding decision: Id::<PubGrubPackage>(41) @ 1.8.0    
+INFO adding decision: Id::<PubGrubPackage>(42) @ 6.9.1    
+INFO adding decision: Id::<PubGrubPackage>(43) @ 0.5.4    
+INFO adding decision: Id::<PubGrubPackage>(44) @ 1.25.1    
+INFO adding decision: Id::<PubGrubPackage>(47) @ 4.15.1    
+INFO adding decision: Id::<PubGrubPackage>(48) @ 4.15.1    
+INFO adding decision: Id::<PubGrubPackage>(57) @ 4.16.0    
+INFO adding decision: Id::<PubGrubPackage>(58) @ 4.16.0    
+INFO adding decision: Id::<PubGrubPackage>(56) @ 4.15.1    
+INFO adding decision: Id::<PubGrubPackage>(53) @ 3.20    
+INFO adding decision: Id::<PubGrubPackage>(51) @ 0.10.4    
+INFO adding decision: Id::<PubGrubPackage>(52) @ 0.10.4    
+INFO adding decision: Id::<PubGrubPackage>(59) @ 0.10.4    
+INFO adding decision: Id::<PubGrubPackage>(55) @ 0.16.0    
+Resolved 40 packages in 806ms
+   Updating https://github.com/CyberAgentAILab/cr-renderer (HEAD)
+Downloading pandas (10.6MiB)
+Downloading aiohttp (1.8MiB)
+Downloading pydantic-core (2.0MiB)
+Downloading numpy (16.1MiB)
+Downloading pillow (6.6MiB)
+Downloading pyarrow (47.7MiB)
+ Downloaded pydantic-core
+ Downloaded aiohttp
+ Downloaded pillow
+Downloading skia-python (13.7MiB)
+ Downloaded pandas
+    Updated https://github.com/CyberAgentAILab/cr-renderer (a17e1fb9a732959dd6c21ae168d5ee09d74bd64f)
+   Building cr-renderer @ git+https://github.com/CyberAgentAILab/cr-renderer@a17e1fb9a732959dd6c21ae168d5ee09d74bd64f
+INFO add_decision: Id::<PubGrubPackage>(0) @ 0a0.dev0 without checking dependencies    
+ Downloaded numpy
+INFO add_decision: Id::<PubGrubPackage>(1) @ 1.32.4 without checking dependencies    
+INFO add_decision: Id::<PubGrubPackage>(2) @ 26.3 without checking dependencies    
+INFO add_decision: Id::<PubGrubPackage>(3) @ 1.1.1 without checking dependencies    
+INFO add_decision: Id::<PubGrubPackage>(4) @ 1.6.0 without checking dependencies    
+INFO add_decision: Id::<PubGrubPackage>(5) @ 0.15.1 without checking dependencies    
+INFO add_decision: Id::<PubGrubPackage>(6) @ 2026.9.21.13 without checking dependencies    
+ Downloaded skia-python
+      Built cr-renderer @ git+https://github.com/CyberAgentAILab/cr-renderer@a17e1fb9a732959dd6c21ae168d5ee09d74bd64f
+ Downloaded pyarrow
+Prepared 23 packages in 1.39s
+Installed 40 packages in 31ms
+ + aiohappyeyeballs==2.7.1
+ + aiohttp==3.14.4
+ + aiosignal==1.4.0
+ + annotated-types==0.8.0
+ + anyio==4.15.1
+ + attrs==26.1.0
+ + click==8.5.0
+ + cr-renderer==0.1.0 (from git+https://github.com/CyberAgentAILab/cr-renderer@a17e1fb9a732959dd6c21ae168d5ee09d74bd64f)
+ + datasets==5.1.0
+ + dill==0.4.1
+ + filelock==4.0.12
+ + frozenlist==1.8.0
+ + fsspec==2026.7.0
+ + h11==0.16.0
+ + hf-xet==1.6.0
+ + httpcore2==2.13.1
+ + httpx2==2.13.1
+ + huggingface-hub==2.1.1
+ + idna==3.20
+ + multidict==6.9.1
+ + multiprocess==0.70.19
+ + numpy==2.4.6
+ + packaging==26.3
+ + pandas==3.0.6
+ + pillow==12.3.0
+ + propcache==0.5.4
+ + pyarrow==25.0.1
+ + pybind11==3.1.0
+ + pydantic==2.13.5
+ + pydantic-core==2.46.5
+ + python-dateutil==2.9.0.post0
+ + pyyaml==6.0.3
+ + six==1.17.0
+ + skia-python==144.0.post2
+ + tqdm==4.70.1
+ + truststore==0.10.4
+ + typing-extensions==4.16.0
+ + typing-inspection==0.4.4
+ + xxhash==4.0.1
+ + yarl==1.25.1

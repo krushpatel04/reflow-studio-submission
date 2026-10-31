@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "museum-sidebar",
+  "name": "museum-sidebar",
+  "description": "Frozen ranking validation family",
+  "provenance": "synthetic",
+  "width": 1080,
+  "height": 1920,
+  "background": "#f3eee4",
+  "groups": [],
+  "elements": [
+    {
+      "id": "art",
+      "type": "image",
+      "role": "content",
+      "assetId": "orbit",
+      "x": 70.2,
+      "y": 70.2,
+      "width": 939.6,
+      "height": 816.8839694656489,
+      "fit": "contain",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "role": "content",
+      "text": "Objects\nand origins",
+      "x": 70.2,
+      "y": 914.0839694656489,
+      "width": 939.6,
+      "height": 311.193893129771,
+      "fontSize": 77.75,
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "lineHeight": 1.14,
+      "color": "#172b25"
+    },
+    {
+      "id": "body",
+      "type": "text",
+      "role": "content",
+      "text": "How ordinary materials become the things we keep. A collection of small discoveries.",
+      "x": 70.2,
+      "y": 1252.27786259542,
+      "width": 939.6,
+      "height": 440.8580152671756,
+      "fontSize": 41.47,
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "lineHeight": 1.14,
+      "color": "#172b25"
+    },
+    {
+      "id": "footer",
+      "type": "text",
+      "role": "content",
+      "text": "GALLERY THREE\nOPEN UNTIL SIX",
+      "x": 70.2,
+      "y": 1720.1358778625954,
+      "width": 939.6,
+      "height": 129.66412213740458,
+      "fontSize": 34.99,
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "lineHeight": 1.14,
+      "color": "#172b25"
+    }
+  ]
+}

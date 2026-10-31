@@ -1,0 +1,387 @@
+{
+  "baselineSha": "f14d8312e1206a030593f4115062b78b78efb9fc",
+  "browser": "153.0.8010.12",
+  "faceCount": 34,
+  "results": [
+    {
+      "name": "latin",
+      "trial": 0,
+      "version": "baseline",
+      "fontsMs": 63.299999952316284,
+      "totalMs": 116.39999997615814,
+      "loads": 34,
+      "sha256": "84975ddbe2cf06f6d0b59876d47775c7e4685d9bdfd9d5c8e6e6a9a1ec8abf13",
+      "fontBytes": 463368
+    },
+    {
+      "name": "latin",
+      "trial": 0,
+      "version": "candidate",
+      "fontsMs": 9.600000023841858,
+      "totalMs": 57.10000002384186,
+      "loads": 8,
+      "sha256": "84975ddbe2cf06f6d0b59876d47775c7e4685d9bdfd9d5c8e6e6a9a1ec8abf13",
+      "fontBytes": 121740
+    },
+    {
+      "name": "latin",
+      "trial": 1,
+      "version": "candidate",
+      "fontsMs": 9.700000047683716,
+      "totalMs": 58.800000071525574,
+      "loads": 8,
+      "sha256": "84975ddbe2cf06f6d0b59876d47775c7e4685d9bdfd9d5c8e6e6a9a1ec8abf13",
+      "fontBytes": 121740
+    },
+    {
+      "name": "latin",
+      "trial": 1,
+      "version": "baseline",
+      "fontsMs": 47.89999997615814,
+      "totalMs": 100.80000007152557,
+      "loads": 34,
+      "sha256": "84975ddbe2cf06f6d0b59876d47775c7e4685d9bdfd9d5c8e6e6a9a1ec8abf13",
+      "fontBytes": 463368
+    },
+    {
+      "name": "latin",
+      "trial": 2,
+      "version": "baseline",
+      "fontsMs": 50.09999990463257,
+      "totalMs": 100.89999997615814,
+      "loads": 34,
+      "sha256": "84975ddbe2cf06f6d0b59876d47775c7e4685d9bdfd9d5c8e6e6a9a1ec8abf13",
+      "fontBytes": 463368
+    },
+    {
+      "name": "latin",
+      "trial": 2,
+      "version": "candidate",
+      "fontsMs": 9.299999952316284,
+      "totalMs": 56,
+      "loads": 8,
+      "sha256": "84975ddbe2cf06f6d0b59876d47775c7e4685d9bdfd9d5c8e6e6a9a1ec8abf13",
+      "fontBytes": 121740
+    },
+    {
+      "name": "latin",
+      "trial": 3,
+      "version": "candidate",
+      "fontsMs": 10.100000023841858,
+      "totalMs": 57.90000009536743,
+      "loads": 8,
+      "sha256": "84975ddbe2cf06f6d0b59876d47775c7e4685d9bdfd9d5c8e6e6a9a1ec8abf13",
+      "fontBytes": 121740
+    },
+    {
+      "name": "latin",
+      "trial": 3,
+      "version": "baseline",
+      "fontsMs": 41.299999952316284,
+      "totalMs": 91.09999990463257,
+      "loads": 34,
+      "sha256": "84975ddbe2cf06f6d0b59876d47775c7e4685d9bdfd9d5c8e6e6a9a1ec8abf13",
+      "fontBytes": 463368
+    },
+    {
+      "name": "latin",
+      "trial": 4,
+      "version": "baseline",
+      "fontsMs": 43,
+      "totalMs": 92.30000007152557,
+      "loads": 34,
+      "sha256": "84975ddbe2cf06f6d0b59876d47775c7e4685d9bdfd9d5c8e6e6a9a1ec8abf13",
+      "fontBytes": 463368
+    },
+    {
+      "name": "latin",
+      "trial": 4,
+      "version": "candidate",
+      "fontsMs": 9.699999928474426,
+      "totalMs": 56.699999928474426,
+      "loads": 8,
+      "sha256": "84975ddbe2cf06f6d0b59876d47775c7e4685d9bdfd9d5c8e6e6a9a1ec8abf13",
+      "fontBytes": 121740
+    },
+    {
+      "name": "latin",
+      "trial": 5,
+      "version": "candidate",
+      "fontsMs": 10.799999952316284,
+      "totalMs": 57.799999952316284,
+      "loads": 8,
+      "sha256": "84975ddbe2cf06f6d0b59876d47775c7e4685d9bdfd9d5c8e6e6a9a1ec8abf13",
+      "fontBytes": 121740
+    },
+    {
+      "name": "latin",
+      "trial": 5,
+      "version": "baseline",
+      "fontsMs": 41.200000047683716,
+      "totalMs": 91.39999997615814,
+      "loads": 34,
+      "sha256": "84975ddbe2cf06f6d0b59876d47775c7e4685d9bdfd9d5c8e6e6a9a1ec8abf13",
+      "fontBytes": 463368
+    },
+    {
+      "name": "latin",
+      "trial": 6,
+      "version": "baseline",
+      "fontsMs": 40.5,
+      "totalMs": 88.70000004768372,
+      "loads": 34,
+      "sha256": "84975ddbe2cf06f6d0b59876d47775c7e4685d9bdfd9d5c8e6e6a9a1ec8abf13",
+      "fontBytes": 463368
+    },
+    {
+      "name": "latin",
+      "trial": 6,
+      "version": "candidate",
+      "fontsMs": 10.200000047683716,
+      "totalMs": 60.5,
+      "loads": 8,
+      "sha256": "84975ddbe2cf06f6d0b59876d47775c7e4685d9bdfd9d5c8e6e6a9a1ec8abf13",
+      "fontBytes": 121740
+    },
+    {
+      "name": "multilingual",
+      "trial": 0,
+      "version": "baseline",
+      "fontsMs": 43.799999952316284,
+      "totalMs": 64.60000002384186,
+      "loads": 34,
+      "sha256": "f81688f6d6c23fafd197b1e5ebc101cbc3b8c96b3d3a9beba1af2f64d41792a1",
+      "fontBytes": 463368
+    },
+    {
+      "name": "multilingual",
+      "trial": 0,
+      "version": "candidate",
+      "fontsMs": 14.5,
+      "totalMs": 35.10000002384186,
+      "loads": 15,
+      "sha256": "f81688f6d6c23fafd197b1e5ebc101cbc3b8c96b3d3a9beba1af2f64d41792a1",
+      "fontBytes": 232016
+    },
+    {
+      "name": "unsupported",
+      "trial": 0,
+      "version": "baseline",
+      "fontsMs": 42.300000071525574,
+      "totalMs": 76.80000007152557,
+      "loads": 34,
+      "sha256": "063b8e3dda29030c742ede54cec1808b07c632892c3efa4bc282dd5d2b0ee2aa",
+      "fontBytes": 463368
+    },
+    {
+      "name": "unsupported",
+      "trial": 0,
+      "version": "candidate",
+      "fontsMs": 16.700000047683716,
+      "totalMs": 43.800000071525574,
+      "loads": 20,
+      "sha256": "063b8e3dda29030c742ede54cec1808b07c632892c3efa4bc282dd5d2b0ee2aa",
+      "fontBytes": 271104
+    },
+    {
+      "name": "empty",
+      "trial": 0,
+      "version": "baseline",
+      "fontsMs": 44.700000047683716,
+      "totalMs": 55.300000071525574,
+      "loads": 34,
+      "sha256": "b8645c39cc750facd21c9cb7ee8bdcddd2f504bf41dbaaa3d80c36e860a70670",
+      "fontBytes": 463368
+    },
+    {
+      "name": "empty",
+      "trial": 0,
+      "version": "candidate",
+      "fontsMs": 16.5,
+      "totalMs": 27.799999952316284,
+      "loads": 20,
+      "sha256": "b8645c39cc750facd21c9cb7ee8bdcddd2f504bf41dbaaa3d80c36e860a70670",
+      "fontBytes": 271104
+    },
+    {
+      "name": "long-headline",
+      "trial": 0,
+      "version": "baseline",
+      "fontsMs": 40.200000047683716,
+      "totalMs": 81.60000002384186,
+      "loads": 34,
+      "sha256": "18357ec1754bca2759cdc02ac86241f6ec9d90e4082cb9b89282d891c6b85734",
+      "fontBytes": 463368
+    },
+    {
+      "name": "long-headline",
+      "trial": 0,
+      "version": "candidate",
+      "fontsMs": 5.100000023841858,
+      "totalMs": 40,
+      "loads": 2,
+      "sha256": "18357ec1754bca2759cdc02ac86241f6ec9d90e4082cb9b89282d891c6b85734",
+      "fontBytes": 48628
+    },
+    {
+      "name": "dense-program",
+      "trial": 0,
+      "version": "baseline",
+      "fontsMs": 49.5,
+      "totalMs": 86.80000007152557,
+      "loads": 34,
+      "sha256": "b809367d1e0bbd00ca4201c9c46a8930cf29c11e9ff9da209f40d21ae78d7e65",
+      "fontBytes": 463368
+    },
+    {
+      "name": "dense-program",
+      "trial": 0,
+      "version": "candidate",
+      "fontsMs": 7,
+      "totalMs": 39.60000002384186,
+      "loads": 2,
+      "sha256": "b809367d1e0bbd00ca4201c9c46a8930cf29c11e9ff9da209f40d21ae78d7e65",
+      "fontBytes": 48628
+    },
+    {
+      "name": "grouped-details",
+      "trial": 0,
+      "version": "baseline",
+      "fontsMs": 42.800000071525574,
+      "totalMs": 81.90000009536743,
+      "loads": 34,
+      "sha256": "7f8c3999b9572195dd7f46f2162729804f1da4501ceead6195e9d1ec386b3768",
+      "fontBytes": 463368
+    },
+    {
+      "name": "grouped-details",
+      "trial": 0,
+      "version": "candidate",
+      "fontsMs": 5.5,
+      "totalMs": 35.199999928474426,
+      "loads": 3,
+      "sha256": "7f8c3999b9572195dd7f46f2162729804f1da4501ceead6195e9d1ec386b3768",
+      "fontBytes": 70160
+    },
+    {
+      "name": "intentional-overlap",
+      "trial": 0,
+      "version": "baseline",
+      "fontsMs": 39.39999997615814,
+      "totalMs": 66.59999990463257,
+      "loads": 34,
+      "sha256": "eabe15470a7c729905fb60fcce0fb6ba608db8a9ae0fb22ee2f43c2f600f2b05",
+      "fontBytes": 463368
+    },
+    {
+      "name": "intentional-overlap",
+      "trial": 0,
+      "version": "candidate",
+      "fontsMs": 4.600000023841858,
+      "totalMs": 26.5,
+      "loads": 2,
+      "sha256": "eabe15470a7c729905fb60fcce0fb6ba608db8a9ae0fb22ee2f43c2f600f2b05",
+      "fontBytes": 48628
+    },
+    {
+      "name": "layered-art",
+      "trial": 0,
+      "version": "baseline",
+      "fontsMs": 39,
+      "totalMs": 54,
+      "loads": 34,
+      "sha256": "ef6b9d9fc55a90e9aec5b6eab3d255226794bb17a0e6cd3cb626c82212407e5c",
+      "fontBytes": 463368
+    },
+    {
+      "name": "layered-art",
+      "trial": 0,
+      "version": "candidate",
+      "fontsMs": 4.200000047683716,
+      "totalMs": 17.399999976158142,
+      "loads": 2,
+      "sha256": "ef6b9d9fc55a90e9aec5b6eab3d255226794bb17a0e6cd3cb626c82212407e5c",
+      "fontBytes": 48628
+    },
+    {
+      "name": "product-pairs",
+      "trial": 0,
+      "version": "baseline",
+      "fontsMs": 41.199999928474426,
+      "totalMs": 127.39999997615814,
+      "loads": 34,
+      "sha256": "f9743310662fc5e2de19e8cd2e1e606258bba1a51a28e76a7c8e91920514d897",
+      "fontBytes": 463368
+    },
+    {
+      "name": "product-pairs",
+      "trial": 0,
+      "version": "candidate",
+      "fontsMs": 5.899999976158142,
+      "totalMs": 72.10000002384186,
+      "loads": 3,
+      "sha256": "f9743310662fc5e2de19e8cd2e1e606258bba1a51a28e76a7c8e91920514d897",
+      "fontBytes": 70160
+    },
+    {
+      "name": "quiet-brand",
+      "trial": 0,
+      "version": "baseline",
+      "fontsMs": 41.200000047683716,
+      "totalMs": 60.700000047683716,
+      "loads": 34,
+      "sha256": "ae9075fb2397ff92e4174e9c81affad9e2e4e9b19da295dd476e77c6a964450a",
+      "fontBytes": 463368
+    },
+    {
+      "name": "quiet-brand",
+      "trial": 0,
+      "version": "candidate",
+      "fontsMs": 4.899999976158142,
+      "totalMs": 21.59999990463257,
+      "loads": 2,
+      "sha256": "ae9075fb2397ff92e4174e9c81affad9e2e4e9b19da295dd476e77c6a964450a",
+      "fontBytes": 45804
+    },
+    {
+      "name": "edge-subject",
+      "trial": 0,
+      "version": "baseline",
+      "fontsMs": 39.700000047683716,
+      "totalMs": 55.299999952316284,
+      "loads": 34,
+      "sha256": "a386cf5a663d853814eb4109f79974ece0ea1eb616f41ba73d46eed8a80f33b4",
+      "fontBytes": 463368
+    },
+    {
+      "name": "edge-subject",
+      "trial": 0,
+      "version": "candidate",
+      "fontsMs": 4,
+      "totalMs": 18.100000023841858,
+      "loads": 2,
+      "sha256": "a386cf5a663d853814eb4109f79974ece0ea1eb616f41ba73d46eed8a80f33b4",
+      "fontBytes": 48628
+    },
+    {
+      "name": "type-pairing",
+      "trial": 0,
+      "version": "baseline",
+      "fontsMs": 40.60000002384186,
+      "totalMs": 60,
+      "loads": 34,
+      "sha256": "073f1156c10fc07379abbd42cdaee42c50dc992944d049c545a7ede984d6c810",
+      "fontBytes": 463368
+    },
+    {
+      "name": "type-pairing",
+      "trial": 0,
+      "version": "candidate",
+      "fontsMs": 5.899999976158142,
+      "totalMs": 22.5,
+      "loads": 3,
+      "sha256": "073f1156c10fc07379abbd42cdaee42c50dc992944d049c545a7ede984d6c810",
+      "fontBytes": 70160
+    }
+  ]
+}

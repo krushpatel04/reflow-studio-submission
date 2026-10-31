@@ -1,0 +1,22 @@
+{
+  "reviewer": "B",
+  "utc": "2026-10-15T16:42:14.501193+00:00",
+  "decision": "ACCEPT_BOUNDED_PRODUCTION_OBSERVATIONS",
+  "source": "64fe972a15091a954a8fa1ee139aa87d53820e6f",
+  "report_sha256": "1db41510df40379bccca8d0e848582ca7d8739054528830d902af7a6227e3a41",
+  "checks": [
+    "All73 dist fileSHA256/bytes/gzip recomputed with Node defaultgzip; sums match",
+    "30 rawsamples reproduce maxpageheap/maxsummedRSS; pairedsame-stateGCdelta62316bytes after20edits",
+    "All preregistered scopedbudgets passed, positivecontrols and deliberateproxy/packageexcess verified from source/raw",
+    "Perstartup longtasks retained; cold107ms/95ms explicitly observed; no postreadylongtasks during5456.6mswindow",
+    "Functional10fixture loop/JSONSVGdownloads and missingfont/assetreference/workerrecovery source+report matched"
+  ],
+  "limits": [
+    "Cold startup has107ms and95ms tasks; no all-main-thread-under50ms claim",
+    "Pageheap excludesworkers/native/browser; sampledmax nottruepeak",
+    "SummedownedRSS doublecounts sharedpages; proxyblocksHTTP(S), not a proof about allpossible protocols",
+    "Nodegzipdefaultlevel6 differs from earlierPythonlevel9baseline; neither is transferredbytes",
+    "OneM1/8GB/Chromium153 localproductionprobe, no p95/p99/crossplatform/native/human guarantee",
+    "Wholeissue30 originalcriterion/closure decision belongs to D/root"
+  ]
+}

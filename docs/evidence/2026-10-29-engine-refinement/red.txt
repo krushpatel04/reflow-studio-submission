@@ -1,0 +1,123 @@
+.FF..FFFFFFFFF
+======================================================================
+FAIL: test_larger_banner_keeps_headline_emphasis_and_readable_support (tests_python.test_campaign_robustness.CampaignRobustness.test_larger_banner_keeps_headline_emphasis_and_readable_support)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 94, in test_larger_banner_keeps_headline_emphasis_and_readable_support
+    self.assertGreater(by(o)['headline']['font_size'], by(o)['subhead']['font_size'])
+AssertionError: 16.0 not greater than 16.0
+
+======================================================================
+FAIL: test_nonoverlapping_extra_shape_is_preserved_without_smaller_copy (tests_python.test_campaign_robustness.CampaignRobustness.test_nonoverlapping_extra_shape_is_preserved_without_smaller_copy)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 70, in test_nonoverlapping_extra_shape_is_preserved_without_smaller_copy
+    self.readable(o); self.clear(o)
+    ^^^^^^^^^^^^^^^^
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 46, in readable
+    self.assertGreaterEqual(e['font_size'], 9, e['id'])
+AssertionError: 6.213449802582002 not greater than or equal to 9 : subhead
+
+======================================================================
+FAIL: test_singleton_text_retains_group_without_losing_readability (tests_python.test_campaign_robustness.CampaignRobustness.test_singleton_text_retains_group_without_losing_readability) (name='legal_text', target=(728, 90))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 62, in test_singleton_text_retains_group_without_losing_readability
+    self.readable(o); self.clear(o)
+    ^^^^^^^^^^^^^^^^
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 46, in readable
+    self.assertGreaterEqual(e['font_size'], 9, e['id'])
+AssertionError: 6.213449802582002 not greater than or equal to 9 : subhead
+
+======================================================================
+FAIL: test_singleton_text_retains_group_without_losing_readability (tests_python.test_campaign_robustness.CampaignRobustness.test_singleton_text_retains_group_without_losing_readability) (name='legal_text', target=(730, 92))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 62, in test_singleton_text_retains_group_without_losing_readability
+    self.readable(o); self.clear(o)
+    ^^^^^^^^^^^^^^^^
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 46, in readable
+    self.assertGreaterEqual(e['font_size'], 9, e['id'])
+AssertionError: 6.903833113980001 not greater than or equal to 9 : subhead
+
+======================================================================
+FAIL: test_singleton_text_retains_group_without_losing_readability (tests_python.test_campaign_robustness.CampaignRobustness.test_singleton_text_retains_group_without_losing_readability) (name='legal_text', target=(160, 600))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 62, in test_singleton_text_retains_group_without_losing_readability
+    self.readable(o); self.clear(o)
+    ^^^^^^^^^^^^^^^^
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 46, in readable
+    self.assertGreaterEqual(e['font_size'], 9, e['id'])
+AssertionError: 6.903833113980001 not greater than or equal to 9 : subhead
+
+======================================================================
+FAIL: test_singleton_text_retains_group_without_losing_readability (tests_python.test_campaign_robustness.CampaignRobustness.test_singleton_text_retains_group_without_losing_readability) (name='headline', target=(728, 90))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 62, in test_singleton_text_retains_group_without_losing_readability
+    self.readable(o); self.clear(o)
+    ^^^^^^^^^^^^^^^^
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 46, in readable
+    self.assertGreaterEqual(e['font_size'], 9, e['id'])
+AssertionError: 2.6666666666666665 not greater than or equal to 9 : headline
+
+======================================================================
+FAIL: test_singleton_text_retains_group_without_losing_readability (tests_python.test_campaign_robustness.CampaignRobustness.test_singleton_text_retains_group_without_losing_readability) (name='headline', target=(730, 92))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 62, in test_singleton_text_retains_group_without_losing_readability
+    self.readable(o); self.clear(o)
+    ^^^^^^^^^^^^^^^^
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 46, in readable
+    self.assertGreaterEqual(e['font_size'], 9, e['id'])
+AssertionError: 2.7259259259259263 not greater than or equal to 9 : headline
+
+======================================================================
+FAIL: test_singleton_text_retains_group_without_losing_readability (tests_python.test_campaign_robustness.CampaignRobustness.test_singleton_text_retains_group_without_losing_readability) (name='headline', target=(160, 600))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 62, in test_singleton_text_retains_group_without_losing_readability
+    self.readable(o); self.clear(o)
+    ^^^^^^^^^^^^^^^^
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 46, in readable
+    self.assertGreaterEqual(e['font_size'], 9, e['id'])
+AssertionError: 5.925925925925926 not greater than or equal to 9 : headline
+
+======================================================================
+FAIL: test_singleton_text_retains_group_without_losing_readability (tests_python.test_campaign_robustness.CampaignRobustness.test_singleton_text_retains_group_without_losing_readability) (name='subhead', target=(728, 90))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 62, in test_singleton_text_retains_group_without_losing_readability
+    self.readable(o); self.clear(o)
+    ^^^^^^^^^^^^^^^^
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 46, in readable
+    self.assertGreaterEqual(e['font_size'], 9, e['id'])
+AssertionError: 1.4666666666666666 not greater than or equal to 9 : subhead
+
+======================================================================
+FAIL: test_singleton_text_retains_group_without_losing_readability (tests_python.test_campaign_robustness.CampaignRobustness.test_singleton_text_retains_group_without_losing_readability) (name='subhead', target=(730, 92))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 62, in test_singleton_text_retains_group_without_losing_readability
+    self.readable(o); self.clear(o)
+    ^^^^^^^^^^^^^^^^
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 46, in readable
+    self.assertGreaterEqual(e['font_size'], 9, e['id'])
+AssertionError: 1.4992592592592593 not greater than or equal to 9 : subhead
+
+======================================================================
+FAIL: test_singleton_text_retains_group_without_losing_readability (tests_python.test_campaign_robustness.CampaignRobustness.test_singleton_text_retains_group_without_losing_readability) (name='subhead', target=(160, 600))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 62, in test_singleton_text_retains_group_without_losing_readability
+    self.readable(o); self.clear(o)
+    ^^^^^^^^^^^^^^^^
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_campaign_robustness.py", line 46, in readable
+    self.assertGreaterEqual(e['font_size'], 9, e['id'])
+AssertionError: 3.259259259259259 not greater than or equal to 9 : subhead
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.480s
+
+FAILED (failures=11)

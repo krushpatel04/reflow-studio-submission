@@ -1,0 +1,193 @@
+{
+ "schemaVersion": "reflow.design.v0",
+ "id": "lica-3ptehNaHfKmudzDJ5qLD",
+ "name": "LICA Presentations 3ptehNaHfKmudzDJ5qLD",
+ "description": "Converted from LICA layout 3ptehNaHfKmudzDJ5qLD (template a902e896-7baa-4f3e-b5ab-aba3173990e7).",
+ "provenance": "LICA dataset (LICA WORLD), CC BY 4.0, https://github.com/purvanshi/lica-dataset; converted and modified for Reflow evaluation",
+ "width": 1920,
+ "height": 1080,
+ "background": "#0e213c",
+ "groups": [],
+ "elements": [
+  {
+   "id": "image-0",
+   "type": "image",
+   "role": "background",
+   "x": 0,
+   "y": -100,
+   "width": 1920,
+   "height": 1280,
+   "assetId": "502f5d52-95b8-43bd-86a9-94479fd3c39f.jpg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "opacity": 0.3
+  },
+  {
+   "id": "group-1",
+   "type": "rect",
+   "role": "decoration",
+   "x": 156.505,
+   "y": 151.53,
+   "width": 1606.9941084000002,
+   "height": 245.988096,
+   "color": "#060b31"
+  },
+  {
+   "id": "image-2",
+   "type": "image",
+   "role": "content",
+   "x": 156.505,
+   "y": 151.53,
+   "width": 1606.99,
+   "height": 245.988,
+   "assetId": "7e61d748-7e86-4cc1-97d0-ecc81e5241b2.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "text-3",
+   "type": "text",
+   "role": "content",
+   "x": 355.264,
+   "y": 194.858,
+   "width": 1209.96,
+   "height": 158.261,
+   "text": "LEARNING",
+   "fontFamily": "Montserrat",
+   "fontWeight": 400,
+   "fontSize": 133,
+   "lineHeight": 1.1954887218045114,
+   "color": "#f8c24b",
+   "align": "center"
+  },
+  {
+   "id": "group-4",
+   "type": "rect",
+   "role": "decoration",
+   "x": 156.505,
+   "y": 489.94,
+   "width": 441.34136852,
+   "height": 425.98912,
+   "color": "#060b31"
+  },
+  {
+   "id": "image-5",
+   "type": "image",
+   "role": "content",
+   "x": 156.505,
+   "y": 489.94,
+   "width": 441.341,
+   "height": 425.988,
+   "assetId": "185a88a7-f580-4e7e-8f31-8ff36a5bad08.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "group-6",
+   "type": "rect",
+   "role": "decoration",
+   "x": 739.33,
+   "y": 489.94,
+   "width": 441.34136852,
+   "height": 425.98912,
+   "color": "#060b31"
+  },
+  {
+   "id": "image-7",
+   "type": "image",
+   "role": "content",
+   "x": 739.33,
+   "y": 489.94,
+   "width": 441.341,
+   "height": 425.988,
+   "assetId": "55b32d1a-eb91-42f9-a320-e04c4ecce552.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "group-8",
+   "type": "rect",
+   "role": "decoration",
+   "x": 1322.15,
+   "y": 489.94,
+   "width": 441.34136852,
+   "height": 425.98912,
+   "color": "#060b31"
+  },
+  {
+   "id": "image-9",
+   "type": "image",
+   "role": "content",
+   "x": 1322.15,
+   "y": 489.94,
+   "width": 441.341,
+   "height": 425.988,
+   "assetId": "609b3e44-b609-483d-9342-641f2aea0e66.svg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "text-10",
+   "type": "text",
+   "role": "content",
+   "x": 1346.7,
+   "y": 577.717,
+   "width": 392.24,
+   "height": 250.435,
+   "text": "apply the scientific means in an experiment",
+   "fontFamily": "Poppins",
+   "fontWeight": 400,
+   "fontSize": 53,
+   "lineHeight": 1.1886792452830188,
+   "color": "#fcfcfc",
+   "align": "center"
+  },
+  {
+   "id": "text-11",
+   "type": "text",
+   "role": "content",
+   "x": 181.056,
+   "y": 577.717,
+   "width": 392.24,
+   "height": 250.435,
+   "text": "state and list the steps in scientific method",
+   "fontFamily": "Roboto",
+   "fontWeight": 400,
+   "fontSize": 53,
+   "lineHeight": 1.1886792452830188,
+   "color": "#fcfcfc",
+   "align": "center"
+  },
+  {
+   "id": "text-12",
+   "type": "text",
+   "role": "content",
+   "x": 763.88,
+   "y": 577.717,
+   "width": 392.24,
+   "height": 250.435,
+   "text": "detail the steps in the scientific method",
+   "fontFamily": "Open Sans",
+   "fontWeight": 400,
+   "fontSize": 53,
+   "lineHeight": 1.1886792452830188,
+   "color": "#fcfcfc",
+   "align": "center"
+  }
+ ]
+}

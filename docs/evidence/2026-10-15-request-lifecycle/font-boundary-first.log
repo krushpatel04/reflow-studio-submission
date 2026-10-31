@@ -1,0 +1,55 @@
+[WebServer] 
+[WebServer] > reflow-studio@0.1.0 dev
+[WebServer] > vite --host 127.0.0.1 --port 4187 --strictPort
+[WebServer] 
+[WebServer] (node:59813) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer]   VITE v8.3.0  ready in 236 ms
+[WebServer] 
+[WebServer]   ➜  Local:   http://127.0.0.1:4187/
+
+Running 1 test using 1 worker
+
+(node:59832) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 12:23:58 PM [vite] (client) [console.warn] Spectrum Web Components is in dev mode. Not recommended for production!
+[WebServer]  
+[WebServer] https://opensource.adobe.com/spectrum-web-components/dev-mode/
+[WebServer]  {"data":{"localName":"base","type":"default","level":"default"}}
+[WebServer] 12:23:58 PM [vite] (client) [console.warn] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+  ✘  1 tests/browser/request-lifecycle.spec.ts:308:1 › newly loaded font subsets leave a reusable committed presentation cache (1.5s)
+
+
+  1) tests/browser/request-lifecycle.spec.ts:308:1 › newly loaded font subsets leave a reusable committed presentation cache 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1626
+
+      325 |   });
+      326 |   await writeFile('reports/completion/C/font-boundary-cache.json', JSON.stringify({ layoutMeasurementsOnPresentation: calls }, null, 2));
+    > 327 |   expect(calls).toBe(0);
+          |                 ^
+      328 | });
+      329 |
+      330 | test('real worker deadline stops busy computation, retains export, and retries', async ({ page }) => {
+        at /Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/C/tests/browser/request-lifecycle.spec.ts:327:17
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../../../../../tmp/reflow-completion-C-focused/request-lifecycle-newly-lo-15116-ommitted-presentation-cache/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../../../../../tmp/reflow-completion-C-focused/request-lifecycle-newly-lo-15116-ommitted-presentation-cache/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../../../../../tmp/reflow-completion-C-focused/request-lifecycle-newly-lo-15116-ommitted-presentation-cache/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../../../../../tmp/reflow-completion-C-focused/request-lifecycle-newly-lo-15116-ommitted-presentation-cache/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests/browser/request-lifecycle.spec.ts:308:1 › newly loaded font subsets leave a reusable committed presentation cache 

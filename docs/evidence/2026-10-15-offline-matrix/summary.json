@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-15",
+  "source": "af6e4411035062957e355a7a14d5d1207134e840",
+  "run_url": "https://github.com/kj-squared-labs/reflow-studio/actions/runs/38766967759",
+  "image": {
+    "id": "sha256:28a9cd212e9534afd83ec9c02184c0c706af10779cf84c348273586a3a8db4bb",
+    "arch": "amd64",
+    "os": "linux"
+  },
+  "image_zip_sha256": "ae175dfc9520810d36b3da53728126f285a18e1b0203dc5f085c0844c948572c",
+  "case_results": {
+    "valid": {
+      "pass": true,
+      "exit": 0,
+      "timed_out": false,
+      "memory_bytes": 536870912,
+      "cleanup_exit": 0,
+      "absent": true
+    },
+    "malformed": {
+      "pass": true,
+      "exit": 1,
+      "timed_out": false,
+      "memory_bytes": 536870912,
+      "cleanup_exit": 0,
+      "absent": true
+    },
+    "unsupported": {
+      "pass": true,
+      "exit": 1,
+      "timed_out": false,
+      "memory_bytes": 536870912,
+      "cleanup_exit": 0,
+      "absent": true
+    },
+    "invalid-target": {
+      "pass": true,
+      "exit": 1,
+      "timed_out": false,
+      "memory_bytes": 536870912,
+      "cleanup_exit": 0,
+      "absent": true
+    },
+    "timeout": {
+      "pass": true,
+      "exit": -9,
+      "timed_out": true,
+      "memory_bytes": 536870912,
+      "cleanup_exit": 0,
+      "absent": true
+    },
+    "oom": {
+      "pass": true,
+      "exit": 0,
+      "timed_out": false,
+      "memory_bytes": 67108864,
+      "cleanup_exit": 0,
+      "absent": true
+    }
+  },
+  "oom_event": {
+    "token": "reflow-fault-46f368f4692540cba6acc158f8e3193a",
+    "child_pid": 8,
+    "memory_max": 67108864,
+    "path": "/sys/fs/cgroup/memory.events",
+    "positive": {
+      "returncode": 0,
+      "before": {
+        "low": 0,
+        "high": 0,
+        "max": 0,
+        "oom": 0,
+        "oom_kill": 0,
+        "oom_group_kill": 0
+      },
+      "after": {
+        "low": 0,
+        "high": 0,
+        "max": 0,
+        "oom": 0,
+        "oom_kill": 0,
+        "oom_group_kill": 0
+      }
+    },
+    "before": {
+      "low": 0,
+      "high": 0,
+      "max": 0,
+      "oom": 0,
+      "oom_kill": 0,
+      "oom_group_kill": 0
+    },
+    "after": {
+      "low": 0,
+      "high": 0,
+      "max": 20,
+      "oom": 1,
+      "oom_kill": 1,
+      "oom_group_kill": 0
+    },
+    "child_returncode": -9
+  },
+  "docker_oom_killed": false,
+  "ordinary_real": 3,
+  "ordinary_fallback": 0,
+  "scope": "Candidate fault-containment checkpoint; no full issue8/35 or human/native acceptance"
+}

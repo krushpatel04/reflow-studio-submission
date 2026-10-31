@@ -1,0 +1,31 @@
+{
+  "dCandidate": "726ba37ab97350e6c13c29642de8d4315435a594",
+  "integrationCandidate": "9ffb3088016df87e1e99a1e0c5dcdbcf0de789da",
+  "files": [
+    {
+      "path": "scripts/corpus-splits.ts",
+      "dSha256": "dedee271f72b19e3477c125b3b3ba84474c1f689b66b4cd017f7f2ab2e7b18ac",
+      "integrationSha256": "dedee271f72b19e3477c125b3b3ba84474c1f689b66b4cd017f7f2ab2e7b18ac",
+      "identical": true
+    },
+    {
+      "path": "scripts/corpus-split-files.ts",
+      "dSha256": "18c99b0c2b74ad82214ae11d38159316f4cac2a7d353034c7cde21998665aeec",
+      "integrationSha256": "18c99b0c2b74ad82214ae11d38159316f4cac2a7d353034c7cde21998665aeec",
+      "identical": true
+    },
+    {
+      "path": "tests/corpus-splits.test.ts",
+      "dSha256": "0ebbf31c1a70611b3bbdc2b3ac9eda2f44441ab0a652c1a3f45c191c8e518f23",
+      "integrationSha256": "0ebbf31c1a70611b3bbdc2b3ac9eda2f44441ab0a652c1a3f45c191c8e518f23",
+      "identical": true
+    },
+    {
+      "path": "tests/corpus-split-files.test.ts",
+      "dSha256": "1618e48b15bf0e39c8adca24dbf4bbb698803ee39a89e34a037a45e4c3ada2cb",
+      "integrationSha256": "1618e48b15bf0e39c8adca24dbf4bbb698803ee39a89e34a037a45e4c3ada2cb",
+      "identical": true
+    }
+  ],
+  "validation": "Combined npm test/build assigned to C by root; pending, not claimed passed. D separate full-suite queue canceled."
+}

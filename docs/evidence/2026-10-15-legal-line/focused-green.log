@@ -1,0 +1,156 @@
+test_l3_728x90_labels_inside_plates (tests_python.test_text_fit.GroupContainment.test_l3_728x90_labels_inside_plates) ... ok
+test_l3_narrow_target_labels_inside_plates (tests_python.test_text_fit.GroupContainment.test_l3_narrow_target_labels_inside_plates) ... ok
+test_grouped_image_stays_protected_obstacle (tests_python.test_text_fit.ImageOcclusion.test_grouped_image_stays_protected_obstacle)
+Even a source overlap never exempts a GROUPED image: group association is protected. ... ok
+test_no_placement_falls_back_to_p5b_exactly (tests_python.test_text_fit.ImageOcclusion.test_no_placement_falls_back_to_p5b_exactly)
+A full-height image splits a 100x30 target into two 40px gaps; the 6px text is ~55px wide, so no step clears it. ... ok
+test_positive_control_source_overlap_is_not_an_obstacle (tests_python.test_text_fit.ImageOcclusion.test_positive_control_source_overlap_is_not_an_obstacle)
+A text that overlapped an image in the source is placed exactly as if the image were not there (pic -> shape = P5b rule). ... ok
+test_r7_full_bleed_makes_output_relation_differ_from_source (tests_python.test_text_fit.ImageOcclusion.test_r7_full_bleed_makes_output_relation_differ_from_source)
+R7: 1200x1200 -> 100x1000 (s=1/12, letterbox oy=450). Uniform scale preserves overlap EXCEPT for an ungrouped cover image, which is ... ok
+test_red_no_new_overlap_rotated_text_and_image (tests_python.test_text_fit.ImageOcclusion.test_red_no_new_overlap_rotated_text_and_image) ... ok
+test_grouped_texts_below_floor_are_the_measured_unmet_list (tests_python.test_text_fit.L3ToStrip.test_grouped_texts_below_floor_are_the_measured_unmet_list)
+P6 (was: {badge1/2/3_label 1.0, cta_label 1.47, ribbon_label 1.33}). Unmet set is measured from the run, never claimed beyond it. ... ok
+test_ids_order_and_non_geometry_fields_preserved (tests_python.test_text_fit.L3ToStrip.test_ids_order_and_non_geometry_fields_preserved) ... ok
+test_no_fit_keeps_the_old_p5b_unmet_pin (tests_python.test_text_fit.L3ToStrip.test_no_fit_keeps_the_old_p5b_unmet_pin)
+No-fit fixture: the plate is as tall as the source, so no k > s fits a 100x30 target; output is the uniform P5b placement (label 1px). ... ok
+test_no_ungrouped_text_below_pixel_floor (tests_python.test_text_fit.L3ToStrip.test_no_ungrouped_text_below_pixel_floor) ... ok
+test_no_ungrouped_text_overflows_its_own_box (tests_python.test_text_fit.L3ToStrip.test_no_ungrouped_text_overflows_its_own_box) ... ok
+test_no_ungrouped_text_overlaps_grouped_or_other_text_ungrouped_images_excluded (tests_python.test_text_fit.L3ToStrip.test_no_ungrouped_text_overlaps_grouped_or_other_text_ungrouped_images_excluded) ... ok
+test_rotation_untouched (tests_python.test_text_fit.L3ToStrip.test_rotation_untouched) ... ok
+test_source_unmutated_and_deterministic (tests_python.test_text_fit.L3ToStrip.test_source_unmutated_and_deterministic) ... ok
+test_target_is_the_extreme_strip (tests_python.test_text_fit.L3ToStrip.test_target_is_the_extreme_strip) ... ok
+test_text_boxes_inside_target (tests_python.test_text_fit.L3ToStrip.test_text_boxes_inside_target) ... ok
+test_ungrouped_text_does_not_newly_overlap_ungrouped_image (tests_python.test_text_fit.L3ToStrip.test_ungrouped_text_does_not_newly_overlap_ungrouped_image)
+R6: a re-fit text may keep a source overlap with an image, but must not start covering one it cleared in the source. ... ok
+test_l3_rotated_group_inside_canvas_and_labels_inside_plate_box (tests_python.test_text_fit.RotatedBounds.test_l3_rotated_group_inside_canvas_and_labels_inside_plate_box) ... ok
+test_rotated_ungrouped_text_rotated_box_inside_and_clear (tests_python.test_text_fit.RotatedRefit.test_rotated_ungrouped_text_rotated_box_inside_and_clear) ... ok
+test_c1_badge2_and_c3b_cta_raised_to_floor (tests_python.test_text_fit.SubFloorLabelRaise.test_c1_badge2_and_c3b_cta_raised_to_floor) ... /Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/A/tests_python/test_text_fit.py:371: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C1_l3_120x600_input.json' mode='r' encoding='UTF-8'>
+  c1 = json.load(open('docs/evidence/2026-10-07-p8/run3/C1_l3_120x600_input.json'))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/A/tests_python/test_text_fit.py:376: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C3b_extreme_60x1000_input.json' mode='r' encoding='UTF-8'>
+  c3b = json.load(open('docs/evidence/2026-10-07-p8/run3/C3b_extreme_60x1000_input.json'))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_fit_uses_scaled_box_not_source_box (tests_python.test_text_fit.SubFloorLabelRaise.test_fit_uses_scaled_box_not_source_box)
+Source box 1200 wide would fit 'Shop now' at 6px; the scaled label box is 20px wide here and does not. ... ok
+test_fitting_label_raised_geometry_equals_uniform (tests_python.test_text_fit.SubFloorLabelRaise.test_fitting_label_raised_geometry_equals_uniform) ... ok
+test_group_all_or_nothing (tests_python.test_text_fit.SubFloorLabelRaise.test_group_all_or_nothing) ... ok
+test_label_not_fitting_its_scaled_box_stays_p5b (tests_python.test_text_fit.SubFloorLabelRaise.test_label_not_fitting_its_scaled_box_stays_p5b) ... ok
+test_letter_spacing_label_not_raised (tests_python.test_text_fit.SubFloorLabelRaise.test_letter_spacing_label_not_raised) ... ok
+test_lone_grouped_text_and_non_sub_floor_group_untouched (tests_python.test_text_fit.SubFloorLabelRaise.test_lone_grouped_text_and_non_sub_floor_group_untouched) ... ok
+test_only_label_font_changes_everything_else_equals_main (tests_python.test_text_fit.SubFloorLabelRaise.test_only_label_font_changes_everything_else_equals_main) ... /Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/A/tests_python/test_text_fit.py:396: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C1_l3_120x600_input.json' mode='r' encoding='UTF-8'>
+  c = json.load(open(f"docs/evidence/2026-10-07-p8/run3/{name}_input.json"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/A/tests_python/test_text_fit.py:413: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p10/run/C1_l3_120x600_output.json' mode='r' encoding='UTF-8'>
+  historical = json.load(open(f"docs/evidence/2026-10-07-p10/run/{name}_output.json"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/A/tests_python/test_text_fit.py:396: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C3b_extreme_60x1000_input.json' mode='r' encoding='UTF-8'>
+  c = json.load(open(f"docs/evidence/2026-10-07-p8/run3/{name}_input.json"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/A/tests_python/test_text_fit.py:413: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p10/run/C3b_extreme_60x1000_output.json' mode='r' encoding='UTF-8'>
+  historical = json.load(open(f"docs/evidence/2026-10-07-p10/run/{name}_output.json"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_raise_survives_p5b_revert_geometry_equal_to_p5b (tests_python.test_text_fit.SubFloorLabelRaise.test_raise_survives_p5b_revert_geometry_equal_to_p5b)
+A rigid-moved group + ungrouped text that cannot pack -> exact P5b revert; the in-place raise is applied to that settled placement. ... ok
+test_rigid_packing_group_stays_rigid_not_raised_in_place (tests_python.test_text_fit.SubFloorLabelRaise.test_rigid_packing_group_stays_rigid_not_raised_in_place) ... ok
+test_rotated_group_label_stays_inside_plate_rotated_frame (tests_python.test_text_fit.SubFloorLabelRaise.test_rotated_group_label_stays_inside_plate_rotated_frame) ... ok
+test_width_fit_boundary_uses_scaled_width_and_both_margins (tests_python.test_text_fit.SubFloorLabelRaise.test_width_fit_boundary_uses_scaled_width_and_both_margins)
+'Shop now' at 6px measures 30.0 -> needs ceil(30*1.02)+1 = 32 of box width. Box widths 31.5 (just under) and 32.5 (just over), via pw/S. ... ok
+test_wrap_is_measured_at_the_scaled_box_width (tests_python.test_text_fit.SubFloorLabelRaise.test_wrap_is_measured_at_the_scaled_box_width)
+20px-wide, 20px-tall scaled box: 'Shop now' (30px) wraps to 2 lines (widest 16 -> 18 <= 20, height 14.4 <= 20) -> raised. ... ok
+test_floor_overflow_overlap_on_1200_square_to_1000x60 (tests_python.test_text_fit.SyntheticStrip.test_floor_overflow_overlap_on_1200_square_to_1000x60) ... ok
+test_l1_l2_output_hash_unchanged (tests_python.test_text_fit.UnaffectedSamples.test_l1_l2_output_hash_unchanged) ... ok
+test_no_refit_when_nothing_below_floor (tests_python.test_text_fit.UnaffectedSamples.test_no_refit_when_nothing_below_floor) ... ok
+test_cases_that_packed_before_keep_the_tw_minus_2_cap (tests_python.test_text_fit.WrapCapPadding.test_cases_that_packed_before_keep_the_tw_minus_2_cap)
+Initial search cap remains tw-2; returned-width recount and pinned glyph capacity are separate controls. ... /Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/A/tests_python/test_text_fit.py:563: ResourceWarning: unclosed file <_io.BufferedReader name='/Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/A/.cache/chameleon/renderer/converter/wrap.py'>
+  self.assertEqual(hashlib.sha256(open(spec.origin, "rb").read()).hexdigest(),
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/A/tests_python/test_text_fit.py:580: ResourceWarning: unclosed file <_io.BufferedReader name='/Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/A/.cache/chameleon/brand_kit/fonts/SolsticeSerif-Bold.ttf'>
+  data = open(os.path.join(FONTS, f"{family}-{suffix}.ttf"), "rb").read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/A/tests_python/test_text_fit.py:580: ResourceWarning: unclosed file <_io.BufferedReader name='/Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/A/.cache/chameleon/brand_kit/fonts/SolsticeSans-Regular.ttf'>
+  data = open(os.path.join(FONTS, f"{family}-{suffix}.ttf"), "rb").read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_first_success_stops_before_retry (tests_python.test_text_fit.WrapCapPadding.test_first_success_stops_before_retry) ... ok
+test_l3_narrow_targets_survive_without_sub_floor_or_warning (tests_python.test_text_fit.WrapCapPadding.test_l3_narrow_targets_survive_without_sub_floor_or_warning) ... ok
+test_retry_cap_is_pinned_to_tw_minus_3_over_1_02 (tests_python.test_text_fit.WrapCapPadding.test_retry_cap_is_pinned_to_tw_minus_3_over_1_02)
+P13: constant-width fake font (1px per char at any size). A forces the padded-cap retry (first attempt box > tw); B sits between the ... ok
+test_wrapped_headline_box_is_padded_width_and_text_inside (tests_python.test_text_fit.WrapCapPadding.test_wrapped_headline_box_is_padded_width_and_text_inside)
+Reviewer (b): on the real wrapped case the BOX width is <= tw-2 and the measured text fits inside it (not only font >= 6). ... ok
+test_explicit_newline_control (tests_python.test_text_fit_whitespace.CallerWhitespace.test_explicit_newline_control) ... {"input": {"canvas": {"height": 400, "width": 400}, "elements": [{"color": "rgba(0,0,0,1)", "content": "Hello\nworld", "font_family": "Solstice Sans", "font_size": 24, "font_weight": "regular", "height": 80, "id": "t", "line_height": 1.2, "rotation": 0, "style_runs": [{"color": "rgba(0,0,0,1)", "end": 5, "start": 1}], "type": "text", "width": 300, "x": 20, "y": 20}]}, "line_slots": 2, "needed_height": 57.599999999999994, "returned": {"color": "rgba(0,0,0,1)", "content": "Hello\nworld", "font_family": "Solstice Sans", "font_size": 24.0, "font_weight": "regular", "height": 57.599999999999994, "id": "t", "line_height": 1.2, "rotation": 0, "style_runs": [{"color": "rgba(0,0,0,1)", "end": 5, "start": 1}], "type": "text", "width": 69.0, "x": 0.0, "y": 0.0}, "target": {"height": 60, "width": 72}, "wrapped": "Hello\nworld"}
+ok
+test_leading_space_caller_allocates_all_upstream_line_slots (tests_python.test_text_fit_whitespace.CallerWhitespace.test_leading_space_caller_allocates_all_upstream_line_slots) ... {"input": {"canvas": {"height": 400, "width": 400}, "elements": [{"color": "rgba(0,0,0,1)", "content": " Hello world", "font_family": "Solstice Sans", "font_size": 24, "font_weight": "regular", "height": 80, "id": "t", "line_height": 1.2, "rotation": 0, "style_runs": [{"color": "rgba(0,0,0,1)", "end": 5, "start": 1}], "type": "text", "width": 300, "x": 20, "y": 20}]}, "line_slots": 3, "needed_height": 56.68704, "returned": {"color": "rgba(0,0,0,1)", "content": " Hello world", "font_family": "Solstice Sans", "font_size": 15.746400000000001, "font_weight": "regular", "height": 56.68704, "id": "t", "line_height": 1.2, "rotation": 0, "style_runs": [{"color": "rgba(0,0,0,1)", "end": 5, "start": 1}], "type": "text", "width": 46.0, "x": 0.0, "y": 0.0}, "target": {"height": 60, "width": 72}, "wrapped": "\nHello\nworld"}
+ok
+test_ordinary_space_control (tests_python.test_text_fit_whitespace.CallerWhitespace.test_ordinary_space_control) ... {"input": {"canvas": {"height": 400, "width": 400}, "elements": [{"color": "rgba(0,0,0,1)", "content": "Hello world", "font_family": "Solstice Sans", "font_size": 24, "font_weight": "regular", "height": 80, "id": "t", "line_height": 1.2, "rotation": 0, "style_runs": [{"color": "rgba(0,0,0,1)", "end": 5, "start": 1}], "type": "text", "width": 300, "x": 20, "y": 20}]}, "line_slots": 2, "needed_height": 57.599999999999994, "returned": {"color": "rgba(0,0,0,1)", "content": "Hello world", "font_family": "Solstice Sans", "font_size": 24.0, "font_weight": "regular", "height": 57.599999999999994, "id": "t", "line_height": 1.2, "rotation": 0, "style_runs": [{"color": "rgba(0,0,0,1)", "end": 5, "start": 1}], "type": "text", "width": 69.0, "x": 0.0, "y": 0.0}, "target": {"height": 60, "width": 72}, "wrapped": "Hello\nworld"}
+ok
+test_wide_identity_control (tests_python.test_text_fit_whitespace.CallerWhitespace.test_wide_identity_control) ... {"input": {"canvas": {"height": 400, "width": 400}, "elements": [{"color": "rgba(0,0,0,1)", "content": " Hello world", "font_family": "Solstice Sans", "font_size": 24, "font_weight": "regular", "height": 80, "id": "t", "line_height": 1.2, "rotation": 0, "style_runs": [{"color": "rgba(0,0,0,1)", "end": 5, "start": 1}], "type": "text", "width": 300, "x": 20, "y": 20}]}, "line_slots": 1, "needed_height": 28.799999999999997, "returned": {"color": "rgba(0,0,0,1)", "content": " Hello world", "font_family": "Solstice Sans", "font_size": 24.0, "font_weight": "regular", "height": 80.0, "id": "t", "line_height": 1.2, "rotation": 0, "style_runs": [{"color": "rgba(0,0,0,1)", "end": 5, "start": 1}], "type": "text", "width": 300.0, "x": 20.0, "y": 20.0}, "target": {"height": 400, "width": 400}, "wrapped": " Hello world"}
+ok
+test_retained_whitespace_boundaries_match_pinned_upstream (tests_python.test_text_fit_whitespace.HelperBoundaries.test_retained_whitespace_boundaries_match_pinned_upstream) ... ok
+test_absent_family_is_unmeasured_warning_and_uniform_never_substituted (tests_python.test_real_fonts.RealFaces.test_absent_family_is_unmeasured_warning_and_uniform_never_substituted) ... ok
+test_distinct_face_changes_the_fit_and_path_is_the_verified_blob (tests_python.test_real_fonts.RealFaces.test_distinct_face_changes_the_fit_and_path_is_the_verified_blob) ... ok
+test_family_name_is_normalised_like_the_renderer (tests_python.test_real_fonts.RealFaces.test_family_name_is_normalised_like_the_renderer) ... ok
+test_font_cache_does_not_serve_old_bytes_for_same_path_and_size (tests_python.test_real_fonts.RealFaces.test_font_cache_does_not_serve_old_bytes_for_same_path_and_size) ... ok
+test_hash_mismatch_raises_before_measuring (tests_python.test_real_fonts.RealFaces.test_hash_mismatch_raises_before_measuring) ... ok
+test_identical_sha_duplicate_is_not_ambiguous_but_distinct_bytes_is (tests_python.test_real_fonts.RealFaces.test_identical_sha_duplicate_is_not_ambiguous_but_distinct_bytes_is) ... ok
+test_italic_style_picks_italic_face (tests_python.test_real_fonts.RealFaces.test_italic_style_picks_italic_face) ... ok
+test_last_word_weight_rule (tests_python.test_real_fonts.RealFaces.test_last_word_weight_rule) ... ok
+test_missing_style_is_unmeasured (tests_python.test_real_fonts.RealFaces.test_missing_style_is_unmeasured) ... ok
+test_no_context_is_unchanged_and_path_signature_kept (tests_python.test_real_fonts.RealFaces.test_no_context_is_unchanged_and_path_signature_kept) ... ok
+test_same_path_rewritten_bytes_does_not_leak_across_tasks (tests_python.test_real_fonts.RealFaces.test_same_path_rewritten_bytes_does_not_leak_across_tasks) ... ok
+test_state_resets_after_exit_and_after_exception (tests_python.test_real_fonts.RealFaces.test_state_resets_after_exit_and_after_exception) ... ok
+test_weight_600_is_bold_and_picks_the_bold_face (tests_python.test_real_fonts.RealFaces.test_weight_600_is_bold_and_picks_the_bold_face) ... ok
+test_canvas_is_target_and_ids_exactly_once (tests_python.test_contract.Identity.test_canvas_is_target_and_ids_exactly_once) ... ok
+test_input_not_mutated_and_output_not_aliased (tests_python.test_contract.Identity.test_input_not_mutated_and_output_not_aliased) ... ok
+test_no_role_sidecar_needed (tests_python.test_contract.Identity.test_no_role_sidecar_needed) ... ok
+test_same_canvas_is_identity (tests_python.test_contract.Identity.test_same_canvas_is_identity) ... ok
+test_source_order_kept (tests_python.test_contract.Identity.test_source_order_kept) ... ok
+test_aspect_ratio_preserved_for_non_cover_image (tests_python.test_contract.Layout.test_aspect_ratio_preserved_for_non_cover_image) ... ok
+test_cover_image_covering_canvas_fills_target (tests_python.test_contract.Layout.test_cover_image_covering_canvas_fills_target) ... ok
+test_everything_inside_target_when_source_inside (tests_python.test_contract.Layout.test_everything_inside_target_when_source_inside) ... ok
+test_font_and_scalars_scale_uniformly (tests_python.test_contract.Layout.test_font_and_scalars_scale_uniformly) ... ok
+test_group_moves_as_unit (tests_python.test_contract.Layout.test_group_moves_as_unit) ... ok
+test_positive_control_contain_full_canvas_not_stretched (tests_python.test_contract.Layout.test_positive_control_contain_full_canvas_not_stretched) ... ok
+test_positive_control_cover_not_covering_canvas_keeps_aspect (tests_python.test_contract.Layout.test_positive_control_cover_not_covering_canvas_keeps_aspect) ... ok
+test_uniform_scale_and_centering (tests_python.test_contract.Layout.test_uniform_scale_and_centering) ... ok
+test_zero_size_element_ok (tests_python.test_contract.Layout.test_zero_size_element_ok) ... ok
+test_image_and_shape_fields_verbatim (tests_python.test_contract.Preservation.test_image_and_shape_fields_verbatim) ... ok
+test_text_fields_verbatim (tests_python.test_contract.Preservation.test_text_fields_verbatim) ... ok
+test_unknown_fields_pass_through (tests_python.test_contract.Preservation.test_unknown_fields_pass_through) ... ok
+test_duplicate_and_missing_ids (tests_python.test_contract.Validation.test_duplicate_and_missing_ids) ... ok
+test_font_size_must_be_valid_number (tests_python.test_contract.Validation.test_font_size_must_be_valid_number) ... ok
+test_invalid_source_canvas (tests_python.test_contract.Validation.test_invalid_source_canvas) ... ok
+test_invalid_target_dims (tests_python.test_contract.Validation.test_invalid_target_dims) ... ok
+test_malformed_containers (tests_python.test_contract.Validation.test_malformed_containers) ... ok
+test_negative_size_rejected (tests_python.test_contract.Validation.test_negative_size_rejected) ... ok
+test_nonfinite_and_bool_geometry (tests_python.test_contract.Validation.test_nonfinite_and_bool_geometry) ... ok
+test_all_fixtures_together_ids_once_in_order (tests_python.test_fields.FieldMatrix.test_all_fixtures_together_ids_once_in_order) ... ok
+test_every_field_is_set_in_some_fixture (tests_python.test_fields.FieldMatrix.test_every_field_is_set_in_some_fixture) ... ok
+test_every_schema_field_is_classified (tests_python.test_fields.FieldMatrix.test_every_schema_field_is_classified) ... ok
+test_identity_target_is_deep_equal (tests_python.test_fields.FieldMatrix.test_identity_target_is_deep_equal) ... ok
+test_input_unmutated_for_every_fixture (tests_python.test_fields.FieldMatrix.test_input_unmutated_for_every_fixture) ... ok
+test_non_geometry_fields_preserved_verbatim (tests_python.test_fields.FieldMatrix.test_non_geometry_fields_preserved_verbatim) ... ok
+test_nullable_and_default_fields_roundtrip (tests_python.test_fields.FieldMatrix.test_nullable_and_default_fields_roundtrip) ... ok
+test_only_declared_geometry_changes_and_scalars_scale_by_s (tests_python.test_fields.FieldMatrix.test_only_declared_geometry_changes_and_scalars_scale_by_s) ... ok
+test_each_bad_value_rejected (tests_python.test_fields.NegativeFields.test_each_bad_value_rejected) ... ok
+test_missing_required_type_fields_rejected (tests_python.test_fields.NegativeFields.test_missing_required_type_fields_rejected) ... ok
+test_sample_groups_keep_relative_layout (tests_python.test_fields.PublicSamples.test_sample_groups_keep_relative_layout)
+P6: ONE ratio k_g per group across ALL members (offsets from the first member, widths, heights); k_g == s unless the group was ... ok
+test_samples_per_element_invariants (tests_python.test_fields.PublicSamples.test_samples_per_element_invariants) ... ok
+test_deterministic_repeat_and_permuted_order (tests_python.test_shape_obstacles.ShapeObstacles.test_deterministic_repeat_and_permuted_order) ... ok
+test_full_bleed_shape_not_an_obstacle_for_text_outside_its_source_rect (tests_python.test_shape_obstacles.ShapeObstacles.test_full_bleed_shape_not_an_obstacle_for_text_outside_its_source_rect)
+Text below the source canvas is not exempt from the stretched bg (it fills the whole target). If bg blocked, nothing would pack, the ... ok
+test_full_bleed_ungrouped_rectangle_is_never_an_obstacle (tests_python.test_shape_obstacles.ShapeObstacles.test_full_bleed_ungrouped_rectangle_is_never_an_obstacle) ... ok
+test_group_without_source_overlap_avoids_shape_and_with_overlap_is_exempt (tests_python.test_shape_obstacles.ShapeObstacles.test_group_without_source_overlap_avoids_shape_and_with_overlap_is_exempt) ... ok
+test_no_fit_equals_shapes_ignored_placement (tests_python.test_shape_obstacles.ShapeObstacles.test_no_fit_equals_shapes_ignored_placement) ... ok
+test_positive_control_text_on_its_own_card_is_not_blocked (tests_python.test_shape_obstacles.ShapeObstacles.test_positive_control_text_on_its_own_card_is_not_blocked) ... ok
+test_public_samples_byte_identical_to_base (tests_python.test_shape_obstacles.ShapeObstacles.test_public_samples_byte_identical_to_base) ... ok
+test_red_text_does_not_land_on_rectangle_or_ellipse_it_was_clear_of (tests_python.test_shape_obstacles.ShapeObstacles.test_red_text_does_not_land_on_rectangle_or_ellipse_it_was_clear_of) ... ok
+test_union_box_overlap_alone_does_not_exempt_a_shape (tests_python.test_shape_obstacles.ShapeObstacles.test_union_box_overlap_alone_does_not_exempt_a_shape) ... ok
+
+----------------------------------------------------------------------
+Ran 104 tests in 4.058s
+
+OK

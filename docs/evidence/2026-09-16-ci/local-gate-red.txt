@@ -1,0 +1,22 @@
+node:internal/assert/utils:77
+    throw err;
+    ^
+
+AssertionError [ERR_ASSERTION]: Browser acceptance failed: [{"name":"Mixed-role badge glyphs remain inside their dark backing","passed":false,"detail":"Error: uniform: actual glyph bounds separated from the dark backing"}]
+    at assertBrowserReport (/Users/ojeda/Documents/ChatGPT/Reflow/tests/support/browser-report.ts:27:10)
+    at [eval]:3:47
+    at runScriptInThisContext (node:internal/vm:219:10)
+    at node:internal/process/execution:451:12
+    at [eval]-wrapper:6:24
+    at runScriptInContext (node:internal/process/execution:449:60)
+    at evalFunction (node:internal/process/execution:283:30)
+    at asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:11) {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.20.0

@@ -1,0 +1,30 @@
+STEP 1/11: FROM --platform=linux/amd64 python:3.11-slim@sha256:e529028263dbe6910a2d96f7d2b8f5266385e917fd45d286ef166977c094a51e
+STEP 2/11: WORKDIR /app
+--> Using cache e12394f96ae4408b7cb251dc2578f79a4a6202d102e994ef73f3ef24c9596d88
+--> e12394f96ae4
+STEP 3/11: RUN apt-get update && apt-get install -y --no-install-recommends     git     libgl1     libegl1     libglib2.0-0     fontconfig     && rm -rf /var/lib/apt/lists/*
+--> Using cache a3b4df879900389471968ee21ea3a1f36ad0b2021dfc81d9bda1a0323706b908
+--> a3b4df879900
+STEP 4/11: COPY requirements-python-submission.txt constraints-python-submission.txt ./
+--> Using cache 6d32e75bc5b9ef808b454ef2f2948c4d53cc154e6c8a966f672a1ddfca3fcaf6
+--> 6d32e75bc5b9
+STEP 5/11: RUN pip install --no-cache-dir -c constraints-python-submission.txt -r requirements-python-submission.txt
+--> Using cache 19a03c1b8ad2c73af1932a2e7f577e39e4a0f38e32c4edff6a587822a5ec92b0
+--> 19a03c1b8ad2
+STEP 6/11: COPY chameleon_design_schema_v0.9.json ./
+--> Using cache 424716788549a6365ba6052bee87e943b082b3d97c9d2c52eb64aaf25a0f1468
+--> 424716788549
+STEP 7/11: COPY brand_kit/ ./brand_kit/
+--> Using cache 09761f8d5d7bef0c550a2a4469de2fd8a476db8038d6a1f24d79ebc01f6dcb9c
+--> 09761f8d5d7b
+STEP 8/11: COPY renderer/ ./renderer/
+--> 8490828a0220
+STEP 9/11: COPY engine/ ./engine/
+--> b3329a5867da
+STEP 10/11: RUN mkdir -p /app/input /app/output
+--> 000021f6a95f
+STEP 11/11: ENTRYPOINT ["python", "-m", "engine.main"]
+COMMIT offline-ch-norenderer
+--> 2905a37ac0f4
+Successfully tagged localhost/offline-ch-norenderer:latest
+2905a37ac0f452fa44d233786fb70c73b14fa990e8bd295b225e1cdc6295d77e

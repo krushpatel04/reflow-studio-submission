@@ -1,0 +1,3 @@
+# Claim-based teammate handoff
+
+The user clarified that GitHub assignees only helped divide work; either teammate may choose either package. Publish one shareable Markdown handoff with small slices, outputs, exact file reservations and dependencies. Preserve channel implementation scope and existing claims. Replace named-person handoff pages with pointers, synchronize current queue/packet ownership wording and the manifest, and notify both channel coordinators. No implementation or assignee changes. Acceptance: local links and manifest hashes pass, published main contains the handoff, and both channels acknowledge/relay the reservation. Documentation changes need no artificial code tests.

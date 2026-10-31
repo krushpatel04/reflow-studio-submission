@@ -1,0 +1,8 @@
+[C3a_extreme_1000x60.json] OK in 0.02s -> C3a_extreme_1000x60_output.json, C3a_extreme_1000x60_output.png
+exit 0
+events ['REAL']
+
+STDERR:
+Fontconfig error: Cannot load default config file
+
+EXIT:0

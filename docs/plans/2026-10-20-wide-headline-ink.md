@@ -1,0 +1,11 @@
+# Wide headline ink containment
+
+Problem/evidence: An independent probe of the pinned Level 2 core at 1600×400 reported 66 rendered headline pixels outside the box selected by `_wide`, despite no lost canvas ink. Geometry-only tests miss this defect. Text box dimensions must contain the real pinned-renderer ink, not merely approximate line advance.
+
+Scope/behavior: For the public wide sample, preserve all source content, assets, styles, order and group membership; keep the wide arrangement, avoid protected-element collisions, and contain the headline and subhead ink in their boxes. Include a healthy renderer control and existing geometry/identity cases. Do not change the renderer or claim independent visual quality.
+
+Risk: Increasing text height could exceed the canvas, alter nearby text stacking, or suppress the reflow. Use the smallest measured height correction consistent with the pinned renderer, retaining the conservative fallback when no fit exists.
+
+Steps/acceptance: Add a real-renderer regression; run against current code and record its expected behavioral failure. Fix the height computation minimally; rerun focused tests, the pinned full Python gate with zero skips, `npm test`, `npm run build`, `npm run verify`, and `npm run benchmark`. Inspect representative rendered images. Link this plan in the handoff; report any blocked checks explicitly.
+
+Execution: The pinned Skia test failed on the prior output with `(lost_px, overflow_px) = (0, 66)` for the headline; the subhead control passed. The corrected output passed all 10 wide-layout tests and rendered with the pinned assets. First full Python gate ran 469 tests; only two historical byte-hash assertions failed because Level 2 geometry changed by design (`ffb1c47a38c4b7cec22de370e40507360418bf8953a19de3d3b59a52c9a06a4c`). Update those two expectations while retaining unchanged Level 1/3 controls, then rerun the full gate. Final pinned Python gate passed 469 tests with zero skips; Node passed 710 tests, build and 30-layout verify passed, and the 30-case benchmark had zero selected errors and eight selected warnings. The pinned Level 2 render was inspected at `reports/wide-ink-check/level2-core-1600x400.png`; automated containment is not an independent visual-quality verdict. A read-only AI technical review found no verified correctness findings; it is not human approval.

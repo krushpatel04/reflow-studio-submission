@@ -1,0 +1,24 @@
+level1_warmup 1080x1080->1080x1350: none
+level2_core 1080x1080->1600x400: none
+level3_advanced 1080x1350->728x90: none
+C1_l3_120x600 1080x1350->120x600: none
+C2a_ribbon_728x90 1000x1000->728x90: none
+C2b_ribbon_300x250 1000x1000->300x250: none
+C3a_extreme_1000x60 1200x1200->1000x60: none
+C3b_extreme_60x1000 1200x1200->60x1000: none
+L3 1080x1350->300x250: sub-floor subhead 4.07px; sub-floor badge1_label 2.78px (grouped); sub-floor badge2_label 2.78px (grouped); sub-floor badge3_label 2.78px (grouped); sub-floor cta_label 4.07px (grouped); sub-floor ribbon_label 3.70px (grouped); sub-floor legal_text 2.22px | WARN ['text_fit: no candidate meets the floor for ids headline,subhead,legal_text']
+L3 1080x1350->160x600: sub-floor headline 5.93px; sub-floor subhead 3.26px; sub-floor badge1_label 2.22px (grouped); sub-floor badge2_label 2.22px (grouped); sub-floor badge3_label 2.22px (grouped); sub-floor cta_label 3.26px (grouped); sub-floor ribbon_label 2.96px (grouped); sub-floor legal_text 1.78px | WARN ['text_fit: no candidate meets the floor for ids headline,subhead,legal_text']
+L3 1080x1350->1080x1080: none
+L3 1080x1350->1000x60: none
+L3 1080x1350->60x1000: sub-floor badge1_label 3.54px (grouped); sub-floor badge2_label 2.87px (grouped); sub-floor badge3_label 3.94px (grouped); sub-floor cta_label 2.87px (grouped); sub-floor ribbon_label 3.94px (grouped)
+L3 1080x1350->320x50: sub-floor headline 1.48px; sub-floor subhead 1.00px; sub-floor badge1_label 1.00px (grouped); sub-floor badge2_label 1.00px (grouped); sub-floor badge3_label 1.00px (grouped); sub-floor cta_label 1.00px (grouped); sub-floor ribbon_label 1.00px (grouped); sub-floor legal_text 1.00px | WARN ['text_fit: no candidate meets the floor for ids headline,subhead,legal_text']
+L3 1080x1350->970x250: none
+L3 1080x1350->300x600: sub-floor legal_text 3.33px | WARN ['text_fit: no candidate meets the floor for ids headline,subhead,legal_text']
+L3 1080x1350->728x90: none
+L3 1080x1350->120x600: none
+L3 1080x1350->600x300: none
+L2 1080x1080->300x250: none
+L2 1080x1080->120x600: none
+L2 1080x1080->1000x60: none
+L2 1080x1080->60x1000: sub-floor cta_label 2.87px (grouped)
+L2 1080x1080->728x90: none

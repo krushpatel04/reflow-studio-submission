@@ -1,0 +1,130 @@
+{
+  "image": "reflow-refined:126c186",
+  "arch": "x86_64",
+  "cases_attempted": 9,
+  "inputs_sha256_before": {
+    "chameleon_sample_level1_warmup.json": "b0df3bcd7861c4cdc5090b627b1a995652d582908e4632970c7f2f0502ace1c6",
+    "chameleon_sample_level2_core.json": "38769e8706db4bd9617990eeb5fcafb46a367c25b9d151c535b69dde856dca86",
+    "chameleon_sample_level3_advanced.json": "dc459d0922d64d1573758c96def8f3f10a92ee1caf67ae65a1c747329f02dcca",
+    "decoration.json": "5a7892d72a7a73b12d41021a820d9900ba0c6fb2f9997a61bfbb26cdfaa11e00",
+    "portrait.json": "65e73ef6b33cdd4dc2ea9b5598823785f6cb3e8770ae0a4c53f5b3a7ec5ce0e5",
+    "roomy-nearby.json": "27057eb72759d8cc4734de6c54bcdc1cc1422c063e62324140ec7eaff130730e",
+    "roomy.json": "f8ff998d232fad15e1b6d8e4f888a041d7b444272cde2f29e699fd3cd0df4600",
+    "short-banner.json": "fc911b2004b88d5a02bc235bb2ea25dbc1eabc4641eae4fe0eeed39bd6412f49",
+    "singleton.json": "a76c6848242b9dbd60daaea0944667b42abdbe346bc50424473c6c1b40059182"
+  },
+  "inputs_sha256_after": {
+    "chameleon_sample_level1_warmup.json": "b0df3bcd7861c4cdc5090b627b1a995652d582908e4632970c7f2f0502ace1c6",
+    "chameleon_sample_level2_core.json": "38769e8706db4bd9617990eeb5fcafb46a367c25b9d151c535b69dde856dca86",
+    "chameleon_sample_level3_advanced.json": "dc459d0922d64d1573758c96def8f3f10a92ee1caf67ae65a1c747329f02dcca",
+    "decoration.json": "5a7892d72a7a73b12d41021a820d9900ba0c6fb2f9997a61bfbb26cdfaa11e00",
+    "portrait.json": "65e73ef6b33cdd4dc2ea9b5598823785f6cb3e8770ae0a4c53f5b3a7ec5ce0e5",
+    "roomy-nearby.json": "27057eb72759d8cc4734de6c54bcdc1cc1422c063e62324140ec7eaff130730e",
+    "roomy.json": "f8ff998d232fad15e1b6d8e4f888a041d7b444272cde2f29e699fd3cd0df4600",
+    "short-banner.json": "fc911b2004b88d5a02bc235bb2ea25dbc1eabc4641eae4fe0eeed39bd6412f49",
+    "singleton.json": "a76c6848242b9dbd60daaea0944667b42abdbe346bc50424473c6c1b40059182"
+  },
+  "outputs_sha256": {
+    "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+    "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+    "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+    "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+    "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64",
+    "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475",
+    "decoration_output.json": "2853a9c845a88eb6faaeaa07dd5f639aaf9d85289a168e88039866bf72562d28",
+    "decoration_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475",
+    "portrait_output.json": "f64f8399bc36f9095e2ed28ce10646f0229de8d6c572d43dec94411a0b0c11ac",
+    "portrait_output.png": "0a21c47de0b39af446b01dd49f076d5d7a0c61af5c675d7f5ae31fc664cf99cf",
+    "roomy-nearby_output.json": "3f2d6c8a99a586493344c752ebc6ae0b959e09bdf634efc4a3bdeac7406a1a37",
+    "roomy-nearby_output.png": "f67ad14b3500c9ae133f19406a30d771bca2cf043a3a3fbf082e740bf53ae484",
+    "roomy_output.json": "cc9ff6997a8516d1724a0d91b108a2ba822108d356824fb35ecadd701c4eaa31",
+    "roomy_output.png": "fb0041c8cbf29d786e379a38ea3e8c91be74551dca5273bb636aade42c5486ba",
+    "short-banner_output.json": "cccf9c0a74cdbb63004f05301453c2684d55531ac42bbb9541cdfaf1a43a6382",
+    "short-banner_output.png": "0ec87775a8070a6832058fb7637f5975f12afe53218bdd7cb48455f67cc4af74",
+    "singleton_output.json": "8b215b7d677505d47b1c6822eeea15a2ecdd1099970aa26e32e7b28b76c74071",
+    "singleton_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475"
+  },
+  "probe": {
+    "rc": 0,
+    "net": "blocked",
+    "events": [
+      [
+        "REAL",
+        "output/chameleon_sample_level1_warmup_output.png"
+      ],
+      [
+        "REAL",
+        "output/chameleon_sample_level2_core_output.png"
+      ],
+      [
+        "REAL",
+        "output/chameleon_sample_level3_advanced_output.png"
+      ],
+      [
+        "REAL",
+        "output/decoration_output.png"
+      ],
+      [
+        "REAL",
+        "output/portrait_output.png"
+      ],
+      [
+        "REAL",
+        "output/roomy-nearby_output.png"
+      ],
+      [
+        "REAL",
+        "output/roomy_output.png"
+      ],
+      [
+        "REAL",
+        "output/short-banner_output.png"
+      ],
+      [
+        "REAL",
+        "output/singleton_output.png"
+      ]
+    ]
+  },
+  "entrypoint_exit": 0,
+  "network_inspect": [
+    "none",
+    "none"
+  ],
+  "write_attempt": {
+    "refused": true,
+    "exit": 1,
+    "stderr_tail": "(linux/arm64/v8) and no specific platform was requested\nTraceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nOSError: [Errno 30] Read-only file system: '/app/input/.write-attempt'"
+  },
+  "repeat": {
+    "status": "identical",
+    "image_id_before": "sha256:b5ba3ca804ceafa546f66b636ba165eecb02ffe274a4896eba1ba84f19e5eff1",
+    "image_id_after": "sha256:b5ba3ca804ceafa546f66b636ba165eecb02ffe274a4896eba1ba84f19e5eff1",
+    "entrypoint_exit": 0,
+    "network_inspect": [
+      "none"
+    ],
+    "outputs_sha256_second": {
+      "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+      "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+      "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+      "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+      "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64",
+      "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475",
+      "decoration_output.json": "2853a9c845a88eb6faaeaa07dd5f639aaf9d85289a168e88039866bf72562d28",
+      "decoration_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475",
+      "portrait_output.json": "f64f8399bc36f9095e2ed28ce10646f0229de8d6c572d43dec94411a0b0c11ac",
+      "portrait_output.png": "0a21c47de0b39af446b01dd49f076d5d7a0c61af5c675d7f5ae31fc664cf99cf",
+      "roomy-nearby_output.json": "3f2d6c8a99a586493344c752ebc6ae0b959e09bdf634efc4a3bdeac7406a1a37",
+      "roomy-nearby_output.png": "f67ad14b3500c9ae133f19406a30d771bca2cf043a3a3fbf082e740bf53ae484",
+      "roomy_output.json": "cc9ff6997a8516d1724a0d91b108a2ba822108d356824fb35ecadd701c4eaa31",
+      "roomy_output.png": "fb0041c8cbf29d786e379a38ea3e8c91be74551dca5273bb636aade42c5486ba",
+      "short-banner_output.json": "cccf9c0a74cdbb63004f05301453c2684d55531ac42bbb9541cdfaf1a43a6382",
+      "short-banner_output.png": "0ec87775a8070a6832058fb7637f5975f12afe53218bdd7cb48455f67cc4af74",
+      "singleton_output.json": "8b215b7d677505d47b1c6822eeea15a2ecdd1099970aa26e32e7b28b76c74071",
+      "singleton_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475"
+    }
+  },
+  "failures": [],
+  "pass": true
+}

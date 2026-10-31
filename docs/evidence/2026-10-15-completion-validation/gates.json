@@ -1,0 +1,100 @@
+{
+  "source_sha": "adfb75cb4feb1750ce52d070bc47921fd49baa71",
+  "host": "macOS-15.4-arm64-arm-64bit-Mach-O",
+  "started_utc": "2026-10-15T16:33:24.333352+00:00",
+  "checks": [
+    {
+      "name": "python",
+      "command": [
+        ".cache/venv/bin/python",
+        "scripts/verify_python.py"
+      ],
+      "cwd": "repository root",
+      "source_sha": "adfb75cb4feb1750ce52d070bc47921fd49baa71",
+      "exit": 0,
+      "seconds": 167.129,
+      "log": "final-python.log",
+      "sha256": "ed93feb42a37b67254aa32422e3975ada211f63e72bc5f69439d3360083511ab"
+    },
+    {
+      "name": "npm-test",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "cwd": "repository root",
+      "source_sha": "adfb75cb4feb1750ce52d070bc47921fd49baa71",
+      "exit": 0,
+      "seconds": 114.644,
+      "log": "final-npm-test.log",
+      "sha256": "38147eaa2e2d8da6d2b500bdedd5f45c4d1d1cb408cb542c69d985d935d22693"
+    },
+    {
+      "name": "build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "cwd": "repository root",
+      "source_sha": "adfb75cb4feb1750ce52d070bc47921fd49baa71",
+      "exit": 0,
+      "seconds": 0.985,
+      "log": "final-build.log",
+      "sha256": "745b030e21fc39c5bb3816e70dc503fac5096a2784cbce53cf19987fb92aad61"
+    },
+    {
+      "name": "verify",
+      "command": [
+        "npm",
+        "run",
+        "verify"
+      ],
+      "cwd": "repository root",
+      "source_sha": "adfb75cb4feb1750ce52d070bc47921fd49baa71",
+      "exit": 0,
+      "seconds": 1.691,
+      "log": "final-verify.log",
+      "sha256": "36a9bbeeff34e85d44cf5d431e9f698bb8a4f9074d7333298757287ff8afe6e3"
+    },
+    {
+      "name": "benchmark",
+      "command": [
+        "npm",
+        "run",
+        "benchmark"
+      ],
+      "cwd": "repository root",
+      "source_sha": "adfb75cb4feb1750ce52d070bc47921fd49baa71",
+      "exit": 0,
+      "seconds": 2.288,
+      "log": "final-benchmark.log",
+      "sha256": "171513d97b25a617a55f49975831c9c200060dc17678331743f6037783f3243f"
+    },
+    {
+      "name": "browser",
+      "command": [
+        "npx",
+        "playwright",
+        "test",
+        "--config",
+        "reports/completion/D/playwright.config.ts"
+      ],
+      "cwd": "repository root",
+      "source_sha": "adfb75cb4feb1750ce52d070bc47921fd49baa71",
+      "exit": 0,
+      "seconds": 55.04,
+      "log": "final-browser.log",
+      "sha256": "70e86d5e941f3f5898acc1c6e25ba1a154bbadcc1df4f9a2de13703b914af3d6"
+    }
+  ],
+  "updated_utc": "2026-10-15T16:39:06.155872+00:00",
+  "complete": true,
+  "summary": {
+    "python": 466,
+    "node": 710,
+    "browser": 26,
+    "skips": 0,
+    "all_exit_zero": true
+  }
+}

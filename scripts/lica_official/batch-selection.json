@@ -1,0 +1,569 @@
+{
+  "version": "lica-official-approved-2026-10-06",
+  "metadata_sha256": "06d478a08e8b64b598413c59cac821c43ba514a5058d96e25ebd762578bc7df0",
+  "targets": [
+    {
+      "id": "square",
+      "label": "Square",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "id": "story",
+      "label": "Story",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "landscape",
+      "label": "Landscape",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "portrait",
+      "label": "Portrait",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "id": "banner",
+      "label": "Banner",
+      "width": 1500,
+      "height": 500
+    },
+    {
+      "id": "leaderboard",
+      "label": "Leaderboard",
+      "width": 728,
+      "height": 90
+    },
+    {
+      "id": "skyscraper",
+      "label": "Skyscraper",
+      "width": 160,
+      "height": 600
+    }
+  ],
+  "layouts": [
+    {
+      "layout_id": "09udskj3Rw8KDeDaF27g",
+      "template_id": "af4e202d-aa8d-a10c-a721-a0b77deda08c",
+      "category": "Presentations",
+      "split": "development",
+      "source_sha256": "8cd862635493c3f1ecc5efb7a30d202269b9ee245685354ad4a8f8181bd0f635",
+      "existing": true,
+      "rotation_only": false,
+      "pair": 43
+    },
+    {
+      "layout_id": "1ibPxEGwrCdKqRYTMH0V",
+      "template_id": "a0a00d69-8655-4fb5-8a02-8027c3d5bd7e",
+      "category": "Education",
+      "split": "development",
+      "source_sha256": "4bf1db14a2ff531b8b2e666e8eb4eecc271195c6b1cadecb4969c8af7c31fc06",
+      "existing": true,
+      "rotation_only": false,
+      "pair": 7
+    },
+    {
+      "layout_id": "2GagOUPHI9oByZN8oNry",
+      "template_id": "a902e896-7baa-4f3e-b5ab-aba3173990e7",
+      "category": "Presentations",
+      "split": "development",
+      "source_sha256": "fd6e77fb131193d81774d2729abe983d93b5f05e019375b0ec098b0b181334a6",
+      "existing": true,
+      "rotation_only": false,
+      "pair": 38
+    },
+    {
+      "layout_id": "2TyQpLjSXRSknj0xWwPe",
+      "template_id": "a0a00d69-8655-4fb5-8a02-8027c3d5bd7e",
+      "category": "Education",
+      "split": "development",
+      "source_sha256": "0777bdfdb938becb91b0677298ff81bc6fc0d13bbcd59830ed9709869f966614",
+      "existing": true,
+      "rotation_only": false,
+      "pair": 8
+    },
+    {
+      "layout_id": "3OcbtlfEs722hNRt0W1P",
+      "template_id": "af4e202d-aa8d-a10c-a721-a0b77deda08c",
+      "category": "Presentations",
+      "split": "development",
+      "source_sha256": "532cc61c951b6d4dfce02e04577e129097670b9771b476a0a780cc48c4836993",
+      "existing": true,
+      "rotation_only": false,
+      "pair": null
+    },
+    {
+      "layout_id": "3ptehNaHfKmudzDJ5qLD",
+      "template_id": "a902e896-7baa-4f3e-b5ab-aba3173990e7",
+      "category": "Presentations",
+      "split": "development",
+      "source_sha256": "1cf0b9a983f6c5a746fd1bfb8d236727502425ff7aec342d23c8a82d28936f13",
+      "existing": true,
+      "rotation_only": false,
+      "pair": 39
+    },
+    {
+      "layout_id": "8toUKdhqTxtp3TCIqJtO",
+      "template_id": "a0a00d69-8655-4fb5-8a02-8027c3d5bd7e",
+      "category": "Education",
+      "split": "development",
+      "source_sha256": "9377ae421c0bec5eb0fb3310558c01a3df70afb9fd8deb07cca7d34483e7e833",
+      "existing": true,
+      "rotation_only": false,
+      "pair": 9
+    },
+    {
+      "layout_id": "9m0vuy2AiVnEq09YLKmA",
+      "template_id": "920c5b53-8e0d-431a-bc2a-afd5f36f5a6c",
+      "category": "Art & Design",
+      "split": "development",
+      "source_sha256": "d3aabecf022f421c02b962103d282fd0788fee83e1aa4d025e6d211a2e6b3c65",
+      "existing": true,
+      "rotation_only": false,
+      "pair": 1
+    },
+    {
+      "layout_id": "A5ijgpumOCZpbBwUaoE0",
+      "template_id": "af4e202d-aa8d-a10c-a721-a0b77deda08c",
+      "category": "Presentations",
+      "split": "development",
+      "source_sha256": "1249a75e791d3c547e658427c5227fef027e0b020ca23909db3b03e49c4c3189",
+      "existing": true,
+      "rotation_only": false,
+      "pair": null
+    },
+    {
+      "layout_id": "AEW2PipJY2mEx67hLU4l",
+      "template_id": "a0a00d69-8655-4fb5-8a02-8027c3d5bd7e",
+      "category": "Education",
+      "split": "development",
+      "source_sha256": "76db5c6923d1463b78dd1fe0943c99207beb3ca2489a3f293e22004e1b4e5ef6",
+      "existing": true,
+      "rotation_only": false,
+      "pair": 10
+    },
+    {
+      "layout_id": "B97PvhvRYj5UbiIgPavx",
+      "template_id": "2e4cd7af-488c-4483-b3d4-9d305ccef400",
+      "category": "Flyers",
+      "split": "validation",
+      "source_sha256": "a36db23e0a7270bc168ae312381030d3f317db743beaa94301d94e18c9efd95d",
+      "existing": true,
+      "rotation_only": false,
+      "pair": 15
+    },
+    {
+      "layout_id": "Bv3tdlM47qjXGpmlKOHJ",
+      "template_id": "14d370ee-8144-48d7-beff-3376a627bc13",
+      "category": "Presentations",
+      "split": "validation",
+      "source_sha256": "5871c2270e830cb98a77f26f583d4b95cdfaac7b92654cd789d9e4cf403581c6",
+      "existing": true,
+      "rotation_only": false,
+      "pair": 34
+    },
+    {
+      "layout_id": "eFlnAlIZr2D7QARKljAg",
+      "template_id": "2e4cd7af-488c-4483-b3d4-9d305ccef400",
+      "category": "Flyers",
+      "split": "validation",
+      "source_sha256": "1859f11242d58c85a35ff0183f40720bc33d5a0d509f6f410eb7c1b4634dc079",
+      "existing": true,
+      "rotation_only": false,
+      "pair": 16
+    },
+    {
+      "layout_id": "fey9nqkL7Kfsad6zkf0C",
+      "template_id": "69a274dd-7f45-4883-8965-f27390a27179",
+      "category": "Business Documents",
+      "split": "development",
+      "source_sha256": "c9fa31b1e3b014c564ca14d3205afafd6b96a23e174b503b35a160a425fe23df",
+      "existing": true,
+      "rotation_only": false,
+      "pair": 5
+    },
+    {
+      "layout_id": "fGpZ7YM2q4gCM0xjwDTT",
+      "template_id": "a902e896-7baa-4f3e-b5ab-aba3173990e7",
+      "category": "Presentations",
+      "split": "development",
+      "source_sha256": "bdbdaf5b41653f15fea1c21bf806399020923cf3ff18e37310f2ed08102507b0",
+      "existing": true,
+      "rotation_only": false,
+      "pair": 41
+    },
+    {
+      "layout_id": "GLkvpJGsVXVWUZtFfQnz",
+      "template_id": "00efc51e-f6b6-411b-a0cd-3227703b1129",
+      "category": "Instagram Posts",
+      "split": "development",
+      "source_sha256": "5bb8260e09160e3f33b58bcb081cf26572581fbbe9eb7aa4841ba2b90ba19cf4",
+      "existing": true,
+      "rotation_only": false,
+      "pair": null
+    },
+    {
+      "layout_id": "hH81rzxZ8FfIWQ6ThmmT",
+      "template_id": "203e4c31-a5c4-463c-83fc-9b511c6e07a7",
+      "category": "Business Documents",
+      "split": "development",
+      "source_sha256": "eeecd86d718f0bfe6e7468b1472aaec3ecbfe9b3cd771c56a6eaf4aaca564c59",
+      "existing": true,
+      "rotation_only": false,
+      "pair": 2
+    },
+    {
+      "layout_id": "ja6KK5GYIQ6dwWR0vo6y",
+      "template_id": "a902e896-7baa-4f3e-b5ab-aba3173990e7",
+      "category": "Presentations",
+      "split": "development",
+      "source_sha256": "1ad5274544b544f96ff37508e1a00214981a5d89f46c5ac37a0a61388768b850",
+      "existing": true,
+      "rotation_only": false,
+      "pair": 42
+    },
+    {
+      "layout_id": "KL2ivTudig6nuaXNWKMb",
+      "template_id": "af4e202d-aa8d-a10c-a721-a0b77deda08c",
+      "category": "Presentations",
+      "split": "development",
+      "source_sha256": "daa09bf4ab8c6ea6db4a6135fa6b7368c49f2da58f9e77928187e0b9744dda48",
+      "existing": true,
+      "rotation_only": false,
+      "pair": 44
+    },
+    {
+      "layout_id": "S2R6nZIgKSiOrWmgzs60",
+      "template_id": "14d370ee-8144-48d7-beff-3376a627bc13",
+      "category": "Presentations",
+      "split": "validation",
+      "source_sha256": "90ca84ca5857a65aa547965a31039e4161e5f074274b6f5196b6eec2febebb69",
+      "existing": true,
+      "rotation_only": false,
+      "pair": 35
+    },
+    {
+      "layout_id": "YGhFPi34EQR0HK9fk5mI",
+      "template_id": "821bd959-68c9-4a92-8ac3-2eb77d968a1e",
+      "category": "Business Documents",
+      "split": "validation",
+      "source_sha256": "c5fda613b8e3592d5e71c8aeb18d3dd6f85d270be7e6d6cb57b30e1c9f0c96c1",
+      "existing": true,
+      "rotation_only": false,
+      "pair": 6
+    },
+    {
+      "layout_id": "DDKI9TqMfG77JxPEy8oT",
+      "template_id": "68008b33-c4ec-40f3-98de-e0cde66092ca",
+      "category": "Business Documents",
+      "split": "development",
+      "source_sha256": "9defa9fc8bb1c64248bcac59e6aef460b6a85f706fa58d1793ab29dae1d50367",
+      "existing": false,
+      "rotation_only": false,
+      "pair": 4
+    },
+    {
+      "layout_id": "JKLX5zoWewq4eH0gznZm",
+      "template_id": "a57eeedd-3b48-4a00-b85c-fcbc124bec53",
+      "category": "Education",
+      "split": "development",
+      "source_sha256": "ae869dc86fee7b93d698873c729ac400a7194f4d7a02982911d41c4bc3a936ef",
+      "existing": false,
+      "rotation_only": false,
+      "pair": 11
+    },
+    {
+      "layout_id": "K18QiwSXi5ufdwVHGlhY",
+      "template_id": "a57eeedd-3b48-4a00-b85c-fcbc124bec53",
+      "category": "Education",
+      "split": "development",
+      "source_sha256": "ff70131a826ea774f798c46edbbdefe1281847b5d9631c62d520c142a1ddc030",
+      "existing": false,
+      "rotation_only": false,
+      "pair": 12
+    },
+    {
+      "layout_id": "3MbAZeH8FOua2e8ToFGR",
+      "template_id": "f3af3cbf-c135-4e93-bad8-e44f3a9e3405",
+      "category": "Flyers",
+      "split": "development",
+      "source_sha256": "ffb0e2c3d2774ce59a47a391a003f27e8f4e36d5668b012c1f0576ad32f50bb3",
+      "existing": false,
+      "rotation_only": false,
+      "pair": 18
+    },
+    {
+      "layout_id": "3wMYxfGczojzKprFqhQP",
+      "template_id": "f772e375-9bd8-4467-8101-de4dcf6158f5",
+      "category": "Flyers",
+      "split": "validation",
+      "source_sha256": "598f0cb3cf8ac73dc44f39f3ee74d1cef5f66a350d9e052659002dac9f47ecdf",
+      "existing": false,
+      "rotation_only": false,
+      "pair": 19
+    },
+    {
+      "layout_id": "9w2mmrPVPwOp9qEPNSlf",
+      "template_id": "5bfd3876-16fc-4c05-bb09-40e3e2cded8d",
+      "category": "Flyers",
+      "split": "development",
+      "source_sha256": "934f0e217873eedc5266f08d6547560e6a44a2cad9c4a300e86b7dba8e809b77",
+      "existing": false,
+      "rotation_only": false,
+      "pair": 17
+    },
+    {
+      "layout_id": "4WR6DyGuWK7GRAxLeJjl",
+      "template_id": "f14bffeb-8f1f-4c2e-a459-1c56885eb006",
+      "category": "Instagram Posts",
+      "split": "development",
+      "source_sha256": "bb8d7d9ab23a4502eb5ceaa9b5c72cde66e9749722ac215d9851cfe4f29b26c2",
+      "existing": false,
+      "rotation_only": false,
+      "pair": 24
+    },
+    {
+      "layout_id": "BD06CCyoUmNkZS3jkOdQ",
+      "template_id": "0a29c238-9f7b-4338-9b81-fb49c48f310d",
+      "category": "Instagram Posts",
+      "split": "development",
+      "source_sha256": "9b9c250e2a9409b736db217920af4b7a15b3ebdfaccd2bc1d84bcdb408abba41",
+      "existing": false,
+      "rotation_only": false,
+      "pair": 20
+    },
+    {
+      "layout_id": "EDmPO0lN0NDHhu9vXubu",
+      "template_id": "a0c251cc-8b63-4063-a9cb-a6f09ec44f30",
+      "category": "Instagram Posts",
+      "split": "development",
+      "source_sha256": "7654bc59fbed061d63d5ab4c9083f2a37ae1f36e501f9c1f532a2548ffe6cb71",
+      "existing": false,
+      "rotation_only": false,
+      "pair": 21
+    },
+    {
+      "layout_id": "jLJxfnGTN4xBiN7fcSla",
+      "template_id": "feb435b6-852d-4dc4-800f-6f511d7c1b5b",
+      "category": "Logo",
+      "split": "development",
+      "source_sha256": "2e4c09d4ccbac75745973e37daa66966861b820f0d1f44bdc062841b3ea23cc1",
+      "existing": false,
+      "rotation_only": false,
+      "pair": 26
+    },
+    {
+      "layout_id": "BXmq2yRdvsZ5aNFHYQxV",
+      "template_id": "13e94386-b2d3-4391-816d-be2fdcbfe1e5",
+      "category": "Menu",
+      "split": "validation",
+      "source_sha256": "ec2c329f54f7e45796093fe0050870a2ec6be3d504da82b863a017cb120b7bcf",
+      "existing": false,
+      "rotation_only": false,
+      "pair": 27
+    },
+    {
+      "layout_id": "DVD1lqYtCDnmcF3F3zax",
+      "template_id": "13e94386-b2d3-4391-816d-be2fdcbfe1e5",
+      "category": "Menu",
+      "split": "validation",
+      "source_sha256": "b59d00e5c0ca67ab43ea5df1b4afe4c8454a6590ff90a4bf24ef4cc2889b634a",
+      "existing": false,
+      "rotation_only": false,
+      "pair": 28
+    },
+    {
+      "layout_id": "r1Ahz2kc4kZ1cEJoXTUT",
+      "template_id": "fb2d12a7-5ccf-40fd-a900-019b28e4accc",
+      "category": "Posters",
+      "split": "development",
+      "source_sha256": "8ea2f685e10e5e7be4d50bb15bb0f3973e470afce2426c33d5faa042d960dbaa",
+      "existing": false,
+      "rotation_only": false,
+      "pair": 30
+    },
+    {
+      "layout_id": "0qOFrrbBaTnaYeRoIlZE",
+      "template_id": "34c51849-2456-43a2-aba6-f4c90bc5f3bd",
+      "category": "Presentations",
+      "split": "development",
+      "source_sha256": "b515df44fca7bbf35db2f77092ce237f13495aafd01dc017a18b2cddf61e412d",
+      "existing": false,
+      "rotation_only": false,
+      "pair": 36
+    },
+    {
+      "layout_id": "0vxUdcOKbvrSVNSxRY4w",
+      "template_id": "010f7dcf-7362-484d-ab21-e22230a75cd7",
+      "category": "Presentations",
+      "split": "development",
+      "source_sha256": "a69e7db5a24f4bbe3bda682115afe92d2c1e8c794026d4c0cad77a0f4619b518",
+      "existing": false,
+      "rotation_only": false,
+      "pair": 31
+    },
+    {
+      "layout_id": "3jmFr3CGhibT4vc3KjI1",
+      "template_id": "db3969c1-218a-467d-88d7-6718bf412791",
+      "category": "Presentations",
+      "split": "development",
+      "source_sha256": "b82319b5bf5aca7c8b0ffa2dcedc50e0ab84c33ef060f30a08b0e59c1e999990",
+      "existing": false,
+      "rotation_only": false,
+      "pair": 46
+    },
+    {
+      "layout_id": "58KCTYpSufDKLTfdYrbJ",
+      "template_id": "d55acfe6-8bac-40be-8dd2-ff31e794881e",
+      "category": "Presentations",
+      "split": "development",
+      "source_sha256": "dc5331b4df32dfc7313d45f36023e551dcd38fa47211b346bf5a8dfdba45feef",
+      "existing": false,
+      "rotation_only": false,
+      "pair": 45
+    },
+    {
+      "layout_id": "7Q7IF7mtixq3LY18EIAZ",
+      "template_id": "a902e896-7baa-4f3e-b5ab-aba3173990e7",
+      "category": "Presentations",
+      "split": "development",
+      "source_sha256": "2e8327a8076d7ed0e6f3e429578abf38a3374027d94848edd5cc75f08d2e7a4c",
+      "existing": false,
+      "rotation_only": false,
+      "pair": 40
+    },
+    {
+      "layout_id": "7vQ1Hd0d19RjaJmqq2EW",
+      "template_id": "14d370ee-8144-48d7-beff-3376a627bc13",
+      "category": "Presentations",
+      "split": "validation",
+      "source_sha256": "94190d4478c7ea2225f57b79a587855b1d7cf320a5fcbf7ebc8ee9da30deba40",
+      "existing": false,
+      "rotation_only": false,
+      "pair": 33
+    },
+    {
+      "layout_id": "ZCxCijtXv4VnOUbP3Gta",
+      "template_id": "fc7f6560-9859-489d-a178-5de611d5f06e",
+      "category": "Print Products",
+      "split": "development",
+      "source_sha256": "d01fc9851365e2814f761cfbd1b4667d502260afb946762f882ea167fac78be4",
+      "existing": false,
+      "rotation_only": false,
+      "pair": 47
+    },
+    {
+      "layout_id": "D5dsdHWc2CwRb8Fg40U8",
+      "template_id": "3cf94710-46f9-4ab9-9496-e0184e2cffb3",
+      "category": "Business Documents",
+      "split": "validation",
+      "source_sha256": "de6d9356a817d0a8af74ad79029c1e20b4435926f855c369016c827adbbf0b40",
+      "existing": false,
+      "rotation_only": true,
+      "pair": 3
+    },
+    {
+      "layout_id": "3v5PpLI3tej6R0B7MoTS",
+      "template_id": "aff6c7e4-5bbb-4e70-8e5b-2106067e73c4",
+      "category": "Education",
+      "split": "validation",
+      "source_sha256": "33114090ce56c89511946b6e3f18c35cb3aa14c48895900e050ca61d53d58c80",
+      "existing": false,
+      "rotation_only": true,
+      "pair": 13
+    },
+    {
+      "layout_id": "sehzZqZj6Wm6OU4bBdym",
+      "template_id": "aff6c7e4-5bbb-4e70-8e5b-2106067e73c4",
+      "category": "Education",
+      "split": "validation",
+      "source_sha256": "dbc2e78a003d7bd7b1367851b9cc04a851b972df73fb5be8aca17b1dfdcc7e4d",
+      "existing": false,
+      "rotation_only": true,
+      "pair": 14
+    },
+    {
+      "layout_id": "4fDJlcLullqLAhGLqWdV",
+      "template_id": "ff66d2b8-75b5-41e9-bfc1-82def62ba2df",
+      "category": "Instagram Posts",
+      "split": "development",
+      "source_sha256": "25d1ac318d5b942e16e6ccbe9e5c214cb22315b913ffd5f6409064f9b0700846",
+      "existing": false,
+      "rotation_only": true,
+      "pair": 25
+    },
+    {
+      "layout_id": "50y6ac7yLr5MrPYpaLS0",
+      "template_id": "e0dc1ba9-5684-4ddc-b552-3652976e07ee",
+      "category": "Instagram Posts",
+      "split": "validation",
+      "source_sha256": "94a0ef9561164b8d901826a443a35ad73767b9d92a33f3397f097aeac92412fe",
+      "existing": false,
+      "rotation_only": true,
+      "pair": 22
+    },
+    {
+      "layout_id": "5VmqdW9RRIbyfEe2YeAU",
+      "template_id": "efe70900-a3c9-472c-8f82-4ab93441ae8a",
+      "category": "Instagram Posts",
+      "split": "validation",
+      "source_sha256": "f8757c00d5eef69974c5104c8e30a3f4d4553a11e78a8acb4320c862ea886eef",
+      "existing": false,
+      "rotation_only": true,
+      "pair": 23
+    },
+    {
+      "layout_id": "XHxkGVIldOLvFjR4gCEm",
+      "template_id": "9c1e7fde-a81e-409b-9cd1-78abeaf1c6b7",
+      "category": "Planner & Calendar",
+      "split": "validation",
+      "source_sha256": "f48b3653f6508dba1ff3d7c25b0876c035a615ccd7adf5e8414f3dd03ee8c487",
+      "existing": false,
+      "rotation_only": true,
+      "pair": 29
+    },
+    {
+      "layout_id": "Tzmscz3xztoPeHvPXxV1",
+      "template_id": "84a309b1-cc2c-48b0-ad54-0217bc52739e",
+      "category": "Presentations",
+      "split": "development",
+      "source_sha256": "103443d58dd98cd4c8e33742d7c8c80030597ebfd3c4854971944fea8b1fbce1",
+      "existing": false,
+      "rotation_only": true,
+      "pair": 37
+    },
+    {
+      "layout_id": "4vMwwtGyQlFjJWdyvced",
+      "template_id": "010f7dcf-7362-484d-ab21-e22230a75cd7",
+      "category": "Presentations",
+      "split": "development",
+      "source_sha256": "81ce0f07f4aa62ffa9fadb45a3bd0ea81f79377f05c83747d33b8013354ec4de",
+      "existing": false,
+      "rotation_only": true,
+      "pair": 32
+    },
+    {
+      "layout_id": "6lTuObn2CUHywDvwyuY5",
+      "template_id": "fe8c470a-57c6-4ba4-a3ce-e67184013589",
+      "category": "Print Products",
+      "split": "development",
+      "source_sha256": "61b3423b2a82de51af3eebf65ac8b355087f372a22704afe9d9def7b4822547e",
+      "existing": false,
+      "rotation_only": true,
+      "pair": 48
+    }
+  ],
+  "exclusions": {
+    "B97PvhvRYj5UbiIgPavx": "BARBER title (0-1) and PRICES subtitle (0-2) overlap after unchanged-source rendering.",
+    "eFlnAlIZr2D7QARKljAg": "BARBER title (0-1) and PRICES subtitle (0-2) overlap after unchanged-source rendering.",
+    "3MbAZeH8FOua2e8ToFGR": "All five converted font sizes match raw px values. Converted line-height multipliers reproduce raw px values. Unchanged source render has much smaller text than the LICA PNG; excluded as directed.",
+    "GLkvpJGsVXVWUZtFfQnz": "missing coordinates",
+    "S2R6nZIgKSiOrWmgzs60": "Body text 0-18 escapes its source frame and enters the first yellow portrait-caption region 0-3-0. No direct glyph intersection with caption text was measured; the visible region intrusion remains.",
+    "3OcbtlfEs722hNRt0W1P": "zero-height SVG",
+    "A5ijgpumOCZpbBwUaoE0": "explicit hold; invalid source geometry/font sizes"
+  }
+}

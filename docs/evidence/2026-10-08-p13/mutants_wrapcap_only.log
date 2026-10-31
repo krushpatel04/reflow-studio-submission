@@ -1,0 +1,14 @@
+cap-off-by-one-tw2-over-1.02: KILLED (1 tests)
+cap-no-padding-division: KILLED (4 tests)
+cap-minus-2-instead-of-3: KILLED (4 tests)
+cap-minus-4: KILLED (1 tests)
+padded-cap-only-no-first-attempt: KILLED (1 tests)
+padded-cap-first: KILLED (1 tests)
+retry-disabled: KILLED (4 tests)
+box-margin-plus1-removed: KILLED (3 tests)
+box-margin-plus2: KILLED (4 tests)
+box-1.02-removed: KILLED (3 tests)
+images-ignored-retry-dropped: SURVIVED
+cap-loop-inner-outer-swapped: SURVIVED
+restored
+done

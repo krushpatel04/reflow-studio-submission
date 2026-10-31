@@ -1,0 +1,5 @@
+
+> reflow-studio@0.1.0 verify
+> tsx scripts/verify.ts
+
+30 layouts verified with native font metrics and PNG rendering. This is not a browser or Adobe integration test.

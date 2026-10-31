@@ -1,0 +1,337 @@
+{
+  "candidate_sha": "a59cc2bd714dc6c14c061334fc28905765e00e4c",
+  "baseline_sha": "8ac29a0103bdb8c092c59ab88160a5a58952181a",
+  "downloads": [
+    {
+      "name": "baseline-overlays-off",
+      "svg_sha256": "fff1d81b0ad45ecdcbe72e016cd86a7c95b99e98b61009424946b13946a2f11c",
+      "bytes": 100762,
+      "network_requests": [],
+      "faces": [
+        {
+          "family": "Inter",
+          "weight": 500,
+          "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "bytes": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        },
+        {
+          "family": "Inter",
+          "weight": 700,
+          "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "bytes": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "family": "Source Serif 4",
+          "weight": 600,
+          "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "bytes": 21532,
+          "sha256": "f2b7e1cf1d277b7608231868135648f8ad8e2b58d8e97ca088bee15dc357bee7"
+        }
+      ]
+    },
+    {
+      "name": "baseline-overlays-on",
+      "svg_sha256": "b835d5118d0571e4782ae9247e4052cbb40b1eb0def77fafda97ff2bb4784358",
+      "bytes": 100762,
+      "network_requests": [],
+      "faces": [
+        {
+          "family": "Inter",
+          "weight": 500,
+          "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "bytes": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        },
+        {
+          "family": "Inter",
+          "weight": 700,
+          "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "bytes": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "family": "Source Serif 4",
+          "weight": 600,
+          "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "bytes": 21532,
+          "sha256": "f2b7e1cf1d277b7608231868135648f8ad8e2b58d8e97ca088bee15dc357bee7"
+        }
+      ]
+    },
+    {
+      "name": "selected-overlays-off",
+      "svg_sha256": "25ceaca2b5ec91c1356caa91f9520b0e8a97563524cbd9d46a89f1ccb72efb8b",
+      "bytes": 100876,
+      "network_requests": [],
+      "faces": [
+        {
+          "family": "Inter",
+          "weight": 500,
+          "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "bytes": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        },
+        {
+          "family": "Inter",
+          "weight": 700,
+          "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "bytes": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "family": "Source Serif 4",
+          "weight": 600,
+          "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "bytes": 21532,
+          "sha256": "f2b7e1cf1d277b7608231868135648f8ad8e2b58d8e97ca088bee15dc357bee7"
+        }
+      ]
+    },
+    {
+      "name": "selected-overlays-on",
+      "svg_sha256": "67166fd458234494a63aab853eb84aa7376c2ea093343cbbd6d18b04a5fdb768",
+      "bytes": 100876,
+      "network_requests": [],
+      "faces": [
+        {
+          "family": "Inter",
+          "weight": 500,
+          "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "bytes": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        },
+        {
+          "family": "Inter",
+          "weight": 700,
+          "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "bytes": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "family": "Source Serif 4",
+          "weight": 600,
+          "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "bytes": 21532,
+          "sha256": "f2b7e1cf1d277b7608231868135648f8ad8e2b58d8e97ca088bee15dc357bee7"
+        }
+      ]
+    },
+    {
+      "name": "unicode-Inter-400",
+      "svg_sha256": "2f3d00b6c3410b32839a7b87f714385cf263c554d58f8dcd40961fa72b5ee2ae",
+      "bytes": 108396,
+      "network_requests": [],
+      "faces": [
+        {
+          "family": "Inter",
+          "weight": 400,
+          "unicodeRange": "U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116",
+          "bytes": 7712,
+          "sha256": "f0bb586459ce8f09b238285040f17e3e9e9538b2c5a7aae0775194e33c36c3c3"
+        },
+        {
+          "family": "Inter",
+          "weight": 400,
+          "unicodeRange": "U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF",
+          "bytes": 7776,
+          "sha256": "c15ddd00a9927b56f5c655a41f976f79bd848a20cce91fc14227751872a1cc27"
+        },
+        {
+          "family": "Inter",
+          "weight": 400,
+          "unicodeRange": "U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB",
+          "bytes": 4972,
+          "sha256": "547ad9fdaeb0ae43487f4b8a02e47c36553c0c0cb73c8aa98f93b7b615f6b55d"
+        },
+        {
+          "family": "Inter",
+          "weight": 400,
+          "unicodeRange": "U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "bytes": 35000,
+          "sha256": "6744a7f509ebc6ab220a6cd4ea77e898adf014f03d88dcda5d45d8a9feefb4e9"
+        },
+        {
+          "family": "Inter",
+          "weight": 400,
+          "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "bytes": 23664,
+          "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+        }
+      ]
+    },
+    {
+      "name": "unicode-Inter-500",
+      "svg_sha256": "089088cf6d068a30a7d4aa2b5c786c55827edf0125c366fee71e295f5f04bf05",
+      "bytes": 111200,
+      "network_requests": [],
+      "faces": [
+        {
+          "family": "Inter",
+          "weight": 500,
+          "unicodeRange": "U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116",
+          "bytes": 7900,
+          "sha256": "b77a86ec16aadc157f4a99e8898d71cd75ea264753d9bdf13f962f8c3988cbb0"
+        },
+        {
+          "family": "Inter",
+          "weight": 500,
+          "unicodeRange": "U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF",
+          "bytes": 7920,
+          "sha256": "cc197d79d33a3615a047baae85f4d1957f6f98b8898313658e160b1d519b1b6f"
+        },
+        {
+          "family": "Inter",
+          "weight": 500,
+          "unicodeRange": "U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB",
+          "bytes": 5112,
+          "sha256": "44e36aa5a8f12130029a29bb0e6695d0262b67446ce321e878b1fb56162b5de6"
+        },
+        {
+          "family": "Inter",
+          "weight": 500,
+          "unicodeRange": "U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "bytes": 36024,
+          "sha256": "2c6fbc42d315528beb06c1096df45487bf4186c4b78b8111d12c9c951f8acca2"
+        },
+        {
+          "family": "Inter",
+          "weight": 500,
+          "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "bytes": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        }
+      ]
+    },
+    {
+      "name": "unicode-Inter-600",
+      "svg_sha256": "fb8915186b903f7a582800c2f923fc322392e87f4dfb4daab32fd70f7a5f64ec",
+      "bytes": 111868,
+      "network_requests": [],
+      "faces": [
+        {
+          "family": "Inter",
+          "weight": 600,
+          "unicodeRange": "U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116",
+          "bytes": 7972,
+          "sha256": "6c2a37f82a676bcd441b735e4e2cda4edb8873a059ab9c362a84f0711f257041"
+        },
+        {
+          "family": "Inter",
+          "weight": 600,
+          "unicodeRange": "U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF",
+          "bytes": 7944,
+          "sha256": "9c5a897f9d9fcfe60d90631d766ae62b4bf1edd76633fa7a4b2f8c87e036789b"
+        },
+        {
+          "family": "Inter",
+          "weight": 600,
+          "unicodeRange": "U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB",
+          "bytes": 5100,
+          "sha256": "1aeb94ae9db052a4a2fe6f3046f928cff1fdbd7abdf870a9a01c13cae6faeba5"
+        },
+        {
+          "family": "Inter",
+          "weight": 600,
+          "unicodeRange": "U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "bytes": 36260,
+          "sha256": "e4bdf67b0cd15ca9e184509275be95db942195d3cc2b17f6a0452f2adf75d0bf"
+        },
+        {
+          "family": "Inter",
+          "weight": 600,
+          "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "bytes": 24452,
+          "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+        }
+      ]
+    },
+    {
+      "name": "unicode-Inter-700",
+      "svg_sha256": "9dbc9b69c35219bae55f89298bc49e1d1dd82823da7f6932542725322bf0c38a",
+      "bytes": 111604,
+      "network_requests": [],
+      "faces": [
+        {
+          "family": "Inter",
+          "weight": 700,
+          "unicodeRange": "U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116",
+          "bytes": 7904,
+          "sha256": "5917871d3cc970d8ce195101cbf65c1f68ec948022eb6070030342bb7edfb3bb"
+        },
+        {
+          "family": "Inter",
+          "weight": 700,
+          "unicodeRange": "U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF",
+          "bytes": 7920,
+          "sha256": "737c6c91cd60372d30e6540096ada83c89c9b4613cd7472e3366bf2e07ad99f1"
+        },
+        {
+          "family": "Inter",
+          "weight": 700,
+          "unicodeRange": "U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB",
+          "bytes": 5104,
+          "sha256": "5fafa3829a16d9ea5ac3a67c51e54186353122790b604a3e361f96cab188da8b"
+        },
+        {
+          "family": "Inter",
+          "weight": 700,
+          "unicodeRange": "U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "bytes": 36244,
+          "sha256": "143f9504f1377012aa3e39c90c4354ef429cb0494b9ac0e1437f1a81e5412236"
+        },
+        {
+          "family": "Inter",
+          "weight": 700,
+          "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "bytes": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        }
+      ]
+    },
+    {
+      "name": "unicode-Source-Serif-4-600",
+      "svg_sha256": "b4ccfef35b05153b01e607a4e0339eb1a3878d8dc42634cc104f113cb59b18e9",
+      "bytes": 95329,
+      "network_requests": [],
+      "faces": [
+        {
+          "family": "Source Serif 4",
+          "weight": 600,
+          "unicodeRange": "U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116",
+          "bytes": 14776,
+          "sha256": "881a5cd61ba36255b82c4e99ca68a21dab3fc62fd91d780501c597f82cae477a"
+        },
+        {
+          "family": "Source Serif 4",
+          "weight": 600,
+          "unicodeRange": "U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF",
+          "bytes": 8132,
+          "sha256": "9682fb04de1d693e4bfc03cec8e847e51e92e77fd8e79c151d0a6f6d7f1fbee6"
+        },
+        {
+          "family": "Source Serif 4",
+          "weight": 600,
+          "unicodeRange": "U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB",
+          "bytes": 6444,
+          "sha256": "c42f67589974674a03cd1aece3e18123ad858642ecd8561cedaaeb282dc7a7d1"
+        },
+        {
+          "family": "Source Serif 4",
+          "weight": 600,
+          "unicodeRange": "U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "bytes": 18376,
+          "sha256": "351f7c7a0db5732b008c62d26a8e2b1d2d110449026b8168d4240d07985a7e49"
+        },
+        {
+          "family": "Source Serif 4",
+          "weight": 600,
+          "unicodeRange": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "bytes": 21532,
+          "sha256": "f2b7e1cf1d277b7608231868135648f8ad8e2b58d8e97ca088bee15dc357bee7"
+        }
+      ]
+    }
+  ]
+}

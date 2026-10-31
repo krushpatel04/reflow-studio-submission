@@ -1,0 +1,90 @@
+{
+  "canvas": {
+    "width": 60,
+    "height": 1000
+  },
+  "elements": [
+    {
+      "id": "bg",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "x": 0,
+      "y": 0,
+      "width": 60,
+      "height": 1000,
+      "fill_color": "rgba(255,255,255,1)"
+    },
+    {
+      "id": "card",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "x": 0.0,
+      "y": 470.0,
+      "width": 15.0,
+      "height": 15.0,
+      "fill_color": "rgba(200,50,50,1)"
+    },
+    {
+      "id": "dot",
+      "type": "shape",
+      "shape_type": "ellipse",
+      "x": 20.0,
+      "y": 470.0,
+      "width": 15.0,
+      "height": 15.0,
+      "fill_color": "rgba(50,50,200,1)"
+    },
+    {
+      "id": "h",
+      "type": "text",
+      "x": 0.0,
+      "y": 16.0,
+      "width": 58.0,
+      "height": 85.38717030229286,
+      "content": "A rather long headline for a tiny strip banner",
+      "font_family": "Solstice Serif",
+      "font_size": 11.859329208651786,
+      "color": "rgba(0,0,0,1)",
+      "font_weight": "bold"
+    },
+    {
+      "id": "s",
+      "type": "text",
+      "x": 0.0,
+      "y": 103.38717030229286,
+      "width": 56.0,
+      "height": 16.01009443167991,
+      "content": "Subline that also has to survive",
+      "font_family": "Solstice Sans",
+      "font_size": 6.67087267986663,
+      "color": "rgba(0,0,0,1)"
+    },
+    {
+      "id": "cta_bg",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "x": 0.0,
+      "y": 0.0,
+      "width": 54.675000000000004,
+      "height": 13.122000000000002,
+      "fill_color": "rgba(20,20,20,1)",
+      "group_id": "cta",
+      "rotation": 0
+    },
+    {
+      "id": "cta_label",
+      "type": "text",
+      "x": 1.0934999999999988,
+      "y": 1.093500000000006,
+      "width": 52.48800000000001,
+      "height": 10.935000000000002,
+      "content": "Shop now",
+      "font_family": "Solstice Sans",
+      "font_size": 4.3740000000000006,
+      "color": "rgba(0,0,0,1)",
+      "group_id": "cta",
+      "rotation": 0,
+      "font_weight": "bold"
+    }
+  ]
+}

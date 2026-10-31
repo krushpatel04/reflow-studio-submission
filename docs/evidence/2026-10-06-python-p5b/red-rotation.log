@@ -1,0 +1,4 @@
+FAIL: test_l3_rotated_group_inside_canvas_and_labels_inside_plate_box (tests_python.test_text_fit.RotatedBounds.test_l3_rotated_group_inside_canvas_and_labels_inside_plate_box)
+AssertionError: False is not true : ribbon_bg rotated box 377.2,-0.0,397.5,7.6
+Ran 1 test in 0.075s
+FAILED (failures=1)

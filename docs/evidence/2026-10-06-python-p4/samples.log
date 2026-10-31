@@ -1,0 +1,4 @@
+engine.resize.__file__ = /tmp/tmp.MMmefYXJ0I/engine/resize.py
+exit 0
+events [["REAL", "/tmp/tmp.MMmefYXJ0I/renderer/converter/convert.py", "/home/nala/.local/share/reflow-runtime/chameleon-venv311/lib/python3.11/site-packages/cr_renderer/__init__.py", "output/chameleon_sample_level1_warmup_output.png"], ["REAL", "/tmp/tmp.MMmefYXJ0I/renderer/converter/convert.py", "/home/nala/.local/share/reflow-runtime/chameleon-venv311/lib/python3.11/site-packages/cr_renderer/__init__.py", "output/chameleon_sample_level2_core_output.png"], ["REAL", "/tmp/tmp.MMmefYXJ0I/renderer/converter/convert.py", "/home/nala/.local/share/reflow-runtime/chameleon-venv311/lib/python3.11/site-packages/cr_renderer/__init__.py", "output/chameleon_sample_level3_advanced_output.png"]]
+PROOF real renderer x3, 0 fallback

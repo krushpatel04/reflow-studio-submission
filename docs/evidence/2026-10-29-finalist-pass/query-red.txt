@@ -1,0 +1,13 @@
+F
+======================================================================
+FAIL: test_repeated_exact_glyph_query_reuses_result_without_mixing_size_or_copy (tests_python.test_renderer_face_reuse.RendererFaceReuse.test_repeated_exact_glyph_query_reuses_result_without_mixing_size_or_copy)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/finalist-candidate/tests_python/test_renderer_face_reuse.py", line 26, in test_repeated_exact_glyph_query_reuses_result_without_mixing_size_or_copy
+    self.assertEqual(reads.call_count, len(queries), 'duplicate native glyph query')
+AssertionError: 6 != 3 : duplicate native glyph query
+
+----------------------------------------------------------------------
+Ran 1 test in 0.114s
+
+FAILED (failures=1)

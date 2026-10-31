@@ -1,0 +1,23 @@
+{
+  "first": {
+    "width": 281.50927734375,
+    "ascent": 26,
+    "descent": 7
+  },
+  "unchanged": {
+    "width": 281.50927734375,
+    "ascent": 26,
+    "descent": 7
+  },
+  "refreshed": {
+    "width": 281.50927734375,
+    "ascent": 26,
+    "descent": 7
+  },
+  "repeat": 0,
+  "distinct": 4,
+  "refreshCalls": 1,
+  "errorCalls": 1,
+  "evictionCalls": 1,
+  "hugeCalls": 2
+}

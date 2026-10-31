@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-15",
+  "source": "c1fd4d8659b2427f3e090b432f6fa4d2c5f5459b",
+  "run_url": "https://github.com/kj-squared-labs/reflow-studio/actions/runs/38770001641",
+  "image": {
+    "id": "sha256:a0657f0638d139551fc1402ba54153e17bb73c46f3fb81246a731626bff5f124",
+    "arch": "amd64",
+    "os": "linux"
+  },
+  "image_artifact_id": 11991805655,
+  "image_zip_sha256": "5448d411b0469e67810380328839c104ce6078d0cba764f60f0abd0354cd73c8",
+  "capability_artifact_id": 11991585352,
+  "capability_zip_sha256": "e0daf12de796ee79d46c4b4105941a138434392a887aa2f177b830da2d216339",
+  "inputs": {
+    "chameleon_sample_level1_warmup.json": "79f889a1b0ec616b3f75de7b0d7fe4b92dcfb027e99b512a019a7aa941000ea6",
+    "chameleon_sample_level2_core.json": "c37407fa20aefb8e1c53a3476b99973000657c3c1d93fc9637e462703955a04b",
+    "chameleon_sample_level3_advanced.json": "fd99e3972c9c11c506d98897f3cb9520a5caea10b358d30e6853b9efca58cf33"
+  },
+  "expected_outputs": {
+    "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+    "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+    "chameleon_sample_level2_core_output.json": "b31edc4e04c91f01f1395b6693d3f9f9f5a89bd4e45713abd7831f3d8e3f34cd",
+    "chameleon_sample_level2_core_output.png": "5d36066283eabea41af914e2199992fe0f8cfd5c982ead622adad5d439b2e218",
+    "chameleon_sample_level3_advanced_output.json": "f4f9c3a4e733b307294493d027b627a83c7c9265bdc0b74ceb28504bb9be789c",
+    "chameleon_sample_level3_advanced_output.png": "72f1745050c75a74e2a4b9c89cd792bb02841cf148f1c12b270cd772d9d33e11"
+  },
+  "fresh_entrypoint_s": {
+    "count": 5,
+    "min": 0.743034740000013,
+    "median": 0.7452330830000164,
+    "max": 0.7691235930000175,
+    "samples": [
+      0.7691235930000175,
+      0.7441038489999983,
+      0.743034740000013,
+      0.7452330830000164,
+      0.747490407000015
+    ]
+  },
+  "sameprocess_warmup_s": 0.7471058110000115,
+  "sameprocess_steady_s": {
+    "count": 9,
+    "min": 0.663133949000013,
+    "median": 0.6643019839999909,
+    "max": 0.6679429179999943,
+    "samples": [
+      0.6639283560000138,
+      0.6656144929999925,
+      0.6643019839999909,
+      0.6679429179999943,
+      0.663133949000013,
+      0.6641565210000238,
+      0.665599181999994,
+      0.6636385729999859,
+      0.6644065400000159
+    ]
+  },
+  "import_s": {
+    "count": 6,
+    "min": 1.0077330649999965,
+    "median": 1.0181793079999863,
+    "max": 1.0581745259999877,
+    "samples": [
+      1.0178095609999787,
+      1.0289062500000057,
+      1.0149477759999854,
+      1.0077330649999965,
+      1.018549054999994,
+      1.0581745259999877
+    ]
+  },
+  "fresh_outer_s": [
+    2.114,
+    2.08,
+    2.078,
+    2.077,
+    2.101
+  ],
+  "sameprocess_outer_s": 8.12,
+  "rss_peak_bytes": [
+    233365504,
+    233340928,
+    233168896,
+    233316352,
+    233500672,
+    233066496,
+    253468672,
+    255344640,
+    260980736,
+    263757824,
+    266661888,
+    269430784,
+    272187392,
+    275075072,
+    277852160
+  ],
+  "cgroup_peak_bytes": [
+    151519232,
+    150122496,
+    151474176,
+    150106112,
+    150343680,
+    150118400,
+    167079936,
+    170569728,
+    176689152,
+    181141504,
+    185081856,
+    188309504,
+    192851968,
+    196820992,
+    200101888
+  ],
+  "calibration": {
+    "delay_s": 0.10009848499998952,
+    "requested_delay_s": 0.1,
+    "allocation_bytes": 33554432,
+    "rss_before": 16084992,
+    "rss_after": 49733632,
+    "cgroup_before": 6983680,
+    "cgroup_after": 40484864
+  },
+  "container_memory_coverage": "complete",
+  "cleanup_count": 7,
+  "independent_resource_checks": 157,
+  "ordinary_and_matrix_checks": 81,
+  "limits": [
+    "Five fresh containers may use host caches; no cold-cache or percentile claim",
+    "Warm first iteration is warmup; nine steady-process repeats",
+    "RSS and cgroup peak cumulative over process lifetime, not per-iteration peaks",
+    "Entry timer excludes imports/hash/copy instrumentation; outer timer includes it",
+    "No parse/font/layout phase breakdown; no dense/extreme workload or official budget claim",
+    "Process RSS and cgroup memory charge have different accounting; do not compare as interchangeable measurements",
+    "Increasing cumulative peaks do not establish a memory leak or steady-state retained memory",
+    "No full issue8/35 or named teammate acceptance; final integrated source requires separate qualification",
+    "Memory peaks include wrapper imports and prior iteration hash/copy/snapshot overhead; cgroup charge includes filesystem cache"
+  ],
+  "memory_array_order": "five fresh processes, then ten iterations in one process",
+  "independent_agent_review": {
+    "lane": "D",
+    "checks": 100,
+    "receipt_sha256": "e9b6e29942a45c837af590d90fb2ad10c6fe122ec41b0bf4e5a0de68403f0079",
+    "scope": "bounded pilot; not human acceptance"
+  }
+}

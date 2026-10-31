@@ -1,0 +1,29 @@
+FFF...
+======================================================================
+FAIL: test_campaign_reads_each_exact_face_once_per_resize (tests_python.test_renderer_face_reuse.RendererFaceReuse.test_campaign_reads_each_exact_face_once_per_resize) (target=(300, 250))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/finalist-candidate/tests_python/test_renderer_face_reuse.py", line 33, in test_campaign_reads_each_exact_face_once_per_resize
+    self.assertEqual(len(reads), len(set(reads)), 'repeated font decoding inside one resize')
+AssertionError: 507 != 3 : repeated font decoding inside one resize
+
+======================================================================
+FAIL: test_campaign_reads_each_exact_face_once_per_resize (tests_python.test_renderer_face_reuse.RendererFaceReuse.test_campaign_reads_each_exact_face_once_per_resize) (target=(728, 90))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/finalist-candidate/tests_python/test_renderer_face_reuse.py", line 33, in test_campaign_reads_each_exact_face_once_per_resize
+    self.assertEqual(len(reads), len(set(reads)), 'repeated font decoding inside one resize')
+AssertionError: 157 != 3 : repeated font decoding inside one resize
+
+======================================================================
+FAIL: test_campaign_reads_each_exact_face_once_per_resize (tests_python.test_renderer_face_reuse.RendererFaceReuse.test_campaign_reads_each_exact_face_once_per_resize) (target=(250, 300))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/finalist-candidate/tests_python/test_renderer_face_reuse.py", line 33, in test_campaign_reads_each_exact_face_once_per_resize
+    self.assertEqual(len(reads), len(set(reads)), 'repeated font decoding inside one resize')
+AssertionError: 747 != 3 : repeated font decoding inside one resize
+
+----------------------------------------------------------------------
+Ran 4 tests in 1.478s
+
+FAILED (failures=3)

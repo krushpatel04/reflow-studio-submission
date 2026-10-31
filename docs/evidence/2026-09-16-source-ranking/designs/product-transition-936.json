@@ -1,0 +1,1339 @@
+{
+  "sourceId": "product-pairs",
+  "target": {
+    "id": "transition",
+    "label": "Transition",
+    "width": 936,
+    "height": 1080
+  },
+  "baseline": {
+    "strategy": "uniform",
+    "design": {
+      "schemaVersion": "reflow.design.v0",
+      "id": "product-pairs",
+      "name": "Small batch, good things",
+      "description": "Three product and label groups should remain associated across formats.",
+      "provenance": "synthetic",
+      "width": 936,
+      "height": 1080,
+      "background": "#f5eee3",
+      "elements": [
+        {
+          "id": "headline",
+          "type": "text",
+          "role": "content",
+          "text": "Made for everyday.",
+          "x": 45.5,
+          "y": 234.5,
+          "width": 845,
+          "height": 100.75,
+          "fontSize": 64.35000000000001,
+          "color": "#294239",
+          "fontWeight": 600,
+          "fontFamily": "Source Serif 4",
+          "lineHeight": 1.14
+        },
+        {
+          "id": "product-0",
+          "type": "image",
+          "role": "content",
+          "assetId": "product",
+          "x": 45.5,
+          "y": 371,
+          "width": 260,
+          "height": 318.5,
+          "fit": "contain",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "groupId": "product-0"
+        },
+        {
+          "id": "label-0",
+          "type": "text",
+          "role": "content",
+          "text": "The market bag",
+          "x": 45.5,
+          "y": 712.9,
+          "width": 260,
+          "height": 37.050000000000004,
+          "fontSize": 20.150000000000002,
+          "color": "#294239",
+          "fontWeight": 700,
+          "fontFamily": "Inter",
+          "lineHeight": 1.14,
+          "groupId": "product-0"
+        },
+        {
+          "id": "price-0",
+          "type": "text",
+          "role": "content",
+          "text": "$24",
+          "x": 45.5,
+          "y": 762.3000000000001,
+          "width": 260,
+          "height": 32.5,
+          "fontSize": 21.45,
+          "color": "#294239",
+          "fontWeight": 500,
+          "fontFamily": "Inter",
+          "lineHeight": 1.14,
+          "groupId": "product-0"
+        },
+        {
+          "id": "product-1",
+          "type": "image",
+          "role": "content",
+          "assetId": "product",
+          "x": 338,
+          "y": 371,
+          "width": 260,
+          "height": 318.5,
+          "fit": "contain",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "groupId": "product-1"
+        },
+        {
+          "id": "label-1",
+          "type": "text",
+          "role": "content",
+          "text": "The weekend bag",
+          "x": 338,
+          "y": 712.9,
+          "width": 260,
+          "height": 37.050000000000004,
+          "fontSize": 20.150000000000002,
+          "color": "#294239",
+          "fontWeight": 700,
+          "fontFamily": "Inter",
+          "lineHeight": 1.14,
+          "groupId": "product-1"
+        },
+        {
+          "id": "price-1",
+          "type": "text",
+          "role": "content",
+          "text": "$32",
+          "x": 338,
+          "y": 762.3000000000001,
+          "width": 260,
+          "height": 32.5,
+          "fontSize": 21.45,
+          "color": "#294239",
+          "fontWeight": 500,
+          "fontFamily": "Inter",
+          "lineHeight": 1.14,
+          "groupId": "product-1"
+        },
+        {
+          "id": "product-2",
+          "type": "image",
+          "role": "content",
+          "assetId": "product",
+          "x": 630.5,
+          "y": 371,
+          "width": 260,
+          "height": 318.5,
+          "fit": "contain",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "groupId": "product-2"
+        },
+        {
+          "id": "label-2",
+          "type": "text",
+          "role": "content",
+          "text": "The everywhere bag",
+          "x": 630.5,
+          "y": 712.9,
+          "width": 260,
+          "height": 37.050000000000004,
+          "fontSize": 20.150000000000002,
+          "color": "#294239",
+          "fontWeight": 700,
+          "fontFamily": "Inter",
+          "lineHeight": 1.14,
+          "groupId": "product-2"
+        },
+        {
+          "id": "price-2",
+          "type": "text",
+          "role": "content",
+          "text": "$38",
+          "x": 630.5,
+          "y": 762.3000000000001,
+          "width": 260,
+          "height": 32.5,
+          "fontSize": 21.45,
+          "color": "#294239",
+          "fontWeight": 500,
+          "fontFamily": "Inter",
+          "lineHeight": 1.14,
+          "groupId": "product-2"
+        },
+        {
+          "id": "footer",
+          "type": "text",
+          "role": "content",
+          "text": "THOUGHTFULLY MADE. READY TO GO.",
+          "x": 45.5,
+          "y": 827.3000000000001,
+          "width": 845,
+          "height": 35.1,
+          "fontSize": 17.55,
+          "color": "#294239",
+          "fontWeight": 500,
+          "fontFamily": "Inter",
+          "lineHeight": 1.14
+        }
+      ],
+      "groups": [
+        {
+          "id": "product-0",
+          "label": "product 0"
+        },
+        {
+          "id": "product-1",
+          "label": "product 1"
+        },
+        {
+          "id": "product-2",
+          "label": "product 2"
+        }
+      ]
+    },
+    "metrics": {
+      "errors": 0,
+      "warnings": 7,
+      "minReadingSize": 6.75,
+      "contentCoverage": 0.41297903806584363,
+      "findings": [
+        {
+          "kind": "small-text",
+          "severity": "warning",
+          "elementIds": [
+            "label-0"
+          ],
+          "message": "label-0 reads at 7.8px on a 360px short edge."
+        },
+        {
+          "kind": "small-text",
+          "severity": "warning",
+          "elementIds": [
+            "price-0"
+          ],
+          "message": "price-0 reads at 8.3px on a 360px short edge."
+        },
+        {
+          "kind": "small-text",
+          "severity": "warning",
+          "elementIds": [
+            "label-1"
+          ],
+          "message": "label-1 reads at 7.8px on a 360px short edge."
+        },
+        {
+          "kind": "small-text",
+          "severity": "warning",
+          "elementIds": [
+            "price-1"
+          ],
+          "message": "price-1 reads at 8.3px on a 360px short edge."
+        },
+        {
+          "kind": "small-text",
+          "severity": "warning",
+          "elementIds": [
+            "label-2"
+          ],
+          "message": "label-2 reads at 7.8px on a 360px short edge."
+        },
+        {
+          "kind": "small-text",
+          "severity": "warning",
+          "elementIds": [
+            "price-2"
+          ],
+          "message": "price-2 reads at 8.3px on a 360px short edge."
+        },
+        {
+          "kind": "small-text",
+          "severity": "warning",
+          "elementIds": [
+            "footer"
+          ],
+          "message": "footer reads at 6.8px on a 360px short edge."
+        }
+      ]
+    }
+  },
+  "selected": {
+    "strategy": "split",
+    "design": {
+      "schemaVersion": "reflow.design.v0",
+      "id": "product-pairs",
+      "name": "Small batch, good things",
+      "description": "Three product and label groups should remain associated across formats.",
+      "provenance": "synthetic",
+      "width": 936,
+      "height": 1080,
+      "background": "#f5eee3",
+      "elements": [
+        {
+          "id": "headline",
+          "type": "text",
+          "role": "content",
+          "text": "Made for everyday.",
+          "x": 478.47384,
+          "y": 60.84,
+          "width": 396.68616,
+          "height": 559.5081081081081,
+          "fontSize": 85.32,
+          "color": "#294239",
+          "fontWeight": 600,
+          "fontFamily": "Source Serif 4",
+          "lineHeight": 1.14
+        },
+        {
+          "id": "product-0",
+          "type": "image",
+          "role": "content",
+          "assetId": "product",
+          "x": 158.20246601226992,
+          "y": 60.84,
+          "width": 186.4049079754601,
+          "height": 228.34601226993863,
+          "fit": "contain",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "groupId": "product-0"
+        },
+        {
+          "id": "label-0",
+          "type": "text",
+          "role": "content",
+          "text": "The market bag",
+          "x": 158.20246601226992,
+          "y": 305.96245398773004,
+          "width": 186.4049079754601,
+          "height": 26.562699386503063,
+          "fontSize": 21.96,
+          "color": "#294239",
+          "fontWeight": 700,
+          "fontFamily": "Inter",
+          "lineHeight": 1.14,
+          "groupId": "product-0"
+        },
+        {
+          "id": "price-0",
+          "type": "text",
+          "role": "content",
+          "text": "$24",
+          "x": 158.20246601226992,
+          "y": 341.37938650306745,
+          "width": 186.4049079754601,
+          "height": 23.300613496932513,
+          "fontSize": 18.76,
+          "color": "#294239",
+          "fontWeight": 500,
+          "fontFamily": "Inter",
+          "lineHeight": 1.14,
+          "groupId": "product-0"
+        },
+        {
+          "id": "product-1",
+          "type": "image",
+          "role": "content",
+          "assetId": "product",
+          "x": 158.20246601226992,
+          "y": 388.0799999999999,
+          "width": 186.4049079754601,
+          "height": 228.34601226993863,
+          "fit": "contain",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "groupId": "product-1"
+        },
+        {
+          "id": "label-1",
+          "type": "text",
+          "role": "content",
+          "text": "The weekend bag",
+          "x": 158.20246601226992,
+          "y": 633.20245398773,
+          "width": 186.4049079754601,
+          "height": 26.562699386503063,
+          "fontSize": 21.56,
+          "color": "#294239",
+          "fontWeight": 700,
+          "fontFamily": "Inter",
+          "lineHeight": 1.14,
+          "groupId": "product-1"
+        },
+        {
+          "id": "price-1",
+          "type": "text",
+          "role": "content",
+          "text": "$32",
+          "x": 158.20246601226992,
+          "y": 668.6193865030674,
+          "width": 186.4049079754601,
+          "height": 23.300613496932513,
+          "fontSize": 18.76,
+          "color": "#294239",
+          "fontWeight": 500,
+          "fontFamily": "Inter",
+          "lineHeight": 1.14,
+          "groupId": "product-1"
+        },
+        {
+          "id": "product-2",
+          "type": "image",
+          "role": "content",
+          "assetId": "product",
+          "x": 158.20246601226995,
+          "y": 715.3199999999999,
+          "width": 186.4049079754601,
+          "height": 228.34601226993863,
+          "fit": "contain",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "groupId": "product-2"
+        },
+        {
+          "id": "label-2",
+          "type": "text",
+          "role": "content",
+          "text": "The everywhere bag",
+          "x": 158.20246601226995,
+          "y": 960.44245398773,
+          "width": 186.4049079754601,
+          "height": 26.562699386503063,
+          "fontSize": 18.57,
+          "color": "#294239",
+          "fontWeight": 700,
+          "fontFamily": "Inter",
+          "lineHeight": 1.14,
+          "groupId": "product-2"
+        },
+        {
+          "id": "price-2",
+          "type": "text",
+          "role": "content",
+          "text": "$38",
+          "x": 158.20246601226995,
+          "y": 995.8593865030674,
+          "width": 186.4049079754601,
+          "height": 23.300613496932513,
+          "fontSize": 18.76,
+          "color": "#294239",
+          "fontWeight": 500,
+          "fontFamily": "Inter",
+          "lineHeight": 1.14,
+          "groupId": "product-2"
+        },
+        {
+          "id": "footer",
+          "type": "text",
+          "role": "content",
+          "text": "THOUGHTFULLY MADE. READY TO GO.",
+          "x": 478.47384,
+          "y": 643.7481081081081,
+          "width": 396.68616,
+          "height": 375.41189189189186,
+          "fontSize": 28.07,
+          "color": "#294239",
+          "fontWeight": 500,
+          "fontFamily": "Inter",
+          "lineHeight": 1.14
+        }
+      ],
+      "groups": [
+        {
+          "id": "product-0",
+          "label": "product 0"
+        },
+        {
+          "id": "product-1",
+          "label": "product 1"
+        },
+        {
+          "id": "product-2",
+          "label": "product 2"
+        }
+      ]
+    },
+    "metrics": {
+      "errors": 0,
+      "warnings": 6,
+      "minReadingSize": 7.142307692307692,
+      "contentCoverage": 0.5207824624748623,
+      "findings": [
+        {
+          "kind": "small-text",
+          "severity": "warning",
+          "elementIds": [
+            "label-0"
+          ],
+          "message": "label-0 reads at 8.4px on a 360px short edge."
+        },
+        {
+          "kind": "small-text",
+          "severity": "warning",
+          "elementIds": [
+            "price-0"
+          ],
+          "message": "price-0 reads at 7.2px on a 360px short edge."
+        },
+        {
+          "kind": "small-text",
+          "severity": "warning",
+          "elementIds": [
+            "label-1"
+          ],
+          "message": "label-1 reads at 8.3px on a 360px short edge."
+        },
+        {
+          "kind": "small-text",
+          "severity": "warning",
+          "elementIds": [
+            "price-1"
+          ],
+          "message": "price-1 reads at 7.2px on a 360px short edge."
+        },
+        {
+          "kind": "small-text",
+          "severity": "warning",
+          "elementIds": [
+            "label-2"
+          ],
+          "message": "label-2 reads at 7.1px on a 360px short edge."
+        },
+        {
+          "kind": "small-text",
+          "severity": "warning",
+          "elementIds": [
+            "price-2"
+          ],
+          "message": "price-2 reads at 7.2px on a 360px short edge."
+        }
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "strategy": "uniform",
+      "design": {
+        "schemaVersion": "reflow.design.v0",
+        "id": "product-pairs",
+        "name": "Small batch, good things",
+        "description": "Three product and label groups should remain associated across formats.",
+        "provenance": "synthetic",
+        "width": 936,
+        "height": 1080,
+        "background": "#f5eee3",
+        "elements": [
+          {
+            "id": "headline",
+            "type": "text",
+            "role": "content",
+            "text": "Made for everyday.",
+            "x": 45.5,
+            "y": 234.5,
+            "width": 845,
+            "height": 100.75,
+            "fontSize": 64.35000000000001,
+            "color": "#294239",
+            "fontWeight": 600,
+            "fontFamily": "Source Serif 4",
+            "lineHeight": 1.14
+          },
+          {
+            "id": "product-0",
+            "type": "image",
+            "role": "content",
+            "assetId": "product",
+            "x": 45.5,
+            "y": 371,
+            "width": 260,
+            "height": 318.5,
+            "fit": "contain",
+            "focalPoint": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "groupId": "product-0"
+          },
+          {
+            "id": "label-0",
+            "type": "text",
+            "role": "content",
+            "text": "The market bag",
+            "x": 45.5,
+            "y": 712.9,
+            "width": 260,
+            "height": 37.050000000000004,
+            "fontSize": 20.150000000000002,
+            "color": "#294239",
+            "fontWeight": 700,
+            "fontFamily": "Inter",
+            "lineHeight": 1.14,
+            "groupId": "product-0"
+          },
+          {
+            "id": "price-0",
+            "type": "text",
+            "role": "content",
+            "text": "$24",
+            "x": 45.5,
+            "y": 762.3000000000001,
+            "width": 260,
+            "height": 32.5,
+            "fontSize": 21.45,
+            "color": "#294239",
+            "fontWeight": 500,
+            "fontFamily": "Inter",
+            "lineHeight": 1.14,
+            "groupId": "product-0"
+          },
+          {
+            "id": "product-1",
+            "type": "image",
+            "role": "content",
+            "assetId": "product",
+            "x": 338,
+            "y": 371,
+            "width": 260,
+            "height": 318.5,
+            "fit": "contain",
+            "focalPoint": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "groupId": "product-1"
+          },
+          {
+            "id": "label-1",
+            "type": "text",
+            "role": "content",
+            "text": "The weekend bag",
+            "x": 338,
+            "y": 712.9,
+            "width": 260,
+            "height": 37.050000000000004,
+            "fontSize": 20.150000000000002,
+            "color": "#294239",
+            "fontWeight": 700,
+            "fontFamily": "Inter",
+            "lineHeight": 1.14,
+            "groupId": "product-1"
+          },
+          {
+            "id": "price-1",
+            "type": "text",
+            "role": "content",
+            "text": "$32",
+            "x": 338,
+            "y": 762.3000000000001,
+            "width": 260,
+            "height": 32.5,
+            "fontSize": 21.45,
+            "color": "#294239",
+            "fontWeight": 500,
+            "fontFamily": "Inter",
+            "lineHeight": 1.14,
+            "groupId": "product-1"
+          },
+          {
+            "id": "product-2",
+            "type": "image",
+            "role": "content",
+            "assetId": "product",
+            "x": 630.5,
+            "y": 371,
+            "width": 260,
+            "height": 318.5,
+            "fit": "contain",
+            "focalPoint": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "groupId": "product-2"
+          },
+          {
+            "id": "label-2",
+            "type": "text",
+            "role": "content",
+            "text": "The everywhere bag",
+            "x": 630.5,
+            "y": 712.9,
+            "width": 260,
+            "height": 37.050000000000004,
+            "fontSize": 20.150000000000002,
+            "color": "#294239",
+            "fontWeight": 700,
+            "fontFamily": "Inter",
+            "lineHeight": 1.14,
+            "groupId": "product-2"
+          },
+          {
+            "id": "price-2",
+            "type": "text",
+            "role": "content",
+            "text": "$38",
+            "x": 630.5,
+            "y": 762.3000000000001,
+            "width": 260,
+            "height": 32.5,
+            "fontSize": 21.45,
+            "color": "#294239",
+            "fontWeight": 500,
+            "fontFamily": "Inter",
+            "lineHeight": 1.14,
+            "groupId": "product-2"
+          },
+          {
+            "id": "footer",
+            "type": "text",
+            "role": "content",
+            "text": "THOUGHTFULLY MADE. READY TO GO.",
+            "x": 45.5,
+            "y": 827.3000000000001,
+            "width": 845,
+            "height": 35.1,
+            "fontSize": 17.55,
+            "color": "#294239",
+            "fontWeight": 500,
+            "fontFamily": "Inter",
+            "lineHeight": 1.14
+          }
+        ],
+        "groups": [
+          {
+            "id": "product-0",
+            "label": "product 0"
+          },
+          {
+            "id": "product-1",
+            "label": "product 1"
+          },
+          {
+            "id": "product-2",
+            "label": "product 2"
+          }
+        ]
+      },
+      "metrics": {
+        "errors": 0,
+        "warnings": 7,
+        "minReadingSize": 6.75,
+        "contentCoverage": 0.41297903806584363,
+        "findings": [
+          {
+            "kind": "small-text",
+            "severity": "warning",
+            "elementIds": [
+              "label-0"
+            ],
+            "message": "label-0 reads at 7.8px on a 360px short edge."
+          },
+          {
+            "kind": "small-text",
+            "severity": "warning",
+            "elementIds": [
+              "price-0"
+            ],
+            "message": "price-0 reads at 8.3px on a 360px short edge."
+          },
+          {
+            "kind": "small-text",
+            "severity": "warning",
+            "elementIds": [
+              "label-1"
+            ],
+            "message": "label-1 reads at 7.8px on a 360px short edge."
+          },
+          {
+            "kind": "small-text",
+            "severity": "warning",
+            "elementIds": [
+              "price-1"
+            ],
+            "message": "price-1 reads at 8.3px on a 360px short edge."
+          },
+          {
+            "kind": "small-text",
+            "severity": "warning",
+            "elementIds": [
+              "label-2"
+            ],
+            "message": "label-2 reads at 7.8px on a 360px short edge."
+          },
+          {
+            "kind": "small-text",
+            "severity": "warning",
+            "elementIds": [
+              "price-2"
+            ],
+            "message": "price-2 reads at 8.3px on a 360px short edge."
+          },
+          {
+            "kind": "small-text",
+            "severity": "warning",
+            "elementIds": [
+              "footer"
+            ],
+            "message": "footer reads at 6.8px on a 360px short edge."
+          }
+        ]
+      }
+    },
+    {
+      "strategy": "stack",
+      "design": {
+        "schemaVersion": "reflow.design.v0",
+        "id": "product-pairs",
+        "name": "Small batch, good things",
+        "description": "Three product and label groups should remain associated across formats.",
+        "provenance": "synthetic",
+        "width": 936,
+        "height": 1080,
+        "background": "#f5eee3",
+        "elements": [
+          {
+            "id": "headline",
+            "type": "text",
+            "role": "content",
+            "text": "Made for everyday.",
+            "x": 60.84,
+            "y": 60.84,
+            "width": 814.3199999999999,
+            "height": 21.940022917007692,
+            "fontSize": 16.01,
+            "color": "#294239",
+            "fontWeight": 600,
+            "fontFamily": "Source Serif 4",
+            "lineHeight": 1.14
+          },
+          {
+            "id": "product-0",
+            "type": "image",
+            "role": "content",
+            "assetId": "product",
+            "x": 383.3313978069167,
+            "y": 106.1800229170077,
+            "width": 169.3372043861666,
+            "height": 207.4380753730541,
+            "fit": "contain",
+            "focalPoint": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "groupId": "product-0"
+          },
+          {
+            "id": "label-0",
+            "type": "text",
+            "role": "content",
+            "text": "The market bag",
+            "x": 383.3313978069167,
+            "y": 328.8584466848168,
+            "width": 169.3372043861666,
+            "height": 24.13055162502874,
+            "fontSize": 19.95,
+            "color": "#294239",
+            "fontWeight": 700,
+            "fontFamily": "Inter",
+            "lineHeight": 1.14,
+            "groupId": "product-0"
+          },
+          {
+            "id": "price-0",
+            "type": "text",
+            "role": "content",
+            "text": "$24",
+            "x": 383.3313978069167,
+            "y": 361.0325155181884,
+            "width": 169.3372043861666,
+            "height": 21.167150548270826,
+            "fontSize": 17.31,
+            "color": "#294239",
+            "fontWeight": 500,
+            "fontFamily": "Inter",
+            "lineHeight": 1.14,
+            "groupId": "product-0"
+          },
+          {
+            "id": "product-1",
+            "type": "image",
+            "role": "content",
+            "assetId": "product",
+            "x": 383.3313978069167,
+            "y": 405.59966606645924,
+            "width": 169.3372043861666,
+            "height": 207.4380753730541,
+            "fit": "contain",
+            "focalPoint": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "groupId": "product-1"
+          },
+          {
+            "id": "label-1",
+            "type": "text",
+            "role": "content",
+            "text": "The weekend bag",
+            "x": 383.3313978069167,
+            "y": 628.2780898342683,
+            "width": 169.3372043861666,
+            "height": 24.13055162502874,
+            "fontSize": 19.59,
+            "color": "#294239",
+            "fontWeight": 700,
+            "fontFamily": "Inter",
+            "lineHeight": 1.14,
+            "groupId": "product-1"
+          },
+          {
+            "id": "price-1",
+            "type": "text",
+            "role": "content",
+            "text": "$32",
+            "x": 383.3313978069167,
+            "y": 660.4521586676399,
+            "width": 169.3372043861666,
+            "height": 21.167150548270826,
+            "fontSize": 17.31,
+            "color": "#294239",
+            "fontWeight": 500,
+            "fontFamily": "Inter",
+            "lineHeight": 1.14,
+            "groupId": "product-1"
+          },
+          {
+            "id": "product-2",
+            "type": "image",
+            "role": "content",
+            "assetId": "product",
+            "x": 383.3313978069167,
+            "y": 705.0193092159108,
+            "width": 169.3372043861666,
+            "height": 207.4380753730541,
+            "fit": "contain",
+            "focalPoint": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "groupId": "product-2"
+          },
+          {
+            "id": "label-2",
+            "type": "text",
+            "role": "content",
+            "text": "The everywhere bag",
+            "x": 383.3313978069167,
+            "y": 927.6977329837198,
+            "width": 169.3372043861666,
+            "height": 24.13055162502874,
+            "fontSize": 16.87,
+            "color": "#294239",
+            "fontWeight": 700,
+            "fontFamily": "Inter",
+            "lineHeight": 1.14,
+            "groupId": "product-2"
+          },
+          {
+            "id": "price-2",
+            "type": "text",
+            "role": "content",
+            "text": "$38",
+            "x": 383.3313978069167,
+            "y": 959.8718018170914,
+            "width": 169.3372043861666,
+            "height": 21.167150548270826,
+            "fontSize": 17.31,
+            "color": "#294239",
+            "fontWeight": 500,
+            "fontFamily": "Inter",
+            "lineHeight": 1.14,
+            "groupId": "product-2"
+          },
+          {
+            "id": "footer",
+            "type": "text",
+            "role": "content",
+            "text": "THOUGHTFULLY MADE. READY TO GO.",
+            "x": 60.84,
+            "y": 1004.4389523653623,
+            "width": 814.3199999999999,
+            "height": 14.721047634637419,
+            "fontSize": 11.53,
+            "color": "#294239",
+            "fontWeight": 500,
+            "fontFamily": "Inter",
+            "lineHeight": 1.14
+          }
+        ],
+        "groups": [
+          {
+            "id": "product-0",
+            "label": "product 0"
+          },
+          {
+            "id": "product-1",
+            "label": "product 1"
+          },
+          {
+            "id": "product-2",
+            "label": "product 2"
+          }
+        ]
+      },
+      "metrics": {
+        "errors": 0,
+        "warnings": 8,
+        "minReadingSize": 4.434615384615385,
+        "contentCoverage": 0.15654336125534837,
+        "findings": [
+          {
+            "kind": "small-text",
+            "severity": "warning",
+            "elementIds": [
+              "headline"
+            ],
+            "message": "headline reads at 6.2px on a 360px short edge."
+          },
+          {
+            "kind": "small-text",
+            "severity": "warning",
+            "elementIds": [
+              "label-0"
+            ],
+            "message": "label-0 reads at 7.7px on a 360px short edge."
+          },
+          {
+            "kind": "small-text",
+            "severity": "warning",
+            "elementIds": [
+              "price-0"
+            ],
+            "message": "price-0 reads at 6.7px on a 360px short edge."
+          },
+          {
+            "kind": "small-text",
+            "severity": "warning",
+            "elementIds": [
+              "label-1"
+            ],
+            "message": "label-1 reads at 7.5px on a 360px short edge."
+          },
+          {
+            "kind": "small-text",
+            "severity": "warning",
+            "elementIds": [
+              "price-1"
+            ],
+            "message": "price-1 reads at 6.7px on a 360px short edge."
+          },
+          {
+            "kind": "small-text",
+            "severity": "warning",
+            "elementIds": [
+              "label-2"
+            ],
+            "message": "label-2 reads at 6.5px on a 360px short edge."
+          },
+          {
+            "kind": "small-text",
+            "severity": "warning",
+            "elementIds": [
+              "price-2"
+            ],
+            "message": "price-2 reads at 6.7px on a 360px short edge."
+          },
+          {
+            "kind": "small-text",
+            "severity": "warning",
+            "elementIds": [
+              "footer"
+            ],
+            "message": "footer reads at 4.4px on a 360px short edge."
+          }
+        ]
+      }
+    },
+    {
+      "strategy": "split",
+      "design": {
+        "schemaVersion": "reflow.design.v0",
+        "id": "product-pairs",
+        "name": "Small batch, good things",
+        "description": "Three product and label groups should remain associated across formats.",
+        "provenance": "synthetic",
+        "width": 936,
+        "height": 1080,
+        "background": "#f5eee3",
+        "elements": [
+          {
+            "id": "headline",
+            "type": "text",
+            "role": "content",
+            "text": "Made for everyday.",
+            "x": 478.47384,
+            "y": 60.84,
+            "width": 396.68616,
+            "height": 559.5081081081081,
+            "fontSize": 85.32,
+            "color": "#294239",
+            "fontWeight": 600,
+            "fontFamily": "Source Serif 4",
+            "lineHeight": 1.14
+          },
+          {
+            "id": "product-0",
+            "type": "image",
+            "role": "content",
+            "assetId": "product",
+            "x": 158.20246601226992,
+            "y": 60.84,
+            "width": 186.4049079754601,
+            "height": 228.34601226993863,
+            "fit": "contain",
+            "focalPoint": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "groupId": "product-0"
+          },
+          {
+            "id": "label-0",
+            "type": "text",
+            "role": "content",
+            "text": "The market bag",
+            "x": 158.20246601226992,
+            "y": 305.96245398773004,
+            "width": 186.4049079754601,
+            "height": 26.562699386503063,
+            "fontSize": 21.96,
+            "color": "#294239",
+            "fontWeight": 700,
+            "fontFamily": "Inter",
+            "lineHeight": 1.14,
+            "groupId": "product-0"
+          },
+          {
+            "id": "price-0",
+            "type": "text",
+            "role": "content",
+            "text": "$24",
+            "x": 158.20246601226992,
+            "y": 341.37938650306745,
+            "width": 186.4049079754601,
+            "height": 23.300613496932513,
+            "fontSize": 18.76,
+            "color": "#294239",
+            "fontWeight": 500,
+            "fontFamily": "Inter",
+            "lineHeight": 1.14,
+            "groupId": "product-0"
+          },
+          {
+            "id": "product-1",
+            "type": "image",
+            "role": "content",
+            "assetId": "product",
+            "x": 158.20246601226992,
+            "y": 388.0799999999999,
+            "width": 186.4049079754601,
+            "height": 228.34601226993863,
+            "fit": "contain",
+            "focalPoint": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "groupId": "product-1"
+          },
+          {
+            "id": "label-1",
+            "type": "text",
+            "role": "content",
+            "text": "The weekend bag",
+            "x": 158.20246601226992,
+            "y": 633.20245398773,
+            "width": 186.4049079754601,
+            "height": 26.562699386503063,
+            "fontSize": 21.56,
+            "color": "#294239",
+            "fontWeight": 700,
+            "fontFamily": "Inter",
+            "lineHeight": 1.14,
+            "groupId": "product-1"
+          },
+          {
+            "id": "price-1",
+            "type": "text",
+            "role": "content",
+            "text": "$32",
+            "x": 158.20246601226992,
+            "y": 668.6193865030674,
+            "width": 186.4049079754601,
+            "height": 23.300613496932513,
+            "fontSize": 18.76,
+            "color": "#294239",
+            "fontWeight": 500,
+            "fontFamily": "Inter",
+            "lineHeight": 1.14,
+            "groupId": "product-1"
+          },
+          {
+            "id": "product-2",
+            "type": "image",
+            "role": "content",
+            "assetId": "product",
+            "x": 158.20246601226995,
+            "y": 715.3199999999999,
+            "width": 186.4049079754601,
+            "height": 228.34601226993863,
+            "fit": "contain",
+            "focalPoint": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "groupId": "product-2"
+          },
+          {
+            "id": "label-2",
+            "type": "text",
+            "role": "content",
+            "text": "The everywhere bag",
+            "x": 158.20246601226995,
+            "y": 960.44245398773,
+            "width": 186.4049079754601,
+            "height": 26.562699386503063,
+            "fontSize": 18.57,
+            "color": "#294239",
+            "fontWeight": 700,
+            "fontFamily": "Inter",
+            "lineHeight": 1.14,
+            "groupId": "product-2"
+          },
+          {
+            "id": "price-2",
+            "type": "text",
+            "role": "content",
+            "text": "$38",
+            "x": 158.20246601226995,
+            "y": 995.8593865030674,
+            "width": 186.4049079754601,
+            "height": 23.300613496932513,
+            "fontSize": 18.76,
+            "color": "#294239",
+            "fontWeight": 500,
+            "fontFamily": "Inter",
+            "lineHeight": 1.14,
+            "groupId": "product-2"
+          },
+          {
+            "id": "footer",
+            "type": "text",
+            "role": "content",
+            "text": "THOUGHTFULLY MADE. READY TO GO.",
+            "x": 478.47384,
+            "y": 643.7481081081081,
+            "width": 396.68616,
+            "height": 375.41189189189186,
+            "fontSize": 28.07,
+            "color": "#294239",
+            "fontWeight": 500,
+            "fontFamily": "Inter",
+            "lineHeight": 1.14
+          }
+        ],
+        "groups": [
+          {
+            "id": "product-0",
+            "label": "product 0"
+          },
+          {
+            "id": "product-1",
+            "label": "product 1"
+          },
+          {
+            "id": "product-2",
+            "label": "product 2"
+          }
+        ]
+      },
+      "metrics": {
+        "errors": 0,
+        "warnings": 6,
+        "minReadingSize": 7.142307692307692,
+        "contentCoverage": 0.5207824624748623,
+        "findings": [
+          {
+            "kind": "small-text",
+            "severity": "warning",
+            "elementIds": [
+              "label-0"
+            ],
+            "message": "label-0 reads at 8.4px on a 360px short edge."
+          },
+          {
+            "kind": "small-text",
+            "severity": "warning",
+            "elementIds": [
+              "price-0"
+            ],
+            "message": "price-0 reads at 7.2px on a 360px short edge."
+          },
+          {
+            "kind": "small-text",
+            "severity": "warning",
+            "elementIds": [
+              "label-1"
+            ],
+            "message": "label-1 reads at 8.3px on a 360px short edge."
+          },
+          {
+            "kind": "small-text",
+            "severity": "warning",
+            "elementIds": [
+              "price-1"
+            ],
+            "message": "price-1 reads at 7.2px on a 360px short edge."
+          },
+          {
+            "kind": "small-text",
+            "severity": "warning",
+            "elementIds": [
+              "label-2"
+            ],
+            "message": "label-2 reads at 7.1px on a 360px short edge."
+          },
+          {
+            "kind": "small-text",
+            "severity": "warning",
+            "elementIds": [
+              "price-2"
+            ],
+            "message": "price-2 reads at 7.2px on a 360px short edge."
+          }
+        ]
+      }
+    }
+  ],
+  "elapsedMs": 104.84404199999994
+}

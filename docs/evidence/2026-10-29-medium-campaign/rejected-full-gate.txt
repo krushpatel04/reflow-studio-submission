@@ -1,0 +1,32 @@
+Rejected first candidate composition 1a83391cb61e5e8b5ac86945f2fbd5483b1cc487c23ac51c585124df1993b462.
+Extract from root reports/viewer-efficiency-2026-10-29/python-rejected-candidate.txt; three failures in 551-test gate.
+
+FAIL: test_larger_format_retains_the_rigid_group_fallback (tests_python.test_group_scale.L3GroupScale.test_larger_format_retains_the_rigid_group_fallback)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_group_scale.py", line 72, in test_larger_format_retains_the_rigid_group_fallback
+    self.assertAlmostEqual(e['height']/old['height'],k)
+AssertionError: 0.9148828125 != 0.7241379310344828 within 7 places (0.19074488146551727 difference)
+
+======================================================================
+FAIL: test_wrapped_headline_box_is_padded_width_and_text_inside (tests_python.test_text_fit.WrapCapPadding.test_wrapped_headline_box_is_padded_width_and_text_inside) [headline]
+Reviewer (b): on the real wrapped case the BOX width is <= tw-2 and the measured text fits inside it (not only font >= 6).
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_text_fit.py", line 560, in test_wrapped_headline_box_is_padded_width_and_text_inside
+    self.assertFalse(overflow(e), f"{e['id']} measured text overflows its box")
+AssertionError: True is not false : headline measured text overflows its box
+
+======================================================================
+FAIL: test_wrapped_headline_box_is_padded_width_and_text_inside (tests_python.test_text_fit.WrapCapPadding.test_wrapped_headline_box_is_padded_width_and_text_inside) [subhead]
+Reviewer (b): on the real wrapped case the BOX width is <= tw-2 and the measured text fits inside it (not only font >= 6).
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow/reports/chameleon-finish-2026-10-27/work/tests_python/test_text_fit.py", line 560, in test_wrapped_headline_box_is_padded_width_and_text_inside
+    self.assertFalse(overflow(e), f"{e['id']} measured text overflows its box")
+AssertionError: True is not false : subhead measured text overflows its box
+
+----------------------------------------------------------------------
+Ran 551 tests in 214.045s
+
+FAILED (failures=3)

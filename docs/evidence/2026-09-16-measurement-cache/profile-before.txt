@@ -1,0 +1,24 @@
+import { reflow } from '../../src/engine';
+import { FIXTURES } from '../../src/fixtures';
+import { measure } from '../../scripts/native';
+import { writeFileSync } from 'node:fs';
+import type { TextElement } from '../../src/model';
+const template = FIXTURES[0].elements.find(e => e.type === 'text')!;
+const dense = structuredClone(FIXTURES[0]);
+dense.groups = [];
+dense.elements = Array.from({length: 100}, (_, i) => ({...template, id: `text-${i}`, groupId: undefined, text: 'Approved customer information and pricing '.repeat(25), x: 0, y: i * 10, width: 1000, height: 8, fontSize: 5}));
+const rows = [];
+for (const source of [FIXTURES[0], dense]) {
+ const seen = new WeakMap<TextElement, Set<string>>();
+ let calls = 0, repeats = 0, nativeMs = 0;
+ const target = source === dense ? {id: 'stress', label: 'Stress', width: 200, height: 2000} : {id: 'story', label:'Story', width:1080, height:1920};
+ const started = performance.now();
+ const result = reflow(source, target, (text, e) => {
+  calls++; let texts = seen.get(e); if (!texts) seen.set(e, texts = new Set());
+  if (texts.has(text)) repeats++; texts.add(text);
+  const start = performance.now(); const metrics = measure(text,e); nativeMs += performance.now() - start; return metrics;
+ });
+ const row = {elements:source.elements.length, calls, repeats, repeatFraction: repeats/calls, nativeMs, instrumentedMs:performance.now()-started, selected:result.selected.strategy};
+ rows.push(row); console.log(JSON.stringify(row));
+}
+writeFileSync('reports/measurement-cache/profile-before.json', JSON.stringify({base:'0757de5',rows},null,2));

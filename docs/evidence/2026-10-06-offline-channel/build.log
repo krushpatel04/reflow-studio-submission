@@ -1,0 +1,200 @@
+STEP 1/11: FROM --platform=linux/amd64 python:3.11-slim@sha256:e529028263dbe6910a2d96f7d2b8f5266385e917fd45d286ef166977c094a51e
+STEP 2/11: WORKDIR /app
+--> Using cache e12394f96ae4408b7cb251dc2578f79a4a6202d102e994ef73f3ef24c9596d88
+--> e12394f96ae4
+STEP 3/11: RUN apt-get update && apt-get install -y --no-install-recommends     git     libgl1     libegl1     libglib2.0-0     fontconfig     && rm -rf /var/lib/apt/lists/*
+--> Using cache a3b4df879900389471968ee21ea3a1f36ad0b2021dfc81d9bda1a0323706b908
+--> a3b4df879900
+STEP 4/11: COPY requirements-python-submission.txt constraints-python-submission.txt ./
+--> 6d32e75bc5b9
+STEP 5/11: RUN pip install --no-cache-dir -c constraints-python-submission.txt -r requirements-python-submission.txt
+Collecting git+https://github.com/CyberAgentAILab/cr-renderer@a17e1fb9a732959dd6c21ae168d5ee09d74bd64f (from -r requirements-python-submission.txt (line 7))
+  Cloning https://github.com/CyberAgentAILab/cr-renderer (to revision a17e1fb9a732959dd6c21ae168d5ee09d74bd64f) to /tmp/pip-req-build-x_t3aq38
+  Running command git clone --filter=blob:none --quiet https://github.com/CyberAgentAILab/cr-renderer /tmp/pip-req-build-x_t3aq38
+  Running command git rev-parse -q --verify 'sha^a17e1fb9a732959dd6c21ae168d5ee09d74bd64f'
+  Running command git fetch -q https://github.com/CyberAgentAILab/cr-renderer a17e1fb9a732959dd6c21ae168d5ee09d74bd64f
+  Resolved https://github.com/CyberAgentAILab/cr-renderer to commit a17e1fb9a732959dd6c21ae168d5ee09d74bd64f
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting Pillow==12.3.0 (from -r requirements-python-submission.txt (line 6))
+  Downloading pillow-12.3.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+Collecting datasets>=2.14.0 (from datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading datasets-5.1.0-py3-none-any.whl.metadata (24 kB)
+Collecting pydantic>=2.5.2 (from cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading pydantic-2.13.5-py3-none-any.whl.metadata (110 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 110.2/110.2 kB 4.1 MB/s eta 0:00:00
+Collecting skia-python>=120.0b5 (from cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading skia_python-144.0.post2-cp311-cp311-manylinux_2_28_x86_64.whl.metadata (5.5 kB)
+Collecting filelock (from datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading filelock-4.0.12-py3-none-any.whl.metadata (2.0 kB)
+Collecting numpy>=1.17 (from datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading numpy-2.4.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+Collecting pyarrow>=24.0.0 (from datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading pyarrow-25.0.1-cp311-cp311-manylinux_2_28_x86_64.whl.metadata (3.0 kB)
+Collecting dill<0.4.2,>=0.3.0 (from datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading dill-0.4.1-py3-none-any.whl.metadata (10 kB)
+Collecting pandas (from datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading pandas-3.0.6-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (79 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.5/79.5 kB 35.2 MB/s eta 0:00:00
+Collecting tqdm>=4.66.3 (from datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.4/57.4 kB 30.2 MB/s eta 0:00:00
+Collecting xxhash (from datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading xxhash-4.0.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (17 kB)
+Collecting multiprocess<0.70.20 (from datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading multiprocess-0.70.19-py311-none-any.whl.metadata (7.5 kB)
+Collecting fsspec<=2026.7.0,>=2023.1.0 (from fsspec[http]<=2026.7.0,>=2023.1.0->datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading fsspec-2026.7.0-py3-none-any.whl.metadata (10 kB)
+Collecting huggingface-hub<3.0,>=1.31.0 (from datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading huggingface_hub-2.1.1-py3-none-any.whl.metadata (16 kB)
+Requirement already satisfied: packaging in /usr/local/lib/python3.11/site-packages (from datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7)) (26.3)
+Collecting pyyaml>=5.1 (from datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+Collecting annotated-types>=0.6.0 (from pydantic>=2.5.2->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.46.5 (from pydantic>=2.5.2->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading pydantic_core-2.46.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+Collecting typing-extensions>=4.14.1 (from pydantic>=2.5.2->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting typing-inspection>=0.4.2 (from pydantic>=2.5.2->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading typing_inspection-0.4.4-py3-none-any.whl.metadata (2.6 kB)
+Collecting pybind11>=2.6 (from skia-python>=120.0b5->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading pybind11-3.1.0-py3-none-any.whl.metadata (10 kB)
+Collecting aiohttp!=4.0.0a0,!=4.0.0a1 (from fsspec[http]<=2026.7.0,>=2023.1.0->datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading aiohttp-3.14.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (8.3 kB)
+Collecting click<9.0.0,>=8.4.2 (from huggingface-hub<3.0,>=1.31.0->datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting hf-xet<2.0.0,>=1.6.0 (from huggingface-hub<3.0,>=1.31.0->datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading hf_xet-1.6.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (4.9 kB)
+Collecting httpx2<3,>=2.0.0 (from huggingface-hub<3.0,>=1.31.0->datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading httpx2-2.13.1-py3-none-any.whl.metadata (9.8 kB)
+Collecting python-dateutil>=2.8.2 (from pandas->datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting aiohappyeyeballs>=2.5.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.7.0,>=2023.1.0->datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading aiohappyeyeballs-2.7.1-py3-none-any.whl.metadata (5.9 kB)
+Collecting aiosignal>=1.4.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.7.0,>=2023.1.0->datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading aiosignal-1.4.0-py3-none-any.whl.metadata (3.7 kB)
+Collecting attrs>=17.3.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.7.0,>=2023.1.0->datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting frozenlist>=1.1.1 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.7.0,>=2023.1.0->datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading frozenlist-1.8.0-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (20 kB)
+Collecting multidict<7.0,>=4.5 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.7.0,>=2023.1.0->datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading multidict-6.9.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (5.3 kB)
+Collecting propcache>=0.2.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.7.0,>=2023.1.0->datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading propcache-0.5.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (25 kB)
+Collecting yarl<2.0,>=1.25.1 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.7.0,>=2023.1.0->datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading yarl-1.25.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (111 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 111.6/111.6 kB 12.5 MB/s eta 0:00:00
+Collecting anyio>=4.10 (from httpx2<3,>=2.0.0->huggingface-hub<3.0,>=1.31.0->datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+Collecting httpcore2==2.13.1 (from httpx2<3,>=2.0.0->huggingface-hub<3.0,>=1.31.0->datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading httpcore2-2.13.1-py3-none-any.whl.metadata (26 kB)
+Collecting idna>=3.18 (from httpx2<3,>=2.0.0->huggingface-hub<3.0,>=1.31.0->datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+Collecting truststore>=0.10 (from httpx2<3,>=2.0.0->huggingface-hub<3.0,>=1.31.0->datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading truststore-0.10.4-py3-none-any.whl.metadata (4.4 kB)
+Collecting h11>=0.16 (from httpcore2==2.13.1->httpx2<3,>=2.0.0->huggingface-hub<3.0,>=1.31.0->datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas->datasets>=2.14.0->datasets[vision]>=2.14.0->cr-renderer==0.1.0->-r requirements-python-submission.txt (line 7))
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Downloading pillow-12.3.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 70.7 MB/s eta 0:00:00
+Downloading datasets-5.1.0-py3-none-any.whl (604 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 604.4/604.4 kB 241.3 MB/s eta 0:00:00
+Downloading pydantic-2.13.5-py3-none-any.whl (472 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 472.6/472.6 kB 237.3 MB/s eta 0:00:00
+Downloading pydantic_core-2.46.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 205.1 MB/s eta 0:00:00
+Downloading skia_python-144.0.post2-cp311-cp311-manylinux_2_28_x86_64.whl (14.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.4/14.4 MB 233.5 MB/s eta 0:00:00
+Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+Downloading dill-0.4.1-py3-none-any.whl (120 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 120.0/120.0 kB 451.8 MB/s eta 0:00:00
+Downloading fsspec-2026.7.0-py3-none-any.whl (206 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 206.6/206.6 kB 315.7 MB/s eta 0:00:00
+Downloading huggingface_hub-2.1.1-py3-none-any.whl (838 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 838.0/838.0 kB 160.8 MB/s eta 0:00:00
+Downloading filelock-4.0.12-py3-none-any.whl (111 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 111.7/111.7 kB 737.1 MB/s eta 0:00:00
+Downloading multiprocess-0.70.19-py311-none-any.whl (144 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 144.5/144.5 kB 427.1 MB/s eta 0:00:00
+Downloading numpy-2.4.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.9/16.9 MB 223.4 MB/s eta 0:00:00
+Downloading pyarrow-25.0.1-cp311-cp311-manylinux_2_28_x86_64.whl (50.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.1/50.1 MB 170.3 MB/s eta 0:00:00
+Downloading pybind11-3.1.0-py3-none-any.whl (319 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 319.4/319.4 kB 297.8 MB/s eta 0:00:00
+Downloading pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (806 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 806.6/806.6 kB 183.1 MB/s eta 0:00:00
+Downloading tqdm-4.70.1-py3-none-any.whl (80 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 80.2/80.2 kB 714.7 MB/s eta 0:00:00
+Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.6/45.6 kB 366.9 MB/s eta 0:00:00
+Downloading typing_inspection-0.4.4-py3-none-any.whl (14 kB)
+Downloading pandas-3.0.6-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (11.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.1/11.1 MB 210.5 MB/s eta 0:00:00
+Downloading xxhash-4.0.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (261 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 261.0/261.0 kB 206.4 MB/s eta 0:00:00
+Downloading aiohttp-3.14.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 182.0 MB/s eta 0:00:00
+Downloading click-8.5.0-py3-none-any.whl (125 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 125.3/125.3 kB 240.2 MB/s eta 0:00:00
+Downloading hf_xet-1.6.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 193.4 MB/s eta 0:00:00
+Downloading httpx2-2.13.1-py3-none-any.whl (95 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 95.6/95.6 kB 573.1 MB/s eta 0:00:00
+Downloading httpcore2-2.13.1-py3-none-any.whl (83 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 83.4/83.4 kB 133.9 MB/s eta 0:00:00
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 kB 243.6 MB/s eta 0:00:00
+Downloading aiohappyeyeballs-2.7.1-py3-none-any.whl (15 kB)
+Downloading aiosignal-1.4.0-py3-none-any.whl (7.5 kB)
+Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 132.1/132.1 kB 310.2 MB/s eta 0:00:00
+Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.5/67.5 kB 599.4 MB/s eta 0:00:00
+Downloading frozenlist-1.8.0-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (231 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 231.1/231.1 kB 336.8 MB/s eta 0:00:00
+Downloading idna-3.20-py3-none-any.whl (69 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 69.6/69.6 kB 71.3 MB/s eta 0:00:00
+Downloading multidict-6.9.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (320 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 320.7/320.7 kB 293.0 MB/s eta 0:00:00
+Downloading propcache-0.5.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (235 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 235.4/235.4 kB 116.1 MB/s eta 0:00:00
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading truststore-0.10.4-py3-none-any.whl (18 kB)
+Downloading yarl-1.25.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (117 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.7/117.7 kB 533.6 MB/s eta 0:00:00
+Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Building wheels for collected packages: cr-renderer
+  Building wheel for cr-renderer (pyproject.toml): started
+  Building wheel for cr-renderer (pyproject.toml): finished with status 'done'
+  Created wheel for cr-renderer: filename=cr_renderer-0.1.0-py3-none-any.whl size=15948 sha256=88ee2702fad3dcc06cedf0a8a165ef5a819f3911726d094916249adf84932465
+  Stored in directory: /tmp/pip-ephem-wheel-cache-81ydrngc/wheels/03/02/8b/62bed863035025f5988855eb4ea9e4e155393fd2695bf0cd4f
+Successfully built cr-renderer
+Installing collected packages: xxhash, typing-extensions, truststore, tqdm, six, pyyaml, pybind11, pyarrow, propcache, Pillow, numpy, multidict, idna, hf-xet, h11, fsspec, frozenlist, filelock, dill, click, attrs, annotated-types, aiohappyeyeballs, yarl, typing-inspection, skia-python, python-dateutil, pydantic-core, multiprocess, httpcore2, anyio, aiosignal, pydantic, pandas, httpx2, aiohttp, huggingface-hub, datasets, cr-renderer
+Successfully installed Pillow-12.3.0 aiohappyeyeballs-2.7.1 aiohttp-3.14.4 aiosignal-1.4.0 annotated-types-0.8.0 anyio-4.15.1 attrs-26.1.0 click-8.5.0 cr-renderer-0.1.0 datasets-5.1.0 dill-0.4.1 filelock-4.0.12 frozenlist-1.8.0 fsspec-2026.7.0 h11-0.16.0 hf-xet-1.6.0 httpcore2-2.13.1 httpx2-2.13.1 huggingface-hub-2.1.1 idna-3.20 multidict-6.9.1 multiprocess-0.70.19 numpy-2.4.6 pandas-3.0.6 propcache-0.5.4 pyarrow-25.0.1 pybind11-3.1.0 pydantic-2.13.5 pydantic-core-2.46.5 python-dateutil-2.9.0.post0 pyyaml-6.0.3 six-1.17.0 skia-python-144.0.post2 tqdm-4.70.1 truststore-0.10.4 typing-extensions-4.16.0 typing-inspection-0.4.4 xxhash-4.0.1 yarl-1.25.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+
+[notice] A new release of pip is available: 24.0 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+--> 19a03c1b8ad2
+STEP 6/11: COPY chameleon_design_schema_v0.9.json ./
+--> 424716788549
+STEP 7/11: COPY brand_kit/ ./brand_kit/
+--> 09761f8d5d7b
+STEP 8/11: COPY renderer/ ./renderer/
+--> ae8bf12aebec
+STEP 9/11: COPY engine/ ./engine/
+--> f212db7c7137
+STEP 10/11: RUN mkdir -p /app/input /app/output
+--> be8f1601a34a
+STEP 11/11: ENTRYPOINT ["python", "-m", "engine.main"]
+COMMIT offline-ch
+--> 11ac215ca519
+Successfully tagged localhost/offline-ch:latest
+11ac215ca519f2060c03637ef38bdd4b7a72478d3aaf7208d57dd7a8a6fed3bc

@@ -1,0 +1,23 @@
+BASELINE ENGINE /tmp/reflow-two-hour-A-baseline/engine/text_fit.py
+test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink (tests_python.test_extreme_composition.RenderedFloor.test_four_rows_render_the_six_pixel_ink_not_the_five_pixel_ink) ... ok
+test_small_legal_copy_renders_at_floor (tests_python.test_extreme_composition.RenderedFloor.test_small_legal_copy_renders_at_floor) ... FAIL
+
+======================================================================
+FAIL: test_small_legal_copy_renders_at_floor (tests_python.test_extreme_composition.RenderedFloor.test_small_legal_copy_renders_at_floor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ojeda/Documents/ChatGPT/Reflow-sprint-20261015/A/tests_python/test_extreme_composition.py", line 153, in test_small_legal_copy_renders_at_floor
+    self.assertEqual((r["lost_px"], r["overflow"]), (0, False))
+AssertionError: Tuples differ: (84, True) != (0, False)
+
+First differing element 0:
+84
+0
+
+- (84, True)
++ (0, False)
+
+----------------------------------------------------------------------
+Ran 2 tests in 7.549s
+
+FAILED (failures=1)

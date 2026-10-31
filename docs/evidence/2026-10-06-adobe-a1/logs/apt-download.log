@@ -1,0 +1,7 @@
+Get:1 http://us.archive.ubuntu.com/ubuntu resolute/main amd64 libegl1 amd64 1.7.0-3 [29.7 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu resolute/main amd64 libfontconfig1 amd64 2.17.1-3ubuntu1 [144 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu resolute/main amd64 libgl1 amd64 1.7.0-3 [98.3 kB]
+Get:4 http://us.archive.ubuntu.com/ubuntu resolute/main amd64 libglvnd0 amd64 1.7.0-3 [64.1 kB]
+Get:5 http://us.archive.ubuntu.com/ubuntu resolute/main amd64 libglx0 amd64 1.7.0-3 [38.9 kB]
+Get:6 http://us.archive.ubuntu.com/ubuntu resolute/main amd64 libopengl0 amd64 1.7.0-3 [32.8 kB]
+Fetched 408 kB in 0s (917 kB/s)

@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "product-pairs",
+  "name": "Small batch, good things",
+  "description": "Three product and label groups should remain associated across formats.",
+  "provenance": "synthetic",
+  "width": 1440,
+  "height": 1080,
+  "background": "#f5eee3",
+  "elements": [
+    {
+      "id": "headline",
+      "type": "text",
+      "role": "content",
+      "text": "Made for everyday.",
+      "x": 70,
+      "y": 70,
+      "width": 1300,
+      "height": 155,
+      "fontSize": 99,
+      "color": "#294239",
+      "fontWeight": 600,
+      "fontFamily": "Source Serif 4",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "product-0",
+      "type": "image",
+      "role": "content",
+      "assetId": "product",
+      "x": 70,
+      "y": 280,
+      "width": 400,
+      "height": 490,
+      "fit": "contain",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "groupId": "product-0"
+    },
+    {
+      "id": "label-0",
+      "type": "text",
+      "role": "content",
+      "text": "The market bag",
+      "x": 70,
+      "y": 806,
+      "width": 400,
+      "height": 57,
+      "fontSize": 31,
+      "color": "#294239",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "product-0"
+    },
+    {
+      "id": "price-0",
+      "type": "text",
+      "role": "content",
+      "text": "$24",
+      "x": 70,
+      "y": 882,
+      "width": 400,
+      "height": 50,
+      "fontSize": 33,
+      "color": "#294239",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "product-0"
+    },
+    {
+      "id": "product-1",
+      "type": "image",
+      "role": "content",
+      "assetId": "product",
+      "x": 520,
+      "y": 280,
+      "width": 400,
+      "height": 490,
+      "fit": "contain",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "groupId": "product-1"
+    },
+    {
+      "id": "label-1",
+      "type": "text",
+      "role": "content",
+      "text": "The weekend bag",
+      "x": 520,
+      "y": 806,
+      "width": 400,
+      "height": 57,
+      "fontSize": 31,
+      "color": "#294239",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "product-1"
+    },
+    {
+      "id": "price-1",
+      "type": "text",
+      "role": "content",
+      "text": "$32",
+      "x": 520,
+      "y": 882,
+      "width": 400,
+      "height": 50,
+      "fontSize": 33,
+      "color": "#294239",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "product-1"
+    },
+    {
+      "id": "product-2",
+      "type": "image",
+      "role": "content",
+      "assetId": "product",
+      "x": 970,
+      "y": 280,
+      "width": 400,
+      "height": 490,
+      "fit": "contain",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "groupId": "product-2"
+    },
+    {
+      "id": "label-2",
+      "type": "text",
+      "role": "content",
+      "text": "The everywhere bag",
+      "x": 970,
+      "y": 806,
+      "width": 400,
+      "height": 57,
+      "fontSize": 31,
+      "color": "#294239",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "product-2"
+    },
+    {
+      "id": "price-2",
+      "type": "text",
+      "role": "content",
+      "text": "$38",
+      "x": 970,
+      "y": 882,
+      "width": 400,
+      "height": 50,
+      "fontSize": 33,
+      "color": "#294239",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "product-2"
+    },
+    {
+      "id": "footer",
+      "type": "text",
+      "role": "content",
+      "text": "THOUGHTFULLY MADE. READY TO GO.",
+      "x": 70,
+      "y": 982,
+      "width": 1300,
+      "height": 54,
+      "fontSize": 27,
+      "color": "#294239",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    }
+  ],
+  "groups": [
+    {
+      "id": "product-0",
+      "label": "product 0"
+    },
+    {
+      "id": "product-1",
+      "label": "product 1"
+    },
+    {
+      "id": "product-2",
+      "label": "product 2"
+    }
+  ]
+}

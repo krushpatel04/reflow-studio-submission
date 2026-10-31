@@ -1,0 +1,57 @@
+{
+  "canvas": {
+    "width": 1000,
+    "height": 60
+  },
+  "elements": [
+    {
+      "id": "bg",
+      "type": "shape",
+      "shape_type": "rectangle",
+      "x": 0,
+      "y": 0,
+      "width": 1000,
+      "height": 60,
+      "fill_color": "rgba(255,255,255,1)"
+    },
+    {
+      "id": "h",
+      "type": "text",
+      "x": 0.0,
+      "y": 0.0,
+      "width": 626.0,
+      "height": 33.05988172800001,
+      "content": "A rather long headline for a tiny strip banner",
+      "font_family": "Solstice Serif",
+      "font_size": 27.549901440000006,
+      "font_weight": "bold",
+      "color": "rgba(0,0,0,1)"
+    },
+    {
+      "id": "s",
+      "type": "text",
+      "x": 628.0,
+      "y": 0.0,
+      "width": 240.0,
+      "height": 18.596183472000003,
+      "content": "Subline that also has to survive",
+      "font_family": "Solstice Sans",
+      "font_size": 15.496819560000004,
+      "color": "rgba(0,0,0,1)"
+    },
+    {
+      "id": "c",
+      "type": "text",
+      "x": 870.912454201085,
+      "y": 5.589917172978,
+      "width": 93.0,
+      "height": 20.662426080000007,
+      "content": "Shop now",
+      "font_family": "Solstice Sans",
+      "font_size": 17.218688400000005,
+      "font_weight": "bold",
+      "color": "rgba(0,0,0,1)",
+      "rotation": 7
+    }
+  ]
+}

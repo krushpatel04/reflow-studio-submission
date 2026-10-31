@@ -1,0 +1,32 @@
+{
+  "reviewer": "C",
+  "utc": "2026-10-20T16:50:59.449736+00:00",
+  "source": "24ba026133ee4d05ae4b3444adab38d30e82309d",
+  "base": "b7e8eab86df265580fa3ffab9ccda335ee8f6ef3",
+  "scope": "Independent static source/method/criterion review; no duplicate execution",
+  "decision": "NO_BLOCKING_FINDINGS_IN_CLASSIFIER_AND_REPORT_ACCOUNTING_SLICE; full validation and publication pending",
+  "sourceHashes": {
+    "scripts/submission_workload_profile.py": "a1480fdafdec0753aca7724b46037363c50fc5c9ae9345d89dfaf1ca787a3145",
+    "scripts/workload_phase_probe.py": "8737cba5a400102abac788c8198d5073c09ac28dc45c790925aee4b9a6b84aa3",
+    "tests_python/test_submission_workload_profile.py": "5808ca874f4dd3acfa7671bd38ec44a3684cd0219b15e232c8ab2ea31d329833",
+    "docs/plans/astra12-b-20261020.md": "23d1ca243c5af6e0742bdc52a063908cd8079d6484e138818b9e717aa56ace1d"
+  },
+  "reviewed": [
+    "Full live issue8 body and5 comments; all17 checklist criteria plus named human handoff retained in plan",
+    "Full baseline-to-candidate port and exact8c72dda-to-candidate delta; phase probe unchanged from historical candidate",
+    "Condition-specific ordinary-stream regexes reject generic Fontconfig warning and wrong diagnostic condition; probe findings cannot satisfy ordinary-visible finding",
+    "Unfinished invocation cannot classify successful evidence; bounded timeout remains distinct",
+    "Complete multiset comparison catches dropped/invented/duplicate behavioral findings rather than comparing nonempty booleans",
+    "Existing total-budget/unattempted denominator, container identity/limits/cleanup and output-equivalence checks retained",
+    "RED log16methods with16failed assertions/subtests and Python3.11GREEN16pass observed, no import/setup failure used as behavioral evidence",
+    "Historical reevaluation retains3dense100pairs/6timeout invocations, missing-assets silent-success now exposed, no new execution claim"
+  ],
+  "remaining": [
+    "Root-serialized full Python/npm/build results and independent evidence readback",
+    "Fresh current image runtime qualification is separate; historical source/image receipts are not current execution",
+    "Missing-asset ordinary reporting and6dense100timeouts remain engine behavior gaps",
+    "Krush actual clean-machine reproduction and Junho actual font/render verification remain human gates",
+    "Official/native/runtime/model conditions and full issue8 original criteria remain open"
+  ],
+  "issue8Done": false
+}

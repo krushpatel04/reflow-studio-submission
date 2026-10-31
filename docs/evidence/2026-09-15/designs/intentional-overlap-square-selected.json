@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "intentional-overlap",
+  "name": "Designed to overlap",
+  "description": "Text intentionally overlays artwork; that overlap should not be scored as a collision.",
+  "provenance": "synthetic",
+  "width": 1080,
+  "height": 1080,
+  "background": "#f7f3e9",
+  "elements": [
+    {
+      "id": "hero",
+      "type": "image",
+      "role": "content",
+      "assetId": "landscape",
+      "x": 127.44041210090167,
+      "y": 70.2,
+      "width": 825.1191757981967,
+      "height": 726.2767745307044,
+      "fit": "cover",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "groupId": "hero-composition"
+    },
+    {
+      "id": "title-panel",
+      "type": "rect",
+      "role": "content",
+      "x": 160.10137947624696,
+      "y": 456.9746136554047,
+      "width": 721.9792788234221,
+      "height": 245.8167544565461,
+      "color": "#f7f3e9",
+      "groupId": "hero-composition",
+      "radius": 12.032987980390368
+    },
+    {
+      "id": "headline",
+      "type": "text",
+      "role": "content",
+      "text": "Find your\noutside.",
+      "x": 189.3243502857664,
+      "y": 491.35457931366295,
+      "width": 657.516843214188,
+      "height": 190.808809403333,
+      "fontSize": 78.85,
+      "color": "#22394b",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "hero-composition"
+    },
+    {
+      "id": "description",
+      "type": "text",
+      "role": "content",
+      "text": "A walk, a sketchbook,\nand a different perspective.",
+      "x": 70.2,
+      "y": 823.4767745307045,
+      "width": 939.6,
+      "height": 104.31528041608256,
+      "fontSize": 43.11,
+      "color": "#22394b",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "footer",
+      "type": "text",
+      "role": "content",
+      "text": "SUNDAY 09:00 · MEET AT THE NORTH GATE",
+      "x": 70.2,
+      "y": 954.792054946787,
+      "width": 939.6,
+      "height": 55.00794505321311,
+      "fontSize": 35.99,
+      "color": "#22394b",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    }
+  ],
+  "groups": [
+    {
+      "id": "hero-composition",
+      "label": "hero composition"
+    }
+  ]
+}

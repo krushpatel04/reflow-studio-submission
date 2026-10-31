@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "intentional-overlap",
+  "name": "Designed to overlap",
+  "description": "Text intentionally overlays artwork; that overlap should not be scored as a collision.",
+  "provenance": "synthetic",
+  "width": 1080,
+  "height": 1920,
+  "background": "#f7f3e9",
+  "elements": [
+    {
+      "id": "hero",
+      "type": "image",
+      "role": "content",
+      "assetId": "landscape",
+      "x": 60,
+      "y": 350,
+      "width": 960,
+      "height": 845,
+      "fit": "cover",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "groupId": "hero-composition"
+    },
+    {
+      "id": "title-panel",
+      "type": "rect",
+      "role": "content",
+      "x": 98,
+      "y": 800,
+      "width": 840,
+      "height": 286,
+      "color": "#f7f3e9",
+      "groupId": "hero-composition",
+      "radius": 14
+    },
+    {
+      "id": "headline",
+      "type": "text",
+      "role": "content",
+      "text": "Find your\noutside.",
+      "x": 132,
+      "y": 840,
+      "width": 765,
+      "height": 222,
+      "fontSize": 89,
+      "color": "#22394b",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14,
+      "groupId": "hero-composition"
+    },
+    {
+      "id": "description",
+      "type": "text",
+      "role": "content",
+      "text": "A walk, a sketchbook,\nand a different perspective.",
+      "x": 72,
+      "y": 1265,
+      "width": 936,
+      "height": 142,
+      "fontSize": 43,
+      "color": "#22394b",
+      "fontWeight": 500,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    },
+    {
+      "id": "footer",
+      "type": "text",
+      "role": "content",
+      "text": "SUNDAY 09:00 · MEET AT THE NORTH GATE",
+      "x": 72,
+      "y": 1475,
+      "width": 936,
+      "height": 73,
+      "fontSize": 30,
+      "color": "#22394b",
+      "fontWeight": 700,
+      "fontFamily": "Inter",
+      "lineHeight": 1.14
+    }
+  ],
+  "groups": [
+    {
+      "id": "hero-composition",
+      "label": "hero composition"
+    }
+  ]
+}

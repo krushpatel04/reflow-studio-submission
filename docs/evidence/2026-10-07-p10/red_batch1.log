@@ -1,0 +1,16 @@
+..................../home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py:368: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/evidence/2026-10-07-p8/run3/C1_l3_120x600_input.json' mode='r' encoding='UTF-8'>
+  c1 = json.load(open('docs/evidence/2026-10-07-p8/run3/C1_l3_120x600_input.json'))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+F...
+======================================================================
+FAIL: test_c1_badge2_and_c3b_cta_raised_to_floor (tests_python.test_text_fit.SubFloorLabelRaise.test_c1_badge2_and_c3b_cta_raised_to_floor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-3/workspace/reflow-studio/tests_python/test_text_fit.py", line 371, in test_c1_badge2_and_c3b_cta_raised_to_floor
+    self.assertEqual(b2['font_size'], FLOOR)
+AssertionError: 4.860000000000001 != 6.0
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.827s
+
+FAILED (failures=1)

@@ -1,0 +1,43 @@
+import { writeFileSync } from 'node:fs';
+import { reflow } from '../src/engine';
+import { rankingTerms } from '../src/ranking';
+import { FIXTURES } from '../src/fixtures';
+import { RANKING_VALIDATION } from '../tests/support/ranking-designs';
+import { productShelf, longHeadlineProductShelf } from '../tests/support/product-designs';
+import { measure } from '../scripts/native';
+import type { Design } from '../src/model';
+
+const sources = [...FIXTURES, ...RANKING_VALIDATION, productShelf(), longHeadlineProductShelf()];
+const movement = (a: Design, b: Design) => Math.max(...a.elements.map(e => {
+  const f = b.elements.find(x => x.id === e.id)!;
+  return Math.hypot((e.x + e.width / 2) / a.width - (f.x + f.width / 2) / b.width,
+    (e.y + e.height / 2) / a.height - (f.y + f.height / 2) / b.height);
+}));
+const at = (s: Design, w: number, h: number) => {
+  const r = reflow(s, { id: 'sweep', label: 'Sweep', width: w, height: h }, measure);
+  return { source: s.id, width: w, height: h, selected: r.selected.strategy, elapsedMs: r.elapsedMs,
+    candidates: r.candidates.map(c => ({ strategy: c.strategy, errors: c.metrics.errors, warnings: c.metrics.warnings,
+      minReadingSize: c.metrics.minReadingSize, score: rankingTerms(s, c.design).score,
+      movementFromSource: movement(s, c.design), imageArea: c.design.elements.filter(e => e.type === 'image').map(e => ({ id: e.id, fraction: e.width * e.height / (w * h) })) })) };
+};
+const rows = [];
+for (const s of sources) {
+  for (const d of [-8,-2,-1,1,2,8]) rows.push(at(s,s.width+d,s.height));
+  for (const [w,h] of [[1080,1080],[1080,1920],[1920,1080],[2200,500],[500,2200]]) rows.push(at(s,w,h));
+}
+for (const s of [productShelf(),longHeadlineProductShelf()]) {
+  for (const h of [864,865,999,1000,1001,1249,1250,1251,1349,1350,1351]) {
+    for (const w of [1080,1079,1081]) rows.push(at(s,w,h));
+  }
+}
+const transitions = [];
+for (const s of [productShelf(),longHeadlineProductShelf(),FIXTURES.find(x => x.id === 'product-pairs')!]) {
+  for (const h of [1080,1350,1920]) {
+    let prev = at(s,600,h);
+    for (let w=601;w<=2200;w+=5) { const next=at(s,w,h); if (next.selected!==prev.selected) {
+      for(let x=Math.max(601,w-5);x<=w;x++) {const exact=at(s,x,h); if(exact.selected!==prev.selected) transitions.push({before:prev,after:exact}); prev=exact;}
+    } else prev=next; }
+  }
+}
+writeFileSync('reports/transition-review.json',JSON.stringify({rows,transitions},null,2));
+console.log(JSON.stringify({rows:rows.length,transitions:transitions.map(t=>({source:t.before.source,from:[t.before.width,t.before.height,t.before.selected],to:[t.after.width,t.after.height,t.after.selected],jump:Math.abs(t.before.candidates.find(c=>c.strategy===t.before.selected)!.movementFromSource-t.after.candidates.find(c=>c.strategy===t.after.selected)!.movementFromSource),before:t.before.candidates,after:t.after.candidates}))},null,2));

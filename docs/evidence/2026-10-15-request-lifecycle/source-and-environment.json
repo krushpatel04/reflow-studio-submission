@@ -1,0 +1,23 @@
+{
+  "sourceCommit": "60c478e245535eec005195de1ee2da4464b3faf5",
+  "productionCommit": "a184facd6dae2a981dbbc70fbe0583450410b222",
+  "hardware": "Apple M1, 8 GiB RAM",
+  "os": "macOS 15.4 (24E248)",
+  "node": "v24.20.0",
+  "chromium": "153.0.8010.12",
+  "gates": {
+    "npmTests": 710,
+    "nativeVerifyLayouts": 30,
+    "benchmarkImages": 70,
+    "browserTests": 26
+  },
+  "sourceFiles": {
+    "src/main.ts": "fb76507a525caf0127b0616e01ba424bc534c3747353319d98f052ea0d311b92",
+    "src/layout-worker.ts": "152101c1ddeac57ca7fc6fb336d03148fe266c82e375dd82f16564ec2f8125e4",
+    "src/layout-request.ts": "0e5804d6312e6d42f155ea7a9f5c359bc841cbcb190bfb87adf28bfe0fdc3cfe",
+    "tests/browser-checks.ts": "e1a96c59113939af3de98a4f687f2a48bc698f7ad3c6bfc3a0b84dd48e5737f0",
+    "tests/browser/request-lifecycle.spec.ts": "cc702e31ccd4ccba63eedae1c5e34c1885df82aa2fb465fc533f60b9d1941f15",
+    "playwright.config.ts": "acd60dbc5cc28d354582dd59bc4b005eb84a4d9aa0f68414cbd119f51992ef20",
+    "tests/vite-browser.config.ts": "090224d3bcc0eed0c23190c4f04f7e1c4b59c44c0c10267eb24f30fccdc9d1f0"
+  }
+}

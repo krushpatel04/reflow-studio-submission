@@ -1,0 +1,321 @@
+{
+  "method": "Three alternating pairs of separate fresh macOS processes; native layout only. Warm imports, clear cache once, then retain realistic process cache throughout each sequence. Exact full outputs/warnings and input immutability checked. RSS is process cumulative high-water, not per-phase or current RSS.",
+  "sources": {
+    "unbounded": {
+      "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "composition.py": "70e0a7893d10cf69fe2b05329b5cf4e41b34e35791a9000632103c2182ee3a4d",
+      "resize.py": "3cf5e555f6f54f39a21dce5bffd373a29bfe5d25da4d388b783f08c2963929e8",
+      "text_fit.py": "c49b5270d8e969e462bd4a332e805ac64a5d43884d1d5c76f40f463c94345020"
+    },
+    "bounded": {
+      "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "composition.py": "70e0a7893d10cf69fe2b05329b5cf4e41b34e35791a9000632103c2182ee3a4d",
+      "resize.py": "3cf5e555f6f54f39a21dce5bffd373a29bfe5d25da4d388b783f08c2963929e8",
+      "text_fit.py": "e4c494c7662a75ec7a324d49495660c0d2a6871f25795a5d9c35422f56d7cd1c"
+    }
+  },
+  "trials": [
+    {
+      "unbounded": {
+        "phases": {
+          "public-and-dense": {
+            "seconds": 1.251340749906376,
+            "cache": {
+              "hits": 1629,
+              "misses": 45,
+              "maxsize": null,
+              "currsize": 45
+            },
+            "rss_highwater_bytes_macos": 79822848
+          },
+          "repeated-public": {
+            "seconds": 0.3520414170343429,
+            "cache": {
+              "hits": 2049,
+              "misses": 45,
+              "maxsize": null,
+              "currsize": 45
+            },
+            "rss_highwater_bytes_macos": 117374976
+          },
+          "varied-120": {
+            "seconds": 0.5372136250371113,
+            "cache": {
+              "hits": 2079,
+              "misses": 1406,
+              "maxsize": null,
+              "currsize": 1406
+            },
+            "rss_highwater_bytes_macos": 200179712
+          },
+          "repeated-public-after-churn": {
+            "seconds": 0.3565859170630574,
+            "cache": {
+              "hits": 2499,
+              "misses": 1406,
+              "maxsize": null,
+              "currsize": 1406
+            },
+            "rss_highwater_bytes_macos": 240730112
+          }
+        },
+        "output_sha256": "937b2993019e06f40a3899b43abde12f0457d97ba3adb8c7b11e88271be7bdb7",
+        "input_sha256": "026eaa96c9e6fa7effc749f5648db8b89ad46d9e56c900437447ab5e64f4a2ab"
+      },
+      "bounded": {
+        "phases": {
+          "public-and-dense": {
+            "seconds": 1.1712966660270467,
+            "cache": {
+              "hits": 1629,
+              "misses": 45,
+              "maxsize": 128,
+              "currsize": 45
+            },
+            "rss_highwater_bytes_macos": 87834624
+          },
+          "repeated-public": {
+            "seconds": 0.367680958006531,
+            "cache": {
+              "hits": 2049,
+              "misses": 45,
+              "maxsize": 128,
+              "currsize": 45
+            },
+            "rss_highwater_bytes_macos": 127336448
+          },
+          "varied-120": {
+            "seconds": 0.5868400830077007,
+            "cache": {
+              "hits": 2050,
+              "misses": 1435,
+              "maxsize": 128,
+              "currsize": 128
+            },
+            "rss_highwater_bytes_macos": 129400832
+          },
+          "repeated-public-after-churn": {
+            "seconds": 0.3634774580132216,
+            "cache": {
+              "hits": 2433,
+              "misses": 1472,
+              "maxsize": 128,
+              "currsize": 128
+            },
+            "rss_highwater_bytes_macos": 129400832
+          }
+        },
+        "output_sha256": "937b2993019e06f40a3899b43abde12f0457d97ba3adb8c7b11e88271be7bdb7",
+        "input_sha256": "026eaa96c9e6fa7effc749f5648db8b89ad46d9e56c900437447ab5e64f4a2ab"
+      }
+    },
+    {
+      "bounded": {
+        "phases": {
+          "public-and-dense": {
+            "seconds": 1.218532915925607,
+            "cache": {
+              "hits": 1629,
+              "misses": 45,
+              "maxsize": 128,
+              "currsize": 45
+            },
+            "rss_highwater_bytes_macos": 87982080
+          },
+          "repeated-public": {
+            "seconds": 0.36174000008031726,
+            "cache": {
+              "hits": 2049,
+              "misses": 45,
+              "maxsize": 128,
+              "currsize": 45
+            },
+            "rss_highwater_bytes_macos": 126418944
+          },
+          "varied-120": {
+            "seconds": 0.5684270409401506,
+            "cache": {
+              "hits": 2050,
+              "misses": 1435,
+              "maxsize": 128,
+              "currsize": 128
+            },
+            "rss_highwater_bytes_macos": 126795776
+          },
+          "repeated-public-after-churn": {
+            "seconds": 0.3725014589726925,
+            "cache": {
+              "hits": 2433,
+              "misses": 1472,
+              "maxsize": 128,
+              "currsize": 128
+            },
+            "rss_highwater_bytes_macos": 126795776
+          }
+        },
+        "output_sha256": "937b2993019e06f40a3899b43abde12f0457d97ba3adb8c7b11e88271be7bdb7",
+        "input_sha256": "026eaa96c9e6fa7effc749f5648db8b89ad46d9e56c900437447ab5e64f4a2ab"
+      },
+      "unbounded": {
+        "phases": {
+          "public-and-dense": {
+            "seconds": 1.2423531250096858,
+            "cache": {
+              "hits": 1629,
+              "misses": 45,
+              "maxsize": null,
+              "currsize": 45
+            },
+            "rss_highwater_bytes_macos": 88047616
+          },
+          "repeated-public": {
+            "seconds": 0.3588187500135973,
+            "cache": {
+              "hits": 2049,
+              "misses": 45,
+              "maxsize": null,
+              "currsize": 45
+            },
+            "rss_highwater_bytes_macos": 126779392
+          },
+          "varied-120": {
+            "seconds": 0.5393580000381917,
+            "cache": {
+              "hits": 2079,
+              "misses": 1406,
+              "maxsize": null,
+              "currsize": 1406
+            },
+            "rss_highwater_bytes_macos": 202686464
+          },
+          "repeated-public-after-churn": {
+            "seconds": 0.37249450001399964,
+            "cache": {
+              "hits": 2499,
+              "misses": 1406,
+              "maxsize": null,
+              "currsize": 1406
+            },
+            "rss_highwater_bytes_macos": 235503616
+          }
+        },
+        "output_sha256": "937b2993019e06f40a3899b43abde12f0457d97ba3adb8c7b11e88271be7bdb7",
+        "input_sha256": "026eaa96c9e6fa7effc749f5648db8b89ad46d9e56c900437447ab5e64f4a2ab"
+      }
+    },
+    {
+      "unbounded": {
+        "phases": {
+          "public-and-dense": {
+            "seconds": 1.1775916250189766,
+            "cache": {
+              "hits": 1629,
+              "misses": 45,
+              "maxsize": null,
+              "currsize": 45
+            },
+            "rss_highwater_bytes_macos": 87719936
+          },
+          "repeated-public": {
+            "seconds": 0.35176316602155566,
+            "cache": {
+              "hits": 2049,
+              "misses": 45,
+              "maxsize": null,
+              "currsize": 45
+            },
+            "rss_highwater_bytes_macos": 125730816
+          },
+          "varied-120": {
+            "seconds": 0.5390267920447513,
+            "cache": {
+              "hits": 2079,
+              "misses": 1406,
+              "maxsize": null,
+              "currsize": 1406
+            },
+            "rss_highwater_bytes_macos": 204521472
+          },
+          "repeated-public-after-churn": {
+            "seconds": 0.3565177919808775,
+            "cache": {
+              "hits": 2499,
+              "misses": 1406,
+              "maxsize": null,
+              "currsize": 1406
+            },
+            "rss_highwater_bytes_macos": 243056640
+          }
+        },
+        "output_sha256": "937b2993019e06f40a3899b43abde12f0457d97ba3adb8c7b11e88271be7bdb7",
+        "input_sha256": "026eaa96c9e6fa7effc749f5648db8b89ad46d9e56c900437447ab5e64f4a2ab"
+      },
+      "bounded": {
+        "phases": {
+          "public-and-dense": {
+            "seconds": 1.1701851660618559,
+            "cache": {
+              "hits": 1629,
+              "misses": 45,
+              "maxsize": 128,
+              "currsize": 45
+            },
+            "rss_highwater_bytes_macos": 87556096
+          },
+          "repeated-public": {
+            "seconds": 0.3491204580059275,
+            "cache": {
+              "hits": 2049,
+              "misses": 45,
+              "maxsize": 128,
+              "currsize": 45
+            },
+            "rss_highwater_bytes_macos": 123224064
+          },
+          "varied-120": {
+            "seconds": 0.5778025410836563,
+            "cache": {
+              "hits": 2050,
+              "misses": 1435,
+              "maxsize": 128,
+              "currsize": 128
+            },
+            "rss_highwater_bytes_macos": 128106496
+          },
+          "repeated-public-after-churn": {
+            "seconds": 0.37957124994136393,
+            "cache": {
+              "hits": 2433,
+              "misses": 1472,
+              "maxsize": 128,
+              "currsize": 128
+            },
+            "rss_highwater_bytes_macos": 128106496
+          }
+        },
+        "output_sha256": "937b2993019e06f40a3899b43abde12f0457d97ba3adb8c7b11e88271be7bdb7",
+        "input_sha256": "026eaa96c9e6fa7effc749f5648db8b89ad46d9e56c900437447ab5e64f4a2ab"
+      }
+    }
+  ],
+  "exact_output_and_warning_equality": true,
+  "source_and_target_unchanged": true,
+  "median_seconds": {
+    "public-and-dense": {
+      "unbounded": 1.2423531250096858,
+      "bounded": 1.1712966660270467
+    },
+    "repeated-public": {
+      "unbounded": 0.3520414170343429,
+      "bounded": 0.36174000008031726
+    },
+    "varied-120": {
+      "unbounded": 0.5390267920447513,
+      "bounded": 0.5778025410836563
+    },
+    "repeated-public-after-churn": {
+      "unbounded": 0.3565859170630574,
+      "bounded": 0.3725014589726925
+    }
+  }
+}

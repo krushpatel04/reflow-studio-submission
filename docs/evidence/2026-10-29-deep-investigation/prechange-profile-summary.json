@@ -1,0 +1,48 @@
+{
+  "source_file": "reports/quality-speed-profile-20261029/profile.json",
+  "source_sha256": "bdb3ff09e9d4f4cb085e3929b745ca0f9fecf825cd454830ccf9e731f16af232",
+  "image_id": "sha256:a0d2a46313b7d76d6815e496a2b2559f38b2729f61ce0ba0269b38e3ba9af79d",
+  "scope": "Historical pre-change ordinary/instrumented emulated-container profile; not an old/new comparison",
+  "cases": {
+    "public-level1": {
+      "median_instrumented_phases_s": {
+        "layout": 0.010264875000000001,
+        "font_measure_block": 0,
+        "render_export": 0.551936125,
+        "asset_load": 0.142865874
+      },
+      "median_import_s": 2.164639168000001,
+      "median_ordinary_outer_s": 3.513
+    },
+    "public-level2": {
+      "median_instrumented_phases_s": {
+        "layout": 0.12465508300000001,
+        "font_measure_block": 0.027681416,
+        "render_export": 0.40411345800000004,
+        "asset_load": 0.21295633300000003
+      },
+      "median_import_s": 2.1284736670000015,
+      "median_ordinary_outer_s": 3.332
+    },
+    "public-level3": {
+      "median_instrumented_phases_s": {
+        "layout": 0.355345458,
+        "font_measure_block": 0.18049921000000002,
+        "render_export": 0.248344375,
+        "asset_load": 0.15152679300000002
+      },
+      "median_import_s": 2.161836250999997,
+      "median_ordinary_outer_s": 3.375
+    },
+    "dense16": {
+      "median_instrumented_phases_s": {
+        "layout": 0.256331709,
+        "font_measure_block": 0.12930866600000002,
+        "render_export": 0.099037792,
+        "asset_load": 0
+      },
+      "median_import_s": 2.135557876000007,
+      "median_ordinary_outer_s": 3.134
+    }
+  }
+}

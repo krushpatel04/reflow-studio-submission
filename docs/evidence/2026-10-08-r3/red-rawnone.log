@@ -1,0 +1,47 @@
+Fontconfig error: Cannot load default config file
+/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:18: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  render.run(out, raw if refs else None, UPSTREAM, schema)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+E/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py:17: ResourceWarning: unclosed file <_io.TextIOWrapper name='/dev/null' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(open(os.devnull, 'w')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.
+======================================================================
+ERROR: test_raw_none_skips_references_and_sources_sheet (tests_python.test_render_font_binding.RenderFontBinding.test_raw_none_skips_references_and_sources_sheet)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py", line 90, in test_raw_none_skips_references_and_sources_sheet
+    a2, _ = run_tree([('fitnarrow', 'FitNarrow', 500)], files=no_refs, refs=False)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/tests_python/test_render_font_binding.py", line 18, in run_tree
+    render.run(out, raw if refs else None, UPSTREAM, schema)
+  File "/home/nala/quoroum-backend/data/agent-runtime/reflow/agent-2/workspace/reflow-studio/scripts/lica_official/render.py", line 255, in run
+    reference = raw / 'images' / design['template_id'] / f'{lid}.png'
+                ~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for /: 'NoneType' and 'str'
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.216s
+
+FAILED (errors=1)

@@ -1,0 +1,4 @@
+id | px | pillow(Solstice TTF) lines,maxw | skia(Solstice TTF) unwrapped total w | renderer lookup (brand kit) lines,maxw | box wxh | ink rows in box (rendered)
+headline | 13.95 | 2,709.0 | 1060.0 | 2,709.0 | 725.0x33.5 | 31
+subhead | 7.67 | 1,704.0 | 704.0 | 1,704.0 | 720.0x9.2 | 10
+legal_text | 6.00 | 1,336.0 | 336.0 | 1,336.0 | 344.0x7.2 | 6

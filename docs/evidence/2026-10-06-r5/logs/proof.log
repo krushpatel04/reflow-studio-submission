@@ -1,0 +1,10 @@
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/05-reset-dirs-sample.conf", line 6: unknown element "reset-dirs"
+engine.resize.__file__ = /app/engine/resize.py
+text_fit absent (not in main)
+network blocked: [Errno 101] Network is unreachable
+[chameleon_sample_level1_warmup.json] OK in 0.00s -> chameleon_sample_level1_warmup_output.json, chameleon_sample_level1_warmup_output.png
+[chameleon_sample_level2_core.json] 1 self-check warning(s) in 0.00s -> chameleon_sample_level2_core_output.json, chameleon_sample_level2_core_output.png
+    - element 'deco_circle_1' is off-canvas (1600x400)
+[chameleon_sample_level3_advanced.json] OK in 0.00s -> chameleon_sample_level3_advanced_output.json, chameleon_sample_level3_advanced_output.png
+exit 0 REAL 3 FALLBACK 0
+exit=0

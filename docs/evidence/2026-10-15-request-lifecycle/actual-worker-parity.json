@@ -1,0 +1,5338 @@
+{
+  "expected": {
+    "batch": {
+      "results": [
+        {
+          "sourceId": "type-pairing",
+          "target": {
+            "id": "square",
+            "label": "Square",
+            "width": 1080,
+            "height": 1080
+          },
+          "baseline": {
+            "strategy": "uniform",
+            "design": {
+              "schemaVersion": "reflow.design.v0",
+              "id": "type-pairing",
+              "name": "Two voices, one design",
+              "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+              "provenance": "synthetic",
+              "width": 1080,
+              "height": 1080,
+              "background": "#2a352e",
+              "elements": [
+                {
+                  "id": "eyebrow",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 165.6,
+                  "y": 52,
+                  "width": 748.8000000000001,
+                  "height": 43.2,
+                  "fontSize": 22.400000000000002,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "headline",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 165.6,
+                  "y": 156.8,
+                  "width": 748.8000000000001,
+                  "height": 440,
+                  "fontSize": 105.60000000000001,
+                  "color": "#e4dec8",
+                  "fontWeight": 600,
+                  "fontFamily": "Source Serif 4",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "body",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 165.6,
+                  "y": 668.8000000000001,
+                  "width": 748.8000000000001,
+                  "height": 122.4,
+                  "fontSize": 32.800000000000004,
+                  "color": "#e4dec8",
+                  "fontWeight": 500,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "footer",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 165.6,
+                  "y": 896,
+                  "width": 748.8000000000001,
+                  "height": 108.80000000000001,
+                  "fontSize": 27.200000000000003,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                }
+              ],
+              "groups": []
+            },
+            "metrics": {
+              "errors": 0,
+              "warnings": 1,
+              "minReadingSize": 7.466666666666668,
+              "contentCoverage": 0.45862716049382724,
+              "findings": [
+                {
+                  "kind": "small-text",
+                  "severity": "warning",
+                  "elementIds": [
+                    "eyebrow"
+                  ],
+                  "message": "eyebrow reads at 7.5px on a 360px short edge."
+                }
+              ]
+            }
+          },
+          "selected": {
+            "strategy": "stack",
+            "design": {
+              "schemaVersion": "reflow.design.v0",
+              "id": "type-pairing",
+              "name": "Two voices, one design",
+              "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+              "provenance": "synthetic",
+              "width": 1080,
+              "height": 1080,
+              "background": "#2a352e",
+              "elements": [
+                {
+                  "id": "eyebrow",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 70.2,
+                  "y": 70.2,
+                  "width": 939.6,
+                  "height": 70.35055806013919,
+                  "fontSize": 33.59,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "headline",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 70.2,
+                  "y": 167.5505580601392,
+                  "width": 939.6,
+                  "height": 516.7308618199326,
+                  "fontSize": 152.91,
+                  "color": "#e4dec8",
+                  "fontWeight": 600,
+                  "fontFamily": "Source Serif 4",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "body",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 70.2,
+                  "y": 711.2814198800718,
+                  "width": 939.6,
+                  "height": 143.7451306517267,
+                  "fontSize": 49.19,
+                  "color": "#e4dec8",
+                  "fontWeight": 500,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "footer",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 70.2,
+                  "y": 882.0265505317984,
+                  "width": 939.6,
+                  "height": 127.77344946820153,
+                  "fontSize": 40.79,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                }
+              ],
+              "groups": []
+            },
+            "metrics": {
+              "errors": 0,
+              "warnings": 0,
+              "minReadingSize": 11.196666666666667,
+              "contentCoverage": 0.6916500000000001,
+              "findings": []
+            }
+          },
+          "candidates": [
+            {
+              "strategy": "uniform",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1080,
+                "height": 1080,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 165.6,
+                    "y": 52,
+                    "width": 748.8000000000001,
+                    "height": 43.2,
+                    "fontSize": 22.400000000000002,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 165.6,
+                    "y": 156.8,
+                    "width": 748.8000000000001,
+                    "height": 440,
+                    "fontSize": 105.60000000000001,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 165.6,
+                    "y": 668.8000000000001,
+                    "width": 748.8000000000001,
+                    "height": 122.4,
+                    "fontSize": 32.800000000000004,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 165.6,
+                    "y": 896,
+                    "width": 748.8000000000001,
+                    "height": 108.80000000000001,
+                    "fontSize": 27.200000000000003,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 1,
+                "minReadingSize": 7.466666666666668,
+                "contentCoverage": 0.45862716049382724,
+                "findings": [
+                  {
+                    "kind": "small-text",
+                    "severity": "warning",
+                    "elementIds": [
+                      "eyebrow"
+                    ],
+                    "message": "eyebrow reads at 7.5px on a 360px short edge."
+                  }
+                ]
+              }
+            },
+            {
+              "strategy": "stack",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1080,
+                "height": 1080,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 70.2,
+                    "width": 939.6,
+                    "height": 70.35055806013919,
+                    "fontSize": 33.59,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 167.5505580601392,
+                    "width": 939.6,
+                    "height": 516.7308618199326,
+                    "fontSize": 152.91,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 711.2814198800718,
+                    "width": 939.6,
+                    "height": 143.7451306517267,
+                    "fontSize": 49.19,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 882.0265505317984,
+                    "width": 939.6,
+                    "height": 127.77344946820153,
+                    "fontSize": 40.79,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 0,
+                "minReadingSize": 11.196666666666667,
+                "contentCoverage": 0.6916500000000001,
+                "findings": []
+              }
+            },
+            {
+              "strategy": "split",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1080,
+                "height": 1080,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 70.2,
+                    "width": 939.6,
+                    "height": 70.35055806013919,
+                    "fontSize": 33.59,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 167.5505580601392,
+                    "width": 939.6,
+                    "height": 516.7308618199326,
+                    "fontSize": 152.91,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 711.2814198800718,
+                    "width": 939.6,
+                    "height": 143.7451306517267,
+                    "fontSize": 49.19,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 882.0265505317984,
+                    "width": 939.6,
+                    "height": 127.77344946820153,
+                    "fontSize": 40.79,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 0,
+                "minReadingSize": 11.196666666666667,
+                "contentCoverage": 0.6916500000000001,
+                "findings": []
+              }
+            }
+          ]
+        },
+        {
+          "sourceId": "type-pairing",
+          "target": {
+            "id": "story",
+            "label": "Story",
+            "width": 1080,
+            "height": 1920
+          },
+          "baseline": {
+            "strategy": "uniform",
+            "design": {
+              "schemaVersion": "reflow.design.v0",
+              "id": "type-pairing",
+              "name": "Two voices, one design",
+              "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+              "provenance": "synthetic",
+              "width": 1080,
+              "height": 1920,
+              "background": "#2a352e",
+              "elements": [
+                {
+                  "id": "eyebrow",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 72,
+                  "y": 350,
+                  "width": 936,
+                  "height": 54,
+                  "fontSize": 28,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "headline",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 72,
+                  "y": 481,
+                  "width": 936,
+                  "height": 550,
+                  "fontSize": 132,
+                  "color": "#e4dec8",
+                  "fontWeight": 600,
+                  "fontFamily": "Source Serif 4",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "body",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 72,
+                  "y": 1121,
+                  "width": 936,
+                  "height": 153,
+                  "fontSize": 41,
+                  "color": "#e4dec8",
+                  "fontWeight": 500,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "footer",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 72,
+                  "y": 1405,
+                  "width": 936,
+                  "height": 136,
+                  "fontSize": 34,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                }
+              ],
+              "groups": []
+            },
+            "metrics": {
+              "errors": 0,
+              "warnings": 0,
+              "minReadingSize": 9.333333333333334,
+              "contentCoverage": 0.4030902777777778,
+              "findings": []
+            }
+          },
+          "selected": {
+            "strategy": "uniform",
+            "design": {
+              "schemaVersion": "reflow.design.v0",
+              "id": "type-pairing",
+              "name": "Two voices, one design",
+              "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+              "provenance": "synthetic",
+              "width": 1080,
+              "height": 1920,
+              "background": "#2a352e",
+              "elements": [
+                {
+                  "id": "eyebrow",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 72,
+                  "y": 350,
+                  "width": 936,
+                  "height": 54,
+                  "fontSize": 28,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "headline",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 72,
+                  "y": 481,
+                  "width": 936,
+                  "height": 550,
+                  "fontSize": 132,
+                  "color": "#e4dec8",
+                  "fontWeight": 600,
+                  "fontFamily": "Source Serif 4",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "body",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 72,
+                  "y": 1121,
+                  "width": 936,
+                  "height": 153,
+                  "fontSize": 41,
+                  "color": "#e4dec8",
+                  "fontWeight": 500,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "footer",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 72,
+                  "y": 1405,
+                  "width": 936,
+                  "height": 136,
+                  "fontSize": 34,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                }
+              ],
+              "groups": []
+            },
+            "metrics": {
+              "errors": 0,
+              "warnings": 0,
+              "minReadingSize": 9.333333333333334,
+              "contentCoverage": 0.4030902777777778,
+              "findings": []
+            }
+          },
+          "candidates": [
+            {
+              "strategy": "uniform",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1080,
+                "height": 1920,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 350,
+                    "width": 936,
+                    "height": 54,
+                    "fontSize": 28,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 481,
+                    "width": 936,
+                    "height": 550,
+                    "fontSize": 132,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 1121,
+                    "width": 936,
+                    "height": 153,
+                    "fontSize": 41,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 1405,
+                    "width": 936,
+                    "height": 136,
+                    "fontSize": 34,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 0,
+                "minReadingSize": 9.333333333333334,
+                "contentCoverage": 0.4030902777777778,
+                "findings": []
+              }
+            },
+            {
+              "strategy": "stack",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1080,
+                "height": 1920,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 70.2,
+                    "width": 939.6,
+                    "height": 139.17709983805315,
+                    "fontSize": 33.59,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 236.37709983805314,
+                    "width": 939.6,
+                    "height": 1022.2676937891189,
+                    "fontSize": 152.91,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 1285.644793627172,
+                    "width": 939.6,
+                    "height": 284.37628572679125,
+                    "fontSize": 49.19,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 1597.0210793539632,
+                    "width": 939.6,
+                    "height": 252.77892064603668,
+                    "fontSize": 40.79,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 0,
+                "minReadingSize": 11.196666666666667,
+                "contentCoverage": 0.769678125,
+                "findings": []
+              }
+            },
+            {
+              "strategy": "split",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1080,
+                "height": 1920,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 70.2,
+                    "width": 939.6,
+                    "height": 139.17709983805315,
+                    "fontSize": 33.59,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 236.37709983805314,
+                    "width": 939.6,
+                    "height": 1022.2676937891189,
+                    "fontSize": 152.91,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 1285.644793627172,
+                    "width": 939.6,
+                    "height": 284.37628572679125,
+                    "fontSize": 49.19,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 1597.0210793539632,
+                    "width": 939.6,
+                    "height": 252.77892064603668,
+                    "fontSize": 40.79,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 0,
+                "minReadingSize": 11.196666666666667,
+                "contentCoverage": 0.769678125,
+                "findings": []
+              }
+            }
+          ]
+        },
+        {
+          "sourceId": "type-pairing",
+          "target": {
+            "id": "landscape",
+            "label": "Landscape",
+            "width": 1920,
+            "height": 1080
+          },
+          "baseline": {
+            "strategy": "uniform",
+            "design": {
+              "schemaVersion": "reflow.design.v0",
+              "id": "type-pairing",
+              "name": "Two voices, one design",
+              "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+              "provenance": "synthetic",
+              "width": 1920,
+              "height": 1080,
+              "background": "#2a352e",
+              "elements": [
+                {
+                  "id": "eyebrow",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 585.6,
+                  "y": 52,
+                  "width": 748.8000000000001,
+                  "height": 43.2,
+                  "fontSize": 22.400000000000002,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "headline",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 585.6,
+                  "y": 156.8,
+                  "width": 748.8000000000001,
+                  "height": 440,
+                  "fontSize": 105.60000000000001,
+                  "color": "#e4dec8",
+                  "fontWeight": 600,
+                  "fontFamily": "Source Serif 4",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "body",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 585.6,
+                  "y": 668.8000000000001,
+                  "width": 748.8000000000001,
+                  "height": 122.4,
+                  "fontSize": 32.800000000000004,
+                  "color": "#e4dec8",
+                  "fontWeight": 500,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "footer",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 585.6,
+                  "y": 896,
+                  "width": 748.8000000000001,
+                  "height": 108.80000000000001,
+                  "fontSize": 27.200000000000003,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                }
+              ],
+              "groups": []
+            },
+            "metrics": {
+              "errors": 0,
+              "warnings": 1,
+              "minReadingSize": 7.466666666666668,
+              "contentCoverage": 0.2579777777777778,
+              "findings": [
+                {
+                  "kind": "small-text",
+                  "severity": "warning",
+                  "elementIds": [
+                    "eyebrow"
+                  ],
+                  "message": "eyebrow reads at 7.5px on a 360px short edge."
+                }
+              ]
+            }
+          },
+          "selected": {
+            "strategy": "stack",
+            "design": {
+              "schemaVersion": "reflow.design.v0",
+              "id": "type-pairing",
+              "name": "Two voices, one design",
+              "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+              "provenance": "synthetic",
+              "width": 1920,
+              "height": 1080,
+              "background": "#2a352e",
+              "elements": [
+                {
+                  "id": "eyebrow",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 70.2,
+                  "y": 70.2,
+                  "width": 1779.6,
+                  "height": 70.35055806013919,
+                  "fontSize": 33.59,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "headline",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 70.2,
+                  "y": 167.5505580601392,
+                  "width": 1779.6,
+                  "height": 516.7308618199326,
+                  "fontSize": 158.39,
+                  "color": "#e4dec8",
+                  "fontWeight": 600,
+                  "fontFamily": "Source Serif 4",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "body",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 70.2,
+                  "y": 711.2814198800718,
+                  "width": 1779.6,
+                  "height": 143.7451306517267,
+                  "fontSize": 49.19,
+                  "color": "#e4dec8",
+                  "fontWeight": 500,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "footer",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 70.2,
+                  "y": 882.0265505317984,
+                  "width": 1779.6,
+                  "height": 127.77344946820153,
+                  "fontSize": 40.79,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                }
+              ],
+              "groups": []
+            },
+            "metrics": {
+              "errors": 0,
+              "warnings": 0,
+              "minReadingSize": 11.196666666666667,
+              "contentCoverage": 0.736865625,
+              "findings": []
+            }
+          },
+          "candidates": [
+            {
+              "strategy": "uniform",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1920,
+                "height": 1080,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 585.6,
+                    "y": 52,
+                    "width": 748.8000000000001,
+                    "height": 43.2,
+                    "fontSize": 22.400000000000002,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 585.6,
+                    "y": 156.8,
+                    "width": 748.8000000000001,
+                    "height": 440,
+                    "fontSize": 105.60000000000001,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 585.6,
+                    "y": 668.8000000000001,
+                    "width": 748.8000000000001,
+                    "height": 122.4,
+                    "fontSize": 32.800000000000004,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 585.6,
+                    "y": 896,
+                    "width": 748.8000000000001,
+                    "height": 108.80000000000001,
+                    "fontSize": 27.200000000000003,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 1,
+                "minReadingSize": 7.466666666666668,
+                "contentCoverage": 0.2579777777777778,
+                "findings": [
+                  {
+                    "kind": "small-text",
+                    "severity": "warning",
+                    "elementIds": [
+                      "eyebrow"
+                    ],
+                    "message": "eyebrow reads at 7.5px on a 360px short edge."
+                  }
+                ]
+              }
+            },
+            {
+              "strategy": "stack",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1920,
+                "height": 1080,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 70.2,
+                    "width": 1779.6,
+                    "height": 70.35055806013919,
+                    "fontSize": 33.59,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 167.5505580601392,
+                    "width": 1779.6,
+                    "height": 516.7308618199326,
+                    "fontSize": 158.39,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 711.2814198800718,
+                    "width": 1779.6,
+                    "height": 143.7451306517267,
+                    "fontSize": 49.19,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 882.0265505317984,
+                    "width": 1779.6,
+                    "height": 127.77344946820153,
+                    "fontSize": 40.79,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 0,
+                "minReadingSize": 11.196666666666667,
+                "contentCoverage": 0.736865625,
+                "findings": []
+              }
+            },
+            {
+              "strategy": "split",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1920,
+                "height": 1080,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 70.2,
+                    "width": 1779.6,
+                    "height": 70.35055806013919,
+                    "fontSize": 33.59,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 167.5505580601392,
+                    "width": 1779.6,
+                    "height": 516.7308618199326,
+                    "fontSize": 158.39,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 711.2814198800718,
+                    "width": 1779.6,
+                    "height": 143.7451306517267,
+                    "fontSize": 49.19,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 882.0265505317984,
+                    "width": 1779.6,
+                    "height": 127.77344946820153,
+                    "fontSize": 40.79,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 0,
+                "minReadingSize": 11.196666666666667,
+                "contentCoverage": 0.736865625,
+                "findings": []
+              }
+            }
+          ]
+        }
+      ],
+      "failures": [],
+      "outcomes": [
+        {
+          "target": {
+            "id": "square",
+            "label": "Square",
+            "width": 1080,
+            "height": 1080
+          },
+          "result": {
+            "sourceId": "type-pairing",
+            "target": {
+              "id": "square",
+              "label": "Square",
+              "width": 1080,
+              "height": 1080
+            },
+            "baseline": {
+              "strategy": "uniform",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1080,
+                "height": 1080,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 165.6,
+                    "y": 52,
+                    "width": 748.8000000000001,
+                    "height": 43.2,
+                    "fontSize": 22.400000000000002,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 165.6,
+                    "y": 156.8,
+                    "width": 748.8000000000001,
+                    "height": 440,
+                    "fontSize": 105.60000000000001,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 165.6,
+                    "y": 668.8000000000001,
+                    "width": 748.8000000000001,
+                    "height": 122.4,
+                    "fontSize": 32.800000000000004,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 165.6,
+                    "y": 896,
+                    "width": 748.8000000000001,
+                    "height": 108.80000000000001,
+                    "fontSize": 27.200000000000003,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 1,
+                "minReadingSize": 7.466666666666668,
+                "contentCoverage": 0.45862716049382724,
+                "findings": [
+                  {
+                    "kind": "small-text",
+                    "severity": "warning",
+                    "elementIds": [
+                      "eyebrow"
+                    ],
+                    "message": "eyebrow reads at 7.5px on a 360px short edge."
+                  }
+                ]
+              }
+            },
+            "selected": {
+              "strategy": "stack",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1080,
+                "height": 1080,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 70.2,
+                    "width": 939.6,
+                    "height": 70.35055806013919,
+                    "fontSize": 33.59,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 167.5505580601392,
+                    "width": 939.6,
+                    "height": 516.7308618199326,
+                    "fontSize": 152.91,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 711.2814198800718,
+                    "width": 939.6,
+                    "height": 143.7451306517267,
+                    "fontSize": 49.19,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 882.0265505317984,
+                    "width": 939.6,
+                    "height": 127.77344946820153,
+                    "fontSize": 40.79,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 0,
+                "minReadingSize": 11.196666666666667,
+                "contentCoverage": 0.6916500000000001,
+                "findings": []
+              }
+            },
+            "candidates": [
+              {
+                "strategy": "uniform",
+                "design": {
+                  "schemaVersion": "reflow.design.v0",
+                  "id": "type-pairing",
+                  "name": "Two voices, one design",
+                  "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                  "provenance": "synthetic",
+                  "width": 1080,
+                  "height": 1080,
+                  "background": "#2a352e",
+                  "elements": [
+                    {
+                      "id": "eyebrow",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 165.6,
+                      "y": 52,
+                      "width": 748.8000000000001,
+                      "height": 43.2,
+                      "fontSize": 22.400000000000002,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "headline",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 165.6,
+                      "y": 156.8,
+                      "width": 748.8000000000001,
+                      "height": 440,
+                      "fontSize": 105.60000000000001,
+                      "color": "#e4dec8",
+                      "fontWeight": 600,
+                      "fontFamily": "Source Serif 4",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "body",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 165.6,
+                      "y": 668.8000000000001,
+                      "width": 748.8000000000001,
+                      "height": 122.4,
+                      "fontSize": 32.800000000000004,
+                      "color": "#e4dec8",
+                      "fontWeight": 500,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "footer",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 165.6,
+                      "y": 896,
+                      "width": 748.8000000000001,
+                      "height": 108.80000000000001,
+                      "fontSize": 27.200000000000003,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    }
+                  ],
+                  "groups": []
+                },
+                "metrics": {
+                  "errors": 0,
+                  "warnings": 1,
+                  "minReadingSize": 7.466666666666668,
+                  "contentCoverage": 0.45862716049382724,
+                  "findings": [
+                    {
+                      "kind": "small-text",
+                      "severity": "warning",
+                      "elementIds": [
+                        "eyebrow"
+                      ],
+                      "message": "eyebrow reads at 7.5px on a 360px short edge."
+                    }
+                  ]
+                }
+              },
+              {
+                "strategy": "stack",
+                "design": {
+                  "schemaVersion": "reflow.design.v0",
+                  "id": "type-pairing",
+                  "name": "Two voices, one design",
+                  "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                  "provenance": "synthetic",
+                  "width": 1080,
+                  "height": 1080,
+                  "background": "#2a352e",
+                  "elements": [
+                    {
+                      "id": "eyebrow",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 70.2,
+                      "width": 939.6,
+                      "height": 70.35055806013919,
+                      "fontSize": 33.59,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "headline",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 167.5505580601392,
+                      "width": 939.6,
+                      "height": 516.7308618199326,
+                      "fontSize": 152.91,
+                      "color": "#e4dec8",
+                      "fontWeight": 600,
+                      "fontFamily": "Source Serif 4",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "body",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 711.2814198800718,
+                      "width": 939.6,
+                      "height": 143.7451306517267,
+                      "fontSize": 49.19,
+                      "color": "#e4dec8",
+                      "fontWeight": 500,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "footer",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 882.0265505317984,
+                      "width": 939.6,
+                      "height": 127.77344946820153,
+                      "fontSize": 40.79,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    }
+                  ],
+                  "groups": []
+                },
+                "metrics": {
+                  "errors": 0,
+                  "warnings": 0,
+                  "minReadingSize": 11.196666666666667,
+                  "contentCoverage": 0.6916500000000001,
+                  "findings": []
+                }
+              },
+              {
+                "strategy": "split",
+                "design": {
+                  "schemaVersion": "reflow.design.v0",
+                  "id": "type-pairing",
+                  "name": "Two voices, one design",
+                  "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                  "provenance": "synthetic",
+                  "width": 1080,
+                  "height": 1080,
+                  "background": "#2a352e",
+                  "elements": [
+                    {
+                      "id": "eyebrow",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 70.2,
+                      "width": 939.6,
+                      "height": 70.35055806013919,
+                      "fontSize": 33.59,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "headline",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 167.5505580601392,
+                      "width": 939.6,
+                      "height": 516.7308618199326,
+                      "fontSize": 152.91,
+                      "color": "#e4dec8",
+                      "fontWeight": 600,
+                      "fontFamily": "Source Serif 4",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "body",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 711.2814198800718,
+                      "width": 939.6,
+                      "height": 143.7451306517267,
+                      "fontSize": 49.19,
+                      "color": "#e4dec8",
+                      "fontWeight": 500,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "footer",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 882.0265505317984,
+                      "width": 939.6,
+                      "height": 127.77344946820153,
+                      "fontSize": 40.79,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    }
+                  ],
+                  "groups": []
+                },
+                "metrics": {
+                  "errors": 0,
+                  "warnings": 0,
+                  "minReadingSize": 11.196666666666667,
+                  "contentCoverage": 0.6916500000000001,
+                  "findings": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "target": {
+            "id": "story",
+            "label": "Story",
+            "width": 1080,
+            "height": 1920
+          },
+          "result": {
+            "sourceId": "type-pairing",
+            "target": {
+              "id": "story",
+              "label": "Story",
+              "width": 1080,
+              "height": 1920
+            },
+            "baseline": {
+              "strategy": "uniform",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1080,
+                "height": 1920,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 350,
+                    "width": 936,
+                    "height": 54,
+                    "fontSize": 28,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 481,
+                    "width": 936,
+                    "height": 550,
+                    "fontSize": 132,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 1121,
+                    "width": 936,
+                    "height": 153,
+                    "fontSize": 41,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 1405,
+                    "width": 936,
+                    "height": 136,
+                    "fontSize": 34,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 0,
+                "minReadingSize": 9.333333333333334,
+                "contentCoverage": 0.4030902777777778,
+                "findings": []
+              }
+            },
+            "selected": {
+              "strategy": "uniform",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1080,
+                "height": 1920,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 350,
+                    "width": 936,
+                    "height": 54,
+                    "fontSize": 28,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 481,
+                    "width": 936,
+                    "height": 550,
+                    "fontSize": 132,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 1121,
+                    "width": 936,
+                    "height": 153,
+                    "fontSize": 41,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 1405,
+                    "width": 936,
+                    "height": 136,
+                    "fontSize": 34,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 0,
+                "minReadingSize": 9.333333333333334,
+                "contentCoverage": 0.4030902777777778,
+                "findings": []
+              }
+            },
+            "candidates": [
+              {
+                "strategy": "uniform",
+                "design": {
+                  "schemaVersion": "reflow.design.v0",
+                  "id": "type-pairing",
+                  "name": "Two voices, one design",
+                  "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                  "provenance": "synthetic",
+                  "width": 1080,
+                  "height": 1920,
+                  "background": "#2a352e",
+                  "elements": [
+                    {
+                      "id": "eyebrow",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 72,
+                      "y": 350,
+                      "width": 936,
+                      "height": 54,
+                      "fontSize": 28,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "headline",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 72,
+                      "y": 481,
+                      "width": 936,
+                      "height": 550,
+                      "fontSize": 132,
+                      "color": "#e4dec8",
+                      "fontWeight": 600,
+                      "fontFamily": "Source Serif 4",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "body",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 72,
+                      "y": 1121,
+                      "width": 936,
+                      "height": 153,
+                      "fontSize": 41,
+                      "color": "#e4dec8",
+                      "fontWeight": 500,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "footer",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 72,
+                      "y": 1405,
+                      "width": 936,
+                      "height": 136,
+                      "fontSize": 34,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    }
+                  ],
+                  "groups": []
+                },
+                "metrics": {
+                  "errors": 0,
+                  "warnings": 0,
+                  "minReadingSize": 9.333333333333334,
+                  "contentCoverage": 0.4030902777777778,
+                  "findings": []
+                }
+              },
+              {
+                "strategy": "stack",
+                "design": {
+                  "schemaVersion": "reflow.design.v0",
+                  "id": "type-pairing",
+                  "name": "Two voices, one design",
+                  "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                  "provenance": "synthetic",
+                  "width": 1080,
+                  "height": 1920,
+                  "background": "#2a352e",
+                  "elements": [
+                    {
+                      "id": "eyebrow",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 70.2,
+                      "width": 939.6,
+                      "height": 139.17709983805315,
+                      "fontSize": 33.59,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "headline",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 236.37709983805314,
+                      "width": 939.6,
+                      "height": 1022.2676937891189,
+                      "fontSize": 152.91,
+                      "color": "#e4dec8",
+                      "fontWeight": 600,
+                      "fontFamily": "Source Serif 4",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "body",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 1285.644793627172,
+                      "width": 939.6,
+                      "height": 284.37628572679125,
+                      "fontSize": 49.19,
+                      "color": "#e4dec8",
+                      "fontWeight": 500,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "footer",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 1597.0210793539632,
+                      "width": 939.6,
+                      "height": 252.77892064603668,
+                      "fontSize": 40.79,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    }
+                  ],
+                  "groups": []
+                },
+                "metrics": {
+                  "errors": 0,
+                  "warnings": 0,
+                  "minReadingSize": 11.196666666666667,
+                  "contentCoverage": 0.769678125,
+                  "findings": []
+                }
+              },
+              {
+                "strategy": "split",
+                "design": {
+                  "schemaVersion": "reflow.design.v0",
+                  "id": "type-pairing",
+                  "name": "Two voices, one design",
+                  "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                  "provenance": "synthetic",
+                  "width": 1080,
+                  "height": 1920,
+                  "background": "#2a352e",
+                  "elements": [
+                    {
+                      "id": "eyebrow",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 70.2,
+                      "width": 939.6,
+                      "height": 139.17709983805315,
+                      "fontSize": 33.59,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "headline",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 236.37709983805314,
+                      "width": 939.6,
+                      "height": 1022.2676937891189,
+                      "fontSize": 152.91,
+                      "color": "#e4dec8",
+                      "fontWeight": 600,
+                      "fontFamily": "Source Serif 4",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "body",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 1285.644793627172,
+                      "width": 939.6,
+                      "height": 284.37628572679125,
+                      "fontSize": 49.19,
+                      "color": "#e4dec8",
+                      "fontWeight": 500,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "footer",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 1597.0210793539632,
+                      "width": 939.6,
+                      "height": 252.77892064603668,
+                      "fontSize": 40.79,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    }
+                  ],
+                  "groups": []
+                },
+                "metrics": {
+                  "errors": 0,
+                  "warnings": 0,
+                  "minReadingSize": 11.196666666666667,
+                  "contentCoverage": 0.769678125,
+                  "findings": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "target": {
+            "id": "landscape",
+            "label": "Landscape",
+            "width": 1920,
+            "height": 1080
+          },
+          "result": {
+            "sourceId": "type-pairing",
+            "target": {
+              "id": "landscape",
+              "label": "Landscape",
+              "width": 1920,
+              "height": 1080
+            },
+            "baseline": {
+              "strategy": "uniform",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1920,
+                "height": 1080,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 585.6,
+                    "y": 52,
+                    "width": 748.8000000000001,
+                    "height": 43.2,
+                    "fontSize": 22.400000000000002,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 585.6,
+                    "y": 156.8,
+                    "width": 748.8000000000001,
+                    "height": 440,
+                    "fontSize": 105.60000000000001,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 585.6,
+                    "y": 668.8000000000001,
+                    "width": 748.8000000000001,
+                    "height": 122.4,
+                    "fontSize": 32.800000000000004,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 585.6,
+                    "y": 896,
+                    "width": 748.8000000000001,
+                    "height": 108.80000000000001,
+                    "fontSize": 27.200000000000003,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 1,
+                "minReadingSize": 7.466666666666668,
+                "contentCoverage": 0.2579777777777778,
+                "findings": [
+                  {
+                    "kind": "small-text",
+                    "severity": "warning",
+                    "elementIds": [
+                      "eyebrow"
+                    ],
+                    "message": "eyebrow reads at 7.5px on a 360px short edge."
+                  }
+                ]
+              }
+            },
+            "selected": {
+              "strategy": "stack",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1920,
+                "height": 1080,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 70.2,
+                    "width": 1779.6,
+                    "height": 70.35055806013919,
+                    "fontSize": 33.59,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 167.5505580601392,
+                    "width": 1779.6,
+                    "height": 516.7308618199326,
+                    "fontSize": 158.39,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 711.2814198800718,
+                    "width": 1779.6,
+                    "height": 143.7451306517267,
+                    "fontSize": 49.19,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 882.0265505317984,
+                    "width": 1779.6,
+                    "height": 127.77344946820153,
+                    "fontSize": 40.79,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 0,
+                "minReadingSize": 11.196666666666667,
+                "contentCoverage": 0.736865625,
+                "findings": []
+              }
+            },
+            "candidates": [
+              {
+                "strategy": "uniform",
+                "design": {
+                  "schemaVersion": "reflow.design.v0",
+                  "id": "type-pairing",
+                  "name": "Two voices, one design",
+                  "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                  "provenance": "synthetic",
+                  "width": 1920,
+                  "height": 1080,
+                  "background": "#2a352e",
+                  "elements": [
+                    {
+                      "id": "eyebrow",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 585.6,
+                      "y": 52,
+                      "width": 748.8000000000001,
+                      "height": 43.2,
+                      "fontSize": 22.400000000000002,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "headline",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 585.6,
+                      "y": 156.8,
+                      "width": 748.8000000000001,
+                      "height": 440,
+                      "fontSize": 105.60000000000001,
+                      "color": "#e4dec8",
+                      "fontWeight": 600,
+                      "fontFamily": "Source Serif 4",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "body",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 585.6,
+                      "y": 668.8000000000001,
+                      "width": 748.8000000000001,
+                      "height": 122.4,
+                      "fontSize": 32.800000000000004,
+                      "color": "#e4dec8",
+                      "fontWeight": 500,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "footer",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 585.6,
+                      "y": 896,
+                      "width": 748.8000000000001,
+                      "height": 108.80000000000001,
+                      "fontSize": 27.200000000000003,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    }
+                  ],
+                  "groups": []
+                },
+                "metrics": {
+                  "errors": 0,
+                  "warnings": 1,
+                  "minReadingSize": 7.466666666666668,
+                  "contentCoverage": 0.2579777777777778,
+                  "findings": [
+                    {
+                      "kind": "small-text",
+                      "severity": "warning",
+                      "elementIds": [
+                        "eyebrow"
+                      ],
+                      "message": "eyebrow reads at 7.5px on a 360px short edge."
+                    }
+                  ]
+                }
+              },
+              {
+                "strategy": "stack",
+                "design": {
+                  "schemaVersion": "reflow.design.v0",
+                  "id": "type-pairing",
+                  "name": "Two voices, one design",
+                  "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                  "provenance": "synthetic",
+                  "width": 1920,
+                  "height": 1080,
+                  "background": "#2a352e",
+                  "elements": [
+                    {
+                      "id": "eyebrow",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 70.2,
+                      "width": 1779.6,
+                      "height": 70.35055806013919,
+                      "fontSize": 33.59,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "headline",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 167.5505580601392,
+                      "width": 1779.6,
+                      "height": 516.7308618199326,
+                      "fontSize": 158.39,
+                      "color": "#e4dec8",
+                      "fontWeight": 600,
+                      "fontFamily": "Source Serif 4",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "body",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 711.2814198800718,
+                      "width": 1779.6,
+                      "height": 143.7451306517267,
+                      "fontSize": 49.19,
+                      "color": "#e4dec8",
+                      "fontWeight": 500,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "footer",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 882.0265505317984,
+                      "width": 1779.6,
+                      "height": 127.77344946820153,
+                      "fontSize": 40.79,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    }
+                  ],
+                  "groups": []
+                },
+                "metrics": {
+                  "errors": 0,
+                  "warnings": 0,
+                  "minReadingSize": 11.196666666666667,
+                  "contentCoverage": 0.736865625,
+                  "findings": []
+                }
+              },
+              {
+                "strategy": "split",
+                "design": {
+                  "schemaVersion": "reflow.design.v0",
+                  "id": "type-pairing",
+                  "name": "Two voices, one design",
+                  "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                  "provenance": "synthetic",
+                  "width": 1920,
+                  "height": 1080,
+                  "background": "#2a352e",
+                  "elements": [
+                    {
+                      "id": "eyebrow",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 70.2,
+                      "width": 1779.6,
+                      "height": 70.35055806013919,
+                      "fontSize": 33.59,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "headline",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 167.5505580601392,
+                      "width": 1779.6,
+                      "height": 516.7308618199326,
+                      "fontSize": 158.39,
+                      "color": "#e4dec8",
+                      "fontWeight": 600,
+                      "fontFamily": "Source Serif 4",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "body",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 711.2814198800718,
+                      "width": 1779.6,
+                      "height": 143.7451306517267,
+                      "fontSize": 49.19,
+                      "color": "#e4dec8",
+                      "fontWeight": 500,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "footer",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 882.0265505317984,
+                      "width": 1779.6,
+                      "height": 127.77344946820153,
+                      "fontSize": 40.79,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    }
+                  ],
+                  "groups": []
+                },
+                "metrics": {
+                  "errors": 0,
+                  "warnings": 0,
+                  "minReadingSize": 11.196666666666667,
+                  "contentCoverage": 0.736865625,
+                  "findings": []
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "originalMetrics": {
+      "errors": 0,
+      "warnings": 0,
+      "minReadingSize": 9.333333333333334,
+      "contentCoverage": 0.573283950617284,
+      "findings": []
+    }
+  },
+  "actual": {
+    "batch": {
+      "results": [
+        {
+          "sourceId": "type-pairing",
+          "target": {
+            "id": "square",
+            "label": "Square",
+            "width": 1080,
+            "height": 1080
+          },
+          "baseline": {
+            "strategy": "uniform",
+            "design": {
+              "schemaVersion": "reflow.design.v0",
+              "id": "type-pairing",
+              "name": "Two voices, one design",
+              "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+              "provenance": "synthetic",
+              "width": 1080,
+              "height": 1080,
+              "background": "#2a352e",
+              "elements": [
+                {
+                  "id": "eyebrow",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 165.6,
+                  "y": 52,
+                  "width": 748.8000000000001,
+                  "height": 43.2,
+                  "fontSize": 22.400000000000002,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "headline",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 165.6,
+                  "y": 156.8,
+                  "width": 748.8000000000001,
+                  "height": 440,
+                  "fontSize": 105.60000000000001,
+                  "color": "#e4dec8",
+                  "fontWeight": 600,
+                  "fontFamily": "Source Serif 4",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "body",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 165.6,
+                  "y": 668.8000000000001,
+                  "width": 748.8000000000001,
+                  "height": 122.4,
+                  "fontSize": 32.800000000000004,
+                  "color": "#e4dec8",
+                  "fontWeight": 500,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "footer",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 165.6,
+                  "y": 896,
+                  "width": 748.8000000000001,
+                  "height": 108.80000000000001,
+                  "fontSize": 27.200000000000003,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                }
+              ],
+              "groups": []
+            },
+            "metrics": {
+              "errors": 0,
+              "warnings": 1,
+              "minReadingSize": 7.466666666666668,
+              "contentCoverage": 0.45862716049382724,
+              "findings": [
+                {
+                  "kind": "small-text",
+                  "severity": "warning",
+                  "elementIds": [
+                    "eyebrow"
+                  ],
+                  "message": "eyebrow reads at 7.5px on a 360px short edge."
+                }
+              ]
+            }
+          },
+          "selected": {
+            "strategy": "stack",
+            "design": {
+              "schemaVersion": "reflow.design.v0",
+              "id": "type-pairing",
+              "name": "Two voices, one design",
+              "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+              "provenance": "synthetic",
+              "width": 1080,
+              "height": 1080,
+              "background": "#2a352e",
+              "elements": [
+                {
+                  "id": "eyebrow",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 70.2,
+                  "y": 70.2,
+                  "width": 939.6,
+                  "height": 70.35055806013919,
+                  "fontSize": 33.59,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "headline",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 70.2,
+                  "y": 167.5505580601392,
+                  "width": 939.6,
+                  "height": 516.7308618199326,
+                  "fontSize": 152.91,
+                  "color": "#e4dec8",
+                  "fontWeight": 600,
+                  "fontFamily": "Source Serif 4",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "body",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 70.2,
+                  "y": 711.2814198800718,
+                  "width": 939.6,
+                  "height": 143.7451306517267,
+                  "fontSize": 49.19,
+                  "color": "#e4dec8",
+                  "fontWeight": 500,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "footer",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 70.2,
+                  "y": 882.0265505317984,
+                  "width": 939.6,
+                  "height": 127.77344946820153,
+                  "fontSize": 40.79,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                }
+              ],
+              "groups": []
+            },
+            "metrics": {
+              "errors": 0,
+              "warnings": 0,
+              "minReadingSize": 11.196666666666667,
+              "contentCoverage": 0.6916500000000001,
+              "findings": []
+            }
+          },
+          "candidates": [
+            {
+              "strategy": "uniform",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1080,
+                "height": 1080,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 165.6,
+                    "y": 52,
+                    "width": 748.8000000000001,
+                    "height": 43.2,
+                    "fontSize": 22.400000000000002,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 165.6,
+                    "y": 156.8,
+                    "width": 748.8000000000001,
+                    "height": 440,
+                    "fontSize": 105.60000000000001,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 165.6,
+                    "y": 668.8000000000001,
+                    "width": 748.8000000000001,
+                    "height": 122.4,
+                    "fontSize": 32.800000000000004,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 165.6,
+                    "y": 896,
+                    "width": 748.8000000000001,
+                    "height": 108.80000000000001,
+                    "fontSize": 27.200000000000003,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 1,
+                "minReadingSize": 7.466666666666668,
+                "contentCoverage": 0.45862716049382724,
+                "findings": [
+                  {
+                    "kind": "small-text",
+                    "severity": "warning",
+                    "elementIds": [
+                      "eyebrow"
+                    ],
+                    "message": "eyebrow reads at 7.5px on a 360px short edge."
+                  }
+                ]
+              }
+            },
+            {
+              "strategy": "stack",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1080,
+                "height": 1080,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 70.2,
+                    "width": 939.6,
+                    "height": 70.35055806013919,
+                    "fontSize": 33.59,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 167.5505580601392,
+                    "width": 939.6,
+                    "height": 516.7308618199326,
+                    "fontSize": 152.91,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 711.2814198800718,
+                    "width": 939.6,
+                    "height": 143.7451306517267,
+                    "fontSize": 49.19,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 882.0265505317984,
+                    "width": 939.6,
+                    "height": 127.77344946820153,
+                    "fontSize": 40.79,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 0,
+                "minReadingSize": 11.196666666666667,
+                "contentCoverage": 0.6916500000000001,
+                "findings": []
+              }
+            },
+            {
+              "strategy": "split",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1080,
+                "height": 1080,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 70.2,
+                    "width": 939.6,
+                    "height": 70.35055806013919,
+                    "fontSize": 33.59,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 167.5505580601392,
+                    "width": 939.6,
+                    "height": 516.7308618199326,
+                    "fontSize": 152.91,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 711.2814198800718,
+                    "width": 939.6,
+                    "height": 143.7451306517267,
+                    "fontSize": 49.19,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 882.0265505317984,
+                    "width": 939.6,
+                    "height": 127.77344946820153,
+                    "fontSize": 40.79,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 0,
+                "minReadingSize": 11.196666666666667,
+                "contentCoverage": 0.6916500000000001,
+                "findings": []
+              }
+            }
+          ]
+        },
+        {
+          "sourceId": "type-pairing",
+          "target": {
+            "id": "story",
+            "label": "Story",
+            "width": 1080,
+            "height": 1920
+          },
+          "baseline": {
+            "strategy": "uniform",
+            "design": {
+              "schemaVersion": "reflow.design.v0",
+              "id": "type-pairing",
+              "name": "Two voices, one design",
+              "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+              "provenance": "synthetic",
+              "width": 1080,
+              "height": 1920,
+              "background": "#2a352e",
+              "elements": [
+                {
+                  "id": "eyebrow",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 72,
+                  "y": 350,
+                  "width": 936,
+                  "height": 54,
+                  "fontSize": 28,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "headline",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 72,
+                  "y": 481,
+                  "width": 936,
+                  "height": 550,
+                  "fontSize": 132,
+                  "color": "#e4dec8",
+                  "fontWeight": 600,
+                  "fontFamily": "Source Serif 4",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "body",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 72,
+                  "y": 1121,
+                  "width": 936,
+                  "height": 153,
+                  "fontSize": 41,
+                  "color": "#e4dec8",
+                  "fontWeight": 500,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "footer",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 72,
+                  "y": 1405,
+                  "width": 936,
+                  "height": 136,
+                  "fontSize": 34,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                }
+              ],
+              "groups": []
+            },
+            "metrics": {
+              "errors": 0,
+              "warnings": 0,
+              "minReadingSize": 9.333333333333334,
+              "contentCoverage": 0.4030902777777778,
+              "findings": []
+            }
+          },
+          "selected": {
+            "strategy": "uniform",
+            "design": {
+              "schemaVersion": "reflow.design.v0",
+              "id": "type-pairing",
+              "name": "Two voices, one design",
+              "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+              "provenance": "synthetic",
+              "width": 1080,
+              "height": 1920,
+              "background": "#2a352e",
+              "elements": [
+                {
+                  "id": "eyebrow",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 72,
+                  "y": 350,
+                  "width": 936,
+                  "height": 54,
+                  "fontSize": 28,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "headline",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 72,
+                  "y": 481,
+                  "width": 936,
+                  "height": 550,
+                  "fontSize": 132,
+                  "color": "#e4dec8",
+                  "fontWeight": 600,
+                  "fontFamily": "Source Serif 4",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "body",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 72,
+                  "y": 1121,
+                  "width": 936,
+                  "height": 153,
+                  "fontSize": 41,
+                  "color": "#e4dec8",
+                  "fontWeight": 500,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "footer",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 72,
+                  "y": 1405,
+                  "width": 936,
+                  "height": 136,
+                  "fontSize": 34,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                }
+              ],
+              "groups": []
+            },
+            "metrics": {
+              "errors": 0,
+              "warnings": 0,
+              "minReadingSize": 9.333333333333334,
+              "contentCoverage": 0.4030902777777778,
+              "findings": []
+            }
+          },
+          "candidates": [
+            {
+              "strategy": "uniform",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1080,
+                "height": 1920,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 350,
+                    "width": 936,
+                    "height": 54,
+                    "fontSize": 28,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 481,
+                    "width": 936,
+                    "height": 550,
+                    "fontSize": 132,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 1121,
+                    "width": 936,
+                    "height": 153,
+                    "fontSize": 41,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 1405,
+                    "width": 936,
+                    "height": 136,
+                    "fontSize": 34,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 0,
+                "minReadingSize": 9.333333333333334,
+                "contentCoverage": 0.4030902777777778,
+                "findings": []
+              }
+            },
+            {
+              "strategy": "stack",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1080,
+                "height": 1920,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 70.2,
+                    "width": 939.6,
+                    "height": 139.17709983805315,
+                    "fontSize": 33.59,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 236.37709983805314,
+                    "width": 939.6,
+                    "height": 1022.2676937891189,
+                    "fontSize": 152.91,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 1285.644793627172,
+                    "width": 939.6,
+                    "height": 284.37628572679125,
+                    "fontSize": 49.19,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 1597.0210793539632,
+                    "width": 939.6,
+                    "height": 252.77892064603668,
+                    "fontSize": 40.79,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 0,
+                "minReadingSize": 11.196666666666667,
+                "contentCoverage": 0.769678125,
+                "findings": []
+              }
+            },
+            {
+              "strategy": "split",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1080,
+                "height": 1920,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 70.2,
+                    "width": 939.6,
+                    "height": 139.17709983805315,
+                    "fontSize": 33.59,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 236.37709983805314,
+                    "width": 939.6,
+                    "height": 1022.2676937891189,
+                    "fontSize": 152.91,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 1285.644793627172,
+                    "width": 939.6,
+                    "height": 284.37628572679125,
+                    "fontSize": 49.19,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 1597.0210793539632,
+                    "width": 939.6,
+                    "height": 252.77892064603668,
+                    "fontSize": 40.79,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 0,
+                "minReadingSize": 11.196666666666667,
+                "contentCoverage": 0.769678125,
+                "findings": []
+              }
+            }
+          ]
+        },
+        {
+          "sourceId": "type-pairing",
+          "target": {
+            "id": "landscape",
+            "label": "Landscape",
+            "width": 1920,
+            "height": 1080
+          },
+          "baseline": {
+            "strategy": "uniform",
+            "design": {
+              "schemaVersion": "reflow.design.v0",
+              "id": "type-pairing",
+              "name": "Two voices, one design",
+              "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+              "provenance": "synthetic",
+              "width": 1920,
+              "height": 1080,
+              "background": "#2a352e",
+              "elements": [
+                {
+                  "id": "eyebrow",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 585.6,
+                  "y": 52,
+                  "width": 748.8000000000001,
+                  "height": 43.2,
+                  "fontSize": 22.400000000000002,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "headline",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 585.6,
+                  "y": 156.8,
+                  "width": 748.8000000000001,
+                  "height": 440,
+                  "fontSize": 105.60000000000001,
+                  "color": "#e4dec8",
+                  "fontWeight": 600,
+                  "fontFamily": "Source Serif 4",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "body",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 585.6,
+                  "y": 668.8000000000001,
+                  "width": 748.8000000000001,
+                  "height": 122.4,
+                  "fontSize": 32.800000000000004,
+                  "color": "#e4dec8",
+                  "fontWeight": 500,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "footer",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 585.6,
+                  "y": 896,
+                  "width": 748.8000000000001,
+                  "height": 108.80000000000001,
+                  "fontSize": 27.200000000000003,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                }
+              ],
+              "groups": []
+            },
+            "metrics": {
+              "errors": 0,
+              "warnings": 1,
+              "minReadingSize": 7.466666666666668,
+              "contentCoverage": 0.2579777777777778,
+              "findings": [
+                {
+                  "kind": "small-text",
+                  "severity": "warning",
+                  "elementIds": [
+                    "eyebrow"
+                  ],
+                  "message": "eyebrow reads at 7.5px on a 360px short edge."
+                }
+              ]
+            }
+          },
+          "selected": {
+            "strategy": "stack",
+            "design": {
+              "schemaVersion": "reflow.design.v0",
+              "id": "type-pairing",
+              "name": "Two voices, one design",
+              "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+              "provenance": "synthetic",
+              "width": 1920,
+              "height": 1080,
+              "background": "#2a352e",
+              "elements": [
+                {
+                  "id": "eyebrow",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 70.2,
+                  "y": 70.2,
+                  "width": 1779.6,
+                  "height": 70.35055806013919,
+                  "fontSize": 33.59,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "headline",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 70.2,
+                  "y": 167.5505580601392,
+                  "width": 1779.6,
+                  "height": 516.7308618199326,
+                  "fontSize": 158.39,
+                  "color": "#e4dec8",
+                  "fontWeight": 600,
+                  "fontFamily": "Source Serif 4",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "body",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 70.2,
+                  "y": 711.2814198800718,
+                  "width": 1779.6,
+                  "height": 143.7451306517267,
+                  "fontSize": 49.19,
+                  "color": "#e4dec8",
+                  "fontWeight": 500,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                },
+                {
+                  "id": "footer",
+                  "type": "text",
+                  "role": "content",
+                  "text": "Café Ā Ł Ω Ж ệ",
+                  "x": 70.2,
+                  "y": 882.0265505317984,
+                  "width": 1779.6,
+                  "height": 127.77344946820153,
+                  "fontSize": 40.79,
+                  "color": "#e4dec8",
+                  "fontWeight": 700,
+                  "fontFamily": "Inter",
+                  "lineHeight": 1.14
+                }
+              ],
+              "groups": []
+            },
+            "metrics": {
+              "errors": 0,
+              "warnings": 0,
+              "minReadingSize": 11.196666666666667,
+              "contentCoverage": 0.736865625,
+              "findings": []
+            }
+          },
+          "candidates": [
+            {
+              "strategy": "uniform",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1920,
+                "height": 1080,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 585.6,
+                    "y": 52,
+                    "width": 748.8000000000001,
+                    "height": 43.2,
+                    "fontSize": 22.400000000000002,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 585.6,
+                    "y": 156.8,
+                    "width": 748.8000000000001,
+                    "height": 440,
+                    "fontSize": 105.60000000000001,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 585.6,
+                    "y": 668.8000000000001,
+                    "width": 748.8000000000001,
+                    "height": 122.4,
+                    "fontSize": 32.800000000000004,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 585.6,
+                    "y": 896,
+                    "width": 748.8000000000001,
+                    "height": 108.80000000000001,
+                    "fontSize": 27.200000000000003,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 1,
+                "minReadingSize": 7.466666666666668,
+                "contentCoverage": 0.2579777777777778,
+                "findings": [
+                  {
+                    "kind": "small-text",
+                    "severity": "warning",
+                    "elementIds": [
+                      "eyebrow"
+                    ],
+                    "message": "eyebrow reads at 7.5px on a 360px short edge."
+                  }
+                ]
+              }
+            },
+            {
+              "strategy": "stack",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1920,
+                "height": 1080,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 70.2,
+                    "width": 1779.6,
+                    "height": 70.35055806013919,
+                    "fontSize": 33.59,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 167.5505580601392,
+                    "width": 1779.6,
+                    "height": 516.7308618199326,
+                    "fontSize": 158.39,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 711.2814198800718,
+                    "width": 1779.6,
+                    "height": 143.7451306517267,
+                    "fontSize": 49.19,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 882.0265505317984,
+                    "width": 1779.6,
+                    "height": 127.77344946820153,
+                    "fontSize": 40.79,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 0,
+                "minReadingSize": 11.196666666666667,
+                "contentCoverage": 0.736865625,
+                "findings": []
+              }
+            },
+            {
+              "strategy": "split",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1920,
+                "height": 1080,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 70.2,
+                    "width": 1779.6,
+                    "height": 70.35055806013919,
+                    "fontSize": 33.59,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 167.5505580601392,
+                    "width": 1779.6,
+                    "height": 516.7308618199326,
+                    "fontSize": 158.39,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 711.2814198800718,
+                    "width": 1779.6,
+                    "height": 143.7451306517267,
+                    "fontSize": 49.19,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 882.0265505317984,
+                    "width": 1779.6,
+                    "height": 127.77344946820153,
+                    "fontSize": 40.79,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 0,
+                "minReadingSize": 11.196666666666667,
+                "contentCoverage": 0.736865625,
+                "findings": []
+              }
+            }
+          ]
+        }
+      ],
+      "failures": [],
+      "outcomes": [
+        {
+          "target": {
+            "id": "square",
+            "label": "Square",
+            "width": 1080,
+            "height": 1080
+          },
+          "result": {
+            "sourceId": "type-pairing",
+            "target": {
+              "id": "square",
+              "label": "Square",
+              "width": 1080,
+              "height": 1080
+            },
+            "baseline": {
+              "strategy": "uniform",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1080,
+                "height": 1080,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 165.6,
+                    "y": 52,
+                    "width": 748.8000000000001,
+                    "height": 43.2,
+                    "fontSize": 22.400000000000002,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 165.6,
+                    "y": 156.8,
+                    "width": 748.8000000000001,
+                    "height": 440,
+                    "fontSize": 105.60000000000001,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 165.6,
+                    "y": 668.8000000000001,
+                    "width": 748.8000000000001,
+                    "height": 122.4,
+                    "fontSize": 32.800000000000004,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 165.6,
+                    "y": 896,
+                    "width": 748.8000000000001,
+                    "height": 108.80000000000001,
+                    "fontSize": 27.200000000000003,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 1,
+                "minReadingSize": 7.466666666666668,
+                "contentCoverage": 0.45862716049382724,
+                "findings": [
+                  {
+                    "kind": "small-text",
+                    "severity": "warning",
+                    "elementIds": [
+                      "eyebrow"
+                    ],
+                    "message": "eyebrow reads at 7.5px on a 360px short edge."
+                  }
+                ]
+              }
+            },
+            "selected": {
+              "strategy": "stack",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1080,
+                "height": 1080,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 70.2,
+                    "width": 939.6,
+                    "height": 70.35055806013919,
+                    "fontSize": 33.59,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 167.5505580601392,
+                    "width": 939.6,
+                    "height": 516.7308618199326,
+                    "fontSize": 152.91,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 711.2814198800718,
+                    "width": 939.6,
+                    "height": 143.7451306517267,
+                    "fontSize": 49.19,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 882.0265505317984,
+                    "width": 939.6,
+                    "height": 127.77344946820153,
+                    "fontSize": 40.79,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 0,
+                "minReadingSize": 11.196666666666667,
+                "contentCoverage": 0.6916500000000001,
+                "findings": []
+              }
+            },
+            "candidates": [
+              {
+                "strategy": "uniform",
+                "design": {
+                  "schemaVersion": "reflow.design.v0",
+                  "id": "type-pairing",
+                  "name": "Two voices, one design",
+                  "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                  "provenance": "synthetic",
+                  "width": 1080,
+                  "height": 1080,
+                  "background": "#2a352e",
+                  "elements": [
+                    {
+                      "id": "eyebrow",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 165.6,
+                      "y": 52,
+                      "width": 748.8000000000001,
+                      "height": 43.2,
+                      "fontSize": 22.400000000000002,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "headline",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 165.6,
+                      "y": 156.8,
+                      "width": 748.8000000000001,
+                      "height": 440,
+                      "fontSize": 105.60000000000001,
+                      "color": "#e4dec8",
+                      "fontWeight": 600,
+                      "fontFamily": "Source Serif 4",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "body",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 165.6,
+                      "y": 668.8000000000001,
+                      "width": 748.8000000000001,
+                      "height": 122.4,
+                      "fontSize": 32.800000000000004,
+                      "color": "#e4dec8",
+                      "fontWeight": 500,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "footer",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 165.6,
+                      "y": 896,
+                      "width": 748.8000000000001,
+                      "height": 108.80000000000001,
+                      "fontSize": 27.200000000000003,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    }
+                  ],
+                  "groups": []
+                },
+                "metrics": {
+                  "errors": 0,
+                  "warnings": 1,
+                  "minReadingSize": 7.466666666666668,
+                  "contentCoverage": 0.45862716049382724,
+                  "findings": [
+                    {
+                      "kind": "small-text",
+                      "severity": "warning",
+                      "elementIds": [
+                        "eyebrow"
+                      ],
+                      "message": "eyebrow reads at 7.5px on a 360px short edge."
+                    }
+                  ]
+                }
+              },
+              {
+                "strategy": "stack",
+                "design": {
+                  "schemaVersion": "reflow.design.v0",
+                  "id": "type-pairing",
+                  "name": "Two voices, one design",
+                  "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                  "provenance": "synthetic",
+                  "width": 1080,
+                  "height": 1080,
+                  "background": "#2a352e",
+                  "elements": [
+                    {
+                      "id": "eyebrow",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 70.2,
+                      "width": 939.6,
+                      "height": 70.35055806013919,
+                      "fontSize": 33.59,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "headline",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 167.5505580601392,
+                      "width": 939.6,
+                      "height": 516.7308618199326,
+                      "fontSize": 152.91,
+                      "color": "#e4dec8",
+                      "fontWeight": 600,
+                      "fontFamily": "Source Serif 4",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "body",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 711.2814198800718,
+                      "width": 939.6,
+                      "height": 143.7451306517267,
+                      "fontSize": 49.19,
+                      "color": "#e4dec8",
+                      "fontWeight": 500,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "footer",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 882.0265505317984,
+                      "width": 939.6,
+                      "height": 127.77344946820153,
+                      "fontSize": 40.79,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    }
+                  ],
+                  "groups": []
+                },
+                "metrics": {
+                  "errors": 0,
+                  "warnings": 0,
+                  "minReadingSize": 11.196666666666667,
+                  "contentCoverage": 0.6916500000000001,
+                  "findings": []
+                }
+              },
+              {
+                "strategy": "split",
+                "design": {
+                  "schemaVersion": "reflow.design.v0",
+                  "id": "type-pairing",
+                  "name": "Two voices, one design",
+                  "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                  "provenance": "synthetic",
+                  "width": 1080,
+                  "height": 1080,
+                  "background": "#2a352e",
+                  "elements": [
+                    {
+                      "id": "eyebrow",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 70.2,
+                      "width": 939.6,
+                      "height": 70.35055806013919,
+                      "fontSize": 33.59,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "headline",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 167.5505580601392,
+                      "width": 939.6,
+                      "height": 516.7308618199326,
+                      "fontSize": 152.91,
+                      "color": "#e4dec8",
+                      "fontWeight": 600,
+                      "fontFamily": "Source Serif 4",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "body",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 711.2814198800718,
+                      "width": 939.6,
+                      "height": 143.7451306517267,
+                      "fontSize": 49.19,
+                      "color": "#e4dec8",
+                      "fontWeight": 500,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "footer",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 882.0265505317984,
+                      "width": 939.6,
+                      "height": 127.77344946820153,
+                      "fontSize": 40.79,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    }
+                  ],
+                  "groups": []
+                },
+                "metrics": {
+                  "errors": 0,
+                  "warnings": 0,
+                  "minReadingSize": 11.196666666666667,
+                  "contentCoverage": 0.6916500000000001,
+                  "findings": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "target": {
+            "id": "story",
+            "label": "Story",
+            "width": 1080,
+            "height": 1920
+          },
+          "result": {
+            "sourceId": "type-pairing",
+            "target": {
+              "id": "story",
+              "label": "Story",
+              "width": 1080,
+              "height": 1920
+            },
+            "baseline": {
+              "strategy": "uniform",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1080,
+                "height": 1920,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 350,
+                    "width": 936,
+                    "height": 54,
+                    "fontSize": 28,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 481,
+                    "width": 936,
+                    "height": 550,
+                    "fontSize": 132,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 1121,
+                    "width": 936,
+                    "height": 153,
+                    "fontSize": 41,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 1405,
+                    "width": 936,
+                    "height": 136,
+                    "fontSize": 34,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 0,
+                "minReadingSize": 9.333333333333334,
+                "contentCoverage": 0.4030902777777778,
+                "findings": []
+              }
+            },
+            "selected": {
+              "strategy": "uniform",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1080,
+                "height": 1920,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 350,
+                    "width": 936,
+                    "height": 54,
+                    "fontSize": 28,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 481,
+                    "width": 936,
+                    "height": 550,
+                    "fontSize": 132,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 1121,
+                    "width": 936,
+                    "height": 153,
+                    "fontSize": 41,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 72,
+                    "y": 1405,
+                    "width": 936,
+                    "height": 136,
+                    "fontSize": 34,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 0,
+                "minReadingSize": 9.333333333333334,
+                "contentCoverage": 0.4030902777777778,
+                "findings": []
+              }
+            },
+            "candidates": [
+              {
+                "strategy": "uniform",
+                "design": {
+                  "schemaVersion": "reflow.design.v0",
+                  "id": "type-pairing",
+                  "name": "Two voices, one design",
+                  "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                  "provenance": "synthetic",
+                  "width": 1080,
+                  "height": 1920,
+                  "background": "#2a352e",
+                  "elements": [
+                    {
+                      "id": "eyebrow",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 72,
+                      "y": 350,
+                      "width": 936,
+                      "height": 54,
+                      "fontSize": 28,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "headline",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 72,
+                      "y": 481,
+                      "width": 936,
+                      "height": 550,
+                      "fontSize": 132,
+                      "color": "#e4dec8",
+                      "fontWeight": 600,
+                      "fontFamily": "Source Serif 4",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "body",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 72,
+                      "y": 1121,
+                      "width": 936,
+                      "height": 153,
+                      "fontSize": 41,
+                      "color": "#e4dec8",
+                      "fontWeight": 500,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "footer",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 72,
+                      "y": 1405,
+                      "width": 936,
+                      "height": 136,
+                      "fontSize": 34,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    }
+                  ],
+                  "groups": []
+                },
+                "metrics": {
+                  "errors": 0,
+                  "warnings": 0,
+                  "minReadingSize": 9.333333333333334,
+                  "contentCoverage": 0.4030902777777778,
+                  "findings": []
+                }
+              },
+              {
+                "strategy": "stack",
+                "design": {
+                  "schemaVersion": "reflow.design.v0",
+                  "id": "type-pairing",
+                  "name": "Two voices, one design",
+                  "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                  "provenance": "synthetic",
+                  "width": 1080,
+                  "height": 1920,
+                  "background": "#2a352e",
+                  "elements": [
+                    {
+                      "id": "eyebrow",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 70.2,
+                      "width": 939.6,
+                      "height": 139.17709983805315,
+                      "fontSize": 33.59,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "headline",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 236.37709983805314,
+                      "width": 939.6,
+                      "height": 1022.2676937891189,
+                      "fontSize": 152.91,
+                      "color": "#e4dec8",
+                      "fontWeight": 600,
+                      "fontFamily": "Source Serif 4",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "body",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 1285.644793627172,
+                      "width": 939.6,
+                      "height": 284.37628572679125,
+                      "fontSize": 49.19,
+                      "color": "#e4dec8",
+                      "fontWeight": 500,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "footer",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 1597.0210793539632,
+                      "width": 939.6,
+                      "height": 252.77892064603668,
+                      "fontSize": 40.79,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    }
+                  ],
+                  "groups": []
+                },
+                "metrics": {
+                  "errors": 0,
+                  "warnings": 0,
+                  "minReadingSize": 11.196666666666667,
+                  "contentCoverage": 0.769678125,
+                  "findings": []
+                }
+              },
+              {
+                "strategy": "split",
+                "design": {
+                  "schemaVersion": "reflow.design.v0",
+                  "id": "type-pairing",
+                  "name": "Two voices, one design",
+                  "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                  "provenance": "synthetic",
+                  "width": 1080,
+                  "height": 1920,
+                  "background": "#2a352e",
+                  "elements": [
+                    {
+                      "id": "eyebrow",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 70.2,
+                      "width": 939.6,
+                      "height": 139.17709983805315,
+                      "fontSize": 33.59,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "headline",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 236.37709983805314,
+                      "width": 939.6,
+                      "height": 1022.2676937891189,
+                      "fontSize": 152.91,
+                      "color": "#e4dec8",
+                      "fontWeight": 600,
+                      "fontFamily": "Source Serif 4",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "body",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 1285.644793627172,
+                      "width": 939.6,
+                      "height": 284.37628572679125,
+                      "fontSize": 49.19,
+                      "color": "#e4dec8",
+                      "fontWeight": 500,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "footer",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 1597.0210793539632,
+                      "width": 939.6,
+                      "height": 252.77892064603668,
+                      "fontSize": 40.79,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    }
+                  ],
+                  "groups": []
+                },
+                "metrics": {
+                  "errors": 0,
+                  "warnings": 0,
+                  "minReadingSize": 11.196666666666667,
+                  "contentCoverage": 0.769678125,
+                  "findings": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "target": {
+            "id": "landscape",
+            "label": "Landscape",
+            "width": 1920,
+            "height": 1080
+          },
+          "result": {
+            "sourceId": "type-pairing",
+            "target": {
+              "id": "landscape",
+              "label": "Landscape",
+              "width": 1920,
+              "height": 1080
+            },
+            "baseline": {
+              "strategy": "uniform",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1920,
+                "height": 1080,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 585.6,
+                    "y": 52,
+                    "width": 748.8000000000001,
+                    "height": 43.2,
+                    "fontSize": 22.400000000000002,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 585.6,
+                    "y": 156.8,
+                    "width": 748.8000000000001,
+                    "height": 440,
+                    "fontSize": 105.60000000000001,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 585.6,
+                    "y": 668.8000000000001,
+                    "width": 748.8000000000001,
+                    "height": 122.4,
+                    "fontSize": 32.800000000000004,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 585.6,
+                    "y": 896,
+                    "width": 748.8000000000001,
+                    "height": 108.80000000000001,
+                    "fontSize": 27.200000000000003,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 1,
+                "minReadingSize": 7.466666666666668,
+                "contentCoverage": 0.2579777777777778,
+                "findings": [
+                  {
+                    "kind": "small-text",
+                    "severity": "warning",
+                    "elementIds": [
+                      "eyebrow"
+                    ],
+                    "message": "eyebrow reads at 7.5px on a 360px short edge."
+                  }
+                ]
+              }
+            },
+            "selected": {
+              "strategy": "stack",
+              "design": {
+                "schemaVersion": "reflow.design.v0",
+                "id": "type-pairing",
+                "name": "Two voices, one design",
+                "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                "provenance": "synthetic",
+                "width": 1920,
+                "height": 1080,
+                "background": "#2a352e",
+                "elements": [
+                  {
+                    "id": "eyebrow",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 70.2,
+                    "width": 1779.6,
+                    "height": 70.35055806013919,
+                    "fontSize": 33.59,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "headline",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 167.5505580601392,
+                    "width": 1779.6,
+                    "height": 516.7308618199326,
+                    "fontSize": 158.39,
+                    "color": "#e4dec8",
+                    "fontWeight": 600,
+                    "fontFamily": "Source Serif 4",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "body",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 711.2814198800718,
+                    "width": 1779.6,
+                    "height": 143.7451306517267,
+                    "fontSize": 49.19,
+                    "color": "#e4dec8",
+                    "fontWeight": 500,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  },
+                  {
+                    "id": "footer",
+                    "type": "text",
+                    "role": "content",
+                    "text": "Café Ā Ł Ω Ж ệ",
+                    "x": 70.2,
+                    "y": 882.0265505317984,
+                    "width": 1779.6,
+                    "height": 127.77344946820153,
+                    "fontSize": 40.79,
+                    "color": "#e4dec8",
+                    "fontWeight": 700,
+                    "fontFamily": "Inter",
+                    "lineHeight": 1.14
+                  }
+                ],
+                "groups": []
+              },
+              "metrics": {
+                "errors": 0,
+                "warnings": 0,
+                "minReadingSize": 11.196666666666667,
+                "contentCoverage": 0.736865625,
+                "findings": []
+              }
+            },
+            "candidates": [
+              {
+                "strategy": "uniform",
+                "design": {
+                  "schemaVersion": "reflow.design.v0",
+                  "id": "type-pairing",
+                  "name": "Two voices, one design",
+                  "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                  "provenance": "synthetic",
+                  "width": 1920,
+                  "height": 1080,
+                  "background": "#2a352e",
+                  "elements": [
+                    {
+                      "id": "eyebrow",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 585.6,
+                      "y": 52,
+                      "width": 748.8000000000001,
+                      "height": 43.2,
+                      "fontSize": 22.400000000000002,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "headline",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 585.6,
+                      "y": 156.8,
+                      "width": 748.8000000000001,
+                      "height": 440,
+                      "fontSize": 105.60000000000001,
+                      "color": "#e4dec8",
+                      "fontWeight": 600,
+                      "fontFamily": "Source Serif 4",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "body",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 585.6,
+                      "y": 668.8000000000001,
+                      "width": 748.8000000000001,
+                      "height": 122.4,
+                      "fontSize": 32.800000000000004,
+                      "color": "#e4dec8",
+                      "fontWeight": 500,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "footer",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 585.6,
+                      "y": 896,
+                      "width": 748.8000000000001,
+                      "height": 108.80000000000001,
+                      "fontSize": 27.200000000000003,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    }
+                  ],
+                  "groups": []
+                },
+                "metrics": {
+                  "errors": 0,
+                  "warnings": 1,
+                  "minReadingSize": 7.466666666666668,
+                  "contentCoverage": 0.2579777777777778,
+                  "findings": [
+                    {
+                      "kind": "small-text",
+                      "severity": "warning",
+                      "elementIds": [
+                        "eyebrow"
+                      ],
+                      "message": "eyebrow reads at 7.5px on a 360px short edge."
+                    }
+                  ]
+                }
+              },
+              {
+                "strategy": "stack",
+                "design": {
+                  "schemaVersion": "reflow.design.v0",
+                  "id": "type-pairing",
+                  "name": "Two voices, one design",
+                  "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                  "provenance": "synthetic",
+                  "width": 1920,
+                  "height": 1080,
+                  "background": "#2a352e",
+                  "elements": [
+                    {
+                      "id": "eyebrow",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 70.2,
+                      "width": 1779.6,
+                      "height": 70.35055806013919,
+                      "fontSize": 33.59,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "headline",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 167.5505580601392,
+                      "width": 1779.6,
+                      "height": 516.7308618199326,
+                      "fontSize": 158.39,
+                      "color": "#e4dec8",
+                      "fontWeight": 600,
+                      "fontFamily": "Source Serif 4",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "body",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 711.2814198800718,
+                      "width": 1779.6,
+                      "height": 143.7451306517267,
+                      "fontSize": 49.19,
+                      "color": "#e4dec8",
+                      "fontWeight": 500,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "footer",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 882.0265505317984,
+                      "width": 1779.6,
+                      "height": 127.77344946820153,
+                      "fontSize": 40.79,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    }
+                  ],
+                  "groups": []
+                },
+                "metrics": {
+                  "errors": 0,
+                  "warnings": 0,
+                  "minReadingSize": 11.196666666666667,
+                  "contentCoverage": 0.736865625,
+                  "findings": []
+                }
+              },
+              {
+                "strategy": "split",
+                "design": {
+                  "schemaVersion": "reflow.design.v0",
+                  "id": "type-pairing",
+                  "name": "Two voices, one design",
+                  "description": "Locally bundled serif and sans-serif fonts exercise font-sensitive measurement.",
+                  "provenance": "synthetic",
+                  "width": 1920,
+                  "height": 1080,
+                  "background": "#2a352e",
+                  "elements": [
+                    {
+                      "id": "eyebrow",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 70.2,
+                      "width": 1779.6,
+                      "height": 70.35055806013919,
+                      "fontSize": 33.59,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "headline",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 167.5505580601392,
+                      "width": 1779.6,
+                      "height": 516.7308618199326,
+                      "fontSize": 158.39,
+                      "color": "#e4dec8",
+                      "fontWeight": 600,
+                      "fontFamily": "Source Serif 4",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "body",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 711.2814198800718,
+                      "width": 1779.6,
+                      "height": 143.7451306517267,
+                      "fontSize": 49.19,
+                      "color": "#e4dec8",
+                      "fontWeight": 500,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    },
+                    {
+                      "id": "footer",
+                      "type": "text",
+                      "role": "content",
+                      "text": "Café Ā Ł Ω Ж ệ",
+                      "x": 70.2,
+                      "y": 882.0265505317984,
+                      "width": 1779.6,
+                      "height": 127.77344946820153,
+                      "fontSize": 40.79,
+                      "color": "#e4dec8",
+                      "fontWeight": 700,
+                      "fontFamily": "Inter",
+                      "lineHeight": 1.14
+                    }
+                  ],
+                  "groups": []
+                },
+                "metrics": {
+                  "errors": 0,
+                  "warnings": 0,
+                  "minReadingSize": 11.196666666666667,
+                  "contentCoverage": 0.736865625,
+                  "findings": []
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "originalMetrics": {
+      "errors": 0,
+      "warnings": 0,
+      "minReadingSize": 9.333333333333334,
+      "contentCoverage": 0.573283950617284,
+      "findings": []
+    }
+  }
+}

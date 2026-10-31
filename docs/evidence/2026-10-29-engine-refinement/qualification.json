@@ -1,0 +1,851 @@
+{
+  "runtime": "docker",
+  "failures": [],
+  "controls": {
+    "renderer-absent": {
+      "ok": true,
+      "why": "probe stderr: ModuleNotFoundError: No module named 'renderer.converter'"
+    },
+    "mutated-input": {
+      "ok": true,
+      "why": "input bytes changed"
+    },
+    "zero-input": {
+      "ok": true,
+      "why": "zero input cases"
+    },
+    "write-attempt": {
+      "ok": true,
+      "why": "write to :ro input was not refused with Read-only file system"
+    }
+  },
+  "machine": "arm64",
+  "pass": true,
+  "git_sha": "126c18668db7817b753383c98ff095ecd25c6226",
+  "build_exit": 0,
+  "image": {
+    "id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+    "arch": "amd64",
+    "os": "linux"
+  },
+  "smoke": {
+    "image": "of01-126c18668db7",
+    "arch": "x86_64",
+    "cases_attempted": 3,
+    "inputs_sha256_before": {
+      "chameleon_sample_level1_warmup.json": "79f889a1b0ec616b3f75de7b0d7fe4b92dcfb027e99b512a019a7aa941000ea6",
+      "chameleon_sample_level2_core.json": "c37407fa20aefb8e1c53a3476b99973000657c3c1d93fc9637e462703955a04b",
+      "chameleon_sample_level3_advanced.json": "fd99e3972c9c11c506d98897f3cb9520a5caea10b358d30e6853b9efca58cf33"
+    },
+    "inputs_sha256_after": {
+      "chameleon_sample_level1_warmup.json": "79f889a1b0ec616b3f75de7b0d7fe4b92dcfb027e99b512a019a7aa941000ea6",
+      "chameleon_sample_level2_core.json": "c37407fa20aefb8e1c53a3476b99973000657c3c1d93fc9637e462703955a04b",
+      "chameleon_sample_level3_advanced.json": "fd99e3972c9c11c506d98897f3cb9520a5caea10b358d30e6853b9efca58cf33"
+    },
+    "outputs_sha256": {
+      "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+      "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+      "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+      "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+      "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64",
+      "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475"
+    },
+    "probe": {
+      "rc": 0,
+      "net": "blocked",
+      "events": [
+        [
+          "REAL",
+          "output/chameleon_sample_level1_warmup_output.png"
+        ],
+        [
+          "REAL",
+          "output/chameleon_sample_level2_core_output.png"
+        ],
+        [
+          "REAL",
+          "output/chameleon_sample_level3_advanced_output.png"
+        ]
+      ]
+    },
+    "entrypoint_exit": 0,
+    "network_inspect": [
+      "none",
+      "none"
+    ],
+    "write_attempt": {
+      "refused": true,
+      "exit": 1,
+      "stderr_tail": "(linux/arm64/v8) and no specific platform was requested\nTraceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nOSError: [Errno 30] Read-only file system: '/app/input/.write-attempt'"
+    },
+    "repeat": {
+      "status": "identical",
+      "image_id_before": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+      "image_id_after": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+      "entrypoint_exit": 0,
+      "network_inspect": [
+        "none"
+      ],
+      "outputs_sha256_second": {
+        "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+        "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+        "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+        "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+        "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64",
+        "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475"
+      }
+    },
+    "failures": [],
+    "pass": true
+  },
+  "failure_matrix": {
+    "image_id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+    "cases": {
+      "valid": {
+        "name": "valid",
+        "container": "reflow-fault-764326df5150484787cad1d129a0944f",
+        "expected_image_id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+        "inputs_before": {
+          "task.json": "c58df4373b064e9f474e7c9787a598a743d28a4dadc036b24f3ac3a210c10308"
+        },
+        "inspect_ok": true,
+        "input_readonly": true,
+        "running": false,
+        "cleanup_exit": 0,
+        "absent": true,
+        "kill_exit": null,
+        "exit": 0,
+        "timed_out": false,
+        "duration_s": 2.527,
+        "stdout": "[task.json] OK in 0.01s -> task_output.json, task_output.png\n",
+        "stderr": "WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested\nFontconfig warning: \"/usr/share/fontconfig/conf.avail/05-reset-dirs-sample.conf\", line 6: unknown element \"reset-dirs\"\n",
+        "container_identity_verified": true,
+        "image_id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+        "network": "none",
+        "memory": 536870912,
+        "memory_swap": 536870912,
+        "oom_killed": false,
+        "state_exit": 0,
+        "inputs_after": {
+          "task.json": "c58df4373b064e9f474e7c9787a598a743d28a4dadc036b24f3ac3a210c10308"
+        },
+        "outputs_sha256": {
+          "task_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+          "task_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d"
+        },
+        "output_files": [
+          "task_output.json",
+          "task_output.png"
+        ],
+        "output_problems": [],
+        "failures": [],
+        "pass": true
+      },
+      "malformed": {
+        "name": "malformed",
+        "container": "reflow-fault-d824724fd75849b4bdaa567bdcfbcce8",
+        "expected_image_id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+        "inputs_before": {
+          "task.json": "021fb596db81e6d02bf3d2586ee3981fe519f275c0ac9ca76bbcf2ebb4097d96"
+        },
+        "inspect_ok": true,
+        "input_readonly": true,
+        "running": false,
+        "cleanup_exit": 0,
+        "absent": true,
+        "kill_exit": null,
+        "exit": 1,
+        "timed_out": false,
+        "duration_s": 0.617,
+        "stdout": "",
+        "stderr": "WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested\nTraceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/app/engine/main.py\", line 139, in <module>\n    raise SystemExit(main())\n                     ^^^^^^\n  File \"/app/engine/main.py\", line 117, in main\n    task = json.loads(task_path.read_text())\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/json/decoder.py\", line 353, in raw_decode\n    obj, end = self.scan_once(s, idx)\n               ^^^^^^^^^^^^^^^^^^^^^^\njson.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)\n",
+        "container_identity_verified": true,
+        "image_id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+        "network": "none",
+        "memory": 536870912,
+        "memory_swap": 536870912,
+        "oom_killed": false,
+        "state_exit": 1,
+        "inputs_after": {
+          "task.json": "021fb596db81e6d02bf3d2586ee3981fe519f275c0ac9ca76bbcf2ebb4097d96"
+        },
+        "outputs_sha256": {},
+        "output_files": [],
+        "output_problems": [],
+        "failures": [],
+        "pass": true
+      },
+      "unsupported": {
+        "name": "unsupported",
+        "container": "reflow-fault-b1b0759feded42adb4be8994ed6bac26",
+        "expected_image_id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+        "inputs_before": {
+          "task.json": "ecff54c2c63a8703311198600f8f13c36566fadacc1fa849a0274cb6cede3f17"
+        },
+        "inspect_ok": true,
+        "input_readonly": true,
+        "running": false,
+        "cleanup_exit": 0,
+        "absent": true,
+        "kill_exit": null,
+        "exit": 1,
+        "timed_out": false,
+        "duration_s": 0.645,
+        "stdout": "",
+        "stderr": "WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested\nTraceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/app/engine/main.py\", line 139, in <module>\n    raise SystemExit(main())\n                     ^^^^^^\n  File \"/app/engine/main.py\", line 121, in main\n    output = resize(source, target_canvas)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/engine/resize.py\", line 123, in resize\n    sw, sh, tw, th = _validate(source, target_canvas)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/engine/resize.py\", line 64, in _validate\n    _fields(e, p)\n  File \"/app/engine/resize.py\", line 104, in _fields\n    raise ValueError(f\"{p}.type: expected one of {sorted(_REQUIRED)}\")\nValueError: source.elements[0].type: expected one of ['image', 'shape', 'text']\n",
+        "container_identity_verified": true,
+        "image_id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+        "network": "none",
+        "memory": 536870912,
+        "memory_swap": 536870912,
+        "oom_killed": false,
+        "state_exit": 1,
+        "inputs_after": {
+          "task.json": "ecff54c2c63a8703311198600f8f13c36566fadacc1fa849a0274cb6cede3f17"
+        },
+        "outputs_sha256": {},
+        "output_files": [],
+        "output_problems": [],
+        "failures": [],
+        "pass": true
+      },
+      "invalid-target": {
+        "name": "invalid-target",
+        "container": "reflow-fault-a6d7c8e59de0478889e32cc588b58e8c",
+        "expected_image_id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+        "inputs_before": {
+          "task.json": "6a0e0d366888406781ed9c57ab09fcf1d188d1279d9528af4d4f35944cc3ba2c"
+        },
+        "inspect_ok": true,
+        "input_readonly": true,
+        "running": false,
+        "cleanup_exit": 0,
+        "absent": true,
+        "kill_exit": null,
+        "exit": 1,
+        "timed_out": false,
+        "duration_s": 0.396,
+        "stdout": "",
+        "stderr": "WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested\nTraceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/app/engine/main.py\", line 139, in <module>\n    raise SystemExit(main())\n                     ^^^^^^\n  File \"/app/engine/main.py\", line 121, in main\n    output = resize(source, target_canvas)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/engine/resize.py\", line 123, in resize\n    sw, sh, tw, th = _validate(source, target_canvas)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/engine/resize.py\", line 41, in _validate\n    tw, th = _canvas(target, \"target_canvas\")\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/engine/resize.py\", line 34, in _canvas\n    return _dim(c.get(\"width\"), f\"{path}.width\"), _dim(c.get(\"height\"), f\"{path}.height\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/engine/resize.py\", line 27, in _dim\n    raise ValueError(f\"{path}: expected integer in [1, {MAX_DIM}]\")\nValueError: target_canvas.width: expected integer in [1, 100000]\n",
+        "container_identity_verified": true,
+        "image_id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+        "network": "none",
+        "memory": 536870912,
+        "memory_swap": 536870912,
+        "oom_killed": false,
+        "state_exit": 1,
+        "inputs_after": {
+          "task.json": "6a0e0d366888406781ed9c57ab09fcf1d188d1279d9528af4d4f35944cc3ba2c"
+        },
+        "outputs_sha256": {},
+        "output_files": [],
+        "output_problems": [],
+        "failures": [],
+        "pass": true
+      },
+      "timeout": {
+        "name": "timeout",
+        "container": "reflow-fault-77868d920b344e65bf8c3c00360df895",
+        "expected_image_id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+        "inputs_before": {
+          "task.json": "c58df4373b064e9f474e7c9787a598a743d28a4dadc036b24f3ac3a210c10308"
+        },
+        "inspect_ok": true,
+        "input_readonly": true,
+        "running": false,
+        "cleanup_exit": 0,
+        "absent": true,
+        "kill_exit": 0,
+        "exit": -9,
+        "timed_out": true,
+        "duration_s": 5.007,
+        "stdout": "PARENT_READY\nCHILD_READY\n",
+        "stderr": "WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested\n",
+        "container_identity_verified": true,
+        "image_id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+        "network": "none",
+        "memory": 536870912,
+        "memory_swap": 536870912,
+        "oom_killed": false,
+        "state_exit": 137,
+        "inputs_after": {
+          "task.json": "c58df4373b064e9f474e7c9787a598a743d28a4dadc036b24f3ac3a210c10308"
+        },
+        "outputs_sha256": {},
+        "output_files": [],
+        "output_problems": [],
+        "failures": [],
+        "pass": true
+      },
+      "oom": {
+        "name": "oom",
+        "container": "reflow-fault-9fab9d3e61b346bdbe8ecd52f4870083",
+        "expected_image_id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+        "inputs_before": {
+          "task.json": "c58df4373b064e9f474e7c9787a598a743d28a4dadc036b24f3ac3a210c10308"
+        },
+        "inspect_ok": true,
+        "input_readonly": true,
+        "running": false,
+        "cleanup_exit": 0,
+        "absent": true,
+        "kill_exit": null,
+        "exit": 0,
+        "timed_out": false,
+        "duration_s": 0.494,
+        "stdout": "SAFE_ALLOCATED\nCHILD_STARTED reflow-fault-9fab9d3e61b346bdbe8ecd52f4870083 8\nALLOCATING reflow-fault-9fab9d3e61b346bdbe8ecd52f4870083 8\nOOM_CONTROL {\"token\": \"reflow-fault-9fab9d3e61b346bdbe8ecd52f4870083\", \"child_pid\": 8, \"memory_max\": 67108864, \"path\": \"/sys/fs/cgroup/memory.events\", \"positive\": {\"returncode\": 0, \"before\": {\"low\": 0, \"high\": 0, \"max\": 0, \"oom\": 0, \"oom_kill\": 0, \"oom_group_kill\": 0, \"sock_throttled\": 0}, \"after\": {\"low\": 0, \"high\": 0, \"max\": 0, \"oom\": 0, \"oom_kill\": 0, \"oom_group_kill\": 0, \"sock_throttled\": 0}}, \"before\": {\"low\": 0, \"high\": 0, \"max\": 0, \"oom\": 0, \"oom_kill\": 0, \"oom_group_kill\": 0, \"sock_throttled\": 0}, \"after\": {\"low\": 0, \"high\": 0, \"max\": 37, \"oom\": 1, \"oom_kill\": 1, \"oom_group_kill\": 0, \"sock_throttled\": 0}, \"child_returncode\": -9}\n",
+        "stderr": "WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested\n",
+        "oom_control": {
+          "token": "reflow-fault-9fab9d3e61b346bdbe8ecd52f4870083",
+          "child_pid": 8,
+          "memory_max": 67108864,
+          "path": "/sys/fs/cgroup/memory.events",
+          "positive": {
+            "returncode": 0,
+            "before": {
+              "low": 0,
+              "high": 0,
+              "max": 0,
+              "oom": 0,
+              "oom_kill": 0,
+              "oom_group_kill": 0,
+              "sock_throttled": 0
+            },
+            "after": {
+              "low": 0,
+              "high": 0,
+              "max": 0,
+              "oom": 0,
+              "oom_kill": 0,
+              "oom_group_kill": 0,
+              "sock_throttled": 0
+            }
+          },
+          "before": {
+            "low": 0,
+            "high": 0,
+            "max": 0,
+            "oom": 0,
+            "oom_kill": 0,
+            "oom_group_kill": 0,
+            "sock_throttled": 0
+          },
+          "after": {
+            "low": 0,
+            "high": 0,
+            "max": 37,
+            "oom": 1,
+            "oom_kill": 1,
+            "oom_group_kill": 0,
+            "sock_throttled": 0
+          },
+          "child_returncode": -9
+        },
+        "container_identity_verified": true,
+        "image_id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+        "network": "none",
+        "memory": 67108864,
+        "memory_swap": 67108864,
+        "oom_killed": true,
+        "state_exit": 0,
+        "inputs_after": {
+          "task.json": "c58df4373b064e9f474e7c9787a598a743d28a4dadc036b24f3ac3a210c10308"
+        },
+        "outputs_sha256": {},
+        "output_files": [],
+        "output_problems": [],
+        "failures": [],
+        "pass": true
+      }
+    },
+    "pass": true,
+    "failures": []
+  },
+  "resource_profile": {
+    "image_id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+    "fresh_process_count": 5,
+    "same_process_iterations": 10,
+    "inputs_before": {
+      "chameleon_sample_level1_warmup.json": "79f889a1b0ec616b3f75de7b0d7fe4b92dcfb027e99b512a019a7aa941000ea6",
+      "chameleon_sample_level2_core.json": "c37407fa20aefb8e1c53a3476b99973000657c3c1d93fc9637e462703955a04b",
+      "chameleon_sample_level3_advanced.json": "fd99e3972c9c11c506d98897f3cb9520a5caea10b358d30e6853b9efca58cf33"
+    },
+    "expected_outputs": {
+      "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+      "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+      "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+      "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+      "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64",
+      "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475"
+    },
+    "steps": [
+      {
+        "name": "reflow-resource-9370c455f3fb4fa79838e17f4c11f6e6",
+        "image_id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+        "exit": 0,
+        "timed_out": false,
+        "running": false,
+        "absent": true,
+        "outer_s": 3.073,
+        "import_s": 1.706801876,
+        "pid": 1,
+        "iterations": [
+          {
+            "iteration": 0,
+            "rc": 0,
+            "elapsed_s": 0.779798791999994,
+            "rss_peak_bytes": 282234880,
+            "rss_scope": "process cumulative high-water",
+            "cgroup_available": true,
+            "cgroup_limit_bytes": 536870912,
+            "cgroup_peak_bytes": 209833984,
+            "cgroup_path": "/sys/fs/cgroup/memory.peak",
+            "outputs": {
+              "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+              "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+              "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+              "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475",
+              "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+              "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64"
+            },
+            "real": 3,
+            "fallback": 0
+          }
+        ],
+        "network": "none",
+        "memory": 536870912,
+        "memory_swap": 536870912,
+        "state_exit": 0,
+        "input_readonly": true,
+        "cleanup_exit": 0
+      },
+      {
+        "name": "reflow-resource-fb9cc55c5a1b4ec5a3bdb04b23a0a922",
+        "image_id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+        "exit": 0,
+        "timed_out": false,
+        "running": false,
+        "absent": true,
+        "outer_s": 4.427,
+        "import_s": 2.5191260419999963,
+        "pid": 1,
+        "iterations": [
+          {
+            "iteration": 0,
+            "rc": 0,
+            "elapsed_s": 0.9200652090000006,
+            "rss_peak_bytes": 282677248,
+            "rss_scope": "process cumulative high-water",
+            "cgroup_available": true,
+            "cgroup_limit_bytes": 536870912,
+            "cgroup_peak_bytes": 209788928,
+            "cgroup_path": "/sys/fs/cgroup/memory.peak",
+            "outputs": {
+              "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+              "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+              "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+              "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475",
+              "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+              "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64"
+            },
+            "real": 3,
+            "fallback": 0
+          }
+        ],
+        "network": "none",
+        "memory": 536870912,
+        "memory_swap": 536870912,
+        "state_exit": 0,
+        "input_readonly": true,
+        "cleanup_exit": 0
+      },
+      {
+        "name": "reflow-resource-e24d709e45674526aa83a29197388500",
+        "image_id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+        "exit": 0,
+        "timed_out": false,
+        "running": false,
+        "absent": true,
+        "outer_s": 2.968,
+        "import_s": 1.6534857930000015,
+        "pid": 1,
+        "iterations": [
+          {
+            "iteration": 0,
+            "rc": 0,
+            "elapsed_s": 0.7616585829999991,
+            "rss_peak_bytes": 282681344,
+            "rss_scope": "process cumulative high-water",
+            "cgroup_available": true,
+            "cgroup_limit_bytes": 536870912,
+            "cgroup_peak_bytes": 210075648,
+            "cgroup_path": "/sys/fs/cgroup/memory.peak",
+            "outputs": {
+              "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+              "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+              "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+              "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475",
+              "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+              "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64"
+            },
+            "real": 3,
+            "fallback": 0
+          }
+        ],
+        "network": "none",
+        "memory": 536870912,
+        "memory_swap": 536870912,
+        "state_exit": 0,
+        "input_readonly": true,
+        "cleanup_exit": 0
+      },
+      {
+        "name": "reflow-resource-3949c7c242b243c5a5295875b8cd0e46",
+        "image_id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+        "exit": 0,
+        "timed_out": false,
+        "running": false,
+        "absent": true,
+        "outer_s": 3.343,
+        "import_s": 1.882624333999999,
+        "pid": 1,
+        "iterations": [
+          {
+            "iteration": 0,
+            "rc": 0,
+            "elapsed_s": 0.8816607079999983,
+            "rss_peak_bytes": 282521600,
+            "rss_scope": "process cumulative high-water",
+            "cgroup_available": true,
+            "cgroup_limit_bytes": 536870912,
+            "cgroup_peak_bytes": 210366464,
+            "cgroup_path": "/sys/fs/cgroup/memory.peak",
+            "outputs": {
+              "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+              "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+              "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+              "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475",
+              "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+              "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64"
+            },
+            "real": 3,
+            "fallback": 0
+          }
+        ],
+        "network": "none",
+        "memory": 536870912,
+        "memory_swap": 536870912,
+        "state_exit": 0,
+        "input_readonly": true,
+        "cleanup_exit": 0
+      },
+      {
+        "name": "reflow-resource-026facbbfcc248619cb1f3a93f8e38a5",
+        "image_id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+        "exit": 0,
+        "timed_out": false,
+        "running": false,
+        "absent": true,
+        "outer_s": 3.341,
+        "import_s": 1.73529979300001,
+        "pid": 1,
+        "iterations": [
+          {
+            "iteration": 0,
+            "rc": 0,
+            "elapsed_s": 0.9947179999999918,
+            "rss_peak_bytes": 282349568,
+            "rss_scope": "process cumulative high-water",
+            "cgroup_available": true,
+            "cgroup_limit_bytes": 536870912,
+            "cgroup_peak_bytes": 209780736,
+            "cgroup_path": "/sys/fs/cgroup/memory.peak",
+            "outputs": {
+              "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+              "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+              "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+              "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475",
+              "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+              "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64"
+            },
+            "real": 3,
+            "fallback": 0
+          }
+        ],
+        "network": "none",
+        "memory": 536870912,
+        "memory_swap": 536870912,
+        "state_exit": 0,
+        "input_readonly": true,
+        "cleanup_exit": 0
+      },
+      {
+        "name": "reflow-resource-c62eba847b3149c587220447014e7d3e",
+        "image_id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+        "exit": 0,
+        "timed_out": false,
+        "running": false,
+        "absent": true,
+        "outer_s": 8.898,
+        "import_s": 1.7227890840000128,
+        "pid": 1,
+        "iterations": [
+          {
+            "iteration": 0,
+            "rc": 0,
+            "elapsed_s": 0.8809640420000022,
+            "rss_peak_bytes": 282382336,
+            "rss_scope": "process cumulative high-water",
+            "cgroup_available": true,
+            "cgroup_limit_bytes": 536870912,
+            "cgroup_peak_bytes": 210030592,
+            "cgroup_path": "/sys/fs/cgroup/memory.peak",
+            "outputs": {
+              "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+              "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+              "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+              "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475",
+              "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+              "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64"
+            },
+            "real": 3,
+            "fallback": 0
+          },
+          {
+            "iteration": 1,
+            "rc": 0,
+            "elapsed_s": 0.5942165839999944,
+            "rss_peak_bytes": 316985344,
+            "rss_scope": "process cumulative high-water",
+            "cgroup_available": true,
+            "cgroup_limit_bytes": 536870912,
+            "cgroup_peak_bytes": 222490624,
+            "cgroup_path": "/sys/fs/cgroup/memory.peak",
+            "outputs": {
+              "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+              "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+              "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+              "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475",
+              "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+              "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64"
+            },
+            "real": 3,
+            "fallback": 0
+          },
+          {
+            "iteration": 2,
+            "rc": 0,
+            "elapsed_s": 0.5997823750000038,
+            "rss_peak_bytes": 332939264,
+            "rss_scope": "process cumulative high-water",
+            "cgroup_available": true,
+            "cgroup_limit_bytes": 536870912,
+            "cgroup_peak_bytes": 229617664,
+            "cgroup_path": "/sys/fs/cgroup/memory.peak",
+            "outputs": {
+              "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+              "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+              "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+              "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475",
+              "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+              "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64"
+            },
+            "real": 3,
+            "fallback": 0
+          },
+          {
+            "iteration": 3,
+            "rc": 0,
+            "elapsed_s": 0.5847306670000023,
+            "rss_peak_bytes": 348778496,
+            "rss_scope": "process cumulative high-water",
+            "cgroup_available": true,
+            "cgroup_limit_bytes": 536870912,
+            "cgroup_peak_bytes": 236744704,
+            "cgroup_path": "/sys/fs/cgroup/memory.peak",
+            "outputs": {
+              "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+              "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+              "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+              "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475",
+              "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+              "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64"
+            },
+            "real": 3,
+            "fallback": 0
+          },
+          {
+            "iteration": 4,
+            "rc": 0,
+            "elapsed_s": 0.6309168749999969,
+            "rss_peak_bytes": 364625920,
+            "rss_scope": "process cumulative high-water",
+            "cgroup_available": true,
+            "cgroup_limit_bytes": 536870912,
+            "cgroup_peak_bytes": 243863552,
+            "cgroup_path": "/sys/fs/cgroup/memory.peak",
+            "outputs": {
+              "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+              "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+              "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+              "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475",
+              "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+              "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64"
+            },
+            "real": 3,
+            "fallback": 0
+          },
+          {
+            "iteration": 5,
+            "rc": 0,
+            "elapsed_s": 0.6218187509999922,
+            "rss_peak_bytes": 380272640,
+            "rss_scope": "process cumulative high-water",
+            "cgroup_available": true,
+            "cgroup_limit_bytes": 536870912,
+            "cgroup_peak_bytes": 250916864,
+            "cgroup_path": "/sys/fs/cgroup/memory.peak",
+            "outputs": {
+              "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+              "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+              "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+              "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475",
+              "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+              "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64"
+            },
+            "real": 3,
+            "fallback": 0
+          },
+          {
+            "iteration": 6,
+            "rc": 0,
+            "elapsed_s": 0.6744192919999961,
+            "rss_peak_bytes": 387387392,
+            "rss_scope": "process cumulative high-water",
+            "cgroup_available": true,
+            "cgroup_limit_bytes": 536870912,
+            "cgroup_peak_bytes": 258043904,
+            "cgroup_path": "/sys/fs/cgroup/memory.peak",
+            "outputs": {
+              "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+              "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+              "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+              "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475",
+              "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+              "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64"
+            },
+            "real": 3,
+            "fallback": 0
+          },
+          {
+            "iteration": 7,
+            "rc": 0,
+            "elapsed_s": 0.6831901249999959,
+            "rss_peak_bytes": 398102528,
+            "rss_scope": "process cumulative high-water",
+            "cgroup_available": true,
+            "cgroup_limit_bytes": 536870912,
+            "cgroup_peak_bytes": 263942144,
+            "cgroup_path": "/sys/fs/cgroup/memory.peak",
+            "outputs": {
+              "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+              "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+              "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+              "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475",
+              "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+              "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64"
+            },
+            "real": 3,
+            "fallback": 0
+          },
+          {
+            "iteration": 8,
+            "rc": 0,
+            "elapsed_s": 0.6429419590000123,
+            "rss_peak_bytes": 398102528,
+            "rss_scope": "process cumulative high-water",
+            "cgroup_available": true,
+            "cgroup_limit_bytes": 536870912,
+            "cgroup_peak_bytes": 264138752,
+            "cgroup_path": "/sys/fs/cgroup/memory.peak",
+            "outputs": {
+              "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+              "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+              "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+              "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475",
+              "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+              "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64"
+            },
+            "real": 3,
+            "fallback": 0
+          },
+          {
+            "iteration": 9,
+            "rc": 0,
+            "elapsed_s": 0.5963313339999985,
+            "rss_peak_bytes": 398102528,
+            "rss_scope": "process cumulative high-water",
+            "cgroup_available": true,
+            "cgroup_limit_bytes": 536870912,
+            "cgroup_peak_bytes": 264187904,
+            "cgroup_path": "/sys/fs/cgroup/memory.peak",
+            "outputs": {
+              "chameleon_sample_level1_warmup_output.png": "494caf37aae64d8ca8fcccb05402bab86079cec0eff7abd251294db8117d8c2d",
+              "chameleon_sample_level1_warmup_output.json": "97193ea3f25bf3bd01a6d745f98ccd7cb60e0f19f21854aa8b04c651f93cbcf6",
+              "chameleon_sample_level2_core_output.png": "4d685fcabe19c45d2c01c39d2c2a815c4eeb602e38b6814674bf67d2f761989a",
+              "chameleon_sample_level3_advanced_output.png": "bf12d20ccf9384bd7f040942879ee3c4b8ed55465b0c47ee9ec2f5a1a9430475",
+              "chameleon_sample_level2_core_output.json": "1c57a8aa22dc74535b833a3327a24a84315c28f37c1f2d7ad0029eb0c83612fc",
+              "chameleon_sample_level3_advanced_output.json": "5e8f0351daa88a39a46472da9d55439c61e46861b5b0503a05cc924576781c64"
+            },
+            "real": 3,
+            "fallback": 0
+          }
+        ],
+        "network": "none",
+        "memory": 536870912,
+        "memory_swap": 536870912,
+        "state_exit": 0,
+        "input_readonly": true,
+        "cleanup_exit": 0
+      }
+    ],
+    "limits": [
+      "Five fresh containers may use host caches; no cold-cache or percentile claim",
+      "Warm first iteration is warmup; nine steady-process repeats",
+      "RSS and cgroup peak cumulative over process lifetime, not per-iteration peaks",
+      "Entry timer excludes imports/hash/copy instrumentation; outer timer includes it",
+      "No parse/font/layout phase breakdown; no dense/extreme workload or official budget claim"
+    ],
+    "calibration": {
+      "name": "reflow-resource-6e6955ef76ff4d758d282627b487ee62",
+      "image_id": "sha256:a35d805ad91618d36443d16472cddf62b57318f398a48bc83f859e79bec7ea5a",
+      "exit": 0,
+      "timed_out": false,
+      "running": false,
+      "absent": true,
+      "outer_s": 0.473,
+      "delay_s": 0.10535616599999287,
+      "requested_delay_s": 0.1,
+      "allocation_bytes": 33554432,
+      "rss_before": 25128960,
+      "rss_after": 58875904,
+      "cgroup_before": 16683008,
+      "cgroup_after": 50237440,
+      "network": "none",
+      "memory": 536870912,
+      "memory_swap": 536870912,
+      "state_exit": 0,
+      "input_readonly": true,
+      "cleanup_exit": 0
+    },
+    "inputs_after": {
+      "chameleon_sample_level1_warmup.json": "79f889a1b0ec616b3f75de7b0d7fe4b92dcfb027e99b512a019a7aa941000ea6",
+      "chameleon_sample_level2_core.json": "c37407fa20aefb8e1c53a3476b99973000657c3c1d93fc9637e462703955a04b",
+      "chameleon_sample_level3_advanced.json": "fd99e3972c9c11c506d98897f3cb9520a5caea10b358d30e6853b9efca58cf33"
+    },
+    "failures": [],
+    "container_memory_coverage": "complete",
+    "pass": true
+  },
+  "fingerprint_verify_exit": 0
+}

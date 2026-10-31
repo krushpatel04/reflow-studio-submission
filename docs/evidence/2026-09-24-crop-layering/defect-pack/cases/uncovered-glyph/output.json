@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "uncovered-glyph",
+  "name": "uncovered-glyph",
+  "description": "Defect-control case",
+  "provenance": "synthetic",
+  "width": 1080,
+  "height": 1080,
+  "background": "#ffffff",
+  "groups": [],
+  "elements": [
+    {
+      "id": "greeting",
+      "type": "text",
+      "role": "content",
+      "x": 108,
+      "y": 108,
+      "width": 864,
+      "height": 129.60000000000002,
+      "text": "你好 — hello",
+      "fontFamily": "Inter",
+      "fontSize": 69.12,
+      "fontWeight": 700,
+      "lineHeight": 1.1,
+      "color": "#111111"
+    }
+  ]
+}

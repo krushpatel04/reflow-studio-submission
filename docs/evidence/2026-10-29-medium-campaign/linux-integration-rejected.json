@@ -1,0 +1,103 @@
+{
+  "source_commit": "f4fa6b5a22cdf8ce0943be3f0a77ae039acc769e",
+  "image_id": "sha256:02566da9f936e41f4cfc55a5a01d9b0010b1a2019cf3c7fcacd31c1a8b0bde62",
+  "runtime_smoke": {
+    "image": "reflow-medium-f4fa6b5",
+    "arch": "x86_64",
+    "cases_attempted": 5,
+    "inputs_sha256_before": {
+      "medium-250x300.json": "6eb252fef19cdf5d0c71004cc54cd0af6a08c0316f6051ec5999fefa1b50efbe",
+      "medium-300x250.json": "bc3a3ed0f3204266904dbf299ed36a89ba1f69577df2e25accfb09c900344ba9",
+      "medium-301x251.json": "0ee9e319cb0e51d72d2fdbe1d95de4af01e7032e172a1c8e39d2f2355c747927",
+      "medium-320x250.json": "5dfe2876c24d51c56dbe61e99f75aa566b970a99f002d3a660eb6b9ce17512db",
+      "medium-600x500.json": "6e6ce124bc8918bf812c564fab9af768123277f7a737bc8d49a81808c4d7092a"
+    },
+    "inputs_sha256_after": {
+      "medium-250x300.json": "6eb252fef19cdf5d0c71004cc54cd0af6a08c0316f6051ec5999fefa1b50efbe",
+      "medium-300x250.json": "bc3a3ed0f3204266904dbf299ed36a89ba1f69577df2e25accfb09c900344ba9",
+      "medium-301x251.json": "0ee9e319cb0e51d72d2fdbe1d95de4af01e7032e172a1c8e39d2f2355c747927",
+      "medium-320x250.json": "5dfe2876c24d51c56dbe61e99f75aa566b970a99f002d3a660eb6b9ce17512db",
+      "medium-600x500.json": "6e6ce124bc8918bf812c564fab9af768123277f7a737bc8d49a81808c4d7092a"
+    },
+    "outputs_sha256": {
+      "medium-250x300_output.json": "faf7ffdbcfffd42db4bb38b5cfd558f623470cdd008363f1c13e6a22a64cd42b",
+      "medium-250x300_output.png": "0dd8342de146a17f3f42291c567743442627ef3b71a108dad567a7394dc098c1",
+      "medium-300x250_output.json": "119681809c5e91b5f42cd51bdd466d56eabbc8d9a87566abf177134540e0c142",
+      "medium-300x250_output.png": "572b68e1bb12feb50f445d2fbefb13439f5a7ec27627f62c7c2054f413e6986e",
+      "medium-301x251_output.json": "877976269f7642d1092361aafa1d82125e07ed113f83d7a0e1527091af28164d",
+      "medium-301x251_output.png": "b2927f39ca063280916fb324fe09e579aa303c5e8614c740bc8ab9a8853f147f",
+      "medium-320x250_output.json": "b09519c43c421f93cb601d07ce8bce4fd564fdb5fa492da1ec0390961bb9a248",
+      "medium-320x250_output.png": "6bf73bee47f90efa3d272f7c1de463f183cca818238abc1a43c3be47a0713d29",
+      "medium-600x500_output.json": "238bfa2f9588c9f84730adab086694a80d6cba7519b871c558feb7724af889a8",
+      "medium-600x500_output.png": "c48fcedcd5d7c311b896257648336d50d13f2c96ca61ee1f1fd129549ea99675"
+    },
+    "probe": {
+      "rc": 0,
+      "net": "blocked",
+      "events": [
+        [
+          "REAL",
+          "output/medium-250x300_output.png"
+        ],
+        [
+          "REAL",
+          "output/medium-300x250_output.png"
+        ],
+        [
+          "REAL",
+          "output/medium-301x251_output.png"
+        ],
+        [
+          "REAL",
+          "output/medium-320x250_output.png"
+        ],
+        [
+          "REAL",
+          "output/medium-600x500_output.png"
+        ]
+      ]
+    },
+    "entrypoint_exit": 0,
+    "network_inspect": [
+      "none",
+      "none"
+    ],
+    "write_attempt": {
+      "refused": true,
+      "exit": 1,
+      "stderr_tail": "(linux/arm64/v8) and no specific platform was requested\nTraceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nOSError: [Errno 30] Read-only file system: '/app/input/.write-attempt'"
+    },
+    "repeat": {
+      "status": "identical",
+      "image_id_before": "sha256:02566da9f936e41f4cfc55a5a01d9b0010b1a2019cf3c7fcacd31c1a8b0bde62",
+      "image_id_after": "sha256:02566da9f936e41f4cfc55a5a01d9b0010b1a2019cf3c7fcacd31c1a8b0bde62",
+      "entrypoint_exit": 0,
+      "network_inspect": [
+        "none"
+      ],
+      "outputs_sha256_second": {
+        "medium-250x300_output.json": "faf7ffdbcfffd42db4bb38b5cfd558f623470cdd008363f1c13e6a22a64cd42b",
+        "medium-250x300_output.png": "0dd8342de146a17f3f42291c567743442627ef3b71a108dad567a7394dc098c1",
+        "medium-300x250_output.json": "119681809c5e91b5f42cd51bdd466d56eabbc8d9a87566abf177134540e0c142",
+        "medium-300x250_output.png": "572b68e1bb12feb50f445d2fbefb13439f5a7ec27627f62c7c2054f413e6986e",
+        "medium-301x251_output.json": "877976269f7642d1092361aafa1d82125e07ed113f83d7a0e1527091af28164d",
+        "medium-301x251_output.png": "b2927f39ca063280916fb324fe09e579aa303c5e8614c740bc8ab9a8853f147f",
+        "medium-320x250_output.json": "b09519c43c421f93cb601d07ce8bce4fd564fdb5fa492da1ec0390961bb9a248",
+        "medium-320x250_output.png": "6bf73bee47f90efa3d272f7c1de463f183cca818238abc1a43c3be47a0713d29",
+        "medium-600x500_output.json": "238bfa2f9588c9f84730adab086694a80d6cba7519b871c558feb7724af889a8",
+        "medium-600x500_output.png": "c48fcedcd5d7c311b896257648336d50d13f2c96ca61ee1f1fd129549ea99675"
+      }
+    },
+    "failures": [],
+    "pass": true
+  },
+  "visual_acceptance": false,
+  "reason": "300x250 and301x251 retain6px fallback onLinux despite native macOS gains; publication held",
+  "minimum_font": {
+    "medium-250x300_output": 9.0,
+    "medium-300x250_output": 6.0,
+    "medium-600x500_output": 14.0,
+    "medium-301x251_output": 6.0,
+    "medium-320x250_output": 9.0
+  }
+}

@@ -1,0 +1,12 @@
+ladder ends below s (k<s): FAILED (failures=1)
+ladder for non-trigger (floor off): FAILED (failures=6)
+obstacle off: FAILED (failures=2)
+exemption global: FAILED (failures=2)
+exemption inverted: FAILED (failures=2)
+bg counted as obstacle: OK
+search order change: OK (before order test added; see retest line)
+single-text trigger: FAILED (failures=2)
+search order change (retest with order test): FAILED (failures=1)
+bg counted as obstacle: SURVIVES, equivalent (a full-bleed bg always overlaps its own group in the source, so the pairwise exemption masks it; _covers_src kept as defensive)
+union-box exemption: FAIL: test_union_box_overlap_alone_does_not_exempt_an_image (tests_pyt; FAILED (failures=1)
+revert removed: FAIL: test_ungrouped_text_cannot_pack_reverts_groups_to_exact_p5b (tes; FAILED (failures=1)

@@ -1,0 +1,611 @@
+{
+ "schemaVersion": "reflow.design.v0",
+ "id": "lica-9m0vuy2AiVnEq09YLKmA",
+ "name": "LICA Art & Design 9m0vuy2AiVnEq09YLKmA",
+ "description": "Converted from LICA layout 9m0vuy2AiVnEq09YLKmA (template 920c5b53-8e0d-431a-bc2a-afd5f36f5a6c).",
+ "provenance": "LICA dataset (LICA WORLD), CC BY 4.0, https://github.com/purvanshi/lica-dataset; converted and modified for Reflow evaluation",
+ "width": 944,
+ "height": 755,
+ "background": "#f5f5f5",
+ "groups": [],
+ "elements": [
+  {
+   "id": "image-0",
+   "type": "image",
+   "role": "background",
+   "x": -12,
+   "y": -106.488,
+   "width": 968.882,
+   "height": 968.882,
+   "assetId": "background_image_20e75a3a-8b9c-4d28-afbd-f0fce8659c5e.jpeg",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-1",
+   "type": "image",
+   "role": "content",
+   "x": 106.785,
+   "y": 176.271,
+   "width": 190.887,
+   "height": 132.666,
+   "assetId": "708a43ed-b728-4586-8152-18b9faa0bf48.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-2",
+   "type": "image",
+   "role": "content",
+   "x": 106.785,
+   "y": 476.953,
+   "width": 190.887,
+   "height": 132.666,
+   "assetId": "45d75344-3379-4d8d-9c57-d2e69554d359.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-3",
+   "type": "image",
+   "role": "content",
+   "x": 376.174,
+   "y": 176.271,
+   "width": 190.887,
+   "height": 132.666,
+   "assetId": "a932e46c-37a6-4353-a78b-7be8eb77b10d.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-4",
+   "type": "image",
+   "role": "content",
+   "x": 376.174,
+   "y": 476.953,
+   "width": 190.887,
+   "height": 132.666,
+   "assetId": "b9b3209c-d2d4-4714-a999-f4f2c944cbe8.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-5",
+   "type": "image",
+   "role": "content",
+   "x": 646.061,
+   "y": 176.271,
+   "width": 190.887,
+   "height": 132.666,
+   "assetId": "ada8cfe0-fd38-4dac-96c5-344b5c982b48.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-6",
+   "type": "image",
+   "role": "content",
+   "x": 646.061,
+   "y": 476.953,
+   "width": 190.887,
+   "height": 132.666,
+   "assetId": "2db99c60-bb5c-4c93-8b58-4ff18ae7be31.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-7",
+   "type": "image",
+   "role": "content",
+   "x": 108.199,
+   "y": 137.666,
+   "width": 189.473,
+   "height": 38.6051,
+   "assetId": "10acca43-b77b-45b1-99b0-1f72fcf14970.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-8",
+   "type": "image",
+   "role": "content",
+   "x": 108.199,
+   "y": 438.348,
+   "width": 189.473,
+   "height": 38.6051,
+   "assetId": "f69c0e95-2178-470a-9881-5f9e2a042cbe.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-9",
+   "type": "image",
+   "role": "content",
+   "x": 376.773,
+   "y": 137.666,
+   "width": 189.473,
+   "height": 38.6051,
+   "assetId": "ba91e3da-aab4-429c-9f2b-df1663c2314e.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-10",
+   "type": "image",
+   "role": "content",
+   "x": 376.773,
+   "y": 438.348,
+   "width": 189.473,
+   "height": 38.6051,
+   "assetId": "c19b632f-6421-45cf-9d5e-19a8e60a898b.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-11",
+   "type": "image",
+   "role": "content",
+   "x": 647.475,
+   "y": 137.666,
+   "width": 189.473,
+   "height": 38.6051,
+   "assetId": "57e0476c-4393-4bc8-b150-055f41f280f8.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-12",
+   "type": "image",
+   "role": "content",
+   "x": 647.475,
+   "y": 438.348,
+   "width": 189.473,
+   "height": 38.6051,
+   "assetId": "8c83015d-d847-4a26-82f6-659afcbf9226.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-13",
+   "type": "image",
+   "role": "content",
+   "x": 98.2484,
+   "y": 389.642,
+   "width": 195.747,
+   "height": 6.60646,
+   "assetId": "47a98b3a-7228-4399-a7b8-0137670244b8.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-14",
+   "type": "image",
+   "role": "content",
+   "x": 376.773,
+   "y": 116.06,
+   "width": 195.747,
+   "height": 6.60646,
+   "assetId": "defac2bf-571e-49ec-9bfd-fefc4747299b.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-15",
+   "type": "image",
+   "role": "content",
+   "x": 98.2484,
+   "y": 690.62,
+   "width": 195.747,
+   "height": 6.60646,
+   "assetId": "ad47a79a-e72a-4377-b23c-667a86bc8932.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-16",
+   "type": "image",
+   "role": "content",
+   "x": 371.315,
+   "y": 389.642,
+   "width": 195.747,
+   "height": 6.60646,
+   "assetId": "d7cb550d-e958-450b-94e5-3ab26418d677.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-17",
+   "type": "image",
+   "role": "content",
+   "x": 364.995,
+   "y": 690.62,
+   "width": 195.747,
+   "height": 6.60646,
+   "assetId": "0a419a5a-167c-41d6-8c4e-1ead8060a222.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-18",
+   "type": "image",
+   "role": "content",
+   "x": 644.78,
+   "y": 389.642,
+   "width": 195.747,
+   "height": 6.60646,
+   "assetId": "01a80d95-27e0-4fa3-8e7a-651caf0183cb.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-19",
+   "type": "image",
+   "role": "content",
+   "x": 631.841,
+   "y": 690.62,
+   "width": 195.747,
+   "height": 6.60646,
+   "assetId": "fcbc09ca-60ae-4b63-9263-56700440d681.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-20",
+   "type": "image",
+   "role": "content",
+   "x": 155.602,
+   "y": 189.113,
+   "width": 81.0402,
+   "height": 106.984,
+   "assetId": "01b52a40-41fe-4113-b9a4-932f86a61654.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-21",
+   "type": "image",
+   "role": "content",
+   "x": 406.015,
+   "y": 190.875,
+   "width": 118.578,
+   "height": 103.459,
+   "assetId": "7e5d6535-912f-4e2e-9c26-0845da87cbe4.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-22",
+   "type": "image",
+   "role": "content",
+   "x": 676.02,
+   "y": 187.169,
+   "width": 132.383,
+   "height": 110.871,
+   "assetId": "07f34c5a-8ddb-46ee-b9b2-1fc690958f9e.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-23",
+   "type": "image",
+   "role": "content",
+   "x": 122.491,
+   "y": 499.953,
+   "width": 160.89,
+   "height": 93.60860000000002,
+   "assetId": "a4eabba9-61d3-45db-a79d-25666bd47425.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-24",
+   "type": "image",
+   "role": "content",
+   "x": 414.475,
+   "y": 501.768,
+   "width": 115.932,
+   "height": 83.0364,
+   "assetId": "f8e32cc4-7671-4b27-b7db-4e7e387995ef.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "image-25",
+   "type": "image",
+   "role": "content",
+   "x": 689.163,
+   "y": 484.344,
+   "width": 106.981,
+   "height": 117.885,
+   "assetId": "f441a187-27f5-4c84-a017-f8b4c3e585a2.png",
+   "fit": "cover",
+   "focalPoint": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "id": "text-26",
+   "type": "text",
+   "role": "content",
+   "x": 137.001,
+   "y": 146.29807,
+   "width": 131.87,
+   "height": 17.9021,
+   "text": "Sc. 1",
+   "fontFamily": "Montserrat",
+   "fontWeight": 400,
+   "fontSize": 15,
+   "lineHeight": 1.4,
+   "color": "#fcfcfc",
+   "align": "center"
+  },
+  {
+   "id": "text-27",
+   "type": "text",
+   "role": "content",
+   "x": 137.001,
+   "y": 446.98007,
+   "width": 131.87,
+   "height": 17.9021,
+   "text": "Sc. 4",
+   "fontFamily": "Montserrat",
+   "fontWeight": 400,
+   "fontSize": 15,
+   "lineHeight": 1.4,
+   "color": "#fcfcfc",
+   "align": "center"
+  },
+  {
+   "id": "text-28",
+   "type": "text",
+   "role": "content",
+   "x": 406.015,
+   "y": 146.29807,
+   "width": 131.87,
+   "height": 17.9021,
+   "text": "Sc. 2",
+   "fontFamily": "Montserrat",
+   "fontWeight": 400,
+   "fontSize": 15,
+   "lineHeight": 1.4,
+   "color": "#fcfcfc",
+   "align": "center"
+  },
+  {
+   "id": "text-29",
+   "type": "text",
+   "role": "content",
+   "x": 406.015,
+   "y": 446.98007,
+   "width": 131.87,
+   "height": 17.9021,
+   "text": "Sc. 5",
+   "fontFamily": "Montserrat",
+   "fontWeight": 400,
+   "fontSize": 15,
+   "lineHeight": 1.4,
+   "color": "#fcfcfc",
+   "align": "center"
+  },
+  {
+   "id": "text-30",
+   "type": "text",
+   "role": "content",
+   "x": 676.718,
+   "y": 146.29807,
+   "width": 131.87,
+   "height": 17.9021,
+   "text": "Sc. 3",
+   "fontFamily": "Montserrat",
+   "fontWeight": 400,
+   "fontSize": 15,
+   "lineHeight": 1.4,
+   "color": "#fcfcfc",
+   "align": "center"
+  },
+  {
+   "id": "text-31",
+   "type": "text",
+   "role": "content",
+   "x": 676.718,
+   "y": 446.98007,
+   "width": 131.87,
+   "height": 17.9021,
+   "text": "Sc. 6",
+   "fontFamily": "Montserrat",
+   "fontWeight": 400,
+   "fontSize": 15,
+   "lineHeight": 1.4,
+   "color": "#fcfcfc",
+   "align": "center"
+  },
+  {
+   "id": "text-32",
+   "type": "text",
+   "role": "content",
+   "x": 91.4168,
+   "y": 320.23939,
+   "width": 221.624,
+   "height": 54.1948,
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing. Vestibulum metus.",
+   "fontFamily": "Montserrat",
+   "fontWeight": 400,
+   "fontSize": 14,
+   "lineHeight": 1.3571428571428572,
+   "color": "#010101",
+   "align": "center"
+  },
+  {
+   "id": "text-33",
+   "type": "text",
+   "role": "content",
+   "x": 91.4168,
+   "y": 619.21739,
+   "width": 221.624,
+   "height": 54.1948,
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing. Vestibulum metus.",
+   "fontFamily": "Montserrat",
+   "fontWeight": 400,
+   "fontSize": 14,
+   "lineHeight": 1.3571428571428572,
+   "color": "#010101",
+   "align": "center"
+  },
+  {
+   "id": "text-34",
+   "type": "text",
+   "role": "content",
+   "x": 359.375,
+   "y": 320.23939,
+   "width": 221.624,
+   "height": 54.1948,
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing. Vestibulum metus.",
+   "fontFamily": "Montserrat",
+   "fontWeight": 400,
+   "fontSize": 14,
+   "lineHeight": 1.3571428571428572,
+   "color": "#010101",
+   "align": "center"
+  },
+  {
+   "id": "text-35",
+   "type": "text",
+   "role": "content",
+   "x": 359.375,
+   "y": 622.31839,
+   "width": 221.624,
+   "height": 54.1948,
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing. Vestibulum metus.",
+   "fontFamily": "Montserrat",
+   "fontWeight": 400,
+   "fontSize": 14,
+   "lineHeight": 1.3571428571428572,
+   "color": "#010101",
+   "align": "center"
+  },
+  {
+   "id": "text-36",
+   "type": "text",
+   "role": "content",
+   "x": 631.841,
+   "y": 320.23939,
+   "width": 221.624,
+   "height": 54.1948,
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing. Vestibulum metus.",
+   "fontFamily": "Montserrat",
+   "fontWeight": 400,
+   "fontSize": 14,
+   "lineHeight": 1.3571428571428572,
+   "color": "#010101",
+   "align": "center"
+  },
+  {
+   "id": "text-37",
+   "type": "text",
+   "role": "content",
+   "x": 631.841,
+   "y": 622.31839,
+   "width": 221.624,
+   "height": 54.1948,
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing. Vestibulum metus.",
+   "fontFamily": "Montserrat",
+   "fontWeight": 400,
+   "fontSize": 14,
+   "lineHeight": 1.3571428571428572,
+   "color": "#010101",
+   "align": "center"
+  },
+  {
+   "id": "text-38",
+   "type": "text",
+   "role": "content",
+   "x": 217.064,
+   "y": 73.25468,
+   "width": 491.61,
+   "height": 27.3282,
+   "text": "OFFICE STORYBOARD",
+   "fontFamily": "Montserrat",
+   "fontWeight": 500,
+   "fontSize": 23,
+   "lineHeight": 1.391304347826087,
+   "color": "#010101",
+   "align": "center"
+  }
+ ]
+}

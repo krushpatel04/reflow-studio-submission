@@ -1,0 +1,75 @@
+{
+  "sourceCommit": "18f9a52e096a52dafc3394c4e6551c812a8b5d32",
+  "baseline": "85d90b08c02ea8763ddd01701576d0bd7c5c1957",
+  "cycles": 10,
+  "node": {
+    "passed": 744,
+    "failed": 0,
+    "skipped": 0
+  },
+  "browser": {
+    "passed": 53,
+    "failed": 0
+  },
+  "verifyPage": {
+    "passed": 20,
+    "total": 20
+  },
+  "nativeLayouts": 30,
+  "benchmark": {
+    "cases": 30,
+    "sourceErrors": 0,
+    "baselineErrors": 0,
+    "selectedErrors": 0,
+    "baselineWarnings": 45,
+    "selectedWarnings": 8,
+    "selectedCasesWithErrors": 0,
+    "medianLayoutMs": 28.931375000000003,
+    "p95LayoutMs": 79.54695899999996,
+    "selections": {
+      "identity": 1,
+      "uniform": 17,
+      "stack": 10,
+      "split": 0,
+      "group-grid-1": 0,
+      "group-grid-2": 0,
+      "group-grid-3": 2,
+      "group-grid-4": 0
+    }
+  },
+  "production": "production.json",
+  "productionSourceClean": true,
+  "npmAudit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "runtimeSha256": {
+    "src/main.ts": "40b952f8d2b7cba3c3d07159b5963be578871e8a67b6a105925e7c16b154bfbc",
+    "src/style.css": "1a37413bd3f1fd5c1b98a122a6fd4bd6a4e318cefa37d864542d29422dcce18a",
+    "tests/browser/ten-cycle.spec.ts": "556bc162ac7424dc8905638dce41e384d243e0cdf6c0b579eb8e23375eeb304d",
+    "tests/browser/inspector.spec.ts": "0884c6789e84b9adce3a133cf4e56e138ed5c98555bd665183f792f830832255",
+    "tests/browser/svg-export.spec.ts": "09c157ba3056f83fb02f6e8a9d1fe7b8e97e8ebbb5a7e2360fef56675e5086c1"
+  },
+  "visualCapture": {
+    "widths": [
+      1440,
+      820,
+      390,
+      320
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "overflow": false,
+    "pageErrors": [],
+    "baselineInspectorMinimumHeightAt320": 380,
+    "zoom200PercentSquareWidth": 2160,
+    "physicalTouchDeviceTested": false
+  },
+  "python": "Engine, requirements and packaging unchanged from qualified 8b0485a; existing image retained; no new Python qualification claimed."
+}

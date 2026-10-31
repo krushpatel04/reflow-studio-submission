@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "reflow.source-fidelity-ledger.v0",
+  "basis": "Selected practice sources recorded in docs/figma-intake.md; source files unavailable locally; no fidelity observation.",
+  "declaredSourceCount": 2,
+  "rows": [
+    {
+      "id": "figma-practice-birthday-flyer",
+      "category": "not-assessed",
+      "reason": "input-unavailable",
+      "sourceInventory": null,
+      "convertedInventory": null,
+      "resources": [],
+      "evidence": "Selected practice source; no local source/export present."
+    },
+    {
+      "id": "figma-practice-clyra-poster",
+      "category": "not-assessed",
+      "reason": "input-unavailable",
+      "sourceInventory": null,
+      "convertedInventory": null,
+      "resources": [],
+      "evidence": "Selected practice source; no local source/export present."
+    }
+  ]
+}

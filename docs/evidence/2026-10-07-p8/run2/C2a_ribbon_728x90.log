@@ -1,0 +1,8 @@
+[C2a_ribbon_728x90.json] OK in 0.00s -> C2a_ribbon_728x90_output.json, C2a_ribbon_728x90_output.png
+exit 0
+events ['REAL']
+
+STDERR:
+Fontconfig error: Cannot load default config file
+
+EXIT:0

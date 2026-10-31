@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-30",
+  "runtimeSource": "2df7ac268c776c68d8f720c1bab04d342e942f85",
+  "node": {
+    "passed": 744,
+    "failed": 0
+  },
+  "browser": {
+    "passed": 55,
+    "failed": 0
+  },
+  "verifyPage": {
+    "passed": 20,
+    "total": 20
+  },
+  "nativeLayouts": 30,
+  "benchmark": {
+    "cases": 30,
+    "sourceErrors": 0,
+    "baselineErrors": 0,
+    "selectedErrors": 0,
+    "baselineWarnings": 45,
+    "selectedWarnings": 8,
+    "selectedCasesWithErrors": 0,
+    "medianLayoutMs": 78.36083300000018,
+    "p95LayoutMs": 280.59375,
+    "selections": {
+      "identity": 1,
+      "uniform": 17,
+      "stack": 10,
+      "split": 0,
+      "group-grid-1": 0,
+      "group-grid-2": 0,
+      "group-grid-3": 2,
+      "group-grid-4": 0
+    }
+  },
+  "build": "passed; existing 523kB chunk advisory",
+  "production": "passed; no budget violations",
+  "visualReview": {
+    "kind": "agent visual inspection",
+    "widths": [
+      320,
+      390,
+      820,
+      1025,
+      1280,
+      1440,
+      1920
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "overflow": false,
+    "pageErrors": [],
+    "narrowInspectorMinimumHeight": 380
+  },
+  "testFirst": {
+    "properties": "Before: panel y=-504px during review; after: accessible at desktop heights1000 and600px",
+    "wrappedToolbar": "Before: card y156.2px beneath toolbar bottom210.2px; after: header clears toolbar by at least8px at1025/1440px",
+    "characterization": "Three existing mobile/comparison/inspector tests passed before styling"
+  },
+  "sourceHashes": {
+    "src/main.ts": "b1e402e26bd91ae38008846511647c128472e9defbea145b996771b396e0741f",
+    "src/style.css": "bb63e5fc796739bdb208517852fe98fdc9e1e1762035de39ead6349699c4bb16",
+    "tests/browser/professional-viewer.spec.ts": "248fbd32f36347fdd430cea95ef2d6037fc14c5d4043c01dc657fc1c27b90494"
+  }
+}

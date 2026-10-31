@@ -1,0 +1,1205 @@
+{
+  "base": "920f6fc2928e048d63c92688c8614c7076aa8971",
+  "generatedAt": "2026-09-16T02:49:00.119Z",
+  "node": "v24.20.0",
+  "cpu": "Apple M1",
+  "method": "One warmup per engine/case, then three paired rounds alternating execution order. Same process/native fonts, candidate equality asserted on all 117 pairs. Excludes rendering/font loading. Local observation, not a enforced budget or cross-machine performance claim.",
+  "summary": {
+    "development": {
+      "previousMs": {
+        "n": 90,
+        "median": 32.42112500000076,
+        "p95": 73.39033399999971
+      },
+      "currentMs": {
+        "n": 90,
+        "median": 32.96795899999961,
+        "p95": 72.50145799999882
+      }
+    },
+    "additional": {
+      "previousMs": {
+        "n": 27,
+        "median": 21.394000000000233,
+        "p95": 36.62995800000135
+      },
+      "currentMs": {
+        "n": 27,
+        "median": 21.665541000000303,
+        "p95": 33.53304200000093
+      }
+    }
+  },
+  "rows": [
+    {
+      "source": "after-dark",
+      "corpus": "development",
+      "target": "square",
+      "round": 0,
+      "previousMs": 43.08058400000027,
+      "currentMs": 34.72862500000019,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "after-dark",
+      "corpus": "development",
+      "target": "story",
+      "round": 0,
+      "previousMs": 33.02020799999991,
+      "currentMs": 39.62304200000017,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "after-dark",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 0,
+      "previousMs": 35.97974999999997,
+      "currentMs": 33.91366599999992,
+      "previousStrategy": "split",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "long-headline",
+      "corpus": "development",
+      "target": "square",
+      "round": 0,
+      "previousMs": 51.211709000000155,
+      "currentMs": 59.09987500000034,
+      "previousStrategy": "split",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "long-headline",
+      "corpus": "development",
+      "target": "story",
+      "round": 0,
+      "previousMs": 56.436709000000064,
+      "currentMs": 51.74920800000018,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "long-headline",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 0,
+      "previousMs": 48.40833299999986,
+      "currentMs": 51.34529100000009,
+      "previousStrategy": "split",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "dense-program",
+      "corpus": "development",
+      "target": "square",
+      "round": 0,
+      "previousMs": 75.51391699999976,
+      "currentMs": 71.71025000000009,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "dense-program",
+      "corpus": "development",
+      "target": "story",
+      "round": 0,
+      "previousMs": 72.24099999999999,
+      "currentMs": 75.7352920000003,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "dense-program",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 0,
+      "previousMs": 71.24591599999985,
+      "currentMs": 73.46645799999988,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "grouped-details",
+      "corpus": "development",
+      "target": "square",
+      "round": 0,
+      "previousMs": 23.802208000000064,
+      "currentMs": 33.09733299999971,
+      "previousStrategy": "uniform",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "grouped-details",
+      "corpus": "development",
+      "target": "story",
+      "round": 0,
+      "previousMs": 30.963291000000027,
+      "currentMs": 25.590499999999338,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "grouped-details",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 0,
+      "previousMs": 23.231124999999338,
+      "currentMs": 26.504665999999816,
+      "previousStrategy": "uniform",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "intentional-overlap",
+      "corpus": "development",
+      "target": "square",
+      "round": 0,
+      "previousMs": 32.068624999999884,
+      "currentMs": 27.305584000000636,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "intentional-overlap",
+      "corpus": "development",
+      "target": "story",
+      "round": 0,
+      "previousMs": 26.389750000000276,
+      "currentMs": 27.229707999999846,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "intentional-overlap",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 0,
+      "previousMs": 24.930082999999286,
+      "currentMs": 26.273417000000336,
+      "previousStrategy": "split",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "layered-art",
+      "corpus": "development",
+      "target": "square",
+      "round": 0,
+      "previousMs": 0.29758400000082474,
+      "currentMs": 0.775749999999789,
+      "previousStrategy": "identity",
+      "currentStrategy": "identity"
+    },
+    {
+      "source": "layered-art",
+      "corpus": "development",
+      "target": "story",
+      "round": 0,
+      "previousMs": 19.790082999999868,
+      "currentMs": 17.42254099999991,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "layered-art",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 0,
+      "previousMs": 17.17700000000059,
+      "currentMs": 17.136625000000095,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "product-pairs",
+      "corpus": "development",
+      "target": "square",
+      "round": 0,
+      "previousMs": 41.21362500000032,
+      "currentMs": 32.127292000000125,
+      "previousStrategy": "split",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "product-pairs",
+      "corpus": "development",
+      "target": "story",
+      "round": 0,
+      "previousMs": 30.285957999999482,
+      "currentMs": 34.000708000000486,
+      "previousStrategy": "split",
+      "currentStrategy": "split"
+    },
+    {
+      "source": "product-pairs",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 0,
+      "previousMs": 30.8451670000004,
+      "currentMs": 31.2049590000006,
+      "previousStrategy": "uniform",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "quiet-brand",
+      "corpus": "development",
+      "target": "square",
+      "round": 0,
+      "previousMs": 29.991375000000517,
+      "currentMs": 36.423917000000074,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "quiet-brand",
+      "corpus": "development",
+      "target": "story",
+      "round": 0,
+      "previousMs": 31.295917000000372,
+      "currentMs": 30.92108299999927,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "quiet-brand",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 0,
+      "previousMs": 31.000500000000102,
+      "currentMs": 30.698999999999614,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "edge-subject",
+      "corpus": "development",
+      "target": "square",
+      "round": 0,
+      "previousMs": 16.089208999999755,
+      "currentMs": 15.12920800000029,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "edge-subject",
+      "corpus": "development",
+      "target": "story",
+      "round": 0,
+      "previousMs": 13.856458999999631,
+      "currentMs": 13.363583999999719,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "edge-subject",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 0,
+      "previousMs": 12.708458000000064,
+      "currentMs": 12.492167000000336,
+      "previousStrategy": "split",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "type-pairing",
+      "corpus": "development",
+      "target": "square",
+      "round": 0,
+      "previousMs": 33.432833000000755,
+      "currentMs": 39.44616700000006,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "type-pairing",
+      "corpus": "development",
+      "target": "story",
+      "round": 0,
+      "previousMs": 35.343041999999514,
+      "currentMs": 35.503624999999374,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "type-pairing",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 0,
+      "previousMs": 34.05462500000067,
+      "currentMs": 33.91833399999996,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "gallery-diptych",
+      "corpus": "additional",
+      "target": "square",
+      "round": 0,
+      "previousMs": 17.51050000000032,
+      "currentMs": 15.015416000000187,
+      "previousStrategy": "split",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "gallery-diptych",
+      "corpus": "additional",
+      "target": "story",
+      "round": 0,
+      "previousMs": 14.735541000000012,
+      "currentMs": 15.410541999999623,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "gallery-diptych",
+      "corpus": "additional",
+      "target": "landscape",
+      "round": 0,
+      "previousMs": 13.5723339999995,
+      "currentMs": 13.614708000000064,
+      "previousStrategy": "split",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "centered-invitation",
+      "corpus": "additional",
+      "target": "square",
+      "round": 0,
+      "previousMs": 21.646958000000268,
+      "currentMs": 24.62762500000008,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "centered-invitation",
+      "corpus": "additional",
+      "target": "story",
+      "round": 0,
+      "previousMs": 20.716166000000158,
+      "currentMs": 20.929665999999997,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "centered-invitation",
+      "corpus": "additional",
+      "target": "landscape",
+      "round": 0,
+      "previousMs": 21.394000000000233,
+      "currentMs": 21.231166000000485,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "museum-sidebar",
+      "corpus": "additional",
+      "target": "square",
+      "round": 0,
+      "previousMs": 36.711457999999766,
+      "currentMs": 31.32745900000009,
+      "previousStrategy": "split",
+      "currentStrategy": "split"
+    },
+    {
+      "source": "museum-sidebar",
+      "corpus": "additional",
+      "target": "story",
+      "round": 0,
+      "previousMs": 31.363124999999854,
+      "currentMs": 30.717875000000276,
+      "previousStrategy": "stack",
+      "currentStrategy": "split"
+    },
+    {
+      "source": "museum-sidebar",
+      "corpus": "additional",
+      "target": "landscape",
+      "round": 0,
+      "previousMs": 30.53504200000043,
+      "currentMs": 29.96241700000064,
+      "previousStrategy": "split",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "after-dark",
+      "corpus": "development",
+      "target": "square",
+      "round": 1,
+      "previousMs": 32.84187500000007,
+      "currentMs": 40.77300000000014,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "after-dark",
+      "corpus": "development",
+      "target": "story",
+      "round": 1,
+      "previousMs": 37.29345899999953,
+      "currentMs": 34.65533399999913,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "after-dark",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 1,
+      "previousMs": 32.35633299999972,
+      "currentMs": 35.23058300000048,
+      "previousStrategy": "split",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "long-headline",
+      "corpus": "development",
+      "target": "square",
+      "round": 1,
+      "previousMs": 59.92125000000033,
+      "currentMs": 49.638708000000406,
+      "previousStrategy": "split",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "long-headline",
+      "corpus": "development",
+      "target": "story",
+      "round": 1,
+      "previousMs": 52.01708299999973,
+      "currentMs": 56.905249999999796,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "long-headline",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 1,
+      "previousMs": 50.67304199999944,
+      "currentMs": 48.597083000000566,
+      "previousStrategy": "split",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "dense-program",
+      "corpus": "development",
+      "target": "square",
+      "round": 1,
+      "previousMs": 74.4483339999997,
+      "currentMs": 78.58941700000014,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "dense-program",
+      "corpus": "development",
+      "target": "story",
+      "round": 1,
+      "previousMs": 76.23475000000053,
+      "currentMs": 71.41691700000047,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "dense-program",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 1,
+      "previousMs": 73.11858399999983,
+      "currentMs": 71.07970800000021,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "grouped-details",
+      "corpus": "development",
+      "target": "square",
+      "round": 1,
+      "previousMs": 33.919042000000445,
+      "currentMs": 29.486957999999504,
+      "previousStrategy": "uniform",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "grouped-details",
+      "corpus": "development",
+      "target": "story",
+      "round": 1,
+      "previousMs": 31.207374999999956,
+      "currentMs": 51.284208000000035,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "grouped-details",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 1,
+      "previousMs": 32.43095799999992,
+      "currentMs": 27.124541000000136,
+      "previousStrategy": "uniform",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "intentional-overlap",
+      "corpus": "development",
+      "target": "square",
+      "round": 1,
+      "previousMs": 36.706083000000035,
+      "currentMs": 45.14637500000026,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "intentional-overlap",
+      "corpus": "development",
+      "target": "story",
+      "round": 1,
+      "previousMs": 33.43274999999994,
+      "currentMs": 31.723124999999527,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "intentional-overlap",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 1,
+      "previousMs": 29.621000000000095,
+      "currentMs": 30.806500000000597,
+      "previousStrategy": "split",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "layered-art",
+      "corpus": "development",
+      "target": "square",
+      "round": 1,
+      "previousMs": 0.9565829999992275,
+      "currentMs": 0.3362919999999576,
+      "previousStrategy": "identity",
+      "currentStrategy": "identity"
+    },
+    {
+      "source": "layered-art",
+      "corpus": "development",
+      "target": "story",
+      "round": 1,
+      "previousMs": 19.907249999999294,
+      "currentMs": 23.319375000000036,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "layered-art",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 1,
+      "previousMs": 20.207666999999674,
+      "currentMs": 20.215375000000677,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "product-pairs",
+      "corpus": "development",
+      "target": "square",
+      "round": 1,
+      "previousMs": 37.311249999999745,
+      "currentMs": 44.50366600000052,
+      "previousStrategy": "split",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "product-pairs",
+      "corpus": "development",
+      "target": "story",
+      "round": 1,
+      "previousMs": 37.77891700000055,
+      "currentMs": 31.11658299999999,
+      "previousStrategy": "split",
+      "currentStrategy": "split"
+    },
+    {
+      "source": "product-pairs",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 1,
+      "previousMs": 30.329749999999876,
+      "currentMs": 32.23066699999981,
+      "previousStrategy": "uniform",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "quiet-brand",
+      "corpus": "development",
+      "target": "square",
+      "round": 1,
+      "previousMs": 35.03562499999953,
+      "currentMs": 31.61700000000019,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "quiet-brand",
+      "corpus": "development",
+      "target": "story",
+      "round": 1,
+      "previousMs": 31.017041999999492,
+      "currentMs": 30.610000000000582,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "quiet-brand",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 1,
+      "previousMs": 31.106542000000445,
+      "currentMs": 31.444040999999743,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "edge-subject",
+      "corpus": "development",
+      "target": "square",
+      "round": 1,
+      "previousMs": 13.921958999999333,
+      "currentMs": 15.920749999999316,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "edge-subject",
+      "corpus": "development",
+      "target": "story",
+      "round": 1,
+      "previousMs": 13.874708000000282,
+      "currentMs": 14.344000000000051,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "edge-subject",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 1,
+      "previousMs": 12.349667000000409,
+      "currentMs": 12.898208999999952,
+      "previousStrategy": "split",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "type-pairing",
+      "corpus": "development",
+      "target": "square",
+      "round": 1,
+      "previousMs": 36.82724999999937,
+      "currentMs": 34.55616699999973,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "type-pairing",
+      "corpus": "development",
+      "target": "story",
+      "round": 1,
+      "previousMs": 32.48750000000018,
+      "currentMs": 35.80541700000049,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "type-pairing",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 1,
+      "previousMs": 35.23649999999998,
+      "currentMs": 34.11529099999916,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "gallery-diptych",
+      "corpus": "additional",
+      "target": "square",
+      "round": 1,
+      "previousMs": 14.89549999999872,
+      "currentMs": 18.493207999999868,
+      "previousStrategy": "split",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "gallery-diptych",
+      "corpus": "additional",
+      "target": "story",
+      "round": 1,
+      "previousMs": 15.740665999999692,
+      "currentMs": 15.138249999999971,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "gallery-diptych",
+      "corpus": "additional",
+      "target": "landscape",
+      "round": 1,
+      "previousMs": 13.149250000000393,
+      "currentMs": 14.30370800000128,
+      "previousStrategy": "split",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "centered-invitation",
+      "corpus": "additional",
+      "target": "square",
+      "round": 1,
+      "previousMs": 22.69158299999981,
+      "currentMs": 21.97712500000125,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "centered-invitation",
+      "corpus": "additional",
+      "target": "story",
+      "round": 1,
+      "previousMs": 20.22858400000041,
+      "currentMs": 20.70879199999945,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "centered-invitation",
+      "corpus": "additional",
+      "target": "landscape",
+      "round": 1,
+      "previousMs": 20.5625,
+      "currentMs": 22.54162499999984,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "museum-sidebar",
+      "corpus": "additional",
+      "target": "square",
+      "round": 1,
+      "previousMs": 35.42400000000089,
+      "currentMs": 38.075833000000785,
+      "previousStrategy": "split",
+      "currentStrategy": "split"
+    },
+    {
+      "source": "museum-sidebar",
+      "corpus": "additional",
+      "target": "story",
+      "round": 1,
+      "previousMs": 35.18354100000033,
+      "currentMs": 32.42675000000054,
+      "previousStrategy": "stack",
+      "currentStrategy": "split"
+    },
+    {
+      "source": "museum-sidebar",
+      "corpus": "additional",
+      "target": "landscape",
+      "round": 1,
+      "previousMs": 33.94300000000112,
+      "currentMs": 32.41804200000115,
+      "previousStrategy": "split",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "after-dark",
+      "corpus": "development",
+      "target": "square",
+      "round": 2,
+      "previousMs": 41.92595799999981,
+      "currentMs": 33.76720800000112,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "after-dark",
+      "corpus": "development",
+      "target": "story",
+      "round": 2,
+      "previousMs": 32.42112500000076,
+      "currentMs": 37.97916600000099,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "after-dark",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 2,
+      "previousMs": 35.22029199999997,
+      "currentMs": 32.96795899999961,
+      "previousStrategy": "split",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "long-headline",
+      "corpus": "development",
+      "target": "square",
+      "round": 2,
+      "previousMs": 50.04604199999994,
+      "currentMs": 60.887416000001394,
+      "previousStrategy": "split",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "long-headline",
+      "corpus": "development",
+      "target": "story",
+      "round": 2,
+      "previousMs": 55.483000000000175,
+      "currentMs": 52.023959000000104,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "long-headline",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 2,
+      "previousMs": 48.63891700000022,
+      "currentMs": 50.74237500000163,
+      "previousStrategy": "split",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "dense-program",
+      "corpus": "development",
+      "target": "square",
+      "round": 2,
+      "previousMs": 76.45787500000006,
+      "currentMs": 71.47416599999997,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "dense-program",
+      "corpus": "development",
+      "target": "story",
+      "round": 2,
+      "previousMs": 73.39033399999971,
+      "currentMs": 75.7908750000006,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "dense-program",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 2,
+      "previousMs": 70.51249999999891,
+      "currentMs": 72.50145799999882,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "grouped-details",
+      "corpus": "development",
+      "target": "square",
+      "round": 2,
+      "previousMs": 23.304541999999856,
+      "currentMs": 31.791207999998733,
+      "previousStrategy": "uniform",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "grouped-details",
+      "corpus": "development",
+      "target": "story",
+      "round": 2,
+      "previousMs": 27.78337499999907,
+      "currentMs": 23.972667,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "grouped-details",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 2,
+      "previousMs": 24.54374999999891,
+      "currentMs": 27.11383299999943,
+      "previousStrategy": "uniform",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "intentional-overlap",
+      "corpus": "development",
+      "target": "square",
+      "round": 2,
+      "previousMs": 32.89441699999952,
+      "currentMs": 26.72820900000079,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "intentional-overlap",
+      "corpus": "development",
+      "target": "story",
+      "round": 2,
+      "previousMs": 26.340958000000683,
+      "currentMs": 28.8193339999998,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "intentional-overlap",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 2,
+      "previousMs": 27.376000000000204,
+      "currentMs": 24.808375000000524,
+      "previousStrategy": "split",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "layered-art",
+      "corpus": "development",
+      "target": "square",
+      "round": 2,
+      "previousMs": 0.2819999999992433,
+      "currentMs": 0.770249999999578,
+      "previousStrategy": "identity",
+      "currentStrategy": "identity"
+    },
+    {
+      "source": "layered-art",
+      "corpus": "development",
+      "target": "story",
+      "round": 2,
+      "previousMs": 19.322416000000885,
+      "currentMs": 17.78766700000051,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "layered-art",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 2,
+      "previousMs": 17.43658299999879,
+      "currentMs": 17.365458000000217,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "product-pairs",
+      "corpus": "development",
+      "target": "square",
+      "round": 2,
+      "previousMs": 38.23258299999907,
+      "currentMs": 33.778707999999824,
+      "previousStrategy": "split",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "product-pairs",
+      "corpus": "development",
+      "target": "story",
+      "round": 2,
+      "previousMs": 31.586874999999054,
+      "currentMs": 35.38249999999971,
+      "previousStrategy": "split",
+      "currentStrategy": "split"
+    },
+    {
+      "source": "product-pairs",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 2,
+      "previousMs": 31.238541999999143,
+      "currentMs": 31.525417000000743,
+      "previousStrategy": "uniform",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "quiet-brand",
+      "corpus": "development",
+      "target": "square",
+      "round": 2,
+      "previousMs": 31.19050000000061,
+      "currentMs": 34.93041600000106,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "quiet-brand",
+      "corpus": "development",
+      "target": "story",
+      "round": 2,
+      "previousMs": 31.17041699999936,
+      "currentMs": 30.645291999999245,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "quiet-brand",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 2,
+      "previousMs": 31.012957999999344,
+      "currentMs": 30.62720900000022,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "edge-subject",
+      "corpus": "development",
+      "target": "square",
+      "round": 2,
+      "previousMs": 16.77520799999911,
+      "currentMs": 14.144749999999476,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "edge-subject",
+      "corpus": "development",
+      "target": "story",
+      "round": 2,
+      "previousMs": 13.908625000000029,
+      "currentMs": 14.076334000001225,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "edge-subject",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 2,
+      "previousMs": 12.783583000000363,
+      "currentMs": 12.742625000000771,
+      "previousStrategy": "split",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "type-pairing",
+      "corpus": "development",
+      "target": "square",
+      "round": 2,
+      "previousMs": 34.54058400000031,
+      "currentMs": 39.76183400000082,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "type-pairing",
+      "corpus": "development",
+      "target": "story",
+      "round": 2,
+      "previousMs": 44.43304199999875,
+      "currentMs": 35.84608300000036,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "type-pairing",
+      "corpus": "development",
+      "target": "landscape",
+      "round": 2,
+      "previousMs": 37.730458,
+      "currentMs": 36.556125000000975,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "gallery-diptych",
+      "corpus": "additional",
+      "target": "square",
+      "round": 2,
+      "previousMs": 19.53779200000099,
+      "currentMs": 15.5715420000015,
+      "previousStrategy": "split",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "gallery-diptych",
+      "corpus": "additional",
+      "target": "story",
+      "round": 2,
+      "previousMs": 14.893874999999753,
+      "currentMs": 15.912833000000319,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "gallery-diptych",
+      "corpus": "additional",
+      "target": "landscape",
+      "round": 2,
+      "previousMs": 13.6546670000007,
+      "currentMs": 14.403167000000394,
+      "previousStrategy": "split",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "centered-invitation",
+      "corpus": "additional",
+      "target": "square",
+      "round": 2,
+      "previousMs": 23.24108299999898,
+      "currentMs": 25.053291000000172,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "centered-invitation",
+      "corpus": "additional",
+      "target": "story",
+      "round": 2,
+      "previousMs": 21.76183299999866,
+      "currentMs": 21.266875000001164,
+      "previousStrategy": "stack",
+      "currentStrategy": "uniform"
+    },
+    {
+      "source": "centered-invitation",
+      "corpus": "additional",
+      "target": "landscape",
+      "round": 2,
+      "previousMs": 21.05108400000063,
+      "currentMs": 21.665541000000303,
+      "previousStrategy": "stack",
+      "currentStrategy": "stack"
+    },
+    {
+      "source": "museum-sidebar",
+      "corpus": "additional",
+      "target": "square",
+      "round": 2,
+      "previousMs": 35.88666600000033,
+      "currentMs": 32.14808300000004,
+      "previousStrategy": "split",
+      "currentStrategy": "split"
+    },
+    {
+      "source": "museum-sidebar",
+      "corpus": "additional",
+      "target": "story",
+      "round": 2,
+      "previousMs": 36.62995800000135,
+      "currentMs": 33.53304200000093,
+      "previousStrategy": "stack",
+      "currentStrategy": "split"
+    },
+    {
+      "source": "museum-sidebar",
+      "corpus": "additional",
+      "target": "landscape",
+      "round": 2,
+      "previousMs": 35.474333999998635,
+      "currentMs": 32.233249999999316,
+      "previousStrategy": "split",
+      "currentStrategy": "uniform"
+    }
+  ]
+}

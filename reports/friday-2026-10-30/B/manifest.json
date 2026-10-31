@@ -1,0 +1,183 @@
+{
+  "repo_sha": "6d82709def61ae533fbc4f3ff59c2aa0a9c36bb3",
+  "upstream_sha": "a44a06046b0413f0785e7203955c3822e0acbc32",
+  "file_count": 29,
+  "total_file_bytes": 1242671,
+  "records": [
+    {
+      "path": ".assembled-by-assemble_context",
+      "source": "assembly marker",
+      "sha256": "290d185f45fd4c3debf68c436dc07d5b5a64c1447c5efc9a9fa1037f0a847cfd",
+      "bytes": 95
+    },
+    {
+      "path": "Dockerfile.python-submission",
+      "source": "repo:Dockerfile.python-submission",
+      "sha256": "27408ff506d4dc1b63e254895c0b78dad9ea21709098d5b7f381365c40366b92",
+      "bytes": 2136
+    },
+    {
+      "path": "brand_kit/README.md",
+      "source": "upstream:brand_kit/README.md",
+      "sha256": "3ceaa09f5da84719c66d682a29a56d225f969fd2edc4b38c0a9147fb3855ecf2",
+      "bytes": 1999
+    },
+    {
+      "path": "brand_kit/assets/solstice_bg_gradient.png",
+      "source": "upstream:brand_kit/assets/solstice_bg_gradient.png",
+      "sha256": "7ebf18d2a0d4b487cdf30578e4d6123e59e81502d78e55087768bfc5a465faeb",
+      "bytes": 68434
+    },
+    {
+      "path": "brand_kit/assets/solstice_bottle.png",
+      "source": "upstream:brand_kit/assets/solstice_bottle.png",
+      "sha256": "a9bea75d9592cee51bd1ee56e043662091326c612fc8c208eee3872c216aa053",
+      "bytes": 7459
+    },
+    {
+      "path": "brand_kit/assets/solstice_logo_lockup.png",
+      "source": "upstream:brand_kit/assets/solstice_logo_lockup.png",
+      "sha256": "3a443c106090e7b043d85d553280e464b313d893baebafe6765fd3df1022f049",
+      "bytes": 5901
+    },
+    {
+      "path": "brand_kit/fonts/SolsticeSans-Bold.ttf",
+      "source": "upstream:brand_kit/fonts/SolsticeSans-Bold.ttf",
+      "sha256": "609a215925701021b97578c71702bfc492882556ce05602b670aaa74a32a1156",
+      "bytes": 156144
+    },
+    {
+      "path": "brand_kit/fonts/SolsticeSans-BoldItalic.ttf",
+      "source": "upstream:brand_kit/fonts/SolsticeSans-BoldItalic.ttf",
+      "sha256": "e47af214406befc181508cf7ff87b774a955a670f7a54d8563a9757d45b2167d",
+      "bytes": 179272
+    },
+    {
+      "path": "brand_kit/fonts/SolsticeSans-Italic.ttf",
+      "source": "upstream:brand_kit/fonts/SolsticeSans-Italic.ttf",
+      "sha256": "848a0433face0f273e313e4fdb3497a764f3c96b3b6670dffcc3cc38dcc83f2a",
+      "bytes": 184696
+    },
+    {
+      "path": "brand_kit/fonts/SolsticeSans-Regular.ttf",
+      "source": "upstream:brand_kit/fonts/SolsticeSans-Regular.ttf",
+      "sha256": "4500567b25fc1af2983cee01c1e57e01a0108b8b3844c182936d14c7dec7f69c",
+      "bytes": 160408
+    },
+    {
+      "path": "brand_kit/fonts/SolsticeSerif-Bold.ttf",
+      "source": "upstream:brand_kit/fonts/SolsticeSerif-Bold.ttf",
+      "sha256": "837d42cc1b336364b69714c73288a0ec7ceded41c137d5f62943df5f0745551a",
+      "bytes": 135132
+    },
+    {
+      "path": "brand_kit/fonts/SolsticeSerif-Italic.ttf",
+      "source": "upstream:brand_kit/fonts/SolsticeSerif-Italic.ttf",
+      "sha256": "07526ca6ef70e5a7853abcdd614aeb62cdb958ed0cabc0f771f85094b4c67ccf",
+      "bytes": 141072
+    },
+    {
+      "path": "brand_kit/fonts/SolsticeSerif-Regular.ttf",
+      "source": "upstream:brand_kit/fonts/SolsticeSerif-Regular.ttf",
+      "sha256": "b7eb2a832ae91824a7c670469f4a4e0c4910a3ceedc1d31aad07ea2bc336d2a7",
+      "bytes": 135416
+    },
+    {
+      "path": "chameleon_design_schema_v0.9.json",
+      "source": "upstream:chameleon_design_schema_v0.9.json",
+      "sha256": "14d97d48c4f00357f7f27d2e8000ef9cc8778cac7cd5a621ed7e1261f949820d",
+      "bytes": 5541
+    },
+    {
+      "path": "constraints-python-submission.txt",
+      "source": "repo:constraints-python-submission.txt",
+      "sha256": "77d3fe8e375b3616a5e4fd09e0c6dacab5571df0de25c25230d9a5dc2a00b26b",
+      "bytes": 992
+    },
+    {
+      "path": "engine/__init__.py",
+      "source": "repo:engine/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "engine/main.py",
+      "source": "upstream:engine/main.py",
+      "sha256": "cb7d3518ba4ff5bfe07b5f8971aa9d34592dd51d77a1ae45cd2a140dbe72191d",
+      "bytes": 5485
+    },
+    {
+      "path": "engine/resize.py",
+      "source": "repo:engine/resize.py",
+      "sha256": "746f647eb9a04d1d264b8c86a79c8ec712b24e8f501bf43edae9ec75e631616c",
+      "bytes": 6756
+    },
+    {
+      "path": "engine/text_fit.py",
+      "source": "repo:engine/text_fit.py",
+      "sha256": "a213d5e3653359377976f1ffd4306e51eecb29da588753a649afb9bac5824ccd",
+      "bytes": 22924
+    },
+    {
+      "path": "renderer/__init__.py",
+      "source": "upstream:renderer/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "renderer/converter/__init__.py",
+      "source": "upstream:renderer/converter/__init__.py",
+      "sha256": "bd2d10d2b1b89bc2fb0315a9d6dcf4e124951496b5280f93a74f8ecf58455695",
+      "bytes": 301
+    },
+    {
+      "path": "renderer/converter/assets.py",
+      "source": "upstream:renderer/converter/assets.py",
+      "sha256": "b91c7347cf72c1c2c952c18c5708677120175448b4a9fed66234704ff976162f",
+      "bytes": 2770
+    },
+    {
+      "path": "renderer/converter/brand_fonts.py",
+      "source": "upstream:renderer/converter/brand_fonts.py",
+      "sha256": "c4f58d99767c7a770d731080c6bccc16334dc1058ac959747b6d0d3867c9d0a5",
+      "bytes": 2710
+    },
+    {
+      "path": "renderer/converter/colorutil.py",
+      "source": "upstream:renderer/converter/colorutil.py",
+      "sha256": "f8387c9a4711c1214bc9faba69c1764dc66e9160a8515aa9c6ea0375a01f2964",
+      "bytes": 775
+    },
+    {
+      "path": "renderer/converter/convert.py",
+      "source": "upstream:renderer/converter/convert.py",
+      "sha256": "2d4f68984f1cdfe41a068d477270aedfd07f9d35a22ef61a1399ebd4774d0cde",
+      "bytes": 10464
+    },
+    {
+      "path": "renderer/converter/features_stub.py",
+      "source": "upstream:renderer/converter/features_stub.py",
+      "sha256": "f2f18df396bc05e958ba0711bca5b7c2c4ed0a94a797284f9f469dc059dffba9",
+      "bytes": 1146
+    },
+    {
+      "path": "renderer/converter/shapes.py",
+      "source": "upstream:renderer/converter/shapes.py",
+      "sha256": "ba5f27512581ed747c5ac29476c916ba305ee553a27af4d5228c33c6112bd27c",
+      "bytes": 1946
+    },
+    {
+      "path": "renderer/converter/wrap.py",
+      "source": "upstream:renderer/converter/wrap.py",
+      "sha256": "3055a4c83009760a225233c43ae3433d8ef597bc2f6025c867833806accd0975",
+      "bytes": 1982
+    },
+    {
+      "path": "requirements-python-submission.txt",
+      "source": "repo:requirements-python-submission.txt",
+      "sha256": "b7fb1a494511fa37c79753fc82e4f222d9666da5813610c6bb2b85c80d7a96e1",
+      "bytes": 715
+    }
+  ],
+  "errors": []
+}

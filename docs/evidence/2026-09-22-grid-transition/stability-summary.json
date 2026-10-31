@@ -1,0 +1,303 @@
+{
+  "generatedAt": "2026-09-22T17:21:53.148Z",
+  "method": "Fixed 0.35–2.5 axis scales in 0.05 steps plus nearby ±1/2/8px and every integer in observed current-strategy transition brackets; identity/uniform are one layout family. Previous uses unchanged candidates with the pre-change comparator. Ablation removes only the weighted composition penalty, retaining the new deficit and deterministic tie break. Timings include generation/evaluation/current ranking, excluding report generation, font loading and rendering. Additional authored families were promoted to development regressions after a visual failure; no independent held-out quality evidence. Crop risk is frame-aspect change, not measured pixel/subject loss.",
+  "summary": {
+    "distinctCases": 2345,
+    "nearbySamples": 182,
+    "nearby": {
+      "previous": {
+        "rearranged": 144,
+        "maxMovement": 0.576024204668801,
+        "maxCropRisk": 0.6515444447192951
+      },
+      "current": {
+        "rearranged": 0,
+        "maxMovement": 0.004439063761097664,
+        "maxCropRisk": 8.881784197001252E-16
+      },
+      "ablated": {
+        "rearranged": 18,
+        "maxMovement": 0.09071064874175674,
+        "maxCropRisk": 0.09575406421672095
+      }
+    },
+    "standardDevelopment": {
+      "previous": {
+        "errors": 0,
+        "warnings": 3,
+        "selections": {
+          "identity": 1,
+          "uniform": 2,
+          "stack": 19,
+          "split": 5,
+          "group-grid-1": 0,
+          "group-grid-2": 1,
+          "group-grid-3": 2,
+          "group-grid-4": 0
+        }
+      },
+      "current": {
+        "errors": 0,
+        "warnings": 7,
+        "selections": {
+          "identity": 1,
+          "uniform": 17,
+          "stack": 10,
+          "split": 0,
+          "group-grid-1": 0,
+          "group-grid-2": 0,
+          "group-grid-3": 2,
+          "group-grid-4": 0
+        }
+      },
+      "ablated": {
+        "errors": 0,
+        "warnings": 3,
+        "selections": {
+          "identity": 1,
+          "uniform": 13,
+          "stack": 14,
+          "split": 1,
+          "group-grid-1": 0,
+          "group-grid-2": 0,
+          "group-grid-3": 1,
+          "group-grid-4": 0
+        }
+      }
+    },
+    "standardAdditional": {
+      "previous": {
+        "errors": 0,
+        "warnings": 0,
+        "selections": {
+          "identity": 0,
+          "uniform": 0,
+          "stack": 5,
+          "split": 4,
+          "group-grid-1": 0,
+          "group-grid-2": 0,
+          "group-grid-3": 0,
+          "group-grid-4": 0
+        }
+      },
+      "current": {
+        "errors": 0,
+        "warnings": 0,
+        "selections": {
+          "identity": 0,
+          "uniform": 3,
+          "stack": 4,
+          "split": 2,
+          "group-grid-1": 0,
+          "group-grid-2": 0,
+          "group-grid-3": 0,
+          "group-grid-4": 0
+        }
+      },
+      "ablated": {
+        "errors": 0,
+        "warnings": 0,
+        "selections": {
+          "identity": 0,
+          "uniform": 3,
+          "stack": 6,
+          "split": 0,
+          "group-grid-1": 0,
+          "group-grid-2": 0,
+          "group-grid-3": 0,
+          "group-grid-4": 0
+        }
+      }
+    },
+    "standardChanges": [
+      {
+        "source": "after-dark",
+        "target": "story",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "after-dark",
+        "target": "landscape",
+        "from": "split",
+        "to": "stack",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "long-headline",
+        "target": "square",
+        "from": "split",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 1
+      },
+      {
+        "source": "long-headline",
+        "target": "story",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 1
+      },
+      {
+        "source": "long-headline",
+        "target": "landscape",
+        "from": "split",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "dense-program",
+        "target": "story",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "grouped-details",
+        "target": "story",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "intentional-overlap",
+        "target": "story",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "intentional-overlap",
+        "target": "landscape",
+        "from": "split",
+        "to": "stack",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "layered-art",
+        "target": "story",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "layered-art",
+        "target": "landscape",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "product-pairs",
+        "target": "story",
+        "from": "group-grid-2",
+        "to": "group-grid-3",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "product-pairs",
+        "target": "landscape",
+        "from": "group-grid-3",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "quiet-brand",
+        "target": "story",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "edge-subject",
+        "target": "square",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 1
+      },
+      {
+        "source": "edge-subject",
+        "target": "story",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 1
+      },
+      {
+        "source": "edge-subject",
+        "target": "landscape",
+        "from": "split",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "type-pairing",
+        "target": "story",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "gallery-diptych",
+        "target": "square",
+        "from": "split",
+        "to": "stack",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "gallery-diptych",
+        "target": "landscape",
+        "from": "split",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "centered-invitation",
+        "target": "story",
+        "from": "stack",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "museum-sidebar",
+        "target": "story",
+        "from": "stack",
+        "to": "split",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      },
+      {
+        "source": "museum-sidebar",
+        "target": "landscape",
+        "from": "split",
+        "to": "uniform",
+        "errorsDelta": 0,
+        "warningsDelta": 0
+      }
+    ],
+    "transitionCount": 20,
+    "medianLayoutMs": 16.587582999996812,
+    "p95LayoutMs": 40.88945799999783
+  },
+  "transitionCount": 20
+}

@@ -1,0 +1,345 @@
+{
+  "head": "2fd7a89afbde50ae2e2ae886861adb2b7d4cbf1a",
+  "platform": "macOS-15.4-arm64-arm-64bit",
+  "python": "3.11.11 (main, Dec  3 2024, 17:20:40) [Clang 16.0.0 (clang-1600.0.26.4)]",
+  "modules": {
+    "committed": {
+      "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "composition.py": "fceda32e0f0169bc9a9874c46d2f90353a8d55e9145e7596ce67c5bc3afa9414",
+      "resize.py": "3cf5e555f6f54f39a21dce5bffd373a29bfe5d25da4d388b783f08c2963929e8",
+      "text_fit.py": "330b4bd1e86675f6fd4d532f7073ceb4c195a97f63a0701a385ebd4f2fb1a249"
+    },
+    "candidate": {
+      "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "composition.py": "fceda32e0f0169bc9a9874c46d2f90353a8d55e9145e7596ce67c5bc3afa9414",
+      "resize.py": "3cf5e555f6f54f39a21dce5bffd373a29bfe5d25da4d388b783f08c2963929e8",
+      "text_fit.py": "fede1c58a8f04d605a1c15543f7ae99787f58ebe5cc6d2eca1000a0e868dae18"
+    },
+    "floor_stop": {
+      "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "composition.py": "fceda32e0f0169bc9a9874c46d2f90353a8d55e9145e7596ce67c5bc3afa9414",
+      "resize.py": "3cf5e555f6f54f39a21dce5bffd373a29bfe5d25da4d388b783f08c2963929e8",
+      "text_fit.py": "0bab2e390f9d35d0cd7c8f777f52b45ddc8d83bc96cbd3828b733a56f69efc3d"
+    }
+  },
+  "scope": "Local native Python resize only; per-call Pillow cache cleared, Python/native libraries warmed. No Docker/startup/render included. Floor-stop is an isolated diagnostic prototype, not production.",
+  "timings": {
+    "dense16": {
+      "input_sha256": "e7e566baf617fde88566865de4a931ba946c130407a7f7bf59ed4b914ba59b09",
+      "seconds": {
+        "committed": [
+          0.2591798750218004,
+          0.05853250005748123,
+          0.05873204197268933,
+          0.05828125006519258,
+          0.05828879098407924
+        ],
+        "candidate": [
+          0.013179083936847746,
+          0.012613125029020011,
+          0.012963584042154253,
+          0.012779416982084513,
+          0.01301654102280736
+        ],
+        "floor_stop": [
+          0.013161583105102181,
+          0.012736208038404584,
+          0.01278283295687288,
+          0.01298962498549372,
+          0.012750291964039207
+        ]
+      },
+      "median_s": {
+        "committed": 0.05853250005748123,
+        "candidate": 0.012963584042154253,
+        "floor_stop": 0.01278283295687288
+      },
+      "output_hashes": {
+        "committed": [
+          "4a980ac07d5a5ea3cb0ee7af438ab81387618750875c535662a403d637acf6cb"
+        ],
+        "candidate": [
+          "4a980ac07d5a5ea3cb0ee7af438ab81387618750875c535662a403d637acf6cb"
+        ],
+        "floor_stop": [
+          "4a980ac07d5a5ea3cb0ee7af438ab81387618750875c535662a403d637acf6cb"
+        ]
+      },
+      "warnings": {
+        "committed": [],
+        "candidate": [],
+        "floor_stop": []
+      }
+    },
+    "public-level3": {
+      "input_sha256": "7b3f0766f3c2f0a866242c736b48f4e019d6cc71ae83913c7ac0fbeb1a59e36b",
+      "seconds": {
+        "committed": [
+          0.09272037493065,
+          0.08532587497029454,
+          0.08422408299520612,
+          0.0837080420460552,
+          0.08558120904490352
+        ],
+        "candidate": [
+          0.04180541692767292,
+          0.040721582947298884,
+          0.03932149999309331,
+          0.03932704194448888,
+          0.038406417006626725
+        ],
+        "floor_stop": [
+          0.03898633306380361,
+          0.03859224996995181,
+          0.03878716705366969,
+          0.041210958966985345,
+          0.038958791992627084
+        ]
+      },
+      "median_s": {
+        "committed": 0.08532587497029454,
+        "candidate": 0.03932704194448888,
+        "floor_stop": 0.038958791992627084
+      },
+      "output_hashes": {
+        "committed": [
+          "77633c5be4f7b15c80ef89fe743fde35317c89d2a4021902bc342e3d6b59f8e1"
+        ],
+        "candidate": [
+          "77633c5be4f7b15c80ef89fe743fde35317c89d2a4021902bc342e3d6b59f8e1"
+        ],
+        "floor_stop": [
+          "77633c5be4f7b15c80ef89fe743fde35317c89d2a4021902bc342e3d6b59f8e1"
+        ]
+      },
+      "warnings": {
+        "committed": [],
+        "candidate": [],
+        "floor_stop": []
+      }
+    },
+    "infeasible": {
+      "input_sha256": "2009dee77343cb7c0f44e12ce30bc157d8b49c80648539e28aa35666dcac1ea5",
+      "seconds": {
+        "committed": [
+          0.15737900009844452,
+          0.15458233305253088,
+          0.15738854196388274,
+          0.1619262919994071,
+          0.15743929101154208
+        ],
+        "candidate": [
+          0.13007654203101993,
+          0.12677870807237923,
+          0.12986250000540167,
+          0.12727066699881107,
+          0.13317929196637124
+        ],
+        "floor_stop": [
+          0.05336595792323351,
+          0.055053874966688454,
+          0.05264220794197172,
+          0.05211087502539158,
+          0.06176991597749293
+        ]
+      },
+      "median_s": {
+        "committed": 0.15738854196388274,
+        "candidate": 0.12986250000540167,
+        "floor_stop": 0.05336595792323351
+      },
+      "output_hashes": {
+        "committed": [
+          "9ca9ea4699bc3beeec27c8ee5c2052aa06cc92b513c495f230d9aea30a57eb1d"
+        ],
+        "candidate": [
+          "9ca9ea4699bc3beeec27c8ee5c2052aa06cc92b513c495f230d9aea30a57eb1d"
+        ],
+        "floor_stop": [
+          "9ca9ea4699bc3beeec27c8ee5c2052aa06cc92b513c495f230d9aea30a57eb1d"
+        ]
+      },
+      "warnings": {
+        "committed": [
+          "text_fit: no candidate meets the floor for ids headline,cta"
+        ],
+        "candidate": [
+          "text_fit: no candidate meets the floor for ids headline,cta"
+        ],
+        "floor_stop": [
+          "text_fit: no candidate meets the floor for ids headline,cta"
+        ]
+      }
+    }
+  },
+  "quality": [
+    {
+      "name": "public-l3",
+      "target": {
+        "width": 728,
+        "height": 90
+      },
+      "seconds": 0.04288037505466491,
+      "strategies": [
+        [
+          "_campaign",
+          true
+        ]
+      ],
+      "font_sizes": {
+        "headline": 9.0,
+        "subhead": 9.0,
+        "badge1_label": 9.0,
+        "badge2_label": 9.0,
+        "badge3_label": 9.0,
+        "cta_label": 9.0,
+        "ribbon_label": 9.0,
+        "legal_text": 9.0
+      },
+      "below6": 0,
+      "warnings": [],
+      "source_unchanged": true
+    },
+    {
+      "name": "l3-small-decor",
+      "target": {
+        "width": 728,
+        "height": 90
+      },
+      "seconds": 0.026283874991349876,
+      "strategies": [
+        [
+          "_campaign",
+          false
+        ],
+        [
+          "_artwork",
+          false
+        ],
+        [
+          "_article",
+          false
+        ]
+      ],
+      "font_sizes": {
+        "headline": 11.297181459240004,
+        "subhead": 6.213449802582002,
+        "badge1_label": 6.0,
+        "badge2_label": 6.0,
+        "badge3_label": 6.0,
+        "cta_label": 6.0,
+        "ribbon_label": 6.0,
+        "legal_text": 6.0
+      },
+      "below6": 0,
+      "warnings": [],
+      "source_unchanged": true
+    },
+    {
+      "name": "l3-singleton-group",
+      "target": {
+        "width": 728,
+        "height": 90
+      },
+      "seconds": 0.018881625030189753,
+      "strategies": [
+        [
+          "_campaign",
+          false
+        ],
+        [
+          "_artwork",
+          false
+        ],
+        [
+          "_article",
+          false
+        ]
+      ],
+      "font_sizes": {
+        "headline": 11.297181459240004,
+        "subhead": 6.213449802582002,
+        "badge1_label": 6.0,
+        "badge2_label": 6.0,
+        "badge3_label": 6.0,
+        "cta_label": 6.0,
+        "ribbon_label": 6.0,
+        "legal_text": 1.0
+      },
+      "below6": 1,
+      "warnings": [],
+      "source_unchanged": true
+    },
+    {
+      "name": "l3-300x250",
+      "target": {
+        "width": 300,
+        "height": 250
+      },
+      "seconds": 0.25536441698204726,
+      "strategies": [],
+      "font_sizes": {
+        "headline": 12.552423843600003,
+        "subhead": 6.903833113980001,
+        "badge1_label": 6.0,
+        "badge2_label": 6.0,
+        "badge3_label": 6.0,
+        "cta_label": 6.0,
+        "ribbon_label": 6.0,
+        "legal_text": 6.0
+      },
+      "below6": 0,
+      "warnings": [],
+      "source_unchanged": true
+    },
+    {
+      "name": "l3-970x250",
+      "target": {
+        "width": 970,
+        "height": 250
+      },
+      "seconds": 0.0418590831104666,
+      "strategies": [
+        [
+          "_campaign",
+          true
+        ]
+      ],
+      "font_sizes": {
+        "headline": 16.0,
+        "subhead": 16.0,
+        "badge1_label": 16.0,
+        "badge2_label": 16.0,
+        "badge3_label": 16.0,
+        "cta_label": 16.0,
+        "ribbon_label": 16.0,
+        "legal_text": 16.0
+      },
+      "below6": 0,
+      "warnings": [],
+      "source_unchanged": true
+    },
+    {
+      "name": "l3-1080x1920",
+      "target": {
+        "width": 1080,
+        "height": 1920
+      },
+      "seconds": 0.00030437507666647434,
+      "strategies": [],
+      "font_sizes": {
+        "headline": 40.0,
+        "subhead": 22.0,
+        "badge1_label": 15.0,
+        "badge2_label": 15.0,
+        "badge3_label": 15.0,
+        "cta_label": 22.0,
+        "ribbon_label": 20.0,
+        "legal_text": 12.0
+      },
+      "below6": 0,
+      "warnings": [],
+      "source_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+
+> reflow-studio@0.1.0 benchmark
+> tsx scripts/benchmark.ts
+
+{
+  "cases": 30,
+  "sourceErrors": 0,
+  "baselineErrors": 0,
+  "selectedErrors": 0,
+  "baselineWarnings": 45,
+  "selectedWarnings": 7,
+  "selectedCasesWithErrors": 0,
+  "medianLayoutMs": 17.103500000000054,
+  "p95LayoutMs": 41.67383399999994,
+  "selections": {
+    "identity": 1,
+    "uniform": 17,
+    "stack": 10,
+    "split": 0,
+    "group-grid-1": 0,
+    "group-grid-2": 0,
+    "group-grid-3": 2,
+    "group-grid-4": 0
+  }
+}
+Report: reports/latest/index.html (70 PNGs, 70 SVGs, 70 editable documents)

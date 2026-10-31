@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "reflow.design.v0",
+  "id": "headline-box",
+  "name": "headline-box",
+  "description": "Defect-control case",
+  "provenance": "synthetic",
+  "width": 1000,
+  "height": 1000,
+  "background": "#ffffff",
+  "groups": [],
+  "elements": [
+    {
+      "id": "headline",
+      "type": "text",
+      "role": "content",
+      "x": 100,
+      "y": 100,
+      "width": 800,
+      "height": 40,
+      "text": "A clear headline here",
+      "fontFamily": "Inter",
+      "fontSize": 64,
+      "fontWeight": 700,
+      "lineHeight": 1.1,
+      "color": "#111111"
+    },
+    {
+      "id": "body",
+      "type": "text",
+      "role": "content",
+      "x": 100,
+      "y": 300,
+      "width": 800,
+      "height": 60,
+      "text": "Quiet supporting copy",
+      "fontFamily": "Inter",
+      "fontSize": 36,
+      "fontWeight": 500,
+      "lineHeight": 1.1,
+      "color": "#333333"
+    }
+  ]
+}
